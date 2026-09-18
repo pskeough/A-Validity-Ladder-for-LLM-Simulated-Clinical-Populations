@@ -1,0 +1,15 @@
+dimension,group_a,group_b,n_matched_per_matrix,large,raw_frobenius,raw_null_p95,raw_excess,raw_p_perm,centred_frobenius,centred_null_p95,centred_excess,centred_p_perm,retained_pct,excess_retained_pct
+race,Black,White,5631,False,0.2051,0.1422,0.0928,0.00249,0.1948,0.1875,0.0465,0.03491,95.0,50.1
+race,Asian,White,5041,False,0.1651,0.152,0.0464,0.01496,0.231,0.194,0.0762,0.00249,139.9,164.2
+race,Hispanic,White,5649,False,0.2006,0.1422,0.0908,0.00249,0.2358,0.1863,0.088,0.00249,117.5,96.9
+race,Multiracial,White,5603,False,0.203,0.1475,0.0901,0.00249,0.2408,0.1884,0.0934,0.00249,118.6,103.7
+gender,Cisgender Man,Cisgender Woman,6567,False,0.2009,0.1445,0.088,0.00249,0.2274,0.172,0.0905,0.00249,113.2,102.8
+gender,Cisgender Man,Transgender Woman,4656,True,0.5684,0.178,0.4281,0.00249,0.4634,0.1982,0.3055,0.00249,81.5,71.4
+gender,Cisgender Man,Transgender Man,4886,True,0.4616,0.1706,0.3257,0.00249,0.3825,0.1909,0.2332,0.00249,82.9,71.6
+gender,Cisgender Woman,Transgender Woman,5152,True,0.4787,0.1633,0.3496,0.00249,0.2959,0.1902,0.1455,0.00249,61.8,41.6
+gender,Cisgender Woman,Transgender Man,5382,True,0.4066,0.1619,0.2786,0.00249,0.2511,0.1841,0.1061,0.00249,61.8,38.1
+gender,Transgender Woman,Transgender Man,6970,False,0.1495,0.1483,0.0322,0.04988,0.1703,0.1658,0.0383,0.03491,113.9,118.9
+ses,Low,High,4373,True,0.7879,0.1902,0.6358,0.00249,0.8118,0.198,0.6519,0.00249,103.0,102.5
+ses,Middle,High,7826,True,0.3711,0.1352,0.2647,0.00249,0.5424,0.1553,0.4185,0.00249,146.2,158.1
+ses,Low,Middle,6146,True,0.5679,0.1595,0.4423,0.00249,0.4342,0.1754,0.2966,0.00249,76.5,67.1
+relationship,Single,Married,13150,False,0.1373,0.1027,0.055,0.00249,0.1359,0.1229,0.0383,0.00748,99.0,69.6

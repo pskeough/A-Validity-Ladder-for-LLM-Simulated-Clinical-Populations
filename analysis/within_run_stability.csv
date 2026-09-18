@@ -1,0 +1,11 @@
+condition,model,n_cells,mean_within_sd,flip_prob_pct,mean_pairwise_abs_diff
+clinical,deepseek/deepseek-chat-v3,120,1.3439,27.07,1.389
+clinical,google/gemini-3-flash-preview,120,1.3778,31.59,1.4844
+clinical,openai/gpt-4o-mini,120,1.7516,38.12,1.9291
+clinical,z-ai/glm-4.7,120,2.1631,44.83,2.4019
+clinical,ALL,480,1.6591,35.4,1.8011
+narrative,deepseek/deepseek-chat-v3,120,1.1831,22.43,1.2331
+narrative,google/gemini-3-flash-preview,120,1.4221,28.73,1.525
+narrative,openai/gpt-4o-mini,120,1.7278,39.89,1.8913
+narrative,z-ai/glm-4.7,120,1.8185,37.59,2.022
+narrative,ALL,480,1.5379,32.16,1.6678

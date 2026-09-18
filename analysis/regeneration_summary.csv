@@ -1,0 +1,11 @@
+condition,model,n_cells,flip_pct,flip_se_pct,flip_ci_lo_pct,flip_ci_hi_pct,cross_pct,cross_se_pct,cross_ci_lo_pct,cross_ci_hi_pct
+clinical,deepseek/deepseek-chat-v3,120,27.07,1.835,23.47,30.67,22.38,1.735,18.98,25.78
+clinical,google/gemini-3-flash-preview,120,31.59,1.512,28.62,34.55,12.83,1.655,9.59,16.07
+clinical,openai/gpt-4o-mini,120,38.12,1.252,35.66,40.57,31.04,1.598,27.91,34.17
+clinical,z-ai/glm-4.7,120,44.83,1.286,42.31,47.35,19.5,1.801,15.97,23.03
+clinical,ALL,480,35.4,0.803,33.83,36.97,21.44,0.898,19.68,23.2
+narrative,deepseek/deepseek-chat-v3,120,22.43,1.692,19.11,25.74,16.91,1.671,13.63,20.19
+narrative,google/gemini-3-flash-preview,120,28.73,1.584,25.63,31.84,10.46,1.507,7.51,13.41
+narrative,openai/gpt-4o-mini,120,39.89,1.137,37.67,42.12,35.47,1.366,32.8,38.15
+narrative,z-ai/glm-4.7,120,37.59,1.56,34.54,40.65,14.08,1.696,10.76,17.41
+narrative,ALL,480,32.16,0.817,30.56,33.76,19.23,0.896,17.47,20.99

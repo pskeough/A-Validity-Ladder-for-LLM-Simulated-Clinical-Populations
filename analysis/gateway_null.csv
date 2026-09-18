@@ -1,0 +1,6 @@
+scope,n_elevated,observed_pct,null_conditional_marginal_pct,null_uniform_composition_pct,null_within_case_permute_pct,ratio_vs_conditional
+pooled,9590,2.68,10.42,21.19,19.97,3.89
+deepseek/deepseek-chat-v3,1447,0.35,11.75,23.77,26.19,34.02
+google/gemini-3-flash-preview,3452,0.55,8.97,18.02,14.89,16.29
+openai/gpt-4o-mini,2047,3.32,17.75,30.23,29.37,5.34
+z-ai/glm-4.7,2644,6.24,6.12,18.83,14.95,0.98

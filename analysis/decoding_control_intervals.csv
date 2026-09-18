@@ -1,0 +1,5 @@
+model,n_cohorts,default_pct,temp0_pct,change,ci_lo,ci_hi,excludes_zero
+gpt-4o-mini,12,37.32,1.55,-35.77,-41.84,-29.08,True
+gemini-3-flash-preview,12,23.47,4.14,-19.33,-29.85,-10.21,True
+deepseek-chat,12,24.64,9.06,-15.57,-23.87,-8.08,True
+glm-4.7,12,41.42,37.76,-3.66,-9.75,1.95,False

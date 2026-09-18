@@ -1,0 +1,41 @@
+key,doi,resolves,title_match,author_match,registry_year,bib_year
+jacobs2021measurement,10.1145/3442188.3445901,yes,True,True,2021,2021
+raji2021everything,,no DOI,,,,2021
+raji2020closing,10.1145/3351095.3372873,yes,True,True,2020,2020
+blodgett2021salmon,,no DOI,,,,2021
+northcutt2021pervasive,,no DOI,,,,2021
+gebru2021datasheets,10.1145/3458723,yes,True,True,2021,2021
+bender2018datastatements,10.1162/tacl_a_00041,yes,True,True,2018,2018
+paullada2021discontents,10.1016/j.patter.2021.100336,yes,True,True,2021,2021
+obermeyer2019dissecting,10.1126/science.aax2342,yes,True,True,2019,2019
+zack2024gpt4,10.1016/S2589-7500(23)00225-X,yes,True,True,2024,2024
+omiye2023racebased,10.1038/s41746-023-00939-z,yes,True,True,2023,2023
+pfohl2024toolbox,10.1038/s41591-024-03258-2,yes,True,True,2024,2024
+padmakumar2024diversity,,no DOI,,,,2024
+nasem2022measuring,10.17226/26424,yes,True,True,2022,2022
+patel2019phq9,10.1002/da.22940,yes,True,True,2019,2019
+brody2018depression,,no DOI,,,,2018
+xu2023phq9transwomen,10.1089/trgh.2021.0075,yes,True,True,2023,2023
+liu2024tgdhealth,10.1001/jamainternmed.2024.2544,yes,True,True,2024,2024
+fredriksengoldsen2022disparities,10.1016/j.ypmed.2022.106988,yes,True,True,2022,2022
+argyle2023outofone,10.1017/pan.2023.2,yes,True,True,2023,2023
+bisbee2024synthetic,10.1017/pan.2024.5,yes,True,True,2024,2024
+santurkar2023whose,,no DOI,,,,2023
+cheng2023compost,10.18653/v1/2023.emnlp-main.669,yes,True,True,2023,2023
+cheng2023marked,10.18653/v1/2023.acl-long.84,yes,True,True,2023,2023
+dominguezolmedo2024questioning,,no DOI,,,,2024
+wang2024patientpsi,,no DOI,,,,2024
+villarrealzegarra2026synthetic,10.64898/2026.01.27.26345015,yes,True,True,2026,2026
+bouguettaya2025racial,10.1038/s41746-025-01746-4,yes,True,True,2025,2025
+nchs2022srvydesc,,no DOI,,,,2023
+nchs2024srvydesc,,no DOI,,,,2025
+eo14168,,no DOI,,,,2025
+cdc2015brfssmodules,,no DOI,,,,2016
+census2022hps,,no DOI,,,,2022
+stevens2020depression,10.1177/2150132720949123,yes,True,True,2020,2020
+perlis2025clinical,10.1001/jamanetworkopen.2025.22036,yes,True,True,2025,2025
+beck2011severity,10.1370/afm.1260,yes,True,True,2011,2011
+wu2020equivalency,10.1017/S0033291719001314,yes,True,True,2019,2020
+lowe2008depression,10.1016/j.genhosppsych.2008.01.001,yes,True,True,2008,2008
+google2025aimode,,no DOI,,,,2025
+google2026thinking,,no DOI,,,,2026

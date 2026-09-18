@@ -1,0 +1,9 @@
+condition,instrument,n_cells,flip_prob_pct,mean_within_cell_sd,note
+clinical,PHQ8,480,35.4,1.6591,
+clinical,GAD7,480,35.21,1.6905,
+clinical,AUDIT,480,48.1,1.0715,
+clinical,PCL5,480,,1.3801,form differs across runs (20-item vs 5-item); within-run only
+narrative,PHQ8,480,32.16,1.5379,
+narrative,GAD7,480,32.49,1.5308,
+narrative,AUDIT,480,46.98,0.971,
+narrative,PCL5,480,,1.1851,form differs across runs (20-item vs 5-item); within-run only

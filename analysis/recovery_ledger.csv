@@ -1,0 +1,8 @@
+quantity,value
+clinical rows outside the main session,86
+rows carrying a recovery batch id,230
+recovery rows inside the main session,144
+"recovery rows, GLM-4.7",187
+"recovery rows, GPT-4o-mini",43
+rows completed by hand (LAST_MILE_OPT_2026),62
+cells touched by the outside-session rows,40

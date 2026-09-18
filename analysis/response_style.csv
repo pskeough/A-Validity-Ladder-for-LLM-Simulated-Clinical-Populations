@@ -1,0 +1,16 @@
+scope,instrument,max_category,pct_at_max,pct_at_zero,pop_pct_at_max,pop_pct_at_zero
+ALL,PHQ-8,3,0.916,33.522,3.927,74.813
+ALL,GAD-7,3,0.522,31.37,,
+ALL,AUDIT-C,4,0.171,24.377,,
+deepseek/deepseek-chat-v3,PHQ-8,3,0.792,25.059,3.927,74.813
+deepseek/deepseek-chat-v3,GAD-7,3,0.139,30.817,,
+deepseek/deepseek-chat-v3,AUDIT-C,4,0.13,21.574,,
+google/gemini-3-flash-preview,PHQ-8,3,1.181,36.993,3.927,74.813
+google/gemini-3-flash-preview,GAD-7,3,1.194,25.968,,
+google/gemini-3-flash-preview,AUDIT-C,4,0.028,29.759,,
+openai/gpt-4o-mini,PHQ-8,3,1.028,26.948,3.927,74.813
+openai/gpt-4o-mini,GAD-7,3,0.349,30.802,,
+openai/gpt-4o-mini,AUDIT-C,4,0.0,25.287,,
+z-ai/glm-4.7,PHQ-8,3,0.663,45.087,3.927,74.813
+z-ai/glm-4.7,GAD-7,3,0.405,37.893,,
+z-ai/glm-4.7,AUDIT-C,4,0.528,20.889,,

@@ -1,0 +1,15 @@
+dimension,group,n,floor_mean,floor_p95
+gender,Cisgender Man,7200,0.158,0.204
+gender,Cisgender Woman,7200,0.161,0.211
+gender,Transgender Woman,7200,0.158,0.205
+gender,Transgender Man,7200,0.182,0.231
+race,White,5760,0.17,0.229
+race,Black,5760,0.17,0.228
+race,Asian,5760,0.177,0.257
+race,Hispanic,5760,0.174,0.239
+race,Multiracial,5760,0.218,0.293
+ses,Low,9600,0.141,0.184
+ses,Middle,9600,0.156,0.202
+ses,High,9600,0.143,0.188
+relationship,Single,14400,0.105,0.138
+relationship,Married,14400,0.126,0.163

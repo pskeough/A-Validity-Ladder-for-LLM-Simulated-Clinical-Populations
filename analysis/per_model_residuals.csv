@@ -1,0 +1,37 @@
+model,dimension,group,n,model_mean,residual,cohens_d
+deepseek/deepseek-chat-v3,race,White,720,7.853,4.941,1.289
+deepseek/deepseek-chat-v3,race,Black,720,8.067,4.825,1.136
+deepseek/deepseek-chat-v3,race,Asian,720,7.144,4.988,1.657
+deepseek/deepseek-chat-v3,race,Hispanic,720,8.026,4.872,1.173
+deepseek/deepseek-chat-v3,gender,Cisgender Man,1800,7.692,5.188,1.447
+deepseek/deepseek-chat-v3,gender,Cisgender Woman,1800,8.012,4.569,1.09
+deepseek/deepseek-chat-v3,ses,Low,1200,8.988,4.741,0.97
+deepseek/deepseek-chat-v3,ses,Middle,1200,8.028,4.91,1.242
+deepseek/deepseek-chat-v3,ses,High,1200,6.54,4.313,1.398
+google/gemini-3-flash-preview,race,White,720,6.603,3.691,0.963
+google/gemini-3-flash-preview,race,Black,720,6.208,2.967,0.698
+google/gemini-3-flash-preview,race,Asian,720,5.156,2.999,0.996
+google/gemini-3-flash-preview,race,Hispanic,720,6.596,3.442,0.828
+google/gemini-3-flash-preview,gender,Cisgender Man,1800,5.877,3.373,0.941
+google/gemini-3-flash-preview,gender,Cisgender Woman,1800,6.866,3.424,0.817
+google/gemini-3-flash-preview,ses,Low,1200,10.767,6.52,1.335
+google/gemini-3-flash-preview,ses,Middle,1200,4.646,1.528,0.386
+google/gemini-3-flash-preview,ses,High,1200,3.702,1.475,0.478
+openai/gpt-4o-mini,race,White,720,7.917,5.005,1.305
+openai/gpt-4o-mini,race,Black,720,8.133,4.892,1.151
+openai/gpt-4o-mini,race,Asian,720,7.514,5.357,1.779
+openai/gpt-4o-mini,race,Hispanic,720,8.057,4.903,1.18
+openai/gpt-4o-mini,gender,Cisgender Man,1800,7.821,5.316,1.483
+openai/gpt-4o-mini,gender,Cisgender Woman,1800,8.065,4.622,1.103
+openai/gpt-4o-mini,ses,Low,1200,9.362,5.116,1.047
+openai/gpt-4o-mini,ses,Middle,1200,7.899,4.781,1.209
+openai/gpt-4o-mini,ses,High,1200,6.567,4.339,1.407
+z-ai/glm-4.7,race,White,720,6.215,3.304,0.862
+z-ai/glm-4.7,race,Black,720,5.657,2.415,0.568
+z-ai/glm-4.7,race,Asian,720,4.479,2.323,0.771
+z-ai/glm-4.7,race,Hispanic,720,5.772,2.618,0.63
+z-ai/glm-4.7,gender,Cisgender Man,1800,4.889,2.384,0.665
+z-ai/glm-4.7,gender,Cisgender Woman,1800,6.7,3.257,0.777
+z-ai/glm-4.7,ses,Low,1200,9.782,5.535,1.133
+z-ai/glm-4.7,ses,Middle,1200,4.499,1.381,0.349
+z-ai/glm-4.7,ses,High,1200,3.102,0.875,0.284

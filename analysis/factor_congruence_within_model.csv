@@ -1,0 +1,5 @@
+model,phi_high_vs_low
+openai/gpt-4o-mini,-0.6669
+deepseek/deepseek-chat-v3,-0.4307
+z-ai/glm-4.7,0.9547
+google/gemini-3-flash-preview,0.9659

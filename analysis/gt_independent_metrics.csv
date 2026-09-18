@@ -1,0 +1,11 @@
+metric,value
+gateway_elevated_n,9590
+gateway_violations,257
+gateway_violation_rate_pct,2.68
+corrupted_rows_clipped,1
+n_pairs,14400
+flip_rate_5cat_pct,36.66
+drift_mean_bare_minus_quoted,0.3242
+drift_t,15.208
+drift_p,7.93e-52
+cross_run_MAD,1.8913

@@ -1,0 +1,62 @@
+source,model,dimension,cohort,n,srmr_dwls_polychoric,srmr_ml_pearson,good_fit,mean_loading,pct_variance
+NHANES adults,POOLED,population,All adults 18+,36274,0.0411,0.0421,True,0.7653,58.83
+simulated,POOLED,race,Asian,5760,0.1205,0.0992,False,0.576,35.33
+simulated,POOLED,race,Black,5760,0.1148,0.0973,False,0.5945,37.11
+simulated,POOLED,race,Hispanic,5760,0.1141,0.0965,False,0.5915,36.64
+simulated,POOLED,race,Multiracial,5760,0.1155,0.0976,False,0.5985,37.4
+simulated,POOLED,race,White,5760,0.1141,0.0967,False,0.6045,38.08
+simulated,POOLED,gender,Cisgender Man,7200,0.1417,0.1155,False,0.5115,31.64
+simulated,POOLED,gender,Cisgender Woman,7200,0.1374,0.1141,False,0.5362,32.15
+simulated,POOLED,gender,Transgender Man,7200,0.1109,0.0936,False,0.5593,33.54
+simulated,POOLED,gender,Transgender Woman,7200,0.1083,0.0931,False,0.5656,34.17
+simulated,POOLED,ses,"High (>$250k, Concierge)",9600,0.1346,0.1063,False,0.4474,26.98
+simulated,POOLED,ses,"Low (<$35k, Medicaid)",9600,0.1207,0.1004,False,0.5186,29.76
+simulated,POOLED,ses,"Middle ($75k, Private Ins)",9600,0.1498,0.1252,False,0.4999,28.33
+simulated,deepseek/deepseek-chat-v3,race,Asian,1440,0.1846,0.1463,False,0.0303,20.96
+simulated,deepseek/deepseek-chat-v3,race,Black,1440,0.1608,0.1332,False,0.1837,27.46
+simulated,deepseek/deepseek-chat-v3,race,Hispanic,1440,0.1696,0.139,False,0.1604,26.68
+simulated,deepseek/deepseek-chat-v3,race,Multiracial,1440,0.1693,0.1324,False,0.1732,27.78
+simulated,deepseek/deepseek-chat-v3,race,White,1440,0.1607,0.1324,False,0.2021,24.89
+simulated,deepseek/deepseek-chat-v3,gender,Cisgender Man,1800,0.1899,0.1533,False,0.0,21.86
+simulated,deepseek/deepseek-chat-v3,gender,Cisgender Woman,1800,0.1908,0.1579,False,0.0535,21.56
+simulated,deepseek/deepseek-chat-v3,gender,Transgender Man,1800,0.1569,0.1241,False,0.1887,29.99
+simulated,deepseek/deepseek-chat-v3,gender,Transgender Woman,1800,0.1444,0.1201,False,0.2095,30.12
+simulated,deepseek/deepseek-chat-v3,ses,"High (>$250k, Concierge)",2400,0.1702,0.1387,False,0.0678,20.8
+simulated,deepseek/deepseek-chat-v3,ses,"Low (<$35k, Medicaid)",2400,0.1424,0.1204,False,0.2141,33.09
+simulated,deepseek/deepseek-chat-v3,ses,"Middle ($75k, Private Ins)",2400,0.2008,0.1654,False,0.0902,29.58
+simulated,google/gemini-3-flash-preview,race,Asian,1440,0.0721,0.0548,True,0.8393,71.23
+simulated,google/gemini-3-flash-preview,race,Black,1440,0.0679,0.0559,True,0.8555,73.98
+simulated,google/gemini-3-flash-preview,race,Hispanic,1440,0.0682,0.0559,True,0.8504,73.11
+simulated,google/gemini-3-flash-preview,race,Multiracial,1440,0.0666,0.0562,True,0.8485,72.77
+simulated,google/gemini-3-flash-preview,race,White,1440,0.0663,0.0532,True,0.8554,73.93
+simulated,google/gemini-3-flash-preview,gender,Cisgender Man,1800,0.1164,0.0816,False,0.8161,68.22
+simulated,google/gemini-3-flash-preview,gender,Cisgender Woman,1800,0.0978,0.0689,False,0.8451,72.68
+simulated,google/gemini-3-flash-preview,gender,Transgender Man,1800,0.0838,0.0649,False,0.7415,57.51
+simulated,google/gemini-3-flash-preview,gender,Transgender Woman,1800,0.0673,0.0547,True,0.7682,61.28
+simulated,google/gemini-3-flash-preview,ses,"High (>$250k, Concierge)",2400,0.1545,0.0937,False,0.7499,56.94
+simulated,google/gemini-3-flash-preview,ses,"Low (<$35k, Medicaid)",2400,0.1138,0.0869,False,0.7221,54.06
+simulated,google/gemini-3-flash-preview,ses,"Middle ($75k, Private Ins)",2400,0.0989,0.0753,False,0.819,69.38
+simulated,openai/gpt-4o-mini,race,Asian,1440,0.13,0.1091,False,0.0941,15.05
+simulated,openai/gpt-4o-mini,race,Black,1440,0.1365,0.1154,False,0.2396,15.36
+simulated,openai/gpt-4o-mini,race,Hispanic,1440,0.1291,0.1091,False,0.0403,10.52
+simulated,openai/gpt-4o-mini,race,Multiracial,1440,0.1294,0.1099,False,0.0255,12.5
+simulated,openai/gpt-4o-mini,race,White,1440,0.1321,0.1112,False,0.011,11.66
+simulated,openai/gpt-4o-mini,gender,Cisgender Man,1800,0.1352,0.1126,False,0.1241,16.25
+simulated,openai/gpt-4o-mini,gender,Cisgender Woman,1800,0.1363,0.1123,False,0.1394,15.85
+simulated,openai/gpt-4o-mini,gender,Transgender Man,1800,0.122,0.1055,False,0.0002,12.3
+simulated,openai/gpt-4o-mini,gender,Transgender Woman,1800,0.1213,0.1041,False,0.0946,12.42
+simulated,openai/gpt-4o-mini,ses,"High (>$250k, Concierge)",2400,0.1327,0.1132,False,0.1505,14.87
+simulated,openai/gpt-4o-mini,ses,"Low (<$35k, Medicaid)",2400,0.1052,0.0875,False,0.1263,14.87
+simulated,openai/gpt-4o-mini,ses,"Middle ($75k, Private Ins)",2400,0.127,0.1125,False,0.0047,15.03
+simulated,z-ai/glm-4.7,race,Asian,1440,0.083,0.067,False,0.813,66.73
+simulated,z-ai/glm-4.7,race,Black,1440,0.0809,0.0671,False,0.8213,68.04
+simulated,z-ai/glm-4.7,race,Hispanic,1440,0.0712,0.0584,True,0.8387,70.75
+simulated,z-ai/glm-4.7,race,Multiracial,1440,0.0672,0.0558,True,0.8409,71.09
+simulated,z-ai/glm-4.7,race,White,1440,0.0806,0.0671,False,0.8275,68.98
+simulated,z-ai/glm-4.7,gender,Cisgender Man,1800,0.1253,0.0883,False,0.769,59.7
+simulated,z-ai/glm-4.7,gender,Cisgender Woman,1800,0.1051,0.0811,False,0.8036,65.06
+simulated,z-ai/glm-4.7,gender,Transgender Man,1800,0.0754,0.0621,True,0.8031,65.05
+simulated,z-ai/glm-4.7,gender,Transgender Woman,1800,0.0763,0.0635,True,0.8063,65.61
+simulated,z-ai/glm-4.7,ses,"High (>$250k, Concierge)",2400,0.1595,0.1031,False,0.6738,48.91
+simulated,z-ai/glm-4.7,ses,"Low (<$35k, Medicaid)",2400,0.0977,0.0771,False,0.7141,52.77
+simulated,z-ai/glm-4.7,ses,"Middle ($75k, Private Ins)",2400,0.1028,0.0798,False,0.7502,57.37

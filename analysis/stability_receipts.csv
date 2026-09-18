@@ -1,0 +1,10 @@
+metric,value
+pearson_r,0.7503
+spearman_rho,0.7103
+n_pairs,14400.0
+fallback_pairs_file_order,694.0
+flip_rate_5cat_pct_POOLED,36.66
+flip_rate_5cat_pct_deepseek/deepseek-chat-v3,27.67
+flip_rate_5cat_pct_google/gemini-3-flash-preview,34.36
+flip_rate_5cat_pct_openai/gpt-4o-mini,40.75
+flip_rate_5cat_pct_z-ai/glm-4.7,43.86

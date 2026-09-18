@@ -1,0 +1,11 @@
+model,contrast,diff,cohens_d
+deepseek/deepseek-chat-v3,Transgender Woman - Cisgender Woman,1.299,0.685
+deepseek/deepseek-chat-v3,Transgender Man - Cisgender Man,1.341,0.757
+google/gemini-3-flash-preview,Transgender Woman - Cisgender Woman,4.831,1.232
+google/gemini-3-flash-preview,Transgender Man - Cisgender Man,6.159,1.717
+openai/gpt-4o-mini,Transgender Woman - Cisgender Woman,0.889,0.42
+openai/gpt-4o-mini,Transgender Man - Cisgender Man,0.803,0.4
+z-ai/glm-4.7,Transgender Woman - Cisgender Woman,3.893,0.927
+z-ai/glm-4.7,Transgender Man - Cisgender Man,5.131,1.332
+POOLED,Transgender Woman - Cisgender Woman,2.728,0.82
+POOLED,Transgender Man - Cisgender Man,3.358,1.044

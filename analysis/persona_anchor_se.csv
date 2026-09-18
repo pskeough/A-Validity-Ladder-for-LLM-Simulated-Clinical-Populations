@@ -1,0 +1,2 @@
+anchor,n,weighted_mean,se_design,se_srs,design_effect_on_se,ci_lo,ci_hi,residual,resid_ci_lo,resid_ci_hi
+income < $35k AND Medicaid (persona-matched),2736,5.5192,0.1486,0.1039,1.43,5.2279,5.8104,4.2069,3.9157,4.4982

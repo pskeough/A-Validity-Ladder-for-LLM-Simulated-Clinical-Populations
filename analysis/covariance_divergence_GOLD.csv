@@ -1,0 +1,15 @@
+dimension,group_a,group_b,n_a,n_b,frobenius,matched_frobenius,matched_ci_lo,matched_ci_hi,floor_p95_a,floor_p95_b,raw_exceeds_both_floors,matched_exceeds_both_floors
+race,Black,White,5760,5760,0.239,0.204,0.195,0.212,0.228,0.229,True,False
+race,Asian,White,5760,5760,0.374,0.176,0.159,0.191,0.257,0.229,True,False
+race,Hispanic,White,5760,5760,0.229,0.201,0.193,0.209,0.239,0.229,False,False
+race,Multiracial,White,5760,5760,0.193,0.205,0.195,0.215,0.293,0.229,False,False
+gender,Cisgender Man,Cisgender Woman,7200,7200,0.315,0.21,0.199,0.221,0.204,0.211,True,False
+gender,Cisgender Man,Transgender Woman,7200,7200,1.137,0.543,0.517,0.567,0.204,0.205,True,True
+gender,Cisgender Man,Transgender Man,7200,7200,1.061,0.476,0.452,0.501,0.204,0.231,True,True
+gender,Cisgender Woman,Transgender Woman,7200,7200,0.89,0.468,0.441,0.492,0.211,0.205,True,True
+gender,Cisgender Woman,Transgender Man,7200,7200,0.824,0.402,0.382,0.425,0.211,0.231,True,True
+gender,Transgender Woman,Transgender Man,7200,7200,0.17,0.154,0.145,0.161,0.205,0.231,False,False
+ses,Low,High,9600,9600,1.232,0.786,0.759,0.816,0.184,0.188,True,True
+ses,Middle,High,9600,9600,0.629,0.379,0.366,0.391,0.202,0.188,True,True
+ses,Low,Middle,9600,9600,0.881,0.549,0.522,0.574,0.184,0.202,True,True
+relationship,Single,Married,14400,14400,0.251,0.139,0.13,0.147,0.138,0.163,True,False

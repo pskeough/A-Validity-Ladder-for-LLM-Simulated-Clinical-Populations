@@ -1,0 +1,4 @@
+component,value,basis
+setting: primary-care attendee below severe vs general population,0.617,"Lowe reference group 3.6 vs NHANES weighted mean, both PHQ-8"
+case mix: full caseload vs that reference group,1.512,"derived caseload bound 4.58-5.64, midpoint"
+unexplained: simulated cisgender overall vs full caseload,1.878,what neither setting nor case mix accounts for

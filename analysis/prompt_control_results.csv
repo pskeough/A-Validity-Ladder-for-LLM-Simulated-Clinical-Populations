@@ -1,0 +1,449 @@
+arm,model,outcome,group,n,estimate,se,ci_lo,ci_hi,p,population,ratio,sign
+first_person,deepseek-chat,cohort_mean,P_BLACK_CM_HIGH_S,30,9.2,0.3848,8.4131,9.9869,,,,
+first_person,deepseek-chat,cohort_mean,P_BLACK_CM_LOW_S,30,10.4333,0.3915,9.6326,11.2341,,,,
+first_person,deepseek-chat,cohort_mean,P_BLACK_CM_MIDDLE_S,30,9.0667,0.303,8.447,9.6863,,,,
+first_person,deepseek-chat,cohort_mean,P_BLACK_CW_HIGH_S,30,9.8667,0.4439,8.9587,10.7746,,,,
+first_person,deepseek-chat,cohort_mean,P_BLACK_CW_LOW_S,30,10.7667,0.3413,10.0685,11.4648,,,,
+first_person,deepseek-chat,cohort_mean,P_BLACK_CW_MIDDLE_S,30,10.2333,0.2783,9.6642,10.8025,,,,
+first_person,deepseek-chat,cohort_mean,P_WHITE_CM_HIGH_S,30,9.5,0.3612,8.7613,10.2387,,,,
+first_person,deepseek-chat,cohort_mean,P_WHITE_CM_LOW_S,30,10.4,0.3273,9.7306,11.0694,,,,
+first_person,deepseek-chat,cohort_mean,P_WHITE_CM_MIDDLE_S,30,8.6333,0.1825,8.2601,9.0065,,,,
+first_person,deepseek-chat,cohort_mean,P_WHITE_CW_HIGH_S,30,9.8,0.3159,9.154,10.446,,,,
+first_person,deepseek-chat,cohort_mean,P_WHITE_CW_LOW_S,30,11.3,0.2802,10.7269,11.8731,,,,
+first_person,deepseek-chat,cohort_mean,P_WHITE_CW_MIDDLE_S,30,9.6333,0.3407,8.9366,10.3301,,,,
+first_person,gemini-3-flash-preview,cohort_mean,P_BLACK_CM_HIGH_S,30,3.6333,0.1625,3.301,3.9656,,,,
+first_person,gemini-3-flash-preview,cohort_mean,P_BLACK_CM_LOW_S,30,13.0,0.209,12.5726,13.4274,,,,
+first_person,gemini-3-flash-preview,cohort_mean,P_BLACK_CM_MIDDLE_S,30,4.0,0.1174,3.7598,4.2402,,,,
+first_person,gemini-3-flash-preview,cohort_mean,P_BLACK_CW_HIGH_S,30,2.3667,0.2273,1.9017,2.8316,,,,
+first_person,gemini-3-flash-preview,cohort_mean,P_BLACK_CW_LOW_S,29,15.2069,0.3114,14.5689,15.8448,,,,
+first_person,gemini-3-flash-preview,cohort_mean,P_BLACK_CW_MIDDLE_S,30,4.7333,0.1262,4.4751,4.9915,,,,
+first_person,gemini-3-flash-preview,cohort_mean,P_WHITE_CM_HIGH_S,30,1.5333,0.1333,1.2606,1.806,,,,
+first_person,gemini-3-flash-preview,cohort_mean,P_WHITE_CM_LOW_S,30,14.0667,0.2953,13.4627,14.6706,,,,
+first_person,gemini-3-flash-preview,cohort_mean,P_WHITE_CM_MIDDLE_S,30,3.2667,0.1853,2.8877,3.6456,,,,
+first_person,gemini-3-flash-preview,cohort_mean,P_WHITE_CW_HIGH_S,30,3.6667,0.1465,3.3671,3.9662,,,,
+first_person,gemini-3-flash-preview,cohort_mean,P_WHITE_CW_LOW_S,30,14.5333,0.306,13.9075,15.1592,,,,
+first_person,gemini-3-flash-preview,cohort_mean,P_WHITE_CW_MIDDLE_S,30,4.1667,0.0969,3.9685,4.3648,,,,
+first_person,glm-4.7,cohort_mean,P_BLACK_CM_HIGH_S,29,7.4828,0.6906,6.0682,8.8973,,,,
+first_person,glm-4.7,cohort_mean,P_BLACK_CM_LOW_S,30,7.6667,0.6052,6.4289,8.9045,,,,
+first_person,glm-4.7,cohort_mean,P_BLACK_CM_MIDDLE_S,30,5.0333,0.3909,4.2338,5.8329,,,,
+first_person,glm-4.7,cohort_mean,P_BLACK_CW_HIGH_S,30,7.1667,0.5593,6.0227,8.3106,,,,
+first_person,glm-4.7,cohort_mean,P_BLACK_CW_LOW_S,30,10.4667,0.4907,9.4631,11.4702,,,,
+first_person,glm-4.7,cohort_mean,P_BLACK_CW_MIDDLE_S,30,6.2,0.3787,5.4254,6.9746,,,,
+first_person,glm-4.7,cohort_mean,P_WHITE_CM_HIGH_S,30,7.5,0.6517,6.1671,8.8329,,,,
+first_person,glm-4.7,cohort_mean,P_WHITE_CM_LOW_S,29,8.931,0.6507,7.598,10.264,,,,
+first_person,glm-4.7,cohort_mean,P_WHITE_CM_MIDDLE_S,30,3.6333,0.376,2.8644,4.4022,,,,
+first_person,glm-4.7,cohort_mean,P_WHITE_CW_HIGH_S,30,5.2667,0.4958,4.2526,6.2807,,,,
+first_person,glm-4.7,cohort_mean,P_WHITE_CW_LOW_S,30,11.2333,0.5044,10.2017,12.265,,,,
+first_person,glm-4.7,cohort_mean,P_WHITE_CW_MIDDLE_S,30,5.5333,0.3887,4.7383,6.3284,,,,
+first_person,gpt-4o-mini,cohort_mean,P_BLACK_CM_HIGH_S,30,7.6333,0.3051,7.0094,8.2573,,,,
+first_person,gpt-4o-mini,cohort_mean,P_BLACK_CM_LOW_S,30,10.9,0.5082,9.8606,11.9394,,,,
+first_person,gpt-4o-mini,cohort_mean,P_BLACK_CM_MIDDLE_S,30,9.3333,0.3402,8.6376,10.029,,,,
+first_person,gpt-4o-mini,cohort_mean,P_BLACK_CW_HIGH_S,30,8.8667,0.42,8.0077,9.7257,,,,
+first_person,gpt-4o-mini,cohort_mean,P_BLACK_CW_LOW_S,30,10.0,0.4574,9.0646,10.9354,,,,
+first_person,gpt-4o-mini,cohort_mean,P_BLACK_CW_MIDDLE_S,30,9.1,0.4244,8.232,9.968,,,,
+first_person,gpt-4o-mini,cohort_mean,P_WHITE_CM_HIGH_S,30,7.6,0.3702,6.843,8.357,,,,
+first_person,gpt-4o-mini,cohort_mean,P_WHITE_CM_LOW_S,30,9.8333,0.4868,8.8377,10.8289,,,,
+first_person,gpt-4o-mini,cohort_mean,P_WHITE_CM_MIDDLE_S,30,8.6333,0.3373,7.9435,9.3231,,,,
+first_person,gpt-4o-mini,cohort_mean,P_WHITE_CW_HIGH_S,30,7.8667,0.4361,6.9747,8.7586,,,,
+first_person,gpt-4o-mini,cohort_mean,P_WHITE_CW_LOW_S,30,10.1333,0.486,9.1394,11.1273,,,,
+first_person,gpt-4o-mini,cohort_mean,P_WHITE_CW_MIDDLE_S,30,9.1,0.3299,8.4252,9.7748,,,,
+no_pop,deepseek-chat,cohort_mean,P_BLACK_CM_HIGH_S,30,8.9,0.3264,8.2324,9.5676,,,,
+no_pop,deepseek-chat,cohort_mean,P_BLACK_CM_LOW_S,30,8.9667,0.2372,8.4815,9.4519,,,,
+no_pop,deepseek-chat,cohort_mean,P_BLACK_CM_MIDDLE_S,30,8.4667,0.2432,7.9692,8.9641,,,,
+no_pop,deepseek-chat,cohort_mean,P_BLACK_CW_HIGH_S,30,8.5333,0.3347,7.8488,9.2179,,,,
+no_pop,deepseek-chat,cohort_mean,P_BLACK_CW_LOW_S,30,10.0667,0.332,9.3878,10.7456,,,,
+no_pop,deepseek-chat,cohort_mean,P_BLACK_CW_MIDDLE_S,30,9.1,0.2461,8.5966,9.6034,,,,
+no_pop,deepseek-chat,cohort_mean,P_WHITE_CM_HIGH_S,30,7.4,0.2011,6.9886,7.8114,,,,
+no_pop,deepseek-chat,cohort_mean,P_WHITE_CM_LOW_S,30,9.5333,0.3347,8.8488,10.2179,,,,
+no_pop,deepseek-chat,cohort_mean,P_WHITE_CM_MIDDLE_S,30,8.4667,0.184,8.0903,8.8431,,,,
+no_pop,deepseek-chat,cohort_mean,P_WHITE_CW_HIGH_S,30,8.2333,0.2477,7.7268,8.7399,,,,
+no_pop,deepseek-chat,cohort_mean,P_WHITE_CW_LOW_S,30,10.2,0.3504,9.4834,10.9166,,,,
+no_pop,deepseek-chat,cohort_mean,P_WHITE_CW_MIDDLE_S,30,8.3,0.1804,7.9311,8.6689,,,,
+no_pop,gemini-3-flash-preview,cohort_mean,P_BLACK_CM_HIGH_S,30,3.8,0.1688,3.4547,4.1453,,,,
+no_pop,gemini-3-flash-preview,cohort_mean,P_BLACK_CM_LOW_S,30,13.6667,0.3045,13.0439,14.2894,,,,
+no_pop,gemini-3-flash-preview,cohort_mean,P_BLACK_CM_MIDDLE_S,30,4.2,0.1755,3.841,4.559,,,,
+no_pop,gemini-3-flash-preview,cohort_mean,P_BLACK_CW_HIGH_S,30,4.2333,0.2016,3.821,4.6457,,,,
+no_pop,gemini-3-flash-preview,cohort_mean,P_BLACK_CW_LOW_S,29,14.5517,0.2021,14.1377,14.9657,,,,
+no_pop,gemini-3-flash-preview,cohort_mean,P_BLACK_CW_MIDDLE_S,30,4.8667,0.1777,4.5033,5.2301,,,,
+no_pop,gemini-3-flash-preview,cohort_mean,P_WHITE_CM_HIGH_S,30,4.6,0.4384,3.7034,5.4966,,,,
+no_pop,gemini-3-flash-preview,cohort_mean,P_WHITE_CM_LOW_S,30,12.7667,0.2904,12.1727,13.3606,,,,
+no_pop,gemini-3-flash-preview,cohort_mean,P_WHITE_CM_MIDDLE_S,30,4.4667,0.1571,4.1454,4.7879,,,,
+no_pop,gemini-3-flash-preview,cohort_mean,P_WHITE_CW_HIGH_S,30,3.9333,0.1724,3.5807,4.286,,,,
+no_pop,gemini-3-flash-preview,cohort_mean,P_WHITE_CW_LOW_S,30,14.7333,0.2488,14.2244,15.2422,,,,
+no_pop,gemini-3-flash-preview,cohort_mean,P_WHITE_CW_MIDDLE_S,30,4.7667,0.1837,4.3909,5.1424,,,,
+no_pop,glm-4.7,cohort_mean,P_BLACK_CM_HIGH_S,30,3.9667,0.3088,3.3351,4.5983,,,,
+no_pop,glm-4.7,cohort_mean,P_BLACK_CM_LOW_S,30,9.4333,0.3276,8.7633,10.1033,,,,
+no_pop,glm-4.7,cohort_mean,P_BLACK_CM_MIDDLE_S,30,4.6333,0.3373,3.9435,5.3231,,,,
+no_pop,glm-4.7,cohort_mean,P_BLACK_CW_HIGH_S,30,4.8333,0.4423,3.9288,5.7379,,,,
+no_pop,glm-4.7,cohort_mean,P_BLACK_CW_LOW_S,30,11.3667,0.4433,10.46,12.2733,,,,
+no_pop,glm-4.7,cohort_mean,P_BLACK_CW_MIDDLE_S,30,6.4,0.3824,5.618,7.182,,,,
+no_pop,glm-4.7,cohort_mean,P_WHITE_CM_HIGH_S,30,3.8667,0.3242,3.2035,4.5298,,,,
+no_pop,glm-4.7,cohort_mean,P_WHITE_CM_LOW_S,30,9.7667,0.3766,8.9965,10.5368,,,,
+no_pop,glm-4.7,cohort_mean,P_WHITE_CM_MIDDLE_S,30,4.2,0.2971,3.5923,4.8077,,,,
+no_pop,glm-4.7,cohort_mean,P_WHITE_CW_HIGH_S,30,4.7,0.4822,3.7138,5.6862,,,,
+no_pop,glm-4.7,cohort_mean,P_WHITE_CW_LOW_S,30,11.9333,0.3354,11.2474,12.6193,,,,
+no_pop,glm-4.7,cohort_mean,P_WHITE_CW_MIDDLE_S,30,6.2667,0.2834,5.6871,6.8463,,,,
+no_pop,gpt-4o-mini,cohort_mean,P_BLACK_CM_HIGH_S,30,8.0,0.3424,7.2997,8.7003,,,,
+no_pop,gpt-4o-mini,cohort_mean,P_BLACK_CM_LOW_S,30,10.0,0.3806,9.2217,10.7783,,,,
+no_pop,gpt-4o-mini,cohort_mean,P_BLACK_CM_MIDDLE_S,30,8.7333,0.2623,8.1968,9.2698,,,,
+no_pop,gpt-4o-mini,cohort_mean,P_BLACK_CW_HIGH_S,30,8.1,0.2553,7.5779,8.6221,,,,
+no_pop,gpt-4o-mini,cohort_mean,P_BLACK_CW_LOW_S,30,10.2,0.2932,9.6003,10.7997,,,,
+no_pop,gpt-4o-mini,cohort_mean,P_BLACK_CW_MIDDLE_S,30,9.8333,0.3654,9.086,10.5807,,,,
+no_pop,gpt-4o-mini,cohort_mean,P_WHITE_CM_HIGH_S,30,7.8667,0.4117,7.0246,8.7087,,,,
+no_pop,gpt-4o-mini,cohort_mean,P_WHITE_CM_LOW_S,30,9.4333,0.2824,8.8558,10.0108,,,,
+no_pop,gpt-4o-mini,cohort_mean,P_WHITE_CM_MIDDLE_S,30,8.6667,0.2316,8.193,9.1403,,,,
+no_pop,gpt-4o-mini,cohort_mean,P_WHITE_CW_HIGH_S,30,8.1333,0.3858,7.3444,8.9223,,,,
+no_pop,gpt-4o-mini,cohort_mean,P_WHITE_CW_LOW_S,30,10.2,0.4431,9.2938,11.1062,,,,
+no_pop,gpt-4o-mini,cohort_mean,P_WHITE_CW_MIDDLE_S,30,9.2,0.3085,8.569,9.831,,,,
+orig,deepseek-chat,cohort_mean,P_BLACK_CM_HIGH_S,30,7.0,0.2349,6.5196,7.4804,,,,
+orig,deepseek-chat,cohort_mean,P_BLACK_CM_LOW_S,30,8.8333,0.3325,8.1534,9.5133,,,,
+orig,deepseek-chat,cohort_mean,P_BLACK_CM_MIDDLE_S,30,8.2333,0.2382,7.7461,8.7205,,,,
+orig,deepseek-chat,cohort_mean,P_BLACK_CW_HIGH_S,30,7.4667,0.2701,6.9143,8.0191,,,,
+orig,deepseek-chat,cohort_mean,P_BLACK_CW_LOW_S,30,10.0667,0.3455,9.36,10.7733,,,,
+orig,deepseek-chat,cohort_mean,P_BLACK_CW_MIDDLE_S,30,8.3667,0.242,7.8716,8.8617,,,,
+orig,deepseek-chat,cohort_mean,P_WHITE_CM_HIGH_S,30,6.8333,0.1862,6.4525,7.2142,,,,
+orig,deepseek-chat,cohort_mean,P_WHITE_CM_LOW_S,30,8.8333,0.263,8.2955,9.3712,,,,
+orig,deepseek-chat,cohort_mean,P_WHITE_CM_MIDDLE_S,30,7.7,0.2152,7.2598,8.1402,,,,
+orig,deepseek-chat,cohort_mean,P_WHITE_CW_HIGH_S,30,7.4667,0.1642,7.1308,7.8026,,,,
+orig,deepseek-chat,cohort_mean,P_WHITE_CW_LOW_S,30,10.0333,0.3088,9.4017,10.6649,,,,
+orig,deepseek-chat,cohort_mean,P_WHITE_CW_MIDDLE_S,30,8.3333,0.2053,7.9135,8.7532,,,,
+orig,gemini-3-flash-preview,cohort_mean,P_BLACK_CM_HIGH_S,28,3.8929,0.1188,3.649,4.1367,,,,
+orig,gemini-3-flash-preview,cohort_mean,P_BLACK_CM_LOW_S,30,12.0667,0.2394,11.577,12.5563,,,,
+orig,gemini-3-flash-preview,cohort_mean,P_BLACK_CM_MIDDLE_S,30,4.3333,0.1465,4.0338,4.6329,,,,
+orig,gemini-3-flash-preview,cohort_mean,P_BLACK_CW_HIGH_S,28,4.6071,0.1393,4.3212,4.893,,,,
+orig,gemini-3-flash-preview,cohort_mean,P_BLACK_CW_LOW_S,29,13.6207,0.1351,13.3439,13.8975,,,,
+orig,gemini-3-flash-preview,cohort_mean,P_BLACK_CW_MIDDLE_S,29,4.931,0.1102,4.7053,5.1568,,,,
+orig,gemini-3-flash-preview,cohort_mean,P_WHITE_CM_HIGH_S,28,3.6786,0.1366,3.3983,3.9589,,,,
+orig,gemini-3-flash-preview,cohort_mean,P_WHITE_CM_LOW_S,26,12.0,0.3419,11.2958,12.7042,,,,
+orig,gemini-3-flash-preview,cohort_mean,P_WHITE_CM_MIDDLE_S,30,4.0,0.1918,3.6078,4.3922,,,,
+orig,gemini-3-flash-preview,cohort_mean,P_WHITE_CW_HIGH_S,28,5.1429,0.3401,4.4451,5.8406,,,,
+orig,gemini-3-flash-preview,cohort_mean,P_WHITE_CW_LOW_S,30,14.7667,0.2568,14.2415,15.2919,,,,
+orig,gemini-3-flash-preview,cohort_mean,P_WHITE_CW_MIDDLE_S,28,5.6071,0.2786,5.0355,6.1788,,,,
+orig,glm-4.7,cohort_mean,P_BLACK_CM_HIGH_S,30,3.0333,0.2559,2.51,3.5567,,,,
+orig,glm-4.7,cohort_mean,P_BLACK_CM_LOW_S,29,9.0345,0.2015,8.6218,9.4472,,,,
+orig,glm-4.7,cohort_mean,P_BLACK_CM_MIDDLE_S,30,4.4,0.3273,3.7306,5.0694,,,,
+orig,glm-4.7,cohort_mean,P_BLACK_CW_HIGH_S,30,4.9333,0.3712,4.1742,5.6925,,,,
+orig,glm-4.7,cohort_mean,P_BLACK_CW_LOW_S,30,11.1,0.3535,10.3771,11.8229,,,,
+orig,glm-4.7,cohort_mean,P_BLACK_CW_MIDDLE_S,29,7.1724,0.3142,6.5289,7.8159,,,,
+orig,glm-4.7,cohort_mean,P_WHITE_CM_HIGH_S,30,4.4,0.3543,3.6754,5.1246,,,,
+orig,glm-4.7,cohort_mean,P_WHITE_CM_LOW_S,30,10.5667,0.348,9.8549,11.2784,,,,
+orig,glm-4.7,cohort_mean,P_WHITE_CM_MIDDLE_S,30,4.0333,0.2856,3.4492,4.6175,,,,
+orig,glm-4.7,cohort_mean,P_WHITE_CW_HIGH_S,30,6.2667,0.3388,5.5737,6.9596,,,,
+orig,glm-4.7,cohort_mean,P_WHITE_CW_LOW_S,30,11.9667,0.3571,11.2362,12.6971,,,,
+orig,glm-4.7,cohort_mean,P_WHITE_CW_MIDDLE_S,30,7.7667,0.302,7.1489,8.3844,,,,
+orig,gpt-4o-mini,cohort_mean,P_BLACK_CM_HIGH_S,30,5.7,0.3395,5.0056,6.3944,,,,
+orig,gpt-4o-mini,cohort_mean,P_BLACK_CM_LOW_S,30,9.8667,0.3946,9.0596,10.6737,,,,
+orig,gpt-4o-mini,cohort_mean,P_BLACK_CM_MIDDLE_S,30,8.3333,0.2641,7.7933,8.8734,,,,
+orig,gpt-4o-mini,cohort_mean,P_BLACK_CW_HIGH_S,30,6.5667,0.302,5.9489,7.1844,,,,
+orig,gpt-4o-mini,cohort_mean,P_BLACK_CW_LOW_S,30,9.4667,0.2984,8.8564,10.077,,,,
+orig,gpt-4o-mini,cohort_mean,P_BLACK_CW_MIDDLE_S,30,8.3667,0.2273,7.9017,8.8316,,,,
+orig,gpt-4o-mini,cohort_mean,P_WHITE_CM_HIGH_S,30,6.4,0.3732,5.6366,7.1634,,,,
+orig,gpt-4o-mini,cohort_mean,P_WHITE_CM_LOW_S,30,8.9667,0.3339,8.2839,9.6495,,,,
+orig,gpt-4o-mini,cohort_mean,P_WHITE_CM_MIDDLE_S,30,7.4667,0.2826,6.8887,8.0446,,,,
+orig,gpt-4o-mini,cohort_mean,P_WHITE_CW_HIGH_S,30,6.1667,0.3778,5.394,6.9393,,,,
+orig,gpt-4o-mini,cohort_mean,P_WHITE_CW_LOW_S,30,9.7333,0.3422,9.0335,10.4332,,,,
+orig,gpt-4o-mini,cohort_mean,P_WHITE_CW_MIDDLE_S,30,8.1667,0.2586,7.6378,8.6955,,,,
+first_person,deepseek-chat,level3_residual,Low,4,6.478,0.2228,5.7688,7.1872,8.93840958876127e-05,4.247,,+
+first_person,gemini-3-flash-preview,level3_residual,Low,4,9.9547,0.4704,8.4577,11.4518,0.00023086473975972118,4.247,,+
+first_person,glm-4.7,level3_residual,Low,4,5.3274,0.7997,2.7824,7.8725,0.006895317746389961,4.247,,+
+first_person,gpt-4o-mini,level3_residual,Low,4,5.9697,0.2484,5.1791,6.7603,0.00015794960923864367,4.247,,+
+first_person,pooled,level3_residual,Low,16,6.9325,0.5172,5.83,8.0349,9.405225987873096e-10,4.247,,+
+no_pop,deepseek-chat,level3_residual,Low,4,5.4447,0.2919,4.5157,6.3737,0.0003363780856179818,4.247,,+
+no_pop,gemini-3-flash-preview,level3_residual,Low,4,9.6826,0.4589,8.2221,11.1431,0.0002329321381814086,4.247,,+
+no_pop,glm-4.7,level3_residual,Low,4,6.378,0.6118,4.431,8.325,0.0018837267922070758,4.247,,+
+no_pop,gpt-4o-mini,level3_residual,Low,4,5.7113,0.1973,5.0835,6.3392,9.048542141970446e-05,4.247,,+
+no_pop,pooled,level3_residual,Low,16,6.8042,0.4818,5.7772,7.8311,4.5328409192298206e-10,4.247,,+
+orig,deepseek-chat,level3_residual,Low,4,5.1947,0.3598,4.0496,6.3398,0.0007204476292292368,4.247,,+
+orig,gemini-3-flash-preview,level3_residual,Low,4,8.8665,0.6707,6.7319,11.0011,0.0009354162333523313,4.247,,+
+orig,glm-4.7,level3_residual,Low,4,6.42,0.6208,4.4443,8.3956,0.001928791457143471,4.247,,+
+orig,gpt-4o-mini,level3_residual,Low,4,5.2613,0.2135,4.5819,5.9408,0.0001464890521740724,4.247,,+
+orig,pooled,level3_residual,Low,16,6.4356,0.45,5.4765,7.3948,3.8002940088623344e-10,4.247,,+
+first_person,deepseek-chat,level3_residual,Middle,4,6.2734,0.3516,5.1545,7.3923,0.000383823380413332,3.1183,,+
+first_person,gemini-3-flash-preview,level3_residual,Middle,4,0.9234,0.3072,-0.0541,1.9009,0.0573810395219399,3.1183,,+
+first_person,glm-4.7,level3_residual,Middle,4,1.9817,0.5469,0.2413,3.7222,0.03615480486845059,3.1183,,+
+first_person,gpt-4o-mini,level3_residual,Middle,4,5.9234,0.1566,5.425,6.4219,4.066916976229229e-05,3.1183,,+
+first_person,pooled,level3_residual,Middle,16,3.7755,0.6321,2.4282,5.1228,2.554584253697218e-05,3.1183,,+
+no_pop,deepseek-chat,level3_residual,Middle,4,5.4651,0.1849,4.8767,6.0535,8.504454667879809e-05,3.1183,,+
+no_pop,gemini-3-flash-preview,level3_residual,Middle,4,1.4567,0.1607,0.9453,1.9682,0.0028363480278985904,3.1183,,+
+no_pop,glm-4.7,level3_residual,Middle,4,2.2567,0.5636,0.463,4.0505,0.027936494029751437,3.1183,,+
+no_pop,gpt-4o-mini,level3_residual,Middle,4,5.9901,0.2747,5.1159,6.8643,0.0002110832158453882,3.1183,,+
+no_pop,pooled,level3_residual,Middle,16,3.7922,0.5314,2.6595,4.9248,3.4147773498698637e-06,3.1183,,+
+orig,deepseek-chat,level3_residual,Middle,4,5.0401,0.1647,4.5159,5.5642,7.665484551975924e-05,3.1183,,+
+orig,gemini-3-flash-preview,level3_residual,Middle,4,1.5996,0.3577,0.4613,2.7379,0.02083433453179164,3.1183,,+
+orig,glm-4.7,level3_residual,Middle,4,2.7248,0.9513,-0.3028,5.7525,0.06435538574505191,3.1183,,+
+orig,gpt-4o-mini,level3_residual,Middle,4,4.9651,0.2171,4.2741,5.6561,0.0001831907827107134,3.1183,,+
+orig,pooled,level3_residual,Middle,16,3.5824,0.4503,2.6225,4.5423,9.231223711873161e-07,3.1183,,+
+first_person,deepseek-chat,level3_residual,High,4,7.3644,0.1577,6.8626,7.8662,2.160929707185569e-05,2.2272,,+
+first_person,gemini-3-flash-preview,level3_residual,High,4,0.5728,0.5208,-1.0848,2.2303,0.35179410734668926,2.2272,,+
+first_person,glm-4.7,level3_residual,High,4,4.6268,0.536,2.921,6.3326,0.0032698728617638084,2.2272,,+
+first_person,gpt-4o-mini,level3_residual,High,4,5.7644,0.3001,4.8095,6.7194,0.00030809524576459415,2.2272,,+
+first_person,pooled,level3_residual,High,16,4.5821,0.6746,3.1442,6.02,6.073027143686672e-06,2.2272,,+
+no_pop,deepseek-chat,level3_residual,High,4,6.0394,0.3217,5.0156,7.0633,0.00032995155975982376,2.2272,,+
+no_pop,gemini-3-flash-preview,level3_residual,High,4,1.9144,0.1817,1.3362,2.4926,0.0018256378858009196,2.2272,,+
+no_pop,glm-4.7,level3_residual,High,4,2.1144,0.2506,1.3168,2.9121,0.0034957544376956846,2.2272,,+
+no_pop,gpt-4o-mini,level3_residual,High,4,5.7978,0.071,5.5717,6.0239,4.055360539285282e-06,2.2272,,+
+no_pop,pooled,level3_residual,High,16,3.9665,0.516,2.8667,5.0663,1.4024137035136875e-06,2.2272,,+
+orig,deepseek-chat,level3_residual,High,4,4.9644,0.1668,4.4336,5.4953,8.332034400900712e-05,2.2272,,+
+orig,gemini-3-flash-preview,level3_residual,High,4,2.1031,0.3379,1.0276,3.1786,0.008364882727465906,2.2272,,+
+orig,glm-4.7,level3_residual,High,4,2.4311,0.67,0.2988,4.5634,0.03603480662667881,2.2272,,+
+orig,gpt-4o-mini,level3_residual,High,4,3.9811,0.1921,3.3698,4.5924,0.000245671946312991,2.2272,,+
+orig,pooled,level3_residual,High,16,3.3699,0.3501,2.6236,4.1162,8.247013262817893e-08,2.2272,,+
+first_person,deepseek-chat,level3_residual,Men,6,7.0344,0.3029,6.2558,7.813,2.75384806672411e-06,2.5045,,+
+first_person,gemini-3-flash-preview,level3_residual,Men,6,4.0788,2.2294,-1.652,9.8096,0.12683575644286182,2.5045,,+
+first_person,glm-4.7,level3_residual,Men,6,4.2034,0.8041,2.1363,6.2704,0.003389168659108797,2.5045,,+
+first_person,gpt-4o-mini,level3_residual,Men,6,6.4844,0.53,5.1219,7.8469,6.454987446066194e-05,2.5045,,+
+first_person,pooled,level3_residual,Men,24,5.4502,0.6349,4.1369,6.7636,1.2527492841761532e-08,2.5045,,+
+no_pop,deepseek-chat,level3_residual,Men,6,6.1177,0.2955,5.3582,6.8773,4.8666327673122105e-06,2.5045,,+
+no_pop,gemini-3-flash-preview,level3_residual,Men,6,4.7455,1.8941,-0.1235,9.6145,0.05413408832370334,2.5045,,+
+no_pop,glm-4.7,level3_residual,Men,6,3.4733,1.1521,0.5118,6.4347,0.02959061241065603,2.5045,,+
+no_pop,gpt-4o-mini,level3_residual,Men,6,6.2788,0.3378,5.4104,7.1473,8.299398994749786e-06,2.5045,,+
+no_pop,pooled,level3_residual,Men,24,5.1538,0.5795,3.9551,6.3525,6.645616045225719e-09,2.5045,,+
+orig,deepseek-chat,level3_residual,Men,6,5.4011,0.3602,4.4752,6.327,2.3883156649588874e-05,2.5045,,+
+orig,gemini-3-flash-preview,level3_residual,Men,6,4.1574,1.7013,-0.216,8.5308,0.05839093858233625,2.5045,,+
+orig,glm-4.7,level3_residual,Men,6,3.4068,1.263,0.1601,6.6535,0.04291821810614164,2.5045,,+
+orig,gpt-4o-mini,level3_residual,Men,6,5.2844,0.6442,3.6285,6.9403,0.0004380497501105642,2.5045,,+
+orig,pooled,level3_residual,Men,24,4.5624,0.5519,3.4208,5.704,2.4290324558893275e-08,2.5045,,+
+first_person,deepseek-chat,level3_residual,Women,6,6.8241,0.2693,6.1319,7.5164,1.7868823810536948e-06,3.4425,,+
+first_person,gemini-3-flash-preview,level3_residual,Women,6,4.0031,2.3716,-2.0933,10.0995,0.15223112010126413,3.4425,,+
+first_person,glm-4.7,level3_residual,Women,6,4.2019,1.0543,1.4917,6.9122,0.010474505230149369,3.4425,,+
+first_person,gpt-4o-mini,level3_residual,Women,6,5.7352,0.3413,4.8578,6.6126,1.364709110984634e-05,3.4425,,+
+first_person,pooled,level3_residual,Women,24,5.1911,0.6607,3.8242,6.5579,5.8442153508936074e-08,3.4425,,+
+no_pop,deepseek-chat,level3_residual,Women,6,5.6297,0.3619,4.6993,6.5601,1.9954297218758966e-05,3.4425,,+
+no_pop,gemini-3-flash-preview,level3_residual,Women,6,4.405,2.1541,-1.1322,9.9422,0.09625825251785905,3.4425,,+
+no_pop,glm-4.7,level3_residual,Women,6,4.1408,1.3207,0.7459,7.5357,0.025799692930502858,3.4425,,+
+no_pop,gpt-4o-mini,level3_residual,Women,6,5.8352,0.3996,4.808,6.8625,2.7202472807912235e-05,3.4425,,+
+no_pop,pooled,level3_residual,Women,24,5.0027,0.6233,3.7132,6.2922,4.061071483235396e-08,3.4425,,+
+orig,deepseek-chat,level3_residual,Women,6,5.1797,0.4822,3.9402,6.4192,0.00012115824844444708,3.4425,,+
+orig,gemini-3-flash-preview,level3_residual,Women,6,4.6701,1.9339,-0.3012,9.6413,0.06050323146176945,3.4425,,+
+orig,glm-4.7,level3_residual,Women,6,4.7584,1.1303,1.8529,7.664,0.00840972056352017,3.4425,,+
+orig,gpt-4o-mini,level3_residual,Women,6,4.6352,0.5993,3.0947,6.1758,0.0005772817232048937,3.4425,,+
+orig,pooled,level3_residual,Women,24,4.8108,0.5558,3.661,5.9607,1.082720732535855e-08,3.4425,,+
+first_person,deepseek-chat,level3_residual,White,6,6.9661,0.3709,6.0127,7.9196,7.8800381564401e-06,2.9117,,+
+first_person,gemini-3-flash-preview,level3_residual,White,6,3.9606,2.3779,-2.1519,10.073,0.1566727277072492,2.9117,,+
+first_person,glm-4.7,level3_residual,White,6,4.1046,1.1323,1.194,7.0153,0.015139019578553849,2.9117,,+
+first_person,gpt-4o-mini,level3_residual,White,6,5.9495,0.4214,4.8663,7.0326,3.2073402066834724e-05,2.9117,,+
+first_person,pooled,level3_residual,White,24,5.2452,0.6824,3.8335,6.6569,8.46367094135676e-08,2.9117,,+
+no_pop,deepseek-chat,level3_residual,White,6,5.7772,0.4139,4.7132,6.8413,3.3945479342315875e-05,2.9117,,+
+no_pop,gemini-3-flash-preview,level3_residual,White,6,4.6328,1.9826,-0.4637,9.7293,0.0666542300921706,2.9117,,+
+no_pop,glm-4.7,level3_residual,White,6,3.8772,1.3575,0.3877,7.3668,0.03556678764592797,2.9117,,+
+no_pop,gpt-4o-mini,level3_residual,White,6,6.005,0.3581,5.0845,6.9256,1.3784163127984062e-05,2.9117,,+
+no_pop,pooled,level3_residual,White,24,5.0731,0.6037,3.8242,6.322,1.8273882999966454e-08,2.9117,,+
+orig,deepseek-chat,level3_residual,White,6,5.2883,0.4658,4.0909,6.4858,9.276915483278726e-05,2.9117,,+
+orig,gemini-3-flash-preview,level3_residual,White,6,4.6209,1.9071,-0.2816,9.5233,0.05989929450684659,2.9117,,+
+orig,glm-4.7,level3_residual,White,6,4.5883,1.3248,1.1829,7.9938,0.017974125893584242,2.9117,,+
+orig,gpt-4o-mini,level3_residual,White,6,4.905,0.5786,3.4176,6.3925,0.00037540423529625793,2.9117,,+
+orig,pooled,level3_residual,White,24,4.8506,0.5731,3.6651,6.0362,1.6079819979723293e-08,2.9117,,+
+first_person,deepseek-chat,level3_residual,Black,6,6.6862,0.2873,5.9478,7.4246,2.7238741278476413e-06,3.2416,,+
+first_person,gemini-3-flash-preview,level3_residual,Black,6,3.9151,2.2383,-1.8385,9.6687,0.14067100891822754,3.2416,,+
+first_person,glm-4.7,level3_residual,Black,6,4.0944,0.7461,2.1764,6.0124,0.00274220844736144,3.2416,,+
+first_person,gpt-4o-mini,level3_residual,Black,6,6.064,0.4548,4.895,7.233,4.242619222059872e-05,3.2416,,+
+first_person,pooled,level3_residual,Black,24,5.1899,0.6209,3.9056,6.4742,2.0017345413301052e-08,3.2416,,+
+no_pop,deepseek-chat,level3_residual,Black,6,5.764,0.2455,5.1328,6.3952,2.611827570961537e-06,3.2416,,+
+no_pop,gemini-3-flash-preview,level3_residual,Black,6,4.3115,2.0822,-1.0411,9.664,0.09316880645193625,3.2416,,+
+no_pop,glm-4.7,level3_residual,Black,6,3.5306,1.2204,0.3935,6.6678,0.03406812649901263,3.2416,,+
+no_pop,gpt-4o-mini,level3_residual,Black,6,5.9029,0.4098,4.8494,6.9563,2.9087942538288345e-05,3.2416,,+
+no_pop,pooled,level3_residual,Black,24,4.8772,0.6132,3.6087,6.1457,4.737095637557395e-08,3.2416,,+
+orig,deepseek-chat,level3_residual,Black,6,5.0862,0.4451,3.9421,6.2302,8.982709520258324e-05,3.2416,,+
+orig,gemini-3-flash-preview,level3_residual,Black,6,4.0004,1.7895,-0.5998,8.6005,0.07564846097188542,3.2416,,+
+orig,glm-4.7,level3_residual,Black,6,3.3707,1.2515,0.1535,6.5878,0.04313192019098951,3.2416,,+
+orig,gpt-4o-mini,level3_residual,Black,6,4.8084,0.6673,3.0931,6.5237,0.0008020419686787486,3.2416,,+
+orig,pooled,level3_residual,Black,24,4.3164,0.5638,3.1501,5.4827,9.043269379051405e-08,3.2416,,+
+first_person,deepseek-chat,level2_gap,Women minus Men,6,0.7278,0.1459,0.3527,1.1029,0.0041478328952799575,0.938,0.7759,matches_population
+first_person,deepseek-chat,level2_gap_vs_population,Women minus Men,6,-0.2103,0.16,-0.6215,0.201,0.24583641049101604,0.938,0.7759,
+first_person,gemini-3-flash-preview,level2_gap,Women minus Men,6,0.8623,0.5206,-0.476,2.2005,0.1585625395653909,0.938,0.9192,matches_population
+first_person,gemini-3-flash-preview,level2_gap_vs_population,Women minus Men,6,-0.0758,0.5247,-1.4246,1.273,0.8908134173065558,0.938,0.9192,
+first_person,glm-4.7,level2_gap,Women minus Men,6,0.9366,0.7732,-1.051,2.9242,0.279907635377219,0.938,0.9985,matches_population
+first_person,glm-4.7,level2_gap_vs_population,Women minus Men,6,-0.0014,0.776,-1.9962,1.9933,0.9985843441769527,0.938,0.9985,
+first_person,gpt-4o-mini,level2_gap,Women minus Men,6,0.1889,0.2916,-0.5606,0.9384,0.5456586179616865,0.938,0.2014,matches_population
+first_person,gpt-4o-mini,level2_gap_vs_population,Women minus Men,6,-0.7491,0.2989,-1.5174,0.0191,0.054048065273686295,0.938,0.2014,
+first_person,pooled,level2_gap,Women minus Men,24,0.6789,0.2382,0.1862,1.1716,0.009053809023590322,0.938,0.7237,matches_population
+first_person,pooled,level2_gap_vs_population,Women minus Men,24,-0.2592,0.247,-0.7702,0.2519,0.30505586517800487,0.938,0.7237,
+first_person,pooled,level2_models_with_population_sign,Women minus Men,4,4.0,,,,,0.938,,
+no_pop,deepseek-chat,level2_gap,Women minus Men,6,0.45,0.2379,-0.1614,1.0614,0.1170704525182904,0.938,0.4797,matches_population
+no_pop,deepseek-chat,level2_gap_vs_population,Women minus Men,6,-0.488,0.2467,-1.1223,0.1462,0.10485414808278531,0.938,0.4797,
+no_pop,gemini-3-flash-preview,level2_gap,Women minus Men,6,0.5975,0.35,-0.3023,1.4973,0.14852735599775863,0.938,0.637,matches_population
+no_pop,gemini-3-flash-preview,level2_gap_vs_population,Women minus Men,6,-0.3405,0.3561,-1.256,0.5749,0.38289053350660623,0.938,0.637,
+no_pop,glm-4.7,level2_gap,Women minus Men,6,1.6056,0.2452,0.9753,2.2358,0.0012435102501597327,0.938,1.7116,matches_population
+no_pop,glm-4.7,level2_gap_vs_population,Women minus Men,6,0.6675,0.2538,0.0151,1.3199,0.0465246198570522,0.938,1.7116,
+no_pop,gpt-4o-mini,level2_gap,Women minus Men,6,0.4944,0.1567,0.0917,0.8972,0.025216435131819013,0.938,0.5271,matches_population
+no_pop,gpt-4o-mini,level2_gap_vs_population,Women minus Men,6,-0.4436,0.1699,-0.8803,-0.0069,0.04759193237497299,0.938,0.5271,
+no_pop,pooled,level2_gap,Women minus Men,24,0.7869,0.1555,0.4653,1.1085,4.0087737639114237e-05,0.938,0.8389,matches_population
+no_pop,pooled,level2_gap_vs_population,Women minus Men,24,-0.1512,0.1688,-0.5003,0.1979,0.37968015750885303,0.938,0.8389,
+no_pop,pooled,level2_models_with_population_sign,Women minus Men,4,4.0,,,,,0.938,,
+orig,deepseek-chat,level2_gap,Women minus Men,6,0.7167,0.1749,0.2672,1.1661,0.009367207355492268,0.938,0.764,matches_population
+orig,deepseek-chat,level2_gap_vs_population,Women minus Men,6,-0.2214,0.1868,-0.7015,0.2587,0.2891591119915594,0.938,0.764,
+orig,gemini-3-flash-preview,level2_gap,Women minus Men,6,1.4507,0.3182,0.6328,2.2686,0.006060097226503926,0.938,1.5465,matches_population
+orig,gemini-3-flash-preview,level2_gap_vs_population,Women minus Men,6,0.5126,0.3249,-0.3225,1.3478,0.17539375059189297,0.938,1.5465,
+orig,glm-4.7,level2_gap,Women minus Men,6,2.2897,0.3411,1.4129,3.1664,0.001110596339362597,0.938,2.4409,matches_population
+orig,glm-4.7,level2_gap_vs_population,Women minus Men,6,1.3516,0.3473,0.4588,2.2444,0.011506763438212725,0.938,2.4409,
+orig,gpt-4o-mini,level2_gap,Women minus Men,6,0.2889,0.2268,-0.2942,0.872,0.258820447147003,0.938,0.308,matches_population
+orig,gpt-4o-mini,level2_gap_vs_population,Women minus Men,6,-0.6491,0.2361,-1.2562,-0.0421,0.04035990509174375,0.938,0.308,
+orig,pooled,level2_gap,Women minus Men,24,1.1865,0.2035,0.7654,1.6075,6.114802943603196e-06,0.938,1.2648,matches_population
+orig,pooled,level2_gap_vs_population,Women minus Men,24,0.2484,0.2139,-0.1939,0.6908,0.25725972560927884,0.938,1.2648,
+orig,pooled,level2_models_with_population_sign,Women minus Men,4,4.0,,,,,0.938,,
+first_person,deepseek-chat,level2_gap,Black minus White,6,0.05,0.1744,-0.3984,0.4984,0.7858805738183411,0.3299,0.1515,matches_population
+first_person,deepseek-chat,level2_gap_vs_population,Black minus White,6,-0.2799,0.1945,-0.7799,0.2201,0.20962687987216505,0.3299,0.1515,
+first_person,gemini-3-flash-preview,level2_gap,Black minus White,6,0.2845,0.5185,-1.0483,1.6173,0.6068242134878654,0.3299,0.8622,matches_population
+first_person,gemini-3-flash-preview,level2_gap_vs_population,Black minus White,6,-0.0455,0.5256,-1.3965,1.3056,0.9344353219284034,0.3299,0.8622,
+first_person,glm-4.7,level2_gap,Black minus White,6,0.3197,0.5029,-0.9731,1.6125,0.5528925181608589,0.3299,0.9691,matches_population
+first_person,glm-4.7,level2_gap_vs_population,Black minus White,6,-0.0102,0.5102,-1.3218,1.3014,0.9848130586948474,0.3299,0.9691,
+first_person,gpt-4o-mini,level2_gap,Black minus White,6,0.4444,0.2207,-0.1229,1.0118,0.10018009290516479,0.3299,1.3471,matches_population
+first_person,gpt-4o-mini,level2_gap_vs_population,Black minus White,6,0.1145,0.2369,-0.4945,0.7235,0.649277802336646,0.3299,1.3471,
+first_person,pooled,level2_gap,Black minus White,24,0.2747,0.1831,-0.1042,0.6535,0.1472929315615009,0.3299,0.8325,matches_population
+first_person,pooled,level2_gap_vs_population,Black minus White,24,-0.0553,0.2024,-0.4739,0.3633,0.7871791797320171,0.3299,0.8325,
+first_person,pooled,level2_models_with_population_sign,Black minus White,4,4.0,,,,,0.3299,,
+no_pop,deepseek-chat,level2_gap,Black minus White,6,0.3167,0.301,-0.457,1.0903,0.3408756611217376,0.3299,0.9598,matches_population
+no_pop,deepseek-chat,level2_gap_vs_population,Black minus White,6,-0.0133,0.313,-0.8179,0.7914,0.9678203345906193,0.3299,0.9598,
+no_pop,gemini-3-flash-preview,level2_gap,Black minus White,6,0.0086,0.2348,-0.5949,0.6121,0.9721305762224403,0.3299,0.0261,matches_population
+no_pop,gemini-3-flash-preview,level2_gap_vs_population,Black minus White,6,-0.3213,0.2501,-0.9641,0.3215,0.2551068393276174,0.3299,0.0261,
+no_pop,glm-4.7,level2_gap,Black minus White,6,-0.0167,0.1488,-0.3991,0.3657,0.9151528687520666,0.3299,-0.0505,opposes_population
+no_pop,glm-4.7,level2_gap_vs_population,Black minus White,6,-0.3466,0.1719,-0.7884,0.0952,0.09978597633161058,0.3299,-0.0505,
+no_pop,gpt-4o-mini,level2_gap,Black minus White,6,0.2278,0.1203,-0.0815,0.5371,0.11687830551956999,0.3299,0.6904,matches_population
+no_pop,gpt-4o-mini,level2_gap_vs_population,Black minus White,6,-0.1022,0.1479,-0.4824,0.2781,0.5205574597878919,0.3299,0.6904,
+no_pop,pooled,level2_gap,Black minus White,24,0.1341,0.1038,-0.0807,0.3489,0.20940719573530728,0.3299,0.4064,matches_population
+no_pop,pooled,level2_gap_vs_population,Black minus White,24,-0.1958,0.1349,-0.4749,0.0832,0.16000937612824387,0.3299,0.4064,
+no_pop,pooled,level2_models_with_population_sign,Black minus White,4,3.0,,,,,0.3299,,
+orig,deepseek-chat,level2_gap,Black minus White,6,0.1278,0.0849,-0.0906,0.3461,0.1928604589372693,0.3299,0.3873,matches_population
+orig,deepseek-chat,level2_gap_vs_population,Black minus White,6,-0.2022,0.1209,-0.513,0.1087,0.1554424250804472,0.3299,0.3873,
+orig,gemini-3-flash-preview,level2_gap,Black minus White,6,-0.2906,0.2389,-0.9047,0.3235,0.2781366691418155,0.3299,-0.8807,opposes_population
+orig,gemini-3-flash-preview,level2_gap_vs_population,Black minus White,6,-0.6205,0.2539,-1.2733,0.0322,0.05839008979049241,0.3299,-0.8807,
+orig,glm-4.7,level2_gap,Black minus White,6,-0.8877,0.2889,-1.6303,-0.1452,0.027683991652233248,0.3299,-2.6906,opposes_population
+orig,glm-4.7,level2_gap_vs_population,Black minus White,6,-1.2177,0.3014,-1.9925,-0.4429,0.009924398806077393,0.3299,-2.6906,
+orig,gpt-4o-mini,level2_gap,Black minus White,6,0.2333,0.2579,-0.4297,0.8963,0.40710097571336296,0.3299,0.7072,matches_population
+orig,gpt-4o-mini,level2_gap_vs_population,Black minus White,6,-0.0966,0.2719,-0.7955,0.6023,0.7368576259118514,0.3299,0.7072,
+orig,pooled,level2_gap,Black minus White,24,-0.2043,0.1417,-0.4975,0.0889,0.1628739213483858,0.3299,-0.6192,opposes_population
+orig,pooled,level2_gap_vs_population,Black minus White,24,-0.5342,0.1658,-0.8772,-0.1913,0.0037734085044765827,0.3299,-0.6192,
+orig,pooled,level2_models_with_population_sign,Black minus White,4,2.0,,,,,0.3299,,
+first_person,deepseek-chat,level2_gap,Low minus High SES,4,1.1333,0.1453,0.6709,1.5957,0.004385774580987822,2.0198,0.5611,matches_population
+first_person,deepseek-chat,level2_gap_vs_population,Low minus High SES,4,-0.8864,0.1692,-1.425,-0.3479,0.013543894329280189,2.0198,0.5611,
+first_person,gemini-3-flash-preview,level2_gap,Low minus High SES,4,11.4017,0.8051,8.8396,13.9638,0.0007626299885299166,2.0198,5.6451,matches_population
+first_person,gemini-3-flash-preview,level2_gap_vs_population,Low minus High SES,4,9.382,0.8097,6.8051,11.9589,0.0013806419100741356,2.0198,5.6451,
+first_person,glm-4.7,level2_gap,Low minus High SES,4,2.7204,1.2573,-1.281,6.7218,0.11916664337114972,2.0198,1.3469,matches_population
+first_person,glm-4.7,level2_gap_vs_population,Low minus High SES,4,0.7006,1.2603,-3.3102,4.7115,0.6170290837189307,2.0198,1.3469,
+first_person,gpt-4o-mini,level2_gap,Low minus High SES,4,2.225,0.4358,0.8382,3.6118,0.014530348568166401,2.0198,1.1016,matches_population
+first_person,gpt-4o-mini,level2_gap_vs_population,Low minus High SES,4,0.2052,0.4443,-1.2087,1.6192,0.6755593930224101,2.0198,1.1016,
+first_person,pooled,level2_gap,Low minus High SES,16,4.3701,1.1148,1.994,6.7462,0.0013639370321433717,2.0198,2.1637,matches_population
+first_person,pooled,level2_gap_vs_population,Low minus High SES,16,2.3504,1.1181,-0.0329,4.7336,0.052854224549128644,2.0198,2.1637,
+first_person,pooled,level2_models_with_population_sign,Low minus High SES,4,4.0,,,,,2.0198,,
+no_pop,deepseek-chat,level2_gap,Low minus High SES,4,1.425,0.4701,-0.0711,2.9211,0.05625482437478235,2.0198,0.7055,matches_population
+no_pop,deepseek-chat,level2_gap_vs_population,Low minus High SES,4,-0.5948,0.478,-2.1161,0.9266,0.30179569600733375,2.0198,0.7055,
+no_pop,gemini-3-flash-preview,level2_gap,Low minus High SES,4,9.7879,0.573,7.9643,11.6116,0.0004371178490186866,2.0198,4.8461,matches_population
+no_pop,gemini-3-flash-preview,level2_gap_vs_population,Low minus High SES,4,7.7682,0.5796,5.9238,9.6126,0.0008977953405981985,2.0198,4.8461,
+no_pop,glm-4.7,level2_gap,Low minus High SES,4,6.2833,0.385,5.058,7.5086,0.0005006246988956549,2.0198,3.1109,matches_population
+no_pop,glm-4.7,level2_gap_vs_population,Low minus High SES,4,4.2636,0.3947,3.0075,5.5196,0.0016967927686627098,2.0198,3.1109,
+no_pop,gpt-4o-mini,level2_gap,Low minus High SES,4,1.9333,0.124,1.5388,2.3279,0.0005730399657929717,2.0198,0.9572,matches_population
+no_pop,gpt-4o-mini,level2_gap_vs_population,Low minus High SES,4,-0.0864,0.1513,-0.568,0.3952,0.6079098335624259,2.0198,0.9572,
+no_pop,pooled,level2_gap,Low minus High SES,16,4.8574,0.902,2.9349,6.7799,7.576393001644595e-05,2.0198,2.4049,matches_population
+no_pop,pooled,level2_gap_vs_population,Low minus High SES,16,2.8376,0.9061,0.9063,4.769,0.006860052097496992,2.0198,2.4049,
+no_pop,pooled,level2_models_with_population_sign,Low minus High SES,4,4.0,,,,,2.0198,,
+orig,deepseek-chat,level2_gap,Low minus High SES,4,2.25,0.1956,1.6277,2.8723,0.0014093765169530662,2.0198,1.114,matches_population
+orig,deepseek-chat,level2_gap_vs_population,Low minus High SES,4,0.2302,0.2139,-0.4506,0.9111,0.36066094977520313,2.0198,1.114,
+orig,gemini-3-flash-preview,level2_gap,Low minus High SES,4,8.7831,0.3347,7.718,9.8483,0.0001213986885744389,2.0198,4.3486,matches_population
+orig,gemini-3-flash-preview,level2_gap_vs_population,Low minus High SES,4,6.7634,0.3458,5.663,7.8638,0.0002918986819339534,2.0198,4.3486,
+orig,glm-4.7,level2_gap,Low minus High SES,4,6.0086,0.11,5.6585,6.3588,1.3522838825566458e-05,2.0198,2.9749,matches_population
+orig,glm-4.7,level2_gap_vs_population,Low minus High SES,4,3.9889,0.1401,3.543,4.4348,9.516195921048846e-05,2.0198,2.9749,
+orig,gpt-4o-mini,level2_gap,Low minus High SES,4,3.3,0.3559,2.1674,4.4326,0.002654786894949086,2.0198,1.6339,matches_population
+orig,gpt-4o-mini,level2_gap_vs_population,Low minus High SES,4,1.2802,0.3663,0.1144,2.4461,0.039628314117539164,2.0198,1.6339,
+orig,pooled,level2_gap,Low minus High SES,16,5.0854,0.6661,3.6657,6.5052,1.5234235747003862e-06,2.0198,2.5179,matches_population
+orig,pooled,level2_gap_vs_population,Low minus High SES,16,3.0657,0.6717,1.634,4.4974,0.0003726722812157063,2.0198,2.5179,
+orig,pooled,level2_models_with_population_sign,Low minus High SES,4,4.0,,,,,2.0198,,
+first_person,deepseek-chat,level2_gap,Middle minus High SES,4,-0.2,0.2535,-1.0067,0.6067,0.4877317807778707,0.891,-0.2245,opposes_population
+first_person,deepseek-chat,level2_gap_vs_population,Middle minus High SES,4,-1.091,0.2621,-1.9252,-0.2569,0.02522284530363165,0.891,-0.2245,
+first_person,gemini-3-flash-preview,level2_gap,Middle minus High SES,4,1.2417,0.485,-0.3019,2.7853,0.08321585117723997,0.891,1.3935,matches_population
+first_person,gemini-3-flash-preview,level2_gap_vs_population,Middle minus High SES,4,0.3506,0.4896,-1.2074,1.9087,0.5255872480913093,0.891,1.3935,
+first_person,glm-4.7,level2_gap,Middle minus High SES,4,-1.754,0.8968,-4.6079,1.0998,0.14542259094473575,0.891,-1.9685,opposes_population
+first_person,glm-4.7,level2_gap_vs_population,Middle minus High SES,4,-2.645,0.8992,-5.5068,0.2167,0.060438021845718594,0.891,-1.9685,
+first_person,gpt-4o-mini,level2_gap,Middle minus High SES,4,1.05,0.306,0.0763,2.0237,0.04148260055008648,0.891,1.1784,matches_population
+first_person,gpt-4o-mini,level2_gap_vs_population,Middle minus High SES,4,0.159,0.3131,-0.8376,1.1555,0.646644408645104,0.891,1.1784,
+first_person,pooled,level2_gap,Middle minus High SES,16,0.0844,0.3942,-0.7558,0.9247,0.8333326856261672,0.891,0.0947,matches_population
+first_person,pooled,level2_gap_vs_population,Middle minus High SES,16,-0.8066,0.3998,-1.6588,0.0455,0.06190005314779144,0.891,0.0947,
+first_person,pooled,level2_models_with_population_sign,Middle minus High SES,4,2.0,,,,,0.891,,
+no_pop,deepseek-chat,level2_gap,Middle minus High SES,4,0.3167,0.3227,-0.7105,1.3438,0.3988678853306924,0.891,0.3554,matches_population
+no_pop,deepseek-chat,level2_gap_vs_population,Middle minus High SES,4,-0.5744,0.3296,-1.6232,0.4744,0.17972116159112825,0.891,0.3554,
+no_pop,gemini-3-flash-preview,level2_gap,Middle minus High SES,4,0.4333,0.2086,-0.2306,1.0972,0.12934425676334999,0.891,0.4863,matches_population
+no_pop,gemini-3-flash-preview,level2_gap_vs_population,Middle minus High SES,4,-0.4577,0.219,-1.1546,0.2392,0.12778053475679874,0.891,0.4863,
+no_pop,glm-4.7,level2_gap,Middle minus High SES,4,1.0333,0.3153,0.0298,2.0369,0.046537798311015253,0.891,1.1597,matches_population
+no_pop,glm-4.7,level2_gap_vs_population,Middle minus High SES,4,0.1423,0.3223,-0.8834,1.168,0.6887235298738567,0.891,1.1597,
+no_pop,gpt-4o-mini,level2_gap,Middle minus High SES,4,1.0833,0.2283,0.3567,1.8099,0.017757624293823347,0.891,1.2158,matches_population
+no_pop,gpt-4o-mini,level2_gap_vs_population,Middle minus High SES,4,0.1923,0.2378,-0.5646,0.9492,0.4779517010269108,0.891,1.2158,
+no_pop,pooled,level2_gap,Middle minus High SES,16,0.7167,0.1513,0.3943,1.0391,0.00026419704874606825,0.891,0.8043,matches_population
+no_pop,pooled,level2_gap_vs_population,Middle minus High SES,16,-0.1744,0.1653,-0.5267,0.1779,0.3081714327695967,0.891,0.8043,
+no_pop,pooled,level2_models_with_population_sign,Middle minus High SES,4,4.0,,,,,0.891,,
+orig,deepseek-chat,level2_gap,Middle minus High SES,4,0.9667,0.0892,0.6827,1.2507,0.0016830124816770494,0.891,1.0849,matches_population
+orig,deepseek-chat,level2_gap_vs_population,Middle minus High SES,4,0.0756,0.1114,-0.2788,0.4301,0.5457345551917977,0.891,1.0849,
+orig,gemini-3-flash-preview,level2_gap,Middle minus High SES,4,0.3875,0.0378,0.2673,0.5077,0.001973281861112075,0.891,0.4349,matches_population
+orig,gemini-3-flash-preview,level2_gap_vs_population,Middle minus High SES,4,-0.5035,0.0766,-0.7473,-0.2598,0.007161194186539111,0.891,0.4349,
+orig,glm-4.7,level2_gap,Middle minus High SES,4,1.1848,0.5516,-0.5706,2.9402,0.1209440875358721,0.891,1.3297,matches_population
+orig,glm-4.7,level2_gap_vs_population,Middle minus High SES,4,0.2937,0.5556,-1.4744,2.0619,0.6336333310578325,0.891,1.3297,
+orig,gpt-4o-mini,level2_gap,Middle minus High SES,4,1.875,0.3227,0.848,2.902,0.010149305951854967,0.891,2.1043,matches_population
+orig,gpt-4o-mini,level2_gap_vs_population,Middle minus High SES,4,0.984,0.3295,-0.0647,2.0327,0.058313226781944796,0.891,2.1043,
+orig,pooled,level2_gap,Middle minus High SES,16,1.1035,0.1994,0.6784,1.5286,5.7394637762522785e-05,0.891,1.2384,matches_population
+orig,pooled,level2_gap_vs_population,Middle minus High SES,16,0.2125,0.2103,-0.2357,0.6607,0.32832463314257126,0.891,1.2384,
+orig,pooled,level2_models_with_population_sign,Middle minus High SES,4,4.0,,,,,0.891,,
+first_person,deepseek-chat,level2_gap,Low minus Middle SES,4,1.3333,0.2799,0.4426,2.224,0.017564764066452014,1.1287,1.1813,matches_population
+first_person,deepseek-chat,level2_gap_vs_population,Low minus Middle SES,4,0.2046,0.2956,-0.7361,1.1454,0.5385976147248811,1.1287,1.1813,
+first_person,gemini-3-flash-preview,level2_gap,Low minus Middle SES,4,10.1601,0.3975,8.895,11.4251,0.0001313589757288648,1.1287,9.0013,matches_population
+first_person,gemini-3-flash-preview,level2_gap_vs_population,Low minus Middle SES,4,9.0313,0.4087,7.7305,10.3321,0.00020293921128090704,1.1287,9.0013,
+first_person,glm-4.7,level2_gap,Low minus Middle SES,4,4.4744,0.6839,2.298,6.6509,0.007258760992744453,1.1287,3.9641,matches_population
+first_person,glm-4.7,level2_gap_vs_population,Low minus Middle SES,4,3.3457,0.6905,1.1483,5.5431,0.016771985922279055,1.1287,3.9641,
+first_person,gpt-4o-mini,level2_gap,Low minus Middle SES,4,1.175,0.1443,0.7159,1.6341,0.0038698410697292707,1.1287,1.041,matches_population
+first_person,gpt-4o-mini,level2_gap_vs_population,Low minus Middle SES,4,0.0463,0.1728,-0.5037,0.5962,0.80621742081902,1.1287,1.041,
+first_person,pooled,level2_gap,Low minus Middle SES,16,4.2857,0.9584,2.2429,6.3285,0.0004478310153215251,1.1287,3.7969,matches_population
+first_person,pooled,level2_gap_vs_population,Low minus Middle SES,16,3.157,0.9631,1.1042,5.2098,0.005083930937161205,1.1287,3.7969,
+first_person,pooled,level2_models_with_population_sign,Low minus Middle SES,4,4.0,,,,,1.1287,,
+no_pop,deepseek-chat,level2_gap,Low minus Middle SES,4,1.1083,0.2913,0.1811,2.0355,0.03191463694111041,1.1287,0.9819,matches_population
+no_pop,deepseek-chat,level2_gap_vs_population,Low minus Middle SES,4,-0.0204,0.3065,-0.9958,0.955,0.9511363854363883,1.1287,0.9819,
+no_pop,gemini-3-flash-preview,level2_gap,Low minus Middle SES,4,9.3546,0.3661,8.1894,10.5198,0.00013149003392504737,1.1287,8.2877,matches_population
+no_pop,gemini-3-flash-preview,level2_gap_vs_population,Low minus Middle SES,4,8.2259,0.3783,7.022,9.4297,0.00021285002756353522,1.1287,8.2877,
+no_pop,glm-4.7,level2_gap,Low minus Middle SES,4,5.25,0.2154,4.5646,5.9354,0.00015135217377957634,1.1287,4.6513,matches_population
+no_pop,glm-4.7,level2_gap_vs_population,Low minus Middle SES,4,4.1213,0.2355,3.372,4.8706,0.00040645577622998986,1.1287,4.6513,
+no_pop,gpt-4o-mini,level2_gap,Low minus Middle SES,4,0.85,0.1908,0.2429,1.4571,0.021039612986054043,1.1287,0.7531,matches_population
+no_pop,gpt-4o-mini,level2_gap_vs_population,Low minus Middle SES,4,-0.2787,0.2132,-0.9571,0.3997,0.2821994890355954,1.1287,0.7531,
+no_pop,pooled,level2_gap,Low minus Middle SES,16,4.1407,0.9069,2.2078,6.0737,0.00037121832222602075,1.1287,3.6685,matches_population
+no_pop,pooled,level2_gap_vs_population,Low minus Middle SES,16,3.012,0.9118,1.0685,4.9556,0.004827012188073481,1.1287,3.6685,
+no_pop,pooled,level2_models_with_population_sign,Low minus Middle SES,4,4.0,,,,,1.1287,,
+orig,deepseek-chat,level2_gap,Low minus Middle SES,4,1.2833,0.264,0.443,2.1237,0.016633580532551217,1.1287,1.137,matches_population
+orig,deepseek-chat,level2_gap_vs_population,Low minus Middle SES,4,0.1546,0.2807,-0.7386,1.0478,0.6200956839546564,1.1287,1.137,
+orig,gemini-3-flash-preview,level2_gap,Low minus Middle SES,4,8.3956,0.3247,7.3623,9.429,0.0001268866512786127,1.1287,7.4381,matches_population
+orig,gemini-3-flash-preview,level2_gap_vs_population,Low minus Middle SES,4,7.2669,0.3383,6.1901,8.3437,0.00022086581676253176,1.1287,7.4381,
+orig,glm-4.7,level2_gap,Low minus Middle SES,4,4.8239,0.5881,2.9522,6.6955,0.003792535669618265,1.1287,4.2737,matches_population
+orig,glm-4.7,level2_gap_vs_population,Low minus Middle SES,4,3.6951,0.5958,1.7991,5.5911,0.008444887680185932,1.1287,4.2737,
+orig,gpt-4o-mini,level2_gap,Low minus Middle SES,4,1.425,0.1092,1.0775,1.7725,0.0009714222369140416,1.1287,1.2625,matches_population
+orig,gpt-4o-mini,level2_gap_vs_population,Low minus Middle SES,4,0.2963,0.1448,-0.1646,0.7571,0.1332875734400593,1.1287,1.2625,
+orig,pooled,level2_gap,Low minus Middle SES,16,3.982,0.7704,2.3399,5.624,0.00011437820296310986,1.1287,3.5278,matches_population
+orig,pooled,level2_gap_vs_population,Low minus Middle SES,16,2.8532,0.7762,1.1987,4.5077,0.0022479802101814136,1.1287,3.5278,
+orig,pooled,level2_models_with_population_sign,Low minus Middle SES,4,4.0,,,,,1.1287,,
+first_person,deepseek-chat,flip_probability,all cohorts,5220,45.1341,,,,,,,
+first_person,deepseek-chat,cross_of_discordant_pct,all cohorts,2356,96.7317,,,,,,,
+first_person,gemini-3-flash-preview,flip_probability,all cohorts,5191,23.8297,,,,,,,
+first_person,gemini-3-flash-preview,cross_of_discordant_pct,all cohorts,1237,0.0,,,,,,,
+first_person,glm-4.7,flip_probability,all cohorts,5162,55.0368,,,,,,,
+first_person,glm-4.7,cross_of_discordant_pct,all cohorts,2841,44.773,,,,,,,
+first_person,gpt-4o-mini,flip_probability,all cohorts,5220,47.6628,,,,,,,
+first_person,gpt-4o-mini,cross_of_discordant_pct,all cohorts,2488,90.836,,,,,,,
+no_pop,deepseek-chat,flip_probability,all cohorts,5220,35.0766,,,,,,,
+no_pop,deepseek-chat,cross_of_discordant_pct,all cohorts,1831,99.0169,,,,,,,
+no_pop,gemini-3-flash-preview,flip_probability,all cohorts,5191,43.0746,,,,,,,
+no_pop,gemini-3-flash-preview,cross_of_discordant_pct,all cohorts,2236,2.5045,,,,,,,
+no_pop,glm-4.7,flip_probability,all cohorts,5220,45.9387,,,,,,,
+no_pop,glm-4.7,cross_of_discordant_pct,all cohorts,2398,34.0701,,,,,,,
+no_pop,gpt-4o-mini,flip_probability,all cohorts,5220,43.6973,,,,,,,
+no_pop,gpt-4o-mini,cross_of_discordant_pct,all cohorts,2281,97.808,,,,,,,
+orig,deepseek-chat,flip_probability,all cohorts,5220,23.0268,,,,,,,
+orig,deepseek-chat,cross_of_discordant_pct,all cohorts,1202,91.2646,,,,,,,
+orig,gemini-3-flash-preview,flip_probability,all cohorts,4767,34.0046,,,,,,,
+orig,gemini-3-flash-preview,cross_of_discordant_pct,all cohorts,1621,6.4158,,,,,,,
+orig,glm-4.7,flip_probability,all cohorts,5162,38.9771,,,,,,,
+orig,glm-4.7,cross_of_discordant_pct,all cohorts,2012,41.004,,,,,,,
+orig,gpt-4o-mini,flip_probability,all cohorts,5220,38.7356,,,,,,,
+orig,gpt-4o-mini,cross_of_discordant_pct,all cohorts,2022,71.909,,,,,,,
+no_pop,deepseek-chat,arm_contrast_vs_orig,cohort means,12,0.5833,0.1579,0.2359,0.9308,0.0035326950718906898,,,
+no_pop,gemini-3-flash-preview,arm_contrast_vs_orig,cohort means,12,0.1615,0.2321,-0.3493,0.6723,0.5009053604788073,,,
+no_pop,glm-4.7,arm_contrast_vs_orig,cohort means,12,-0.2756,0.2221,-0.7643,0.2132,0.24041777118481797,,,
+no_pop,gpt-4o-mini,arm_contrast_vs_orig,cohort means,12,1.0972,0.1951,0.6679,1.5266,0.0001545480951346841,,,
+no_pop,pooled,arm_contrast_vs_orig,cohort means,48,0.3916,0.1233,0.1435,0.6398,0.0026447855175485225,,,
+first_person,deepseek-chat,arm_contrast_vs_orig,cohort means,12,1.6389,0.1902,1.2204,2.0574,3.1950541230738916e-06,,,
+first_person,gemini-3-flash-preview,arm_contrast_vs_orig,cohort means,12,-0.3728,0.3958,-1.2439,0.4983,0.36646796325552233,,,
+first_person,glm-4.7,arm_contrast_vs_orig,cohort means,12,0.12,0.598,-1.1961,1.4362,0.8445921301729364,,,
+first_person,gpt-4o-mini,arm_contrast_vs_orig,cohort means,12,1.15,0.1633,0.7905,1.5095,2.1511049923236275e-05,,,
+first_person,pooled,arm_contrast_vs_orig,cohort means,48,0.634,0.2176,0.1963,1.0718,0.005451365527447196,,,

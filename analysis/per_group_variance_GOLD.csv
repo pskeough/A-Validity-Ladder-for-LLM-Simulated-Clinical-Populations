@@ -1,0 +1,46 @@
+model,dimension,group,n,model_sd,gt_sd,sd_ratio,ci_lo,ci_hi
+POOLED,race,White,5760,3.682,3.834535,0.96,0.944,0.976
+POOLED,race,Black,5760,3.619,4.249245,0.852,0.837,0.866
+POOLED,race,Asian,5760,3.378,3.010762,1.122,1.1,1.145
+POOLED,race,Hispanic,5760,3.598,4.154381,0.866,0.85,0.881
+POOLED,gender,Cisgender Man,7200,2.959,3.584829,0.825,0.814,0.837
+POOLED,gender,Cisgender Woman,7200,3.135,4.191639,0.748,0.736,0.76
+POOLED,ses,Low,9600,3.268,4.885305,0.669,0.662,0.677
+POOLED,ses,Middle,9600,2.96,3.954646,0.748,0.738,0.759
+POOLED,ses,High,9600,2.651,3.084574,0.859,0.848,0.871
+deepseek/deepseek-chat-v3,race,White,1440,2.059,3.834535,0.537,0.511,0.562
+deepseek/deepseek-chat-v3,race,Black,1440,1.935,4.249245,0.455,0.433,0.477
+deepseek/deepseek-chat-v3,race,Asian,1440,1.739,3.010762,0.578,0.547,0.607
+deepseek/deepseek-chat-v3,race,Hispanic,1440,1.848,4.154381,0.445,0.422,0.466
+deepseek/deepseek-chat-v3,gender,Cisgender Man,1800,1.569,3.584829,0.438,0.419,0.458
+deepseek/deepseek-chat-v3,gender,Cisgender Woman,1800,1.711,4.191639,0.408,0.39,0.425
+deepseek/deepseek-chat-v3,ses,Low,2400,2.073,4.885305,0.424,0.412,0.436
+deepseek/deepseek-chat-v3,ses,Middle,2400,1.25,3.954646,0.316,0.294,0.343
+deepseek/deepseek-chat-v3,ses,High,2400,1.548,3.084574,0.502,0.485,0.518
+google/gemini-3-flash-preview,race,White,1440,4.719,3.834535,1.231,1.206,1.255
+google/gemini-3-flash-preview,race,Black,1440,4.641,4.249245,1.092,1.065,1.118
+google/gemini-3-flash-preview,race,Asian,1440,4.322,3.010762,1.435,1.397,1.474
+google/gemini-3-flash-preview,race,Hispanic,1440,4.691,4.154381,1.129,1.104,1.153
+google/gemini-3-flash-preview,gender,Cisgender Man,1800,3.394,3.584829,0.947,0.917,0.977
+google/gemini-3-flash-preview,gender,Cisgender Woman,1800,3.878,4.191639,0.925,0.9,0.95
+google/gemini-3-flash-preview,ses,Low,2400,3.382,4.885305,0.692,0.673,0.711
+google/gemini-3-flash-preview,ses,Middle,2400,4.032,3.954646,1.02,1.005,1.033
+google/gemini-3-flash-preview,ses,High,2400,2.931,3.084574,0.95,0.924,0.977
+openai/gpt-4o-mini,race,White,1440,2.117,3.834535,0.552,0.529,0.574
+openai/gpt-4o-mini,race,Black,1440,2.213,4.249245,0.521,0.502,0.543
+openai/gpt-4o-mini,race,Asian,1440,2.039,3.010762,0.677,0.647,0.707
+openai/gpt-4o-mini,race,Hispanic,1440,2.033,4.154381,0.489,0.468,0.511
+openai/gpt-4o-mini,gender,Cisgender Man,1800,2.051,3.584829,0.572,0.549,0.593
+openai/gpt-4o-mini,gender,Cisgender Woman,1800,2.151,4.191639,0.513,0.494,0.532
+openai/gpt-4o-mini,ses,Low,2400,1.975,4.885305,0.404,0.391,0.417
+openai/gpt-4o-mini,ses,Middle,2400,1.671,3.954646,0.422,0.409,0.436
+openai/gpt-4o-mini,ses,High,2400,1.957,3.084574,0.634,0.614,0.655
+z-ai/glm-4.7,race,White,1440,4.74,3.834535,1.236,1.205,1.267
+z-ai/glm-4.7,race,Black,1440,4.636,4.249245,1.091,1.062,1.123
+z-ai/glm-4.7,race,Asian,1440,4.375,3.010762,1.453,1.41,1.494
+z-ai/glm-4.7,race,Hispanic,1440,4.648,4.154381,1.119,1.085,1.15
+z-ai/glm-4.7,gender,Cisgender Man,1800,3.271,3.584829,0.912,0.883,0.939
+z-ai/glm-4.7,gender,Cisgender Woman,1800,3.891,4.191639,0.928,0.9,0.953
+z-ai/glm-4.7,ses,Low,2400,3.611,4.885305,0.739,0.722,0.755
+z-ai/glm-4.7,ses,Middle,2400,3.681,3.954646,0.931,0.911,0.951
+z-ai/glm-4.7,ses,High,2400,2.906,3.084574,0.942,0.915,0.971

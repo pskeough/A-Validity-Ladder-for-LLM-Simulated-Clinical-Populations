@@ -1,0 +1,6 @@
+scope,n,r_pooled,r_within_cell,r_mean_per_cell,n_cells
+ALL,14400,0.793,0.6454,0.6199,240
+deepseek/deepseek-chat-v3,3600,0.764,0.5935,0.581,60
+google/gemini-3-flash-preview,3600,0.8794,0.6455,0.6041,60
+openai/gpt-4o-mini,3600,0.7075,0.5547,0.5467,60
+z-ai/glm-4.7,3600,0.8962,0.7458,0.7479,60

@@ -1,0 +1,1082 @@
+[
+    {
+        "id": "P_WHITE_CM_LOW_S",
+        "race": "White",
+        "gender": "Cisgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a White Cisgender Man. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: White, Cisgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_WHITE_CM_LOW_M",
+        "race": "White",
+        "gender": "Cisgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a White Cisgender Man. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: White, Cisgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_WHITE_CM_MIDDLE_S",
+        "race": "White",
+        "gender": "Cisgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a White Cisgender Man. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: White, Cisgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_WHITE_CM_MIDDLE_M",
+        "race": "White",
+        "gender": "Cisgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a White Cisgender Man. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: White, Cisgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_WHITE_CM_HIGH_S",
+        "race": "White",
+        "gender": "Cisgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a White Cisgender Man. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: White, Cisgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_WHITE_CM_HIGH_M",
+        "race": "White",
+        "gender": "Cisgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a White Cisgender Man. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: White, Cisgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_WHITE_CW_LOW_S",
+        "race": "White",
+        "gender": "Cisgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a White Cisgender Woman. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: White, Cisgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_WHITE_CW_LOW_M",
+        "race": "White",
+        "gender": "Cisgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a White Cisgender Woman. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: White, Cisgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_WHITE_CW_MIDDLE_S",
+        "race": "White",
+        "gender": "Cisgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a White Cisgender Woman. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: White, Cisgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_WHITE_CW_MIDDLE_M",
+        "race": "White",
+        "gender": "Cisgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a White Cisgender Woman. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: White, Cisgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_WHITE_CW_HIGH_S",
+        "race": "White",
+        "gender": "Cisgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a White Cisgender Woman. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: White, Cisgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_WHITE_CW_HIGH_M",
+        "race": "White",
+        "gender": "Cisgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a White Cisgender Woman. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: White, Cisgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_WHITE_TM_LOW_S",
+        "race": "White",
+        "gender": "Transgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a White Transgender Man. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: White, Transgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_WHITE_TM_LOW_M",
+        "race": "White",
+        "gender": "Transgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a White Transgender Man. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: White, Transgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_WHITE_TM_MIDDLE_S",
+        "race": "White",
+        "gender": "Transgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a White Transgender Man. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: White, Transgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_WHITE_TM_MIDDLE_M",
+        "race": "White",
+        "gender": "Transgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a White Transgender Man. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: White, Transgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_WHITE_TM_HIGH_S",
+        "race": "White",
+        "gender": "Transgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a White Transgender Man. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: White, Transgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_WHITE_TM_HIGH_M",
+        "race": "White",
+        "gender": "Transgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a White Transgender Man. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: White, Transgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_WHITE_TW_LOW_S",
+        "race": "White",
+        "gender": "Transgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a White Transgender Woman. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: White, Transgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_WHITE_TW_LOW_M",
+        "race": "White",
+        "gender": "Transgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a White Transgender Woman. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: White, Transgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_WHITE_TW_MIDDLE_S",
+        "race": "White",
+        "gender": "Transgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a White Transgender Woman. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: White, Transgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_WHITE_TW_MIDDLE_M",
+        "race": "White",
+        "gender": "Transgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a White Transgender Woman. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: White, Transgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_WHITE_TW_HIGH_S",
+        "race": "White",
+        "gender": "Transgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a White Transgender Woman. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: White, Transgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_WHITE_TW_HIGH_M",
+        "race": "White",
+        "gender": "Transgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a White Transgender Woman. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: White, Transgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_BLACK_CM_LOW_S",
+        "race": "Black",
+        "gender": "Cisgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Black Cisgender Man. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Black, Cisgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_BLACK_CM_LOW_M",
+        "race": "Black",
+        "gender": "Cisgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Black Cisgender Man. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Black, Cisgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_BLACK_CM_MIDDLE_S",
+        "race": "Black",
+        "gender": "Cisgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Black Cisgender Man. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Black, Cisgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_BLACK_CM_MIDDLE_M",
+        "race": "Black",
+        "gender": "Cisgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Black Cisgender Man. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Black, Cisgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_BLACK_CM_HIGH_S",
+        "race": "Black",
+        "gender": "Cisgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Black Cisgender Man. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Black, Cisgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_BLACK_CM_HIGH_M",
+        "race": "Black",
+        "gender": "Cisgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Black Cisgender Man. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Black, Cisgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_BLACK_CW_LOW_S",
+        "race": "Black",
+        "gender": "Cisgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Black Cisgender Woman. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Black, Cisgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_BLACK_CW_LOW_M",
+        "race": "Black",
+        "gender": "Cisgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Black Cisgender Woman. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Black, Cisgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_BLACK_CW_MIDDLE_S",
+        "race": "Black",
+        "gender": "Cisgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Black Cisgender Woman. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Black, Cisgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_BLACK_CW_MIDDLE_M",
+        "race": "Black",
+        "gender": "Cisgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Black Cisgender Woman. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Black, Cisgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_BLACK_CW_HIGH_S",
+        "race": "Black",
+        "gender": "Cisgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Black Cisgender Woman. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Black, Cisgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_BLACK_CW_HIGH_M",
+        "race": "Black",
+        "gender": "Cisgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Black Cisgender Woman. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Black, Cisgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_BLACK_TM_LOW_S",
+        "race": "Black",
+        "gender": "Transgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Black Transgender Man. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Black, Transgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_BLACK_TM_LOW_M",
+        "race": "Black",
+        "gender": "Transgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Black Transgender Man. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Black, Transgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_BLACK_TM_MIDDLE_S",
+        "race": "Black",
+        "gender": "Transgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Black Transgender Man. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Black, Transgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_BLACK_TM_MIDDLE_M",
+        "race": "Black",
+        "gender": "Transgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Black Transgender Man. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Black, Transgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_BLACK_TM_HIGH_S",
+        "race": "Black",
+        "gender": "Transgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Black Transgender Man. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Black, Transgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_BLACK_TM_HIGH_M",
+        "race": "Black",
+        "gender": "Transgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Black Transgender Man. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Black, Transgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_BLACK_TW_LOW_S",
+        "race": "Black",
+        "gender": "Transgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Black Transgender Woman. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Black, Transgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_BLACK_TW_LOW_M",
+        "race": "Black",
+        "gender": "Transgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Black Transgender Woman. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Black, Transgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_BLACK_TW_MIDDLE_S",
+        "race": "Black",
+        "gender": "Transgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Black Transgender Woman. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Black, Transgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_BLACK_TW_MIDDLE_M",
+        "race": "Black",
+        "gender": "Transgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Black Transgender Woman. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Black, Transgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_BLACK_TW_HIGH_S",
+        "race": "Black",
+        "gender": "Transgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Black Transgender Woman. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Black, Transgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_BLACK_TW_HIGH_M",
+        "race": "Black",
+        "gender": "Transgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Black Transgender Woman. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Black, Transgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_ASIAN_CM_LOW_S",
+        "race": "Asian",
+        "gender": "Cisgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Asian Cisgender Man. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Asian, Cisgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_ASIAN_CM_LOW_M",
+        "race": "Asian",
+        "gender": "Cisgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Asian Cisgender Man. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Asian, Cisgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_ASIAN_CM_MIDDLE_S",
+        "race": "Asian",
+        "gender": "Cisgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Asian Cisgender Man. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Asian, Cisgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_ASIAN_CM_MIDDLE_M",
+        "race": "Asian",
+        "gender": "Cisgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Asian Cisgender Man. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Asian, Cisgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_ASIAN_CM_HIGH_S",
+        "race": "Asian",
+        "gender": "Cisgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Asian Cisgender Man. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Asian, Cisgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_ASIAN_CM_HIGH_M",
+        "race": "Asian",
+        "gender": "Cisgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Asian Cisgender Man. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Asian, Cisgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_ASIAN_CW_LOW_S",
+        "race": "Asian",
+        "gender": "Cisgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Asian Cisgender Woman. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Asian, Cisgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_ASIAN_CW_LOW_M",
+        "race": "Asian",
+        "gender": "Cisgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Asian Cisgender Woman. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Asian, Cisgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_ASIAN_CW_MIDDLE_S",
+        "race": "Asian",
+        "gender": "Cisgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Asian Cisgender Woman. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Asian, Cisgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_ASIAN_CW_MIDDLE_M",
+        "race": "Asian",
+        "gender": "Cisgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Asian Cisgender Woman. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Asian, Cisgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_ASIAN_CW_HIGH_S",
+        "race": "Asian",
+        "gender": "Cisgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Asian Cisgender Woman. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Asian, Cisgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_ASIAN_CW_HIGH_M",
+        "race": "Asian",
+        "gender": "Cisgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Asian Cisgender Woman. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Asian, Cisgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_ASIAN_TM_LOW_S",
+        "race": "Asian",
+        "gender": "Transgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Asian Transgender Man. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Asian, Transgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_ASIAN_TM_LOW_M",
+        "race": "Asian",
+        "gender": "Transgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Asian Transgender Man. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Asian, Transgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_ASIAN_TM_MIDDLE_S",
+        "race": "Asian",
+        "gender": "Transgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Asian Transgender Man. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Asian, Transgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_ASIAN_TM_MIDDLE_M",
+        "race": "Asian",
+        "gender": "Transgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Asian Transgender Man. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Asian, Transgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_ASIAN_TM_HIGH_S",
+        "race": "Asian",
+        "gender": "Transgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Asian Transgender Man. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Asian, Transgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_ASIAN_TM_HIGH_M",
+        "race": "Asian",
+        "gender": "Transgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Asian Transgender Man. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Asian, Transgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_ASIAN_TW_LOW_S",
+        "race": "Asian",
+        "gender": "Transgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Asian Transgender Woman. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Asian, Transgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_ASIAN_TW_LOW_M",
+        "race": "Asian",
+        "gender": "Transgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Asian Transgender Woman. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Asian, Transgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_ASIAN_TW_MIDDLE_S",
+        "race": "Asian",
+        "gender": "Transgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Asian Transgender Woman. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Asian, Transgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_ASIAN_TW_MIDDLE_M",
+        "race": "Asian",
+        "gender": "Transgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Asian Transgender Woman. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Asian, Transgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_ASIAN_TW_HIGH_S",
+        "race": "Asian",
+        "gender": "Transgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Asian Transgender Woman. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Asian, Transgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_ASIAN_TW_HIGH_M",
+        "race": "Asian",
+        "gender": "Transgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Asian Transgender Woman. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Asian, Transgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_HISPANIC_CM_LOW_S",
+        "race": "Hispanic",
+        "gender": "Cisgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Hispanic Cisgender Man. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Hispanic, Cisgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_HISPANIC_CM_LOW_M",
+        "race": "Hispanic",
+        "gender": "Cisgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Hispanic Cisgender Man. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Hispanic, Cisgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_HISPANIC_CM_MIDDLE_S",
+        "race": "Hispanic",
+        "gender": "Cisgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Hispanic Cisgender Man. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Hispanic, Cisgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_HISPANIC_CM_MIDDLE_M",
+        "race": "Hispanic",
+        "gender": "Cisgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Hispanic Cisgender Man. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Hispanic, Cisgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_HISPANIC_CM_HIGH_S",
+        "race": "Hispanic",
+        "gender": "Cisgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Hispanic Cisgender Man. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Hispanic, Cisgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_HISPANIC_CM_HIGH_M",
+        "race": "Hispanic",
+        "gender": "Cisgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Hispanic Cisgender Man. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Hispanic, Cisgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_HISPANIC_CW_LOW_S",
+        "race": "Hispanic",
+        "gender": "Cisgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Hispanic Cisgender Woman. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Hispanic, Cisgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_HISPANIC_CW_LOW_M",
+        "race": "Hispanic",
+        "gender": "Cisgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Hispanic Cisgender Woman. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Hispanic, Cisgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_HISPANIC_CW_MIDDLE_S",
+        "race": "Hispanic",
+        "gender": "Cisgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Hispanic Cisgender Woman. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Hispanic, Cisgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_HISPANIC_CW_MIDDLE_M",
+        "race": "Hispanic",
+        "gender": "Cisgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Hispanic Cisgender Woman. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Hispanic, Cisgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_HISPANIC_CW_HIGH_S",
+        "race": "Hispanic",
+        "gender": "Cisgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Hispanic Cisgender Woman. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Hispanic, Cisgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_HISPANIC_CW_HIGH_M",
+        "race": "Hispanic",
+        "gender": "Cisgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Hispanic Cisgender Woman. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Hispanic, Cisgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_HISPANIC_TM_LOW_S",
+        "race": "Hispanic",
+        "gender": "Transgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Hispanic Transgender Man. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Hispanic, Transgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_HISPANIC_TM_LOW_M",
+        "race": "Hispanic",
+        "gender": "Transgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Hispanic Transgender Man. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Hispanic, Transgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_HISPANIC_TM_MIDDLE_S",
+        "race": "Hispanic",
+        "gender": "Transgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Hispanic Transgender Man. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Hispanic, Transgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_HISPANIC_TM_MIDDLE_M",
+        "race": "Hispanic",
+        "gender": "Transgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Hispanic Transgender Man. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Hispanic, Transgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_HISPANIC_TM_HIGH_S",
+        "race": "Hispanic",
+        "gender": "Transgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Hispanic Transgender Man. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Hispanic, Transgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_HISPANIC_TM_HIGH_M",
+        "race": "Hispanic",
+        "gender": "Transgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Hispanic Transgender Man. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Hispanic, Transgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_HISPANIC_TW_LOW_S",
+        "race": "Hispanic",
+        "gender": "Transgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Hispanic Transgender Woman. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Hispanic, Transgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_HISPANIC_TW_LOW_M",
+        "race": "Hispanic",
+        "gender": "Transgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Hispanic Transgender Woman. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Hispanic, Transgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_HISPANIC_TW_MIDDLE_S",
+        "race": "Hispanic",
+        "gender": "Transgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Hispanic Transgender Woman. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Hispanic, Transgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_HISPANIC_TW_MIDDLE_M",
+        "race": "Hispanic",
+        "gender": "Transgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Hispanic Transgender Woman. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Hispanic, Transgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_HISPANIC_TW_HIGH_S",
+        "race": "Hispanic",
+        "gender": "Transgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Hispanic Transgender Woman. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Hispanic, Transgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_HISPANIC_TW_HIGH_M",
+        "race": "Hispanic",
+        "gender": "Transgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Hispanic Transgender Woman. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Hispanic, Transgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_MULTIRACIAL_CM_LOW_S",
+        "race": "Multiracial",
+        "gender": "Cisgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Multiracial Cisgender Man. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Multiracial, Cisgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_MULTIRACIAL_CM_LOW_M",
+        "race": "Multiracial",
+        "gender": "Cisgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Multiracial Cisgender Man. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Multiracial, Cisgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_MULTIRACIAL_CM_MIDDLE_S",
+        "race": "Multiracial",
+        "gender": "Cisgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Multiracial Cisgender Man. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Multiracial, Cisgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_MULTIRACIAL_CM_MIDDLE_M",
+        "race": "Multiracial",
+        "gender": "Cisgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Multiracial Cisgender Man. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Multiracial, Cisgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_MULTIRACIAL_CM_HIGH_S",
+        "race": "Multiracial",
+        "gender": "Cisgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Multiracial Cisgender Man. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Multiracial, Cisgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_MULTIRACIAL_CM_HIGH_M",
+        "race": "Multiracial",
+        "gender": "Cisgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Multiracial Cisgender Man. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Multiracial, Cisgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_MULTIRACIAL_CW_LOW_S",
+        "race": "Multiracial",
+        "gender": "Cisgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Multiracial Cisgender Woman. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Multiracial, Cisgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_MULTIRACIAL_CW_LOW_M",
+        "race": "Multiracial",
+        "gender": "Cisgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Multiracial Cisgender Woman. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Multiracial, Cisgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_MULTIRACIAL_CW_MIDDLE_S",
+        "race": "Multiracial",
+        "gender": "Cisgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Multiracial Cisgender Woman. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Multiracial, Cisgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_MULTIRACIAL_CW_MIDDLE_M",
+        "race": "Multiracial",
+        "gender": "Cisgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Multiracial Cisgender Woman. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Multiracial, Cisgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_MULTIRACIAL_CW_HIGH_S",
+        "race": "Multiracial",
+        "gender": "Cisgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Multiracial Cisgender Woman. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Multiracial, Cisgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_MULTIRACIAL_CW_HIGH_M",
+        "race": "Multiracial",
+        "gender": "Cisgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Multiracial Cisgender Woman. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Multiracial, Cisgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_MULTIRACIAL_TM_LOW_S",
+        "race": "Multiracial",
+        "gender": "Transgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Multiracial Transgender Man. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Multiracial, Transgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_MULTIRACIAL_TM_LOW_M",
+        "race": "Multiracial",
+        "gender": "Transgender Man",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Multiracial Transgender Man. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Multiracial, Transgender Man. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_MULTIRACIAL_TM_MIDDLE_S",
+        "race": "Multiracial",
+        "gender": "Transgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Multiracial Transgender Man. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Multiracial, Transgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_MULTIRACIAL_TM_MIDDLE_M",
+        "race": "Multiracial",
+        "gender": "Transgender Man",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Multiracial Transgender Man. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Multiracial, Transgender Man. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_MULTIRACIAL_TM_HIGH_S",
+        "race": "Multiracial",
+        "gender": "Transgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Multiracial Transgender Man. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Multiracial, Transgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_MULTIRACIAL_TM_HIGH_M",
+        "race": "Multiracial",
+        "gender": "Transgender Man",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Multiracial Transgender Man. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Multiracial, Transgender Man. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    },
+    {
+        "id": "P_MULTIRACIAL_TW_LOW_S",
+        "race": "Multiracial",
+        "gender": "Transgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Single",
+        "injection_text": "I am a Multiracial Transgender Woman. I am single. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Multiracial, Transgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Single."
+    },
+    {
+        "id": "P_MULTIRACIAL_TW_LOW_M",
+        "race": "Multiracial",
+        "gender": "Transgender Woman",
+        "ses": "Low (<$35k, Medicaid)",
+        "relationship": "Married",
+        "injection_text": "I am a Multiracial Transgender Woman. I am married. I make less than $35,000 a year and I am on Medicaid.",
+        "original_tag_text": "Profile: Multiracial, Transgender Woman. Socioeconomic Status: Low (<$35k, Medicaid). Relationship: Married."
+    },
+    {
+        "id": "P_MULTIRACIAL_TW_MIDDLE_S",
+        "race": "Multiracial",
+        "gender": "Transgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Single",
+        "injection_text": "I am a Multiracial Transgender Woman. I am single. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Multiracial, Transgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Single."
+    },
+    {
+        "id": "P_MULTIRACIAL_TW_MIDDLE_M",
+        "race": "Multiracial",
+        "gender": "Transgender Woman",
+        "ses": "Middle ($75k, Private Ins)",
+        "relationship": "Married",
+        "injection_text": "I am a Multiracial Transgender Woman. I am married. I make about $75,000 a year and have private insurance.",
+        "original_tag_text": "Profile: Multiracial, Transgender Woman. Socioeconomic Status: Middle ($75k, Private Ins). Relationship: Married."
+    },
+    {
+        "id": "P_MULTIRACIAL_TW_HIGH_S",
+        "race": "Multiracial",
+        "gender": "Transgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Single",
+        "injection_text": "I am a Multiracial Transgender Woman. I am single. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Multiracial, Transgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Single."
+    },
+    {
+        "id": "P_MULTIRACIAL_TW_HIGH_M",
+        "race": "Multiracial",
+        "gender": "Transgender Woman",
+        "ses": "High (>$250k, Concierge)",
+        "relationship": "Married",
+        "injection_text": "I am a Multiracial Transgender Woman. I am married. I make over $250,000 a year and use concierge medicine.",
+        "original_tag_text": "Profile: Multiracial, Transgender Woman. Socioeconomic Status: High (>$250k, Concierge). Relationship: Married."
+    }
+]

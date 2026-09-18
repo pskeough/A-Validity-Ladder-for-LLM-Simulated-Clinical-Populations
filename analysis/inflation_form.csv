@@ -1,0 +1,18 @@
+quantity,value
+additive residual CV,0.1919
+ratio CV,0.1088
+additive constant a,3.9219
+multiplicative constant b,2.3217
+RSS additive,4.5319
+RSS multiplicative,3.4994
+ratio range low,2.0101
+ratio range high,2.8163
+SES gradient ratio observed,2.3501
+SES gradient predicted by constant multiplier,4.6894
+SES gradient observed,4.7467
+"multiplier, least squares through origin",2.2857
+"multiplier, log-scale estimator",2.3217
+"RSS multiplicative, OLS",3.3902
+bootstrap share favouring multiplicative,59.6
+"gradient predicted, OLS multiplier",4.6167
+"gradient predicted, log-scale multiplier",4.6894

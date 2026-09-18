@@ -1,0 +1,7 @@
+interaction,df,F,p,q,significant
+race x gender,12,0.82,0.6303,0.7564,False
+race x ses,8,5.686,0.0,0.0,True
+race x relationship,4,0.363,0.8349,0.8349,False
+gender x ses,6,12.82,0.0,0.0,True
+gender x relationship,3,4.12,0.0068,0.0135,True
+ses x relationship,2,1.119,0.3277,0.4916,False

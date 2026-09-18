@@ -1,0 +1,13 @@
+dimension,group,paper_residual,gold_residual,change
+race,White,5.5,5.77,0.27
+race,Black,5.3,5.27,-0.03
+race,Asian,5.48,5.55,0.07
+race,Hispanic,5.49,5.49,-0.0
+race,Multiracial,,,no GT
+gender,Cisgender Man,3.57,4.07,0.5
+gender,Cisgender Woman,3.71,3.97,0.26
+gender,Transgender Woman,-5.42,,REMOVED (unbenchmarkable)
+gender,Transgender Man,-0.87,,REMOVED (unbenchmarkable)
+ses,Low,6.1,6.99,0.89
+ses,Middle,4.0,4.96,0.96
+ses,High,2.93,3.99,1.06
