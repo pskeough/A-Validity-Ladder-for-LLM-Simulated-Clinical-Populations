@@ -1,9 +1,0 @@
-condition,dimension,H_observed,null_median,null_p95,p_stratified,survives
-clinical,race,2.758,2.711,6.396,0.49025,False
-clinical,gender,57.545,23.924,32.639,0.0005,True
-clinical,ses,32.226,39.976,47.56,0.96552,False
-clinical,relationship,2.451,3.524,8.16,0.71014,False
-narrative,race,2.03,3.965,8.664,0.86207,False
-narrative,gender,53.146,20.923,28.866,0.0005,True
-narrative,ses,19.646,15.514,21.611,0.12494,False
-narrative,relationship,2.787,1.39,4.51,0.2099,False

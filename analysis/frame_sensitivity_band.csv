@@ -1,7 +1,0 @@
-anchor,mean_lo,mean_hi,instrument,offset,sample,selection,source,resid_overall_lo,resid_overall_hi,resid_low_lo,resid_low_hi
-"NHANES 2005-2018, adults 18+",2.983,2.983,PHQ-8,0.0,"36,259 adults, survey-weighted",none,this paper,4.007,4.007,6.742,6.742
-"US primary care, below severe on all three syndromes",3.6,3.6,PHQ-8,0.0,"1,759 of 2,091 consecutive patients, 15 clinics","PHQ-8, GAD-7 and PHQ-15 all < 15; conditions on the outcome",lowe2008,3.39,3.39,6.125,6.125
-"US primary care, full caseload (derived bound)",4.583,5.641,PHQ-8,0.0,"2,091 consecutive patients, 15 clinics, 92% participation",none,lowe2008,1.349,2.407,4.084,5.141
-"VA primary care, HIV-enriched cohort",5.644,5.644,PHQ-9,0.0556,"7,731 veterans, 8 medical centers, 95% male; pooled over person-visits 2003-2015","cohort is ~half HIV-positive by design and the study targets comorbidity clustering, so this conditions on comorbidity and bounds a general VA primary care mean from above",stevens2020,1.346,1.346,4.08,4.08
-"US internet panel, no clinical frame",6.377,6.377,PHQ-9,0.1227,"96,234 respondents, PureSpectrum non-probability panel, 2023-2024; SD 6.6, 26.4% at >= 10",none on severity; opt-in panel,perlis2025,0.613,0.613,3.347,3.347
-"Primary care, antidepressant initiation",11.947,11.947,PHQ-9,0.2532,"771 employed patients, 88 Minnesota clinics (DIAMOND)",PHQ-9 >= 7 and a new antidepressant fill,beck2011,-4.957,-4.957,-2.222,-2.222

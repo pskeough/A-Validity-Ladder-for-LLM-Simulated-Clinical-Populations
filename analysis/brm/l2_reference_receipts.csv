@@ -1,0 +1,41 @@
+check,item,got,want,ok
+marginal reproduces published anchor,Black minus White,0.329939,0.3299,True
+marginal reproduces published anchor,Hispanic minus White,0.242502,0.2425,True
+marginal reproduces published anchor,Asian minus White,-0.755125,-0.7551,True
+marginal reproduces published anchor,Women minus Men,0.938037,0.938,True
+marginal reproduces published anchor,Low minus High SES,2.019753,2.0198,True
+marginal reproduces published anchor,Middle minus High SES,0.891027,0.891,True
+marginal reproduces published anchor,Low minus Middle SES,1.128726,1.1287,True
+audit construction reproduces std_gaps.py,Black minus White,-0.303853,-0.304,True
+audit construction reproduces std_gaps.py,Hispanic minus White,-0.293162,-0.293,True
+audit construction reproduces std_gaps.py,Asian minus White,-1.011554,-1.012,True
+audit construction reproduces std_gaps.py,Women minus Men,0.883965,0.884,True
+audit construction reproduces std_gaps.py,Low minus High SES,1.489179,1.489,True
+audit construction reproduces std_gaps.py,Middle minus High SES,0.677357,0.677,True
+audit construction reproduces std_gaps.py,Low minus Middle SES,0.811821,0.812,True
+2005-06 age 18-19 marital share (weighted),married,0.0138,,True
+2005-06 age 18-19 marital share (weighted),never married,0.9136,,True
+2005-06 age 18-19 marital share (weighted),living with partner,0.0649,,True
+age 18-19 with no marital status (2007-2018),n,1616.0,,True
+marital mapping mar_primary,Married,17578.0,,True
+marital mapping mar_primary,Single,15833.0,,True
+marital mapping mar_primary,left out,2863.0,,True
+marital mapping mar_all,Married,17578.0,,True
+marital mapping mar_all,Single,18676.0,,True
+marital mapping mar_all,left out,20.0,,True
+marital mapping mar_never,Married,17578.0,,True
+marital mapping mar_never,Single,8219.0,,True
+marital mapping mar_never,left out,10477.0,,True
+marital mapping mar_drop1819,Married,17578.0,,True
+marital mapping mar_drop1819,Single,14217.0,,True
+marital mapping mar_drop1819,left out,4479.0,,True
+income_alt mapping (2007-2018),Low,2456.0,,True
+income_alt mapping (2007-2018),Middle,4291.0,,True
+income_alt mapping (2007-2018),High,4065.0,,True
+income_alt mapping (2007-2018),left out,25462.0,,True
+design,respondents,36274.0,36274.0,True
+design,strata,105.0,,True
+design,PSUs,214.0,,True
+design,df (PSUs - strata),109.0,,True
+bootstrap,replicates,2000.0,,True
+bootstrap,seed,20260925.0,,True

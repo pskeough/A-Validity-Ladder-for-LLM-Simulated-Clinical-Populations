@@ -1,0 +1,18 @@
+check,value
+max relative error analytic vs finite-difference gradient,2.683278498050101e-10
+weighted converged,1.0
+weighted iterations,54.0
+weighted pseudo-loglik,-181739.95390412468
+weighted unique patterns,5304.0
+unweighted converged,1.0
+unweighted iterations,47.0
+unweighted pseudo-loglik,-187958.32497883865
+unweighted unique patterns,5304.0
+"weighted total-score distribution, sum |obs - exp| / 2",0.032545456138860146
+"unweighted total-score distribution, sum |obs - exp| / 2",0.03350745005678201
+NHANES 2005-2018 weighted mean lz*,0.10649179366767811
+NHANES 2005-2018 weighted SD lz*,0.879640413532155
+NHANES 2005-2018 weighted share total = 0,0.3252156729995529
+corpus share total = 0,0.0006250217021424355
+"theta at grid boundary, NHANES",0.0
+"theta at grid boundary, corpus",0.0

@@ -1,0 +1,91 @@
+q,groupvar,group,issue
+GAP21Q33_g_W82,INCOME,"$100,000 or more",human letters could not be mapped
+GROWUPGUN6_W26,EDUCATION,Less than high school,human letters could not be mapped
+WHYNOTBIZF2G_W36,CREGION,Northeast,human letters could not be mapped
+WHYNOTBIZF2G_W36,INCOME,"$100,000 or more",human letters could not be mapped
+RACESURV19e_W43,CREGION,Northeast,human letters could not be mapped
+GROWUPGUN4_W26,CREGION,Northeast,human letters could not be mapped
+GROWUPGUN4_W26,CREGION,South,human letters could not be mapped
+GROWUPGUN4_W26,EDUCATION,College graduate or some postgrad,human letters could not be mapped
+GROWUPGUN4_W26,EDUCATION,Less than high school,human letters could not be mapped
+GROWUPGUN4_W26,INCOME,"$100,000 or more",human letters could not be mapped
+GROWUPGUN4_W26,INCOME,"Less than $30,000",human letters could not be mapped
+RACESURV40_W43,CREGION,Northeast,human letters could not be mapped
+RACESURV40_W43,CREGION,South,human letters could not be mapped
+RACESURV40_W43,EDUCATION,College graduate or some postgrad,human letters could not be mapped
+RACESURV40_W43,EDUCATION,Less than high school,human letters could not be mapped
+RACESURV40_W43,INCOME,"$100,000 or more",human letters could not be mapped
+RACESURV40_W43,INCOME,"Less than $30,000",human letters could not be mapped
+MADEUPTOPICd_W45,CREGION,Northeast,human letters could not be mapped
+MADEUPTOPICd_W45,CREGION,South,human letters could not be mapped
+MADEUPTOPICd_W45,EDUCATION,College graduate or some postgrad,human letters could not be mapped
+MADEUPTOPICd_W45,EDUCATION,Less than high school,human letters could not be mapped
+MADEUPTOPICd_W45,INCOME,"$100,000 or more",human letters could not be mapped
+MADEUPTOPICd_W45,INCOME,"Less than $30,000",human letters could not be mapped
+GAP21Q33_j_W82,INCOME,"$100,000 or more",human letters could not be mapped
+REASONGUNB_W26,CREGION,South,human letters could not be mapped
+REASONGUNB_W26,EDUCATION,Less than high school,human letters could not be mapped
+GOVPRIOlF2_W41,INCOME,"$100,000 or more",human letters could not be mapped
+GAP21Q33_m_W82,EDUCATION,Less than high school,human letters could not be mapped
+WHYNOTBIZF2O_W36,CREGION,Northeast,human letters could not be mapped
+WHYNOTBIZF2O_W36,CREGION,South,human letters could not be mapped
+WHYNOTBIZF2O_W36,EDUCATION,College graduate or some postgrad,human letters could not be mapped
+WHYNOTBIZF2O_W36,EDUCATION,Less than high school,human letters could not be mapped
+WHYNOTBIZF2O_W36,INCOME,"$100,000 or more",human letters could not be mapped
+EAT2_W34,EDUCATION,Less than high school,human letters could not be mapped
+EAT2_W34,INCOME,"$100,000 or more",human letters could not be mapped
+GOVPRIOgF1_W41,EDUCATION,Less than high school,human letters could not be mapped
+GOVPRIOgF1_W41,INCOME,"$100,000 or more",human letters could not be mapped
+GUNRESPNOKIDSC_W26,INCOME,"$100,000 or more",human letters could not be mapped
+GROWUPGUN2A_W26,EDUCATION,Less than high school,human letters could not be mapped
+GAP21Q33_s_W82,EDUCATION,Less than high school,human letters could not be mapped
+WHYNOTBIZF2N_W36,CREGION,Northeast,human letters could not be mapped
+WHYNOTBIZF2N_W36,EDUCATION,Less than high school,human letters could not be mapped
+WHYNOTBIZF2N_W36,INCOME,"Less than $30,000",human letters could not be mapped
+RACESURV2_W43,EDUCATION,Less than high school,human letters could not be mapped
+RACESURV2_W43,INCOME,"$100,000 or more",human letters could not be mapped
+GAP21Q33_c_W82,INCOME,"$100,000 or more",human letters could not be mapped
+BETTERPOL1F1I_W36,EDUCATION,Less than high school,human letters could not be mapped
+FAMSURV40_W50,CREGION,South,human letters could not be mapped
+FAMSURV40_W50,EDUCATION,Less than high school,human letters could not be mapped
+TRACKGOV1b_W49,EDUCATION,Less than high school,human letters could not be mapped
+EAT5B_W34,EDUCATION,College graduate or some postgrad,human letters could not be mapped
+EAT5B_W34,EDUCATION,Less than high school,human letters could not be mapped
+TRAITBIZMF2E_W36,EDUCATION,Less than high school,human letters could not be mapped
+ECON3_d_W54,EDUCATION,Less than high school,human letters could not be mapped
+HOMEASSIST3_W49,CREGION,Northeast,human letters could not be mapped
+HOMEASSIST3_W49,EDUCATION,College graduate or some postgrad,human letters could not be mapped
+HOMEASSIST3_W49,EDUCATION,Less than high school,human letters could not be mapped
+HOMEASSIST3_W49,INCOME,"$100,000 or more",human letters could not be mapped
+MAN1C_W29,INCOME,"Less than $30,000",human letters could not be mapped
+WHYNOTBIZF2D_W36,CREGION,Northeast,human letters could not be mapped
+WHYNOTBIZF2D_W36,INCOME,"$100,000 or more",human letters could not be mapped
+FAMSURV23b_W50,CREGION,Northeast,human letters could not be mapped
+FAMSURV23b_W50,CREGION,South,human letters could not be mapped
+FAMSURV23b_W50,EDUCATION,College graduate or some postgrad,human letters could not be mapped
+FAMSURV23b_W50,EDUCATION,Less than high school,human letters could not be mapped
+FAMSURV23b_W50,INCOME,"$100,000 or more",human letters could not be mapped
+FAMSURV23b_W50,INCOME,"Less than $30,000",human letters could not be mapped
+ESSENPOLF1H_W36,CREGION,Northeast,human letters could not be mapped
+ESSENPOLF1H_W36,EDUCATION,College graduate or some postgrad,human letters could not be mapped
+ESSENPOLF1H_W36,EDUCATION,Less than high school,human letters could not be mapped
+ESSENPOLF1H_W36,INCOME,"Less than $30,000",human letters could not be mapped
+GUNIDENTITY_W26,CREGION,Northeast,human letters could not be mapped
+GUNIDENTITY_W26,EDUCATION,College graduate or some postgrad,human letters could not be mapped
+GUNIDENTITY_W26,EDUCATION,Less than high school,human letters could not be mapped
+GUNIDENTITY_W26,INCOME,"$100,000 or more",human letters could not be mapped
+GUNIDENTITY_W26,INCOME,"Less than $30,000",human letters could not be mapped
+RACESURV47f_W43,CREGION,Northeast,human letters could not be mapped
+DNA2b_W50,EDUCATION,Less than high school,human letters could not be mapped
+FAMSURV26b_W50,CREGION,Northeast,human letters could not be mapped
+FAMSURV26b_W50,EDUCATION,College graduate or some postgrad,human letters could not be mapped
+FAMSURV26b_W50,INCOME,"$100,000 or more",human letters could not be mapped
+FAMSURV26b_W50,INCOME,"Less than $30,000",human letters could not be mapped
+GAP21Q15_d_W82,EDUCATION,Less than high school,human letters could not be mapped
+GAP21Q15_d_W82,INCOME,"$100,000 or more",human letters could not be mapped
+HARASS1NOWRKF2d_W41,EDUCATION,Less than high school,human letters could not be mapped
+ECON5_b_W54,EDUCATION,Less than high school,human letters could not be mapped
+WHYNOTBIZF2M_W36,CREGION,Northeast,human letters could not be mapped
+WHYNOTBIZF2M_W36,CREGION,South,human letters could not be mapped
+WHYNOTBIZF2M_W36,EDUCATION,College graduate or some postgrad,human letters could not be mapped
+WHYNOTBIZF2M_W36,INCOME,"$100,000 or more",human letters could not be mapped

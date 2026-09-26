@@ -1,4 +1,0 @@
-scale,omnibus_F,omnibus_p,delta_r2_pct,n_significant,significant
-raw PHQ-8,4.237,4.776015235349572e-13,1.307,3.0,race x ses; gender x ses; gender x relationship
-logit(total/24),4.072,2.4938006247258212e-12,1.016,3.0,race x ses; gender x ses; ses x relationship
-scale-change bound,,,22.3,,compression accounts for at most 22% of the interaction variance; induced-pattern r = +0.408 (16.7%)

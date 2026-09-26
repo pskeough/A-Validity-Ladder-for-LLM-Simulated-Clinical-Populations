@@ -1,0 +1,1607 @@
+contrast,estimand,variant,cell,weight,n,w_mean
+Black minus White,marginal,primary,Black,1.0,7931,3.2416
+Black minus White,marginal,primary,White,-1.0,15181,2.9117
+Black minus White,standardised,primary,Black | M x Low x Married,0.083333,236,2.341
+Black minus White,standardised,primary,White | M x Low x Married,-0.083333,687,3.4483
+Black minus White,standardised,primary,Black | M x Low x Single,0.083333,726,3.6211
+Black minus White,standardised,primary,White | M x Low x Single,-0.083333,923,4.0868
+Black minus White,standardised,primary,Black | M x Middle x Married,0.083333,607,2.3504
+Black minus White,standardised,primary,White | M x Middle x Married,-0.083333,1535,2.3596
+Black minus White,standardised,primary,Black | M x Middle x Single,0.083333,680,2.6687
+Black minus White,standardised,primary,White | M x Middle x Single,-0.083333,897,3.372
+Black minus White,standardised,primary,Black | M x High x Married,0.083333,558,1.4859
+Black minus White,standardised,primary,White | M x High x Married,-0.083333,1892,1.7424
+Black minus White,standardised,primary,Black | M x High x Single,0.083333,335,2.0086
+Black minus White,standardised,primary,White | M x High x Single,-0.083333,742,2.187
+Black minus White,standardised,primary,Black | F x Low x Married,0.083333,200,4.7533
+Black minus White,standardised,primary,White | F x Low x Married,-0.083333,566,4.6507
+Black minus White,standardised,primary,Black | F x Low x Single,0.083333,1108,4.6932
+Black minus White,standardised,primary,White | F x Low x Single,-0.083333,1170,5.3751
+Black minus White,standardised,primary,Black | F x Middle x Married,0.083333,434,2.9371
+Black minus White,standardised,primary,White | F x Middle x Married,-0.083333,1312,3.1808
+Black minus White,standardised,primary,Black | F x Middle x Single,0.083333,915,3.6935
+Black minus White,standardised,primary,White | F x Middle x Single,-0.083333,1175,3.8725
+Black minus White,standardised,primary,Black | F x High x Married,0.083333,375,2.4523
+Black minus White,standardised,primary,White | F x High x Married,-0.083333,1727,2.3424
+Black minus White,standardised,primary,Black | F x High x Single,0.083333,405,3.1078
+Black minus White,standardised,primary,White | F x High x Single,-0.083333,776,2.9081
+Black minus White,standardised,mar_all,Black | M x Low x Married,0.083333,236,2.341
+Black minus White,standardised,mar_all,White | M x Low x Married,-0.083333,687,3.4483
+Black minus White,standardised,mar_all,Black | M x Low x Single,0.083333,870,3.5406
+Black minus White,standardised,mar_all,White | M x Low x Single,-0.083333,1101,4.1526
+Black minus White,standardised,mar_all,Black | M x Middle x Married,0.083333,607,2.3504
+Black minus White,standardised,mar_all,White | M x Middle x Married,-0.083333,1535,2.3596
+Black minus White,standardised,mar_all,Black | M x Middle x Single,0.083333,827,2.6896
+Black minus White,standardised,mar_all,White | M x Middle x Single,-0.083333,1062,3.1855
+Black minus White,standardised,mar_all,Black | M x High x Married,0.083333,558,1.4859
+Black minus White,standardised,mar_all,White | M x High x Married,-0.083333,1892,1.7424
+Black minus White,standardised,mar_all,Black | M x High x Single,0.083333,390,1.9781
+Black minus White,standardised,mar_all,White | M x High x Single,-0.083333,903,2.305
+Black minus White,standardised,mar_all,Black | F x Low x Married,0.083333,200,4.7533
+Black minus White,standardised,mar_all,White | F x Low x Married,-0.083333,566,4.6507
+Black minus White,standardised,mar_all,Black | F x Low x Single,0.083333,1216,4.7547
+Black minus White,standardised,mar_all,White | F x Low x Single,-0.083333,1342,5.424
+Black minus White,standardised,mar_all,Black | F x Middle x Married,0.083333,434,2.9371
+Black minus White,standardised,mar_all,White | F x Middle x Married,-0.083333,1312,3.1808
+Black minus White,standardised,mar_all,Black | F x Middle x Single,0.083333,1014,3.6656
+Black minus White,standardised,mar_all,White | F x Middle x Single,-0.083333,1342,3.9564
+Black minus White,standardised,mar_all,Black | F x High x Married,0.083333,375,2.4523
+Black minus White,standardised,mar_all,White | F x High x Married,-0.083333,1727,2.3424
+Black minus White,standardised,mar_all,Black | F x High x Single,0.083333,443,3.1224
+Black minus White,standardised,mar_all,White | F x High x Single,-0.083333,894,2.9427
+Black minus White,standardised,mar_never,Black | M x Low x Married,0.083333,236,2.341
+Black minus White,standardised,mar_never,White | M x Low x Married,-0.083333,687,3.4483
+Black minus White,standardised,mar_never,Black | M x Low x Single,0.083333,458,3.5501
+Black minus White,standardised,mar_never,White | M x Low x Single,-0.083333,497,3.8185
+Black minus White,standardised,mar_never,Black | M x Middle x Married,0.083333,607,2.3504
+Black minus White,standardised,mar_never,White | M x Middle x Married,-0.083333,1535,2.3596
+Black minus White,standardised,mar_never,Black | M x Middle x Single,0.083333,406,2.6682
+Black minus White,standardised,mar_never,White | M x Middle x Single,-0.083333,434,3.0898
+Black minus White,standardised,mar_never,Black | M x High x Married,0.083333,558,1.4859
+Black minus White,standardised,mar_never,White | M x High x Married,-0.083333,1892,1.7424
+Black minus White,standardised,mar_never,Black | M x High x Single,0.083333,200,1.9686
+Black minus White,standardised,mar_never,White | M x High x Single,-0.083333,459,2.2506
+Black minus White,standardised,mar_never,Black | F x Low x Married,0.083333,200,4.7533
+Black minus White,standardised,mar_never,White | F x Low x Married,-0.083333,566,4.6507
+Black minus White,standardised,mar_never,Black | F x Low x Single,0.083333,651,4.625
+Black minus White,standardised,mar_never,White | F x Low x Single,-0.083333,391,4.6321
+Black minus White,standardised,mar_never,Black | F x Middle x Married,0.083333,434,2.9371
+Black minus White,standardised,mar_never,White | F x Middle x Married,-0.083333,1312,3.1808
+Black minus White,standardised,mar_never,Black | F x Middle x Single,0.083333,434,3.5295
+Black minus White,standardised,mar_never,White | F x Middle x Single,-0.083333,356,3.6495
+Black minus White,standardised,mar_never,Black | F x High x Married,0.083333,375,2.4523
+Black minus White,standardised,mar_never,White | F x High x Married,-0.083333,1727,2.3424
+Black minus White,standardised,mar_never,Black | F x High x Single,0.083333,214,3.1781
+Black minus White,standardised,mar_never,White | F x High x Single,-0.083333,325,2.9274
+Black minus White,standardised,mar_drop1819,Black | M x Low x Married,0.083333,236,2.341
+Black minus White,standardised,mar_drop1819,White | M x Low x Married,-0.083333,687,3.4483
+Black minus White,standardised,mar_drop1819,Black | M x Low x Single,0.083333,638,3.7672
+Black minus White,standardised,mar_drop1819,White | M x Low x Single,-0.083333,832,4.2276
+Black minus White,standardised,mar_drop1819,Black | M x Middle x Married,0.083333,607,2.3504
+Black minus White,standardised,mar_drop1819,White | M x Middle x Married,-0.083333,1535,2.3596
+Black minus White,standardised,mar_drop1819,Black | M x Middle x Single,0.083333,634,2.7071
+Black minus White,standardised,mar_drop1819,White | M x Middle x Single,-0.083333,826,3.3916
+Black minus White,standardised,mar_drop1819,Black | M x High x Married,0.083333,558,1.4859
+Black minus White,standardised,mar_drop1819,White | M x High x Married,-0.083333,1892,1.7424
+Black minus White,standardised,mar_drop1819,Black | M x High x Single,0.083333,307,2.0191
+Black minus White,standardised,mar_drop1819,White | M x High x Single,-0.083333,667,2.1539
+Black minus White,standardised,mar_drop1819,Black | F x Low x Married,0.083333,200,4.7533
+Black minus White,standardised,mar_drop1819,White | F x Low x Married,-0.083333,566,4.6507
+Black minus White,standardised,mar_drop1819,Black | F x Low x Single,0.083333,997,4.7636
+Black minus White,standardised,mar_drop1819,White | F x Low x Single,-0.083333,1087,5.505
+Black minus White,standardised,mar_drop1819,Black | F x Middle x Married,0.083333,434,2.9371
+Black minus White,standardised,mar_drop1819,White | F x Middle x Married,-0.083333,1312,3.1808
+Black minus White,standardised,mar_drop1819,Black | F x Middle x Single,0.083333,860,3.708
+Black minus White,standardised,mar_drop1819,White | F x Middle x Single,-0.083333,1125,3.8951
+Black minus White,standardised,mar_drop1819,Black | F x High x Married,0.083333,375,2.4523
+Black minus White,standardised,mar_drop1819,White | F x High x Married,-0.083333,1727,2.3424
+Black minus White,standardised,mar_drop1819,Black | F x High x Single,0.083333,388,3.1074
+Black minus White,standardised,mar_drop1819,White | F x High x Single,-0.083333,724,2.9183
+Black minus White,standardised,no_marital,Black | M x Low,0.166667,1106,3.293
+Black minus White,standardised,no_marital,White | M x Low,-0.166667,1788,3.9071
+Black minus White,standardised,no_marital,Black | M x Middle,0.166667,1436,2.5535
+Black minus White,standardised,no_marital,White | M x Middle,-0.166667,2597,2.7185
+Black minus White,standardised,no_marital,Black | M x High,0.166667,948,1.704
+Black minus White,standardised,no_marital,White | M x High,-0.166667,2796,1.918
+Black minus White,standardised,no_marital,Black | F x Low,0.166667,1416,4.7545
+Black minus White,standardised,no_marital,White | F x Low,-0.166667,1909,5.1974
+Black minus White,standardised,no_marital,Black | F x Middle,0.166667,1449,3.4448
+Black minus White,standardised,no_marital,White | F x Middle,-0.166667,2655,3.5625
+Black minus White,standardised,no_marital,Black | F x High,0.166667,818,2.8128
+Black minus White,standardised,no_marital,White | F x High,-0.166667,2621,2.5318
+Black minus White,standardised,income_alt,Black | M x Low x Married,0.083333,40,3.7714
+Black minus White,standardised,income_alt,White | M x Low x Married,-0.083333,101,4.0389
+Black minus White,standardised,income_alt,Black | M x Low x Single,0.083333,202,3.6598
+Black minus White,standardised,income_alt,White | M x Low x Single,-0.083333,207,5.4003
+Black minus White,standardised,income_alt,Black | M x Middle x Married,0.083333,274,1.7404
+Black minus White,standardised,income_alt,White | M x Middle x Married,-0.083333,724,2.0261
+Black minus White,standardised,income_alt,Black | M x Middle x Single,0.083333,140,2.2341
+Black minus White,standardised,income_alt,White | M x Middle x Single,-0.083333,241,2.5422
+Black minus White,standardised,income_alt,Black | M x High x Married,0.083333,216,1.2353
+Black minus White,standardised,income_alt,White | M x High x Married,-0.083333,836,1.7199
+Black minus White,standardised,income_alt,Black | M x High x Single,0.083333,61,1.4139
+Black minus White,standardised,income_alt,White | M x High x Single,-0.083333,245,1.9478
+Black minus White,standardised,income_alt,Black | F x Low x Married,0.083333,66,5.6872
+Black minus White,standardised,income_alt,White | F x Low x Married,-0.083333,119,5.615
+Black minus White,standardised,income_alt,Black | F x Low x Single,0.083333,430,5.6284
+Black minus White,standardised,income_alt,White | F x Low x Single,-0.083333,293,6.9869
+Black minus White,standardised,income_alt,Black | F x Middle x Married,0.083333,192,2.662
+Black minus White,standardised,income_alt,White | F x Middle x Married,-0.083333,665,2.693
+Black minus White,standardised,income_alt,Black | F x Middle x Single,0.083333,192,2.803
+Black minus White,standardised,income_alt,White | F x Middle x Single,-0.083333,279,3.7245
+Black minus White,standardised,income_alt,Black | F x High x Married,0.083333,157,1.8217
+Black minus White,standardised,income_alt,White | F x High x Married,-0.083333,769,2.1176
+Black minus White,standardised,income_alt,Black | F x High x Single,0.083333,100,3.064
+Black minus White,standardised,income_alt,White | F x High x Single,-0.083333,211,2.6174
+Black minus White,standardised,audit,Black | M x Low x Married,0.083333,236,2.341
+Black minus White,standardised,audit,White | M x Low x Married,-0.083333,687,3.4483
+Black minus White,standardised,audit,Black | M x Low x Single,0.083333,782,3.6477
+Black minus White,standardised,audit,White | M x Low x Single,-0.083333,1010,4.2732
+Black minus White,standardised,audit,Black | M x Middle x Married,0.083333,607,2.3504
+Black minus White,standardised,audit,White | M x Middle x Married,-0.083333,1535,2.3596
+Black minus White,standardised,audit,Black | M x Middle x Single,0.083333,781,2.7206
+Black minus White,standardised,audit,White | M x Middle x Single,-0.083333,991,3.1899
+Black minus White,standardised,audit,Black | M x High x Married,0.083333,558,1.4859
+Black minus White,standardised,audit,White | M x High x Married,-0.083333,1892,1.7424
+Black minus White,standardised,audit,Black | M x High x Single,0.083333,362,1.9853
+Black minus White,standardised,audit,White | M x High x Single,-0.083333,828,2.2875
+Black minus White,standardised,audit,Black | F x Low x Married,0.083333,200,4.7533
+Black minus White,standardised,audit,White | F x Low x Married,-0.083333,566,4.6507
+Black minus White,standardised,audit,Black | F x Low x Single,0.083333,1105,4.8214
+Black minus White,standardised,audit,White | F x Low x Single,-0.083333,1259,5.5346
+Black minus White,standardised,audit,Black | F x Middle x Married,0.083333,434,2.9371
+Black minus White,standardised,audit,White | F x Middle x Married,-0.083333,1312,3.1808
+Black minus White,standardised,audit,Black | F x Middle x Single,0.083333,959,3.6773
+Black minus White,standardised,audit,White | F x Middle x Single,-0.083333,1292,3.9784
+Black minus White,standardised,audit,Black | F x High x Married,0.083333,375,2.4523
+Black minus White,standardised,audit,White | F x High x Married,-0.083333,1727,2.3424
+Black minus White,standardised,audit,Black | F x High x Single,0.083333,426,3.1225
+Black minus White,standardised,audit,White | F x High x Single,-0.083333,842,2.9531
+Black minus White,standardised,pc_design,Black | M x Low x Single,0.166667,726,3.6211
+Black minus White,standardised,pc_design,White | M x Low x Single,-0.166667,923,4.0868
+Black minus White,standardised,pc_design,Black | M x Middle x Single,0.166667,680,2.6687
+Black minus White,standardised,pc_design,White | M x Middle x Single,-0.166667,897,3.372
+Black minus White,standardised,pc_design,Black | M x High x Single,0.166667,335,2.0086
+Black minus White,standardised,pc_design,White | M x High x Single,-0.166667,742,2.187
+Black minus White,standardised,pc_design,Black | F x Low x Single,0.166667,1108,4.6932
+Black minus White,standardised,pc_design,White | F x Low x Single,-0.166667,1170,5.3751
+Black minus White,standardised,pc_design,Black | F x Middle x Single,0.166667,915,3.6935
+Black minus White,standardised,pc_design,White | F x Middle x Single,-0.166667,1175,3.8725
+Black minus White,standardised,pc_design,Black | F x High x Single,0.166667,405,3.1078
+Black minus White,standardised,pc_design,White | F x High x Single,-0.166667,776,2.9081
+Hispanic minus White,marginal,primary,Hispanic,1.0,9309,3.1542
+Hispanic minus White,marginal,primary,White,-1.0,15181,2.9117
+Hispanic minus White,standardised,primary,Hispanic | M x Low x Married,0.083333,777,2.4954
+Hispanic minus White,standardised,primary,White | M x Low x Married,-0.083333,687,3.4483
+Hispanic minus White,standardised,primary,Hispanic | M x Low x Single,0.083333,617,3.3205
+Hispanic minus White,standardised,primary,White | M x Low x Single,-0.083333,923,4.0868
+Hispanic minus White,standardised,primary,Hispanic | M x Middle x Married,0.083333,921,1.9914
+Hispanic minus White,standardised,primary,White | M x Middle x Married,-0.083333,1535,2.3596
+Hispanic minus White,standardised,primary,Hispanic | M x Middle x Single,0.083333,540,3.1816
+Hispanic minus White,standardised,primary,White | M x Middle x Single,-0.083333,897,3.372
+Hispanic minus White,standardised,primary,Hispanic | M x High x Married,0.083333,427,1.5015
+Hispanic minus White,standardised,primary,White | M x High x Married,-0.083333,1892,1.7424
+Hispanic minus White,standardised,primary,Hispanic | M x High x Single,0.083333,209,3.0463
+Hispanic minus White,standardised,primary,White | M x High x Single,-0.083333,742,2.187
+Hispanic minus White,standardised,primary,Hispanic | F x Low x Married,0.083333,682,3.877
+Hispanic minus White,standardised,primary,White | F x Low x Married,-0.083333,566,4.6507
+Hispanic minus White,standardised,primary,Hispanic | F x Low x Single,0.083333,1003,4.5728
+Hispanic minus White,standardised,primary,White | F x Low x Single,-0.083333,1170,5.3751
+Hispanic minus White,standardised,primary,Hispanic | F x Middle x Married,0.083333,815,3.2808
+Hispanic minus White,standardised,primary,White | F x Middle x Married,-0.083333,1312,3.1808
+Hispanic minus White,standardised,primary,Hispanic | F x Middle x Single,0.083333,667,4.179
+Hispanic minus White,standardised,primary,White | F x Middle x Single,-0.083333,1175,3.8725
+Hispanic minus White,standardised,primary,Hispanic | F x High x Married,0.083333,441,2.7006
+Hispanic minus White,standardised,primary,White | F x High x Married,-0.083333,1727,2.3424
+Hispanic minus White,standardised,primary,Hispanic | F x High x Single,0.083333,224,3.1792
+Hispanic minus White,standardised,primary,White | F x High x Single,-0.083333,776,2.9081
+Hispanic minus White,standardised,mar_all,Hispanic | M x Low x Married,0.083333,777,2.4954
+Hispanic minus White,standardised,mar_all,White | M x Low x Married,-0.083333,687,3.4483
+Hispanic minus White,standardised,mar_all,Hispanic | M x Low x Single,0.083333,826,3.2359
+Hispanic minus White,standardised,mar_all,White | M x Low x Single,-0.083333,1101,4.1526
+Hispanic minus White,standardised,mar_all,Hispanic | M x Middle x Married,0.083333,921,1.9914
+Hispanic minus White,standardised,mar_all,White | M x Middle x Married,-0.083333,1535,2.3596
+Hispanic minus White,standardised,mar_all,Hispanic | M x Middle x Single,0.083333,686,3.067
+Hispanic minus White,standardised,mar_all,White | M x Middle x Single,-0.083333,1062,3.1855
+Hispanic minus White,standardised,mar_all,Hispanic | M x High x Married,0.083333,427,1.5015
+Hispanic minus White,standardised,mar_all,White | M x High x Married,-0.083333,1892,1.7424
+Hispanic minus White,standardised,mar_all,Hispanic | M x High x Single,0.083333,267,2.6897
+Hispanic minus White,standardised,mar_all,White | M x High x Single,-0.083333,903,2.305
+Hispanic minus White,standardised,mar_all,Hispanic | F x Low x Married,0.083333,682,3.877
+Hispanic minus White,standardised,mar_all,White | F x Low x Married,-0.083333,566,4.6507
+Hispanic minus White,standardised,mar_all,Hispanic | F x Low x Single,0.083333,1244,4.5525
+Hispanic minus White,standardised,mar_all,White | F x Low x Single,-0.083333,1342,5.424
+Hispanic minus White,standardised,mar_all,Hispanic | F x Middle x Married,0.083333,815,3.2808
+Hispanic minus White,standardised,mar_all,White | F x Middle x Married,-0.083333,1312,3.1808
+Hispanic minus White,standardised,mar_all,Hispanic | F x Middle x Single,0.083333,803,4.01
+Hispanic minus White,standardised,mar_all,White | F x Middle x Single,-0.083333,1342,3.9564
+Hispanic minus White,standardised,mar_all,Hispanic | F x High x Married,0.083333,441,2.7006
+Hispanic minus White,standardised,mar_all,White | F x High x Married,-0.083333,1727,2.3424
+Hispanic minus White,standardised,mar_all,Hispanic | F x High x Single,0.083333,278,2.9541
+Hispanic minus White,standardised,mar_all,White | F x High x Single,-0.083333,894,2.9427
+Hispanic minus White,standardised,mar_never,Hispanic | M x Low x Married,0.083333,777,2.4954
+Hispanic minus White,standardised,mar_never,White | M x Low x Married,-0.083333,687,3.4483
+Hispanic minus White,standardised,mar_never,Hispanic | M x Low x Single,0.083333,397,3.3307
+Hispanic minus White,standardised,mar_never,White | M x Low x Single,-0.083333,497,3.8185
+Hispanic minus White,standardised,mar_never,Hispanic | M x Middle x Married,0.083333,921,1.9914
+Hispanic minus White,standardised,mar_never,White | M x Middle x Married,-0.083333,1535,2.3596
+Hispanic minus White,standardised,mar_never,Hispanic | M x Middle x Single,0.083333,355,2.9549
+Hispanic minus White,standardised,mar_never,White | M x Middle x Single,-0.083333,434,3.0898
+Hispanic minus White,standardised,mar_never,Hispanic | M x High x Married,0.083333,427,1.5015
+Hispanic minus White,standardised,mar_never,White | M x High x Married,-0.083333,1892,1.7424
+Hispanic minus White,standardised,mar_never,Hispanic | M x High x Single,0.083333,117,3.1766
+Hispanic minus White,standardised,mar_never,White | M x High x Single,-0.083333,459,2.2506
+Hispanic minus White,standardised,mar_never,Hispanic | F x Low x Married,0.083333,682,3.877
+Hispanic minus White,standardised,mar_never,White | F x Low x Married,-0.083333,566,4.6507
+Hispanic minus White,standardised,mar_never,Hispanic | F x Low x Single,0.083333,464,4.1909
+Hispanic minus White,standardised,mar_never,White | F x Low x Single,-0.083333,391,4.6321
+Hispanic minus White,standardised,mar_never,Hispanic | F x Middle x Married,0.083333,815,3.2808
+Hispanic minus White,standardised,mar_never,White | F x Middle x Married,-0.083333,1312,3.1808
+Hispanic minus White,standardised,mar_never,Hispanic | F x Middle x Single,0.083333,302,3.6664
+Hispanic minus White,standardised,mar_never,White | F x Middle x Single,-0.083333,356,3.6495
+Hispanic minus White,standardised,mar_never,Hispanic | F x High x Married,0.083333,441,2.7006
+Hispanic minus White,standardised,mar_never,White | F x High x Married,-0.083333,1727,2.3424
+Hispanic minus White,standardised,mar_never,Hispanic | F x High x Single,0.083333,111,3.1087
+Hispanic minus White,standardised,mar_never,White | F x High x Single,-0.083333,325,2.9274
+Hispanic minus White,standardised,mar_drop1819,Hispanic | M x Low x Married,0.083333,777,2.4954
+Hispanic minus White,standardised,mar_drop1819,White | M x Low x Married,-0.083333,687,3.4483
+Hispanic minus White,standardised,mar_drop1819,Hispanic | M x Low x Single,0.083333,495,3.3814
+Hispanic minus White,standardised,mar_drop1819,White | M x Low x Single,-0.083333,832,4.2276
+Hispanic minus White,standardised,mar_drop1819,Hispanic | M x Middle x Married,0.083333,921,1.9914
+Hispanic minus White,standardised,mar_drop1819,White | M x Middle x Married,-0.083333,1535,2.3596
+Hispanic minus White,standardised,mar_drop1819,Hispanic | M x Middle x Single,0.083333,446,3.0988
+Hispanic minus White,standardised,mar_drop1819,White | M x Middle x Single,-0.083333,826,3.3916
+Hispanic minus White,standardised,mar_drop1819,Hispanic | M x High x Married,0.083333,427,1.5015
+Hispanic minus White,standardised,mar_drop1819,White | M x High x Married,-0.083333,1892,1.7424
+Hispanic minus White,standardised,mar_drop1819,Hispanic | M x High x Single,0.083333,185,3.1081
+Hispanic minus White,standardised,mar_drop1819,White | M x High x Single,-0.083333,667,2.1539
+Hispanic minus White,standardised,mar_drop1819,Hispanic | F x Low x Married,0.083333,682,3.877
+Hispanic minus White,standardised,mar_drop1819,White | F x Low x Married,-0.083333,566,4.6507
+Hispanic minus White,standardised,mar_drop1819,Hispanic | F x Low x Single,0.083333,861,4.7168
+Hispanic minus White,standardised,mar_drop1819,White | F x Low x Single,-0.083333,1087,5.505
+Hispanic minus White,standardised,mar_drop1819,Hispanic | F x Middle x Married,0.083333,815,3.2808
+Hispanic minus White,standardised,mar_drop1819,White | F x Middle x Married,-0.083333,1312,3.1808
+Hispanic minus White,standardised,mar_drop1819,Hispanic | F x Middle x Single,0.083333,588,4.2787
+Hispanic minus White,standardised,mar_drop1819,White | F x Middle x Single,-0.083333,1125,3.8951
+Hispanic minus White,standardised,mar_drop1819,Hispanic | F x High x Married,0.083333,441,2.7006
+Hispanic minus White,standardised,mar_drop1819,White | F x High x Married,-0.083333,1727,2.3424
+Hispanic minus White,standardised,mar_drop1819,Hispanic | F x High x Single,0.083333,204,3.0877
+Hispanic minus White,standardised,mar_drop1819,White | F x High x Single,-0.083333,724,2.9183
+Hispanic minus White,standardised,no_marital,Hispanic | M x Low,0.166667,1603,2.896
+Hispanic minus White,standardised,no_marital,White | M x Low,-0.166667,1788,3.9071
+Hispanic minus White,standardised,no_marital,Hispanic | M x Middle,0.166667,1609,2.4824
+Hispanic minus White,standardised,no_marital,White | M x Middle,-0.166667,2597,2.7185
+Hispanic minus White,standardised,no_marital,Hispanic | M x High,0.166667,694,1.9845
+Hispanic minus White,standardised,no_marital,White | M x High,-0.166667,2796,1.918
+Hispanic minus White,standardised,no_marital,Hispanic | F x Low,0.166667,1926,4.3097
+Hispanic minus White,standardised,no_marital,White | F x Low,-0.166667,1909,5.1974
+Hispanic minus White,standardised,no_marital,Hispanic | F x Middle,0.166667,1618,3.6376
+Hispanic minus White,standardised,no_marital,White | F x Middle,-0.166667,2655,3.5625
+Hispanic minus White,standardised,no_marital,Hispanic | F x High,0.166667,720,2.7977
+Hispanic minus White,standardised,no_marital,White | F x High,-0.166667,2621,2.5318
+Hispanic minus White,standardised,income_alt,Hispanic | M x Low x Married,0.083333,101,3.5568
+Hispanic minus White,standardised,income_alt,White | M x Low x Married,-0.083333,101,4.0389
+Hispanic minus White,standardised,income_alt,Hispanic | M x Low x Single,0.083333,106,4.9001
+Hispanic minus White,standardised,income_alt,White | M x Low x Single,-0.083333,207,5.4003
+Hispanic minus White,standardised,income_alt,Hispanic | M x Middle x Married,0.083333,309,1.6799
+Hispanic minus White,standardised,income_alt,White | M x Middle x Married,-0.083333,724,2.0261
+Hispanic minus White,standardised,income_alt,Hispanic | M x Middle x Single,0.083333,103,2.7128
+Hispanic minus White,standardised,income_alt,White | M x Middle x Single,-0.083333,241,2.5422
+Hispanic minus White,standardised,income_alt,Hispanic | M x High x Married,0.083333,187,1.5455
+Hispanic minus White,standardised,income_alt,White | M x High x Married,-0.083333,836,1.7199
+Hispanic minus White,standardised,income_alt,Hispanic | M x High x Single,0.083333,56,2.5169
+Hispanic minus White,standardised,income_alt,White | M x High x Single,-0.083333,245,1.9478
+Hispanic minus White,standardised,income_alt,Hispanic | F x Low x Married,0.083333,113,5.1005
+Hispanic minus White,standardised,income_alt,White | F x Low x Married,-0.083333,119,5.615
+Hispanic minus White,standardised,income_alt,Hispanic | F x Low x Single,0.083333,262,5.8565
+Hispanic minus White,standardised,income_alt,White | F x Low x Single,-0.083333,293,6.9869
+Hispanic minus White,standardised,income_alt,Hispanic | F x Middle x Married,0.083333,293,3.1619
+Hispanic minus White,standardised,income_alt,White | F x Middle x Married,-0.083333,665,2.693
+Hispanic minus White,standardised,income_alt,Hispanic | F x Middle x Single,0.083333,134,3.1387
+Hispanic minus White,standardised,income_alt,White | F x Middle x Single,-0.083333,279,3.7245
+Hispanic minus White,standardised,income_alt,Hispanic | F x High x Married,0.083333,185,2.3419
+Hispanic minus White,standardised,income_alt,White | F x High x Married,-0.083333,769,2.1176
+Hispanic minus White,standardised,income_alt,Hispanic | F x High x Single,0.083333,65,2.3952
+Hispanic minus White,standardised,income_alt,White | F x High x Single,-0.083333,211,2.6174
+Hispanic minus White,standardised,audit,Hispanic | M x Low x Married,0.083333,777,2.4954
+Hispanic minus White,standardised,audit,White | M x Low x Married,-0.083333,687,3.4483
+Hispanic minus White,standardised,audit,Hispanic | M x Low x Single,0.083333,704,3.266
+Hispanic minus White,standardised,audit,White | M x Low x Single,-0.083333,1010,4.2732
+Hispanic minus White,standardised,audit,Hispanic | M x Middle x Married,0.083333,921,1.9914
+Hispanic minus White,standardised,audit,White | M x Middle x Married,-0.083333,1535,2.3596
+Hispanic minus White,standardised,audit,Hispanic | M x Middle x Single,0.083333,592,2.9959
+Hispanic minus White,standardised,audit,White | M x Middle x Single,-0.083333,991,3.1899
+Hispanic minus White,standardised,audit,Hispanic | M x High x Married,0.083333,427,1.5015
+Hispanic minus White,standardised,audit,White | M x High x Married,-0.083333,1892,1.7424
+Hispanic minus White,standardised,audit,Hispanic | M x High x Single,0.083333,243,2.7136
+Hispanic minus White,standardised,audit,White | M x High x Single,-0.083333,828,2.2875
+Hispanic minus White,standardised,audit,Hispanic | F x Low x Married,0.083333,682,3.877
+Hispanic minus White,standardised,audit,White | F x Low x Married,-0.083333,566,4.6507
+Hispanic minus White,standardised,audit,Hispanic | F x Low x Single,0.083333,1102,4.6572
+Hispanic minus White,standardised,audit,White | F x Low x Single,-0.083333,1259,5.5346
+Hispanic minus White,standardised,audit,Hispanic | F x Middle x Married,0.083333,815,3.2808
+Hispanic minus White,standardised,audit,White | F x Middle x Married,-0.083333,1312,3.1808
+Hispanic minus White,standardised,audit,Hispanic | F x Middle x Single,0.083333,724,4.0722
+Hispanic minus White,standardised,audit,White | F x Middle x Single,-0.083333,1292,3.9784
+Hispanic minus White,standardised,audit,Hispanic | F x High x Married,0.083333,441,2.7006
+Hispanic minus White,standardised,audit,White | F x High x Married,-0.083333,1727,2.3424
+Hispanic minus White,standardised,audit,Hispanic | F x High x Single,0.083333,258,2.8714
+Hispanic minus White,standardised,audit,White | F x High x Single,-0.083333,842,2.9531
+Asian minus White,marginal,primary,Asian,1.0,2408,2.1565
+Asian minus White,marginal,primary,White,-1.0,15181,2.9117
+Asian minus White,standardised,primary,Asian | M x Low x Married,0.083333,119,2.0731
+Asian minus White,standardised,primary,White | M x Low x Married,-0.083333,687,3.4483
+Asian minus White,standardised,primary,Asian | M x Low x Single,0.083333,83,2.7081
+Asian minus White,standardised,primary,White | M x Low x Single,-0.083333,923,4.0868
+Asian minus White,standardised,primary,Asian | M x Middle x Married,0.083333,214,2.0973
+Asian minus White,standardised,primary,White | M x Middle x Married,-0.083333,1535,2.3596
+Asian minus White,standardised,primary,Asian | M x Middle x Single,0.083333,122,2.6401
+Asian minus White,standardised,primary,White | M x Middle x Single,-0.083333,897,3.372
+Asian minus White,standardised,primary,Asian | M x High x Married,0.083333,366,1.526
+Asian minus White,standardised,primary,White | M x High x Married,-0.083333,1892,1.7424
+Asian minus White,standardised,primary,Asian | M x High x Single,0.083333,128,2.177
+Asian minus White,standardised,primary,White | M x High x Single,-0.083333,742,2.187
+Asian minus White,standardised,primary,Asian | F x Low x Married,0.083333,112,2.2659
+Asian minus White,standardised,primary,White | F x Low x Married,-0.083333,566,4.6507
+Asian minus White,standardised,primary,Asian | F x Low x Single,0.083333,112,3.3364
+Asian minus White,standardised,primary,White | F x Low x Single,-0.083333,1170,5.3751
+Asian minus White,standardised,primary,Asian | F x Middle x Married,0.083333,205,2.022
+Asian minus White,standardised,primary,White | F x Middle x Married,-0.083333,1312,3.1808
+Asian minus White,standardised,primary,Asian | F x Middle x Single,0.083333,123,2.7423
+Asian minus White,standardised,primary,White | F x Middle x Single,-0.083333,1175,3.8725
+Asian minus White,standardised,primary,Asian | F x High x Married,0.083333,362,2.007
+Asian minus White,standardised,primary,White | F x High x Married,-0.083333,1727,2.3424
+Asian minus White,standardised,primary,Asian | F x High x Single,0.083333,128,2.4874
+Asian minus White,standardised,primary,White | F x High x Single,-0.083333,776,2.9081
+Asian minus White,standardised,mar_all,Asian | M x Low x Married,0.083333,119,2.0731
+Asian minus White,standardised,mar_all,White | M x Low x Married,-0.083333,687,3.4483
+Asian minus White,standardised,mar_all,Asian | M x Low x Single,0.083333,92,2.5757
+Asian minus White,standardised,mar_all,White | M x Low x Single,-0.083333,1101,4.1526
+Asian minus White,standardised,mar_all,Asian | M x Middle x Married,0.083333,214,2.0973
+Asian minus White,standardised,mar_all,White | M x Middle x Married,-0.083333,1535,2.3596
+Asian minus White,standardised,mar_all,Asian | M x Middle x Single,0.083333,138,2.5813
+Asian minus White,standardised,mar_all,White | M x Middle x Single,-0.083333,1062,3.1855
+Asian minus White,standardised,mar_all,Asian | M x High x Married,0.083333,366,1.526
+Asian minus White,standardised,mar_all,White | M x High x Married,-0.083333,1892,1.7424
+Asian minus White,standardised,mar_all,Asian | M x High x Single,0.083333,135,2.1033
+Asian minus White,standardised,mar_all,White | M x High x Single,-0.083333,903,2.305
+Asian minus White,standardised,mar_all,Asian | F x Low x Married,0.083333,112,2.2659
+Asian minus White,standardised,mar_all,White | F x Low x Married,-0.083333,566,4.6507
+Asian minus White,standardised,mar_all,Asian | F x Low x Single,0.083333,124,3.3989
+Asian minus White,standardised,mar_all,White | F x Low x Single,-0.083333,1342,5.424
+Asian minus White,standardised,mar_all,Asian | F x Middle x Married,0.083333,205,2.022
+Asian minus White,standardised,mar_all,White | F x Middle x Married,-0.083333,1312,3.1808
+Asian minus White,standardised,mar_all,Asian | F x Middle x Single,0.083333,138,2.7317
+Asian minus White,standardised,mar_all,White | F x Middle x Single,-0.083333,1342,3.9564
+Asian minus White,standardised,mar_all,Asian | F x High x Married,0.083333,362,2.007
+Asian minus White,standardised,mar_all,White | F x High x Married,-0.083333,1727,2.3424
+Asian minus White,standardised,mar_all,Asian | F x High x Single,0.083333,139,2.4642
+Asian minus White,standardised,mar_all,White | F x High x Single,-0.083333,894,2.9427
+Asian minus White,standardised,mar_never,Asian | M x Low x Married,0.083333,119,2.0731
+Asian minus White,standardised,mar_never,White | M x Low x Married,-0.083333,687,3.4483
+Asian minus White,standardised,mar_never,Asian | M x Low x Single,0.083333,65,2.4349
+Asian minus White,standardised,mar_never,White | M x Low x Single,-0.083333,497,3.8185
+Asian minus White,standardised,mar_never,Asian | M x Middle x Married,0.083333,214,2.0973
+Asian minus White,standardised,mar_never,White | M x Middle x Married,-0.083333,1535,2.3596
+Asian minus White,standardised,mar_never,Asian | M x Middle x Single,0.083333,109,2.7434
+Asian minus White,standardised,mar_never,White | M x Middle x Single,-0.083333,434,3.0898
+Asian minus White,standardised,mar_never,Asian | M x High x Married,0.083333,366,1.526
+Asian minus White,standardised,mar_never,White | M x High x Married,-0.083333,1892,1.7424
+Asian minus White,standardised,mar_never,Asian | M x High x Single,0.083333,100,2.2601
+Asian minus White,standardised,mar_never,White | M x High x Single,-0.083333,459,2.2506
+Asian minus White,standardised,mar_never,Asian | F x Low x Married,0.083333,112,2.2659
+Asian minus White,standardised,mar_never,White | F x Low x Married,-0.083333,566,4.6507
+Asian minus White,standardised,mar_never,Asian | F x Low x Single,0.083333,68,3.2765
+Asian minus White,standardised,mar_never,White | F x Low x Single,-0.083333,391,4.6321
+Asian minus White,standardised,mar_never,Asian | F x Middle x Married,0.083333,205,2.022
+Asian minus White,standardised,mar_never,White | F x Middle x Married,-0.083333,1312,3.1808
+Asian minus White,standardised,mar_never,Asian | F x Middle x Single,0.083333,70,2.457
+Asian minus White,standardised,mar_never,White | F x Middle x Single,-0.083333,356,3.6495
+Asian minus White,standardised,mar_never,Asian | F x High x Married,0.083333,362,2.007
+Asian minus White,standardised,mar_never,White | F x High x Married,-0.083333,1727,2.3424
+Asian minus White,standardised,mar_never,Asian | F x High x Single,0.083333,84,2.4002
+Asian minus White,standardised,mar_never,White | F x High x Single,-0.083333,325,2.9274
+Asian minus White,standardised,mar_drop1819,Asian | M x Low x Married,0.083333,119,2.0731
+Asian minus White,standardised,mar_drop1819,White | M x Low x Married,-0.083333,687,3.4483
+Asian minus White,standardised,mar_drop1819,Asian | M x Low x Single,0.083333,61,2.8116
+Asian minus White,standardised,mar_drop1819,White | M x Low x Single,-0.083333,832,4.2276
+Asian minus White,standardised,mar_drop1819,Asian | M x Middle x Married,0.083333,214,2.0973
+Asian minus White,standardised,mar_drop1819,White | M x Middle x Married,-0.083333,1535,2.3596
+Asian minus White,standardised,mar_drop1819,Asian | M x Middle x Single,0.083333,97,2.5837
+Asian minus White,standardised,mar_drop1819,White | M x Middle x Single,-0.083333,826,3.3916
+Asian minus White,standardised,mar_drop1819,Asian | M x High x Married,0.083333,366,1.526
+Asian minus White,standardised,mar_drop1819,White | M x High x Married,-0.083333,1892,1.7424
+Asian minus White,standardised,mar_drop1819,Asian | M x High x Single,0.083333,118,2.1604
+Asian minus White,standardised,mar_drop1819,White | M x High x Single,-0.083333,667,2.1539
+Asian minus White,standardised,mar_drop1819,Asian | F x Low x Married,0.083333,112,2.2659
+Asian minus White,standardised,mar_drop1819,White | F x Low x Married,-0.083333,566,4.6507
+Asian minus White,standardised,mar_drop1819,Asian | F x Low x Single,0.083333,92,3.3491
+Asian minus White,standardised,mar_drop1819,White | F x Low x Single,-0.083333,1087,5.505
+Asian minus White,standardised,mar_drop1819,Asian | F x Middle x Married,0.083333,205,2.022
+Asian minus White,standardised,mar_drop1819,White | F x Middle x Married,-0.083333,1312,3.1808
+Asian minus White,standardised,mar_drop1819,Asian | F x Middle x Single,0.083333,108,2.7806
+Asian minus White,standardised,mar_drop1819,White | F x Middle x Single,-0.083333,1125,3.8951
+Asian minus White,standardised,mar_drop1819,Asian | F x High x Married,0.083333,362,2.007
+Asian minus White,standardised,mar_drop1819,White | F x High x Married,-0.083333,1727,2.3424
+Asian minus White,standardised,mar_drop1819,Asian | F x High x Single,0.083333,117,2.3956
+Asian minus White,standardised,mar_drop1819,White | F x High x Single,-0.083333,724,2.9183
+Asian minus White,standardised,no_marital,Asian | M x Low,0.166667,211,2.2842
+Asian minus White,standardised,no_marital,White | M x Low,-0.166667,1788,3.9071
+Asian minus White,standardised,no_marital,Asian | M x Middle,0.166667,352,2.2918
+Asian minus White,standardised,no_marital,White | M x Middle,-0.166667,2597,2.7185
+Asian minus White,standardised,no_marital,Asian | M x High,0.166667,501,1.6927
+Asian minus White,standardised,no_marital,White | M x High,-0.166667,2796,1.918
+Asian minus White,standardised,no_marital,Asian | F x Low,0.166667,237,2.8471
+Asian minus White,standardised,no_marital,White | F x Low,-0.166667,1909,5.1974
+Asian minus White,standardised,no_marital,Asian | F x Middle,0.166667,343,2.3033
+Asian minus White,standardised,no_marital,White | F x Middle,-0.166667,2655,3.5625
+Asian minus White,standardised,no_marital,Asian | F x High,0.166667,501,2.1341
+Asian minus White,standardised,no_marital,White | F x High,-0.166667,2621,2.5318
+Asian minus White,standardised,income_alt,Asian | M x Low x Married,0.083333,29,2.262
+Asian minus White,standardised,income_alt,White | M x Low x Married,-0.083333,101,4.0389
+Asian minus White,standardised,income_alt,Asian | M x Low x Single,0.083333,16,2.9323
+Asian minus White,standardised,income_alt,White | M x Low x Single,-0.083333,207,5.4003
+Asian minus White,standardised,income_alt,Asian | M x Middle x Married,0.083333,134,1.4718
+Asian minus White,standardised,income_alt,White | M x Middle x Married,-0.083333,724,2.0261
+Asian minus White,standardised,income_alt,Asian | M x Middle x Single,0.083333,43,2.5465
+Asian minus White,standardised,income_alt,White | M x Middle x Single,-0.083333,241,2.5422
+Asian minus White,standardised,income_alt,Asian | M x High x Married,0.083333,233,1.6905
+Asian minus White,standardised,income_alt,White | M x High x Married,-0.083333,836,1.7199
+Asian minus White,standardised,income_alt,Asian | M x High x Single,0.083333,73,2.1734
+Asian minus White,standardised,income_alt,White | M x High x Single,-0.083333,245,1.9478
+Asian minus White,standardised,income_alt,Asian | F x Low x Married,0.083333,27,1.9766
+Asian minus White,standardised,income_alt,White | F x Low x Married,-0.083333,119,5.615
+Asian minus White,standardised,income_alt,Asian | F x Low x Single,0.083333,24,3.0769
+Asian minus White,standardised,income_alt,White | F x Low x Single,-0.083333,293,6.9869
+Asian minus White,standardised,income_alt,Asian | F x Middle x Married,0.083333,131,2.2431
+Asian minus White,standardised,income_alt,White | F x Middle x Married,-0.083333,665,2.693
+Asian minus White,standardised,income_alt,Asian | F x Middle x Single,0.083333,57,2.5401
+Asian minus White,standardised,income_alt,White | F x Middle x Single,-0.083333,279,3.7245
+Asian minus White,standardised,income_alt,Asian | F x High x Married,0.083333,229,1.8699
+Asian minus White,standardised,income_alt,White | F x High x Married,-0.083333,769,2.1176
+Asian minus White,standardised,income_alt,Asian | F x High x Single,0.083333,73,1.8774
+Asian minus White,standardised,income_alt,White | F x High x Single,-0.083333,211,2.6174
+Asian minus White,marginal,asian_era,Asian,1.0,2408,2.1565
+Asian minus White,marginal,asian_era,White,-1.0,7654,2.9964
+Asian minus White,standardised,asian_era,Asian | M x Low x Married,0.083333,119,2.0731
+Asian minus White,standardised,asian_era,White | M x Low x Married,-0.083333,363,3.3588
+Asian minus White,standardised,asian_era,Asian | M x Low x Single,0.083333,83,2.7081
+Asian minus White,standardised,asian_era,White | M x Low x Single,-0.083333,519,4.1055
+Asian minus White,standardised,asian_era,Asian | M x Middle x Married,0.083333,214,2.0973
+Asian minus White,standardised,asian_era,White | M x Middle x Married,-0.083333,735,2.5142
+Asian minus White,standardised,asian_era,Asian | M x Middle x Single,0.083333,122,2.6401
+Asian minus White,standardised,asian_era,White | M x Middle x Single,-0.083333,496,3.6065
+Asian minus White,standardised,asian_era,Asian | M x High x Married,0.083333,366,1.526
+Asian minus White,standardised,asian_era,White | M x High x Married,-0.083333,863,1.7937
+Asian minus White,standardised,asian_era,Asian | M x High x Single,0.083333,128,2.177
+Asian minus White,standardised,asian_era,White | M x High x Single,-0.083333,349,1.9751
+Asian minus White,standardised,asian_era,Asian | F x Low x Married,0.083333,112,2.2659
+Asian minus White,standardised,asian_era,White | F x Low x Married,-0.083333,302,4.5295
+Asian minus White,standardised,asian_era,Asian | F x Low x Single,0.083333,112,3.3364
+Asian minus White,standardised,asian_era,White | F x Low x Single,-0.083333,636,5.5319
+Asian minus White,standardised,asian_era,Asian | F x Middle x Married,0.083333,205,2.022
+Asian minus White,standardised,asian_era,White | F x Middle x Married,-0.083333,633,3.3469
+Asian minus White,standardised,asian_era,Asian | F x Middle x Single,0.083333,123,2.7423
+Asian minus White,standardised,asian_era,White | F x Middle x Single,-0.083333,635,4.1073
+Asian minus White,standardised,asian_era,Asian | F x High x Married,0.083333,362,2.007
+Asian minus White,standardised,asian_era,White | F x High x Married,-0.083333,804,2.2295
+Asian minus White,standardised,asian_era,Asian | F x High x Single,0.083333,128,2.4874
+Asian minus White,standardised,asian_era,White | F x High x Single,-0.083333,358,3.0519
+Asian minus White,standardised,audit,Asian | M x Low x Married,0.083333,119,2.0731
+Asian minus White,standardised,audit,White | M x Low x Married,-0.083333,687,3.4483
+Asian minus White,standardised,audit,Asian | M x Low x Single,0.083333,70,2.643
+Asian minus White,standardised,audit,White | M x Low x Single,-0.083333,1010,4.2732
+Asian minus White,standardised,audit,Asian | M x Middle x Married,0.083333,214,2.0973
+Asian minus White,standardised,audit,White | M x Middle x Married,-0.083333,1535,2.3596
+Asian minus White,standardised,audit,Asian | M x Middle x Single,0.083333,113,2.5258
+Asian minus White,standardised,audit,White | M x Middle x Single,-0.083333,991,3.1899
+Asian minus White,standardised,audit,Asian | M x High x Married,0.083333,366,1.526
+Asian minus White,standardised,audit,White | M x High x Married,-0.083333,1892,1.7424
+Asian minus White,standardised,audit,Asian | M x High x Single,0.083333,125,2.0841
+Asian minus White,standardised,audit,White | M x High x Single,-0.083333,828,2.2875
+Asian minus White,standardised,audit,Asian | F x Low x Married,0.083333,112,2.2659
+Asian minus White,standardised,audit,White | F x Low x Married,-0.083333,566,4.6507
+Asian minus White,standardised,audit,Asian | F x Low x Single,0.083333,104,3.4151
+Asian minus White,standardised,audit,White | F x Low x Single,-0.083333,1259,5.5346
+Asian minus White,standardised,audit,Asian | F x Middle x Married,0.083333,205,2.022
+Asian minus White,standardised,audit,White | F x Middle x Married,-0.083333,1312,3.1808
+Asian minus White,standardised,audit,Asian | F x Middle x Single,0.083333,123,2.7643
+Asian minus White,standardised,audit,White | F x Middle x Single,-0.083333,1292,3.9784
+Asian minus White,standardised,audit,Asian | F x High x Married,0.083333,362,2.007
+Asian minus White,standardised,audit,White | F x High x Married,-0.083333,1727,2.3424
+Asian minus White,standardised,audit,Asian | F x High x Single,0.083333,128,2.3786
+Asian minus White,standardised,audit,White | F x High x Single,-0.083333,842,2.9531
+Women minus Men,marginal,primary,F,1.0,18457,3.4425
+Women minus Men,marginal,primary,M,-1.0,17817,2.5045
+Women minus Men,standardised,primary,F | White x Low x Married,0.041667,566,4.6507
+Women minus Men,standardised,primary,M | White x Low x Married,-0.041667,687,3.4483
+Women minus Men,standardised,primary,F | White x Low x Single,0.041667,1170,5.3751
+Women minus Men,standardised,primary,M | White x Low x Single,-0.041667,923,4.0868
+Women minus Men,standardised,primary,F | White x Middle x Married,0.041667,1312,3.1808
+Women minus Men,standardised,primary,M | White x Middle x Married,-0.041667,1535,2.3596
+Women minus Men,standardised,primary,F | White x Middle x Single,0.041667,1175,3.8725
+Women minus Men,standardised,primary,M | White x Middle x Single,-0.041667,897,3.372
+Women minus Men,standardised,primary,F | White x High x Married,0.041667,1727,2.3424
+Women minus Men,standardised,primary,M | White x High x Married,-0.041667,1892,1.7424
+Women minus Men,standardised,primary,F | White x High x Single,0.041667,776,2.9081
+Women minus Men,standardised,primary,M | White x High x Single,-0.041667,742,2.187
+Women minus Men,standardised,primary,F | Black x Low x Married,0.041667,200,4.7533
+Women minus Men,standardised,primary,M | Black x Low x Married,-0.041667,236,2.341
+Women minus Men,standardised,primary,F | Black x Low x Single,0.041667,1108,4.6932
+Women minus Men,standardised,primary,M | Black x Low x Single,-0.041667,726,3.6211
+Women minus Men,standardised,primary,F | Black x Middle x Married,0.041667,434,2.9371
+Women minus Men,standardised,primary,M | Black x Middle x Married,-0.041667,607,2.3504
+Women minus Men,standardised,primary,F | Black x Middle x Single,0.041667,915,3.6935
+Women minus Men,standardised,primary,M | Black x Middle x Single,-0.041667,680,2.6687
+Women minus Men,standardised,primary,F | Black x High x Married,0.041667,375,2.4523
+Women minus Men,standardised,primary,M | Black x High x Married,-0.041667,558,1.4859
+Women minus Men,standardised,primary,F | Black x High x Single,0.041667,405,3.1078
+Women minus Men,standardised,primary,M | Black x High x Single,-0.041667,335,2.0086
+Women minus Men,standardised,primary,F | Hispanic x Low x Married,0.041667,682,3.877
+Women minus Men,standardised,primary,M | Hispanic x Low x Married,-0.041667,777,2.4954
+Women minus Men,standardised,primary,F | Hispanic x Low x Single,0.041667,1003,4.5728
+Women minus Men,standardised,primary,M | Hispanic x Low x Single,-0.041667,617,3.3205
+Women minus Men,standardised,primary,F | Hispanic x Middle x Married,0.041667,815,3.2808
+Women minus Men,standardised,primary,M | Hispanic x Middle x Married,-0.041667,921,1.9914
+Women minus Men,standardised,primary,F | Hispanic x Middle x Single,0.041667,667,4.179
+Women minus Men,standardised,primary,M | Hispanic x Middle x Single,-0.041667,540,3.1816
+Women minus Men,standardised,primary,F | Hispanic x High x Married,0.041667,441,2.7006
+Women minus Men,standardised,primary,M | Hispanic x High x Married,-0.041667,427,1.5015
+Women minus Men,standardised,primary,F | Hispanic x High x Single,0.041667,224,3.1792
+Women minus Men,standardised,primary,M | Hispanic x High x Single,-0.041667,209,3.0463
+Women minus Men,standardised,primary,F | Asian x Low x Married,0.041667,112,2.2659
+Women minus Men,standardised,primary,M | Asian x Low x Married,-0.041667,119,2.0731
+Women minus Men,standardised,primary,F | Asian x Low x Single,0.041667,112,3.3364
+Women minus Men,standardised,primary,M | Asian x Low x Single,-0.041667,83,2.7081
+Women minus Men,standardised,primary,F | Asian x Middle x Married,0.041667,205,2.022
+Women minus Men,standardised,primary,M | Asian x Middle x Married,-0.041667,214,2.0973
+Women minus Men,standardised,primary,F | Asian x Middle x Single,0.041667,123,2.7423
+Women minus Men,standardised,primary,M | Asian x Middle x Single,-0.041667,122,2.6401
+Women minus Men,standardised,primary,F | Asian x High x Married,0.041667,362,2.007
+Women minus Men,standardised,primary,M | Asian x High x Married,-0.041667,366,1.526
+Women minus Men,standardised,primary,F | Asian x High x Single,0.041667,128,2.4874
+Women minus Men,standardised,primary,M | Asian x High x Single,-0.041667,128,2.177
+Women minus Men,standardised,mar_all,F | White x Low x Married,0.041667,566,4.6507
+Women minus Men,standardised,mar_all,M | White x Low x Married,-0.041667,687,3.4483
+Women minus Men,standardised,mar_all,F | White x Low x Single,0.041667,1342,5.424
+Women minus Men,standardised,mar_all,M | White x Low x Single,-0.041667,1101,4.1526
+Women minus Men,standardised,mar_all,F | White x Middle x Married,0.041667,1312,3.1808
+Women minus Men,standardised,mar_all,M | White x Middle x Married,-0.041667,1535,2.3596
+Women minus Men,standardised,mar_all,F | White x Middle x Single,0.041667,1342,3.9564
+Women minus Men,standardised,mar_all,M | White x Middle x Single,-0.041667,1062,3.1855
+Women minus Men,standardised,mar_all,F | White x High x Married,0.041667,1727,2.3424
+Women minus Men,standardised,mar_all,M | White x High x Married,-0.041667,1892,1.7424
+Women minus Men,standardised,mar_all,F | White x High x Single,0.041667,894,2.9427
+Women minus Men,standardised,mar_all,M | White x High x Single,-0.041667,903,2.305
+Women minus Men,standardised,mar_all,F | Black x Low x Married,0.041667,200,4.7533
+Women minus Men,standardised,mar_all,M | Black x Low x Married,-0.041667,236,2.341
+Women minus Men,standardised,mar_all,F | Black x Low x Single,0.041667,1216,4.7547
+Women minus Men,standardised,mar_all,M | Black x Low x Single,-0.041667,870,3.5406
+Women minus Men,standardised,mar_all,F | Black x Middle x Married,0.041667,434,2.9371
+Women minus Men,standardised,mar_all,M | Black x Middle x Married,-0.041667,607,2.3504
+Women minus Men,standardised,mar_all,F | Black x Middle x Single,0.041667,1014,3.6656
+Women minus Men,standardised,mar_all,M | Black x Middle x Single,-0.041667,827,2.6896
+Women minus Men,standardised,mar_all,F | Black x High x Married,0.041667,375,2.4523
+Women minus Men,standardised,mar_all,M | Black x High x Married,-0.041667,558,1.4859
+Women minus Men,standardised,mar_all,F | Black x High x Single,0.041667,443,3.1224
+Women minus Men,standardised,mar_all,M | Black x High x Single,-0.041667,390,1.9781
+Women minus Men,standardised,mar_all,F | Hispanic x Low x Married,0.041667,682,3.877
+Women minus Men,standardised,mar_all,M | Hispanic x Low x Married,-0.041667,777,2.4954
+Women minus Men,standardised,mar_all,F | Hispanic x Low x Single,0.041667,1244,4.5525
+Women minus Men,standardised,mar_all,M | Hispanic x Low x Single,-0.041667,826,3.2359
+Women minus Men,standardised,mar_all,F | Hispanic x Middle x Married,0.041667,815,3.2808
+Women minus Men,standardised,mar_all,M | Hispanic x Middle x Married,-0.041667,921,1.9914
+Women minus Men,standardised,mar_all,F | Hispanic x Middle x Single,0.041667,803,4.01
+Women minus Men,standardised,mar_all,M | Hispanic x Middle x Single,-0.041667,686,3.067
+Women minus Men,standardised,mar_all,F | Hispanic x High x Married,0.041667,441,2.7006
+Women minus Men,standardised,mar_all,M | Hispanic x High x Married,-0.041667,427,1.5015
+Women minus Men,standardised,mar_all,F | Hispanic x High x Single,0.041667,278,2.9541
+Women minus Men,standardised,mar_all,M | Hispanic x High x Single,-0.041667,267,2.6897
+Women minus Men,standardised,mar_all,F | Asian x Low x Married,0.041667,112,2.2659
+Women minus Men,standardised,mar_all,M | Asian x Low x Married,-0.041667,119,2.0731
+Women minus Men,standardised,mar_all,F | Asian x Low x Single,0.041667,124,3.3989
+Women minus Men,standardised,mar_all,M | Asian x Low x Single,-0.041667,92,2.5757
+Women minus Men,standardised,mar_all,F | Asian x Middle x Married,0.041667,205,2.022
+Women minus Men,standardised,mar_all,M | Asian x Middle x Married,-0.041667,214,2.0973
+Women minus Men,standardised,mar_all,F | Asian x Middle x Single,0.041667,138,2.7317
+Women minus Men,standardised,mar_all,M | Asian x Middle x Single,-0.041667,138,2.5813
+Women minus Men,standardised,mar_all,F | Asian x High x Married,0.041667,362,2.007
+Women minus Men,standardised,mar_all,M | Asian x High x Married,-0.041667,366,1.526
+Women minus Men,standardised,mar_all,F | Asian x High x Single,0.041667,139,2.4642
+Women minus Men,standardised,mar_all,M | Asian x High x Single,-0.041667,135,2.1033
+Women minus Men,standardised,mar_never,F | White x Low x Married,0.041667,566,4.6507
+Women minus Men,standardised,mar_never,M | White x Low x Married,-0.041667,687,3.4483
+Women minus Men,standardised,mar_never,F | White x Low x Single,0.041667,391,4.6321
+Women minus Men,standardised,mar_never,M | White x Low x Single,-0.041667,497,3.8185
+Women minus Men,standardised,mar_never,F | White x Middle x Married,0.041667,1312,3.1808
+Women minus Men,standardised,mar_never,M | White x Middle x Married,-0.041667,1535,2.3596
+Women minus Men,standardised,mar_never,F | White x Middle x Single,0.041667,356,3.6495
+Women minus Men,standardised,mar_never,M | White x Middle x Single,-0.041667,434,3.0898
+Women minus Men,standardised,mar_never,F | White x High x Married,0.041667,1727,2.3424
+Women minus Men,standardised,mar_never,M | White x High x Married,-0.041667,1892,1.7424
+Women minus Men,standardised,mar_never,F | White x High x Single,0.041667,325,2.9274
+Women minus Men,standardised,mar_never,M | White x High x Single,-0.041667,459,2.2506
+Women minus Men,standardised,mar_never,F | Black x Low x Married,0.041667,200,4.7533
+Women minus Men,standardised,mar_never,M | Black x Low x Married,-0.041667,236,2.341
+Women minus Men,standardised,mar_never,F | Black x Low x Single,0.041667,651,4.625
+Women minus Men,standardised,mar_never,M | Black x Low x Single,-0.041667,458,3.5501
+Women minus Men,standardised,mar_never,F | Black x Middle x Married,0.041667,434,2.9371
+Women minus Men,standardised,mar_never,M | Black x Middle x Married,-0.041667,607,2.3504
+Women minus Men,standardised,mar_never,F | Black x Middle x Single,0.041667,434,3.5295
+Women minus Men,standardised,mar_never,M | Black x Middle x Single,-0.041667,406,2.6682
+Women minus Men,standardised,mar_never,F | Black x High x Married,0.041667,375,2.4523
+Women minus Men,standardised,mar_never,M | Black x High x Married,-0.041667,558,1.4859
+Women minus Men,standardised,mar_never,F | Black x High x Single,0.041667,214,3.1781
+Women minus Men,standardised,mar_never,M | Black x High x Single,-0.041667,200,1.9686
+Women minus Men,standardised,mar_never,F | Hispanic x Low x Married,0.041667,682,3.877
+Women minus Men,standardised,mar_never,M | Hispanic x Low x Married,-0.041667,777,2.4954
+Women minus Men,standardised,mar_never,F | Hispanic x Low x Single,0.041667,464,4.1909
+Women minus Men,standardised,mar_never,M | Hispanic x Low x Single,-0.041667,397,3.3307
+Women minus Men,standardised,mar_never,F | Hispanic x Middle x Married,0.041667,815,3.2808
+Women minus Men,standardised,mar_never,M | Hispanic x Middle x Married,-0.041667,921,1.9914
+Women minus Men,standardised,mar_never,F | Hispanic x Middle x Single,0.041667,302,3.6664
+Women minus Men,standardised,mar_never,M | Hispanic x Middle x Single,-0.041667,355,2.9549
+Women minus Men,standardised,mar_never,F | Hispanic x High x Married,0.041667,441,2.7006
+Women minus Men,standardised,mar_never,M | Hispanic x High x Married,-0.041667,427,1.5015
+Women minus Men,standardised,mar_never,F | Hispanic x High x Single,0.041667,111,3.1087
+Women minus Men,standardised,mar_never,M | Hispanic x High x Single,-0.041667,117,3.1766
+Women minus Men,standardised,mar_never,F | Asian x Low x Married,0.041667,112,2.2659
+Women minus Men,standardised,mar_never,M | Asian x Low x Married,-0.041667,119,2.0731
+Women minus Men,standardised,mar_never,F | Asian x Low x Single,0.041667,68,3.2765
+Women minus Men,standardised,mar_never,M | Asian x Low x Single,-0.041667,65,2.4349
+Women minus Men,standardised,mar_never,F | Asian x Middle x Married,0.041667,205,2.022
+Women minus Men,standardised,mar_never,M | Asian x Middle x Married,-0.041667,214,2.0973
+Women minus Men,standardised,mar_never,F | Asian x Middle x Single,0.041667,70,2.457
+Women minus Men,standardised,mar_never,M | Asian x Middle x Single,-0.041667,109,2.7434
+Women minus Men,standardised,mar_never,F | Asian x High x Married,0.041667,362,2.007
+Women minus Men,standardised,mar_never,M | Asian x High x Married,-0.041667,366,1.526
+Women minus Men,standardised,mar_never,F | Asian x High x Single,0.041667,84,2.4002
+Women minus Men,standardised,mar_never,M | Asian x High x Single,-0.041667,100,2.2601
+Women minus Men,standardised,mar_drop1819,F | White x Low x Married,0.041667,566,4.6507
+Women minus Men,standardised,mar_drop1819,M | White x Low x Married,-0.041667,687,3.4483
+Women minus Men,standardised,mar_drop1819,F | White x Low x Single,0.041667,1087,5.505
+Women minus Men,standardised,mar_drop1819,M | White x Low x Single,-0.041667,832,4.2276
+Women minus Men,standardised,mar_drop1819,F | White x Middle x Married,0.041667,1312,3.1808
+Women minus Men,standardised,mar_drop1819,M | White x Middle x Married,-0.041667,1535,2.3596
+Women minus Men,standardised,mar_drop1819,F | White x Middle x Single,0.041667,1125,3.8951
+Women minus Men,standardised,mar_drop1819,M | White x Middle x Single,-0.041667,826,3.3916
+Women minus Men,standardised,mar_drop1819,F | White x High x Married,0.041667,1727,2.3424
+Women minus Men,standardised,mar_drop1819,M | White x High x Married,-0.041667,1892,1.7424
+Women minus Men,standardised,mar_drop1819,F | White x High x Single,0.041667,724,2.9183
+Women minus Men,standardised,mar_drop1819,M | White x High x Single,-0.041667,667,2.1539
+Women minus Men,standardised,mar_drop1819,F | Black x Low x Married,0.041667,200,4.7533
+Women minus Men,standardised,mar_drop1819,M | Black x Low x Married,-0.041667,236,2.341
+Women minus Men,standardised,mar_drop1819,F | Black x Low x Single,0.041667,997,4.7636
+Women minus Men,standardised,mar_drop1819,M | Black x Low x Single,-0.041667,638,3.7672
+Women minus Men,standardised,mar_drop1819,F | Black x Middle x Married,0.041667,434,2.9371
+Women minus Men,standardised,mar_drop1819,M | Black x Middle x Married,-0.041667,607,2.3504
+Women minus Men,standardised,mar_drop1819,F | Black x Middle x Single,0.041667,860,3.708
+Women minus Men,standardised,mar_drop1819,M | Black x Middle x Single,-0.041667,634,2.7071
+Women minus Men,standardised,mar_drop1819,F | Black x High x Married,0.041667,375,2.4523
+Women minus Men,standardised,mar_drop1819,M | Black x High x Married,-0.041667,558,1.4859
+Women minus Men,standardised,mar_drop1819,F | Black x High x Single,0.041667,388,3.1074
+Women minus Men,standardised,mar_drop1819,M | Black x High x Single,-0.041667,307,2.0191
+Women minus Men,standardised,mar_drop1819,F | Hispanic x Low x Married,0.041667,682,3.877
+Women minus Men,standardised,mar_drop1819,M | Hispanic x Low x Married,-0.041667,777,2.4954
+Women minus Men,standardised,mar_drop1819,F | Hispanic x Low x Single,0.041667,861,4.7168
+Women minus Men,standardised,mar_drop1819,M | Hispanic x Low x Single,-0.041667,495,3.3814
+Women minus Men,standardised,mar_drop1819,F | Hispanic x Middle x Married,0.041667,815,3.2808
+Women minus Men,standardised,mar_drop1819,M | Hispanic x Middle x Married,-0.041667,921,1.9914
+Women minus Men,standardised,mar_drop1819,F | Hispanic x Middle x Single,0.041667,588,4.2787
+Women minus Men,standardised,mar_drop1819,M | Hispanic x Middle x Single,-0.041667,446,3.0988
+Women minus Men,standardised,mar_drop1819,F | Hispanic x High x Married,0.041667,441,2.7006
+Women minus Men,standardised,mar_drop1819,M | Hispanic x High x Married,-0.041667,427,1.5015
+Women minus Men,standardised,mar_drop1819,F | Hispanic x High x Single,0.041667,204,3.0877
+Women minus Men,standardised,mar_drop1819,M | Hispanic x High x Single,-0.041667,185,3.1081
+Women minus Men,standardised,mar_drop1819,F | Asian x Low x Married,0.041667,112,2.2659
+Women minus Men,standardised,mar_drop1819,M | Asian x Low x Married,-0.041667,119,2.0731
+Women minus Men,standardised,mar_drop1819,F | Asian x Low x Single,0.041667,92,3.3491
+Women minus Men,standardised,mar_drop1819,M | Asian x Low x Single,-0.041667,61,2.8116
+Women minus Men,standardised,mar_drop1819,F | Asian x Middle x Married,0.041667,205,2.022
+Women minus Men,standardised,mar_drop1819,M | Asian x Middle x Married,-0.041667,214,2.0973
+Women minus Men,standardised,mar_drop1819,F | Asian x Middle x Single,0.041667,108,2.7806
+Women minus Men,standardised,mar_drop1819,M | Asian x Middle x Single,-0.041667,97,2.5837
+Women minus Men,standardised,mar_drop1819,F | Asian x High x Married,0.041667,362,2.007
+Women minus Men,standardised,mar_drop1819,M | Asian x High x Married,-0.041667,366,1.526
+Women minus Men,standardised,mar_drop1819,F | Asian x High x Single,0.041667,117,2.3956
+Women minus Men,standardised,mar_drop1819,M | Asian x High x Single,-0.041667,118,2.1604
+Women minus Men,standardised,no_marital,F | White x Low,0.083333,1909,5.1974
+Women minus Men,standardised,no_marital,M | White x Low,-0.083333,1788,3.9071
+Women minus Men,standardised,no_marital,F | White x Middle,0.083333,2655,3.5625
+Women minus Men,standardised,no_marital,M | White x Middle,-0.083333,2597,2.7185
+Women minus Men,standardised,no_marital,F | White x High,0.083333,2621,2.5318
+Women minus Men,standardised,no_marital,M | White x High,-0.083333,2796,1.918
+Women minus Men,standardised,no_marital,F | Black x Low,0.083333,1416,4.7545
+Women minus Men,standardised,no_marital,M | Black x Low,-0.083333,1106,3.293
+Women minus Men,standardised,no_marital,F | Black x Middle,0.083333,1449,3.4448
+Women minus Men,standardised,no_marital,M | Black x Middle,-0.083333,1436,2.5535
+Women minus Men,standardised,no_marital,F | Black x High,0.083333,818,2.8128
+Women minus Men,standardised,no_marital,M | Black x High,-0.083333,948,1.704
+Women minus Men,standardised,no_marital,F | Hispanic x Low,0.083333,1926,4.3097
+Women minus Men,standardised,no_marital,M | Hispanic x Low,-0.083333,1603,2.896
+Women minus Men,standardised,no_marital,F | Hispanic x Middle,0.083333,1618,3.6376
+Women minus Men,standardised,no_marital,M | Hispanic x Middle,-0.083333,1609,2.4824
+Women minus Men,standardised,no_marital,F | Hispanic x High,0.083333,720,2.7977
+Women minus Men,standardised,no_marital,M | Hispanic x High,-0.083333,694,1.9845
+Women minus Men,standardised,no_marital,F | Asian x Low,0.083333,237,2.8471
+Women minus Men,standardised,no_marital,M | Asian x Low,-0.083333,211,2.2842
+Women minus Men,standardised,no_marital,F | Asian x Middle,0.083333,343,2.3033
+Women minus Men,standardised,no_marital,M | Asian x Middle,-0.083333,352,2.2918
+Women minus Men,standardised,no_marital,F | Asian x High,0.083333,501,2.1341
+Women minus Men,standardised,no_marital,M | Asian x High,-0.083333,501,1.6927
+Women minus Men,standardised,five_race,F | White x Low x Married,0.033333,566,4.6507
+Women minus Men,standardised,five_race,M | White x Low x Married,-0.033333,687,3.4483
+Women minus Men,standardised,five_race,F | White x Low x Single,0.033333,1170,5.3751
+Women minus Men,standardised,five_race,M | White x Low x Single,-0.033333,923,4.0868
+Women minus Men,standardised,five_race,F | White x Middle x Married,0.033333,1312,3.1808
+Women minus Men,standardised,five_race,M | White x Middle x Married,-0.033333,1535,2.3596
+Women minus Men,standardised,five_race,F | White x Middle x Single,0.033333,1175,3.8725
+Women minus Men,standardised,five_race,M | White x Middle x Single,-0.033333,897,3.372
+Women minus Men,standardised,five_race,F | White x High x Married,0.033333,1727,2.3424
+Women minus Men,standardised,five_race,M | White x High x Married,-0.033333,1892,1.7424
+Women minus Men,standardised,five_race,F | White x High x Single,0.033333,776,2.9081
+Women minus Men,standardised,five_race,M | White x High x Single,-0.033333,742,2.187
+Women minus Men,standardised,five_race,F | Black x Low x Married,0.033333,200,4.7533
+Women minus Men,standardised,five_race,M | Black x Low x Married,-0.033333,236,2.341
+Women minus Men,standardised,five_race,F | Black x Low x Single,0.033333,1108,4.6932
+Women minus Men,standardised,five_race,M | Black x Low x Single,-0.033333,726,3.6211
+Women minus Men,standardised,five_race,F | Black x Middle x Married,0.033333,434,2.9371
+Women minus Men,standardised,five_race,M | Black x Middle x Married,-0.033333,607,2.3504
+Women minus Men,standardised,five_race,F | Black x Middle x Single,0.033333,915,3.6935
+Women minus Men,standardised,five_race,M | Black x Middle x Single,-0.033333,680,2.6687
+Women minus Men,standardised,five_race,F | Black x High x Married,0.033333,375,2.4523
+Women minus Men,standardised,five_race,M | Black x High x Married,-0.033333,558,1.4859
+Women minus Men,standardised,five_race,F | Black x High x Single,0.033333,405,3.1078
+Women minus Men,standardised,five_race,M | Black x High x Single,-0.033333,335,2.0086
+Women minus Men,standardised,five_race,F | Hispanic x Low x Married,0.033333,682,3.877
+Women minus Men,standardised,five_race,M | Hispanic x Low x Married,-0.033333,777,2.4954
+Women minus Men,standardised,five_race,F | Hispanic x Low x Single,0.033333,1003,4.5728
+Women minus Men,standardised,five_race,M | Hispanic x Low x Single,-0.033333,617,3.3205
+Women minus Men,standardised,five_race,F | Hispanic x Middle x Married,0.033333,815,3.2808
+Women minus Men,standardised,five_race,M | Hispanic x Middle x Married,-0.033333,921,1.9914
+Women minus Men,standardised,five_race,F | Hispanic x Middle x Single,0.033333,667,4.179
+Women minus Men,standardised,five_race,M | Hispanic x Middle x Single,-0.033333,540,3.1816
+Women minus Men,standardised,five_race,F | Hispanic x High x Married,0.033333,441,2.7006
+Women minus Men,standardised,five_race,M | Hispanic x High x Married,-0.033333,427,1.5015
+Women minus Men,standardised,five_race,F | Hispanic x High x Single,0.033333,224,3.1792
+Women minus Men,standardised,five_race,M | Hispanic x High x Single,-0.033333,209,3.0463
+Women minus Men,standardised,five_race,F | Asian x Low x Married,0.033333,112,2.2659
+Women minus Men,standardised,five_race,M | Asian x Low x Married,-0.033333,119,2.0731
+Women minus Men,standardised,five_race,F | Asian x Low x Single,0.033333,112,3.3364
+Women minus Men,standardised,five_race,M | Asian x Low x Single,-0.033333,83,2.7081
+Women minus Men,standardised,five_race,F | Asian x Middle x Married,0.033333,205,2.022
+Women minus Men,standardised,five_race,M | Asian x Middle x Married,-0.033333,214,2.0973
+Women minus Men,standardised,five_race,F | Asian x Middle x Single,0.033333,123,2.7423
+Women minus Men,standardised,five_race,M | Asian x Middle x Single,-0.033333,122,2.6401
+Women minus Men,standardised,five_race,F | Asian x High x Married,0.033333,362,2.007
+Women minus Men,standardised,five_race,M | Asian x High x Married,-0.033333,366,1.526
+Women minus Men,standardised,five_race,F | Asian x High x Single,0.033333,128,2.4874
+Women minus Men,standardised,five_race,M | Asian x High x Single,-0.033333,128,2.177
+Women minus Men,standardised,five_race,F | Multiracial x Low x Married,0.033333,32,6.676
+Women minus Men,standardised,five_race,M | Multiracial x Low x Married,-0.033333,42,3.7842
+Women minus Men,standardised,five_race,F | Multiracial x Low x Single,0.033333,84,6.255
+Women minus Men,standardised,five_race,M | Multiracial x Low x Single,-0.033333,64,6.389
+Women minus Men,standardised,five_race,F | Multiracial x Middle x Married,0.033333,44,5.5902
+Women minus Men,standardised,five_race,M | Multiracial x Middle x Married,-0.033333,70,2.0676
+Women minus Men,standardised,five_race,F | Multiracial x Middle x Single,0.033333,75,4.81
+Women minus Men,standardised,five_race,M | Multiracial x Middle x Single,-0.033333,72,4.0397
+Women minus Men,standardised,five_race,F | Multiracial x High x Married,0.033333,44,2.7328
+Women minus Men,standardised,five_race,M | Multiracial x High x Married,-0.033333,49,2.2184
+Women minus Men,standardised,five_race,F | Multiracial x High x Single,0.033333,29,3.5448
+Women minus Men,standardised,five_race,M | Multiracial x High x Single,-0.033333,42,3.9681
+Women minus Men,standardised,income_alt,F | White x Low x Married,0.041667,119,5.615
+Women minus Men,standardised,income_alt,M | White x Low x Married,-0.041667,101,4.0389
+Women minus Men,standardised,income_alt,F | White x Low x Single,0.041667,293,6.9869
+Women minus Men,standardised,income_alt,M | White x Low x Single,-0.041667,207,5.4003
+Women minus Men,standardised,income_alt,F | White x Middle x Married,0.041667,665,2.693
+Women minus Men,standardised,income_alt,M | White x Middle x Married,-0.041667,724,2.0261
+Women minus Men,standardised,income_alt,F | White x Middle x Single,0.041667,279,3.7245
+Women minus Men,standardised,income_alt,M | White x Middle x Single,-0.041667,241,2.5422
+Women minus Men,standardised,income_alt,F | White x High x Married,0.041667,769,2.1176
+Women minus Men,standardised,income_alt,M | White x High x Married,-0.041667,836,1.7199
+Women minus Men,standardised,income_alt,F | White x High x Single,0.041667,211,2.6174
+Women minus Men,standardised,income_alt,M | White x High x Single,-0.041667,245,1.9478
+Women minus Men,standardised,income_alt,F | Black x Low x Married,0.041667,66,5.6872
+Women minus Men,standardised,income_alt,M | Black x Low x Married,-0.041667,40,3.7714
+Women minus Men,standardised,income_alt,F | Black x Low x Single,0.041667,430,5.6284
+Women minus Men,standardised,income_alt,M | Black x Low x Single,-0.041667,202,3.6598
+Women minus Men,standardised,income_alt,F | Black x Middle x Married,0.041667,192,2.662
+Women minus Men,standardised,income_alt,M | Black x Middle x Married,-0.041667,274,1.7404
+Women minus Men,standardised,income_alt,F | Black x Middle x Single,0.041667,192,2.803
+Women minus Men,standardised,income_alt,M | Black x Middle x Single,-0.041667,140,2.2341
+Women minus Men,standardised,income_alt,F | Black x High x Married,0.041667,157,1.8217
+Women minus Men,standardised,income_alt,M | Black x High x Married,-0.041667,216,1.2353
+Women minus Men,standardised,income_alt,F | Black x High x Single,0.041667,100,3.064
+Women minus Men,standardised,income_alt,M | Black x High x Single,-0.041667,61,1.4139
+Women minus Men,standardised,income_alt,F | Hispanic x Low x Married,0.041667,113,5.1005
+Women minus Men,standardised,income_alt,M | Hispanic x Low x Married,-0.041667,101,3.5568
+Women minus Men,standardised,income_alt,F | Hispanic x Low x Single,0.041667,262,5.8565
+Women minus Men,standardised,income_alt,M | Hispanic x Low x Single,-0.041667,106,4.9001
+Women minus Men,standardised,income_alt,F | Hispanic x Middle x Married,0.041667,293,3.1619
+Women minus Men,standardised,income_alt,M | Hispanic x Middle x Married,-0.041667,309,1.6799
+Women minus Men,standardised,income_alt,F | Hispanic x Middle x Single,0.041667,134,3.1387
+Women minus Men,standardised,income_alt,M | Hispanic x Middle x Single,-0.041667,103,2.7128
+Women minus Men,standardised,income_alt,F | Hispanic x High x Married,0.041667,185,2.3419
+Women minus Men,standardised,income_alt,M | Hispanic x High x Married,-0.041667,187,1.5455
+Women minus Men,standardised,income_alt,F | Hispanic x High x Single,0.041667,65,2.3952
+Women minus Men,standardised,income_alt,M | Hispanic x High x Single,-0.041667,56,2.5169
+Women minus Men,standardised,income_alt,F | Asian x Low x Married,0.041667,27,1.9766
+Women minus Men,standardised,income_alt,M | Asian x Low x Married,-0.041667,29,2.262
+Women minus Men,standardised,income_alt,F | Asian x Low x Single,0.041667,24,3.0769
+Women minus Men,standardised,income_alt,M | Asian x Low x Single,-0.041667,16,2.9323
+Women minus Men,standardised,income_alt,F | Asian x Middle x Married,0.041667,131,2.2431
+Women minus Men,standardised,income_alt,M | Asian x Middle x Married,-0.041667,134,1.4718
+Women minus Men,standardised,income_alt,F | Asian x Middle x Single,0.041667,57,2.5401
+Women minus Men,standardised,income_alt,M | Asian x Middle x Single,-0.041667,43,2.5465
+Women minus Men,standardised,income_alt,F | Asian x High x Married,0.041667,229,1.8699
+Women minus Men,standardised,income_alt,M | Asian x High x Married,-0.041667,233,1.6905
+Women minus Men,standardised,income_alt,F | Asian x High x Single,0.041667,73,1.8774
+Women minus Men,standardised,income_alt,M | Asian x High x Single,-0.041667,73,2.1734
+Women minus Men,standardised,audit,F | White x Low,0.083333,1909,5.1974
+Women minus Men,standardised,audit,M | White x Low,-0.083333,1788,3.9071
+Women minus Men,standardised,audit,F | White x Middle,0.083333,2655,3.5625
+Women minus Men,standardised,audit,M | White x Middle,-0.083333,2597,2.7185
+Women minus Men,standardised,audit,F | White x High,0.083333,2621,2.5318
+Women minus Men,standardised,audit,M | White x High,-0.083333,2796,1.918
+Women minus Men,standardised,audit,F | Black x Low,0.083333,1416,4.7545
+Women minus Men,standardised,audit,M | Black x Low,-0.083333,1106,3.293
+Women minus Men,standardised,audit,F | Black x Middle,0.083333,1449,3.4448
+Women minus Men,standardised,audit,M | Black x Middle,-0.083333,1436,2.5535
+Women minus Men,standardised,audit,F | Black x High,0.083333,818,2.8128
+Women minus Men,standardised,audit,M | Black x High,-0.083333,948,1.704
+Women minus Men,standardised,audit,F | Hispanic x Low,0.083333,1926,4.3097
+Women minus Men,standardised,audit,M | Hispanic x Low,-0.083333,1603,2.896
+Women minus Men,standardised,audit,F | Hispanic x Middle,0.083333,1618,3.6376
+Women minus Men,standardised,audit,M | Hispanic x Middle,-0.083333,1609,2.4824
+Women minus Men,standardised,audit,F | Hispanic x High,0.083333,720,2.7977
+Women minus Men,standardised,audit,M | Hispanic x High,-0.083333,694,1.9845
+Women minus Men,standardised,audit,F | Asian x Low,0.083333,237,2.8471
+Women minus Men,standardised,audit,M | Asian x Low,-0.083333,211,2.2842
+Women minus Men,standardised,audit,F | Asian x Middle,0.083333,343,2.3033
+Women minus Men,standardised,audit,M | Asian x Middle,-0.083333,352,2.2918
+Women minus Men,standardised,audit,F | Asian x High,0.083333,501,2.1341
+Women minus Men,standardised,audit,M | Asian x High,-0.083333,501,1.6927
+Women minus Men,standardised,pc_design,F | White x Low x Single,0.166667,1170,5.3751
+Women minus Men,standardised,pc_design,M | White x Low x Single,-0.166667,923,4.0868
+Women minus Men,standardised,pc_design,F | White x Middle x Single,0.166667,1175,3.8725
+Women minus Men,standardised,pc_design,M | White x Middle x Single,-0.166667,897,3.372
+Women minus Men,standardised,pc_design,F | White x High x Single,0.166667,776,2.9081
+Women minus Men,standardised,pc_design,M | White x High x Single,-0.166667,742,2.187
+Women minus Men,standardised,pc_design,F | Black x Low x Single,0.166667,1108,4.6932
+Women minus Men,standardised,pc_design,M | Black x Low x Single,-0.166667,726,3.6211
+Women minus Men,standardised,pc_design,F | Black x Middle x Single,0.166667,915,3.6935
+Women minus Men,standardised,pc_design,M | Black x Middle x Single,-0.166667,680,2.6687
+Women minus Men,standardised,pc_design,F | Black x High x Single,0.166667,405,3.1078
+Women minus Men,standardised,pc_design,M | Black x High x Single,-0.166667,335,2.0086
+Low minus High SES,marginal,primary,Low,1.0,10663,4.247
+Low minus High SES,marginal,primary,High,-1.0,9967,2.2272
+Low minus High SES,standardised,primary,Low | White x M x Married,0.0625,687,3.4483
+Low minus High SES,standardised,primary,High | White x M x Married,-0.0625,1892,1.7424
+Low minus High SES,standardised,primary,Low | White x M x Single,0.0625,923,4.0868
+Low minus High SES,standardised,primary,High | White x M x Single,-0.0625,742,2.187
+Low minus High SES,standardised,primary,Low | White x F x Married,0.0625,566,4.6507
+Low minus High SES,standardised,primary,High | White x F x Married,-0.0625,1727,2.3424
+Low minus High SES,standardised,primary,Low | White x F x Single,0.0625,1170,5.3751
+Low minus High SES,standardised,primary,High | White x F x Single,-0.0625,776,2.9081
+Low minus High SES,standardised,primary,Low | Black x M x Married,0.0625,236,2.341
+Low minus High SES,standardised,primary,High | Black x M x Married,-0.0625,558,1.4859
+Low minus High SES,standardised,primary,Low | Black x M x Single,0.0625,726,3.6211
+Low minus High SES,standardised,primary,High | Black x M x Single,-0.0625,335,2.0086
+Low minus High SES,standardised,primary,Low | Black x F x Married,0.0625,200,4.7533
+Low minus High SES,standardised,primary,High | Black x F x Married,-0.0625,375,2.4523
+Low minus High SES,standardised,primary,Low | Black x F x Single,0.0625,1108,4.6932
+Low minus High SES,standardised,primary,High | Black x F x Single,-0.0625,405,3.1078
+Low minus High SES,standardised,primary,Low | Hispanic x M x Married,0.0625,777,2.4954
+Low minus High SES,standardised,primary,High | Hispanic x M x Married,-0.0625,427,1.5015
+Low minus High SES,standardised,primary,Low | Hispanic x M x Single,0.0625,617,3.3205
+Low minus High SES,standardised,primary,High | Hispanic x M x Single,-0.0625,209,3.0463
+Low minus High SES,standardised,primary,Low | Hispanic x F x Married,0.0625,682,3.877
+Low minus High SES,standardised,primary,High | Hispanic x F x Married,-0.0625,441,2.7006
+Low minus High SES,standardised,primary,Low | Hispanic x F x Single,0.0625,1003,4.5728
+Low minus High SES,standardised,primary,High | Hispanic x F x Single,-0.0625,224,3.1792
+Low minus High SES,standardised,primary,Low | Asian x M x Married,0.0625,119,2.0731
+Low minus High SES,standardised,primary,High | Asian x M x Married,-0.0625,366,1.526
+Low minus High SES,standardised,primary,Low | Asian x M x Single,0.0625,83,2.7081
+Low minus High SES,standardised,primary,High | Asian x M x Single,-0.0625,128,2.177
+Low minus High SES,standardised,primary,Low | Asian x F x Married,0.0625,112,2.2659
+Low minus High SES,standardised,primary,High | Asian x F x Married,-0.0625,362,2.007
+Low minus High SES,standardised,primary,Low | Asian x F x Single,0.0625,112,3.3364
+Low minus High SES,standardised,primary,High | Asian x F x Single,-0.0625,128,2.4874
+Low minus High SES,standardised,mar_all,Low | White x M x Married,0.0625,687,3.4483
+Low minus High SES,standardised,mar_all,High | White x M x Married,-0.0625,1892,1.7424
+Low minus High SES,standardised,mar_all,Low | White x M x Single,0.0625,1101,4.1526
+Low minus High SES,standardised,mar_all,High | White x M x Single,-0.0625,903,2.305
+Low minus High SES,standardised,mar_all,Low | White x F x Married,0.0625,566,4.6507
+Low minus High SES,standardised,mar_all,High | White x F x Married,-0.0625,1727,2.3424
+Low minus High SES,standardised,mar_all,Low | White x F x Single,0.0625,1342,5.424
+Low minus High SES,standardised,mar_all,High | White x F x Single,-0.0625,894,2.9427
+Low minus High SES,standardised,mar_all,Low | Black x M x Married,0.0625,236,2.341
+Low minus High SES,standardised,mar_all,High | Black x M x Married,-0.0625,558,1.4859
+Low minus High SES,standardised,mar_all,Low | Black x M x Single,0.0625,870,3.5406
+Low minus High SES,standardised,mar_all,High | Black x M x Single,-0.0625,390,1.9781
+Low minus High SES,standardised,mar_all,Low | Black x F x Married,0.0625,200,4.7533
+Low minus High SES,standardised,mar_all,High | Black x F x Married,-0.0625,375,2.4523
+Low minus High SES,standardised,mar_all,Low | Black x F x Single,0.0625,1216,4.7547
+Low minus High SES,standardised,mar_all,High | Black x F x Single,-0.0625,443,3.1224
+Low minus High SES,standardised,mar_all,Low | Hispanic x M x Married,0.0625,777,2.4954
+Low minus High SES,standardised,mar_all,High | Hispanic x M x Married,-0.0625,427,1.5015
+Low minus High SES,standardised,mar_all,Low | Hispanic x M x Single,0.0625,826,3.2359
+Low minus High SES,standardised,mar_all,High | Hispanic x M x Single,-0.0625,267,2.6897
+Low minus High SES,standardised,mar_all,Low | Hispanic x F x Married,0.0625,682,3.877
+Low minus High SES,standardised,mar_all,High | Hispanic x F x Married,-0.0625,441,2.7006
+Low minus High SES,standardised,mar_all,Low | Hispanic x F x Single,0.0625,1244,4.5525
+Low minus High SES,standardised,mar_all,High | Hispanic x F x Single,-0.0625,278,2.9541
+Low minus High SES,standardised,mar_all,Low | Asian x M x Married,0.0625,119,2.0731
+Low minus High SES,standardised,mar_all,High | Asian x M x Married,-0.0625,366,1.526
+Low minus High SES,standardised,mar_all,Low | Asian x M x Single,0.0625,92,2.5757
+Low minus High SES,standardised,mar_all,High | Asian x M x Single,-0.0625,135,2.1033
+Low minus High SES,standardised,mar_all,Low | Asian x F x Married,0.0625,112,2.2659
+Low minus High SES,standardised,mar_all,High | Asian x F x Married,-0.0625,362,2.007
+Low minus High SES,standardised,mar_all,Low | Asian x F x Single,0.0625,124,3.3989
+Low minus High SES,standardised,mar_all,High | Asian x F x Single,-0.0625,139,2.4642
+Low minus High SES,standardised,mar_never,Low | White x M x Married,0.0625,687,3.4483
+Low minus High SES,standardised,mar_never,High | White x M x Married,-0.0625,1892,1.7424
+Low minus High SES,standardised,mar_never,Low | White x M x Single,0.0625,497,3.8185
+Low minus High SES,standardised,mar_never,High | White x M x Single,-0.0625,459,2.2506
+Low minus High SES,standardised,mar_never,Low | White x F x Married,0.0625,566,4.6507
+Low minus High SES,standardised,mar_never,High | White x F x Married,-0.0625,1727,2.3424
+Low minus High SES,standardised,mar_never,Low | White x F x Single,0.0625,391,4.6321
+Low minus High SES,standardised,mar_never,High | White x F x Single,-0.0625,325,2.9274
+Low minus High SES,standardised,mar_never,Low | Black x M x Married,0.0625,236,2.341
+Low minus High SES,standardised,mar_never,High | Black x M x Married,-0.0625,558,1.4859
+Low minus High SES,standardised,mar_never,Low | Black x M x Single,0.0625,458,3.5501
+Low minus High SES,standardised,mar_never,High | Black x M x Single,-0.0625,200,1.9686
+Low minus High SES,standardised,mar_never,Low | Black x F x Married,0.0625,200,4.7533
+Low minus High SES,standardised,mar_never,High | Black x F x Married,-0.0625,375,2.4523
+Low minus High SES,standardised,mar_never,Low | Black x F x Single,0.0625,651,4.625
+Low minus High SES,standardised,mar_never,High | Black x F x Single,-0.0625,214,3.1781
+Low minus High SES,standardised,mar_never,Low | Hispanic x M x Married,0.0625,777,2.4954
+Low minus High SES,standardised,mar_never,High | Hispanic x M x Married,-0.0625,427,1.5015
+Low minus High SES,standardised,mar_never,Low | Hispanic x M x Single,0.0625,397,3.3307
+Low minus High SES,standardised,mar_never,High | Hispanic x M x Single,-0.0625,117,3.1766
+Low minus High SES,standardised,mar_never,Low | Hispanic x F x Married,0.0625,682,3.877
+Low minus High SES,standardised,mar_never,High | Hispanic x F x Married,-0.0625,441,2.7006
+Low minus High SES,standardised,mar_never,Low | Hispanic x F x Single,0.0625,464,4.1909
+Low minus High SES,standardised,mar_never,High | Hispanic x F x Single,-0.0625,111,3.1087
+Low minus High SES,standardised,mar_never,Low | Asian x M x Married,0.0625,119,2.0731
+Low minus High SES,standardised,mar_never,High | Asian x M x Married,-0.0625,366,1.526
+Low minus High SES,standardised,mar_never,Low | Asian x M x Single,0.0625,65,2.4349
+Low minus High SES,standardised,mar_never,High | Asian x M x Single,-0.0625,100,2.2601
+Low minus High SES,standardised,mar_never,Low | Asian x F x Married,0.0625,112,2.2659
+Low minus High SES,standardised,mar_never,High | Asian x F x Married,-0.0625,362,2.007
+Low minus High SES,standardised,mar_never,Low | Asian x F x Single,0.0625,68,3.2765
+Low minus High SES,standardised,mar_never,High | Asian x F x Single,-0.0625,84,2.4002
+Low minus High SES,standardised,mar_drop1819,Low | White x M x Married,0.0625,687,3.4483
+Low minus High SES,standardised,mar_drop1819,High | White x M x Married,-0.0625,1892,1.7424
+Low minus High SES,standardised,mar_drop1819,Low | White x M x Single,0.0625,832,4.2276
+Low minus High SES,standardised,mar_drop1819,High | White x M x Single,-0.0625,667,2.1539
+Low minus High SES,standardised,mar_drop1819,Low | White x F x Married,0.0625,566,4.6507
+Low minus High SES,standardised,mar_drop1819,High | White x F x Married,-0.0625,1727,2.3424
+Low minus High SES,standardised,mar_drop1819,Low | White x F x Single,0.0625,1087,5.505
+Low minus High SES,standardised,mar_drop1819,High | White x F x Single,-0.0625,724,2.9183
+Low minus High SES,standardised,mar_drop1819,Low | Black x M x Married,0.0625,236,2.341
+Low minus High SES,standardised,mar_drop1819,High | Black x M x Married,-0.0625,558,1.4859
+Low minus High SES,standardised,mar_drop1819,Low | Black x M x Single,0.0625,638,3.7672
+Low minus High SES,standardised,mar_drop1819,High | Black x M x Single,-0.0625,307,2.0191
+Low minus High SES,standardised,mar_drop1819,Low | Black x F x Married,0.0625,200,4.7533
+Low minus High SES,standardised,mar_drop1819,High | Black x F x Married,-0.0625,375,2.4523
+Low minus High SES,standardised,mar_drop1819,Low | Black x F x Single,0.0625,997,4.7636
+Low minus High SES,standardised,mar_drop1819,High | Black x F x Single,-0.0625,388,3.1074
+Low minus High SES,standardised,mar_drop1819,Low | Hispanic x M x Married,0.0625,777,2.4954
+Low minus High SES,standardised,mar_drop1819,High | Hispanic x M x Married,-0.0625,427,1.5015
+Low minus High SES,standardised,mar_drop1819,Low | Hispanic x M x Single,0.0625,495,3.3814
+Low minus High SES,standardised,mar_drop1819,High | Hispanic x M x Single,-0.0625,185,3.1081
+Low minus High SES,standardised,mar_drop1819,Low | Hispanic x F x Married,0.0625,682,3.877
+Low minus High SES,standardised,mar_drop1819,High | Hispanic x F x Married,-0.0625,441,2.7006
+Low minus High SES,standardised,mar_drop1819,Low | Hispanic x F x Single,0.0625,861,4.7168
+Low minus High SES,standardised,mar_drop1819,High | Hispanic x F x Single,-0.0625,204,3.0877
+Low minus High SES,standardised,mar_drop1819,Low | Asian x M x Married,0.0625,119,2.0731
+Low minus High SES,standardised,mar_drop1819,High | Asian x M x Married,-0.0625,366,1.526
+Low minus High SES,standardised,mar_drop1819,Low | Asian x M x Single,0.0625,61,2.8116
+Low minus High SES,standardised,mar_drop1819,High | Asian x M x Single,-0.0625,118,2.1604
+Low minus High SES,standardised,mar_drop1819,Low | Asian x F x Married,0.0625,112,2.2659
+Low minus High SES,standardised,mar_drop1819,High | Asian x F x Married,-0.0625,362,2.007
+Low minus High SES,standardised,mar_drop1819,Low | Asian x F x Single,0.0625,92,3.3491
+Low minus High SES,standardised,mar_drop1819,High | Asian x F x Single,-0.0625,117,2.3956
+Low minus High SES,standardised,no_marital,Low | White x M,0.125,1788,3.9071
+Low minus High SES,standardised,no_marital,High | White x M,-0.125,2796,1.918
+Low minus High SES,standardised,no_marital,Low | White x F,0.125,1909,5.1974
+Low minus High SES,standardised,no_marital,High | White x F,-0.125,2621,2.5318
+Low minus High SES,standardised,no_marital,Low | Black x M,0.125,1106,3.293
+Low minus High SES,standardised,no_marital,High | Black x M,-0.125,948,1.704
+Low minus High SES,standardised,no_marital,Low | Black x F,0.125,1416,4.7545
+Low minus High SES,standardised,no_marital,High | Black x F,-0.125,818,2.8128
+Low minus High SES,standardised,no_marital,Low | Hispanic x M,0.125,1603,2.896
+Low minus High SES,standardised,no_marital,High | Hispanic x M,-0.125,694,1.9845
+Low minus High SES,standardised,no_marital,Low | Hispanic x F,0.125,1926,4.3097
+Low minus High SES,standardised,no_marital,High | Hispanic x F,-0.125,720,2.7977
+Low minus High SES,standardised,no_marital,Low | Asian x M,0.125,211,2.2842
+Low minus High SES,standardised,no_marital,High | Asian x M,-0.125,501,1.6927
+Low minus High SES,standardised,no_marital,Low | Asian x F,0.125,237,2.8471
+Low minus High SES,standardised,no_marital,High | Asian x F,-0.125,501,2.1341
+Low minus High SES,standardised,five_race,Low | White x M x Married,0.05,687,3.4483
+Low minus High SES,standardised,five_race,High | White x M x Married,-0.05,1892,1.7424
+Low minus High SES,standardised,five_race,Low | White x M x Single,0.05,923,4.0868
+Low minus High SES,standardised,five_race,High | White x M x Single,-0.05,742,2.187
+Low minus High SES,standardised,five_race,Low | White x F x Married,0.05,566,4.6507
+Low minus High SES,standardised,five_race,High | White x F x Married,-0.05,1727,2.3424
+Low minus High SES,standardised,five_race,Low | White x F x Single,0.05,1170,5.3751
+Low minus High SES,standardised,five_race,High | White x F x Single,-0.05,776,2.9081
+Low minus High SES,standardised,five_race,Low | Black x M x Married,0.05,236,2.341
+Low minus High SES,standardised,five_race,High | Black x M x Married,-0.05,558,1.4859
+Low minus High SES,standardised,five_race,Low | Black x M x Single,0.05,726,3.6211
+Low minus High SES,standardised,five_race,High | Black x M x Single,-0.05,335,2.0086
+Low minus High SES,standardised,five_race,Low | Black x F x Married,0.05,200,4.7533
+Low minus High SES,standardised,five_race,High | Black x F x Married,-0.05,375,2.4523
+Low minus High SES,standardised,five_race,Low | Black x F x Single,0.05,1108,4.6932
+Low minus High SES,standardised,five_race,High | Black x F x Single,-0.05,405,3.1078
+Low minus High SES,standardised,five_race,Low | Hispanic x M x Married,0.05,777,2.4954
+Low minus High SES,standardised,five_race,High | Hispanic x M x Married,-0.05,427,1.5015
+Low minus High SES,standardised,five_race,Low | Hispanic x M x Single,0.05,617,3.3205
+Low minus High SES,standardised,five_race,High | Hispanic x M x Single,-0.05,209,3.0463
+Low minus High SES,standardised,five_race,Low | Hispanic x F x Married,0.05,682,3.877
+Low minus High SES,standardised,five_race,High | Hispanic x F x Married,-0.05,441,2.7006
+Low minus High SES,standardised,five_race,Low | Hispanic x F x Single,0.05,1003,4.5728
+Low minus High SES,standardised,five_race,High | Hispanic x F x Single,-0.05,224,3.1792
+Low minus High SES,standardised,five_race,Low | Asian x M x Married,0.05,119,2.0731
+Low minus High SES,standardised,five_race,High | Asian x M x Married,-0.05,366,1.526
+Low minus High SES,standardised,five_race,Low | Asian x M x Single,0.05,83,2.7081
+Low minus High SES,standardised,five_race,High | Asian x M x Single,-0.05,128,2.177
+Low minus High SES,standardised,five_race,Low | Asian x F x Married,0.05,112,2.2659
+Low minus High SES,standardised,five_race,High | Asian x F x Married,-0.05,362,2.007
+Low minus High SES,standardised,five_race,Low | Asian x F x Single,0.05,112,3.3364
+Low minus High SES,standardised,five_race,High | Asian x F x Single,-0.05,128,2.4874
+Low minus High SES,standardised,five_race,Low | Multiracial x M x Married,0.05,42,3.7842
+Low minus High SES,standardised,five_race,High | Multiracial x M x Married,-0.05,49,2.2184
+Low minus High SES,standardised,five_race,Low | Multiracial x M x Single,0.05,64,6.389
+Low minus High SES,standardised,five_race,High | Multiracial x M x Single,-0.05,42,3.9681
+Low minus High SES,standardised,five_race,Low | Multiracial x F x Married,0.05,32,6.676
+Low minus High SES,standardised,five_race,High | Multiracial x F x Married,-0.05,44,2.7328
+Low minus High SES,standardised,five_race,Low | Multiracial x F x Single,0.05,84,6.255
+Low minus High SES,standardised,five_race,High | Multiracial x F x Single,-0.05,29,3.5448
+Low minus High SES,marginal,income_alt,Low,1.0,2456,5.5496
+Low minus High SES,marginal,income_alt,High,-1.0,4065,2.0109
+Low minus High SES,standardised,income_alt,Low | White x M x Married,0.0625,101,4.0389
+Low minus High SES,standardised,income_alt,High | White x M x Married,-0.0625,836,1.7199
+Low minus High SES,standardised,income_alt,Low | White x M x Single,0.0625,207,5.4003
+Low minus High SES,standardised,income_alt,High | White x M x Single,-0.0625,245,1.9478
+Low minus High SES,standardised,income_alt,Low | White x F x Married,0.0625,119,5.615
+Low minus High SES,standardised,income_alt,High | White x F x Married,-0.0625,769,2.1176
+Low minus High SES,standardised,income_alt,Low | White x F x Single,0.0625,293,6.9869
+Low minus High SES,standardised,income_alt,High | White x F x Single,-0.0625,211,2.6174
+Low minus High SES,standardised,income_alt,Low | Black x M x Married,0.0625,40,3.7714
+Low minus High SES,standardised,income_alt,High | Black x M x Married,-0.0625,216,1.2353
+Low minus High SES,standardised,income_alt,Low | Black x M x Single,0.0625,202,3.6598
+Low minus High SES,standardised,income_alt,High | Black x M x Single,-0.0625,61,1.4139
+Low minus High SES,standardised,income_alt,Low | Black x F x Married,0.0625,66,5.6872
+Low minus High SES,standardised,income_alt,High | Black x F x Married,-0.0625,157,1.8217
+Low minus High SES,standardised,income_alt,Low | Black x F x Single,0.0625,430,5.6284
+Low minus High SES,standardised,income_alt,High | Black x F x Single,-0.0625,100,3.064
+Low minus High SES,standardised,income_alt,Low | Hispanic x M x Married,0.0625,101,3.5568
+Low minus High SES,standardised,income_alt,High | Hispanic x M x Married,-0.0625,187,1.5455
+Low minus High SES,standardised,income_alt,Low | Hispanic x M x Single,0.0625,106,4.9001
+Low minus High SES,standardised,income_alt,High | Hispanic x M x Single,-0.0625,56,2.5169
+Low minus High SES,standardised,income_alt,Low | Hispanic x F x Married,0.0625,113,5.1005
+Low minus High SES,standardised,income_alt,High | Hispanic x F x Married,-0.0625,185,2.3419
+Low minus High SES,standardised,income_alt,Low | Hispanic x F x Single,0.0625,262,5.8565
+Low minus High SES,standardised,income_alt,High | Hispanic x F x Single,-0.0625,65,2.3952
+Low minus High SES,standardised,income_alt,Low | Asian x M x Married,0.0625,29,2.262
+Low minus High SES,standardised,income_alt,High | Asian x M x Married,-0.0625,233,1.6905
+Low minus High SES,standardised,income_alt,Low | Asian x M x Single,0.0625,16,2.9323
+Low minus High SES,standardised,income_alt,High | Asian x M x Single,-0.0625,73,2.1734
+Low minus High SES,standardised,income_alt,Low | Asian x F x Married,0.0625,27,1.9766
+Low minus High SES,standardised,income_alt,High | Asian x F x Married,-0.0625,229,1.8699
+Low minus High SES,standardised,income_alt,Low | Asian x F x Single,0.0625,24,3.0769
+Low minus High SES,standardised,income_alt,High | Asian x F x Single,-0.0625,73,1.8774
+Low minus High SES,standardised,audit,Low | White x M,0.125,1788,3.9071
+Low minus High SES,standardised,audit,High | White x M,-0.125,2796,1.918
+Low minus High SES,standardised,audit,Low | White x F,0.125,1909,5.1974
+Low minus High SES,standardised,audit,High | White x F,-0.125,2621,2.5318
+Low minus High SES,standardised,audit,Low | Black x M,0.125,1106,3.293
+Low minus High SES,standardised,audit,High | Black x M,-0.125,948,1.704
+Low minus High SES,standardised,audit,Low | Black x F,0.125,1416,4.7545
+Low minus High SES,standardised,audit,High | Black x F,-0.125,818,2.8128
+Low minus High SES,standardised,audit,Low | Hispanic x M,0.125,1603,2.896
+Low minus High SES,standardised,audit,High | Hispanic x M,-0.125,694,1.9845
+Low minus High SES,standardised,audit,Low | Hispanic x F,0.125,1926,4.3097
+Low minus High SES,standardised,audit,High | Hispanic x F,-0.125,720,2.7977
+Low minus High SES,standardised,audit,Low | Asian x M,0.125,211,2.2842
+Low minus High SES,standardised,audit,High | Asian x M,-0.125,501,1.6927
+Low minus High SES,standardised,audit,Low | Asian x F,0.125,237,2.8471
+Low minus High SES,standardised,audit,High | Asian x F,-0.125,501,2.1341
+Low minus High SES,standardised,pc_design,Low | White x M x Single,0.25,923,4.0868
+Low minus High SES,standardised,pc_design,High | White x M x Single,-0.25,742,2.187
+Low minus High SES,standardised,pc_design,Low | White x F x Single,0.25,1170,5.3751
+Low minus High SES,standardised,pc_design,High | White x F x Single,-0.25,776,2.9081
+Low minus High SES,standardised,pc_design,Low | Black x M x Single,0.25,726,3.6211
+Low minus High SES,standardised,pc_design,High | Black x M x Single,-0.25,335,2.0086
+Low minus High SES,standardised,pc_design,Low | Black x F x Single,0.25,1108,4.6932
+Low minus High SES,standardised,pc_design,High | Black x F x Single,-0.25,405,3.1078
+Middle minus High SES,marginal,primary,Middle,1.0,12554,3.1183
+Middle minus High SES,marginal,primary,High,-1.0,9967,2.2272
+Middle minus High SES,standardised,primary,Middle | White x M x Married,0.0625,1535,2.3596
+Middle minus High SES,standardised,primary,High | White x M x Married,-0.0625,1892,1.7424
+Middle minus High SES,standardised,primary,Middle | White x M x Single,0.0625,897,3.372
+Middle minus High SES,standardised,primary,High | White x M x Single,-0.0625,742,2.187
+Middle minus High SES,standardised,primary,Middle | White x F x Married,0.0625,1312,3.1808
+Middle minus High SES,standardised,primary,High | White x F x Married,-0.0625,1727,2.3424
+Middle minus High SES,standardised,primary,Middle | White x F x Single,0.0625,1175,3.8725
+Middle minus High SES,standardised,primary,High | White x F x Single,-0.0625,776,2.9081
+Middle minus High SES,standardised,primary,Middle | Black x M x Married,0.0625,607,2.3504
+Middle minus High SES,standardised,primary,High | Black x M x Married,-0.0625,558,1.4859
+Middle minus High SES,standardised,primary,Middle | Black x M x Single,0.0625,680,2.6687
+Middle minus High SES,standardised,primary,High | Black x M x Single,-0.0625,335,2.0086
+Middle minus High SES,standardised,primary,Middle | Black x F x Married,0.0625,434,2.9371
+Middle minus High SES,standardised,primary,High | Black x F x Married,-0.0625,375,2.4523
+Middle minus High SES,standardised,primary,Middle | Black x F x Single,0.0625,915,3.6935
+Middle minus High SES,standardised,primary,High | Black x F x Single,-0.0625,405,3.1078
+Middle minus High SES,standardised,primary,Middle | Hispanic x M x Married,0.0625,921,1.9914
+Middle minus High SES,standardised,primary,High | Hispanic x M x Married,-0.0625,427,1.5015
+Middle minus High SES,standardised,primary,Middle | Hispanic x M x Single,0.0625,540,3.1816
+Middle minus High SES,standardised,primary,High | Hispanic x M x Single,-0.0625,209,3.0463
+Middle minus High SES,standardised,primary,Middle | Hispanic x F x Married,0.0625,815,3.2808
+Middle minus High SES,standardised,primary,High | Hispanic x F x Married,-0.0625,441,2.7006
+Middle minus High SES,standardised,primary,Middle | Hispanic x F x Single,0.0625,667,4.179
+Middle minus High SES,standardised,primary,High | Hispanic x F x Single,-0.0625,224,3.1792
+Middle minus High SES,standardised,primary,Middle | Asian x M x Married,0.0625,214,2.0973
+Middle minus High SES,standardised,primary,High | Asian x M x Married,-0.0625,366,1.526
+Middle minus High SES,standardised,primary,Middle | Asian x M x Single,0.0625,122,2.6401
+Middle minus High SES,standardised,primary,High | Asian x M x Single,-0.0625,128,2.177
+Middle minus High SES,standardised,primary,Middle | Asian x F x Married,0.0625,205,2.022
+Middle minus High SES,standardised,primary,High | Asian x F x Married,-0.0625,362,2.007
+Middle minus High SES,standardised,primary,Middle | Asian x F x Single,0.0625,123,2.7423
+Middle minus High SES,standardised,primary,High | Asian x F x Single,-0.0625,128,2.4874
+Middle minus High SES,standardised,mar_all,Middle | White x M x Married,0.0625,1535,2.3596
+Middle minus High SES,standardised,mar_all,High | White x M x Married,-0.0625,1892,1.7424
+Middle minus High SES,standardised,mar_all,Middle | White x M x Single,0.0625,1062,3.1855
+Middle minus High SES,standardised,mar_all,High | White x M x Single,-0.0625,903,2.305
+Middle minus High SES,standardised,mar_all,Middle | White x F x Married,0.0625,1312,3.1808
+Middle minus High SES,standardised,mar_all,High | White x F x Married,-0.0625,1727,2.3424
+Middle minus High SES,standardised,mar_all,Middle | White x F x Single,0.0625,1342,3.9564
+Middle minus High SES,standardised,mar_all,High | White x F x Single,-0.0625,894,2.9427
+Middle minus High SES,standardised,mar_all,Middle | Black x M x Married,0.0625,607,2.3504
+Middle minus High SES,standardised,mar_all,High | Black x M x Married,-0.0625,558,1.4859
+Middle minus High SES,standardised,mar_all,Middle | Black x M x Single,0.0625,827,2.6896
+Middle minus High SES,standardised,mar_all,High | Black x M x Single,-0.0625,390,1.9781
+Middle minus High SES,standardised,mar_all,Middle | Black x F x Married,0.0625,434,2.9371
+Middle minus High SES,standardised,mar_all,High | Black x F x Married,-0.0625,375,2.4523
+Middle minus High SES,standardised,mar_all,Middle | Black x F x Single,0.0625,1014,3.6656
+Middle minus High SES,standardised,mar_all,High | Black x F x Single,-0.0625,443,3.1224
+Middle minus High SES,standardised,mar_all,Middle | Hispanic x M x Married,0.0625,921,1.9914
+Middle minus High SES,standardised,mar_all,High | Hispanic x M x Married,-0.0625,427,1.5015
+Middle minus High SES,standardised,mar_all,Middle | Hispanic x M x Single,0.0625,686,3.067
+Middle minus High SES,standardised,mar_all,High | Hispanic x M x Single,-0.0625,267,2.6897
+Middle minus High SES,standardised,mar_all,Middle | Hispanic x F x Married,0.0625,815,3.2808
+Middle minus High SES,standardised,mar_all,High | Hispanic x F x Married,-0.0625,441,2.7006
+Middle minus High SES,standardised,mar_all,Middle | Hispanic x F x Single,0.0625,803,4.01
+Middle minus High SES,standardised,mar_all,High | Hispanic x F x Single,-0.0625,278,2.9541
+Middle minus High SES,standardised,mar_all,Middle | Asian x M x Married,0.0625,214,2.0973
+Middle minus High SES,standardised,mar_all,High | Asian x M x Married,-0.0625,366,1.526
+Middle minus High SES,standardised,mar_all,Middle | Asian x M x Single,0.0625,138,2.5813
+Middle minus High SES,standardised,mar_all,High | Asian x M x Single,-0.0625,135,2.1033
+Middle minus High SES,standardised,mar_all,Middle | Asian x F x Married,0.0625,205,2.022
+Middle minus High SES,standardised,mar_all,High | Asian x F x Married,-0.0625,362,2.007
+Middle minus High SES,standardised,mar_all,Middle | Asian x F x Single,0.0625,138,2.7317
+Middle minus High SES,standardised,mar_all,High | Asian x F x Single,-0.0625,139,2.4642
+Middle minus High SES,standardised,mar_never,Middle | White x M x Married,0.0625,1535,2.3596
+Middle minus High SES,standardised,mar_never,High | White x M x Married,-0.0625,1892,1.7424
+Middle minus High SES,standardised,mar_never,Middle | White x M x Single,0.0625,434,3.0898
+Middle minus High SES,standardised,mar_never,High | White x M x Single,-0.0625,459,2.2506
+Middle minus High SES,standardised,mar_never,Middle | White x F x Married,0.0625,1312,3.1808
+Middle minus High SES,standardised,mar_never,High | White x F x Married,-0.0625,1727,2.3424
+Middle minus High SES,standardised,mar_never,Middle | White x F x Single,0.0625,356,3.6495
+Middle minus High SES,standardised,mar_never,High | White x F x Single,-0.0625,325,2.9274
+Middle minus High SES,standardised,mar_never,Middle | Black x M x Married,0.0625,607,2.3504
+Middle minus High SES,standardised,mar_never,High | Black x M x Married,-0.0625,558,1.4859
+Middle minus High SES,standardised,mar_never,Middle | Black x M x Single,0.0625,406,2.6682
+Middle minus High SES,standardised,mar_never,High | Black x M x Single,-0.0625,200,1.9686
+Middle minus High SES,standardised,mar_never,Middle | Black x F x Married,0.0625,434,2.9371
+Middle minus High SES,standardised,mar_never,High | Black x F x Married,-0.0625,375,2.4523
+Middle minus High SES,standardised,mar_never,Middle | Black x F x Single,0.0625,434,3.5295
+Middle minus High SES,standardised,mar_never,High | Black x F x Single,-0.0625,214,3.1781
+Middle minus High SES,standardised,mar_never,Middle | Hispanic x M x Married,0.0625,921,1.9914
+Middle minus High SES,standardised,mar_never,High | Hispanic x M x Married,-0.0625,427,1.5015
+Middle minus High SES,standardised,mar_never,Middle | Hispanic x M x Single,0.0625,355,2.9549
+Middle minus High SES,standardised,mar_never,High | Hispanic x M x Single,-0.0625,117,3.1766
+Middle minus High SES,standardised,mar_never,Middle | Hispanic x F x Married,0.0625,815,3.2808
+Middle minus High SES,standardised,mar_never,High | Hispanic x F x Married,-0.0625,441,2.7006
+Middle minus High SES,standardised,mar_never,Middle | Hispanic x F x Single,0.0625,302,3.6664
+Middle minus High SES,standardised,mar_never,High | Hispanic x F x Single,-0.0625,111,3.1087
+Middle minus High SES,standardised,mar_never,Middle | Asian x M x Married,0.0625,214,2.0973
+Middle minus High SES,standardised,mar_never,High | Asian x M x Married,-0.0625,366,1.526
+Middle minus High SES,standardised,mar_never,Middle | Asian x M x Single,0.0625,109,2.7434
+Middle minus High SES,standardised,mar_never,High | Asian x M x Single,-0.0625,100,2.2601
+Middle minus High SES,standardised,mar_never,Middle | Asian x F x Married,0.0625,205,2.022
+Middle minus High SES,standardised,mar_never,High | Asian x F x Married,-0.0625,362,2.007
+Middle minus High SES,standardised,mar_never,Middle | Asian x F x Single,0.0625,70,2.457
+Middle minus High SES,standardised,mar_never,High | Asian x F x Single,-0.0625,84,2.4002
+Middle minus High SES,standardised,mar_drop1819,Middle | White x M x Married,0.0625,1535,2.3596
+Middle minus High SES,standardised,mar_drop1819,High | White x M x Married,-0.0625,1892,1.7424
+Middle minus High SES,standardised,mar_drop1819,Middle | White x M x Single,0.0625,826,3.3916
+Middle minus High SES,standardised,mar_drop1819,High | White x M x Single,-0.0625,667,2.1539
+Middle minus High SES,standardised,mar_drop1819,Middle | White x F x Married,0.0625,1312,3.1808
+Middle minus High SES,standardised,mar_drop1819,High | White x F x Married,-0.0625,1727,2.3424
+Middle minus High SES,standardised,mar_drop1819,Middle | White x F x Single,0.0625,1125,3.8951
+Middle minus High SES,standardised,mar_drop1819,High | White x F x Single,-0.0625,724,2.9183
+Middle minus High SES,standardised,mar_drop1819,Middle | Black x M x Married,0.0625,607,2.3504
+Middle minus High SES,standardised,mar_drop1819,High | Black x M x Married,-0.0625,558,1.4859
+Middle minus High SES,standardised,mar_drop1819,Middle | Black x M x Single,0.0625,634,2.7071
+Middle minus High SES,standardised,mar_drop1819,High | Black x M x Single,-0.0625,307,2.0191
+Middle minus High SES,standardised,mar_drop1819,Middle | Black x F x Married,0.0625,434,2.9371
+Middle minus High SES,standardised,mar_drop1819,High | Black x F x Married,-0.0625,375,2.4523
+Middle minus High SES,standardised,mar_drop1819,Middle | Black x F x Single,0.0625,860,3.708
+Middle minus High SES,standardised,mar_drop1819,High | Black x F x Single,-0.0625,388,3.1074
+Middle minus High SES,standardised,mar_drop1819,Middle | Hispanic x M x Married,0.0625,921,1.9914
+Middle minus High SES,standardised,mar_drop1819,High | Hispanic x M x Married,-0.0625,427,1.5015
+Middle minus High SES,standardised,mar_drop1819,Middle | Hispanic x M x Single,0.0625,446,3.0988
+Middle minus High SES,standardised,mar_drop1819,High | Hispanic x M x Single,-0.0625,185,3.1081
+Middle minus High SES,standardised,mar_drop1819,Middle | Hispanic x F x Married,0.0625,815,3.2808
+Middle minus High SES,standardised,mar_drop1819,High | Hispanic x F x Married,-0.0625,441,2.7006
+Middle minus High SES,standardised,mar_drop1819,Middle | Hispanic x F x Single,0.0625,588,4.2787
+Middle minus High SES,standardised,mar_drop1819,High | Hispanic x F x Single,-0.0625,204,3.0877
+Middle minus High SES,standardised,mar_drop1819,Middle | Asian x M x Married,0.0625,214,2.0973
+Middle minus High SES,standardised,mar_drop1819,High | Asian x M x Married,-0.0625,366,1.526
+Middle minus High SES,standardised,mar_drop1819,Middle | Asian x M x Single,0.0625,97,2.5837
+Middle minus High SES,standardised,mar_drop1819,High | Asian x M x Single,-0.0625,118,2.1604
+Middle minus High SES,standardised,mar_drop1819,Middle | Asian x F x Married,0.0625,205,2.022
+Middle minus High SES,standardised,mar_drop1819,High | Asian x F x Married,-0.0625,362,2.007
+Middle minus High SES,standardised,mar_drop1819,Middle | Asian x F x Single,0.0625,108,2.7806
+Middle minus High SES,standardised,mar_drop1819,High | Asian x F x Single,-0.0625,117,2.3956
+Middle minus High SES,standardised,no_marital,Middle | White x M,0.125,2597,2.7185
+Middle minus High SES,standardised,no_marital,High | White x M,-0.125,2796,1.918
+Middle minus High SES,standardised,no_marital,Middle | White x F,0.125,2655,3.5625
+Middle minus High SES,standardised,no_marital,High | White x F,-0.125,2621,2.5318
+Middle minus High SES,standardised,no_marital,Middle | Black x M,0.125,1436,2.5535
+Middle minus High SES,standardised,no_marital,High | Black x M,-0.125,948,1.704
+Middle minus High SES,standardised,no_marital,Middle | Black x F,0.125,1449,3.4448
+Middle minus High SES,standardised,no_marital,High | Black x F,-0.125,818,2.8128
+Middle minus High SES,standardised,no_marital,Middle | Hispanic x M,0.125,1609,2.4824
+Middle minus High SES,standardised,no_marital,High | Hispanic x M,-0.125,694,1.9845
+Middle minus High SES,standardised,no_marital,Middle | Hispanic x F,0.125,1618,3.6376
+Middle minus High SES,standardised,no_marital,High | Hispanic x F,-0.125,720,2.7977
+Middle minus High SES,standardised,no_marital,Middle | Asian x M,0.125,352,2.2918
+Middle minus High SES,standardised,no_marital,High | Asian x M,-0.125,501,1.6927
+Middle minus High SES,standardised,no_marital,Middle | Asian x F,0.125,343,2.3033
+Middle minus High SES,standardised,no_marital,High | Asian x F,-0.125,501,2.1341
+Middle minus High SES,standardised,five_race,Middle | White x M x Married,0.05,1535,2.3596
+Middle minus High SES,standardised,five_race,High | White x M x Married,-0.05,1892,1.7424
+Middle minus High SES,standardised,five_race,Middle | White x M x Single,0.05,897,3.372
+Middle minus High SES,standardised,five_race,High | White x M x Single,-0.05,742,2.187
+Middle minus High SES,standardised,five_race,Middle | White x F x Married,0.05,1312,3.1808
+Middle minus High SES,standardised,five_race,High | White x F x Married,-0.05,1727,2.3424
+Middle minus High SES,standardised,five_race,Middle | White x F x Single,0.05,1175,3.8725
+Middle minus High SES,standardised,five_race,High | White x F x Single,-0.05,776,2.9081
+Middle minus High SES,standardised,five_race,Middle | Black x M x Married,0.05,607,2.3504
+Middle minus High SES,standardised,five_race,High | Black x M x Married,-0.05,558,1.4859
+Middle minus High SES,standardised,five_race,Middle | Black x M x Single,0.05,680,2.6687
+Middle minus High SES,standardised,five_race,High | Black x M x Single,-0.05,335,2.0086
+Middle minus High SES,standardised,five_race,Middle | Black x F x Married,0.05,434,2.9371
+Middle minus High SES,standardised,five_race,High | Black x F x Married,-0.05,375,2.4523
+Middle minus High SES,standardised,five_race,Middle | Black x F x Single,0.05,915,3.6935
+Middle minus High SES,standardised,five_race,High | Black x F x Single,-0.05,405,3.1078
+Middle minus High SES,standardised,five_race,Middle | Hispanic x M x Married,0.05,921,1.9914
+Middle minus High SES,standardised,five_race,High | Hispanic x M x Married,-0.05,427,1.5015
+Middle minus High SES,standardised,five_race,Middle | Hispanic x M x Single,0.05,540,3.1816
+Middle minus High SES,standardised,five_race,High | Hispanic x M x Single,-0.05,209,3.0463
+Middle minus High SES,standardised,five_race,Middle | Hispanic x F x Married,0.05,815,3.2808
+Middle minus High SES,standardised,five_race,High | Hispanic x F x Married,-0.05,441,2.7006
+Middle minus High SES,standardised,five_race,Middle | Hispanic x F x Single,0.05,667,4.179
+Middle minus High SES,standardised,five_race,High | Hispanic x F x Single,-0.05,224,3.1792
+Middle minus High SES,standardised,five_race,Middle | Asian x M x Married,0.05,214,2.0973
+Middle minus High SES,standardised,five_race,High | Asian x M x Married,-0.05,366,1.526
+Middle minus High SES,standardised,five_race,Middle | Asian x M x Single,0.05,122,2.6401
+Middle minus High SES,standardised,five_race,High | Asian x M x Single,-0.05,128,2.177
+Middle minus High SES,standardised,five_race,Middle | Asian x F x Married,0.05,205,2.022
+Middle minus High SES,standardised,five_race,High | Asian x F x Married,-0.05,362,2.007
+Middle minus High SES,standardised,five_race,Middle | Asian x F x Single,0.05,123,2.7423
+Middle minus High SES,standardised,five_race,High | Asian x F x Single,-0.05,128,2.4874
+Middle minus High SES,standardised,five_race,Middle | Multiracial x M x Married,0.05,70,2.0676
+Middle minus High SES,standardised,five_race,High | Multiracial x M x Married,-0.05,49,2.2184
+Middle minus High SES,standardised,five_race,Middle | Multiracial x M x Single,0.05,72,4.0397
+Middle minus High SES,standardised,five_race,High | Multiracial x M x Single,-0.05,42,3.9681
+Middle minus High SES,standardised,five_race,Middle | Multiracial x F x Married,0.05,44,5.5902
+Middle minus High SES,standardised,five_race,High | Multiracial x F x Married,-0.05,44,2.7328
+Middle minus High SES,standardised,five_race,Middle | Multiracial x F x Single,0.05,75,4.81
+Middle minus High SES,standardised,five_race,High | Multiracial x F x Single,-0.05,29,3.5448
+Middle minus High SES,marginal,income_alt,Middle,1.0,4291,2.5187
+Middle minus High SES,marginal,income_alt,High,-1.0,4065,2.0109
+Middle minus High SES,standardised,income_alt,Middle | White x M x Married,0.0625,724,2.0261
+Middle minus High SES,standardised,income_alt,High | White x M x Married,-0.0625,836,1.7199
+Middle minus High SES,standardised,income_alt,Middle | White x M x Single,0.0625,241,2.5422
+Middle minus High SES,standardised,income_alt,High | White x M x Single,-0.0625,245,1.9478
+Middle minus High SES,standardised,income_alt,Middle | White x F x Married,0.0625,665,2.693
+Middle minus High SES,standardised,income_alt,High | White x F x Married,-0.0625,769,2.1176
+Middle minus High SES,standardised,income_alt,Middle | White x F x Single,0.0625,279,3.7245
+Middle minus High SES,standardised,income_alt,High | White x F x Single,-0.0625,211,2.6174
+Middle minus High SES,standardised,income_alt,Middle | Black x M x Married,0.0625,274,1.7404
+Middle minus High SES,standardised,income_alt,High | Black x M x Married,-0.0625,216,1.2353
+Middle minus High SES,standardised,income_alt,Middle | Black x M x Single,0.0625,140,2.2341
+Middle minus High SES,standardised,income_alt,High | Black x M x Single,-0.0625,61,1.4139
+Middle minus High SES,standardised,income_alt,Middle | Black x F x Married,0.0625,192,2.662
+Middle minus High SES,standardised,income_alt,High | Black x F x Married,-0.0625,157,1.8217
+Middle minus High SES,standardised,income_alt,Middle | Black x F x Single,0.0625,192,2.803
+Middle minus High SES,standardised,income_alt,High | Black x F x Single,-0.0625,100,3.064
+Middle minus High SES,standardised,income_alt,Middle | Hispanic x M x Married,0.0625,309,1.6799
+Middle minus High SES,standardised,income_alt,High | Hispanic x M x Married,-0.0625,187,1.5455
+Middle minus High SES,standardised,income_alt,Middle | Hispanic x M x Single,0.0625,103,2.7128
+Middle minus High SES,standardised,income_alt,High | Hispanic x M x Single,-0.0625,56,2.5169
+Middle minus High SES,standardised,income_alt,Middle | Hispanic x F x Married,0.0625,293,3.1619
+Middle minus High SES,standardised,income_alt,High | Hispanic x F x Married,-0.0625,185,2.3419
+Middle minus High SES,standardised,income_alt,Middle | Hispanic x F x Single,0.0625,134,3.1387
+Middle minus High SES,standardised,income_alt,High | Hispanic x F x Single,-0.0625,65,2.3952
+Middle minus High SES,standardised,income_alt,Middle | Asian x M x Married,0.0625,134,1.4718
+Middle minus High SES,standardised,income_alt,High | Asian x M x Married,-0.0625,233,1.6905
+Middle minus High SES,standardised,income_alt,Middle | Asian x M x Single,0.0625,43,2.5465
+Middle minus High SES,standardised,income_alt,High | Asian x M x Single,-0.0625,73,2.1734
+Middle minus High SES,standardised,income_alt,Middle | Asian x F x Married,0.0625,131,2.2431
+Middle minus High SES,standardised,income_alt,High | Asian x F x Married,-0.0625,229,1.8699
+Middle minus High SES,standardised,income_alt,Middle | Asian x F x Single,0.0625,57,2.5401
+Middle minus High SES,standardised,income_alt,High | Asian x F x Single,-0.0625,73,1.8774
+Middle minus High SES,standardised,audit,Middle | White x M,0.125,2597,2.7185
+Middle minus High SES,standardised,audit,High | White x M,-0.125,2796,1.918
+Middle minus High SES,standardised,audit,Middle | White x F,0.125,2655,3.5625
+Middle minus High SES,standardised,audit,High | White x F,-0.125,2621,2.5318
+Middle minus High SES,standardised,audit,Middle | Black x M,0.125,1436,2.5535
+Middle minus High SES,standardised,audit,High | Black x M,-0.125,948,1.704
+Middle minus High SES,standardised,audit,Middle | Black x F,0.125,1449,3.4448
+Middle minus High SES,standardised,audit,High | Black x F,-0.125,818,2.8128
+Middle minus High SES,standardised,audit,Middle | Hispanic x M,0.125,1609,2.4824
+Middle minus High SES,standardised,audit,High | Hispanic x M,-0.125,694,1.9845
+Middle minus High SES,standardised,audit,Middle | Hispanic x F,0.125,1618,3.6376
+Middle minus High SES,standardised,audit,High | Hispanic x F,-0.125,720,2.7977
+Middle minus High SES,standardised,audit,Middle | Asian x M,0.125,352,2.2918
+Middle minus High SES,standardised,audit,High | Asian x M,-0.125,501,1.6927
+Middle minus High SES,standardised,audit,Middle | Asian x F,0.125,343,2.3033
+Middle minus High SES,standardised,audit,High | Asian x F,-0.125,501,2.1341
+Middle minus High SES,standardised,pc_design,Middle | White x M x Single,0.25,897,3.372
+Middle minus High SES,standardised,pc_design,High | White x M x Single,-0.25,742,2.187
+Middle minus High SES,standardised,pc_design,Middle | White x F x Single,0.25,1175,3.8725
+Middle minus High SES,standardised,pc_design,High | White x F x Single,-0.25,776,2.9081
+Middle minus High SES,standardised,pc_design,Middle | Black x M x Single,0.25,680,2.6687
+Middle minus High SES,standardised,pc_design,High | Black x M x Single,-0.25,335,2.0086
+Middle minus High SES,standardised,pc_design,Middle | Black x F x Single,0.25,915,3.6935
+Middle minus High SES,standardised,pc_design,High | Black x F x Single,-0.25,405,3.1078
+Low minus Middle SES,marginal,primary,Low,1.0,10663,4.247
+Low minus Middle SES,marginal,primary,Middle,-1.0,12554,3.1183
+Low minus Middle SES,standardised,primary,Low | White x M x Married,0.0625,687,3.4483
+Low minus Middle SES,standardised,primary,Middle | White x M x Married,-0.0625,1535,2.3596
+Low minus Middle SES,standardised,primary,Low | White x M x Single,0.0625,923,4.0868
+Low minus Middle SES,standardised,primary,Middle | White x M x Single,-0.0625,897,3.372
+Low minus Middle SES,standardised,primary,Low | White x F x Married,0.0625,566,4.6507
+Low minus Middle SES,standardised,primary,Middle | White x F x Married,-0.0625,1312,3.1808
+Low minus Middle SES,standardised,primary,Low | White x F x Single,0.0625,1170,5.3751
+Low minus Middle SES,standardised,primary,Middle | White x F x Single,-0.0625,1175,3.8725
+Low minus Middle SES,standardised,primary,Low | Black x M x Married,0.0625,236,2.341
+Low minus Middle SES,standardised,primary,Middle | Black x M x Married,-0.0625,607,2.3504
+Low minus Middle SES,standardised,primary,Low | Black x M x Single,0.0625,726,3.6211
+Low minus Middle SES,standardised,primary,Middle | Black x M x Single,-0.0625,680,2.6687
+Low minus Middle SES,standardised,primary,Low | Black x F x Married,0.0625,200,4.7533
+Low minus Middle SES,standardised,primary,Middle | Black x F x Married,-0.0625,434,2.9371
+Low minus Middle SES,standardised,primary,Low | Black x F x Single,0.0625,1108,4.6932
+Low minus Middle SES,standardised,primary,Middle | Black x F x Single,-0.0625,915,3.6935
+Low minus Middle SES,standardised,primary,Low | Hispanic x M x Married,0.0625,777,2.4954
+Low minus Middle SES,standardised,primary,Middle | Hispanic x M x Married,-0.0625,921,1.9914
+Low minus Middle SES,standardised,primary,Low | Hispanic x M x Single,0.0625,617,3.3205
+Low minus Middle SES,standardised,primary,Middle | Hispanic x M x Single,-0.0625,540,3.1816
+Low minus Middle SES,standardised,primary,Low | Hispanic x F x Married,0.0625,682,3.877
+Low minus Middle SES,standardised,primary,Middle | Hispanic x F x Married,-0.0625,815,3.2808
+Low minus Middle SES,standardised,primary,Low | Hispanic x F x Single,0.0625,1003,4.5728
+Low minus Middle SES,standardised,primary,Middle | Hispanic x F x Single,-0.0625,667,4.179
+Low minus Middle SES,standardised,primary,Low | Asian x M x Married,0.0625,119,2.0731
+Low minus Middle SES,standardised,primary,Middle | Asian x M x Married,-0.0625,214,2.0973
+Low minus Middle SES,standardised,primary,Low | Asian x M x Single,0.0625,83,2.7081
+Low minus Middle SES,standardised,primary,Middle | Asian x M x Single,-0.0625,122,2.6401
+Low minus Middle SES,standardised,primary,Low | Asian x F x Married,0.0625,112,2.2659
+Low minus Middle SES,standardised,primary,Middle | Asian x F x Married,-0.0625,205,2.022
+Low minus Middle SES,standardised,primary,Low | Asian x F x Single,0.0625,112,3.3364
+Low minus Middle SES,standardised,primary,Middle | Asian x F x Single,-0.0625,123,2.7423
+Low minus Middle SES,standardised,mar_all,Low | White x M x Married,0.0625,687,3.4483
+Low minus Middle SES,standardised,mar_all,Middle | White x M x Married,-0.0625,1535,2.3596
+Low minus Middle SES,standardised,mar_all,Low | White x M x Single,0.0625,1101,4.1526
+Low minus Middle SES,standardised,mar_all,Middle | White x M x Single,-0.0625,1062,3.1855
+Low minus Middle SES,standardised,mar_all,Low | White x F x Married,0.0625,566,4.6507
+Low minus Middle SES,standardised,mar_all,Middle | White x F x Married,-0.0625,1312,3.1808
+Low minus Middle SES,standardised,mar_all,Low | White x F x Single,0.0625,1342,5.424
+Low minus Middle SES,standardised,mar_all,Middle | White x F x Single,-0.0625,1342,3.9564
+Low minus Middle SES,standardised,mar_all,Low | Black x M x Married,0.0625,236,2.341
+Low minus Middle SES,standardised,mar_all,Middle | Black x M x Married,-0.0625,607,2.3504
+Low minus Middle SES,standardised,mar_all,Low | Black x M x Single,0.0625,870,3.5406
+Low minus Middle SES,standardised,mar_all,Middle | Black x M x Single,-0.0625,827,2.6896
+Low minus Middle SES,standardised,mar_all,Low | Black x F x Married,0.0625,200,4.7533
+Low minus Middle SES,standardised,mar_all,Middle | Black x F x Married,-0.0625,434,2.9371
+Low minus Middle SES,standardised,mar_all,Low | Black x F x Single,0.0625,1216,4.7547
+Low minus Middle SES,standardised,mar_all,Middle | Black x F x Single,-0.0625,1014,3.6656
+Low minus Middle SES,standardised,mar_all,Low | Hispanic x M x Married,0.0625,777,2.4954
+Low minus Middle SES,standardised,mar_all,Middle | Hispanic x M x Married,-0.0625,921,1.9914
+Low minus Middle SES,standardised,mar_all,Low | Hispanic x M x Single,0.0625,826,3.2359
+Low minus Middle SES,standardised,mar_all,Middle | Hispanic x M x Single,-0.0625,686,3.067
+Low minus Middle SES,standardised,mar_all,Low | Hispanic x F x Married,0.0625,682,3.877
+Low minus Middle SES,standardised,mar_all,Middle | Hispanic x F x Married,-0.0625,815,3.2808
+Low minus Middle SES,standardised,mar_all,Low | Hispanic x F x Single,0.0625,1244,4.5525
+Low minus Middle SES,standardised,mar_all,Middle | Hispanic x F x Single,-0.0625,803,4.01
+Low minus Middle SES,standardised,mar_all,Low | Asian x M x Married,0.0625,119,2.0731
+Low minus Middle SES,standardised,mar_all,Middle | Asian x M x Married,-0.0625,214,2.0973
+Low minus Middle SES,standardised,mar_all,Low | Asian x M x Single,0.0625,92,2.5757
+Low minus Middle SES,standardised,mar_all,Middle | Asian x M x Single,-0.0625,138,2.5813
+Low minus Middle SES,standardised,mar_all,Low | Asian x F x Married,0.0625,112,2.2659
+Low minus Middle SES,standardised,mar_all,Middle | Asian x F x Married,-0.0625,205,2.022
+Low minus Middle SES,standardised,mar_all,Low | Asian x F x Single,0.0625,124,3.3989
+Low minus Middle SES,standardised,mar_all,Middle | Asian x F x Single,-0.0625,138,2.7317
+Low minus Middle SES,standardised,mar_never,Low | White x M x Married,0.0625,687,3.4483
+Low minus Middle SES,standardised,mar_never,Middle | White x M x Married,-0.0625,1535,2.3596
+Low minus Middle SES,standardised,mar_never,Low | White x M x Single,0.0625,497,3.8185
+Low minus Middle SES,standardised,mar_never,Middle | White x M x Single,-0.0625,434,3.0898
+Low minus Middle SES,standardised,mar_never,Low | White x F x Married,0.0625,566,4.6507
+Low minus Middle SES,standardised,mar_never,Middle | White x F x Married,-0.0625,1312,3.1808
+Low minus Middle SES,standardised,mar_never,Low | White x F x Single,0.0625,391,4.6321
+Low minus Middle SES,standardised,mar_never,Middle | White x F x Single,-0.0625,356,3.6495
+Low minus Middle SES,standardised,mar_never,Low | Black x M x Married,0.0625,236,2.341
+Low minus Middle SES,standardised,mar_never,Middle | Black x M x Married,-0.0625,607,2.3504
+Low minus Middle SES,standardised,mar_never,Low | Black x M x Single,0.0625,458,3.5501
+Low minus Middle SES,standardised,mar_never,Middle | Black x M x Single,-0.0625,406,2.6682
+Low minus Middle SES,standardised,mar_never,Low | Black x F x Married,0.0625,200,4.7533
+Low minus Middle SES,standardised,mar_never,Middle | Black x F x Married,-0.0625,434,2.9371
+Low minus Middle SES,standardised,mar_never,Low | Black x F x Single,0.0625,651,4.625
+Low minus Middle SES,standardised,mar_never,Middle | Black x F x Single,-0.0625,434,3.5295
+Low minus Middle SES,standardised,mar_never,Low | Hispanic x M x Married,0.0625,777,2.4954
+Low minus Middle SES,standardised,mar_never,Middle | Hispanic x M x Married,-0.0625,921,1.9914
+Low minus Middle SES,standardised,mar_never,Low | Hispanic x M x Single,0.0625,397,3.3307
+Low minus Middle SES,standardised,mar_never,Middle | Hispanic x M x Single,-0.0625,355,2.9549
+Low minus Middle SES,standardised,mar_never,Low | Hispanic x F x Married,0.0625,682,3.877
+Low minus Middle SES,standardised,mar_never,Middle | Hispanic x F x Married,-0.0625,815,3.2808
+Low minus Middle SES,standardised,mar_never,Low | Hispanic x F x Single,0.0625,464,4.1909
+Low minus Middle SES,standardised,mar_never,Middle | Hispanic x F x Single,-0.0625,302,3.6664
+Low minus Middle SES,standardised,mar_never,Low | Asian x M x Married,0.0625,119,2.0731
+Low minus Middle SES,standardised,mar_never,Middle | Asian x M x Married,-0.0625,214,2.0973
+Low minus Middle SES,standardised,mar_never,Low | Asian x M x Single,0.0625,65,2.4349
+Low minus Middle SES,standardised,mar_never,Middle | Asian x M x Single,-0.0625,109,2.7434
+Low minus Middle SES,standardised,mar_never,Low | Asian x F x Married,0.0625,112,2.2659
+Low minus Middle SES,standardised,mar_never,Middle | Asian x F x Married,-0.0625,205,2.022
+Low minus Middle SES,standardised,mar_never,Low | Asian x F x Single,0.0625,68,3.2765
+Low minus Middle SES,standardised,mar_never,Middle | Asian x F x Single,-0.0625,70,2.457
+Low minus Middle SES,standardised,mar_drop1819,Low | White x M x Married,0.0625,687,3.4483
+Low minus Middle SES,standardised,mar_drop1819,Middle | White x M x Married,-0.0625,1535,2.3596
+Low minus Middle SES,standardised,mar_drop1819,Low | White x M x Single,0.0625,832,4.2276
+Low minus Middle SES,standardised,mar_drop1819,Middle | White x M x Single,-0.0625,826,3.3916
+Low minus Middle SES,standardised,mar_drop1819,Low | White x F x Married,0.0625,566,4.6507
+Low minus Middle SES,standardised,mar_drop1819,Middle | White x F x Married,-0.0625,1312,3.1808
+Low minus Middle SES,standardised,mar_drop1819,Low | White x F x Single,0.0625,1087,5.505
+Low minus Middle SES,standardised,mar_drop1819,Middle | White x F x Single,-0.0625,1125,3.8951
+Low minus Middle SES,standardised,mar_drop1819,Low | Black x M x Married,0.0625,236,2.341
+Low minus Middle SES,standardised,mar_drop1819,Middle | Black x M x Married,-0.0625,607,2.3504
+Low minus Middle SES,standardised,mar_drop1819,Low | Black x M x Single,0.0625,638,3.7672
+Low minus Middle SES,standardised,mar_drop1819,Middle | Black x M x Single,-0.0625,634,2.7071
+Low minus Middle SES,standardised,mar_drop1819,Low | Black x F x Married,0.0625,200,4.7533
+Low minus Middle SES,standardised,mar_drop1819,Middle | Black x F x Married,-0.0625,434,2.9371
+Low minus Middle SES,standardised,mar_drop1819,Low | Black x F x Single,0.0625,997,4.7636
+Low minus Middle SES,standardised,mar_drop1819,Middle | Black x F x Single,-0.0625,860,3.708
+Low minus Middle SES,standardised,mar_drop1819,Low | Hispanic x M x Married,0.0625,777,2.4954
+Low minus Middle SES,standardised,mar_drop1819,Middle | Hispanic x M x Married,-0.0625,921,1.9914
+Low minus Middle SES,standardised,mar_drop1819,Low | Hispanic x M x Single,0.0625,495,3.3814
+Low minus Middle SES,standardised,mar_drop1819,Middle | Hispanic x M x Single,-0.0625,446,3.0988
+Low minus Middle SES,standardised,mar_drop1819,Low | Hispanic x F x Married,0.0625,682,3.877
+Low minus Middle SES,standardised,mar_drop1819,Middle | Hispanic x F x Married,-0.0625,815,3.2808
+Low minus Middle SES,standardised,mar_drop1819,Low | Hispanic x F x Single,0.0625,861,4.7168
+Low minus Middle SES,standardised,mar_drop1819,Middle | Hispanic x F x Single,-0.0625,588,4.2787
+Low minus Middle SES,standardised,mar_drop1819,Low | Asian x M x Married,0.0625,119,2.0731
+Low minus Middle SES,standardised,mar_drop1819,Middle | Asian x M x Married,-0.0625,214,2.0973
+Low minus Middle SES,standardised,mar_drop1819,Low | Asian x M x Single,0.0625,61,2.8116
+Low minus Middle SES,standardised,mar_drop1819,Middle | Asian x M x Single,-0.0625,97,2.5837
+Low minus Middle SES,standardised,mar_drop1819,Low | Asian x F x Married,0.0625,112,2.2659
+Low minus Middle SES,standardised,mar_drop1819,Middle | Asian x F x Married,-0.0625,205,2.022
+Low minus Middle SES,standardised,mar_drop1819,Low | Asian x F x Single,0.0625,92,3.3491
+Low minus Middle SES,standardised,mar_drop1819,Middle | Asian x F x Single,-0.0625,108,2.7806
+Low minus Middle SES,standardised,no_marital,Low | White x M,0.125,1788,3.9071
+Low minus Middle SES,standardised,no_marital,Middle | White x M,-0.125,2597,2.7185
+Low minus Middle SES,standardised,no_marital,Low | White x F,0.125,1909,5.1974
+Low minus Middle SES,standardised,no_marital,Middle | White x F,-0.125,2655,3.5625
+Low minus Middle SES,standardised,no_marital,Low | Black x M,0.125,1106,3.293
+Low minus Middle SES,standardised,no_marital,Middle | Black x M,-0.125,1436,2.5535
+Low minus Middle SES,standardised,no_marital,Low | Black x F,0.125,1416,4.7545
+Low minus Middle SES,standardised,no_marital,Middle | Black x F,-0.125,1449,3.4448
+Low minus Middle SES,standardised,no_marital,Low | Hispanic x M,0.125,1603,2.896
+Low minus Middle SES,standardised,no_marital,Middle | Hispanic x M,-0.125,1609,2.4824
+Low minus Middle SES,standardised,no_marital,Low | Hispanic x F,0.125,1926,4.3097
+Low minus Middle SES,standardised,no_marital,Middle | Hispanic x F,-0.125,1618,3.6376
+Low minus Middle SES,standardised,no_marital,Low | Asian x M,0.125,211,2.2842
+Low minus Middle SES,standardised,no_marital,Middle | Asian x M,-0.125,352,2.2918
+Low minus Middle SES,standardised,no_marital,Low | Asian x F,0.125,237,2.8471
+Low minus Middle SES,standardised,no_marital,Middle | Asian x F,-0.125,343,2.3033
+Low minus Middle SES,standardised,five_race,Low | White x M x Married,0.05,687,3.4483
+Low minus Middle SES,standardised,five_race,Middle | White x M x Married,-0.05,1535,2.3596
+Low minus Middle SES,standardised,five_race,Low | White x M x Single,0.05,923,4.0868
+Low minus Middle SES,standardised,five_race,Middle | White x M x Single,-0.05,897,3.372
+Low minus Middle SES,standardised,five_race,Low | White x F x Married,0.05,566,4.6507
+Low minus Middle SES,standardised,five_race,Middle | White x F x Married,-0.05,1312,3.1808
+Low minus Middle SES,standardised,five_race,Low | White x F x Single,0.05,1170,5.3751
+Low minus Middle SES,standardised,five_race,Middle | White x F x Single,-0.05,1175,3.8725
+Low minus Middle SES,standardised,five_race,Low | Black x M x Married,0.05,236,2.341
+Low minus Middle SES,standardised,five_race,Middle | Black x M x Married,-0.05,607,2.3504
+Low minus Middle SES,standardised,five_race,Low | Black x M x Single,0.05,726,3.6211
+Low minus Middle SES,standardised,five_race,Middle | Black x M x Single,-0.05,680,2.6687
+Low minus Middle SES,standardised,five_race,Low | Black x F x Married,0.05,200,4.7533
+Low minus Middle SES,standardised,five_race,Middle | Black x F x Married,-0.05,434,2.9371
+Low minus Middle SES,standardised,five_race,Low | Black x F x Single,0.05,1108,4.6932
+Low minus Middle SES,standardised,five_race,Middle | Black x F x Single,-0.05,915,3.6935
+Low minus Middle SES,standardised,five_race,Low | Hispanic x M x Married,0.05,777,2.4954
+Low minus Middle SES,standardised,five_race,Middle | Hispanic x M x Married,-0.05,921,1.9914
+Low minus Middle SES,standardised,five_race,Low | Hispanic x M x Single,0.05,617,3.3205
+Low minus Middle SES,standardised,five_race,Middle | Hispanic x M x Single,-0.05,540,3.1816
+Low minus Middle SES,standardised,five_race,Low | Hispanic x F x Married,0.05,682,3.877
+Low minus Middle SES,standardised,five_race,Middle | Hispanic x F x Married,-0.05,815,3.2808
+Low minus Middle SES,standardised,five_race,Low | Hispanic x F x Single,0.05,1003,4.5728
+Low minus Middle SES,standardised,five_race,Middle | Hispanic x F x Single,-0.05,667,4.179
+Low minus Middle SES,standardised,five_race,Low | Asian x M x Married,0.05,119,2.0731
+Low minus Middle SES,standardised,five_race,Middle | Asian x M x Married,-0.05,214,2.0973
+Low minus Middle SES,standardised,five_race,Low | Asian x M x Single,0.05,83,2.7081
+Low minus Middle SES,standardised,five_race,Middle | Asian x M x Single,-0.05,122,2.6401
+Low minus Middle SES,standardised,five_race,Low | Asian x F x Married,0.05,112,2.2659
+Low minus Middle SES,standardised,five_race,Middle | Asian x F x Married,-0.05,205,2.022
+Low minus Middle SES,standardised,five_race,Low | Asian x F x Single,0.05,112,3.3364
+Low minus Middle SES,standardised,five_race,Middle | Asian x F x Single,-0.05,123,2.7423
+Low minus Middle SES,standardised,five_race,Low | Multiracial x M x Married,0.05,42,3.7842
+Low minus Middle SES,standardised,five_race,Middle | Multiracial x M x Married,-0.05,70,2.0676
+Low minus Middle SES,standardised,five_race,Low | Multiracial x M x Single,0.05,64,6.389
+Low minus Middle SES,standardised,five_race,Middle | Multiracial x M x Single,-0.05,72,4.0397
+Low minus Middle SES,standardised,five_race,Low | Multiracial x F x Married,0.05,32,6.676
+Low minus Middle SES,standardised,five_race,Middle | Multiracial x F x Married,-0.05,44,5.5902
+Low minus Middle SES,standardised,five_race,Low | Multiracial x F x Single,0.05,84,6.255
+Low minus Middle SES,standardised,five_race,Middle | Multiracial x F x Single,-0.05,75,4.81
+Low minus Middle SES,marginal,income_alt,Low,1.0,2456,5.5496
+Low minus Middle SES,marginal,income_alt,Middle,-1.0,4291,2.5187
+Low minus Middle SES,standardised,income_alt,Low | White x M x Married,0.0625,101,4.0389
+Low minus Middle SES,standardised,income_alt,Middle | White x M x Married,-0.0625,724,2.0261
+Low minus Middle SES,standardised,income_alt,Low | White x M x Single,0.0625,207,5.4003
+Low minus Middle SES,standardised,income_alt,Middle | White x M x Single,-0.0625,241,2.5422
+Low minus Middle SES,standardised,income_alt,Low | White x F x Married,0.0625,119,5.615
+Low minus Middle SES,standardised,income_alt,Middle | White x F x Married,-0.0625,665,2.693
+Low minus Middle SES,standardised,income_alt,Low | White x F x Single,0.0625,293,6.9869
+Low minus Middle SES,standardised,income_alt,Middle | White x F x Single,-0.0625,279,3.7245
+Low minus Middle SES,standardised,income_alt,Low | Black x M x Married,0.0625,40,3.7714
+Low minus Middle SES,standardised,income_alt,Middle | Black x M x Married,-0.0625,274,1.7404
+Low minus Middle SES,standardised,income_alt,Low | Black x M x Single,0.0625,202,3.6598
+Low minus Middle SES,standardised,income_alt,Middle | Black x M x Single,-0.0625,140,2.2341
+Low minus Middle SES,standardised,income_alt,Low | Black x F x Married,0.0625,66,5.6872
+Low minus Middle SES,standardised,income_alt,Middle | Black x F x Married,-0.0625,192,2.662
+Low minus Middle SES,standardised,income_alt,Low | Black x F x Single,0.0625,430,5.6284
+Low minus Middle SES,standardised,income_alt,Middle | Black x F x Single,-0.0625,192,2.803
+Low minus Middle SES,standardised,income_alt,Low | Hispanic x M x Married,0.0625,101,3.5568
+Low minus Middle SES,standardised,income_alt,Middle | Hispanic x M x Married,-0.0625,309,1.6799
+Low minus Middle SES,standardised,income_alt,Low | Hispanic x M x Single,0.0625,106,4.9001
+Low minus Middle SES,standardised,income_alt,Middle | Hispanic x M x Single,-0.0625,103,2.7128
+Low minus Middle SES,standardised,income_alt,Low | Hispanic x F x Married,0.0625,113,5.1005
+Low minus Middle SES,standardised,income_alt,Middle | Hispanic x F x Married,-0.0625,293,3.1619
+Low minus Middle SES,standardised,income_alt,Low | Hispanic x F x Single,0.0625,262,5.8565
+Low minus Middle SES,standardised,income_alt,Middle | Hispanic x F x Single,-0.0625,134,3.1387
+Low minus Middle SES,standardised,income_alt,Low | Asian x M x Married,0.0625,29,2.262
+Low minus Middle SES,standardised,income_alt,Middle | Asian x M x Married,-0.0625,134,1.4718
+Low minus Middle SES,standardised,income_alt,Low | Asian x M x Single,0.0625,16,2.9323
+Low minus Middle SES,standardised,income_alt,Middle | Asian x M x Single,-0.0625,43,2.5465
+Low minus Middle SES,standardised,income_alt,Low | Asian x F x Married,0.0625,27,1.9766
+Low minus Middle SES,standardised,income_alt,Middle | Asian x F x Married,-0.0625,131,2.2431
+Low minus Middle SES,standardised,income_alt,Low | Asian x F x Single,0.0625,24,3.0769
+Low minus Middle SES,standardised,income_alt,Middle | Asian x F x Single,-0.0625,57,2.5401
+Low minus Middle SES,standardised,audit,Low | White x M,0.125,1788,3.9071
+Low minus Middle SES,standardised,audit,Middle | White x M,-0.125,2597,2.7185
+Low minus Middle SES,standardised,audit,Low | White x F,0.125,1909,5.1974
+Low minus Middle SES,standardised,audit,Middle | White x F,-0.125,2655,3.5625
+Low minus Middle SES,standardised,audit,Low | Black x M,0.125,1106,3.293
+Low minus Middle SES,standardised,audit,Middle | Black x M,-0.125,1436,2.5535
+Low minus Middle SES,standardised,audit,Low | Black x F,0.125,1416,4.7545
+Low minus Middle SES,standardised,audit,Middle | Black x F,-0.125,1449,3.4448
+Low minus Middle SES,standardised,audit,Low | Hispanic x M,0.125,1603,2.896
+Low minus Middle SES,standardised,audit,Middle | Hispanic x M,-0.125,1609,2.4824
+Low minus Middle SES,standardised,audit,Low | Hispanic x F,0.125,1926,4.3097
+Low minus Middle SES,standardised,audit,Middle | Hispanic x F,-0.125,1618,3.6376
+Low minus Middle SES,standardised,audit,Low | Asian x M,0.125,211,2.2842
+Low minus Middle SES,standardised,audit,Middle | Asian x M,-0.125,352,2.2918
+Low minus Middle SES,standardised,audit,Low | Asian x F,0.125,237,2.8471
+Low minus Middle SES,standardised,audit,Middle | Asian x F,-0.125,343,2.3033
+Low minus Middle SES,standardised,pc_design,Low | White x M x Single,0.25,923,4.0868
+Low minus Middle SES,standardised,pc_design,Middle | White x M x Single,-0.25,897,3.372
+Low minus Middle SES,standardised,pc_design,Low | White x F x Single,0.25,1170,5.3751
+Low minus Middle SES,standardised,pc_design,Middle | White x F x Single,-0.25,1175,3.8725
+Low minus Middle SES,standardised,pc_design,Low | Black x M x Single,0.25,726,3.6211
+Low minus Middle SES,standardised,pc_design,Middle | Black x M x Single,-0.25,680,2.6687
+Low minus Middle SES,standardised,pc_design,Low | Black x F x Single,0.25,1108,4.6932
+Low minus Middle SES,standardised,pc_design,Middle | Black x F x Single,-0.25,915,3.6935

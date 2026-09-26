@@ -1,0 +1,151 @@
+arm,contrast,scope,estimand,n_pairs,simulated,se,df,population,se_pop,ratio,ci_lo,ci_hi,ci_unbounded,verdict,r3_unstopped,verdict_popstop,verdict_unadjusted_90,code
+orig,Women minus Men,deepseek-chat,marginal,6,0.7167,0.1749,5.0,0.938,0.0482,0.764,0.1371,1.3737,False,undetermined,undetermined,undetermined,attenuated or kept,u
+orig,Women minus Men,deepseek-chat,standardised,6,0.7167,0.1749,5.0,0.951,0.0979,0.7536,0.1361,1.3718,False,undetermined,undetermined,undetermined,attenuated or kept,u
+orig,Women minus Men,gemini-3-flash-preview,marginal,6,1.4507,0.3182,5.0,0.938,0.0482,1.5465,0.4066,2.6544,False,undetermined,undetermined,undetermined,kept or steepened,u
+orig,Women minus Men,gemini-3-flash-preview,standardised,6,1.4507,0.3182,5.0,0.951,0.0979,1.5254,0.4052,2.6639,False,undetermined,undetermined,undetermined,kept or steepened,u
+orig,Women minus Men,glm-4.7,marginal,6,2.2667,0.3418,5.0,0.938,0.0482,2.4164,1.201,3.6041,False,kept or steepened,kept or steepened,kept or steepened,steepened,k/s
+orig,Women minus Men,glm-4.7,standardised,6,2.2667,0.3418,5.0,0.951,0.0979,2.3835,1.2049,3.7002,False,kept or steepened,kept or steepened,kept or steepened,steepened,k/s
+orig,Women minus Men,gpt-4o-mini,marginal,6,0.2889,0.2268,5.0,0.938,0.0482,0.308,-0.5028,1.1094,False,undetermined,undetermined,undetermined,undetermined,u
+orig,Women minus Men,gpt-4o-mini,standardised,6,0.2889,0.2268,5.0,0.951,0.0979,0.3038,-0.4887,1.0812,False,undetermined,undetermined,undetermined,undetermined,u
+orig,Women minus Men,pooled,marginal,24,1.1807,0.1369,16.39,0.938,0.0482,1.2587,0.872,1.6758,False,kept or steepened,kept or steepened,kept or steepened,kept or steepened,k/s
+orig,Women minus Men,pooled,standardised,24,1.1807,0.1369,16.39,0.951,0.0979,1.2416,0.8297,1.7979,False,kept or steepened,kept or steepened,kept or steepened,kept or steepened,k/s
+no_pop,Women minus Men,deepseek-chat,marginal,6,0.45,0.2379,5.0,0.938,0.0482,0.4797,-0.3719,1.3173,False,undetermined,undetermined,undetermined,undetermined,u
+no_pop,Women minus Men,deepseek-chat,standardised,6,0.45,0.2379,5.0,0.951,0.0979,0.4732,-0.3626,1.2889,False,undetermined,undetermined,undetermined,undetermined,u
+no_pop,Women minus Men,gemini-3-flash-preview,marginal,6,0.5975,0.35,5.0,0.938,0.0482,0.637,-0.6157,1.8708,False,undetermined,undetermined,undetermined,undetermined,u
+no_pop,Women minus Men,gemini-3-flash-preview,standardised,6,0.5975,0.35,5.0,0.951,0.0979,0.6283,-0.5997,1.8281,False,undetermined,undetermined,undetermined,undetermined,u
+no_pop,Women minus Men,glm-4.7,marginal,6,1.6056,0.2452,5.0,0.938,0.0482,1.7116,0.8394,2.5635,False,kept or steepened,kept or steepened,kept or steepened,kept or steepened,k/s
+no_pop,Women minus Men,glm-4.7,standardised,6,1.6056,0.2452,5.0,0.951,0.0979,1.6883,0.8423,2.6295,False,kept or steepened,kept or steepened,kept or steepened,kept or steepened,k/s
+no_pop,Women minus Men,gpt-4o-mini,marginal,6,0.4944,0.1567,5.0,0.938,0.0482,0.5271,-0.0349,1.0755,False,undetermined,undetermined,undetermined,undetermined,u
+no_pop,Women minus Men,gpt-4o-mini,standardised,6,0.4944,0.1567,5.0,0.951,0.0979,0.5199,-0.0344,1.0637,False,undetermined,undetermined,undetermined,undetermined,u
+no_pop,Women minus Men,pooled,marginal,24,0.7869,0.1284,15.51,0.938,0.0482,0.8389,0.4808,1.2156,False,attenuated or kept,attenuated or kept,attenuated or kept,attenuated or kept,a/k
+no_pop,Women minus Men,pooled,standardised,24,0.7869,0.1284,15.51,0.951,0.0979,0.8274,0.4647,1.2801,False,undetermined,undetermined,undetermined,attenuated or kept,u
+first_person,Women minus Men,deepseek-chat,marginal,6,0.7278,0.1459,5.0,0.938,0.0482,0.7759,0.2536,1.2834,False,undetermined,undetermined,undetermined,attenuated or kept,u
+first_person,Women minus Men,deepseek-chat,standardised,6,0.7278,0.1459,5.0,0.951,0.0979,0.7653,0.2535,1.2941,False,undetermined,undetermined,undetermined,attenuated or kept,u
+first_person,Women minus Men,gemini-3-flash-preview,marginal,6,0.8623,0.5206,5.0,0.938,0.0482,0.9192,-0.9436,2.7548,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Women minus Men,gemini-3-flash-preview,standardised,6,0.8623,0.5206,5.0,0.951,0.0979,0.9067,-0.9188,2.691,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Women minus Men,glm-4.7,marginal,6,0.9366,0.7732,5.0,0.938,0.0482,0.9985,-1.7645,3.7311,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Women minus Men,glm-4.7,standardised,6,0.9366,0.7732,5.0,0.951,0.0979,0.9848,-1.7148,3.6351,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Women minus Men,gpt-4o-mini,marginal,6,0.1889,0.2916,5.0,0.938,0.0482,0.2014,-0.8383,1.2348,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Women minus Men,gpt-4o-mini,standardised,6,0.1889,0.2916,5.0,0.951,0.0979,0.1986,-0.8135,1.2,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Women minus Men,pooled,marginal,24,0.6789,0.2469,10.84,0.938,0.0482,0.7237,0.0066,1.4515,False,undetermined,undetermined,undetermined,attenuated or kept,u
+first_person,Women minus Men,pooled,standardised,24,0.6789,0.2469,10.84,0.951,0.0979,0.7139,0.0065,1.4766,False,undetermined,undetermined,undetermined,undetermined,u
+orig,Black minus White,deepseek-chat,marginal,6,0.1278,0.0849,5.0,0.3299,0.0832,0.3873,-0.4523,1.4912,False,reference too imprecise,undetermined,reference too imprecise,undetermined,X
+orig,Black minus White,deepseek-chat,standardised,6,0.1278,0.0849,5.0,-0.3348,0.1017,-0.3817,-1.8332,0.446,False,undetermined,undetermined,reference too imprecise,reversed or missing,u
+orig,Black minus White,gemini-3-flash-preview,marginal,6,-0.2906,0.2389,5.0,0.3299,0.0832,-0.8807,-3.8288,1.4799,False,undetermined,undetermined,reference too imprecise,undetermined,u
+orig,Black minus White,gemini-3-flash-preview,standardised,6,-0.2906,0.2389,5.0,-0.3348,0.1017,0.868,-1.4765,4.6067,False,reference too imprecise,undetermined,reference too imprecise,reference too imprecise,X
+orig,Black minus White,glm-4.7,marginal,6,-0.8778,0.2807,5.0,0.3299,0.0832,-2.6604,-7.6733,0.199,False,reversed or missing,reversed or missing,reference too imprecise,reversed,r/m
+orig,Black minus White,glm-4.7,standardised,6,-0.8778,0.2807,5.0,-0.3348,0.1017,2.6219,-0.1947,10.1816,False,undetermined,undetermined,reference too imprecise,kept or steepened,u
+orig,Black minus White,gpt-4o-mini,marginal,6,0.2333,0.2579,5.0,0.3299,0.0832,0.7072,-1.8532,3.7294,False,reference too imprecise,undetermined,reference too imprecise,undetermined,X
+orig,Black minus White,gpt-4o-mini,standardised,6,0.2333,0.2579,5.0,-0.3348,0.1017,-0.697,-4.3732,1.8789,False,undetermined,undetermined,reference too imprecise,undetermined,u
+orig,Black minus White,pooled,marginal,24,-0.2018,0.1145,15.76,0.3299,0.0832,-0.6117,-2.1182,0.298,False,undetermined,undetermined,reference too imprecise,reversed or missing,u
+orig,Black minus White,pooled,standardised,24,-0.2018,0.1145,15.76,-0.3348,0.1017,0.6028,-0.2999,2.6889,False,reference too imprecise,undetermined,reference too imprecise,undetermined,X
+no_pop,Black minus White,deepseek-chat,marginal,6,0.3167,0.301,5.0,0.3299,0.0832,0.9598,-2.0192,4.5714,False,reference too imprecise,undetermined,reference too imprecise,reference too imprecise,X
+no_pop,Black minus White,deepseek-chat,standardised,6,0.3167,0.301,5.0,-0.3348,0.1017,-0.9459,-5.4278,2.0308,False,undetermined,undetermined,reference too imprecise,undetermined,u
+no_pop,Black minus White,gemini-3-flash-preview,marginal,6,0.0086,0.2348,5.0,0.3299,0.0832,0.0261,-2.4196,2.4885,False,undetermined,undetermined,reference too imprecise,undetermined,u
+no_pop,Black minus White,gemini-3-flash-preview,standardised,6,0.0086,0.2348,5.0,-0.3348,0.1017,-0.0258,-2.7022,2.6111,False,undetermined,undetermined,reference too imprecise,undetermined,u
+no_pop,Black minus White,glm-4.7,marginal,6,-0.0167,0.1488,5.0,0.3299,0.0832,-0.0505,-1.6222,1.4891,False,undetermined,undetermined,reference too imprecise,undetermined,u
+no_pop,Black minus White,glm-4.7,standardised,6,-0.0167,0.1488,5.0,-0.3348,0.1017,0.0498,-1.5969,1.7731,False,undetermined,undetermined,reference too imprecise,undetermined,u
+no_pop,Black minus White,gpt-4o-mini,marginal,6,0.2278,0.1203,5.0,0.3299,0.0832,0.6904,-0.505,2.3743,False,reference too imprecise,undetermined,reference too imprecise,undetermined,X
+no_pop,Black minus White,gpt-4o-mini,standardised,6,0.2278,0.1203,5.0,-0.3348,0.1017,-0.6804,-2.9925,0.4927,False,undetermined,undetermined,reference too imprecise,reversed or missing,u
+no_pop,Black minus White,pooled,marginal,24,0.1341,0.1067,13.92,0.3299,0.0832,0.4064,-0.4743,1.6691,False,undetermined,undetermined,reference too imprecise,undetermined,u
+no_pop,Black minus White,pooled,standardised,24,0.1341,0.1067,13.92,-0.3348,0.1017,-0.4006,-2.0527,0.4862,False,undetermined,undetermined,reference too imprecise,reversed or missing,u
+first_person,Black minus White,deepseek-chat,marginal,6,0.05,0.1744,5.0,0.3299,0.0832,0.1515,-1.63,2.0295,False,undetermined,undetermined,reference too imprecise,undetermined,u
+first_person,Black minus White,deepseek-chat,standardised,6,0.05,0.1744,5.0,-0.3348,0.1017,-0.1494,-2.2527,1.7236,False,undetermined,undetermined,reference too imprecise,undetermined,u
+first_person,Black minus White,gemini-3-flash-preview,marginal,6,0.2845,0.5185,5.0,0.3299,0.0832,0.8622,-4.352,6.6295,False,reference too imprecise,undetermined,reference too imprecise,reference too imprecise,X
+first_person,Black minus White,gemini-3-flash-preview,standardised,6,0.2845,0.5185,5.0,-0.3348,0.1017,-0.8498,-7.5337,4.5134,False,undetermined,undetermined,reference too imprecise,undetermined,u
+first_person,Black minus White,glm-4.7,marginal,6,0.3197,0.5029,5.0,0.3299,0.0832,0.9691,-4.0685,6.6305,False,reference too imprecise,undetermined,reference too imprecise,reference too imprecise,X
+first_person,Black minus White,glm-4.7,standardised,6,0.3197,0.5029,5.0,-0.3348,0.1017,-0.955,-7.5938,4.1943,False,undetermined,undetermined,reference too imprecise,undetermined,u
+first_person,Black minus White,gpt-4o-mini,marginal,6,0.4444,0.2207,5.0,0.3299,0.0832,1.3471,-0.8512,4.5099,False,undetermined,undetermined,reference too imprecise,undetermined,u
+first_person,Black minus White,gpt-4o-mini,standardised,6,0.4444,0.2207,5.0,-0.3348,0.1017,-1.3276,-5.723,0.8285,False,undetermined,undetermined,reference too imprecise,reversed or missing,u
+first_person,Black minus White,pooled,marginal,24,0.2747,0.1938,12.94,0.3299,0.0832,0.8325,-0.7665,3.2094,False,reference too imprecise,undetermined,reference too imprecise,reference too imprecise,X
+first_person,Black minus White,pooled,standardised,24,0.2747,0.1938,12.94,-0.3348,0.1017,-0.8204,-3.9858,0.7796,False,undetermined,undetermined,reference too imprecise,reversed or missing,u
+orig,Low minus High SES,deepseek-chat,marginal,4,2.25,0.1956,3.0,2.0198,0.0819,1.114,0.7076,1.4779,False,undetermined,undetermined,undetermined,kept or steepened,u
+orig,Low minus High SES,deepseek-chat,standardised,4,2.25,0.1956,3.0,1.8911,0.1252,1.1898,0.7901,1.5847,False,kept or steepened,kept or steepened,kept or steepened,kept or steepened,k/s
+orig,Low minus High SES,gemini-3-flash-preview,marginal,4,8.7831,0.3347,3.0,2.0198,0.0819,4.3486,3.7274,5.0192,False,steepened,steepened,steepened,steepened,s
+orig,Low minus High SES,gemini-3-flash-preview,standardised,4,8.7831,0.3347,3.0,1.8911,0.1252,4.6444,3.8717,5.6321,False,steepened,steepened,steepened,steepened,s
+orig,Low minus High SES,glm-4.7,marginal,4,6.0333,0.1122,3.0,2.0198,0.0819,2.9872,2.6929,3.3347,False,steepened,steepened,steepened,steepened,s
+orig,Low minus High SES,glm-4.7,standardised,4,6.0333,0.1122,3.0,1.8911,0.1252,3.1903,2.7388,3.8007,False,steepened,steepened,steepened,steepened,s
+orig,Low minus High SES,gpt-4o-mini,marginal,4,3.3,0.3559,3.0,2.0198,0.0819,1.6339,0.8648,2.3098,False,kept or steepened,kept or steepened,kept or steepened,kept or steepened,k/s
+orig,Low minus High SES,gpt-4o-mini,standardised,4,3.3,0.3559,3.0,1.8911,0.1252,1.745,0.9702,2.4463,False,kept or steepened,kept or steepened,kept or steepened,steepened,k/s
+orig,Low minus High SES,pooled,marginal,16,5.0916,0.1345,8.32,2.0198,0.0819,2.5209,2.2502,2.8364,False,steepened,steepened,steepened,steepened,s
+orig,Low minus High SES,pooled,standardised,16,5.0916,0.1345,8.32,1.8911,0.1252,2.6924,2.2956,3.223,False,steepened,steepened,steepened,steepened,s
+no_pop,Low minus High SES,deepseek-chat,marginal,4,1.425,0.4701,3.0,2.0198,0.0819,0.7055,-0.3471,1.6837,False,undetermined,undetermined,undetermined,undetermined,u
+no_pop,Low minus High SES,deepseek-chat,standardised,4,1.425,0.4701,3.0,1.8911,0.1252,0.7535,-0.3639,1.7291,False,undetermined,undetermined,undetermined,undetermined,u
+no_pop,Low minus High SES,gemini-3-flash-preview,marginal,4,9.7879,0.573,3.0,2.0198,0.0819,4.8461,3.7596,5.9017,False,steepened,steepened,steepened,steepened,s
+no_pop,Low minus High SES,gemini-3-flash-preview,standardised,4,9.7879,0.573,3.0,1.8911,0.1252,5.1757,4.0438,6.4836,False,steepened,steepened,steepened,steepened,s
+no_pop,Low minus High SES,glm-4.7,marginal,4,6.2833,0.385,3.0,2.0198,0.0819,3.1109,2.3739,3.8188,False,steepened,steepened,steepened,steepened,s
+no_pop,Low minus High SES,glm-4.7,standardised,4,6.2833,0.385,3.0,1.8911,0.1252,3.3225,2.5655,4.184,False,steepened,steepened,steepened,steepened,s
+no_pop,Low minus High SES,gpt-4o-mini,marginal,4,1.9333,0.124,3.0,2.0198,0.0819,0.9572,0.7174,1.1849,False,attenuated or kept,attenuated or kept,attenuated or kept,kept,a/k
+no_pop,Low minus High SES,gpt-4o-mini,standardised,4,1.9333,0.124,3.0,1.8911,0.1252,1.0223,0.7791,1.2947,False,kept or steepened,kept or steepened,kept or steepened,kept,k/s
+no_pop,Low minus High SES,pooled,marginal,16,4.8574,0.2111,8.53,2.0198,0.0819,2.4049,2.0692,2.779,False,steepened,steepened,steepened,steepened,s
+no_pop,Low minus High SES,pooled,standardised,16,4.8574,0.2111,8.53,1.8911,0.1252,2.5685,2.1351,3.1257,False,steepened,steepened,steepened,steepened,s
+first_person,Low minus High SES,deepseek-chat,marginal,4,1.1333,0.1453,3.0,2.0198,0.0819,0.5611,0.2407,0.8421,False,undetermined,undetermined,undetermined,attenuated,u
+first_person,Low minus High SES,deepseek-chat,standardised,4,1.1333,0.1453,3.0,1.8911,0.1252,0.5993,0.268,0.8843,False,attenuated or kept,attenuated or kept,attenuated or kept,attenuated or kept,a/k
+first_person,Low minus High SES,gemini-3-flash-preview,marginal,4,11.4017,0.8051,3.0,2.0198,0.0819,5.6451,4.0517,7.1253,False,steepened,steepened,steepened,steepened,s
+first_person,Low minus High SES,gemini-3-flash-preview,standardised,4,11.4017,0.8051,3.0,1.8911,0.1252,6.0291,4.4445,7.739,False,steepened,steepened,steepened,steepened,s
+first_person,Low minus High SES,glm-4.7,marginal,4,2.7204,1.2573,3.0,2.0198,0.0819,1.3469,-1.4527,3.9994,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Low minus High SES,glm-4.7,standardised,4,2.7204,1.2573,3.0,1.8911,0.1252,1.4385,-1.5101,4.1002,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Low minus High SES,gpt-4o-mini,marginal,4,2.225,0.4358,3.0,2.0198,0.0819,1.1016,0.1225,1.9785,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Low minus High SES,gpt-4o-mini,standardised,4,2.225,0.4358,3.0,1.8911,0.1252,1.1765,0.1319,2.0478,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Low minus High SES,pooled,marginal,16,4.3701,0.3905,6.04,2.0198,0.0819,2.1637,1.5629,2.7739,False,steepened,steepened,steepened,steepened,s
+first_person,Low minus High SES,pooled,standardised,16,4.3701,0.3905,6.04,1.8911,0.1252,2.3108,1.6631,3.0339,False,steepened,steepened,steepened,steepened,s
+orig,Middle minus High SES,deepseek-chat,marginal,4,0.9667,0.0892,3.0,0.891,0.058,1.0849,0.6901,1.4626,False,undetermined,undetermined,undetermined,kept or steepened,u
+orig,Middle minus High SES,deepseek-chat,standardised,4,0.9667,0.0892,3.0,0.8488,0.1145,1.1389,0.7422,1.7579,False,undetermined,undetermined,reference too imprecise,kept or steepened,u
+orig,Middle minus High SES,gemini-3-flash-preview,marginal,4,0.3875,0.0378,3.0,0.891,0.058,0.4349,0.2651,0.5938,False,attenuated,attenuated,attenuated,attenuated,a
+orig,Middle minus High SES,gemini-3-flash-preview,standardised,4,0.3875,0.0378,3.0,0.8488,0.1145,0.4566,0.2904,0.7088,False,attenuated,attenuated,reference too imprecise,attenuated,a
+orig,Middle minus High SES,glm-4.7,marginal,4,1.175,0.5454,3.0,0.891,0.058,1.3187,-1.3975,3.7762,False,undetermined,undetermined,undetermined,undetermined,u
+orig,Middle minus High SES,glm-4.7,standardised,4,1.175,0.5454,3.0,0.8488,0.1145,1.3844,-1.3317,3.7689,False,undetermined,undetermined,reference too imprecise,undetermined,u
+orig,Middle minus High SES,gpt-4o-mini,marginal,4,1.875,0.3227,3.0,0.891,0.058,2.1043,0.4725,3.4647,False,undetermined,undetermined,undetermined,steepened,u
+orig,Middle minus High SES,gpt-4o-mini,standardised,4,1.875,0.3227,3.0,0.8488,0.1145,2.2091,0.5468,3.8141,False,undetermined,undetermined,reference too imprecise,steepened,u
+orig,Middle minus High SES,pooled,marginal,16,1.101,0.1603,5.1,0.891,0.058,1.2357,0.6436,1.8271,False,undetermined,undetermined,undetermined,kept or steepened,u
+orig,Middle minus High SES,pooled,standardised,16,1.101,0.1603,5.1,0.8488,0.1145,1.2972,0.6848,2.126,False,undetermined,undetermined,reference too imprecise,kept or steepened,u
+no_pop,Middle minus High SES,deepseek-chat,marginal,4,0.3167,0.3227,3.0,0.891,0.058,0.3554,-1.2143,1.8521,False,undetermined,undetermined,undetermined,undetermined,u
+no_pop,Middle minus High SES,deepseek-chat,standardised,4,0.3167,0.3227,3.0,0.8488,0.1145,0.3731,-1.1495,1.7977,False,undetermined,undetermined,reference too imprecise,undetermined,u
+no_pop,Middle minus High SES,gemini-3-flash-preview,marginal,4,0.4333,0.2086,3.0,0.891,0.058,0.4863,-0.5512,1.428,False,undetermined,undetermined,undetermined,undetermined,u
+no_pop,Middle minus High SES,gemini-3-flash-preview,standardised,4,0.4333,0.2086,3.0,0.8488,0.1145,0.5105,-0.5246,1.4224,False,undetermined,undetermined,reference too imprecise,undetermined,u
+no_pop,Middle minus High SES,glm-4.7,marginal,4,1.0333,0.3153,3.0,0.891,0.058,1.1597,-0.4362,2.5451,False,undetermined,undetermined,undetermined,undetermined,u
+no_pop,Middle minus High SES,glm-4.7,standardised,4,1.0333,0.3153,3.0,0.8488,0.1145,1.2174,-0.4278,2.619,False,undetermined,undetermined,reference too imprecise,undetermined,u
+no_pop,Middle minus High SES,gpt-4o-mini,marginal,4,1.0833,0.2283,3.0,0.891,0.058,1.2158,0.0525,2.192,False,undetermined,undetermined,undetermined,undetermined,u
+no_pop,Middle minus High SES,gpt-4o-mini,standardised,4,1.0833,0.2283,3.0,0.8488,0.1145,1.2764,0.056,2.3486,False,undetermined,undetermined,reference too imprecise,undetermined,u
+no_pop,Middle minus High SES,pooled,marginal,16,0.7167,0.1368,10.6,0.891,0.058,0.8043,0.3827,1.2495,False,attenuated or kept,attenuated or kept,attenuated or kept,attenuated or kept,a/k
+no_pop,Middle minus High SES,pooled,standardised,16,0.7167,0.1368,10.6,0.8488,0.1145,0.8444,0.3947,1.4529,False,undetermined,undetermined,reference too imprecise,attenuated or kept,u
+first_person,Middle minus High SES,deepseek-chat,marginal,4,-0.2,0.2535,3.0,0.891,0.058,-0.2245,-1.4057,1.003,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Middle minus High SES,deepseek-chat,standardised,4,-0.2,0.2535,3.0,0.8488,0.1145,-0.2356,-1.3591,0.9502,False,undetermined,undetermined,reference too imprecise,undetermined,u
+first_person,Middle minus High SES,gemini-3-flash-preview,marginal,4,1.2417,0.485,3.0,0.891,0.058,1.3935,-1.0382,3.5583,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Middle minus High SES,gemini-3-flash-preview,standardised,4,1.2417,0.485,3.0,0.8488,0.1145,1.4629,-0.9968,3.59,False,undetermined,undetermined,reference too imprecise,undetermined,u
+first_person,Middle minus High SES,glm-4.7,marginal,4,-1.754,0.8968,3.0,0.891,0.058,-1.9685,-6.0283,2.4814,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Middle minus High SES,glm-4.7,standardised,4,-1.754,0.8968,3.0,0.8488,0.1145,-2.0665,-5.9859,2.3584,False,undetermined,undetermined,reference too imprecise,undetermined,u
+first_person,Middle minus High SES,gpt-4o-mini,marginal,4,1.05,0.306,3.0,0.891,0.058,1.1784,-0.3724,2.5182,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Middle minus High SES,gpt-4o-mini,standardised,4,1.05,0.306,3.0,0.8488,0.1145,1.2371,-0.3675,2.6026,False,undetermined,undetermined,reference too imprecise,undetermined,u
+first_person,Middle minus High SES,pooled,marginal,16,0.0844,0.2736,6.02,0.891,0.058,0.0947,-0.8648,1.0527,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Middle minus High SES,pooled,standardised,16,0.0844,0.2736,6.02,0.8488,0.1145,0.0995,-0.9031,1.1051,False,undetermined,undetermined,reference too imprecise,undetermined,u
+orig,Low minus Middle SES,deepseek-chat,marginal,4,1.2833,0.264,3.0,1.1287,0.0882,1.137,0.0755,2.0095,False,undetermined,undetermined,undetermined,undetermined,u
+orig,Low minus Middle SES,deepseek-chat,standardised,4,1.2833,0.264,3.0,1.0424,0.121,1.2312,0.0827,2.1971,False,undetermined,undetermined,reference too imprecise,undetermined,u
+orig,Low minus Middle SES,gemini-3-flash-preview,marginal,4,8.3956,0.3247,3.0,1.1287,0.0882,7.4381,6.0832,9.2936,False,steepened,steepened,steepened,steepened,s
+orig,Low minus Middle SES,gemini-3-flash-preview,standardised,4,8.3956,0.3247,3.0,1.0424,0.121,8.0544,6.1882,11.2162,False,steepened,steepened,reference too imprecise,steepened,s
+orig,Low minus Middle SES,glm-4.7,marginal,4,4.8583,0.5809,3.0,1.1287,0.0882,4.3043,2.1753,6.2446,False,steepened,steepened,steepened,steepened,s
+orig,Low minus Middle SES,glm-4.7,standardised,4,4.8583,0.5809,3.0,1.0424,0.121,4.6609,2.5192,7.1269,False,steepened,steepened,reference too imprecise,steepened,s
+orig,Low minus Middle SES,gpt-4o-mini,marginal,4,1.425,0.1092,3.0,1.1287,0.0882,1.2625,0.9034,1.6701,False,kept or steepened,kept or steepened,kept or steepened,kept or steepened,k/s
+orig,Low minus Middle SES,gpt-4o-mini,standardised,4,1.425,0.1092,3.0,1.0424,0.121,1.3671,0.9622,1.9674,False,kept or steepened,kept or steepened,reference too imprecise,kept or steepened,k/s
+orig,Low minus Middle SES,pooled,marginal,16,3.9906,0.1811,6.35,1.1287,0.0882,3.5355,2.8705,4.4408,False,steepened,steepened,steepened,steepened,s
+orig,Low minus Middle SES,pooled,standardised,16,3.9906,0.1811,6.35,1.0424,0.121,3.8284,2.9232,5.3504,False,steepened,steepened,reference too imprecise,steepened,s
+no_pop,Low minus Middle SES,deepseek-chat,marginal,4,1.1083,0.2913,3.0,1.1287,0.0882,0.9819,-0.1861,1.9571,False,undetermined,undetermined,undetermined,undetermined,u
+no_pop,Low minus Middle SES,deepseek-chat,standardised,4,1.1083,0.2913,3.0,1.0424,0.121,1.0633,-0.1967,2.1064,False,undetermined,undetermined,reference too imprecise,undetermined,u
+no_pop,Low minus Middle SES,gemini-3-flash-preview,marginal,4,9.3546,0.3661,3.0,1.1287,0.0882,8.2877,6.772,10.3601,False,steepened,steepened,steepened,steepened,s
+no_pop,Low minus Middle SES,gemini-3-flash-preview,standardised,4,9.3546,0.3661,3.0,1.0424,0.121,8.9744,6.891,12.5007,False,steepened,steepened,reference too imprecise,steepened,s
+no_pop,Low minus Middle SES,glm-4.7,marginal,4,5.25,0.2154,3.0,1.1287,0.0882,4.6513,3.7862,5.8259,False,steepened,steepened,steepened,steepened,s
+no_pop,Low minus Middle SES,glm-4.7,standardised,4,5.25,0.2154,3.0,1.0424,0.121,5.0366,3.8579,7.0235,False,steepened,steepened,reference too imprecise,steepened,s
+no_pop,Low minus Middle SES,gpt-4o-mini,marginal,4,0.85,0.1908,3.0,1.1287,0.0882,0.7531,-0.0143,1.386,False,undetermined,undetermined,undetermined,attenuated or kept,u
+no_pop,Low minus Middle SES,gpt-4o-mini,standardised,4,0.85,0.1908,3.0,1.0424,0.121,0.8155,-0.0154,1.5063,False,undetermined,undetermined,reference too imprecise,undetermined,u
+no_pop,Low minus Middle SES,pooled,marginal,16,4.1407,0.1373,9.53,1.1287,0.0882,3.6685,3.0377,4.5556,False,steepened,steepened,steepened,steepened,s
+no_pop,Low minus Middle SES,pooled,standardised,16,4.1407,0.1373,9.53,1.0424,0.121,3.9725,3.0748,5.5146,False,steepened,steepened,reference too imprecise,steepened,s
+first_person,Low minus Middle SES,deepseek-chat,marginal,4,1.3333,0.2799,3.0,1.1287,0.0882,1.1813,0.0557,2.1069,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Low minus Middle SES,deepseek-chat,standardised,4,1.3333,0.2799,3.0,1.0424,0.121,1.2791,0.0609,2.3003,False,undetermined,undetermined,reference too imprecise,undetermined,u
+first_person,Low minus Middle SES,gemini-3-flash-preview,marginal,4,10.1601,0.3975,3.0,1.1287,0.0882,9.0013,7.3553,11.2519,False,steepened,steepened,steepened,steepened,s
+first_person,Low minus Middle SES,gemini-3-flash-preview,standardised,4,10.1601,0.3975,3.0,1.0424,0.121,9.7472,7.4844,13.5769,False,steepened,steepened,reference too imprecise,steepened,s
+first_person,Low minus Middle SES,glm-4.7,marginal,4,4.4744,0.6839,3.0,1.1287,0.0882,3.9641,1.2902,6.2131,False,steepened,steepened,steepened,steepened,s
+first_person,Low minus Middle SES,glm-4.7,standardised,4,4.4744,0.6839,3.0,1.0424,0.121,4.2926,1.5035,6.9498,False,steepened,steepened,reference too imprecise,steepened,s
+first_person,Low minus Middle SES,gpt-4o-mini,marginal,4,1.175,0.1443,3.0,1.1287,0.0882,1.041,0.5078,1.5214,False,undetermined,undetermined,undetermined,undetermined,u
+first_person,Low minus Middle SES,gpt-4o-mini,standardised,4,1.175,0.1443,3.0,1.0424,0.121,1.1272,0.5906,1.7327,False,undetermined,undetermined,reference too imprecise,kept or steepened,u
+first_person,Low minus Middle SES,pooled,marginal,16,4.2857,0.2128,6.3,1.1287,0.0882,3.7969,3.0572,4.7918,False,steepened,steepened,steepened,steepened,s
+first_person,Low minus Middle SES,pooled,standardised,16,4.2857,0.2128,6.3,1.0424,0.121,4.1115,3.1209,5.7623,False,steepened,steepened,reference too imprecise,steepened,s

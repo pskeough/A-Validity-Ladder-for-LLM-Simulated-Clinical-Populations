@@ -1,0 +1,240 @@
+check,item,got,want,ok
+reproduces 71 level2_gap on the log as of 71's run,orig | deepseek-chat | Women minus Men | estimate,0.716667,0.7167,True
+reproduces 71 level2_gap on the log as of 71's run,orig | deepseek-chat | Women minus Men | se,0.174854,0.1749,True
+reproduces 71 level2_gap on the log as of 71's run,orig | deepseek-chat | Women minus Men | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gemini-3-flash-preview | Women minus Men | estimate,1.450684,1.4507,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gemini-3-flash-preview | Women minus Men | se,0.318173,0.3182,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gemini-3-flash-preview | Women minus Men | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | glm-4.7 | Women minus Men | estimate,2.289655,2.2897,True
+reproduces 71 level2_gap on the log as of 71's run,orig | glm-4.7 | Women minus Men | se,0.341064,0.3411,True
+reproduces 71 level2_gap on the log as of 71's run,orig | glm-4.7 | Women minus Men | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gpt-4o-mini | Women minus Men | estimate,0.288889,0.2889,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gpt-4o-mini | Women minus Men | se,0.226841,0.2268,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gpt-4o-mini | Women minus Men | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | pooled | Women minus Men | estimate,1.186474,1.1865,True
+reproduces 71 level2_gap on the log as of 71's run,orig | pooled | Women minus Men | se,0.203532,0.2035,True
+reproduces 71 level2_gap on the log as of 71's run,orig | pooled | Women minus Men | n,24.0,24.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | deepseek-chat | Women minus Men | estimate,0.45,0.45,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | deepseek-chat | Women minus Men | se,0.237853,0.2379,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | deepseek-chat | Women minus Men | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gemini-3-flash-preview | Women minus Men | estimate,0.59751,0.5975,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gemini-3-flash-preview | Women minus Men | se,0.350032,0.35,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gemini-3-flash-preview | Women minus Men | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | glm-4.7 | Women minus Men | estimate,1.605556,1.6056,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | glm-4.7 | Women minus Men | se,0.245163,0.2452,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | glm-4.7 | Women minus Men | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gpt-4o-mini | Women minus Men | estimate,0.494444,0.4944,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gpt-4o-mini | Women minus Men | se,0.156682,0.1567,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gpt-4o-mini | Women minus Men | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | pooled | Women minus Men | estimate,0.786877,0.7869,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | pooled | Women minus Men | se,0.155474,0.1555,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | pooled | Women minus Men | n,24.0,24.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | deepseek-chat | Women minus Men | estimate,0.727778,0.7278,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | deepseek-chat | Women minus Men | se,0.145911,0.1459,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | deepseek-chat | Women minus Men | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gemini-3-flash-preview | Women minus Men | estimate,0.862261,0.8623,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gemini-3-flash-preview | Women minus Men | se,0.520594,0.5206,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gemini-3-flash-preview | Women minus Men | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | glm-4.7 | Women minus Men | estimate,0.93659,0.9366,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | glm-4.7 | Women minus Men | se,0.773222,0.7732,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | glm-4.7 | Women minus Men | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gpt-4o-mini | Women minus Men | estimate,0.188889,0.1889,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gpt-4o-mini | Women minus Men | se,0.291569,0.2916,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gpt-4o-mini | Women minus Men | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | pooled | Women minus Men | estimate,0.678879,0.6789,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | pooled | Women minus Men | se,0.238165,0.2382,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | pooled | Women minus Men | n,24.0,24.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | deepseek-chat | Black minus White | estimate,0.127778,0.1278,True
+reproduces 71 level2_gap on the log as of 71's run,orig | deepseek-chat | Black minus White | se,0.084947,0.0849,True
+reproduces 71 level2_gap on the log as of 71's run,orig | deepseek-chat | Black minus White | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gemini-3-flash-preview | Black minus White | estimate,-0.290586,-0.2906,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gemini-3-flash-preview | Black minus White | se,0.238901,0.2389,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gemini-3-flash-preview | Black minus White | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | glm-4.7 | Black minus White | estimate,-0.887739,-0.8877,True
+reproduces 71 level2_gap on the log as of 71's run,orig | glm-4.7 | Black minus White | se,0.288868,0.2889,True
+reproduces 71 level2_gap on the log as of 71's run,orig | glm-4.7 | Black minus White | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gpt-4o-mini | Black minus White | estimate,0.233333,0.2333,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gpt-4o-mini | Black minus White | se,0.257912,0.2579,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gpt-4o-mini | Black minus White | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | pooled | Black minus White | estimate,-0.204304,-0.2043,True
+reproduces 71 level2_gap on the log as of 71's run,orig | pooled | Black minus White | se,0.141713,0.1417,True
+reproduces 71 level2_gap on the log as of 71's run,orig | pooled | Black minus White | n,24.0,24.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | deepseek-chat | Black minus White | estimate,0.316667,0.3167,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | deepseek-chat | Black minus White | se,0.300955,0.301,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | deepseek-chat | Black minus White | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gemini-3-flash-preview | Black minus White | estimate,0.008621,0.0086,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gemini-3-flash-preview | Black minus White | se,0.23478,0.2348,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gemini-3-flash-preview | Black minus White | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | glm-4.7 | Black minus White | estimate,-0.016667,-0.0167,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | glm-4.7 | Black minus White | se,0.14876,0.1488,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | glm-4.7 | Black minus White | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gpt-4o-mini | Black minus White | estimate,0.227778,0.2278,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gpt-4o-mini | Black minus White | se,0.120313,0.1203,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gpt-4o-mini | Black minus White | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | pooled | Black minus White | estimate,0.1341,0.1341,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | pooled | Black minus White | se,0.103844,0.1038,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | pooled | Black minus White | n,24.0,24.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | deepseek-chat | Black minus White | estimate,0.05,0.05,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | deepseek-chat | Black minus White | se,0.17443,0.1744,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | deepseek-chat | Black minus White | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gemini-3-flash-preview | Black minus White | estimate,0.284483,0.2845,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gemini-3-flash-preview | Black minus White | se,0.518484,0.5185,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gemini-3-flash-preview | Black minus White | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | glm-4.7 | Black minus White | estimate,0.319732,0.3197,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | glm-4.7 | Black minus White | se,0.502917,0.5029,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | glm-4.7 | Black minus White | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gpt-4o-mini | Black minus White | estimate,0.444444,0.4444,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gpt-4o-mini | Black minus White | se,0.220717,0.2207,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gpt-4o-mini | Black minus White | n,6.0,6.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | pooled | Black minus White | estimate,0.274665,0.2747,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | pooled | Black minus White | se,0.183146,0.1831,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | pooled | Black minus White | n,24.0,24.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | deepseek-chat | Low minus High SES | estimate,2.25,2.25,True
+reproduces 71 level2_gap on the log as of 71's run,orig | deepseek-chat | Low minus High SES | se,0.195552,0.1956,True
+reproduces 71 level2_gap on the log as of 71's run,orig | deepseek-chat | Low minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gemini-3-flash-preview | Low minus High SES | estimate,8.783149,8.7831,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gemini-3-flash-preview | Low minus High SES | se,0.334698,0.3347,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gemini-3-flash-preview | Low minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | glm-4.7 | Low minus High SES | estimate,6.008621,6.0086,True
+reproduces 71 level2_gap on the log as of 71's run,orig | glm-4.7 | Low minus High SES | se,0.110023,0.11,True
+reproduces 71 level2_gap on the log as of 71's run,orig | glm-4.7 | Low minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gpt-4o-mini | Low minus High SES | estimate,3.3,3.3,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gpt-4o-mini | Low minus High SES | se,0.355903,0.3559,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gpt-4o-mini | Low minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | pooled | Low minus High SES | estimate,5.085442,5.0854,True
+reproduces 71 level2_gap on the log as of 71's run,orig | pooled | Low minus High SES | se,0.666082,0.6661,True
+reproduces 71 level2_gap on the log as of 71's run,orig | pooled | Low minus High SES | n,16.0,16.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | deepseek-chat | Low minus High SES | estimate,1.425,1.425,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | deepseek-chat | Low minus High SES | se,0.470101,0.4701,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | deepseek-chat | Low minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gemini-3-flash-preview | Low minus High SES | estimate,9.787931,9.7879,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gemini-3-flash-preview | Low minus High SES | se,0.573031,0.573,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gemini-3-flash-preview | Low minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | glm-4.7 | Low minus High SES | estimate,6.283333,6.2833,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | glm-4.7 | Low minus High SES | se,0.38502,0.385,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | glm-4.7 | Low minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gpt-4o-mini | Low minus High SES | estimate,1.933333,1.9333,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gpt-4o-mini | Low minus High SES | se,0.123977,0.124,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gpt-4o-mini | Low minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | pooled | Low minus High SES | estimate,4.857399,4.8574,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | pooled | Low minus High SES | se,0.901978,0.902,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | pooled | Low minus High SES | n,16.0,16.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | deepseek-chat | Low minus High SES | estimate,1.133333,1.1333,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | deepseek-chat | Low minus High SES | se,0.145297,0.1453,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | deepseek-chat | Low minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gemini-3-flash-preview | Low minus High SES | estimate,11.401724,11.4017,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gemini-3-flash-preview | Low minus High SES | se,0.805066,0.8051,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gemini-3-flash-preview | Low minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | glm-4.7 | Low minus High SES | estimate,2.720402,2.7204,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | glm-4.7 | Low minus High SES | se,1.257326,1.2573,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | glm-4.7 | Low minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gpt-4o-mini | Low minus High SES | estimate,2.225,2.225,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gpt-4o-mini | Low minus High SES | se,0.435757,0.4358,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gpt-4o-mini | Low minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | pooled | Low minus High SES | estimate,4.370115,4.3701,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | pooled | Low minus High SES | se,1.114775,1.1148,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | pooled | Low minus High SES | n,16.0,16.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | deepseek-chat | Middle minus High SES | estimate,0.966667,0.9667,True
+reproduces 71 level2_gap on the log as of 71's run,orig | deepseek-chat | Middle minus High SES | se,0.089235,0.0892,True
+reproduces 71 level2_gap on the log as of 71's run,orig | deepseek-chat | Middle minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gemini-3-flash-preview | Middle minus High SES | estimate,0.387521,0.3875,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gemini-3-flash-preview | Middle minus High SES | se,0.037765,0.0378,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gemini-3-flash-preview | Middle minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | glm-4.7 | Middle minus High SES | estimate,1.18477,1.1848,True
+reproduces 71 level2_gap on the log as of 71's run,orig | glm-4.7 | Middle minus High SES | se,0.551587,0.5516,True
+reproduces 71 level2_gap on the log as of 71's run,orig | glm-4.7 | Middle minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gpt-4o-mini | Middle minus High SES | estimate,1.875,1.875,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gpt-4o-mini | Middle minus High SES | se,0.322713,0.3227,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gpt-4o-mini | Middle minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | pooled | Middle minus High SES | estimate,1.103489,1.1035,True
+reproduces 71 level2_gap on the log as of 71's run,orig | pooled | Middle minus High SES | se,0.199437,0.1994,True
+reproduces 71 level2_gap on the log as of 71's run,orig | pooled | Middle minus High SES | n,16.0,16.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | deepseek-chat | Middle minus High SES | estimate,0.316667,0.3167,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | deepseek-chat | Middle minus High SES | se,0.322749,0.3227,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | deepseek-chat | Middle minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gemini-3-flash-preview | Middle minus High SES | estimate,0.433333,0.4333,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gemini-3-flash-preview | Middle minus High SES | se,0.208611,0.2086,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gemini-3-flash-preview | Middle minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | glm-4.7 | Middle minus High SES | estimate,1.033333,1.0333,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | glm-4.7 | Middle minus High SES | se,0.315348,0.3153,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | glm-4.7 | Middle minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gpt-4o-mini | Middle minus High SES | estimate,1.083333,1.0833,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gpt-4o-mini | Middle minus High SES | se,0.228319,0.2283,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gpt-4o-mini | Middle minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | pooled | Middle minus High SES | estimate,0.716667,0.7167,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | pooled | Middle minus High SES | se,0.15126,0.1513,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | pooled | Middle minus High SES | n,16.0,16.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | deepseek-chat | Middle minus High SES | estimate,-0.2,-0.2,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | deepseek-chat | Middle minus High SES | se,0.253494,0.2535,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | deepseek-chat | Middle minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gemini-3-flash-preview | Middle minus High SES | estimate,1.241667,1.2417,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gemini-3-flash-preview | Middle minus High SES | se,0.485031,0.485,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gemini-3-flash-preview | Middle minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | glm-4.7 | Middle minus High SES | estimate,-1.754023,-1.754,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | glm-4.7 | Middle minus High SES | se,0.896752,0.8968,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | glm-4.7 | Middle minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gpt-4o-mini | Middle minus High SES | estimate,1.05,1.05,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gpt-4o-mini | Middle minus High SES | se,0.305959,0.306,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gpt-4o-mini | Middle minus High SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | pooled | Middle minus High SES | estimate,0.084411,0.0844,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | pooled | Middle minus High SES | se,0.394212,0.3942,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | pooled | Middle minus High SES | n,16.0,16.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | deepseek-chat | Low minus Middle SES | estimate,1.283333,1.2833,True
+reproduces 71 level2_gap on the log as of 71's run,orig | deepseek-chat | Low minus Middle SES | se,0.26405,0.264,True
+reproduces 71 level2_gap on the log as of 71's run,orig | deepseek-chat | Low minus Middle SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gemini-3-flash-preview | Low minus Middle SES | estimate,8.395628,8.3956,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gemini-3-flash-preview | Low minus Middle SES | se,0.324698,0.3247,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gemini-3-flash-preview | Low minus Middle SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | glm-4.7 | Low minus Middle SES | estimate,4.823851,4.8239,True
+reproduces 71 level2_gap on the log as of 71's run,orig | glm-4.7 | Low minus Middle SES | se,0.588123,0.5881,True
+reproduces 71 level2_gap on the log as of 71's run,orig | glm-4.7 | Low minus Middle SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gpt-4o-mini | Low minus Middle SES | estimate,1.425,1.425,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gpt-4o-mini | Low minus Middle SES | se,0.109185,0.1092,True
+reproduces 71 level2_gap on the log as of 71's run,orig | gpt-4o-mini | Low minus Middle SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,orig | pooled | Low minus Middle SES | estimate,3.981953,3.982,True
+reproduces 71 level2_gap on the log as of 71's run,orig | pooled | Low minus Middle SES | se,0.770376,0.7704,True
+reproduces 71 level2_gap on the log as of 71's run,orig | pooled | Low minus Middle SES | n,16.0,16.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | deepseek-chat | Low minus Middle SES | estimate,1.108333,1.1083,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | deepseek-chat | Low minus Middle SES | se,0.291349,0.2913,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | deepseek-chat | Low minus Middle SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gemini-3-flash-preview | Low minus Middle SES | estimate,9.354598,9.3546,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gemini-3-flash-preview | Low minus Middle SES | se,0.366125,0.3661,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gemini-3-flash-preview | Low minus Middle SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | glm-4.7 | Low minus Middle SES | estimate,5.25,5.25,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | glm-4.7 | Low minus Middle SES | se,0.215381,0.2154,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | glm-4.7 | Low minus Middle SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gpt-4o-mini | Low minus Middle SES | estimate,0.85,0.85,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gpt-4o-mini | Low minus Middle SES | se,0.190759,0.1908,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | gpt-4o-mini | Low minus Middle SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | pooled | Low minus Middle SES | estimate,4.140733,4.1407,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | pooled | Low minus Middle SES | se,0.906866,0.9069,True
+reproduces 71 level2_gap on the log as of 71's run,no_pop | pooled | Low minus Middle SES | n,16.0,16.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | deepseek-chat | Low minus Middle SES | estimate,1.333333,1.3333,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | deepseek-chat | Low minus Middle SES | se,0.279881,0.2799,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | deepseek-chat | Low minus Middle SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gemini-3-flash-preview | Low minus Middle SES | estimate,10.160057,10.1601,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gemini-3-flash-preview | Low minus Middle SES | se,0.397517,0.3975,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gemini-3-flash-preview | Low minus Middle SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | glm-4.7 | Low minus Middle SES | estimate,4.474425,4.4744,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | glm-4.7 | Low minus Middle SES | se,0.683898,0.6839,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | glm-4.7 | Low minus Middle SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gpt-4o-mini | Low minus Middle SES | estimate,1.175,1.175,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gpt-4o-mini | Low minus Middle SES | se,0.144257,0.1443,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | gpt-4o-mini | Low minus Middle SES | n,4.0,4.0,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | pooled | Low minus Middle SES | estimate,4.285704,4.2857,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | pooled | Low minus Middle SES | se,0.958395,0.9584,True
+reproduces 71 level2_gap on the log as of 71's run,first_person | pooled | Low minus Middle SES | n,16.0,16.0,True
+cell changed by the log after 71 ran,orig | glm-4.7 | P_BLACK_CM_LOW_S | draws 29 -> 30,9.1333,9.0345,True
+cell changed by the log after 71 ran,orig | glm-4.7 | P_BLACK_CW_MIDDLE_S | draws 29 -> 30,7.1333,7.1724,True
+"cells with the full 30 draws, complete log",count / total,132 / 144,,True
+"cells with the full 30 draws, log as of 71",count / total,130 / 144,,True
+orig arm vs December system prompt,identical,0,,True
+"orig arm vs December system prompt, differing line","line 16: December '""PCL5"": [int, int...] // 4 items, 0-4 scale' | orig arm '""PCL5"": [int, int...] // 20 items, 0-4 scale'",16,,True
+orig arm vs December system prompt,line counts December / orig,17 / 17,,True
+PCL5 line in arm system prompt,orig,"""PCL5"": [int, int...] // 20 items, 0-4 scale",,True
+PCL5 line in arm system prompt,no_pop,"""PCL5"": [int, int...] // 20 items, 0-4 scale",,True
+PCL5 line in arm system prompt,first_person,"""PCL5"": [int, int...] // 20 items, 0-4 scale",,True
+prompt-control endpoint (prereg),openai/gpt-4o-mini,openai/gpt-4o-mini,substituted=False,True
+prompt-control endpoint (prereg),deepseek/deepseek-chat-v3,deepseek/deepseek-chat,substituted=False,True
+prompt-control endpoint (prereg),google/gemini-3-flash-preview-20251217,google/gemini-3-flash-preview,substituted=True,True
+prompt-control endpoint (prereg),z-ai/glm-4.7-20251222,z-ai/glm-4.7,substituted=True,True

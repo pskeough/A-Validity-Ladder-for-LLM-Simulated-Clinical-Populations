@@ -1,0 +1,285 @@
+check,item,got,want,ok
+v2 pairing reproduces 66,Black minus White | pooled | simulated,-0.130556,-0.1306,True
+v2 pairing reproduces 66,Black minus White | pooled | se,0.072448,0.0724,True
+v2 pairing reproduces 66,Black minus White | pooled | n_pairs,96.0,96.0,True
+v2 pairing reproduces 66,Black minus White | deepseek/deepseek-chat-v3 | simulated,0.213889,0.2139,True
+v2 pairing reproduces 66,Black minus White | deepseek/deepseek-chat-v3 | se,0.104526,0.1045,True
+v2 pairing reproduces 66,Black minus White | deepseek/deepseek-chat-v3 | n_pairs,24.0,24.0,True
+v2 pairing reproduces 66,Black minus White | google/gemini-3-flash-preview | simulated,-0.394444,-0.3944,True
+v2 pairing reproduces 66,Black minus White | google/gemini-3-flash-preview | se,0.155141,0.1551,True
+v2 pairing reproduces 66,Black minus White | google/gemini-3-flash-preview | n_pairs,24.0,24.0,True
+v2 pairing reproduces 66,Black minus White | openai/gpt-4o-mini | simulated,0.216667,0.2167,True
+v2 pairing reproduces 66,Black minus White | openai/gpt-4o-mini | se,0.105371,0.1054,True
+v2 pairing reproduces 66,Black minus White | openai/gpt-4o-mini | n_pairs,24.0,24.0,True
+v2 pairing reproduces 66,Black minus White | z-ai/glm-4.7 | simulated,-0.558333,-0.5583,True
+v2 pairing reproduces 66,Black minus White | z-ai/glm-4.7 | se,0.138694,0.1387,True
+v2 pairing reproduces 66,Black minus White | z-ai/glm-4.7 | n_pairs,24.0,24.0,True
+v2 pairing reproduces 66,Black minus White | clinical | simulated,-0.129167,-0.1292,True
+v2 pairing reproduces 66,Black minus White | clinical | se,0.087026,0.087,True
+v2 pairing reproduces 66,Black minus White | clinical | n_pairs,48.0,48.0,True
+v2 pairing reproduces 66,Black minus White | narrative | simulated,-0.131944,-0.1319,True
+v2 pairing reproduces 66,Black minus White | narrative | se,0.11681,0.1168,True
+v2 pairing reproduces 66,Black minus White | narrative | n_pairs,48.0,48.0,True
+v2 pairing reproduces 66,Hispanic minus White | pooled | simulated,-0.034028,-0.034,True
+v2 pairing reproduces 66,Hispanic minus White | pooled | se,0.058998,0.059,True
+v2 pairing reproduces 66,Hispanic minus White | pooled | n_pairs,96.0,96.0,True
+v2 pairing reproduces 66,Hispanic minus White | deepseek/deepseek-chat-v3 | simulated,0.173611,0.1736,True
+v2 pairing reproduces 66,Hispanic minus White | deepseek/deepseek-chat-v3 | se,0.08955,0.0896,True
+v2 pairing reproduces 66,Hispanic minus White | deepseek/deepseek-chat-v3 | n_pairs,24.0,24.0,True
+v2 pairing reproduces 66,Hispanic minus White | google/gemini-3-flash-preview | simulated,-0.006944,-0.0069,True
+v2 pairing reproduces 66,Hispanic minus White | google/gemini-3-flash-preview | se,0.090955,0.091,True
+v2 pairing reproduces 66,Hispanic minus White | google/gemini-3-flash-preview | n_pairs,24.0,24.0,True
+v2 pairing reproduces 66,Hispanic minus White | openai/gpt-4o-mini | simulated,0.140278,0.1403,True
+v2 pairing reproduces 66,Hispanic minus White | openai/gpt-4o-mini | se,0.092904,0.0929,True
+v2 pairing reproduces 66,Hispanic minus White | openai/gpt-4o-mini | n_pairs,24.0,24.0,True
+v2 pairing reproduces 66,Hispanic minus White | z-ai/glm-4.7 | simulated,-0.443056,-0.4431,True
+v2 pairing reproduces 66,Hispanic minus White | z-ai/glm-4.7 | se,0.148604,0.1486,True
+v2 pairing reproduces 66,Hispanic minus White | z-ai/glm-4.7 | n_pairs,24.0,24.0,True
+v2 pairing reproduces 66,Hispanic minus White | clinical | simulated,-0.022222,-0.0222,True
+v2 pairing reproduces 66,Hispanic minus White | clinical | se,0.067192,0.0672,True
+v2 pairing reproduces 66,Hispanic minus White | clinical | n_pairs,48.0,48.0,True
+v2 pairing reproduces 66,Hispanic minus White | narrative | simulated,-0.045833,-0.0458,True
+v2 pairing reproduces 66,Hispanic minus White | narrative | se,0.097726,0.0977,True
+v2 pairing reproduces 66,Hispanic minus White | narrative | n_pairs,48.0,48.0,True
+v2 pairing reproduces 66,Asian minus White | pooled | simulated,-1.073611,-1.0736,True
+v2 pairing reproduces 66,Asian minus White | pooled | se,0.150728,0.1507,True
+v2 pairing reproduces 66,Asian minus White | pooled | n_pairs,96.0,96.0,True
+v2 pairing reproduces 66,Asian minus White | deepseek/deepseek-chat-v3 | simulated,-0.708333,-0.7083,True
+v2 pairing reproduces 66,Asian minus White | deepseek/deepseek-chat-v3 | se,0.106061,0.1061,True
+v2 pairing reproduces 66,Asian minus White | deepseek/deepseek-chat-v3 | n_pairs,24.0,24.0,True
+v2 pairing reproduces 66,Asian minus White | google/gemini-3-flash-preview | simulated,-1.447222,-1.4472,True
+v2 pairing reproduces 66,Asian minus White | google/gemini-3-flash-preview | se,0.456753,0.4568,True
+v2 pairing reproduces 66,Asian minus White | google/gemini-3-flash-preview | n_pairs,24.0,24.0,True
+v2 pairing reproduces 66,Asian minus White | openai/gpt-4o-mini | simulated,-0.402778,-0.4028,True
+v2 pairing reproduces 66,Asian minus White | openai/gpt-4o-mini | se,0.112573,0.1126,True
+v2 pairing reproduces 66,Asian minus White | openai/gpt-4o-mini | n_pairs,24.0,24.0,True
+v2 pairing reproduces 66,Asian minus White | z-ai/glm-4.7 | simulated,-1.736111,-1.7361,True
+v2 pairing reproduces 66,Asian minus White | z-ai/glm-4.7 | se,0.3038,0.3038,True
+v2 pairing reproduces 66,Asian minus White | z-ai/glm-4.7 | n_pairs,24.0,24.0,True
+v2 pairing reproduces 66,Asian minus White | clinical | simulated,-0.930556,-0.9306,True
+v2 pairing reproduces 66,Asian minus White | clinical | se,0.172869,0.1729,True
+v2 pairing reproduces 66,Asian minus White | clinical | n_pairs,48.0,48.0,True
+v2 pairing reproduces 66,Asian minus White | narrative | simulated,-1.216667,-1.2167,True
+v2 pairing reproduces 66,Asian minus White | narrative | se,0.247161,0.2472,True
+v2 pairing reproduces 66,Asian minus White | narrative | n_pairs,48.0,48.0,True
+v2 pairing reproduces 66,Women minus Men | pooled | simulated,0.840972,0.841,True
+v2 pairing reproduces 66,Women minus Men | pooled | se,0.058258,0.0583,True
+v2 pairing reproduces 66,Women minus Men | pooled | n_pairs,240.0,240.0,True
+v2 pairing reproduces 66,Women minus Men | deepseek/deepseek-chat-v3 | simulated,0.319444,0.3194,True
+v2 pairing reproduces 66,Women minus Men | deepseek/deepseek-chat-v3 | se,0.049671,0.0497,True
+v2 pairing reproduces 66,Women minus Men | deepseek/deepseek-chat-v3 | n_pairs,60.0,60.0,True
+v2 pairing reproduces 66,Women minus Men | google/gemini-3-flash-preview | simulated,0.988889,0.9889,True
+v2 pairing reproduces 66,Women minus Men | google/gemini-3-flash-preview | se,0.091303,0.0913,True
+v2 pairing reproduces 66,Women minus Men | google/gemini-3-flash-preview | n_pairs,60.0,60.0,True
+v2 pairing reproduces 66,Women minus Men | openai/gpt-4o-mini | simulated,0.244444,0.2444,True
+v2 pairing reproduces 66,Women minus Men | openai/gpt-4o-mini | se,0.060877,0.0609,True
+v2 pairing reproduces 66,Women minus Men | openai/gpt-4o-mini | n_pairs,60.0,60.0,True
+v2 pairing reproduces 66,Women minus Men | z-ai/glm-4.7 | simulated,1.811111,1.8111,True
+v2 pairing reproduces 66,Women minus Men | z-ai/glm-4.7 | se,0.116282,0.1163,True
+v2 pairing reproduces 66,Women minus Men | z-ai/glm-4.7 | n_pairs,60.0,60.0,True
+v2 pairing reproduces 66,Women minus Men | clinical | simulated,0.844167,0.8442,True
+v2 pairing reproduces 66,Women minus Men | clinical | se,0.079201,0.0792,True
+v2 pairing reproduces 66,Women minus Men | clinical | n_pairs,120.0,120.0,True
+v2 pairing reproduces 66,Women minus Men | narrative | simulated,0.837778,0.8378,True
+v2 pairing reproduces 66,Women minus Men | narrative | se,0.085792,0.0858,True
+v2 pairing reproduces 66,Women minus Men | narrative | n_pairs,120.0,120.0,True
+v2 pairing reproduces 66,Low minus High SES | pooled | simulated,4.746667,4.7467,True
+v2 pairing reproduces 66,Low minus High SES | pooled | se,0.202393,0.2024,True
+v2 pairing reproduces 66,Low minus High SES | pooled | n_pairs,160.0,160.0,True
+v2 pairing reproduces 66,Low minus High SES | deepseek/deepseek-chat-v3 | simulated,2.4475,2.4475,True
+v2 pairing reproduces 66,Low minus High SES | deepseek/deepseek-chat-v3 | se,0.088658,0.0887,True
+v2 pairing reproduces 66,Low minus High SES | deepseek/deepseek-chat-v3 | n_pairs,40.0,40.0,True
+v2 pairing reproduces 66,Low minus High SES | google/gemini-3-flash-preview | simulated,7.064167,7.0642,True
+v2 pairing reproduces 66,Low minus High SES | google/gemini-3-flash-preview | se,0.340256,0.3403,True
+v2 pairing reproduces 66,Low minus High SES | google/gemini-3-flash-preview | n_pairs,40.0,40.0,True
+v2 pairing reproduces 66,Low minus High SES | openai/gpt-4o-mini | simulated,2.795833,2.7958,True
+v2 pairing reproduces 66,Low minus High SES | openai/gpt-4o-mini | se,0.137738,0.1377,True
+v2 pairing reproduces 66,Low minus High SES | openai/gpt-4o-mini | n_pairs,40.0,40.0,True
+v2 pairing reproduces 66,Low minus High SES | z-ai/glm-4.7 | simulated,6.679167,6.6792,True
+v2 pairing reproduces 66,Low minus High SES | z-ai/glm-4.7 | se,0.242499,0.2425,True
+v2 pairing reproduces 66,Low minus High SES | z-ai/glm-4.7 | n_pairs,40.0,40.0,True
+v2 pairing reproduces 66,Low minus High SES | clinical | simulated,4.838333,4.8383,True
+v2 pairing reproduces 66,Low minus High SES | clinical | se,0.257211,0.2572,True
+v2 pairing reproduces 66,Low minus High SES | clinical | n_pairs,80.0,80.0,True
+v2 pairing reproduces 66,Low minus High SES | narrative | simulated,4.655,4.655,True
+v2 pairing reproduces 66,Low minus High SES | narrative | se,0.313876,0.3139,True
+v2 pairing reproduces 66,Low minus High SES | narrative | n_pairs,80.0,80.0,True
+v2 pairing reproduces 66,Middle minus High SES | pooled | simulated,1.290208,1.2902,True
+v2 pairing reproduces 66,Middle minus High SES | pooled | se,0.056724,0.0567,True
+v2 pairing reproduces 66,Middle minus High SES | pooled | n_pairs,160.0,160.0,True
+v2 pairing reproduces 66,Middle minus High SES | deepseek/deepseek-chat-v3 | simulated,1.488333,1.4883,True
+v2 pairing reproduces 66,Middle minus High SES | deepseek/deepseek-chat-v3 | se,0.087613,0.0876,True
+v2 pairing reproduces 66,Middle minus High SES | deepseek/deepseek-chat-v3 | n_pairs,40.0,40.0,True
+v2 pairing reproduces 66,Middle minus High SES | google/gemini-3-flash-preview | simulated,0.943333,0.9433,True
+v2 pairing reproduces 66,Middle minus High SES | google/gemini-3-flash-preview | se,0.102749,0.1027,True
+v2 pairing reproduces 66,Middle minus High SES | google/gemini-3-flash-preview | n_pairs,40.0,40.0,True
+v2 pairing reproduces 66,Middle minus High SES | openai/gpt-4o-mini | simulated,1.3325,1.3325,True
+v2 pairing reproduces 66,Middle minus High SES | openai/gpt-4o-mini | se,0.105128,0.1051,True
+v2 pairing reproduces 66,Middle minus High SES | openai/gpt-4o-mini | n_pairs,40.0,40.0,True
+v2 pairing reproduces 66,Middle minus High SES | z-ai/glm-4.7 | simulated,1.396667,1.3967,True
+v2 pairing reproduces 66,Middle minus High SES | z-ai/glm-4.7 | se,0.136958,0.137,True
+v2 pairing reproduces 66,Middle minus High SES | z-ai/glm-4.7 | n_pairs,40.0,40.0,True
+v2 pairing reproduces 66,Middle minus High SES | clinical | simulated,1.215417,1.2154,True
+v2 pairing reproduces 66,Middle minus High SES | clinical | se,0.079803,0.0798,True
+v2 pairing reproduces 66,Middle minus High SES | clinical | n_pairs,80.0,80.0,True
+v2 pairing reproduces 66,Middle minus High SES | narrative | simulated,1.365,1.365,True
+v2 pairing reproduces 66,Middle minus High SES | narrative | se,0.08026,0.0803,True
+v2 pairing reproduces 66,Middle minus High SES | narrative | n_pairs,80.0,80.0,True
+v2 pairing reproduces 66,Low minus Middle SES | pooled | simulated,3.456458,3.4565,True
+v2 pairing reproduces 66,Low minus Middle SES | pooled | se,0.20241,0.2024,True
+v2 pairing reproduces 66,Low minus Middle SES | pooled | n_pairs,160.0,160.0,True
+v2 pairing reproduces 66,Low minus Middle SES | deepseek/deepseek-chat-v3 | simulated,0.959167,0.9592,True
+v2 pairing reproduces 66,Low minus Middle SES | deepseek/deepseek-chat-v3 | se,0.090318,0.0903,True
+v2 pairing reproduces 66,Low minus Middle SES | deepseek/deepseek-chat-v3 | n_pairs,40.0,40.0,True
+v2 pairing reproduces 66,Low minus Middle SES | google/gemini-3-flash-preview | simulated,6.120833,6.1208,True
+v2 pairing reproduces 66,Low minus Middle SES | google/gemini-3-flash-preview | se,0.31314,0.3131,True
+v2 pairing reproduces 66,Low minus Middle SES | google/gemini-3-flash-preview | n_pairs,40.0,40.0,True
+v2 pairing reproduces 66,Low minus Middle SES | openai/gpt-4o-mini | simulated,1.463333,1.4633,True
+v2 pairing reproduces 66,Low minus Middle SES | openai/gpt-4o-mini | se,0.076858,0.0769,True
+v2 pairing reproduces 66,Low minus Middle SES | openai/gpt-4o-mini | n_pairs,40.0,40.0,True
+v2 pairing reproduces 66,Low minus Middle SES | z-ai/glm-4.7 | simulated,5.2825,5.2825,True
+v2 pairing reproduces 66,Low minus Middle SES | z-ai/glm-4.7 | se,0.163434,0.1634,True
+v2 pairing reproduces 66,Low minus Middle SES | z-ai/glm-4.7 | n_pairs,40.0,40.0,True
+v2 pairing reproduces 66,Low minus Middle SES | clinical | simulated,3.622917,3.6229,True
+v2 pairing reproduces 66,Low minus Middle SES | clinical | se,0.272223,0.2722,True
+v2 pairing reproduces 66,Low minus Middle SES | clinical | n_pairs,80.0,80.0,True
+v2 pairing reproduces 66,Low minus Middle SES | narrative | simulated,3.29,3.29,True
+v2 pairing reproduces 66,Low minus Middle SES | narrative | se,0.300182,0.3002,True
+v2 pairing reproduces 66,Low minus Middle SES | narrative | n_pairs,80.0,80.0,True
+corpus,"v3 rows dropped, phq8_valid False",1.0,1.0,True
+corpus,all: cisgender design cells,480.0,480.0,True
+corpus,all: cisgender clinical draws,7200.0,,True
+corpus,dec_only: cisgender design cells,460.0,480.0,True
+corpus,dec_only: cisgender clinical draws,6558.0,,True
+design balance: strata per model x framing,Black minus White | four | deepseek/deepseek-chat-v3 | clinical,12.0,12.0,True
+design balance: strata per model x framing,Black minus White | four | deepseek/deepseek-chat-v3 | narrative,12.0,12.0,True
+design balance: strata per model x framing,Black minus White | four | google/gemini-3-flash-preview | clinical,12.0,12.0,True
+design balance: strata per model x framing,Black minus White | four | google/gemini-3-flash-preview | narrative,12.0,12.0,True
+design balance: strata per model x framing,Black minus White | four | openai/gpt-4o-mini | clinical,12.0,12.0,True
+design balance: strata per model x framing,Black minus White | four | openai/gpt-4o-mini | narrative,12.0,12.0,True
+design balance: strata per model x framing,Black minus White | four | z-ai/glm-4.7 | clinical,12.0,12.0,True
+design balance: strata per model x framing,Black minus White | four | z-ai/glm-4.7 | narrative,12.0,12.0,True
+"clinical-narrative correlation of pair differences, pooled",Black minus White | four,0.4394,,True
+"clinical-narrative correlation, mean within model",Black minus White | four,0.2471,,True
+design balance: strata per model x framing,Hispanic minus White | four | deepseek/deepseek-chat-v3 | clinical,12.0,12.0,True
+design balance: strata per model x framing,Hispanic minus White | four | deepseek/deepseek-chat-v3 | narrative,12.0,12.0,True
+design balance: strata per model x framing,Hispanic minus White | four | google/gemini-3-flash-preview | clinical,12.0,12.0,True
+design balance: strata per model x framing,Hispanic minus White | four | google/gemini-3-flash-preview | narrative,12.0,12.0,True
+design balance: strata per model x framing,Hispanic minus White | four | openai/gpt-4o-mini | clinical,12.0,12.0,True
+design balance: strata per model x framing,Hispanic minus White | four | openai/gpt-4o-mini | narrative,12.0,12.0,True
+design balance: strata per model x framing,Hispanic minus White | four | z-ai/glm-4.7 | clinical,12.0,12.0,True
+design balance: strata per model x framing,Hispanic minus White | four | z-ai/glm-4.7 | narrative,12.0,12.0,True
+"clinical-narrative correlation of pair differences, pooled",Hispanic minus White | four,0.2733,,True
+"clinical-narrative correlation, mean within model",Hispanic minus White | four,0.1376,,True
+design balance: strata per model x framing,Asian minus White | four | deepseek/deepseek-chat-v3 | clinical,12.0,12.0,True
+design balance: strata per model x framing,Asian minus White | four | deepseek/deepseek-chat-v3 | narrative,12.0,12.0,True
+design balance: strata per model x framing,Asian minus White | four | google/gemini-3-flash-preview | clinical,12.0,12.0,True
+design balance: strata per model x framing,Asian minus White | four | google/gemini-3-flash-preview | narrative,12.0,12.0,True
+design balance: strata per model x framing,Asian minus White | four | openai/gpt-4o-mini | clinical,12.0,12.0,True
+design balance: strata per model x framing,Asian minus White | four | openai/gpt-4o-mini | narrative,12.0,12.0,True
+design balance: strata per model x framing,Asian minus White | four | z-ai/glm-4.7 | clinical,12.0,12.0,True
+design balance: strata per model x framing,Asian minus White | four | z-ai/glm-4.7 | narrative,12.0,12.0,True
+"clinical-narrative correlation of pair differences, pooled",Asian minus White | four,0.8524,,True
+"clinical-narrative correlation, mean within model",Asian minus White | four,0.5231,,True
+design balance: strata per model x framing,Women minus Men | four | deepseek/deepseek-chat-v3 | clinical,24.0,24.0,True
+design balance: strata per model x framing,Women minus Men | four | deepseek/deepseek-chat-v3 | narrative,24.0,24.0,True
+design balance: strata per model x framing,Women minus Men | four | google/gemini-3-flash-preview | clinical,24.0,24.0,True
+design balance: strata per model x framing,Women minus Men | four | google/gemini-3-flash-preview | narrative,24.0,24.0,True
+design balance: strata per model x framing,Women minus Men | four | openai/gpt-4o-mini | clinical,24.0,24.0,True
+design balance: strata per model x framing,Women minus Men | four | openai/gpt-4o-mini | narrative,24.0,24.0,True
+design balance: strata per model x framing,Women minus Men | four | z-ai/glm-4.7 | clinical,24.0,24.0,True
+design balance: strata per model x framing,Women minus Men | four | z-ai/glm-4.7 | narrative,24.0,24.0,True
+"clinical-narrative correlation of pair differences, pooled",Women minus Men | four,0.6981,,True
+"clinical-narrative correlation, mean within model",Women minus Men | four,0.325,,True
+design balance: strata per model x framing,Women minus Men | five | deepseek/deepseek-chat-v3 | clinical,30.0,30.0,True
+design balance: strata per model x framing,Women minus Men | five | deepseek/deepseek-chat-v3 | narrative,30.0,30.0,True
+design balance: strata per model x framing,Women minus Men | five | google/gemini-3-flash-preview | clinical,30.0,30.0,True
+design balance: strata per model x framing,Women minus Men | five | google/gemini-3-flash-preview | narrative,30.0,30.0,True
+design balance: strata per model x framing,Women minus Men | five | openai/gpt-4o-mini | clinical,30.0,30.0,True
+design balance: strata per model x framing,Women minus Men | five | openai/gpt-4o-mini | narrative,30.0,30.0,True
+design balance: strata per model x framing,Women minus Men | five | z-ai/glm-4.7 | clinical,30.0,30.0,True
+design balance: strata per model x framing,Women minus Men | five | z-ai/glm-4.7 | narrative,30.0,30.0,True
+"clinical-narrative correlation of pair differences, pooled",Women minus Men | five,0.6948,,True
+"clinical-narrative correlation, mean within model",Women minus Men | five,0.2928,,True
+design balance: strata per model x framing,Low minus High SES | four | deepseek/deepseek-chat-v3 | clinical,16.0,16.0,True
+design balance: strata per model x framing,Low minus High SES | four | deepseek/deepseek-chat-v3 | narrative,16.0,16.0,True
+design balance: strata per model x framing,Low minus High SES | four | google/gemini-3-flash-preview | clinical,16.0,16.0,True
+design balance: strata per model x framing,Low minus High SES | four | google/gemini-3-flash-preview | narrative,16.0,16.0,True
+design balance: strata per model x framing,Low minus High SES | four | openai/gpt-4o-mini | clinical,16.0,16.0,True
+design balance: strata per model x framing,Low minus High SES | four | openai/gpt-4o-mini | narrative,16.0,16.0,True
+design balance: strata per model x framing,Low minus High SES | four | z-ai/glm-4.7 | clinical,16.0,16.0,True
+design balance: strata per model x framing,Low minus High SES | four | z-ai/glm-4.7 | narrative,16.0,16.0,True
+"clinical-narrative correlation of pair differences, pooled",Low minus High SES | four,0.8575,,True
+"clinical-narrative correlation, mean within model",Low minus High SES | four,0.5024,,True
+design balance: strata per model x framing,Low minus High SES | five | deepseek/deepseek-chat-v3 | clinical,20.0,20.0,True
+design balance: strata per model x framing,Low minus High SES | five | deepseek/deepseek-chat-v3 | narrative,20.0,20.0,True
+design balance: strata per model x framing,Low minus High SES | five | google/gemini-3-flash-preview | clinical,20.0,20.0,True
+design balance: strata per model x framing,Low minus High SES | five | google/gemini-3-flash-preview | narrative,20.0,20.0,True
+design balance: strata per model x framing,Low minus High SES | five | openai/gpt-4o-mini | clinical,20.0,20.0,True
+design balance: strata per model x framing,Low minus High SES | five | openai/gpt-4o-mini | narrative,20.0,20.0,True
+design balance: strata per model x framing,Low minus High SES | five | z-ai/glm-4.7 | clinical,20.0,20.0,True
+design balance: strata per model x framing,Low minus High SES | five | z-ai/glm-4.7 | narrative,20.0,20.0,True
+"clinical-narrative correlation of pair differences, pooled",Low minus High SES | five,0.8622,,True
+"clinical-narrative correlation, mean within model",Low minus High SES | five,0.4706,,True
+design balance: strata per model x framing,Middle minus High SES | four | deepseek/deepseek-chat-v3 | clinical,16.0,16.0,True
+design balance: strata per model x framing,Middle minus High SES | four | deepseek/deepseek-chat-v3 | narrative,16.0,16.0,True
+design balance: strata per model x framing,Middle minus High SES | four | google/gemini-3-flash-preview | clinical,16.0,16.0,True
+design balance: strata per model x framing,Middle minus High SES | four | google/gemini-3-flash-preview | narrative,16.0,16.0,True
+design balance: strata per model x framing,Middle minus High SES | four | openai/gpt-4o-mini | clinical,16.0,16.0,True
+design balance: strata per model x framing,Middle minus High SES | four | openai/gpt-4o-mini | narrative,16.0,16.0,True
+design balance: strata per model x framing,Middle minus High SES | four | z-ai/glm-4.7 | clinical,16.0,16.0,True
+design balance: strata per model x framing,Middle minus High SES | four | z-ai/glm-4.7 | narrative,16.0,16.0,True
+"clinical-narrative correlation of pair differences, pooled",Middle minus High SES | four,0.2588,,True
+"clinical-narrative correlation, mean within model",Middle minus High SES | four,0.3107,,True
+design balance: strata per model x framing,Middle minus High SES | five | deepseek/deepseek-chat-v3 | clinical,20.0,20.0,True
+design balance: strata per model x framing,Middle minus High SES | five | deepseek/deepseek-chat-v3 | narrative,20.0,20.0,True
+design balance: strata per model x framing,Middle minus High SES | five | google/gemini-3-flash-preview | clinical,20.0,20.0,True
+design balance: strata per model x framing,Middle minus High SES | five | google/gemini-3-flash-preview | narrative,20.0,20.0,True
+design balance: strata per model x framing,Middle minus High SES | five | openai/gpt-4o-mini | clinical,20.0,20.0,True
+design balance: strata per model x framing,Middle minus High SES | five | openai/gpt-4o-mini | narrative,20.0,20.0,True
+design balance: strata per model x framing,Middle minus High SES | five | z-ai/glm-4.7 | clinical,20.0,20.0,True
+design balance: strata per model x framing,Middle minus High SES | five | z-ai/glm-4.7 | narrative,20.0,20.0,True
+"clinical-narrative correlation of pair differences, pooled",Middle minus High SES | five,0.2488,,True
+"clinical-narrative correlation, mean within model",Middle minus High SES | five,0.4404,,True
+design balance: strata per model x framing,Low minus Middle SES | four | deepseek/deepseek-chat-v3 | clinical,16.0,16.0,True
+design balance: strata per model x framing,Low minus Middle SES | four | deepseek/deepseek-chat-v3 | narrative,16.0,16.0,True
+design balance: strata per model x framing,Low minus Middle SES | four | google/gemini-3-flash-preview | clinical,16.0,16.0,True
+design balance: strata per model x framing,Low minus Middle SES | four | google/gemini-3-flash-preview | narrative,16.0,16.0,True
+design balance: strata per model x framing,Low minus Middle SES | four | openai/gpt-4o-mini | clinical,16.0,16.0,True
+design balance: strata per model x framing,Low minus Middle SES | four | openai/gpt-4o-mini | narrative,16.0,16.0,True
+design balance: strata per model x framing,Low minus Middle SES | four | z-ai/glm-4.7 | clinical,16.0,16.0,True
+design balance: strata per model x framing,Low minus Middle SES | four | z-ai/glm-4.7 | narrative,16.0,16.0,True
+"clinical-narrative correlation of pair differences, pooled",Low minus Middle SES | four,0.8966,,True
+"clinical-narrative correlation, mean within model",Low minus Middle SES | four,0.4817,,True
+design balance: strata per model x framing,Low minus Middle SES | five | deepseek/deepseek-chat-v3 | clinical,20.0,20.0,True
+design balance: strata per model x framing,Low minus Middle SES | five | deepseek/deepseek-chat-v3 | narrative,20.0,20.0,True
+design balance: strata per model x framing,Low minus Middle SES | five | google/gemini-3-flash-preview | clinical,20.0,20.0,True
+design balance: strata per model x framing,Low minus Middle SES | five | google/gemini-3-flash-preview | narrative,20.0,20.0,True
+design balance: strata per model x framing,Low minus Middle SES | five | openai/gpt-4o-mini | clinical,20.0,20.0,True
+design balance: strata per model x framing,Low minus Middle SES | five | openai/gpt-4o-mini | narrative,20.0,20.0,True
+design balance: strata per model x framing,Low minus Middle SES | five | z-ai/glm-4.7 | clinical,20.0,20.0,True
+design balance: strata per model x framing,Low minus Middle SES | five | z-ai/glm-4.7 | narrative,20.0,20.0,True
+"clinical-narrative correlation of pair differences, pooled",Low minus Middle SES | five,0.9041,,True
+"clinical-narrative correlation, mean within model",Low minus Middle SES | five,0.476,,True
+"SE ratio, unstratified cluster / 66 naive",Black minus White | n/a,1.1984,,True
+"SE ratio, model-stratified cluster / 66 naive",Black minus White | n/a,1.0008,,True
+"SE ratio, unstratified cluster / 66 naive",Hispanic minus White | n/a,1.1261,,True
+"SE ratio, model-stratified cluster / 66 naive",Hispanic minus White | n/a,0.9799,,True
+"SE ratio, unstratified cluster / 66 naive",Asian minus White | n/a,1.3426,,True
+"SE ratio, model-stratified cluster / 66 naive",Asian minus White | n/a,1.2786,,True
+"SE ratio, unstratified cluster / 66 naive",Women minus Men | four,1.3029,,True
+"SE ratio, model-stratified cluster / 66 naive",Women minus Men | four,0.8788,,True
+"SE ratio, unstratified cluster / 66 naive",Low minus High SES | four,1.3619,,True
+"SE ratio, model-stratified cluster / 66 naive",Low minus High SES | four,0.7304,,True
+"SE ratio, unstratified cluster / 66 naive",Middle minus High SES | four,1.1253,,True
+"SE ratio, model-stratified cluster / 66 naive",Middle minus High SES | four,0.9865,,True
+"SE ratio, unstratified cluster / 66 naive",Low minus Middle SES | four,1.3775,,True
+"SE ratio, model-stratified cluster / 66 naive",Low minus Middle SES | four,0.6084,,True
+"SE ratio, unstratified cluster / 66 naive",Women minus Men | five,1.3037,,True
+"SE ratio, model-stratified cluster / 66 naive",Women minus Men | five,0.8542,,True
+"SE ratio, unstratified cluster / 66 naive",Low minus High SES | five,1.3616,,True
+"SE ratio, model-stratified cluster / 66 naive",Low minus High SES | five,0.6843,,True
+"SE ratio, unstratified cluster / 66 naive",Middle minus High SES | five,1.1153,,True
+"SE ratio, model-stratified cluster / 66 naive",Middle minus High SES | five,1.0565,,True
+"SE ratio, unstratified cluster / 66 naive",Low minus Middle SES | five,1.3797,,True
+"SE ratio, model-stratified cluster / 66 naive",Low minus Middle SES | five,0.567,,True

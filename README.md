@@ -1,89 +1,78 @@
 # A Validity Ladder for LLM-Simulated Clinical Populations
 
-Code, data and receipts for the preprint. Patrick S. Keough, 2026.
+Code, data and receipts for a methods paper in preparation. Patrick S. Keough, 2026.
 
-Large language models now generate patient populations for clinician training, screening
-studies and clinical audits, and validation of those populations often stops at case review.
-A case can pass every reviewer who reads it while the cohort it belongs to sits a full
-severity category above the population it was written to represent.
+The validity ladder is a set of checks to run on a population simulated by a language model before it is used in place of people. A gate checks that persona-level scores are reliable. Four levels then compare the simulated data with a human reference:
 
-The validity ladder is a protocol for validating a generated population before use. A gate
-for regeneration stability sits beneath four levels: individual coherence, subgroup fidelity,
-population calibration and structural fidelity. Each level targets a failure the levels below
-it cannot detect, and passing a level supports a stated use of the population rather than
-general fitness. The ladder is read per model and records a stop wherever no reference exists.
+| Rung | Question | Reference | Scripts | Report |
+|---|---|---|---|---|
+| Gate | Is a persona's mean score reliable over k draws? | generalizability theory | 82, 82a-f | `paper_brm/analysis_brm/GATE.md` |
+| Level 1 | Does a single draw answer like one person? | NHANES person-fit (lz*) and gateway items at matched totals | 79, 79a-f | `L1.md` |
+| Level 2 | Are subgroup gaps the right size? | NHANES gaps; ratio intervals read against fixed regions | 78a-f | `L2.md` |
+| Level 3 | Is the overall level right? | NHANES, post-stratified to the persona design; equivalence tests | 80, 80a-d | `L3.md` |
+| Level 4 | Do the items hang together as they do in people? | NHANES factor structure and invariance | 81, 81b-e | `L4.md` |
+| Controls | Do real people pass, and are planted failures detected? | NHANES split into donor and reference halves | 83, 83a-g | `CONTROLS.md` |
 
-The demonstration runs on 28,800 PHQ-8 assessments from four models (GPT-4o-mini,
-Gemini-3-Flash, DeepSeek-V3, GLM-4.7) against survey-weighted NHANES anchors derived here
-from primary microdata.
+A level-1 failure rules out reading a single draw as one person. Levels 2 to 4 read persona means and still run.
 
-## What the demonstration finds
+## The worked example
 
-- **The gate withdraws the single-draw label.** Two draws of one prompt land in different
-  PHQ-8 severity categories 35.4% of the time and a single draw reproduces its cell's modal
-  category 74.9% of the time, so the gate fails the label rule. It passes the score rule
-  pooled, 92.5% of draw pairs landing within five points, and sets the unit for levels 2 and
-  3 to the cell mean.
-- **Individual coherence passes in three of four models**, which is what makes the rest of
-  the ladder necessary: case review alone would clear this corpus.
-- **Population calibration fails.** Simulated severity runs above the population anchors in
-  every benchmarkable group.
-- **Subgroup gaps are preserved by at most one model**, and the level-4 income result holds
-  on the draw-level floor but not on the persona-level one, which is reported rather than
-  resolved.
+28,800 PHQ-8 assessments: four models (GPT-4o-mini, Gemini-3-Flash, DeepSeek-V3, GLM-4.7), 120 personas, two framings (clinical and narrative) and 30 draws each. The reference is NHANES 2005-2018, with 2017-2020 and 2021-2023 as era checks.
 
-A model conditioned on a description returns its expected case for that demographic and
-nothing about how people in that demographic vary, so every comparison in the ladder runs on
-cell means.
+Results, each with its receipt in the report named above:
+
+- **Gate.** Persona means are reliable at k = 30 for every model except GPT-4o-mini under the narrative framing (phi .887 against .90). Averaging both framings gives .967.
+- **Level 1.** All four models fail. Three give too few atypical and too few highly regular answer vectors at matched totals. GLM-4.7 shows a misfit deficit only.
+- **Level 2.** Income gaps are steepened in every model: standardised ratios of 1.3 to 8.4 per model and 2.1 to 4.8 pooled. Sex is mixed across models. None of the earlier race verdicts survives. At equal income, sex and marital status the NHANES Black-White and Hispanic-White gaps are small and slightly negative.
+- **Level 3.** Every model is 2.1 to 4.7 PHQ-8 points above NHANES after post-stratification, and none passes at 0.2 SD, 1 point or 2 points.
+- **Level 4.** No model passes. DeepSeek-V3 and GPT-4o-mini show no general factor. In GLM-4.7 and Gemini-3-Flash the factor comes from differences between personas, and draws of one persona show none. Income fails invariance.
+- **Controls.** A pseudo-model built from NHANES respondents passes every rung. Planted failures are detected at doses well below the distortions the models show. At NHANES precision level 2 can detect a distorted gap but cannot certify a faithful one.
+
+## Reproducing
+
+```
+pip install -r requirements.txt
+python scripts/00_download_nhanes.py     # about 50 MB from CDC, checked by SHA-256
+python scripts/run_all.py                # about 2 hours on 7 cores; --fast skips the 70-minute simulation
+```
+
+Every script checks itself against an earlier computation before it writes (the receipts CSVs), and `run_all.py` stops at the first failed check. No script calls an API. The published outputs are already in `analysis/brm/`, so a rerun can be compared file by file.
 
 ## Layout
 
 ```
-paper/        the preprint: main.tex (body and appendices), refs.bib, figures/, main.pdf
-generation/   the layer that produced the corpus: calling script, both identity registries,
-              the narrative conversion, the battery, and the recovery scripts
-data/         the 28,800 generations, pooled and with run-provenance labels, plus the two
-              per-run exports as originally written
-groundtruth/  the survey-weighted PHQ-8 anchors derived from NHANES public microdata
-analysis/     every receipt CSV the paper cites, including the ladder-level receipts and the
-              FDR ledger
-scripts/      the pipeline (01-73) and the gates
-paper_library/ citation-verification metadata: what was retrieved, what matched, what did not
-reports/      V2_SPEC, MASTER_REPORT, VALIDATION_RECEIPTS, CITATION_VERIFICATION
+data/model_outputs_v3.csv     the corpus, one row per draw, with row_source and phq8_valid (script 76)
+data/model_outputs_v2.csv     the previous release, input to script 76
+data/raw/                     the original run outputs script 76 checks against
+generation/                   the code that produced the corpus (see generation/README.md)
+groundtruth/                  published NHANES PHQ-8 group anchors, used as a check
+analysis/brm/                 every output of scripts 76-83g
+analysis/*.csv, *.jsonl       earlier outputs the scripts reproduce as a check, and the logged
+                              generations of the prompt and decoding controls
+scripts/                      the analysis, 00-83g, and run_all.py
+paper_brm/analysis_brm/       one report per rung, plus the controls
+paper_brm/external/           levels 2 and 3 on two releases by other groups (see below)
+paper_brm/level2_rule/        the comparison of candidate level-2 rules that led to the ratio rule
 ```
 
-The ladder's own analyses are scripts 63 to 73: the score-scale gate (63), the level-2
-contrasts, figure and per-model equivalence (64 to 66), level-3 equivalence (67), the
-level-4 population reference (68), the prompt control (69 to 71), level 2 without GLM (72)
-and the level-4 floor sensitivity (73). Scripts 01 to 62 build the corpus, the anchors and
-the receipts that the ladder reads, and include the gates belonging to the companion
-epidemiological audit; they ship here because the ladder's numbers descend from them.
+## Provenance
 
-## Provenance and limits worth stating
+- **Recovery rows.** 1,575 of the 14,400 clinical rows came from recovery scripts run after the main session, with prompts that differ from the main script. They are labelled in `row_source`. Each rung report gives a sensitivity without them. Dropping them changes one level-2 verdict (the standardised pooled sex gap) and no other.
+- **Restored rows.** 43 GPT-4o-mini rows from the original 28 Dec 2025 run had been overwritten in v2. v3 restores them from the original output file.
+- **No preregistration.** Nothing in this project was preregistered. `analysis/prompt_control_design.json` and `analysis/decoding_control_design.json` were written before those runs and were not registered anywhere.
+- **Prompt control.** The "orig" arm of the prompt control asks for 20 PCL-5 items where the original script asked for 4 (`analysis/brm/l2_prompt_control_receipts.csv`).
+- **External data.** `paper_brm/external` runs levels 2 and 3 on Meister, Guestrin & Hashimoto (2024, OpinionQA; arXiv:2411.05403, repository commit 36869b5) and Argyle et al. (2023, Study 3; Harvard Dataverse doi:10.7910/DVN/JPV20K). Their raw files are not redistributed here. The results files are included, and the level-2 verdicts under the current rule are in `analysis/brm/l2_external_r3*.csv` (script 78e).
 
-The generation layer was **rebuilt** from the prompts and registries in the paper's appendix
-after the original run's code was not retained. The pre-registration forbids reporting the
-control that ran on it as a reproduction of the corpus, and the paper does not.
+## Earlier release
 
-The anchor derivation is gated on reproducing two published tables (Brody 2018, Patel 2019)
-before it is trusted for new numbers; `analysis/validation_patel.csv` is that gate's output.
+The repository previously held the preprint-era pipeline (scripts 01-73) and a preprint draft. That version is kept at the tag `preprint-2026-09`. Its level-2 rule, its level-1 rule and several of its results have been replaced by the analysis here.
 
-The analysis scripts were implemented to the author's specification with AI coding
-assistance, and every table in the paper regenerates from the released receipts.
+The corpus was first reported in *Plausible Patients, Impossible Populations* (arXiv:2604.17359).
 
-`data/nhanes_raw/` is deliberately excluded. It is public CDC microdata, roughly 28 MB,
-fetched by `scripts/01_download_nhanes.sh`. The derived anchors are already in
-`groundtruth/` and the gates run without it.
+## AI assistance
 
-## Companion work
-
-The epidemiological audit this corpus was first built for is *Plausible Patients, Impossible
-Populations* (arXiv:2604.17359), at
-[github.com/pskeough/plausible-patients](https://github.com/pskeough/plausible-patients).
-That paper asks what the simulation gets wrong; this one asks what you would have to check
-to find out.
+The analysis code was written with AI coding assistance to the author's specification. Every reported number is printed by a script into a CSV in `analysis/brm/`.
 
 ## Licence
 
-Code under MIT (`LICENSE`). Paper, data and derived corpus under CC BY-NC-ND 4.0
-(`LICENSE-DATA`).
+Code under MIT (`LICENSE`). Data, derived files and reports under CC BY-NC-ND 4.0 (`LICENSE-DATA`). NHANES files are public domain.

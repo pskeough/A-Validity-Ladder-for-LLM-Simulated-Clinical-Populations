@@ -1,3 +1,0 @@
-contrast,n_cells_a,n_cells_b,diff,ci_lo,ci_hi,cohens_d,t_cell,p_cell,significant
-Transgender Woman - Cisgender Woman,120,120,2.7283,2.0135,3.4431,0.9658,7.481,1.446194206267424e-12,True
-Transgender Man - Cisgender Man,120,120,3.3585,2.6662,4.0508,1.2276,9.509,2.392924627920635e-18,True

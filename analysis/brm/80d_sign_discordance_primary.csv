@@ -1,0 +1,9 @@
+model,group
+deepseek-chat-v3,High
+deepseek-chat-v3,Middle
+gemini-3-flash-preview,High
+gemini-3-flash-preview,Middle
+glm-4.7,High
+glm-4.7,Middle
+pooled,High
+pooled,Middle

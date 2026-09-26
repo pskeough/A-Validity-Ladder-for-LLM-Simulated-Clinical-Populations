@@ -1,0 +1,25 @@
+spec,estimand,median,max
+S1 primary,DS,0.1217,0.1708
+S1 primary,MG,0.1118,0.1606
+S1 primary,PS,0.1431,0.2084
+S2 cohabiting as married,DS,0.1212,0.1729
+S2 cohabiting as married,MG,0.1118,0.1606
+S2 cohabiting as married,PS,0.1395,0.1958
+S2b cohabiting as single,DS,0.1196,0.1674
+S2b cohabiting as single,MG,0.1118,0.1606
+S2b cohabiting as single,PS,0.1399,0.1978
+S3 2007-2018 PIR (bridge),DS,0.1256,0.1709
+S3 2007-2018 PIR (bridge),MG,0.1159,0.1706
+S3 2007-2018 PIR (bridge),PS,0.1434,0.2031
+S4 persona-string income,DS,0.1762,0.2884
+S4 persona-string income,MG,0.1255,0.283
+S4 persona-string income,PS,0.173,0.3038
+"S5 persona-string, high top-coded",DS,0.1812,0.2884
+"S5 persona-string, high top-coded",MG,0.1258,0.283
+"S5 persona-string, high top-coded",PS,0.1802,0.3038
+S6 2017-2020 pre-pandemic,DS,0.2002,0.3239
+S6 2017-2020 pre-pandemic,MG,0.1832,0.286
+S6 2017-2020 pre-pandemic,PS,0.2049,0.3881
+S7 2021-2023,DS,0.3653,0.5772
+S7 2021-2023,MG,0.2486,0.426
+S7 2021-2023,PS,0.2682,0.8425

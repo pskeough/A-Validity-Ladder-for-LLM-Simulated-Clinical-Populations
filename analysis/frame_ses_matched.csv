@@ -1,5 +1,0 @@
-quantity,value,basis
-population SES gradient (low vs all adults),1.2641,NHANES low 4.2470 minus all adults 2.9829
-SES-matched caseload anchor,5.847-6.905,"caseload bound plus the population gradient, transferred additively"
-"low-income residual, SES-matched",2.820-3.877,the comparison the section stands behind for this cohort
-share of the NHANES low-income residual retained,51%-71%,against the 5.478-point residual of Table 2

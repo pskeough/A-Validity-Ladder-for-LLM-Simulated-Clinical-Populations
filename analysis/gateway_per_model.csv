@@ -1,6 +1,0 @@
-model,elevated,violations,violation_rate_pct
-POOLED,9590,257,2.68
-deepseek/deepseek-chat-v3,1447,5,0.35
-google/gemini-3-flash-preview,3452,19,0.55
-openai/gpt-4o-mini,2047,68,3.32
-z-ai/glm-4.7,2644,165,6.24

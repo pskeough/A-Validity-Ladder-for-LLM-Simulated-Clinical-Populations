@@ -1,6 +1,0 @@
-definition,n,w_mean,w_sd,sim_mean,residual
-A. PIR < 1.3 (paper anchor),10663,4.247,4.8853,9.7261,5.4791
-B. PIR < 1.3 AND Medicaid,2545,5.4529,5.5191,9.7261,4.2732
-C. household income < $35k,14352,4.0154,4.7503,9.7261,5.7107
-D. income < $35k AND Medicaid (persona),2736,5.5192,5.6035,9.7261,4.2069
-   all adults 18+ (reference),36274,2.9846,3.9352,9.7261,6.7415

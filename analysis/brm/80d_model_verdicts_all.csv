@@ -1,0 +1,721 @@
+spec,estimand,framing,outcome,model,groups,max_delta_min,overall_delta_min,pass_0.2SD_all_groups,pass_0.2SD_overall,pass_1pt_all_groups,pass_1pt_overall,pass_2pt_all_groups,pass_2pt_overall,pass_5pt_benchmark_all_groups,pass_5pt_benchmark_overall,pass_2.5pp_all_groups,pass_2.5pp_overall,pass_5pp_all_groups,pass_5pp_overall,pass_ratio_0.80_1.25_all_groups,pass_ratio_0.80_1.25_overall
+S1 primary,DS,clinical,mean,deepseek-chat-v3,10,5.79252,5.201758,False,False,False,False,False,False,False,False,,,,,,
+S1 primary,DS,clinical,mean,gemini-3-flash-preview,10,7.817224,3.822128,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,DS,clinical,mean,glm-4.7,10,5.925523,2.886711,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,DS,clinical,mean,gpt-4o-mini,10,6.195666,5.031956,False,False,False,False,False,False,False,False,,,,,,
+S1 primary,DS,clinical,mean,pooled,10,6.390262,4.215612,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,DS,clinical,prev10,deepseek-chat-v3,10,25.373456,6.034202,,,,,,,,,False,False,False,False,False,False
+S1 primary,DS,clinical,prev10,gemini-3-flash-preview,10,68.905794,19.780259,,,,,,,,,False,False,False,False,False,False
+S1 primary,DS,clinical,prev10,glm-4.7,10,37.478636,9.993725,,,,,,,,,False,False,False,False,False,False
+S1 primary,DS,clinical,prev10,gpt-4o-mini,10,44.471264,17.258069,,,,,,,,,False,False,False,False,False,False
+S1 primary,DS,clinical,prev10,pooled,10,42.584423,12.62546,,,,,,,,,False,False,False,False,False,False
+S1 primary,DS,combined,mean,deepseek-chat-v3,10,5.444731,4.904694,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,DS,combined,mean,gemini-3-flash-preview,10,6.813722,3.274198,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,DS,combined,mean,glm-4.7,10,5.995542,2.673437,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,DS,combined,mean,gpt-4o-mini,10,5.872703,5.047419,False,False,False,False,False,False,False,False,,,,,,
+S1 primary,DS,combined,mean,pooled,10,6.009515,3.964301,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,DS,combined,prev10,deepseek-chat-v3,10,15.282192,2.38671,,,,,,,,,False,True,False,True,False,False
+S1 primary,DS,combined,prev10,gemini-3-flash-preview,10,55.255952,15.112908,,,,,,,,,False,False,False,False,False,False
+S1 primary,DS,combined,prev10,glm-4.7,10,36.931766,9.48826,,,,,,,,,False,False,False,False,False,False
+S1 primary,DS,combined,prev10,gpt-4o-mini,10,36.055007,15.151383,,,,,,,,,False,False,False,False,False,False
+S1 primary,DS,combined,prev10,pooled,10,34.91543,10.111998,,,,,,,,,False,False,False,False,False,False
+S1 primary,DS,narrative,mean,deepseek-chat-v3,10,5.129486,4.623842,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,DS,narrative,mean,gemini-3-flash-preview,10,5.859603,2.744806,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,DS,narrative,mean,glm-4.7,10,6.127365,2.491506,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,DS,narrative,mean,gpt-4o-mini,10,5.607348,5.093963,False,False,False,False,False,False,False,False,,,,,,
+S1 primary,DS,narrative,mean,pooled,10,5.644425,3.720532,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,DS,narrative,prev10,deepseek-chat-v3,10,7.164203,3.055876,,,,,,,,,False,False,False,True,False,False
+S1 primary,DS,narrative,prev10,gemini-3-flash-preview,10,43.118782,11.107762,,,,,,,,,False,False,False,False,False,False
+S1 primary,DS,narrative,prev10,glm-4.7,10,38.090813,9.708566,,,,,,,,,False,False,False,False,False,False
+S1 primary,DS,narrative,prev10,gpt-4o-mini,10,29.58755,13.96237,,,,,,,,,False,False,False,False,False,False
+S1 primary,DS,narrative,prev10,pooled,10,28.02283,7.93871,,,,,,,,,False,False,False,False,False,False
+S1 primary,MG,clinical,mean,deepseek-chat-v3,10,5.551941,5.249186,False,False,False,False,False,False,False,False,,,,,,
+S1 primary,MG,clinical,mean,gemini-3-flash-preview,10,7.50132,3.944586,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,MG,clinical,mean,glm-4.7,10,5.58792,3.150121,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,MG,clinical,mean,gpt-4o-mini,10,5.613904,5.031634,False,False,False,False,False,False,False,False,,,,,,
+S1 primary,MG,clinical,mean,pooled,10,5.960468,4.327919,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,MG,clinical,prev10,deepseek-chat-v3,10,24.671272,6.798672,,,,,,,,,False,False,False,False,False,False
+S1 primary,MG,clinical,prev10,gemini-3-flash-preview,10,68.644132,20.747015,,,,,,,,,False,False,False,False,False,False
+S1 primary,MG,clinical,prev10,glm-4.7,10,38.438277,11.731742,,,,,,,,,False,False,False,False,False,False
+S1 primary,MG,clinical,prev10,gpt-4o-mini,10,42.737891,17.610618,,,,,,,,,False,False,False,False,False,False
+S1 primary,MG,clinical,prev10,pooled,10,42.36976,13.660191,,,,,,,,,False,False,False,False,False,False
+S1 primary,MG,combined,mean,deepseek-chat-v3,10,5.268938,4.94099,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,MG,combined,mean,gemini-3-flash-preview,10,6.67233,3.461775,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,MG,combined,mean,glm-4.7,10,5.695285,2.891896,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,MG,combined,mean,gpt-4o-mini,10,5.509618,5.051309,False,False,False,False,False,False,False,False,,,,,,
+S1 primary,MG,combined,mean,pooled,10,5.61927,4.078169,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,MG,combined,prev10,deepseek-chat-v3,10,13.335764,2.784871,,,,,,,,,False,False,False,True,False,False
+S1 primary,MG,combined,prev10,gemini-3-flash-preview,10,57.951478,16.960463,,,,,,,,,False,False,False,False,False,False
+S1 primary,MG,combined,prev10,glm-4.7,10,38.444733,11.263838,,,,,,,,,False,False,False,False,False,False
+S1 primary,MG,combined,prev10,gpt-4o-mini,10,34.446596,15.558121,,,,,,,,,False,False,False,False,False,False
+S1 primary,MG,combined,prev10,pooled,10,35.252614,11.279097,,,,,,,,,False,False,False,False,False,False
+S1 primary,MG,narrative,mean,deepseek-chat-v3,10,5.007826,4.645769,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,MG,narrative,mean,gemini-3-flash-preview,10,5.882029,2.993736,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,MG,narrative,mean,glm-4.7,10,5.853373,2.659738,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,MG,narrative,mean,gpt-4o-mini,10,5.524383,5.095871,False,False,False,False,False,False,False,False,,,,,,
+S1 primary,MG,narrative,mean,pooled,10,5.290112,3.83423,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,MG,narrative,prev10,deepseek-chat-v3,10,7.481145,2.911066,,,,,,,,,False,False,False,True,False,False
+S1 primary,MG,narrative,prev10,gemini-3-flash-preview,10,48.484827,13.736825,,,,,,,,,False,False,False,False,False,False
+S1 primary,MG,narrative,prev10,glm-4.7,10,39.912404,11.436432,,,,,,,,,False,False,False,False,False,False
+S1 primary,MG,narrative,prev10,gpt-4o-mini,10,27.857862,14.317804,,,,,,,,,False,False,False,False,False,False
+S1 primary,MG,narrative,prev10,pooled,10,28.757131,9.18578,,,,,,,,,False,False,False,False,False,False
+S1 primary,PS,clinical,mean,deepseek-chat-v3,10,5.763908,4.940602,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,PS,clinical,mean,gemini-3-flash-preview,10,8.278345,3.130718,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,PS,clinical,mean,glm-4.7,10,6.415486,2.450038,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,PS,clinical,mean,gpt-4o-mini,10,5.95695,4.757456,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,PS,clinical,mean,pooled,10,6.534042,3.77816,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,PS,clinical,prev10,deepseek-chat-v3,10,34.857614,5.166421,,,,,,,,,False,False,False,False,False,False
+S1 primary,PS,clinical,prev10,gemini-3-flash-preview,10,78.977464,13.069306,,,,,,,,,False,False,False,False,False,False
+S1 primary,PS,clinical,prev10,glm-4.7,10,49.750466,8.276563,,,,,,,,,False,False,False,False,False,False
+S1 primary,PS,clinical,prev10,gpt-4o-mini,10,47.44053,13.609375,,,,,,,,,False,False,False,False,False,False
+S1 primary,PS,clinical,prev10,pooled,10,50.950463,9.143529,,,,,,,,,False,False,False,False,False,False
+S1 primary,PS,combined,mean,deepseek-chat-v3,10,5.300886,4.669157,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,PS,combined,mean,gemini-3-flash-preview,10,7.532131,2.68644,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,PS,combined,mean,glm-4.7,10,6.59236,2.237254,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,PS,combined,mean,gpt-4o-mini,10,5.508464,4.790802,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,PS,combined,mean,pooled,10,6.194884,3.570072,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,PS,combined,prev10,deepseek-chat-v3,10,22.148854,1.726192,,,,,,,,,False,True,False,True,False,True
+S1 primary,PS,combined,prev10,gemini-3-flash-preview,10,69.859996,10.878194,,,,,,,,,False,False,False,False,False,False
+S1 primary,PS,combined,prev10,glm-4.7,10,50.623263,7.665944,,,,,,,,,False,False,False,False,False,False
+S1 primary,PS,combined,prev10,gpt-4o-mini,10,36.235634,11.664919,,,,,,,,,False,False,False,False,False,False
+S1 primary,PS,combined,prev10,pooled,10,43.473553,7.382491,,,,,,,,,False,False,False,False,False,False
+S1 primary,PS,narrative,mean,deepseek-chat-v3,10,5.001758,4.439779,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,PS,narrative,mean,gemini-3-flash-preview,10,6.851667,2.263423,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,PS,narrative,mean,glm-4.7,10,6.865437,2.075635,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,PS,narrative,mean,gpt-4o-mini,10,5.366384,4.893947,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,PS,narrative,mean,pooled,10,5.882379,3.378635,False,False,False,False,False,False,False,True,,,,,,
+S1 primary,PS,narrative,prev10,deepseek-chat-v3,10,11.777272,4.288038,,,,,,,,,False,False,False,True,False,False
+S1 primary,PS,narrative,prev10,gemini-3-flash-preview,10,62.389719,9.540546,,,,,,,,,False,False,False,False,False,False
+S1 primary,PS,narrative,prev10,glm-4.7,10,53.607377,8.028316,,,,,,,,,False,False,False,False,False,False
+S1 primary,PS,narrative,prev10,gpt-4o-mini,10,27.551111,11.083759,,,,,,,,,False,False,False,False,False,False
+S1 primary,PS,narrative,prev10,pooled,10,36.991645,6.089559,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,DS,clinical,mean,deepseek-chat-v3,10,5.688464,5.152437,False,False,False,False,False,False,False,False,,,,,,
+S2 cohabiting as married,DS,clinical,mean,gemini-3-flash-preview,10,7.71338,3.772814,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,DS,clinical,mean,glm-4.7,10,5.8221,2.837509,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,DS,clinical,mean,gpt-4o-mini,10,6.092142,4.982731,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,DS,clinical,mean,pooled,10,6.285253,4.166199,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,DS,clinical,prev10,deepseek-chat-v3,10,24.881605,5.809528,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,DS,clinical,prev10,gemini-3-flash-preview,10,68.412565,19.555448,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,DS,clinical,prev10,glm-4.7,10,36.986846,9.769052,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,DS,clinical,prev10,gpt-4o-mini,10,43.98029,17.033578,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,DS,clinical,prev10,pooled,10,42.084703,12.399831,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,DS,combined,mean,deepseek-chat-v3,10,5.339777,4.85529,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,DS,combined,mean,gemini-3-flash-preview,10,6.709163,3.224808,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,DS,combined,mean,glm-4.7,10,5.891271,2.62412,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,DS,combined,mean,gpt-4o-mini,10,5.768337,4.998099,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,DS,combined,mean,pooled,10,5.904106,3.914844,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,DS,combined,prev10,deepseek-chat-v3,10,14.786071,2.161519,,,,,,,,,False,True,False,True,False,False
+S2 cohabiting as married,DS,combined,prev10,gemini-3-flash-preview,10,54.758975,14.88762,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,DS,combined,prev10,glm-4.7,10,36.43616,9.2631,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,DS,combined,prev10,gpt-4o-mini,10,35.560764,14.926521,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,DS,combined,prev10,pooled,10,34.409896,9.88571,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,DS,narrative,mean,deepseek-chat-v3,10,5.037462,4.574493,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,DS,narrative,mean,gemini-3-flash-preview,10,5.755776,2.69549,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,DS,narrative,mean,glm-4.7,10,6.023805,2.442261,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,DS,narrative,mean,gpt-4o-mini,10,5.503667,5.044739,False,False,False,False,False,False,False,False,,,,,,
+S2 cohabiting as married,DS,narrative,mean,pooled,10,5.539308,3.67111,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,DS,narrative,prev10,deepseek-chat-v3,10,7.341758,3.278067,,,,,,,,,False,False,False,True,False,False
+S2 cohabiting as married,DS,narrative,prev10,gemini-3-flash-preview,10,42.625724,10.882959,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,DS,narrative,prev10,glm-4.7,10,37.598367,9.483823,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,DS,narrative,prev10,gpt-4o-mini,10,29.096361,13.737901,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,DS,narrative,prev10,pooled,10,27.52224,7.713034,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,MG,clinical,mean,deepseek-chat-v3,10,5.551941,5.249186,False,False,False,False,False,False,False,False,,,,,,
+S2 cohabiting as married,MG,clinical,mean,gemini-3-flash-preview,10,7.50132,3.944586,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,MG,clinical,mean,glm-4.7,10,5.58792,3.150121,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,MG,clinical,mean,gpt-4o-mini,10,5.613904,5.031634,False,False,False,False,False,False,False,False,,,,,,
+S2 cohabiting as married,MG,clinical,mean,pooled,10,5.960468,4.327919,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,MG,clinical,prev10,deepseek-chat-v3,10,24.671272,6.798672,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,MG,clinical,prev10,gemini-3-flash-preview,10,68.644132,20.747015,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,MG,clinical,prev10,glm-4.7,10,38.438277,11.731742,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,MG,clinical,prev10,gpt-4o-mini,10,42.737891,17.610618,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,MG,clinical,prev10,pooled,10,42.36976,13.660191,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,MG,combined,mean,deepseek-chat-v3,10,5.268938,4.94099,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,MG,combined,mean,gemini-3-flash-preview,10,6.67233,3.461775,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,MG,combined,mean,glm-4.7,10,5.695285,2.891896,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,MG,combined,mean,gpt-4o-mini,10,5.509618,5.051309,False,False,False,False,False,False,False,False,,,,,,
+S2 cohabiting as married,MG,combined,mean,pooled,10,5.61927,4.078169,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,MG,combined,prev10,deepseek-chat-v3,10,13.335764,2.784871,,,,,,,,,False,False,False,True,False,False
+S2 cohabiting as married,MG,combined,prev10,gemini-3-flash-preview,10,57.951478,16.960463,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,MG,combined,prev10,glm-4.7,10,38.444733,11.263838,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,MG,combined,prev10,gpt-4o-mini,10,34.446596,15.558121,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,MG,combined,prev10,pooled,10,35.252614,11.279097,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,MG,narrative,mean,deepseek-chat-v3,10,5.007826,4.645769,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,MG,narrative,mean,gemini-3-flash-preview,10,5.882029,2.993736,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,MG,narrative,mean,glm-4.7,10,5.853373,2.659738,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,MG,narrative,mean,gpt-4o-mini,10,5.524383,5.095871,False,False,False,False,False,False,False,False,,,,,,
+S2 cohabiting as married,MG,narrative,mean,pooled,10,5.290112,3.83423,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,MG,narrative,prev10,deepseek-chat-v3,10,7.481145,2.911066,,,,,,,,,False,False,False,True,False,False
+S2 cohabiting as married,MG,narrative,prev10,gemini-3-flash-preview,10,48.484827,13.736825,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,MG,narrative,prev10,glm-4.7,10,39.912404,11.436432,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,MG,narrative,prev10,gpt-4o-mini,10,27.857862,14.317804,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,MG,narrative,prev10,pooled,10,28.757131,9.18578,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,PS,clinical,mean,deepseek-chat-v3,10,5.641709,4.90718,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,PS,clinical,mean,gemini-3-flash-preview,10,8.121962,3.121118,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,PS,clinical,mean,glm-4.7,10,6.263721,2.423808,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,PS,clinical,mean,gpt-4o-mini,10,5.874847,4.733879,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,PS,clinical,mean,pooled,10,6.410592,3.755702,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,PS,clinical,prev10,deepseek-chat-v3,10,32.727432,5.039759,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,PS,clinical,prev10,gemini-3-flash-preview,10,77.803242,13.539788,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,PS,clinical,prev10,glm-4.7,10,47.241414,8.078936,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,PS,clinical,prev10,gpt-4o-mini,10,46.380723,13.693344,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,PS,clinical,prev10,pooled,10,49.266166,9.195252,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,PS,combined,mean,deepseek-chat-v3,10,5.207157,4.637151,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,PS,combined,mean,gemini-3-flash-preview,10,7.390091,2.682271,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,PS,combined,mean,glm-4.7,10,6.429091,2.214954,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,PS,combined,mean,gpt-4o-mini,10,5.432434,4.76034,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,PS,combined,mean,pooled,10,6.075535,3.548355,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,PS,combined,prev10,deepseek-chat-v3,10,20.217132,1.509188,,,,,,,,,False,True,False,True,False,True
+S2 cohabiting as married,PS,combined,prev10,gemini-3-flash-preview,10,68.482106,11.223044,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,PS,combined,prev10,glm-4.7,10,48.249562,7.551254,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,PS,combined,prev10,gpt-4o-mini,10,35.375268,11.676402,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,PS,combined,prev10,pooled,10,41.867415,7.382989,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,PS,narrative,mean,deepseek-chat-v3,10,4.992638,4.408361,False,False,False,False,False,False,True,True,,,,,,
+S2 cohabiting as married,PS,narrative,mean,gemini-3-flash-preview,10,6.721522,2.26467,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,PS,narrative,mean,glm-4.7,10,6.685557,2.056649,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,PS,narrative,mean,gpt-4o-mini,10,5.351463,4.855621,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,PS,narrative,mean,pooled,10,5.765199,3.357448,False,False,False,False,False,False,False,True,,,,,,
+S2 cohabiting as married,PS,narrative,prev10,deepseek-chat-v3,10,9.918422,4.556602,,,,,,,,,False,False,False,True,False,False
+S2 cohabiting as married,PS,narrative,prev10,gemini-3-flash-preview,10,60.808771,9.772606,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,PS,narrative,prev10,glm-4.7,10,51.344202,8.003078,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,PS,narrative,prev10,gpt-4o-mini,10,26.813305,11.01575,,,,,,,,,False,False,False,False,False,False
+S2 cohabiting as married,PS,narrative,prev10,pooled,10,35.436916,6.046361,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,DS,clinical,mean,deepseek-chat-v3,10,5.792408,5.221962,False,False,False,False,False,False,False,False,,,,,,
+S2b cohabiting as single,DS,clinical,mean,gemini-3-flash-preview,10,7.817356,3.84236,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,DS,clinical,mean,glm-4.7,10,5.926139,2.907411,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,DS,clinical,mean,gpt-4o-mini,10,6.196166,5.052559,False,False,False,False,False,False,False,False,,,,,,
+S2b cohabiting as single,DS,clinical,mean,pooled,10,6.389053,4.235429,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,DS,clinical,prev10,deepseek-chat-v3,10,25.42772,6.135845,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,DS,clinical,prev10,gemini-3-flash-preview,10,68.959458,19.881364,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,DS,clinical,prev10,glm-4.7,10,37.532927,10.095372,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,DS,clinical,prev10,gpt-4o-mini,10,44.52591,17.360428,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,DS,clinical,prev10,pooled,10,42.635269,12.723344,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,DS,combined,mean,deepseek-chat-v3,10,5.443585,4.924547,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,DS,combined,mean,gemini-3-flash-preview,10,6.813032,3.294109,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,DS,combined,mean,glm-4.7,10,5.995183,2.693656,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,DS,combined,mean,gpt-4o-mini,10,5.872235,5.067628,False,False,False,False,False,False,False,False,,,,,,
+S2b cohabiting as single,DS,combined,mean,pooled,10,6.007844,3.983928,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,DS,combined,prev10,deepseek-chat-v3,10,15.334599,2.486321,,,,,,,,,False,True,False,True,False,False
+S2b cohabiting as single,DS,combined,prev10,gemini-3-flash-preview,10,55.307988,15.212136,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,DS,combined,prev10,glm-4.7,10,36.984397,9.587995,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,DS,combined,prev10,gpt-4o-mini,10,36.10823,15.252289,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,DS,combined,prev10,pooled,10,34.963768,10.207263,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,DS,narrative,mean,deepseek-chat-v3,10,5.128588,4.643929,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,DS,narrative,mean,gemini-3-flash-preview,10,5.859755,2.765031,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,DS,narrative,mean,glm-4.7,10,6.127824,2.512028,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,DS,narrative,mean,gpt-4o-mini,10,5.607668,5.11457,False,False,False,False,False,False,False,False,,,,,,
+S2b cohabiting as single,DS,narrative,mean,pooled,10,5.643091,3.740307,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,DS,narrative,prev10,deepseek-chat-v3,10,7.041086,2.944513,,,,,,,,,False,False,False,True,False,False
+S2b cohabiting as single,DS,narrative,prev10,gemini-3-flash-preview,10,43.172521,11.208901,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,DS,narrative,prev10,glm-4.7,10,38.144818,9.809939,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,DS,narrative,prev10,gpt-4o-mini,10,29.642102,14.064817,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,DS,narrative,prev10,pooled,10,28.0733,8.036405,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,MG,clinical,mean,deepseek-chat-v3,10,5.551941,5.249186,False,False,False,False,False,False,False,False,,,,,,
+S2b cohabiting as single,MG,clinical,mean,gemini-3-flash-preview,10,7.50132,3.944586,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,MG,clinical,mean,glm-4.7,10,5.58792,3.150121,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,MG,clinical,mean,gpt-4o-mini,10,5.613904,5.031634,False,False,False,False,False,False,False,False,,,,,,
+S2b cohabiting as single,MG,clinical,mean,pooled,10,5.960468,4.327919,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,MG,clinical,prev10,deepseek-chat-v3,10,24.671272,6.798672,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,MG,clinical,prev10,gemini-3-flash-preview,10,68.644132,20.747015,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,MG,clinical,prev10,glm-4.7,10,38.438277,11.731742,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,MG,clinical,prev10,gpt-4o-mini,10,42.737891,17.610618,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,MG,clinical,prev10,pooled,10,42.36976,13.660191,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,MG,combined,mean,deepseek-chat-v3,10,5.268938,4.94099,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,MG,combined,mean,gemini-3-flash-preview,10,6.67233,3.461775,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,MG,combined,mean,glm-4.7,10,5.695285,2.891896,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,MG,combined,mean,gpt-4o-mini,10,5.509618,5.051309,False,False,False,False,False,False,False,False,,,,,,
+S2b cohabiting as single,MG,combined,mean,pooled,10,5.61927,4.078169,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,MG,combined,prev10,deepseek-chat-v3,10,13.335764,2.784871,,,,,,,,,False,False,False,True,False,False
+S2b cohabiting as single,MG,combined,prev10,gemini-3-flash-preview,10,57.951478,16.960463,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,MG,combined,prev10,glm-4.7,10,38.444733,11.263838,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,MG,combined,prev10,gpt-4o-mini,10,34.446596,15.558121,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,MG,combined,prev10,pooled,10,35.252614,11.279097,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,MG,narrative,mean,deepseek-chat-v3,10,5.007826,4.645769,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,MG,narrative,mean,gemini-3-flash-preview,10,5.882029,2.993736,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,MG,narrative,mean,glm-4.7,10,5.853373,2.659738,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,MG,narrative,mean,gpt-4o-mini,10,5.524383,5.095871,False,False,False,False,False,False,False,False,,,,,,
+S2b cohabiting as single,MG,narrative,mean,pooled,10,5.290112,3.83423,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,MG,narrative,prev10,deepseek-chat-v3,10,7.481145,2.911066,,,,,,,,,False,False,False,True,False,False
+S2b cohabiting as single,MG,narrative,prev10,gemini-3-flash-preview,10,48.484827,13.736825,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,MG,narrative,prev10,glm-4.7,10,39.912404,11.436432,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,MG,narrative,prev10,gpt-4o-mini,10,27.857862,14.317804,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,MG,narrative,prev10,pooled,10,28.757131,9.18578,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,PS,clinical,mean,deepseek-chat-v3,10,5.762247,4.944537,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,PS,clinical,mean,gemini-3-flash-preview,10,8.313996,3.207327,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,PS,clinical,mean,glm-4.7,10,6.427973,2.517026,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,PS,clinical,mean,gpt-4o-mini,10,5.934423,4.763196,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,PS,clinical,mean,pooled,10,6.536516,3.817282,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,PS,clinical,prev10,deepseek-chat-v3,10,35.625864,5.489868,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,PS,clinical,prev10,gemini-3-flash-preview,10,79.543049,13.882463,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,PS,clinical,prev10,glm-4.7,10,50.710102,8.967667,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,PS,clinical,prev10,gpt-4o-mini,10,47.741008,14.087672,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,PS,clinical,prev10,pooled,10,51.564883,9.729557,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,PS,combined,mean,deepseek-chat-v3,10,5.289025,4.671421,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,PS,combined,mean,gemini-3-flash-preview,10,7.558048,2.752862,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,PS,combined,mean,glm-4.7,10,6.604199,2.310094,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,PS,combined,mean,gpt-4o-mini,10,5.486639,4.789286,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,PS,combined,mean,pooled,10,6.193698,3.605802,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,PS,combined,prev10,deepseek-chat-v3,10,22.753111,1.953927,,,,,,,,,False,True,False,True,False,False
+S2b cohabiting as single,PS,combined,prev10,gemini-3-flash-preview,10,70.414597,11.609331,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,PS,combined,prev10,glm-4.7,10,51.43561,8.310579,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,PS,combined,prev10,gpt-4o-mini,10,36.470491,12.011686,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,PS,combined,prev10,pooled,10,43.99144,7.875142,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,PS,narrative,mean,deepseek-chat-v3,10,5.024887,4.438655,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,PS,narrative,mean,gemini-3-flash-preview,10,6.870146,2.320217,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,PS,narrative,mean,glm-4.7,10,6.880458,2.154273,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,PS,narrative,mean,gpt-4o-mini,10,5.400182,4.882377,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,PS,narrative,mean,pooled,10,5.879377,3.410557,False,False,False,False,False,False,False,True,,,,,,
+S2b cohabiting as single,PS,narrative,prev10,deepseek-chat-v3,10,12.293206,4.11513,,,,,,,,,False,False,False,True,False,False
+S2b cohabiting as single,PS,narrative,prev10,gemini-3-flash-preview,10,62.949451,10.17425,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,PS,narrative,prev10,glm-4.7,10,54.304567,8.62042,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,PS,narrative,prev10,gpt-4o-mini,10,27.778618,11.276255,,,,,,,,,False,False,False,False,False,False
+S2b cohabiting as single,PS,narrative,prev10,pooled,10,37.446826,6.487038,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),DS,clinical,mean,deepseek-chat-v3,10,5.762056,5.168866,False,False,False,False,False,False,False,False,,,,,,
+S3 2007-2018 PIR (bridge),DS,clinical,mean,gemini-3-flash-preview,10,7.786574,3.789218,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),DS,clinical,mean,glm-4.7,10,5.894499,2.8535,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),DS,clinical,mean,gpt-4o-mini,10,6.164732,4.998807,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),DS,clinical,mean,pooled,10,6.360632,4.18297,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),DS,clinical,prev10,deepseek-chat-v3,10,25.241265,5.868868,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),DS,clinical,prev10,gemini-3-flash-preview,10,68.774847,19.615375,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),DS,clinical,prev10,glm-4.7,10,37.346391,9.828387,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),DS,clinical,prev10,gpt-4o-mini,10,44.33828,17.092135,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),DS,clinical,prev10,pooled,10,42.459313,12.463267,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),DS,combined,mean,deepseek-chat-v3,10,5.415053,4.872028,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),DS,combined,mean,gemini-3-flash-preview,10,6.783699,3.241495,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),DS,combined,mean,glm-4.7,10,5.965267,2.640535,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),DS,combined,mean,gpt-4o-mini,10,5.842511,5.014523,False,False,False,False,False,False,False,False,,,,,,
+S3 2007-2018 PIR (bridge),DS,combined,mean,pooled,10,5.980232,3.931781,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),DS,combined,prev10,deepseek-chat-v3,10,15.153852,2.223077,,,,,,,,,False,True,False,True,False,False
+S3 2007-2018 PIR (bridge),DS,combined,prev10,gemini-3-flash-preview,10,55.128381,14.949594,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),DS,combined,prev10,glm-4.7,10,36.802962,9.324521,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),DS,combined,prev10,gpt-4o-mini,10,35.924974,14.986665,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),DS,combined,prev10,pooled,10,34.795496,9.951975,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),DS,narrative,mean,deepseek-chat-v3,10,5.099621,4.591025,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),DS,narrative,mean,gemini-3-flash-preview,10,5.828937,2.711901,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),DS,narrative,mean,glm-4.7,10,6.096462,2.458408,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),DS,narrative,mean,gpt-4o-mini,10,5.576553,5.060811,False,False,False,False,False,False,False,False,,,,,,
+S3 2007-2018 PIR (bridge),DS,narrative,mean,pooled,10,5.614889,3.687916,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),DS,narrative,prev10,deepseek-chat-v3,10,7.352379,3.229371,,,,,,,,,False,False,False,True,False,False
+S3 2007-2018 PIR (bridge),DS,narrative,prev10,gemini-3-flash-preview,10,42.987682,10.942849,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),DS,narrative,prev10,glm-4.7,10,37.95916,9.543458,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),DS,narrative,prev10,gpt-4o-mini,10,29.45476,13.796361,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),DS,narrative,prev10,pooled,10,27.898498,7.776675,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),MG,clinical,mean,deepseek-chat-v3,10,5.503644,5.187493,False,False,False,False,False,False,False,False,,,,,,
+S3 2007-2018 PIR (bridge),MG,clinical,mean,gemini-3-flash-preview,10,7.451037,3.882872,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),MG,clinical,mean,glm-4.7,10,5.536897,3.087709,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),MG,clinical,mean,gpt-4o-mini,10,5.564258,4.969397,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),MG,clinical,mean,pooled,10,5.911952,4.266734,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),MG,clinical,prev10,deepseek-chat-v3,10,24.457728,6.466983,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),MG,clinical,prev10,gemini-3-flash-preview,10,68.435646,20.416757,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),MG,clinical,prev10,glm-4.7,10,38.225269,11.400141,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),MG,clinical,prev10,gpt-4o-mini,10,42.52264,17.277601,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),MG,clinical,prev10,pooled,10,42.175525,13.336039,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),MG,combined,mean,deepseek-chat-v3,10,5.221557,4.87975,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),MG,combined,mean,gemini-3-flash-preview,10,6.623183,3.400469,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),MG,combined,mean,glm-4.7,10,5.645632,2.830177,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),MG,combined,mean,gpt-4o-mini,10,5.509667,4.989635,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),MG,combined,mean,pooled,10,5.571285,4.017199,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),MG,combined,prev10,deepseek-chat-v3,10,13.132712,2.457254,,,,,,,,,False,True,False,True,False,False
+S3 2007-2018 PIR (bridge),MG,combined,prev10,gemini-3-flash-preview,10,57.752442,16.634094,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),MG,combined,prev10,glm-4.7,10,38.241262,10.936118,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),MG,combined,prev10,gpt-4o-mini,10,34.239506,15.228091,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),MG,combined,prev10,pooled,10,35.069823,10.959559,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),MG,narrative,mean,deepseek-chat-v3,10,4.959793,4.584229,False,False,False,False,False,False,True,True,,,,,,
+S3 2007-2018 PIR (bridge),MG,narrative,mean,gemini-3-flash-preview,10,5.831708,2.932008,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),MG,narrative,mean,glm-4.7,10,5.802407,2.597556,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),MG,narrative,mean,gpt-4o-mini,10,5.524409,5.033621,False,False,False,False,False,False,False,False,,,,,,
+S3 2007-2018 PIR (bridge),MG,narrative,mean,pooled,10,5.241717,3.773086,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),MG,narrative,prev10,deepseek-chat-v3,10,7.879167,3.263257,,,,,,,,,False,False,False,True,False,False
+S3 2007-2018 PIR (bridge),MG,narrative,prev10,gemini-3-flash-preview,10,48.276254,13.40667,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),MG,narrative,prev10,glm-4.7,10,39.701098,11.105437,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),MG,narrative,prev10,gpt-4o-mini,10,27.642933,13.984561,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),MG,narrative,prev10,pooled,10,28.564834,8.862023,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),PS,clinical,mean,deepseek-chat-v3,10,5.721578,4.887516,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),PS,clinical,mean,gemini-3-flash-preview,10,8.245052,3.120121,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),PS,clinical,mean,glm-4.7,10,6.377006,2.426594,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),PS,clinical,mean,gpt-4o-mini,10,5.910981,4.708009,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),PS,clinical,mean,pooled,10,6.496384,3.745094,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),PS,clinical,prev10,deepseek-chat-v3,10,34.835156,5.108741,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),PS,clinical,prev10,gemini-3-flash-preview,10,78.982336,13.340242,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),PS,clinical,prev10,glm-4.7,10,49.793195,8.357312,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),PS,clinical,prev10,gpt-4o-mini,10,47.365533,13.609768,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),PS,clinical,prev10,pooled,10,50.94863,9.24001,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),PS,combined,mean,deepseek-chat-v3,10,5.258509,4.615615,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),PS,combined,mean,gemini-3-flash-preview,10,7.498495,2.672726,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),PS,combined,mean,glm-4.7,10,6.555514,2.217775,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),PS,combined,mean,gpt-4o-mini,10,5.46469,4.738329,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),PS,combined,mean,pooled,10,6.157488,3.535928,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),PS,combined,prev10,deepseek-chat-v3,10,22.085137,1.605317,,,,,,,,,False,True,False,True,False,True
+S3 2007-2018 PIR (bridge),PS,combined,prev10,gemini-3-flash-preview,10,69.87174,11.111069,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),PS,combined,prev10,glm-4.7,10,50.674732,7.772116,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),PS,combined,prev10,gpt-4o-mini,10,36.141943,11.58904,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),PS,combined,prev10,pooled,10,43.463867,7.437757,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),PS,narrative,mean,deepseek-chat-v3,10,4.959393,4.384523,False,False,False,False,False,False,True,True,,,,,,
+S3 2007-2018 PIR (bridge),PS,narrative,mean,gemini-3-flash-preview,10,6.815224,2.245056,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),PS,narrative,mean,glm-4.7,10,6.827915,2.057688,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),PS,narrative,mean,gpt-4o-mini,10,5.322652,4.837041,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),PS,narrative,mean,pooled,10,5.843694,3.34225,False,False,False,False,False,False,False,True,,,,,,
+S3 2007-2018 PIR (bridge),PS,narrative,prev10,deepseek-chat-v3,10,11.663566,4.496382,,,,,,,,,False,False,False,True,False,False
+S3 2007-2018 PIR (bridge),PS,narrative,prev10,gemini-3-flash-preview,10,62.400334,9.697618,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),PS,narrative,prev10,glm-4.7,10,53.660224,8.135417,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),PS,narrative,prev10,gpt-4o-mini,10,27.438728,10.9184,,,,,,,,,False,False,False,False,False,False
+S3 2007-2018 PIR (bridge),PS,narrative,prev10,pooled,10,36.957207,6.079753,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,DS,clinical,mean,deepseek-chat-v3,10,5.747777,5.201119,False,False,False,False,False,False,False,False,,,,,,
+S4 persona-string income,DS,clinical,mean,gemini-3-flash-preview,10,7.137794,3.821211,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,DS,clinical,mean,glm-4.7,10,5.238643,2.880727,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,DS,clinical,mean,gpt-4o-mini,10,5.6044,5.027085,False,False,False,False,False,False,False,False,,,,,,
+S4 persona-string income,DS,clinical,mean,pooled,10,5.727571,4.218519,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,DS,clinical,prev10,deepseek-chat-v3,10,21.899533,5.966342,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,DS,clinical,prev10,gemini-3-flash-preview,10,65.472759,19.723006,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,DS,clinical,prev10,glm-4.7,10,34.002875,9.925785,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,DS,clinical,prev10,gpt-4o-mini,10,40.970496,17.1757,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,DS,clinical,prev10,pooled,10,39.320784,12.625963,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,DS,combined,mean,deepseek-chat-v3,10,5.626086,4.907287,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,DS,combined,mean,gemini-3-flash-preview,10,6.145146,3.276289,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,DS,combined,mean,glm-4.7,10,5.322832,2.672648,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,DS,combined,mean,gpt-4o-mini,10,5.562902,5.046727,False,False,False,False,False,False,False,False,,,,,,
+S4 persona-string income,DS,combined,mean,pooled,10,5.351554,3.968771,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,DS,combined,prev10,deepseek-chat-v3,10,11.929456,2.357552,,,,,,,,,False,True,False,True,False,False
+S4 persona-string income,DS,combined,prev10,gemini-3-flash-preview,10,51.925489,15.090583,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,DS,combined,prev10,glm-4.7,10,33.565291,9.456831,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,DS,combined,prev10,gpt-4o-mini,10,32.650983,15.097988,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,DS,combined,prev10,pooled,10,31.771494,10.151669,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,DS,narrative,mean,deepseek-chat-v3,10,5.516363,4.624326,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,DS,narrative,mean,gemini-3-flash-preview,10,5.179876,2.74396,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,DS,narrative,mean,glm-4.7,10,5.442986,2.487539,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,DS,narrative,mean,gpt-4o-mini,10,5.573821,5.089043,False,False,False,False,False,False,False,False,,,,,,
+S4 persona-string income,DS,narrative,mean,pooled,10,4.983062,3.72379,False,False,False,False,False,False,True,True,,,,,,
+S4 persona-string income,DS,narrative,prev10,deepseek-chat-v3,10,6.234529,3.330744,,,,,,,,,False,False,False,True,False,False
+S4 persona-string income,DS,narrative,prev10,gemini-3-flash-preview,10,39.680783,11.049852,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,DS,narrative,prev10,glm-4.7,10,34.634755,9.646061,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,DS,narrative,prev10,gpt-4o-mini,10,26.093412,13.878182,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,DS,narrative,prev10,pooled,10,24.77893,7.942282,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,MG,clinical,mean,deepseek-chat-v3,10,5.754434,5.187493,False,False,False,False,False,False,False,False,,,,,,
+S4 persona-string income,MG,clinical,mean,gemini-3-flash-preview,10,6.316412,3.882872,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,MG,clinical,mean,glm-4.7,10,4.397099,3.087709,False,False,False,False,False,False,True,True,,,,,,
+S4 persona-string income,MG,clinical,mean,gpt-4o-mini,10,5.574469,4.969397,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,MG,clinical,mean,pooled,10,4.787983,4.266734,False,False,False,False,False,False,True,True,,,,,,
+S4 persona-string income,MG,clinical,prev10,deepseek-chat-v3,10,18.254883,6.466983,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,MG,clinical,prev10,gemini-3-flash-preview,10,62.305275,20.416757,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,MG,clinical,prev10,glm-4.7,10,32.030381,11.400141,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,MG,clinical,prev10,gpt-4o-mini,10,36.293988,17.277601,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,MG,clinical,prev10,pooled,10,36.217386,13.336039,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,MG,combined,mean,deepseek-chat-v3,10,5.642455,4.87975,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,MG,combined,mean,gemini-3-flash-preview,10,5.495663,3.400469,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,MG,combined,mean,glm-4.7,10,4.515063,2.830177,False,False,False,False,False,False,True,True,,,,,,
+S4 persona-string income,MG,combined,mean,gpt-4o-mini,10,5.540157,4.989635,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,MG,combined,mean,pooled,10,4.450111,4.017199,False,False,False,False,False,False,True,True,,,,,,
+S4 persona-string income,MG,combined,prev10,deepseek-chat-v3,10,7.073511,2.457254,,,,,,,,,False,True,False,True,False,False
+S4 persona-string income,MG,combined,prev10,gemini-3-flash-preview,10,51.741423,16.634094,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,MG,combined,prev10,glm-4.7,10,32.176833,10.936118,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,MG,combined,prev10,gpt-4o-mini,10,28.128088,15.228091,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,MG,combined,prev10,pooled,10,29.219122,10.959559,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,MG,narrative,mean,deepseek-chat-v3,10,5.540274,4.584229,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,MG,narrative,mean,gemini-3-flash-preview,10,4.696829,2.932008,False,False,False,False,False,False,True,True,,,,,,
+S4 persona-string income,MG,narrative,mean,glm-4.7,10,4.663016,2.597556,False,False,False,False,False,False,True,True,,,,,,
+S4 persona-string income,MG,narrative,mean,gpt-4o-mini,10,5.537681,5.033621,False,False,False,False,False,False,False,False,,,,,,
+S4 persona-string income,MG,narrative,mean,pooled,10,4.118399,3.773086,False,False,False,False,False,False,True,True,,,,,,
+S4 persona-string income,MG,narrative,prev10,deepseek-chat-v3,10,9.023926,3.263257,,,,,,,,,False,False,False,True,False,False
+S4 persona-string income,MG,narrative,prev10,gemini-3-flash-preview,10,42.144708,13.40667,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,MG,narrative,prev10,glm-4.7,10,33.531068,11.105437,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,MG,narrative,prev10,gpt-4o-mini,10,21.419191,13.984561,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,MG,narrative,prev10,pooled,10,22.626662,8.862023,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,PS,clinical,mean,deepseek-chat-v3,10,5.725552,5.056946,False,False,False,False,False,False,False,False,,,,,,
+S4 persona-string income,PS,clinical,mean,gemini-3-flash-preview,10,7.357516,2.660689,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,PS,clinical,mean,glm-4.7,10,5.495697,2.086727,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,PS,clinical,mean,gpt-4o-mini,10,5.588756,4.825068,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,PS,clinical,mean,pooled,10,5.568001,3.611774,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,PS,clinical,prev10,deepseek-chat-v3,10,33.518038,3.768856,,,,,,,,,False,False,False,True,False,False
+S4 persona-string income,PS,clinical,prev10,gemini-3-flash-preview,10,75.477357,6.952106,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,PS,clinical,prev10,glm-4.7,10,48.231128,4.71455,,,,,,,,,False,False,False,True,False,False
+S4 persona-string income,PS,clinical,prev10,gpt-4o-mini,10,42.27367,10.78891,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,PS,clinical,prev10,pooled,10,48.188032,5.53481,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,PS,combined,mean,deepseek-chat-v3,10,5.576077,4.796311,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,PS,combined,mean,gemini-3-flash-preview,10,6.606418,2.271339,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,PS,combined,mean,glm-4.7,10,5.750873,1.843573,False,False,False,False,False,True,False,True,,,,,,
+S4 persona-string income,PS,combined,mean,gpt-4o-mini,10,5.516734,4.898396,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,PS,combined,mean,pooled,10,5.232992,3.423855,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,PS,combined,prev10,deepseek-chat-v3,10,19.623937,2.280945,,,,,,,,,False,True,False,True,False,False
+S4 persona-string income,PS,combined,prev10,gemini-3-flash-preview,10,67.254107,5.531066,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,PS,combined,prev10,glm-4.7,10,49.843587,4.092668,,,,,,,,,False,False,False,True,False,False
+S4 persona-string income,PS,combined,prev10,gpt-4o-mini,10,31.388801,9.784939,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,PS,combined,prev10,pooled,10,40.938797,4.398788,,,,,,,,,False,False,False,True,False,False
+S4 persona-string income,PS,narrative,mean,deepseek-chat-v3,10,5.453004,4.580558,False,False,False,False,False,False,False,True,,,,,,
+S4 persona-string income,PS,narrative,mean,gemini-3-flash-preview,10,5.903607,1.903961,False,False,False,False,False,True,False,True,,,,,,
+S4 persona-string income,PS,narrative,mean,glm-4.7,10,6.086973,1.658761,False,False,False,False,False,True,False,True,,,,,,
+S4 persona-string income,PS,narrative,mean,gpt-4o-mini,10,5.542793,5.052444,False,False,False,False,False,False,False,False,,,,,,
+S4 persona-string income,PS,narrative,mean,pooled,10,4.916151,3.25451,False,False,False,False,False,False,True,True,,,,,,
+S4 persona-string income,PS,narrative,prev10,deepseek-chat-v3,10,8.110207,4.835517,,,,,,,,,False,False,False,True,False,False
+S4 persona-string income,PS,narrative,prev10,gemini-3-flash-preview,10,60.425978,5.119943,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,PS,narrative,prev10,glm-4.7,10,53.425038,4.55432,,,,,,,,,False,False,False,True,False,False
+S4 persona-string income,PS,narrative,prev10,gpt-4o-mini,10,23.223209,10.364822,,,,,,,,,False,False,False,False,False,False
+S4 persona-string income,PS,narrative,prev10,pooled,10,34.493573,3.800277,,,,,,,,,False,False,False,True,False,False
+"S5 persona-string, high top-coded",DS,clinical,mean,deepseek-chat-v3,10,5.747777,5.232959,False,False,False,False,False,False,False,False,,,,,,
+"S5 persona-string, high top-coded",DS,clinical,mean,gemini-3-flash-preview,10,7.137794,3.853043,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",DS,clinical,mean,glm-4.7,10,5.238643,2.912414,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",DS,clinical,mean,gpt-4o-mini,10,5.611073,5.058806,False,False,False,False,False,False,False,False,,,,,,
+"S5 persona-string, high top-coded",DS,clinical,mean,pooled,10,5.727571,4.250447,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",DS,clinical,prev10,deepseek-chat-v3,10,21.899533,6.067773,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",DS,clinical,prev10,gemini-3-flash-preview,10,65.472759,19.82486,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",DS,clinical,prev10,glm-4.7,10,34.002875,10.027213,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",DS,clinical,prev10,gpt-4o-mini,10,40.970496,17.276537,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",DS,clinical,prev10,pooled,10,39.320784,12.729922,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",DS,combined,mean,deepseek-chat-v3,10,5.626086,4.939209,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",DS,combined,mean,gemini-3-flash-preview,10,6.145146,3.308198,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",DS,combined,mean,glm-4.7,10,5.322832,2.704484,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",DS,combined,mean,gpt-4o-mini,10,5.570082,5.078565,False,False,False,False,False,False,False,False,,,,,,
+"S5 persona-string, high top-coded",DS,combined,mean,pooled,10,5.351554,4.000735,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",DS,combined,prev10,deepseek-chat-v3,10,11.929456,2.460475,,,,,,,,,False,True,False,True,False,False
+"S5 persona-string, high top-coded",DS,combined,prev10,gemini-3-flash-preview,10,51.925489,15.193754,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",DS,combined,prev10,glm-4.7,10,33.565291,9.559671,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",DS,combined,prev10,gpt-4o-mini,10,32.650983,15.199994,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",DS,combined,prev10,pooled,10,31.771494,10.256833,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",DS,narrative,mean,deepseek-chat-v3,10,5.516363,4.656195,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",DS,narrative,mean,gemini-3-flash-preview,10,5.179876,2.775795,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",DS,narrative,mean,glm-4.7,10,5.442986,2.519287,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",DS,narrative,mean,gpt-4o-mini,10,5.604313,5.120762,False,False,False,False,False,False,False,False,,,,,,
+"S5 persona-string, high top-coded",DS,narrative,mean,pooled,10,4.983062,3.755727,False,False,False,False,False,False,True,True,,,,,,
+"S5 persona-string, high top-coded",DS,narrative,prev10,deepseek-chat-v3,10,6.169451,3.238235,,,,,,,,,False,False,False,True,False,False
+"S5 persona-string, high top-coded",DS,narrative,prev10,gemini-3-flash-preview,10,39.680783,11.151681,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",DS,narrative,prev10,glm-4.7,10,34.634755,9.747708,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",DS,narrative,prev10,gpt-4o-mini,10,26.093412,13.978943,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",DS,narrative,prev10,pooled,10,24.77893,8.046343,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",MG,clinical,mean,deepseek-chat-v3,10,5.754434,5.187493,False,False,False,False,False,False,False,False,,,,,,
+"S5 persona-string, high top-coded",MG,clinical,mean,gemini-3-flash-preview,10,6.316412,3.882872,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",MG,clinical,mean,glm-4.7,10,4.397099,3.087709,False,False,False,False,False,False,True,True,,,,,,
+"S5 persona-string, high top-coded",MG,clinical,mean,gpt-4o-mini,10,5.574469,4.969397,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",MG,clinical,mean,pooled,10,4.787983,4.266734,False,False,False,False,False,False,True,True,,,,,,
+"S5 persona-string, high top-coded",MG,clinical,prev10,deepseek-chat-v3,10,18.254883,6.466983,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",MG,clinical,prev10,gemini-3-flash-preview,10,62.305275,20.416757,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",MG,clinical,prev10,glm-4.7,10,32.030381,11.400141,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",MG,clinical,prev10,gpt-4o-mini,10,36.293988,17.277601,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",MG,clinical,prev10,pooled,10,36.217386,13.336039,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",MG,combined,mean,deepseek-chat-v3,10,5.642455,4.87975,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",MG,combined,mean,gemini-3-flash-preview,10,5.495663,3.400469,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",MG,combined,mean,glm-4.7,10,4.515063,2.830177,False,False,False,False,False,False,True,True,,,,,,
+"S5 persona-string, high top-coded",MG,combined,mean,gpt-4o-mini,10,5.540157,4.989635,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",MG,combined,mean,pooled,10,4.450111,4.017199,False,False,False,False,False,False,True,True,,,,,,
+"S5 persona-string, high top-coded",MG,combined,prev10,deepseek-chat-v3,10,7.073511,2.457254,,,,,,,,,False,True,False,True,False,False
+"S5 persona-string, high top-coded",MG,combined,prev10,gemini-3-flash-preview,10,51.741423,16.634094,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",MG,combined,prev10,glm-4.7,10,32.176833,10.936118,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",MG,combined,prev10,gpt-4o-mini,10,28.128088,15.228091,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",MG,combined,prev10,pooled,10,29.219122,10.959559,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",MG,narrative,mean,deepseek-chat-v3,10,5.540274,4.584229,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",MG,narrative,mean,gemini-3-flash-preview,10,4.696829,2.932008,False,False,False,False,False,False,True,True,,,,,,
+"S5 persona-string, high top-coded",MG,narrative,mean,glm-4.7,10,4.663016,2.597556,False,False,False,False,False,False,True,True,,,,,,
+"S5 persona-string, high top-coded",MG,narrative,mean,gpt-4o-mini,10,5.537681,5.033621,False,False,False,False,False,False,False,False,,,,,,
+"S5 persona-string, high top-coded",MG,narrative,mean,pooled,10,4.118399,3.773086,False,False,False,False,False,False,True,True,,,,,,
+"S5 persona-string, high top-coded",MG,narrative,prev10,deepseek-chat-v3,10,9.023926,3.263257,,,,,,,,,False,False,False,True,False,False
+"S5 persona-string, high top-coded",MG,narrative,prev10,gemini-3-flash-preview,10,42.144708,13.40667,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",MG,narrative,prev10,glm-4.7,10,33.531068,11.105437,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",MG,narrative,prev10,gpt-4o-mini,10,21.419191,13.984561,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",MG,narrative,prev10,pooled,10,22.626662,8.862023,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",PS,clinical,mean,deepseek-chat-v3,10,5.725552,5.123374,False,False,False,False,False,False,False,False,,,,,,
+"S5 persona-string, high top-coded",PS,clinical,mean,gemini-3-flash-preview,10,7.357516,2.742821,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",PS,clinical,mean,glm-4.7,10,5.495697,2.192169,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",PS,clinical,mean,gpt-4o-mini,10,5.588756,4.910782,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",PS,clinical,mean,pooled,10,5.568001,3.697596,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",PS,clinical,prev10,deepseek-chat-v3,10,33.518038,4.105773,,,,,,,,,False,False,False,True,False,False
+"S5 persona-string, high top-coded",PS,clinical,prev10,gemini-3-flash-preview,10,75.477357,7.702034,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",PS,clinical,prev10,glm-4.7,10,48.231128,5.200614,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",PS,clinical,prev10,gpt-4o-mini,10,42.27367,11.575461,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",PS,clinical,prev10,pooled,10,48.188032,6.122201,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",PS,combined,mean,deepseek-chat-v3,10,5.576077,4.871259,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",PS,combined,mean,gemini-3-flash-preview,10,6.606418,2.358953,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",PS,combined,mean,glm-4.7,10,5.750873,1.962054,False,False,False,False,False,True,False,True,,,,,,
+"S5 persona-string, high top-coded",PS,combined,mean,gpt-4o-mini,10,5.516734,4.963045,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",PS,combined,mean,pooled,10,5.232992,3.510816,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",PS,combined,prev10,deepseek-chat-v3,10,19.623937,2.137293,,,,,,,,,False,True,False,True,False,False
+"S5 persona-string, high top-coded",PS,combined,prev10,gemini-3-flash-preview,10,67.254107,6.200605,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",PS,combined,prev10,glm-4.7,10,49.843587,4.595997,,,,,,,,,False,False,False,True,False,False
+"S5 persona-string, high top-coded",PS,combined,prev10,gpt-4o-mini,10,31.388801,10.330147,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",PS,combined,prev10,pooled,10,40.938797,4.873632,,,,,,,,,False,False,False,True,False,False
+"S5 persona-string, high top-coded",PS,narrative,mean,deepseek-chat-v3,10,5.453004,4.660201,False,False,False,False,False,False,False,True,,,,,,
+"S5 persona-string, high top-coded",PS,narrative,mean,gemini-3-flash-preview,10,5.903607,1.996687,False,False,False,False,False,True,False,True,,,,,,
+"S5 persona-string, high top-coded",PS,narrative,mean,glm-4.7,10,6.086973,1.790063,False,False,False,False,False,True,False,True,,,,,,
+"S5 persona-string, high top-coded",PS,narrative,mean,gpt-4o-mini,10,5.542793,5.0937,False,False,False,False,False,False,False,False,,,,,,
+"S5 persona-string, high top-coded",PS,narrative,mean,pooled,10,4.916151,3.3417,False,False,False,False,False,False,True,True,,,,,,
+"S5 persona-string, high top-coded",PS,narrative,prev10,deepseek-chat-v3,10,8.110207,4.841593,,,,,,,,,False,False,False,True,False,False
+"S5 persona-string, high top-coded",PS,narrative,prev10,gemini-3-flash-preview,10,60.425978,5.693656,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",PS,narrative,prev10,glm-4.7,10,53.425038,5.068829,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",PS,narrative,prev10,gpt-4o-mini,10,24.231283,10.689185,,,,,,,,,False,False,False,False,False,False
+"S5 persona-string, high top-coded",PS,narrative,prev10,pooled,10,34.493573,4.158263,,,,,,,,,False,False,False,True,False,False
+S6 2017-2020 pre-pandemic,DS,clinical,mean,deepseek-chat-v3,10,5.784044,5.113179,False,False,False,False,False,False,False,False,,,,,,
+S6 2017-2020 pre-pandemic,DS,clinical,mean,gemini-3-flash-preview,10,7.805779,3.733122,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,DS,clinical,mean,glm-4.7,10,5.907751,2.789669,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,DS,clinical,mean,gpt-4o-mini,10,6.179462,4.936721,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,DS,clinical,mean,pooled,10,6.393607,4.132359,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,DS,clinical,prev10,deepseek-chat-v3,10,25.142071,5.331459,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,DS,clinical,prev10,gemini-3-flash-preview,10,68.704534,19.09107,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,DS,clinical,prev10,glm-4.7,10,37.245909,9.29088,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,DS,clinical,prev10,gpt-4o-mini,10,44.220391,16.536819,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,DS,clinical,prev10,pooled,10,42.514704,12.010075,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,DS,combined,mean,deepseek-chat-v3,10,5.447463,4.820979,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,DS,combined,mean,gemini-3-flash-preview,10,6.81178,3.189739,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,DS,combined,mean,glm-4.7,10,5.989942,2.584628,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,DS,combined,mean,gpt-4o-mini,10,5.868331,4.958759,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,DS,combined,mean,pooled,10,6.017173,3.883327,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,DS,combined,prev10,deepseek-chat-v3,10,15.141845,1.733459,,,,,,,,,False,True,False,True,False,False
+S6 2017-2020 pre-pandemic,DS,combined,prev10,gemini-3-flash-preview,10,55.132949,14.468395,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,DS,combined,prev10,glm-4.7,10,36.780821,8.832105,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,DS,combined,prev10,gpt-4o-mini,10,35.875475,14.467127,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,DS,combined,prev10,pooled,10,34.946066,9.546176,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,DS,narrative,mean,deepseek-chat-v3,10,5.129726,4.536974,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,DS,narrative,mean,gemini-3-flash-preview,10,5.847902,2.65591,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,DS,narrative,mean,glm-4.7,10,6.111699,2.397722,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,DS,narrative,mean,gpt-4o-mini,10,5.593516,4.998649,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,DS,narrative,mean,pooled,10,5.648976,3.637795,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,DS,narrative,prev10,deepseek-chat-v3,10,8.960492,4.020821,,,,,,,,,False,False,False,True,False,False
+S6 2017-2020 pre-pandemic,DS,narrative,prev10,gemini-3-flash-preview,10,42.913835,10.417733,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,DS,narrative,prev10,glm-4.7,10,37.872521,9.012665,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,DS,narrative,prev10,gpt-4o-mini,10,29.341469,13.238802,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,DS,narrative,prev10,pooled,10,27.969221,7.327231,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,MG,clinical,mean,deepseek-chat-v3,10,5.698476,5.130194,False,False,False,False,False,False,False,False,,,,,,
+S6 2017-2020 pre-pandemic,MG,clinical,mean,gemini-3-flash-preview,10,7.410034,3.825452,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,MG,clinical,mean,glm-4.7,10,5.490268,3.025932,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,MG,clinical,mean,gpt-4o-mini,10,5.787011,4.90877,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,MG,clinical,mean,pooled,10,5.88258,4.21225,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,MG,clinical,prev10,deepseek-chat-v3,10,24.686881,6.081842,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,MG,clinical,prev10,gemini-3-flash-preview,10,68.77099,20.052763,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,MG,clinical,prev10,glm-4.7,10,38.466169,11.016327,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,MG,clinical,prev10,gpt-4o-mini,10,42.71356,16.872028,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,MG,clinical,prev10,pooled,10,42.754321,13.051291,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,MG,combined,mean,deepseek-chat-v3,10,5.360612,4.82498,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,MG,combined,mean,gemini-3-flash-preview,10,6.58993,3.345344,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,MG,combined,mean,glm-4.7,10,5.60905,2.772731,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,MG,combined,mean,gpt-4o-mini,10,5.744981,4.932451,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,MG,combined,mean,pooled,10,5.54497,3.963834,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,MG,combined,prev10,deepseek-chat-v3,10,13.570318,2.129802,,,,,,,,,False,True,False,True,False,False
+S6 2017-2020 pre-pandemic,MG,combined,prev10,gemini-3-flash-preview,10,58.257981,16.32271,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,MG,combined,prev10,glm-4.7,10,38.671431,10.607305,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,MG,combined,prev10,gpt-4o-mini,10,34.602293,14.86739,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,MG,combined,prev10,pooled,10,35.793097,10.722671,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,MG,narrative,mean,deepseek-chat-v3,10,5.037937,4.527814,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,MG,narrative,mean,gemini-3-flash-preview,10,5.790429,2.87451,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,MG,narrative,mean,glm-4.7,10,5.75622,2.537278,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,MG,narrative,mean,gpt-4o-mini,10,5.74558,4.972904,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,MG,narrative,mean,pooled,10,5.213057,3.718818,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,MG,narrative,prev10,deepseek-chat-v3,10,9.781351,3.985224,,,,,,,,,False,False,False,True,False,False
+S6 2017-2020 pre-pandemic,MG,narrative,prev10,gemini-3-flash-preview,10,48.609891,13.044172,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,MG,narrative,prev10,glm-4.7,10,39.978563,10.73066,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,MG,narrative,prev10,gpt-4o-mini,10,27.841143,13.575455,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,MG,narrative,prev10,pooled,10,29.170927,8.581763,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,PS,clinical,mean,deepseek-chat-v3,10,5.659183,4.695295,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,PS,clinical,mean,gemini-3-flash-preview,10,8.042893,2.805211,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,PS,clinical,mean,glm-4.7,10,6.133971,2.130499,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,PS,clinical,mean,gpt-4o-mini,10,5.771791,4.501651,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,PS,clinical,mean,pooled,10,6.333532,3.501127,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,PS,clinical,prev10,deepseek-chat-v3,10,33.051985,3.159154,,,,,,,,,False,False,False,True,False,False
+S6 2017-2020 pre-pandemic,PS,clinical,prev10,gemini-3-flash-preview,10,78.352501,10.597092,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,PS,clinical,prev10,glm-4.7,10,47.02915,5.939553,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,PS,clinical,prev10,gpt-4o-mini,10,45.730417,11.453348,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,PS,clinical,prev10,pooled,10,49.584619,7.043208,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,PS,combined,mean,deepseek-chat-v3,10,5.325777,4.435226,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,PS,combined,mean,gemini-3-flash-preview,10,7.31549,2.370809,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,PS,combined,mean,glm-4.7,10,6.315428,1.91099,False,False,False,False,False,True,False,True,,,,,,
+S6 2017-2020 pre-pandemic,PS,combined,mean,gpt-4o-mini,10,5.375636,4.556169,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,PS,combined,mean,pooled,10,6.006095,3.298981,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,PS,combined,prev10,deepseek-chat-v3,10,20.324906,3.183878,,,,,,,,,False,False,False,True,False,False
+S6 2017-2020 pre-pandemic,PS,combined,prev10,gemini-3-flash-preview,10,69.176214,8.570894,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,PS,combined,prev10,glm-4.7,10,48.34497,5.392956,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,PS,combined,prev10,gpt-4o-mini,10,35.587576,9.869893,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,PS,combined,prev10,pooled,10,42.468512,5.481502,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,PS,narrative,mean,deepseek-chat-v3,10,5.022254,4.203539,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,PS,narrative,mean,gemini-3-flash-preview,10,6.627471,1.950346,False,False,False,False,False,True,False,True,,,,,,
+S6 2017-2020 pre-pandemic,PS,narrative,mean,glm-4.7,10,6.559345,1.726164,False,False,False,False,False,True,False,True,,,,,,
+S6 2017-2020 pre-pandemic,PS,narrative,mean,gpt-4o-mini,10,5.500436,4.664922,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,PS,narrative,mean,pooled,10,5.690608,3.106269,False,False,False,False,False,False,False,True,,,,,,
+S6 2017-2020 pre-pandemic,PS,narrative,prev10,deepseek-chat-v3,10,11.22562,6.152367,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,PS,narrative,prev10,gemini-3-flash-preview,10,61.358053,7.248029,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,PS,narrative,prev10,glm-4.7,10,51.445629,5.676767,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,PS,narrative,prev10,gpt-4o-mini,10,27.576976,9.506228,,,,,,,,,False,False,False,False,False,False
+S6 2017-2020 pre-pandemic,PS,narrative,prev10,pooled,10,35.970136,4.249369,,,,,,,,,False,False,False,True,False,False
+S7 2021-2023,DS,clinical,mean,deepseek-chat-v3,10,5.07106,4.107897,False,False,False,False,False,False,False,True,,,,,,
+S7 2021-2023,DS,clinical,mean,gemini-3-flash-preview,10,7.071465,2.727733,False,False,False,False,False,False,False,True,,,,,,
+S7 2021-2023,DS,clinical,mean,glm-4.7,10,5.168217,1.782055,False,False,False,False,False,True,False,True,,,,,,
+S7 2021-2023,DS,clinical,mean,gpt-4o-mini,10,5.44129,3.929647,False,False,False,False,False,False,False,True,,,,,,
+S7 2021-2023,DS,clinical,mean,pooled,10,5.668945,3.128294,False,False,False,False,False,False,False,True,,,,,,
+S7 2021-2023,DS,clinical,prev10,deepseek-chat-v3,10,18.729071,3.172607,,,,,,,,,False,False,False,True,False,False
+S7 2021-2023,DS,clinical,prev10,gemini-3-flash-preview,10,62.44038,13.780873,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,DS,clinical,prev10,glm-4.7,10,30.825763,3.971896,,,,,,,,,False,False,False,True,False,False
+S7 2021-2023,DS,clinical,prev10,gpt-4o-mini,10,37.699038,11.205622,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,DS,clinical,prev10,pooled,10,36.695493,6.741967,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,DS,combined,mean,deepseek-chat-v3,10,4.755515,3.816816,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,DS,combined,mean,gemini-3-flash-preview,10,6.084033,2.185414,False,False,False,False,False,False,False,True,,,,,,
+S7 2021-2023,DS,combined,mean,glm-4.7,10,5.259833,1.579288,False,False,False,False,False,True,False,True,,,,,,
+S7 2021-2023,DS,combined,mean,gpt-4o-mini,10,5.139036,3.953456,False,False,False,False,False,False,False,True,,,,,,
+S7 2021-2023,DS,combined,mean,pooled,10,5.294766,2.879729,False,False,False,False,False,False,False,True,,,,,,
+S7 2021-2023,DS,combined,prev10,deepseek-chat-v3,10,15.031521,6.063395,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,DS,combined,prev10,gemini-3-flash-preview,10,49.166842,9.184875,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,DS,combined,prev10,glm-4.7,10,30.721169,3.54197,,,,,,,,,False,False,False,True,False,False
+S7 2021-2023,DS,combined,prev10,gpt-4o-mini,10,29.705871,9.160039,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,DS,combined,prev10,pooled,10,29.321518,4.300423,,,,,,,,,False,False,False,True,False,False
+S7 2021-2023,DS,narrative,mean,deepseek-chat-v3,10,4.448392,3.532103,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,DS,narrative,mean,gemini-3-flash-preview,10,5.113391,1.650549,False,False,False,False,False,True,False,True,,,,,,
+S7 2021-2023,DS,narrative,mean,glm-4.7,10,5.373985,1.391066,False,False,False,False,False,True,False,True,,,,,,
+S7 2021-2023,DS,narrative,mean,gpt-4o-mini,10,5.002146,3.991553,False,False,False,False,False,False,False,True,,,,,,
+S7 2021-2023,DS,narrative,mean,pooled,10,4.924966,2.633839,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,DS,narrative,prev10,deepseek-chat-v3,10,15.650418,9.521245,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,DS,narrative,prev10,gemini-3-flash-preview,10,36.632608,5.107004,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,DS,narrative,prev10,glm-4.7,10,31.526891,3.698182,,,,,,,,,False,False,False,True,False,False
+S7 2021-2023,DS,narrative,prev10,gpt-4o-mini,10,22.847687,7.906042,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,DS,narrative,prev10,pooled,10,22.187595,2.061062,,,,,,,,,False,True,False,True,False,False
+S7 2021-2023,MG,clinical,mean,deepseek-chat-v3,10,4.795585,4.380641,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,MG,clinical,mean,gemini-3-flash-preview,10,6.456738,3.075782,False,False,False,False,False,False,False,True,,,,,,
+S7 2021-2023,MG,clinical,mean,glm-4.7,10,4.538182,2.271489,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,MG,clinical,mean,gpt-4o-mini,10,4.871906,4.155702,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,MG,clinical,mean,pooled,10,4.927309,3.465201,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,MG,clinical,prev10,deepseek-chat-v3,10,17.907674,2.471398,,,,,,,,,False,True,False,True,False,True
+S7 2021-2023,MG,clinical,prev10,gemini-3-flash-preview,10,61.99923,16.468866,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,MG,clinical,prev10,glm-4.7,10,31.687747,7.407618,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,MG,clinical,prev10,gpt-4o-mini,10,35.931876,13.233653,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,MG,clinical,prev10,pooled,10,36.001703,9.545931,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,MG,combined,mean,deepseek-chat-v3,10,4.496737,4.077693,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,MG,combined,mean,gemini-3-flash-preview,10,5.635236,2.597758,False,False,False,False,False,False,False,True,,,,,,
+S7 2021-2023,MG,combined,mean,glm-4.7,10,4.654918,2.023036,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,MG,combined,mean,gpt-4o-mini,10,4.838581,4.183008,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,MG,combined,mean,pooled,10,4.589303,3.217674,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,MG,combined,prev10,deepseek-chat-v3,10,14.668883,4.335005,,,,,,,,,False,False,False,True,False,False
+S7 2021-2023,MG,combined,prev10,gemini-3-flash-preview,10,51.499416,12.794464,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,MG,combined,prev10,glm-4.7,10,31.906879,7.062221,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,MG,combined,prev10,gpt-4o-mini,10,27.832572,11.287408,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,MG,combined,prev10,pooled,10,29.052263,7.250731,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,MG,narrative,mean,deepseek-chat-v3,10,4.229674,3.779089,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,MG,narrative,mean,gemini-3-flash-preview,10,4.837188,2.124764,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,MG,narrative,mean,glm-4.7,10,4.804033,1.784609,False,False,False,False,False,True,True,True,,,,,,
+S7 2021-2023,MG,narrative,mean,gpt-4o-mini,10,4.829205,4.219731,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,MG,narrative,mean,pooled,10,4.257689,2.971945,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,MG,narrative,prev10,deepseek-chat-v3,10,15.244848,8.137345,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,MG,narrative,prev10,gemini-3-flash-preview,10,41.838005,9.462062,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,MG,narrative,prev10,glm-4.7,10,33.202648,7.13353,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,MG,narrative,prev10,gpt-4o-mini,10,21.059922,9.932029,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,MG,narrative,prev10,pooled,10,22.42054,5.07994,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,PS,clinical,mean,deepseek-chat-v3,10,4.903785,3.921936,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,PS,clinical,mean,gemini-3-flash-preview,10,7.209539,2.004445,False,False,False,False,False,False,False,True,,,,,,
+S7 2021-2023,PS,clinical,mean,glm-4.7,10,5.33372,1.351216,False,False,False,False,False,True,False,True,,,,,,
+S7 2021-2023,PS,clinical,mean,gpt-4o-mini,10,4.917322,3.726493,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,PS,clinical,mean,pooled,10,5.488663,2.724971,False,False,False,False,False,False,False,True,,,,,,
+S7 2021-2023,PS,clinical,prev10,deepseek-chat-v3,10,28.795526,4.998834,,,,,,,,,False,False,False,True,False,False
+S7 2021-2023,PS,clinical,prev10,gemini-3-flash-preview,10,73.107595,6.795248,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,PS,clinical,prev10,glm-4.7,10,43.802331,2.327955,,,,,,,,,False,True,False,True,False,True
+S7 2021-2023,PS,clinical,prev10,gpt-4o-mini,10,41.365334,7.525849,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,PS,clinical,prev10,pooled,10,45.363765,3.155695,,,,,,,,,False,False,False,True,False,False
+S7 2021-2023,PS,combined,mean,deepseek-chat-v3,10,4.561734,3.671505,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,PS,combined,mean,gemini-3-flash-preview,10,6.479212,1.581321,False,False,False,False,False,True,False,True,,,,,,
+S7 2021-2023,PS,combined,mean,glm-4.7,10,5.523772,1.144817,False,False,False,False,False,True,False,True,,,,,,
+S7 2021-2023,PS,combined,mean,gpt-4o-mini,10,4.621151,3.772771,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,PS,combined,mean,pooled,10,5.155118,2.522644,False,False,False,False,False,False,False,True,,,,,,
+S7 2021-2023,PS,combined,prev10,deepseek-chat-v3,10,15.968903,7.026419,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,PS,combined,prev10,gemini-3-flash-preview,10,64.521105,4.77571,,,,,,,,,False,False,False,True,False,False
+S7 2021-2023,PS,combined,prev10,glm-4.7,10,45.011292,2.035022,,,,,,,,,False,True,False,True,False,True
+S7 2021-2023,PS,combined,prev10,gpt-4o-mini,10,30.37582,5.877722,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,PS,combined,prev10,pooled,10,38.081952,1.534404,,,,,,,,,False,True,False,True,False,True
+S7 2021-2023,PS,narrative,mean,deepseek-chat-v3,10,4.230774,3.43847,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,PS,narrative,mean,gemini-3-flash-preview,10,5.801738,1.16657,False,False,False,False,False,True,False,True,,,,,,
+S7 2021-2023,PS,narrative,mean,glm-4.7,10,5.793768,0.963123,False,False,False,True,False,True,False,True,,,,,,
+S7 2021-2023,PS,narrative,mean,gpt-4o-mini,10,4.753704,3.857222,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,PS,narrative,mean,pooled,10,4.838608,2.325883,False,False,False,False,False,False,True,True,,,,,,
+S7 2021-2023,PS,narrative,prev10,deepseek-chat-v3,10,16.75968,10.046658,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,PS,narrative,prev10,gemini-3-flash-preview,10,57.109225,3.315971,,,,,,,,,False,False,False,True,False,False
+S7 2021-2023,PS,narrative,prev10,glm-4.7,10,47.84368,2.515134,,,,,,,,,False,False,False,True,False,False
+S7 2021-2023,PS,narrative,prev10,gpt-4o-mini,10,21.522024,5.428999,,,,,,,,,False,False,False,False,False,False
+S7 2021-2023,PS,narrative,prev10,pooled,10,31.355388,2.579642,,,,,,,,,False,False,False,True,False,False

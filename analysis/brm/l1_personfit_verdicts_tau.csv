@@ -1,0 +1,301 @@
+reference,sample,model,framing,tau,misfit,overfit,overall
+2005_2018 weighted GRM,full,DeepSeek-V3,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,DeepSeek-V3,clinical,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,DeepSeek-V3,clinical,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,DeepSeek-V3,clinical,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,DeepSeek-V3,clinical,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,DeepSeek-V3,narrative,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,DeepSeek-V3,narrative,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,DeepSeek-V3,narrative,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,DeepSeek-V3,narrative,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,DeepSeek-V3,narrative,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,DeepSeek-V3,both,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,DeepSeek-V3,both,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,DeepSeek-V3,both,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,DeepSeek-V3,both,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,DeepSeek-V3,both,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,Gemini-3-Flash,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,Gemini-3-Flash,clinical,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,Gemini-3-Flash,clinical,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,Gemini-3-Flash,clinical,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,Gemini-3-Flash,clinical,3.0,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,Gemini-3-Flash,narrative,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,Gemini-3-Flash,narrative,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,Gemini-3-Flash,narrative,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,Gemini-3-Flash,narrative,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,Gemini-3-Flash,narrative,3.0,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,Gemini-3-Flash,both,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,Gemini-3-Flash,both,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,Gemini-3-Flash,both,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,Gemini-3-Flash,both,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,Gemini-3-Flash,both,3.0,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,GPT-4o-mini,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,GPT-4o-mini,clinical,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,GPT-4o-mini,clinical,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,GPT-4o-mini,clinical,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,GPT-4o-mini,clinical,3.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2005_2018 weighted GRM,full,GPT-4o-mini,narrative,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,GPT-4o-mini,narrative,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,GPT-4o-mini,narrative,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,GPT-4o-mini,narrative,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,GPT-4o-mini,narrative,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,GPT-4o-mini,both,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,GPT-4o-mini,both,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,GPT-4o-mini,both,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,GPT-4o-mini,both,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,GPT-4o-mini,both,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,GLM-4.7,clinical,1.1,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,GLM-4.7,clinical,1.25,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,GLM-4.7,clinical,1.5,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,GLM-4.7,clinical,2.0,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,GLM-4.7,clinical,3.0,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,GLM-4.7,narrative,1.1,misfit deficit,undetermined,fail: misfit deficit
+2005_2018 weighted GRM,full,GLM-4.7,narrative,1.25,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,GLM-4.7,narrative,1.5,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,GLM-4.7,narrative,2.0,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,GLM-4.7,narrative,3.0,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,GLM-4.7,both,1.1,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,GLM-4.7,both,1.25,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,GLM-4.7,both,1.5,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,GLM-4.7,both,2.0,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,GLM-4.7,both,3.0,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,pooled,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,pooled,clinical,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,pooled,clinical,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,pooled,clinical,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,pooled,clinical,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,pooled,narrative,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,pooled,narrative,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,pooled,narrative,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,pooled,narrative,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,pooled,narrative,3.0,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,full,pooled,both,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,pooled,both,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,pooled,both,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,pooled,both,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,full,pooled,both,3.0,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,DeepSeek-V3,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,DeepSeek-V3,clinical,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,DeepSeek-V3,clinical,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,DeepSeek-V3,clinical,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,DeepSeek-V3,clinical,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,DeepSeek-V3,narrative,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,DeepSeek-V3,narrative,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,DeepSeek-V3,narrative,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,DeepSeek-V3,narrative,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,DeepSeek-V3,narrative,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,DeepSeek-V3,both,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,DeepSeek-V3,both,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,DeepSeek-V3,both,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,DeepSeek-V3,both,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,DeepSeek-V3,both,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,Gemini-3-Flash,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,Gemini-3-Flash,clinical,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,Gemini-3-Flash,clinical,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,Gemini-3-Flash,clinical,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,Gemini-3-Flash,clinical,3.0,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,Gemini-3-Flash,narrative,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,Gemini-3-Flash,narrative,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,Gemini-3-Flash,narrative,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,Gemini-3-Flash,narrative,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,Gemini-3-Flash,narrative,3.0,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,Gemini-3-Flash,both,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,Gemini-3-Flash,both,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,Gemini-3-Flash,both,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,Gemini-3-Flash,both,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,Gemini-3-Flash,both,3.0,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,GPT-4o-mini,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,GPT-4o-mini,clinical,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,GPT-4o-mini,clinical,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,GPT-4o-mini,clinical,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,GPT-4o-mini,clinical,3.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2005_2018 weighted GRM,dec_only,GPT-4o-mini,narrative,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,GPT-4o-mini,narrative,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,GPT-4o-mini,narrative,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,GPT-4o-mini,narrative,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,GPT-4o-mini,narrative,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,GPT-4o-mini,both,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,GPT-4o-mini,both,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,GPT-4o-mini,both,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,GPT-4o-mini,both,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,GPT-4o-mini,both,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,GLM-4.7,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,GLM-4.7,clinical,1.25,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,GLM-4.7,clinical,1.5,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,GLM-4.7,clinical,2.0,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,GLM-4.7,clinical,3.0,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,GLM-4.7,narrative,1.1,misfit deficit,undetermined,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,GLM-4.7,narrative,1.25,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,GLM-4.7,narrative,1.5,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,GLM-4.7,narrative,2.0,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,GLM-4.7,narrative,3.0,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,GLM-4.7,both,1.1,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,GLM-4.7,both,1.25,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,GLM-4.7,both,1.5,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,GLM-4.7,both,2.0,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,GLM-4.7,both,3.0,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,pooled,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,pooled,clinical,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,pooled,clinical,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,pooled,clinical,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,pooled,clinical,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,pooled,narrative,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,pooled,narrative,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,pooled,narrative,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,pooled,narrative,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,pooled,narrative,3.0,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 weighted GRM,dec_only,pooled,both,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,pooled,both,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,pooled,both,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,pooled,both,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 weighted GRM,dec_only,pooled,both,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,DeepSeek-V3,clinical,1.1,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,DeepSeek-V3,clinical,1.25,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,DeepSeek-V3,clinical,1.5,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,DeepSeek-V3,clinical,2.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,DeepSeek-V3,clinical,3.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,DeepSeek-V3,narrative,1.1,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,DeepSeek-V3,narrative,1.25,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,DeepSeek-V3,narrative,1.5,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,DeepSeek-V3,narrative,2.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,DeepSeek-V3,narrative,3.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,DeepSeek-V3,both,1.1,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,DeepSeek-V3,both,1.25,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,DeepSeek-V3,both,1.5,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,DeepSeek-V3,both,2.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,DeepSeek-V3,both,3.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,Gemini-3-Flash,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,Gemini-3-Flash,clinical,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,Gemini-3-Flash,clinical,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,Gemini-3-Flash,clinical,2.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,Gemini-3-Flash,clinical,3.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,Gemini-3-Flash,narrative,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,Gemini-3-Flash,narrative,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,Gemini-3-Flash,narrative,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,Gemini-3-Flash,narrative,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,Gemini-3-Flash,narrative,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,Gemini-3-Flash,both,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,Gemini-3-Flash,both,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,Gemini-3-Flash,both,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,Gemini-3-Flash,both,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,Gemini-3-Flash,both,3.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GPT-4o-mini,clinical,1.1,undetermined,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GPT-4o-mini,clinical,1.25,undetermined,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GPT-4o-mini,clinical,1.5,equivalent or excess misfit,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GPT-4o-mini,clinical,2.0,equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GPT-4o-mini,clinical,3.0,equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GPT-4o-mini,narrative,1.1,undetermined,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GPT-4o-mini,narrative,1.25,undetermined,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GPT-4o-mini,narrative,1.5,undetermined,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GPT-4o-mini,narrative,2.0,equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GPT-4o-mini,narrative,3.0,equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GPT-4o-mini,both,1.1,undetermined,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GPT-4o-mini,both,1.25,undetermined,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GPT-4o-mini,both,1.5,undetermined,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GPT-4o-mini,both,2.0,equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GPT-4o-mini,both,3.0,equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,GLM-4.7,clinical,1.1,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2021_2023 weighted GRM,full,GLM-4.7,clinical,1.25,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2021_2023 weighted GRM,full,GLM-4.7,clinical,1.5,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2021_2023 weighted GRM,full,GLM-4.7,clinical,2.0,misfit deficit,equivalent,fail: misfit deficit
+2021_2023 weighted GRM,full,GLM-4.7,clinical,3.0,misfit deficit,equivalent,fail: misfit deficit
+2021_2023 weighted GRM,full,GLM-4.7,narrative,1.1,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2021_2023 weighted GRM,full,GLM-4.7,narrative,1.25,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2021_2023 weighted GRM,full,GLM-4.7,narrative,1.5,misfit deficit,equivalent,fail: misfit deficit
+2021_2023 weighted GRM,full,GLM-4.7,narrative,2.0,misfit deficit,equivalent,fail: misfit deficit
+2021_2023 weighted GRM,full,GLM-4.7,narrative,3.0,misfit deficit,equivalent,fail: misfit deficit
+2021_2023 weighted GRM,full,GLM-4.7,both,1.1,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2021_2023 weighted GRM,full,GLM-4.7,both,1.25,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2021_2023 weighted GRM,full,GLM-4.7,both,1.5,misfit deficit,equivalent,fail: misfit deficit
+2021_2023 weighted GRM,full,GLM-4.7,both,2.0,misfit deficit,equivalent,fail: misfit deficit
+2021_2023 weighted GRM,full,GLM-4.7,both,3.0,misfit deficit,equivalent,fail: misfit deficit
+2021_2023 weighted GRM,full,pooled,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,pooled,clinical,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,pooled,clinical,1.5,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,pooled,clinical,2.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,pooled,clinical,3.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,pooled,narrative,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,pooled,narrative,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,pooled,narrative,1.5,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,pooled,narrative,2.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,pooled,narrative,3.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,pooled,both,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,pooled,both,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2021_2023 weighted GRM,full,pooled,both,1.5,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,pooled,both,2.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2021_2023 weighted GRM,full,pooled,both,3.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2005_2018 unweighted GRM,full,DeepSeek-V3,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,DeepSeek-V3,clinical,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,DeepSeek-V3,clinical,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,DeepSeek-V3,clinical,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,DeepSeek-V3,clinical,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,DeepSeek-V3,narrative,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,DeepSeek-V3,narrative,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,DeepSeek-V3,narrative,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,DeepSeek-V3,narrative,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,DeepSeek-V3,narrative,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,DeepSeek-V3,both,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,DeepSeek-V3,both,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,DeepSeek-V3,both,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,DeepSeek-V3,both,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,DeepSeek-V3,both,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,Gemini-3-Flash,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,Gemini-3-Flash,clinical,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,Gemini-3-Flash,clinical,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,Gemini-3-Flash,clinical,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,Gemini-3-Flash,clinical,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,Gemini-3-Flash,narrative,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,Gemini-3-Flash,narrative,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,Gemini-3-Flash,narrative,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,Gemini-3-Flash,narrative,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,Gemini-3-Flash,narrative,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,Gemini-3-Flash,both,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,Gemini-3-Flash,both,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,Gemini-3-Flash,both,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,Gemini-3-Flash,both,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,Gemini-3-Flash,both,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GPT-4o-mini,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GPT-4o-mini,clinical,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GPT-4o-mini,clinical,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GPT-4o-mini,clinical,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GPT-4o-mini,clinical,3.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2005_2018 unweighted GRM,full,GPT-4o-mini,narrative,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GPT-4o-mini,narrative,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GPT-4o-mini,narrative,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GPT-4o-mini,narrative,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GPT-4o-mini,narrative,3.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2005_2018 unweighted GRM,full,GPT-4o-mini,both,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GPT-4o-mini,both,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GPT-4o-mini,both,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GPT-4o-mini,both,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GPT-4o-mini,both,3.0,misfit deficit or equivalent,overfit deficit,fail: overfit deficit
+2005_2018 unweighted GRM,full,GLM-4.7,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GLM-4.7,clinical,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GLM-4.7,clinical,1.5,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 unweighted GRM,full,GLM-4.7,clinical,2.0,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 unweighted GRM,full,GLM-4.7,clinical,3.0,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 unweighted GRM,full,GLM-4.7,narrative,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GLM-4.7,narrative,1.25,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 unweighted GRM,full,GLM-4.7,narrative,1.5,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 unweighted GRM,full,GLM-4.7,narrative,2.0,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 unweighted GRM,full,GLM-4.7,narrative,3.0,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 unweighted GRM,full,GLM-4.7,both,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GLM-4.7,both,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,GLM-4.7,both,1.5,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 unweighted GRM,full,GLM-4.7,both,2.0,misfit deficit,overfit deficit or equivalent,fail: misfit deficit
+2005_2018 unweighted GRM,full,GLM-4.7,both,3.0,misfit deficit,equivalent,fail: misfit deficit
+2005_2018 unweighted GRM,full,pooled,clinical,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,pooled,clinical,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,pooled,clinical,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,pooled,clinical,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,pooled,clinical,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,pooled,narrative,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,pooled,narrative,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,pooled,narrative,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,pooled,narrative,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,pooled,narrative,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,pooled,both,1.1,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,pooled,both,1.25,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,pooled,both,1.5,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,pooled,both,2.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)
+2005_2018 unweighted GRM,full,pooled,both,3.0,misfit deficit,overfit deficit,fail: compressed (both tails in deficit)

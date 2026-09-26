@@ -1,0 +1,36 @@
+row,g,p,ratio,ratio_ci90_lo,ratio_ci90_hi,published_verdict,R1_half_bound,R2_reorder,R3_interval,R3_m0.20_0.20,R3_m0.33_0.33
+Black minus White | pooled,-0.131,0.33,-0.396,-0.944,-0.031,missing,reversed,missing,reversed or missing,reversed or missing,reversed or missing
+Black minus White | deepseek/deepseek-chat-v3,0.214,0.33,0.648,0.104,1.518,undetermined,undetermined,undetermined,undetermined,undetermined,undetermined
+Black minus White | google/gemini-3-flash-preview,-0.394,0.33,-1.196,-2.616,-0.373,reversed,reversed,reversed,reversed,reversed,reversed
+Black minus White | openai/gpt-4o-mini,0.217,0.33,0.657,0.107,1.535,undetermined,undetermined,undetermined,undetermined,undetermined,undetermined
+Black minus White | z-ai/glm-4.7,-0.558,0.33,-1.692,-3.358,-0.873,reversed,reversed,reversed,reversed,reversed,reversed
+Hispanic minus White | pooled,-0.034,0.242,-0.14,-0.693,0.295,missing,reversed,missing,undetermined,undetermined,reversed or missing
+Hispanic minus White | deepseek/deepseek-chat-v3,0.174,0.242,0.716,0.081,2.009,undetermined,undetermined,undetermined,undetermined,undetermined,undetermined
+Hispanic minus White | google/gemini-3-flash-preview,-0.007,0.242,-0.028,-0.819,0.736,undetermined,undetermined,undetermined,undetermined,undetermined,undetermined
+Hispanic minus White | openai/gpt-4o-mini,0.14,0.242,0.579,-0.08,1.769,undetermined,undetermined,undetermined,undetermined,undetermined,undetermined
+Hispanic minus White | z-ai/glm-4.7,-0.443,0.242,-1.827,-4.629,-0.705,reversed,reversed,reversed,reversed,reversed,reversed
+Asian minus White | pooled,-1.074,-0.755,1.422,1.042,1.896,kept,undetermined,kept,kept or steepened,kept or steepened,kept or steepened
+Asian minus White | deepseek/deepseek-chat-v3,-0.708,-0.755,0.938,0.668,1.275,kept,kept,kept,undetermined,undetermined,kept
+Asian minus White | google/gemini-3-flash-preview,-1.447,-0.755,1.917,0.867,3.101,undetermined,undetermined,undetermined,kept or steepened,kept or steepened,kept or steepened
+Asian minus White | openai/gpt-4o-mini,-0.403,-0.755,0.533,0.273,0.832,missing,flattened,flattened,flattened or kept,flattened or kept,undetermined
+Asian minus White | z-ai/glm-4.7,-1.736,-0.755,2.299,1.552,3.208,steepened,steepened,steepened,steepened,steepened,steepened
+Women minus Men | pooled,0.841,0.938,0.897,0.761,1.056,kept,kept,kept,kept,flattened or kept,kept
+Women minus Men | deepseek/deepseek-chat-v3,0.319,0.938,0.341,0.247,0.443,missing,missing,flattened,missing or flattened,flattened,missing or flattened
+Women minus Men | google/gemini-3-flash-preview,0.989,0.938,1.054,0.863,1.275,kept,kept,kept,kept or steepened,kept or steepened,kept
+Women minus Men | openai/gpt-4o-mini,0.244,0.938,0.261,0.151,0.378,missing,missing,flattened,missing or flattened,missing or flattened,missing or flattened
+Women minus Men | z-ai/glm-4.7,1.811,0.938,1.931,1.648,2.267,steepened,steepened,steepened,steepened,steepened,steepened
+Low minus High SES | pooled,4.747,2.02,2.35,2.126,2.598,steepened,steepened,steepened,steepened,steepened,steepened
+Low minus High SES | deepseek/deepseek-chat-v3,2.448,2.02,1.212,1.103,1.333,steepened,steepened,steepened,kept or steepened,kept or steepened,kept or steepened
+Low minus High SES | google/gemini-3-flash-preview,7.064,2.02,3.497,3.134,3.898,steepened,steepened,steepened,steepened,steepened,steepened
+Low minus High SES | openai/gpt-4o-mini,2.796,2.02,1.384,1.238,1.545,steepened,steepened,steepened,kept or steepened,steepened,kept or steepened
+Low minus High SES | z-ai/glm-4.7,6.679,2.02,3.307,3.01,3.639,steepened,steepened,steepened,steepened,steepened,steepened
+Middle minus High SES | pooled,1.29,0.891,1.448,1.26,1.681,steepened,steepened,steepened,steepened,steepened,kept or steepened
+Middle minus High SES | deepseek/deepseek-chat-v3,1.488,0.891,1.67,1.426,1.969,steepened,steepened,steepened,steepened,steepened,steepened
+Middle minus High SES | google/gemini-3-flash-preview,0.943,0.891,1.059,0.838,1.314,kept,kept,kept,kept or steepened,kept or steepened,kept
+Middle minus High SES | openai/gpt-4o-mini,1.332,0.891,1.496,1.243,1.797,steepened,steepened,steepened,kept or steepened,steepened,kept or steepened
+Middle minus High SES | z-ai/glm-4.7,1.397,0.891,1.568,1.264,1.922,steepened,steepened,steepened,steepened,steepened,kept or steepened
+Low minus Middle SES | pooled,3.456,1.129,3.062,2.595,3.652,steepened,steepened,steepened,steepened,steepened,steepened
+Low minus Middle SES | deepseek/deepseek-chat-v3,0.959,1.129,0.85,0.684,1.051,kept,kept,kept,flattened or kept,flattened or kept,kept
+Low minus Middle SES | google/gemini-3-flash-preview,6.121,1.129,5.423,4.618,6.451,steepened,steepened,steepened,steepened,steepened,steepened
+Low minus Middle SES | openai/gpt-4o-mini,1.463,1.129,1.296,1.102,1.544,steepened,steepened,steepened,kept or steepened,kept or steepened,kept or steepened
+Low minus Middle SES | z-ai/glm-4.7,5.282,1.129,4.68,4.055,5.498,steepened,steepened,steepened,steepened,steepened,steepened

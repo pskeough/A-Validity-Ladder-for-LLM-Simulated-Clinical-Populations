@@ -1,4 +1,0 @@
-model,r2,adj_r2,resid_sd,df_resid,F,p
-main effects only,0.9516,0.9468,0.7329,436,,
-plus all two-way,0.9647,0.9578,0.6529,401,,
-nested F test,,,,35,4.237,0.0

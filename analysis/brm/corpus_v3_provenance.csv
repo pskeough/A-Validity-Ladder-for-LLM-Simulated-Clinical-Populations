@@ -1,0 +1,14 @@
+prompt_condition,model,row_source,rows
+clinical,deepseek/deepseek-chat-v3,dec28_main,3287
+clinical,deepseek/deepseek-chat-v3,recovery_inplace,313
+clinical,google/gemini-3-flash-preview,dec28_main,3600
+clinical,openai/gpt-4o-mini,dec28_main,3557
+clinical,openai/gpt-4o-mini,dec28_restored,43
+clinical,z-ai/glm-4.7,dec28_main,2381
+clinical,z-ai/glm-4.7,recovery_inplace,1032
+clinical,z-ai/glm-4.7,recovery_last_mile,62
+clinical,z-ai/glm-4.7,recovery_slow,125
+narrative,deepseek/deepseek-chat-v3,narrative,3600
+narrative,google/gemini-3-flash-preview,narrative,3600
+narrative,openai/gpt-4o-mini,narrative,3600
+narrative,z-ai/glm-4.7,narrative,3600

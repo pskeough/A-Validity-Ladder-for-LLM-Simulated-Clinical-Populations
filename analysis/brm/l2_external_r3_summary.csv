@@ -1,0 +1,227 @@
+config,source,verdict,n,rows,contrast,median_ratio,no_population_gap,stop_conditional,stop_population,run
+argyle_within_outcome,Argyle,attenuated,6.0,183.0,,,,,,
+argyle_within_outcome,Argyle,attenuated or kept,15.0,183.0,,,,,,
+argyle_within_outcome,Argyle,kept,6.0,183.0,,,,,,
+argyle_within_outcome,Argyle,kept or steepened,15.0,183.0,,,,,,
+argyle_within_outcome,Argyle,missing,8.0,183.0,,,,,,
+argyle_within_outcome,Argyle,missing or attenuated,21.0,183.0,,,,,,
+argyle_within_outcome,Argyle,no population gap,45.0,183.0,,,,,,
+argyle_within_outcome,Argyle,reference too imprecise,29.0,183.0,,,,,,
+argyle_within_outcome,Argyle,reversed or missing,6.0,183.0,,,,,,
+argyle_within_outcome,Argyle,steepened,4.0,183.0,,,,,,
+argyle_within_outcome,Argyle,undetermined,28.0,183.0,,,,,,
+band_symmetric,Argyle,attenuated,6.0,183.0,,,,,,
+band_symmetric,Argyle,attenuated or kept,11.0,183.0,,,,,,
+band_symmetric,Argyle,kept,5.0,183.0,,,,,,
+band_symmetric,Argyle,kept or steepened,5.0,183.0,,,,,,
+band_symmetric,Argyle,missing,8.0,183.0,,,,,,
+band_symmetric,Argyle,missing or attenuated,17.0,183.0,,,,,,
+band_symmetric,Argyle,no population gap,70.0,183.0,,,,,,
+band_symmetric,Argyle,reference too imprecise,35.0,183.0,,,,,,
+band_symmetric,Argyle,reversed or missing,2.0,183.0,,,,,,
+band_symmetric,Argyle,steepened,1.0,183.0,,,,,,
+band_symmetric,Argyle,undetermined,23.0,183.0,,,,,,
+band_symmetric,OpinionQA,attenuated,1.0,154.0,,,,,,
+band_symmetric,OpinionQA,attenuated or kept,29.0,154.0,,,,,,
+band_symmetric,OpinionQA,kept or steepened,10.0,154.0,,,,,,
+band_symmetric,OpinionQA,missing or attenuated,26.0,154.0,,,,,,
+band_symmetric,OpinionQA,reference too imprecise,1.0,154.0,,,,,,
+band_symmetric,OpinionQA,reversed or missing,5.0,154.0,,,,,,
+band_symmetric,OpinionQA,steepened,1.0,154.0,,,,,,
+band_symmetric,OpinionQA,undetermined,81.0,154.0,,,,,,
+headline,Argyle,attenuated,4.0,183.0,,,,,,
+headline,Argyle,attenuated or kept,13.0,183.0,,,,,,
+headline,Argyle,kept,5.0,183.0,,,,,,
+headline,Argyle,kept or steepened,7.0,183.0,,,,,,
+headline,Argyle,missing,8.0,183.0,,,,,,
+headline,Argyle,missing or attenuated,15.0,183.0,,,,,,
+headline,Argyle,no population gap,70.0,183.0,,,,,,
+headline,Argyle,reference too imprecise,32.0,183.0,,,,,,
+headline,Argyle,reversed or missing,2.0,183.0,,,,,,
+headline,Argyle,steepened,1.0,183.0,,,,,,
+headline,Argyle,undetermined,26.0,183.0,,,,,,
+headline,OpinionQA,attenuated or kept,29.0,154.0,,,,,,
+headline,OpinionQA,kept,1.0,154.0,,,,,,
+headline,OpinionQA,kept or steepened,12.0,154.0,,,,,,
+headline,OpinionQA,missing or attenuated,17.0,154.0,,,,,,
+headline,OpinionQA,reversed or missing,5.0,154.0,,,,,,
+headline,OpinionQA,steepened,1.0,154.0,,,,,,
+headline,OpinionQA,undetermined,89.0,154.0,,,,,,
+unadjusted_90,Argyle,attenuated,14.0,183.0,,,,,,
+unadjusted_90,Argyle,attenuated or kept,20.0,183.0,,,,,,
+unadjusted_90,Argyle,kept,7.0,183.0,,,,,,
+unadjusted_90,Argyle,kept or steepened,16.0,183.0,,,,,,
+unadjusted_90,Argyle,missing,10.0,183.0,,,,,,
+unadjusted_90,Argyle,missing or attenuated,29.0,183.0,,,,,,
+unadjusted_90,Argyle,no population gap,30.0,183.0,,,,,,
+unadjusted_90,Argyle,reference too imprecise,17.0,183.0,,,,,,
+unadjusted_90,Argyle,reversed or missing,8.0,183.0,,,,,,
+unadjusted_90,Argyle,steepened,7.0,183.0,,,,,,
+unadjusted_90,Argyle,undetermined,25.0,183.0,,,,,,
+unadjusted_90,OpinionQA,attenuated,9.0,154.0,,,,,,
+unadjusted_90,OpinionQA,attenuated or kept,42.0,154.0,,,,,,
+unadjusted_90,OpinionQA,kept,3.0,154.0,,,,,,
+unadjusted_90,OpinionQA,kept or steepened,11.0,154.0,,,,,,
+unadjusted_90,OpinionQA,missing or attenuated,30.0,154.0,,,,,,
+unadjusted_90,OpinionQA,reversed,1.0,154.0,,,,,,
+unadjusted_90,OpinionQA,reversed or missing,5.0,154.0,,,,,,
+unadjusted_90,OpinionQA,steepened,3.0,154.0,,,,,,
+unadjusted_90,OpinionQA,undetermined,50.0,154.0,,,,,,
+headline by contrast,Argyle,attenuated or kept,1.0,,18-29 - 65+,0.4812400915976754,,,,
+headline by contrast,Argyle,missing,1.0,,18-29 - 65+,0.4812400915976754,,,,
+headline by contrast,Argyle,missing or attenuated,2.0,,18-29 - 65+,0.4812400915976754,,,,
+headline by contrast,Argyle,no population gap,9.0,,18-29 - 65+,0.4812400915976754,,,,
+headline by contrast,Argyle,reference too imprecise,5.0,,18-29 - 65+,0.4812400915976754,,,,
+headline by contrast,Argyle,undetermined,9.0,,18-29 - 65+,0.4812400915976754,,,,
+headline by contrast,Argyle,missing or attenuated,1.0,,Asian - White,0.8232872684300314,,,,
+headline by contrast,Argyle,no population gap,15.0,,Asian - White,0.8232872684300314,,,,
+headline by contrast,Argyle,reference too imprecise,8.0,,Asian - White,0.8232872684300314,,,,
+headline by contrast,Argyle,attenuated,2.0,,Black - White,0.31136106077171555,,,,
+headline by contrast,Argyle,attenuated or kept,3.0,,Black - White,0.31136106077171555,,,,
+headline by contrast,Argyle,kept,1.0,,Black - White,0.31136106077171555,,,,
+headline by contrast,Argyle,kept or steepened,2.0,,Black - White,0.31136106077171555,,,,
+headline by contrast,Argyle,missing,3.0,,Black - White,0.31136106077171555,,,,
+headline by contrast,Argyle,missing or attenuated,3.0,,Black - White,0.31136106077171555,,,,
+headline by contrast,Argyle,no population gap,9.0,,Black - White,0.31136106077171555,,,,
+headline by contrast,Argyle,reversed or missing,1.0,,Black - White,0.31136106077171555,,,,
+headline by contrast,Argyle,steepened,1.0,,Black - White,0.31136106077171555,,,,
+headline by contrast,Argyle,undetermined,2.0,,Black - White,0.31136106077171555,,,,
+headline by contrast,Argyle,kept or steepened,5.0,,Female - Male,0.8593977266605669,,,,
+headline by contrast,Argyle,no population gap,9.0,,Female - Male,0.8593977266605669,,,,
+headline by contrast,Argyle,reference too imprecise,7.0,,Female - Male,0.8593977266605669,,,,
+headline by contrast,Argyle,undetermined,6.0,,Female - Male,0.8593977266605669,,,,
+headline by contrast,Argyle,attenuated or kept,2.0,,HS or less - Graduate,0.3883071821168667,,,,
+headline by contrast,Argyle,missing,1.0,,HS or less - Graduate,0.3883071821168667,,,,
+headline by contrast,Argyle,missing or attenuated,5.0,,HS or less - Graduate,0.3883071821168667,,,,
+headline by contrast,Argyle,no population gap,6.0,,HS or less - Graduate,0.3883071821168667,,,,
+headline by contrast,Argyle,reference too imprecise,7.0,,HS or less - Graduate,0.3883071821168667,,,,
+headline by contrast,Argyle,undetermined,6.0,,HS or less - Graduate,0.3883071821168667,,,,
+headline by contrast,Argyle,attenuated or kept,4.0,,Hispanic - White,0.5406335541714604,,,,
+headline by contrast,Argyle,missing or attenuated,2.0,,Hispanic - White,0.5406335541714604,,,,
+headline by contrast,Argyle,no population gap,13.0,,Hispanic - White,0.5406335541714604,,,,
+headline by contrast,Argyle,reference too imprecise,5.0,,Hispanic - White,0.5406335541714604,,,,
+headline by contrast,Argyle,undetermined,3.0,,Hispanic - White,0.5406335541714604,,,,
+headline by contrast,Argyle,attenuated,2.0,,Republican - Democrat,0.5549246585672226,,,,
+headline by contrast,Argyle,attenuated or kept,3.0,,Republican - Democrat,0.5549246585672226,,,,
+headline by contrast,Argyle,kept,4.0,,Republican - Democrat,0.5549246585672226,,,,
+headline by contrast,Argyle,missing,3.0,,Republican - Democrat,0.5549246585672226,,,,
+headline by contrast,Argyle,missing or attenuated,2.0,,Republican - Democrat,0.5549246585672226,,,,
+headline by contrast,Argyle,no population gap,9.0,,Republican - Democrat,0.5549246585672226,,,,
+headline by contrast,Argyle,reversed or missing,1.0,,Republican - Democrat,0.5549246585672226,,,,
+headline by contrast,OpinionQA,attenuated or kept,6.0,,Asian - White,0.5372187008708975,,,,
+headline by contrast,OpinionQA,missing or attenuated,3.0,,Asian - White,0.5372187008708975,,,,
+headline by contrast,OpinionQA,reversed or missing,1.0,,Asian - White,0.5372187008708975,,,,
+headline by contrast,OpinionQA,undetermined,10.0,,Asian - White,0.5372187008708975,,,,
+headline by contrast,OpinionQA,attenuated or kept,7.0,,Black - White,0.4609313006328253,,,,
+headline by contrast,OpinionQA,missing or attenuated,5.0,,Black - White,0.4609313006328253,,,,
+headline by contrast,OpinionQA,undetermined,14.0,,Black - White,0.4609313006328253,,,,
+headline by contrast,OpinionQA,attenuated or kept,5.0,,Female - Male,0.7781572494362008,,,,
+headline by contrast,OpinionQA,undetermined,21.0,,Female - Male,0.7781572494362008,,,,
+headline by contrast,OpinionQA,attenuated or kept,4.0,,Hispanic - White,0.4559998979412583,,,,
+headline by contrast,OpinionQA,missing or attenuated,3.0,,Hispanic - White,0.4559998979412583,,,,
+headline by contrast,OpinionQA,reversed or missing,3.0,,Hispanic - White,0.4559998979412583,,,,
+headline by contrast,OpinionQA,undetermined,10.0,,Hispanic - White,0.4559998979412583,,,,
+headline by contrast,OpinionQA,missing or attenuated,1.0,,"Less than $30,000 - $100,000 or more",0.29702992440636533,,,,
+headline by contrast,OpinionQA,reversed or missing,1.0,,"Less than $30,000 - $100,000 or more",0.29702992440636533,,,,
+headline by contrast,OpinionQA,undetermined,10.0,,"Less than $30,000 - $100,000 or more",0.29702992440636533,,,,
+headline by contrast,OpinionQA,undetermined,12.0,,Less than high school - College graduate or some postgrad,0.4690644180574493,,,,
+headline by contrast,OpinionQA,attenuated or kept,7.0,,Republican - Democrat,0.9387971258576261,,,,
+headline by contrast,OpinionQA,kept,1.0,,Republican - Democrat,0.9387971258576261,,,,
+headline by contrast,OpinionQA,kept or steepened,10.0,,Republican - Democrat,0.9387971258576261,,,,
+headline by contrast,OpinionQA,missing or attenuated,5.0,,Republican - Democrat,0.9387971258576261,,,,
+headline by contrast,OpinionQA,steepened,1.0,,Republican - Democrat,0.9387971258576261,,,,
+headline by contrast,OpinionQA,undetermined,2.0,,Republican - Democrat,0.9387971258576261,,,,
+headline by contrast,OpinionQA,kept or steepened,2.0,,South - Northeast,0.7848661518319227,,,,
+headline by contrast,OpinionQA,undetermined,10.0,,South - Northeast,0.7848661518319227,,,,
+headline stop counts,Argyle,,,,,,70.0,32.0,92.0,
+headline stop counts,OpinionQA,,,,,,0.0,0.0,5.0,
+band_symmetric,Argyle by run,attenuated,2.0,,,,,,,t0.001
+band_symmetric,Argyle by run,attenuated or kept,6.0,,,,,,,t0.001
+band_symmetric,Argyle by run,kept,3.0,,,,,,,t0.001
+band_symmetric,Argyle by run,kept or steepened,2.0,,,,,,,t0.001
+band_symmetric,Argyle by run,missing,4.0,,,,,,,t0.001
+band_symmetric,Argyle by run,missing or attenuated,4.0,,,,,,,t0.001
+band_symmetric,Argyle by run,no population gap,24.0,,,,,,,t0.001
+band_symmetric,Argyle by run,reference too imprecise,8.0,,,,,,,t0.001
+band_symmetric,Argyle by run,reversed or missing,1.0,,,,,,,t0.001
+band_symmetric,Argyle by run,steepened,1.0,,,,,,,t0.001
+band_symmetric,Argyle by run,undetermined,6.0,,,,,,,t0.001
+band_symmetric,Argyle by run,attenuated,2.0,,,,,,,t0.7_main
+band_symmetric,Argyle by run,attenuated or kept,3.0,,,,,,,t0.7_main
+band_symmetric,Argyle by run,kept,2.0,,,,,,,t0.7_main
+band_symmetric,Argyle by run,kept or steepened,2.0,,,,,,,t0.7_main
+band_symmetric,Argyle by run,missing,2.0,,,,,,,t0.7_main
+band_symmetric,Argyle by run,missing or attenuated,6.0,,,,,,,t0.7_main
+band_symmetric,Argyle by run,no population gap,23.0,,,,,,,t0.7_main
+band_symmetric,Argyle by run,reference too imprecise,13.0,,,,,,,t0.7_main
+band_symmetric,Argyle by run,undetermined,8.0,,,,,,,t0.7_main
+band_symmetric,Argyle by run,attenuated,2.0,,,,,,,t1.0
+band_symmetric,Argyle by run,attenuated or kept,2.0,,,,,,,t1.0
+band_symmetric,Argyle by run,kept or steepened,1.0,,,,,,,t1.0
+band_symmetric,Argyle by run,missing,2.0,,,,,,,t1.0
+band_symmetric,Argyle by run,missing or attenuated,7.0,,,,,,,t1.0
+band_symmetric,Argyle by run,no population gap,23.0,,,,,,,t1.0
+band_symmetric,Argyle by run,reference too imprecise,14.0,,,,,,,t1.0
+band_symmetric,Argyle by run,reversed or missing,1.0,,,,,,,t1.0
+band_symmetric,Argyle by run,undetermined,9.0,,,,,,,t1.0
+headline,Argyle by run,attenuated,1.0,,,,,,,t0.001
+headline,Argyle by run,attenuated or kept,7.0,,,,,,,t0.001
+headline,Argyle by run,kept,3.0,,,,,,,t0.001
+headline,Argyle by run,kept or steepened,2.0,,,,,,,t0.001
+headline,Argyle by run,missing,4.0,,,,,,,t0.001
+headline,Argyle by run,missing or attenuated,4.0,,,,,,,t0.001
+headline,Argyle by run,no population gap,24.0,,,,,,,t0.001
+headline,Argyle by run,reference too imprecise,8.0,,,,,,,t0.001
+headline,Argyle by run,reversed or missing,1.0,,,,,,,t0.001
+headline,Argyle by run,steepened,1.0,,,,,,,t0.001
+headline,Argyle by run,undetermined,6.0,,,,,,,t0.001
+headline,Argyle by run,attenuated,2.0,,,,,,,t0.7_main
+headline,Argyle by run,attenuated or kept,3.0,,,,,,,t0.7_main
+headline,Argyle by run,kept,2.0,,,,,,,t0.7_main
+headline,Argyle by run,kept or steepened,3.0,,,,,,,t0.7_main
+headline,Argyle by run,missing,2.0,,,,,,,t0.7_main
+headline,Argyle by run,missing or attenuated,5.0,,,,,,,t0.7_main
+headline,Argyle by run,no population gap,23.0,,,,,,,t0.7_main
+headline,Argyle by run,reference too imprecise,12.0,,,,,,,t0.7_main
+headline,Argyle by run,undetermined,9.0,,,,,,,t0.7_main
+headline,Argyle by run,attenuated,1.0,,,,,,,t1.0
+headline,Argyle by run,attenuated or kept,3.0,,,,,,,t1.0
+headline,Argyle by run,kept or steepened,2.0,,,,,,,t1.0
+headline,Argyle by run,missing,2.0,,,,,,,t1.0
+headline,Argyle by run,missing or attenuated,6.0,,,,,,,t1.0
+headline,Argyle by run,no population gap,23.0,,,,,,,t1.0
+headline,Argyle by run,reference too imprecise,12.0,,,,,,,t1.0
+headline,Argyle by run,reversed or missing,1.0,,,,,,,t1.0
+headline,Argyle by run,undetermined,11.0,,,,,,,t1.0
+unadjusted_90,Argyle by run,attenuated,5.0,,,,,,,t0.001
+unadjusted_90,Argyle by run,attenuated or kept,7.0,,,,,,,t0.001
+unadjusted_90,Argyle by run,kept,3.0,,,,,,,t0.001
+unadjusted_90,Argyle by run,kept or steepened,7.0,,,,,,,t0.001
+unadjusted_90,Argyle by run,missing,5.0,,,,,,,t0.001
+unadjusted_90,Argyle by run,missing or attenuated,8.0,,,,,,,t0.001
+unadjusted_90,Argyle by run,no population gap,10.0,,,,,,,t0.001
+unadjusted_90,Argyle by run,reference too imprecise,7.0,,,,,,,t0.001
+unadjusted_90,Argyle by run,reversed or missing,3.0,,,,,,,t0.001
+unadjusted_90,Argyle by run,steepened,4.0,,,,,,,t0.001
+unadjusted_90,Argyle by run,undetermined,2.0,,,,,,,t0.001
+unadjusted_90,Argyle by run,attenuated,5.0,,,,,,,t0.7_main
+unadjusted_90,Argyle by run,attenuated or kept,7.0,,,,,,,t0.7_main
+unadjusted_90,Argyle by run,kept,3.0,,,,,,,t0.7_main
+unadjusted_90,Argyle by run,kept or steepened,3.0,,,,,,,t0.7_main
+unadjusted_90,Argyle by run,missing,2.0,,,,,,,t0.7_main
+unadjusted_90,Argyle by run,missing or attenuated,9.0,,,,,,,t0.7_main
+unadjusted_90,Argyle by run,no population gap,10.0,,,,,,,t0.7_main
+unadjusted_90,Argyle by run,reference too imprecise,7.0,,,,,,,t0.7_main
+unadjusted_90,Argyle by run,reversed or missing,2.0,,,,,,,t0.7_main
+unadjusted_90,Argyle by run,steepened,3.0,,,,,,,t0.7_main
+unadjusted_90,Argyle by run,undetermined,10.0,,,,,,,t0.7_main
+unadjusted_90,Argyle by run,attenuated,4.0,,,,,,,t1.0
+unadjusted_90,Argyle by run,attenuated or kept,6.0,,,,,,,t1.0
+unadjusted_90,Argyle by run,kept,1.0,,,,,,,t1.0
+unadjusted_90,Argyle by run,kept or steepened,6.0,,,,,,,t1.0
+unadjusted_90,Argyle by run,missing,3.0,,,,,,,t1.0
+unadjusted_90,Argyle by run,missing or attenuated,12.0,,,,,,,t1.0
+unadjusted_90,Argyle by run,no population gap,10.0,,,,,,,t1.0
+unadjusted_90,Argyle by run,reference too imprecise,3.0,,,,,,,t1.0
+unadjusted_90,Argyle by run,reversed or missing,3.0,,,,,,,t1.0
+unadjusted_90,Argyle by run,undetermined,13.0,,,,,,,t1.0

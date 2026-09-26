@@ -1,0 +1,73 @@
+spec,estimand,framing,resid_min,resid_max,sd_units_min,sd_units_max,delta_min_min
+S1 primary,DS,clinical,0.9817,7.6426,0.2495,1.9421,1.1393
+S1 primary,DS,combined,0.6036,6.6634,0.1534,1.6933,0.7251
+S1 primary,DS,narrative,0.2254,5.9405,0.0573,1.5096,0.3602
+S1 primary,MG,clinical,1.3928,7.3297,0.3539,1.8626,1.5292
+S1 primary,MG,combined,0.8753,6.5197,0.2224,1.6568,0.9735
+S1 primary,MG,narrative,0.3578,5.7097,0.0909,1.4509,0.4674
+S1 primary,PS,clinical,1.0103,8.0819,0.2567,2.0538,1.2284
+S1 primary,PS,combined,0.6615,7.3656,0.1681,1.8717,0.8111
+S1 primary,PS,narrative,0.3127,6.6493,0.0795,1.6897,0.4951
+S2 cohabiting as married,DS,clinical,0.9691,7.5429,0.2463,1.9168,1.1258
+S2 cohabiting as married,DS,combined,0.591,6.5638,0.1502,1.668,0.7114
+S2 cohabiting as married,DS,narrative,0.2129,5.8409,0.0541,1.4843,0.3465
+S2 cohabiting as married,MG,clinical,1.3928,7.3297,0.3539,1.8626,1.5292
+S2 cohabiting as married,MG,combined,0.8753,6.5197,0.2224,1.6568,0.9735
+S2 cohabiting as married,MG,narrative,0.3578,5.7097,0.0909,1.4509,0.4674
+S2 cohabiting as married,PS,clinical,0.9655,7.9303,0.2453,2.0152,1.1818
+S2 cohabiting as married,PS,combined,0.613,7.2263,0.1558,1.8363,0.7612
+S2 cohabiting as married,PS,narrative,0.2605,6.5223,0.0662,1.6574,0.4417
+S2b cohabiting as single,DS,clinical,1.0156,7.6475,0.2581,1.9434,1.169
+S2b cohabiting as single,DS,combined,0.6374,6.6684,0.162,1.6945,0.7535
+S2b cohabiting as single,DS,narrative,0.2593,5.9454,0.0659,1.5108,0.3891
+S2b cohabiting as single,MG,clinical,1.3928,7.3297,0.3539,1.8626,1.5292
+S2b cohabiting as single,MG,combined,0.8753,6.5197,0.2224,1.6568,0.9735
+S2b cohabiting as single,MG,narrative,0.3578,5.7097,0.0909,1.4509,0.4674
+S2b cohabiting as single,PS,clinical,0.9949,8.1184,0.2528,2.063,1.2121
+S2b cohabiting as single,PS,combined,0.6571,7.3929,0.167,1.8787,0.8054
+S2b cohabiting as single,PS,narrative,0.3193,6.6673,0.0811,1.6943,0.5002
+S3 2007-2018 PIR (bridge),DS,clinical,0.9601,7.6082,0.2402,1.903,1.1204
+S3 2007-2018 PIR (bridge),DS,combined,0.582,6.629,0.1456,1.6581,0.7071
+S3 2007-2018 PIR (bridge),DS,narrative,0.2038,5.9061,0.051,1.4773,0.3418
+S3 2007-2018 PIR (bridge),MG,clinical,1.3498,7.27,0.3376,1.8185,1.4897
+S3 2007-2018 PIR (bridge),MG,combined,0.8323,6.46,0.2082,1.6159,0.9353
+S3 2007-2018 PIR (bridge),MG,narrative,0.3148,5.65,0.0787,1.4132,0.4287
+S3 2007-2018 PIR (bridge),PS,clinical,0.9635,8.041,0.241,2.0113,1.1829
+S3 2007-2018 PIR (bridge),PS,combined,0.6148,7.3236,0.1538,1.8318,0.7671
+S3 2007-2018 PIR (bridge),PS,narrative,0.2661,6.6061,0.0666,1.6524,0.4507
+S4 persona-string income,DS,clinical,1.2636,6.8406,0.3161,1.7111,1.4408
+S4 persona-string income,DS,combined,0.8855,5.8615,0.2215,1.4661,1.0317
+S4 persona-string income,DS,narrative,0.5074,5.3717,0.1269,1.3436,0.6647
+S4 persona-string income,MG,clinical,1.6091,6.0271,0.4025,1.5076,1.7684
+S4 persona-string income,MG,combined,1.0916,5.5096,0.273,1.3781,1.2199
+S4 persona-string income,MG,narrative,0.5741,5.4013,0.1436,1.351,0.7113
+S4 persona-string income,PS,clinical,1.158,7.0554,0.2897,1.7648,1.3925
+S4 persona-string income,PS,combined,0.7865,6.3224,0.1967,1.5814,0.9571
+S4 persona-string income,PS,narrative,0.415,5.7522,0.1038,1.4388,0.617
+"S5 persona-string, high top-coded",DS,clinical,1.3552,6.8406,0.339,1.7111,1.5436
+"S5 persona-string, high top-coded",DS,combined,0.9771,5.8615,0.2444,1.4661,1.1368
+"S5 persona-string, high top-coded",DS,narrative,0.599,5.3717,0.1498,1.3436,0.7688
+"S5 persona-string, high top-coded",MG,clinical,1.7135,6.0271,0.4286,1.5076,1.8767
+"S5 persona-string, high top-coded",MG,combined,1.196,5.5096,0.2992,1.3781,1.329
+"S5 persona-string, high top-coded",MG,narrative,0.6785,5.4013,0.1697,1.351,0.8201
+"S5 persona-string, high top-coded",PS,clinical,1.2251,7.0554,0.3064,1.7648,1.4688
+"S5 persona-string, high top-coded",PS,combined,0.8462,6.3224,0.2116,1.5814,1.0256
+"S5 persona-string, high top-coded",PS,narrative,0.4672,5.7522,0.1169,1.4388,0.6791
+S6 2017-2020 pre-pandemic,DS,clinical,0.9103,7.5448,0.2284,1.8931,1.1178
+S6 2017-2020 pre-pandemic,DS,combined,0.5322,6.5656,0.1335,1.6474,0.7148
+S6 2017-2020 pre-pandemic,DS,narrative,0.154,5.8427,0.0386,1.466,0.3453
+S6 2017-2020 pre-pandemic,MG,clinical,1.2515,7.1181,0.314,1.786,1.4481
+S6 2017-2020 pre-pandemic,MG,combined,0.734,6.3081,0.1842,1.5828,0.9073
+S6 2017-2020 pre-pandemic,MG,narrative,0.2165,5.4981,0.0543,1.3795,0.3962
+S6 2017-2020 pre-pandemic,PS,clinical,0.836,7.7466,0.2097,1.9437,1.0914
+S6 2017-2020 pre-pandemic,PS,combined,0.4817,7.045,0.1209,1.7677,0.6893
+S6 2017-2020 pre-pandemic,PS,narrative,0.1275,6.3434,0.032,1.5916,0.3574
+S7 2021-2023,DS,clinical,-0.1628,6.6504,-0.0366,1.4939,0.4589
+S7 2021-2023,DS,combined,-0.5409,5.6713,-0.1215,1.274,0.4736
+S7 2021-2023,DS,narrative,-0.919,4.9483,-0.2064,1.1116,0.4466
+S7 2021-2023,MG,clinical,0.4504,6.2088,0.1012,1.3947,0.6943
+S7 2021-2023,MG,combined,-0.0425,5.3988,-0.0095,1.2128,0.242
+S7 2021-2023,MG,narrative,-0.56,4.5888,-0.1258,1.0308,0.3322
+S7 2021-2023,PS,clinical,0.0259,6.9714,0.0058,1.566,0.3044
+S7 2021-2023,PS,combined,-0.3257,6.266,-0.0732,1.4075,0.3823
+S7 2021-2023,PS,narrative,-0.6773,5.5606,-0.1521,1.2491,0.2434

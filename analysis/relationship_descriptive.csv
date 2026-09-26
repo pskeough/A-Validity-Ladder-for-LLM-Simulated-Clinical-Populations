@@ -1,6 +1,0 @@
-model,single_mean,married_mean,diff
-deepseek/deepseek-chat-v3,8.724,8.3,0.425
-google/gemini-3-flash-preview,9.767,8.472,1.295
-openai/gpt-4o-mini,8.479,8.252,0.227
-z-ai/glm-4.7,8.838,7.264,1.574
-POOLED,8.952,8.072,0.88

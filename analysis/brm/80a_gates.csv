@@ -1,0 +1,51 @@
+gate,value,receipt,diff,tolerance,asserted,passed
+2005-2018 mean All adults 18+,2.984561,2.984561,-0.0,0.0005,True,True
+2005-2018 JKn SE vs script 26 Taylor SE All adults 18+,0.040092,0.0401,-8e-06,0.01,False,True
+2005-2018 Taylor (domain) SE vs JKn SE All adults 18+,0.040091,0.040092,-0.0,0.005,False,True
+2005-2018 mean White,2.911655,2.911655,-0.0,0.0005,True,True
+2005-2018 JKn SE vs script 26 Taylor SE White,0.049865,0.0498,6.5e-05,0.01,False,True
+2005-2018 Taylor (domain) SE vs JKn SE White,0.049864,0.049865,-2e-06,0.005,False,True
+2005-2018 mean Black,3.241594,3.241594,-0.0,0.0005,True,True
+2005-2018 JKn SE vs script 26 Taylor SE Black,0.07069,0.0702,0.00049,0.01,False,True
+2005-2018 Taylor (domain) SE vs JKn SE Black,0.070683,0.07069,-7e-06,0.005,False,True
+2005-2018 mean Asian,2.15653,2.15653,0.0,0.0005,True,True
+2005-2018 JKn SE vs script 26 Taylor SE Asian,0.064583,0.0642,0.000383,0.01,False,True
+2005-2018 Taylor (domain) SE vs JKn SE Asian,0.064541,0.064583,-4.2e-05,0.005,False,True
+2005-2018 mean Hispanic (pooled),3.154156,3.154156,0.0,0.0005,True,True
+2005-2018 JKn SE vs script 26 Taylor SE Hispanic (pooled),0.061925,0.0619,2.5e-05,0.01,False,True
+2005-2018 Taylor (domain) SE vs JKn SE Hispanic (pooled),0.061894,0.061925,-3.2e-05,0.005,False,True
+2005-2018 mean Men,2.5045,2.5045,0.0,0.0005,True,True
+2005-2018 JKn SE vs script 26 Taylor SE Men,0.041348,0.0413,4.8e-05,0.01,False,True
+2005-2018 Taylor (domain) SE vs JKn SE Men,0.041348,0.041348,-0.0,0.005,False,True
+2005-2018 mean Women,3.442537,3.442537,0.0,0.0005,True,True
+2005-2018 JKn SE vs script 26 Taylor SE Women,0.050982,0.051,-1.8e-05,0.01,False,True
+2005-2018 Taylor (domain) SE vs JKn SE Women,0.050982,0.050982,-1e-06,0.005,False,True
+2005-2018 mean Low,4.246984,4.246984,-0.0,0.0005,True,True
+2005-2018 JKn SE vs script 26 Taylor SE Low,0.078723,0.0779,0.000823,0.01,False,True
+2005-2018 Taylor (domain) SE vs JKn SE Low,0.078718,0.078723,-5e-06,0.005,False,True
+2005-2018 mean Middle,3.118258,3.118258,-0.0,0.0005,True,True
+2005-2018 JKn SE vs script 26 Taylor SE Middle,0.054074,0.0546,-0.000526,0.01,False,True
+2005-2018 Taylor (domain) SE vs JKn SE Middle,0.054072,0.054074,-1e-06,0.005,False,True
+2005-2018 mean High,2.227231,2.227231,0.0,0.0005,True,True
+2005-2018 JKn SE vs script 26 Taylor SE High,0.038191,0.0382,-9e-06,0.01,False,True
+2005-2018 Taylor (domain) SE vs JKn SE High,0.03819,0.038191,-1e-06,0.005,False,True
+2005-2018 income<$35k & Medicaid mean (script 59),5.519162,5.5192,-3.8e-05,0.0005,True,True
+2005-2018 income<$35k & Medicaid JKn SE (script 59 Taylor),0.148565,0.1486,-3.5e-05,0.007430000000000001,True,True
+2017-2020 mean White (script 30),3.131254,3.131,0.000254,0.0006,True,True
+2017-2020 mean Black (script 30),3.152312,3.152,0.000312,0.0006,True,True
+2017-2020 mean Asian (script 30),2.022802,2.023,-0.000198,0.0006,True,True
+2017-2020 mean Hispanic (script 30),3.277185,3.277,0.000185,0.0006,True,True
+2017-2020 mean Cisgender Man (script 30),2.653849,2.654,-0.000151,0.0006,True,True
+2017-2020 mean Cisgender Woman (script 30),3.603532,3.604,-0.000468,0.0006,True,True
+"2017-2020 mean Low (script 30, boundary differs)",4.458613,4.452,0.006613,0.02,False,True
+"2017-2020 mean Middle (script 30, boundary differs)",3.467194,3.469,-0.001806,0.02,False,True
+"2017-2020 mean High (script 30, boundary differs)",2.368526,2.369,-0.000474,0.02,False,True
+2021-2023 mean White (script 30),3.866445,3.866,0.000445,0.0006,True,True
+2021-2023 mean Black (script 30),4.100567,4.101,-0.000433,0.0006,True,True
+2021-2023 mean Asian (script 30),3.101311,3.101,0.000311,0.0006,True,True
+2021-2023 mean Hispanic (script 30),4.248877,4.249,-0.000123,0.0006,True,True
+2021-2023 mean Cisgender Man (script 30),3.418633,3.419,-0.000367,0.0006,True,True
+2021-2023 mean Cisgender Woman (script 30),4.506851,4.507,-0.000149,0.0006,True,True
+"2021-2023 mean Low (script 30, boundary differs)",5.367863,5.344,0.023863,0.02,False,False
+"2021-2023 mean Middle (script 30, boundary differs)",4.391255,4.393,-0.001745,0.02,False,True
+"2021-2023 mean High (script 30, boundary differs)",3.144971,3.145,-2.9e-05,0.02,False,True

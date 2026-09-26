@@ -1,0 +1,595 @@
+corpus,panel,race_set,contrast,scope,framing,n_pairs,n_obs,simulated,se,df,se_unstratified,df_unstratified,se_naive_66,df_naive_66,mean_unweighted
+all,four models,n/a,Black minus White,openai/gpt-4o-mini,clinical,12,12,-0.044444,0.106152,11.0,0.106152,11,,,
+all,four models,n/a,Black minus White,google/gemini-3-flash-preview,clinical,12,12,-0.272222,0.155907,11.0,0.155907,11,,,
+all,four models,n/a,Black minus White,deepseek/deepseek-chat-v3,clinical,12,12,0.258333,0.165558,11.0,0.165558,11,,,
+all,four models,n/a,Black minus White,z-ai/glm-4.7,clinical,12,12,-0.458333,0.201097,11.0,0.201097,11,,,
+all,four models,n/a,Black minus White,pooled,clinical,48,48,-0.129167,0.080399,37.901245,0.087026,47,0.087026,47.0,-0.129167
+all,four models,n/a,Black minus White,openai/gpt-4o-mini,narrative,12,12,0.477778,0.150886,11.0,0.150886,11,,,
+all,four models,n/a,Black minus White,google/gemini-3-flash-preview,narrative,12,12,-0.516667,0.271345,11.0,0.271345,11,,,
+all,four models,n/a,Black minus White,deepseek/deepseek-chat-v3,narrative,12,12,0.169444,0.133866,11.0,0.133866,11,,,
+all,four models,n/a,Black minus White,z-ai/glm-4.7,narrative,12,12,-0.658333,0.195407,11.0,0.195407,11,,,
+all,four models,n/a,Black minus White,pooled,narrative,48,48,-0.131944,0.097628,33.142823,0.11681,47,0.11681,47.0,-0.131944
+all,four models,n/a,Black minus White,openai/gpt-4o-mini,combined,12,24,0.216667,0.092273,11.0,0.092273,11,,,
+all,four models,n/a,Black minus White,google/gemini-3-flash-preview,combined,12,24,-0.394444,0.193381,11.0,0.193381,11,,,
+all,four models,n/a,Black minus White,deepseek/deepseek-chat-v3,combined,12,24,0.213889,0.107599,11.0,0.107599,11,,,
+all,four models,n/a,Black minus White,z-ai/glm-4.7,combined,12,24,-0.558333,0.16319,11.0,0.16319,11,,,
+all,four models,n/a,Black minus White,pooled,combined,48,96,-0.130556,0.072508,33.633901,0.086822,47,0.072448,95.0,-0.130556
+all,four models,n/a,Hispanic minus White,openai/gpt-4o-mini,clinical,12,12,-0.027778,0.121912,11.0,0.121912,11,,,
+all,four models,n/a,Hispanic minus White,google/gemini-3-flash-preview,clinical,12,12,-0.041667,0.094292,11.0,0.094292,11,,,
+all,four models,n/a,Hispanic minus White,deepseek/deepseek-chat-v3,clinical,12,12,0.147222,0.120846,11.0,0.120846,11,,,
+all,four models,n/a,Hispanic minus White,z-ai/glm-4.7,clinical,12,12,-0.166667,0.185093,11.0,0.185093,11,,,
+all,four models,n/a,Hispanic minus White,pooled,clinical,48,48,-0.022222,0.067369,34.385168,0.067192,47,0.067192,47.0,-0.022222
+all,four models,n/a,Hispanic minus White,openai/gpt-4o-mini,narrative,12,12,0.308333,0.126872,11.0,0.126872,11,,,
+all,four models,n/a,Hispanic minus White,google/gemini-3-flash-preview,narrative,12,12,0.027778,0.159642,11.0,0.159642,11,,,
+all,four models,n/a,Hispanic minus White,deepseek/deepseek-chat-v3,narrative,12,12,0.2,0.13713,11.0,0.13713,11,,,
+all,four models,n/a,Hispanic minus White,z-ai/glm-4.7,narrative,12,12,-0.719444,0.210237,11.0,0.210237,11,,,
+all,four models,n/a,Hispanic minus White,pooled,narrative,48,48,-0.045833,0.080849,37.415245,0.097726,47,0.097726,47.0,-0.045833
+all,four models,n/a,Hispanic minus White,openai/gpt-4o-mini,combined,12,24,0.140278,0.059049,11.0,0.059049,11,,,
+all,four models,n/a,Hispanic minus White,google/gemini-3-flash-preview,combined,12,24,-0.006944,0.091872,11.0,0.091872,11,,,
+all,four models,n/a,Hispanic minus White,deepseek/deepseek-chat-v3,combined,12,24,0.173611,0.120228,11.0,0.120228,11,,,
+all,four models,n/a,Hispanic minus White,z-ai/glm-4.7,combined,12,24,-0.443056,0.164602,11.0,0.164602,11,,,
+all,four models,n/a,Hispanic minus White,pooled,combined,48,96,-0.034028,0.057812,30.646873,0.066435,47,0.058998,95.0,-0.034028
+all,four models,n/a,Asian minus White,openai/gpt-4o-mini,clinical,12,12,-0.475,0.177294,11.0,0.177294,11,,,
+all,four models,n/a,Asian minus White,google/gemini-3-flash-preview,clinical,12,12,-1.091667,0.464717,11.0,0.464717,11,,,
+all,four models,n/a,Asian minus White,deepseek/deepseek-chat-v3,clinical,12,12,-0.644444,0.17792,11.0,0.17792,11,,,
+all,four models,n/a,Asian minus White,z-ai/glm-4.7,clinical,12,12,-1.511111,0.415186,11.0,0.415186,11,,,
+all,four models,n/a,Asian minus White,pooled,clinical,48,48,-0.930556,0.167971,28.613161,0.172869,47,0.172869,47.0,-0.930556
+all,four models,n/a,Asian minus White,openai/gpt-4o-mini,narrative,12,12,-0.330556,0.143575,11.0,0.143575,11,,,
+all,four models,n/a,Asian minus White,google/gemini-3-flash-preview,narrative,12,12,-1.802778,0.795912,11.0,0.795912,11,,,
+all,four models,n/a,Asian minus White,deepseek/deepseek-chat-v3,narrative,12,12,-0.772222,0.121011,11.0,0.121011,11,,,
+all,four models,n/a,Asian minus White,z-ai/glm-4.7,narrative,12,12,-1.961111,0.452078,11.0,0.452078,11,,,
+all,four models,n/a,Asian minus White,pooled,narrative,48,48,-1.216667,0.233601,18.899005,0.247161,47,0.247161,47.0,-1.216667
+all,four models,n/a,Asian minus White,openai/gpt-4o-mini,combined,12,24,-0.402778,0.10799,11.0,0.10799,11,,,
+all,four models,n/a,Asian minus White,google/gemini-3-flash-preview,combined,12,24,-1.447222,0.626944,11.0,0.626944,11,,,
+all,four models,n/a,Asian minus White,deepseek/deepseek-chat-v3,combined,12,24,-0.708333,0.124781,11.0,0.124781,11,,,
+all,four models,n/a,Asian minus White,z-ai/glm-4.7,combined,12,24,-1.736111,0.41712,11.0,0.41712,11,,,
+all,four models,n/a,Asian minus White,pooled,combined,48,96,-1.073611,0.192724,20.982672,0.202367,47,0.150728,95.0,-1.073611
+all,four models,four,Women minus Men,openai/gpt-4o-mini,clinical,24,24,0.168056,0.092828,23.0,0.092828,23,,,
+all,four models,four,Women minus Men,google/gemini-3-flash-preview,clinical,24,24,0.947222,0.137816,23.0,0.137816,23,,,
+all,four models,four,Women minus Men,deepseek/deepseek-chat-v3,clinical,24,24,0.436111,0.08903,23.0,0.08903,23,,,
+all,four models,four,Women minus Men,z-ai/glm-4.7,clinical,24,24,1.673611,0.144797,23.0,0.144797,23,,,
+all,four models,four,Women minus Men,pooled,clinical,96,96,0.80625,0.059426,78.332488,0.082972,95,0.082972,95.0,0.80625
+all,four models,four,Women minus Men,openai/gpt-4o-mini,narrative,24,24,0.213889,0.102425,23.0,0.102425,23,,,
+all,four models,four,Women minus Men,google/gemini-3-flash-preview,narrative,24,24,1.023611,0.152284,23.0,0.152284,23,,,
+all,four models,four,Women minus Men,deepseek/deepseek-chat-v3,narrative,24,24,0.254167,0.068713,23.0,0.068713,23,,,
+all,four models,four,Women minus Men,z-ai/glm-4.7,narrative,24,24,1.786111,0.217547,23.0,0.217547,23,,,
+all,four models,four,Women minus Men,pooled,narrative,96,96,0.819444,0.073199,58.089873,0.097793,95,0.097793,95.0,0.819444
+all,four models,four,Women minus Men,openai/gpt-4o-mini,combined,24,48,0.190972,0.072579,23.0,0.072579,23,,,
+all,four models,four,Women minus Men,google/gemini-3-flash-preview,combined,24,48,0.985417,0.13519,23.0,0.13519,23,,,
+all,four models,four,Women minus Men,deepseek/deepseek-chat-v3,combined,24,48,0.345139,0.05724,23.0,0.05724,23,,,
+all,four models,four,Women minus Men,z-ai/glm-4.7,combined,24,48,1.729861,0.154045,23.0,0.154045,23,,,
+all,four models,four,Women minus Men,pooled,combined,96,192,0.812847,0.056208,62.817273,0.083332,95,0.063958,191.0,0.812847
+all,four models,four,Low minus High SES,openai/gpt-4o-mini,clinical,16,16,3.504167,0.165884,15.0,0.165884,15,,,
+all,four models,four,Low minus High SES,google/gemini-3-flash-preview,clinical,16,16,7.158333,0.434661,15.0,0.434661,15,,,
+all,four models,four,Low minus High SES,deepseek/deepseek-chat-v3,clinical,16,16,2.377083,0.152714,15.0,0.152714,15,,,
+all,four models,four,Low minus High SES,z-ai/glm-4.7,clinical,16,16,6.047917,0.326853,15.0,0.326853,15,,,
+all,four models,four,Low minus High SES,pooled,clinical,64,64,4.771875,0.147182,37.22434,0.280763,63,0.280763,63.0,4.771875
+all,four models,four,Low minus High SES,openai/gpt-4o-mini,narrative,16,16,2.1,0.103905,15.0,0.103905,15,,,
+all,four models,four,Low minus High SES,google/gemini-3-flash-preview,narrative,16,16,6.00625,0.586043,15.0,0.586043,15,,,
+all,four models,four,Low minus High SES,deepseek/deepseek-chat-v3,narrative,16,16,2.58125,0.147164,15.0,0.147164,15,,,
+all,four models,four,Low minus High SES,z-ai/glm-4.7,narrative,16,16,7.0125,0.392816,15.0,0.392816,15,,,
+all,four models,four,Low minus High SES,pooled,narrative,64,64,4.425,0.182038,29.62221,0.320921,63,0.320921,63.0,4.425
+all,four models,four,Low minus High SES,openai/gpt-4o-mini,combined,16,32,2.802083,0.103524,15.0,0.103524,15,,,
+all,four models,four,Low minus High SES,google/gemini-3-flash-preview,combined,16,32,6.582292,0.499834,15.0,0.499834,15,,,
+all,four models,four,Low minus High SES,deepseek/deepseek-chat-v3,combined,16,32,2.479167,0.117265,15.0,0.117265,15,,,
+all,four models,four,Low minus High SES,z-ai/glm-4.7,combined,16,32,6.530208,0.335646,15.0,0.335646,15,,,
+all,four models,four,Low minus High SES,pooled,combined,64,128,4.598437,0.155515,29.783723,0.289978,63,0.212917,127.0,4.598438
+all,four models,four,Middle minus High SES,openai/gpt-4o-mini,clinical,16,16,1.80625,0.1311,15.0,0.1311,15,,,
+all,four models,four,Middle minus High SES,google/gemini-3-flash-preview,clinical,16,16,0.622917,0.143331,15.0,0.143331,15,,,
+all,four models,four,Middle minus High SES,deepseek/deepseek-chat-v3,clinical,16,16,1.252083,0.125756,15.0,0.125756,15,,,
+all,four models,four,Middle minus High SES,z-ai/glm-4.7,clinical,16,16,1.26875,0.191497,15.0,0.191497,15,,,
+all,four models,four,Middle minus High SES,pooled,clinical,64,64,1.2375,0.07509,52.797989,0.090317,63,0.090317,63.0,1.2375
+all,four models,four,Middle minus High SES,openai/gpt-4o-mini,narrative,16,16,0.927083,0.139251,15.0,0.139251,15,,,
+all,four models,four,Middle minus High SES,google/gemini-3-flash-preview,narrative,16,16,0.9625,0.070702,15.0,0.070702,15,,,
+all,four models,four,Middle minus High SES,deepseek/deepseek-chat-v3,narrative,16,16,1.8625,0.107921,15.0,0.107921,15,,,
+all,four models,four,Middle minus High SES,z-ai/glm-4.7,narrative,16,16,1.4125,0.211605,15.0,0.211605,15,,,
+all,four models,four,Middle minus High SES,pooled,narrative,64,64,1.291146,0.071069,38.543529,0.084373,63,0.084373,63.0,1.291146
+all,four models,four,Middle minus High SES,openai/gpt-4o-mini,combined,16,32,1.366667,0.105804,15.0,0.105804,15,,,
+all,four models,four,Middle minus High SES,google/gemini-3-flash-preview,combined,16,32,0.792708,0.078351,15.0,0.078351,15,,,
+all,four models,four,Middle minus High SES,deepseek/deepseek-chat-v3,combined,16,32,1.557292,0.102164,15.0,0.102164,15,,,
+all,four models,four,Middle minus High SES,z-ai/glm-4.7,combined,16,32,1.340625,0.17696,15.0,0.17696,15,,,
+all,four models,four,Middle minus High SES,pooled,combined,64,128,1.264323,0.060769,41.807648,0.069317,63,0.0616,127.0,1.264323
+all,four models,four,Low minus Middle SES,openai/gpt-4o-mini,clinical,16,16,1.697917,0.090955,15.0,0.090955,15,,,
+all,four models,four,Low minus Middle SES,google/gemini-3-flash-preview,clinical,16,16,6.535417,0.357298,15.0,0.357298,15,,,
+all,four models,four,Low minus Middle SES,deepseek/deepseek-chat-v3,clinical,16,16,1.125,0.168888,15.0,0.168888,15,,,
+all,four models,four,Low minus Middle SES,z-ai/glm-4.7,clinical,16,16,4.779167,0.231218,15.0,0.231218,15,,,
+all,four models,four,Low minus Middle SES,pooled,clinical,64,64,3.534375,0.116705,35.549696,0.302124,63,0.302124,63.0,3.534375
+all,four models,four,Low minus Middle SES,openai/gpt-4o-mini,narrative,16,16,1.172917,0.114229,15.0,0.114229,15,,,
+all,four models,four,Low minus Middle SES,google/gemini-3-flash-preview,narrative,16,16,5.04375,0.59177,15.0,0.59177,15,,,
+all,four models,four,Low minus Middle SES,deepseek/deepseek-chat-v3,narrative,16,16,0.71875,0.084927,15.0,0.084927,15,,,
+all,four models,four,Low minus Middle SES,z-ai/glm-4.7,narrative,16,16,5.6,0.261158,15.0,0.261158,15,,,
+all,four models,four,Low minus Middle SES,pooled,narrative,64,64,3.133854,0.165578,22.636113,0.32113,63,0.32113,63.0,3.133854
+all,four models,four,Low minus Middle SES,openai/gpt-4o-mini,combined,16,32,1.435417,0.066734,15.0,0.066734,15,,,
+all,four models,four,Low minus Middle SES,google/gemini-3-flash-preview,combined,16,32,5.789583,0.47003,15.0,0.47003,15,,,
+all,four models,four,Low minus Middle SES,deepseek/deepseek-chat-v3,combined,16,32,0.921875,0.111945,15.0,0.111945,15,,,
+all,four models,four,Low minus Middle SES,z-ai/glm-4.7,combined,16,32,5.189583,0.222631,15.0,0.222631,15,,,
+all,four models,four,Low minus Middle SES,pooled,combined,64,128,3.334115,0.134042,24.097714,0.303473,63,0.220304,127.0,3.334115
+all,four models,five,Women minus Men,openai/gpt-4o-mini,clinical,30,30,0.201111,0.080587,29.0,0.080587,29,,,
+all,four models,five,Women minus Men,google/gemini-3-flash-preview,clinical,30,30,0.992222,0.129807,29.0,0.129807,29,,,
+all,four models,five,Women minus Men,deepseek/deepseek-chat-v3,clinical,30,30,0.38,0.079407,29.0,0.079407,29,,,
+all,four models,five,Women minus Men,z-ai/glm-4.7,clinical,30,30,1.793333,0.14071,29.0,0.14071,29,,,
+all,four models,five,Women minus Men,pooled,clinical,120,120,0.841667,0.055593,93.566373,0.0792,119,0.0792,119.0,0.841667
+all,four models,five,Women minus Men,openai/gpt-4o-mini,narrative,30,30,0.277778,0.089818,29.0,0.089818,29,,,
+all,four models,five,Women minus Men,google/gemini-3-flash-preview,narrative,30,30,0.985556,0.13065,29.0,0.13065,29,,,
+all,four models,five,Women minus Men,deepseek/deepseek-chat-v3,narrative,30,30,0.258889,0.058997,29.0,0.058997,29,,,
+all,four models,five,Women minus Men,z-ai/glm-4.7,narrative,30,30,1.828889,0.187609,29.0,0.187609,29,,,
+all,four models,five,Women minus Men,pooled,narrative,120,120,0.837778,0.063154,73.470358,0.085792,119,0.085792,119.0,0.837778
+all,four models,five,Women minus Men,openai/gpt-4o-mini,combined,30,60,0.239444,0.066655,29.0,0.066655,29,,,
+all,four models,five,Women minus Men,google/gemini-3-flash-preview,combined,30,60,0.988889,0.116314,29.0,0.116314,29,,,
+all,four models,five,Women minus Men,deepseek/deepseek-chat-v3,combined,30,60,0.319444,0.047733,29.0,0.047733,29,,,
+all,four models,five,Women minus Men,z-ai/glm-4.7,combined,30,60,1.811111,0.139174,29.0,0.139174,29,,,
+all,four models,five,Women minus Men,pooled,combined,120,240,0.839722,0.049762,78.063845,0.075951,119,0.058258,239.0,0.839722
+all,four models,five,Low minus High SES,openai/gpt-4o-mini,clinical,20,20,3.521667,0.137613,19.0,0.137613,19,,,
+all,four models,five,Low minus High SES,google/gemini-3-flash-preview,clinical,20,20,7.453333,0.384224,19.0,0.384224,19,,,
+all,four models,five,Low minus High SES,deepseek/deepseek-chat-v3,clinical,20,20,2.383333,0.127905,19.0,0.127905,19,,,
+all,four models,five,Low minus High SES,z-ai/glm-4.7,clinical,20,20,6.028333,0.262648,19.0,0.262648,19,,,
+all,four models,five,Low minus High SES,pooled,clinical,80,80,4.846667,0.125476,44.361478,0.256565,79,0.256565,79.0,4.846667
+all,four models,five,Low minus High SES,openai/gpt-4o-mini,narrative,20,20,2.103333,0.087422,19.0,0.087422,19,,,
+all,four models,five,Low minus High SES,google/gemini-3-flash-preview,narrative,20,20,6.675,0.558312,19.0,0.558312,19,,,
+all,four models,five,Low minus High SES,deepseek/deepseek-chat-v3,narrative,20,20,2.511667,0.1244,19.0,0.1244,19,,,
+all,four models,five,Low minus High SES,z-ai/glm-4.7,narrative,20,20,7.33,0.357549,19.0,0.357549,19,,,
+all,four models,five,Low minus High SES,pooled,narrative,80,80,4.655,0.17005,35.738362,0.313876,79,0.313876,79.0,4.655
+all,four models,five,Low minus High SES,openai/gpt-4o-mini,combined,20,40,2.8125,0.088331,19.0,0.088331,19,,,
+all,four models,five,Low minus High SES,google/gemini-3-flash-preview,combined,20,40,7.064167,0.457413,19.0,0.457413,19,,,
+all,four models,five,Low minus High SES,deepseek/deepseek-chat-v3,combined,20,40,2.4475,0.095691,19.0,0.095691,19,,,
+all,four models,five,Low minus High SES,z-ai/glm-4.7,combined,20,40,6.679167,0.283127,19.0,0.283127,19,,,
+all,four models,five,Low minus High SES,pooled,combined,80,160,4.750833,0.138372,35.417042,0.275319,79,0.202201,159.0,4.750833
+all,four models,five,Middle minus High SES,openai/gpt-4o-mini,clinical,20,20,1.776667,0.110768,19.0,0.110768,19,,,
+all,four models,five,Middle minus High SES,google/gemini-3-flash-preview,clinical,20,20,0.718333,0.152148,19.0,0.152148,19,,,
+all,four models,five,Middle minus High SES,deepseek/deepseek-chat-v3,clinical,20,20,1.168333,0.112064,19.0,0.112064,19,,,
+all,four models,five,Middle minus High SES,z-ai/glm-4.7,clinical,20,20,1.221667,0.17153,19.0,0.17153,19,,,
+all,four models,five,Middle minus High SES,pooled,clinical,80,80,1.22125,0.069552,66.570149,0.080245,79,0.080245,79.0,1.22125
+all,four models,five,Middle minus High SES,openai/gpt-4o-mini,narrative,20,20,0.911667,0.119558,19.0,0.119558,19,,,
+all,four models,five,Middle minus High SES,google/gemini-3-flash-preview,narrative,20,20,1.168333,0.121912,19.0,0.121912,19,,,
+all,four models,five,Middle minus High SES,deepseek/deepseek-chat-v3,narrative,20,20,1.808333,0.090414,19.0,0.090414,19,,,
+all,four models,five,Middle minus High SES,z-ai/glm-4.7,narrative,20,20,1.571667,0.210614,19.0,0.210614,19,,,
+all,four models,five,Middle minus High SES,pooled,narrative,80,80,1.365,0.071453,51.547075,0.08026,79,0.08026,79.0,1.365
+all,four models,five,Middle minus High SES,openai/gpt-4o-mini,combined,20,40,1.344167,0.092995,19.0,0.092995,19,,,
+all,four models,five,Middle minus High SES,google/gemini-3-flash-preview,combined,20,40,0.943333,0.114589,19.0,0.114589,19,,,
+all,four models,five,Middle minus High SES,deepseek/deepseek-chat-v3,combined,20,40,1.488333,0.088853,19.0,0.088853,19,,,
+all,four models,five,Middle minus High SES,z-ai/glm-4.7,combined,20,40,1.396667,0.167509,19.0,0.167509,19,,,
+all,four models,five,Middle minus High SES,pooled,combined,80,160,1.293125,0.060069,57.736483,0.063413,79,0.056855,159.0,1.293125
+all,four models,five,Low minus Middle SES,openai/gpt-4o-mini,clinical,20,20,1.745,0.084302,19.0,0.084302,19,,,
+all,four models,five,Low minus Middle SES,google/gemini-3-flash-preview,clinical,20,20,6.735,0.303628,19.0,0.303628,19,,,
+all,four models,five,Low minus Middle SES,deepseek/deepseek-chat-v3,clinical,20,20,1.215,0.144742,19.0,0.144742,19,,,
+all,four models,five,Low minus Middle SES,z-ai/glm-4.7,clinical,20,20,4.806667,0.188338,19.0,0.188338,19,,,
+all,four models,five,Low minus Middle SES,pooled,clinical,80,80,3.625417,0.098653,44.962708,0.271946,79,0.271946,79.0,3.625417
+all,four models,five,Low minus Middle SES,openai/gpt-4o-mini,narrative,20,20,1.191667,0.09406,19.0,0.09406,19,,,
+all,four models,five,Low minus Middle SES,google/gemini-3-flash-preview,narrative,20,20,5.506667,0.520243,19.0,0.520243,19,,,
+all,four models,five,Low minus Middle SES,deepseek/deepseek-chat-v3,narrative,20,20,0.703333,0.075157,19.0,0.075157,19,,,
+all,four models,five,Low minus Middle SES,z-ai/glm-4.7,narrative,20,20,5.758333,0.224388,19.0,0.224388,19,,,
+all,four models,five,Low minus Middle SES,pooled,narrative,80,80,3.29,0.144806,28.177574,0.300182,79,0.300182,79.0,3.29
+all,four models,five,Low minus Middle SES,openai/gpt-4o-mini,combined,20,40,1.468333,0.062066,19.0,0.062066,19,,,
+all,four models,five,Low minus Middle SES,google/gemini-3-flash-preview,combined,20,40,6.120833,0.404572,19.0,0.404572,19,,,
+all,four models,five,Low minus Middle SES,deepseek/deepseek-chat-v3,combined,20,40,0.959167,0.094432,19.0,0.094432,19,,,
+all,four models,five,Low minus Middle SES,z-ai/glm-4.7,combined,20,40,5.2825,0.184607,19.0,0.184607,19,,,
+all,four models,five,Low minus Middle SES,pooled,combined,80,160,3.457708,0.114708,30.025812,0.27914,79,0.202324,159.0,3.457708
+all,without GLM-4.7,n/a,Black minus White,openai/gpt-4o-mini,clinical,12,12,-0.044444,0.106152,11.0,0.106152,11,,,
+all,without GLM-4.7,n/a,Black minus White,google/gemini-3-flash-preview,clinical,12,12,-0.272222,0.155907,11.0,0.155907,11,,,
+all,without GLM-4.7,n/a,Black minus White,deepseek/deepseek-chat-v3,clinical,12,12,0.258333,0.165558,11.0,0.165558,11,,,
+all,without GLM-4.7,n/a,Black minus White,pooled,clinical,36,36,-0.019444,0.083656,29.704118,0.08915,35,0.08915,35.0,-0.019444
+all,without GLM-4.7,n/a,Black minus White,openai/gpt-4o-mini,narrative,12,12,0.477778,0.150886,11.0,0.150886,11,,,
+all,without GLM-4.7,n/a,Black minus White,google/gemini-3-flash-preview,narrative,12,12,-0.516667,0.271345,11.0,0.271345,11,,,
+all,without GLM-4.7,n/a,Black minus White,deepseek/deepseek-chat-v3,narrative,12,12,0.169444,0.133866,11.0,0.133866,11,,,
+all,without GLM-4.7,n/a,Black minus White,pooled,narrative,36,36,0.043519,0.112702,22.960748,0.130044,35,0.130044,35.0,0.043519
+all,without GLM-4.7,n/a,Black minus White,openai/gpt-4o-mini,combined,12,24,0.216667,0.092273,11.0,0.092273,11,,,
+all,without GLM-4.7,n/a,Black minus White,google/gemini-3-flash-preview,combined,12,24,-0.394444,0.193381,11.0,0.193381,11,,,
+all,without GLM-4.7,n/a,Black minus White,deepseek/deepseek-chat-v3,combined,12,24,0.213889,0.107599,11.0,0.107599,11,,,
+all,without GLM-4.7,n/a,Black minus White,pooled,combined,36,72,0.012037,0.079922,22.65014,0.091559,35,0.078366,71.0,0.012037
+all,without GLM-4.7,n/a,Hispanic minus White,openai/gpt-4o-mini,clinical,12,12,-0.027778,0.121912,11.0,0.121912,11,,,
+all,without GLM-4.7,n/a,Hispanic minus White,google/gemini-3-flash-preview,clinical,12,12,-0.041667,0.094292,11.0,0.094292,11,,,
+all,without GLM-4.7,n/a,Hispanic minus White,deepseek/deepseek-chat-v3,clinical,12,12,0.147222,0.120846,11.0,0.120846,11,,,
+all,without GLM-4.7,n/a,Hispanic minus White,pooled,clinical,36,36,0.025926,0.065283,31.534778,0.065034,35,0.065034,35.0,0.025926
+all,without GLM-4.7,n/a,Hispanic minus White,openai/gpt-4o-mini,narrative,12,12,0.308333,0.126872,11.0,0.126872,11,,,
+all,without GLM-4.7,n/a,Hispanic minus White,google/gemini-3-flash-preview,narrative,12,12,0.027778,0.159642,11.0,0.159642,11,,,
+all,without GLM-4.7,n/a,Hispanic minus White,deepseek/deepseek-chat-v3,narrative,12,12,0.2,0.13713,11.0,0.13713,11,,,
+all,without GLM-4.7,n/a,Hispanic minus White,pooled,narrative,36,36,0.178704,0.081912,31.778873,0.081899,35,0.081899,35.0,0.178704
+all,without GLM-4.7,n/a,Hispanic minus White,openai/gpt-4o-mini,combined,12,24,0.140278,0.059049,11.0,0.059049,11,,,
+all,without GLM-4.7,n/a,Hispanic minus White,google/gemini-3-flash-preview,combined,12,24,-0.006944,0.091872,11.0,0.091872,11,,,
+all,without GLM-4.7,n/a,Hispanic minus White,deepseek/deepseek-chat-v3,combined,12,24,0.173611,0.120228,11.0,0.120228,11,,,
+all,without GLM-4.7,n/a,Hispanic minus White,pooled,combined,36,72,0.102315,0.054142,26.189128,0.054219,35,0.052706,71.0,0.102315
+all,without GLM-4.7,n/a,Asian minus White,openai/gpt-4o-mini,clinical,12,12,-0.475,0.177294,11.0,0.177294,11,,,
+all,without GLM-4.7,n/a,Asian minus White,google/gemini-3-flash-preview,clinical,12,12,-1.091667,0.464717,11.0,0.464717,11,,,
+all,without GLM-4.7,n/a,Asian minus White,deepseek/deepseek-chat-v3,clinical,12,12,-0.644444,0.17792,11.0,0.17792,11,,,
+all,without GLM-4.7,n/a,Asian minus White,pooled,clinical,36,36,-0.737037,0.176084,17.613963,0.176542,35,0.176542,35.0,-0.737037
+all,without GLM-4.7,n/a,Asian minus White,openai/gpt-4o-mini,narrative,12,12,-0.330556,0.143575,11.0,0.143575,11,,,
+all,without GLM-4.7,n/a,Asian minus White,google/gemini-3-flash-preview,narrative,12,12,-1.802778,0.795912,11.0,0.795912,11,,,
+all,without GLM-4.7,n/a,Asian minus White,deepseek/deepseek-chat-v3,narrative,12,12,-0.772222,0.121011,11.0,0.121011,11,,,
+all,without GLM-4.7,n/a,Asian minus White,pooled,narrative,36,36,-0.968519,0.272587,12.239031,0.284481,35,0.284481,35.0,-0.968519
+all,without GLM-4.7,n/a,Asian minus White,openai/gpt-4o-mini,combined,12,24,-0.402778,0.10799,11.0,0.10799,11,,,
+all,without GLM-4.7,n/a,Asian minus White,google/gemini-3-flash-preview,combined,12,24,-1.447222,0.626944,11.0,0.626944,11,,,
+all,without GLM-4.7,n/a,Asian minus White,deepseek/deepseek-chat-v3,combined,12,24,-0.708333,0.124781,11.0,0.124781,11,,,
+all,without GLM-4.7,n/a,Asian minus White,pooled,combined,36,72,-0.852778,0.2161,12.54628,0.222538,35,0.166788,71.0,-0.852778
+all,without GLM-4.7,four,Women minus Men,openai/gpt-4o-mini,clinical,24,24,0.168056,0.092828,23.0,0.092828,23,,,
+all,without GLM-4.7,four,Women minus Men,google/gemini-3-flash-preview,clinical,24,24,0.947222,0.137816,23.0,0.137816,23,,,
+all,without GLM-4.7,four,Women minus Men,deepseek/deepseek-chat-v3,clinical,24,24,0.436111,0.08903,23.0,0.08903,23,,,
+all,without GLM-4.7,four,Women minus Men,pooled,clinical,72,72,0.51713,0.062837,58.345281,0.07286,71,0.07286,71.0,0.51713
+all,without GLM-4.7,four,Women minus Men,openai/gpt-4o-mini,narrative,24,24,0.213889,0.102425,23.0,0.102425,23,,,
+all,without GLM-4.7,four,Women minus Men,google/gemini-3-flash-preview,narrative,24,24,1.023611,0.152284,23.0,0.152284,23,,,
+all,without GLM-4.7,four,Women minus Men,deepseek/deepseek-chat-v3,narrative,24,24,0.254167,0.068713,23.0,0.068713,23,,,
+all,without GLM-4.7,four,Women minus Men,pooled,narrative,72,72,0.497222,0.065322,50.615458,0.078114,71,0.078114,71.0,0.497222
+all,without GLM-4.7,four,Women minus Men,openai/gpt-4o-mini,combined,24,48,0.190972,0.072579,23.0,0.072579,23,,,
+all,without GLM-4.7,four,Women minus Men,google/gemini-3-flash-preview,combined,24,48,0.985417,0.13519,23.0,0.13519,23,,,
+all,without GLM-4.7,four,Women minus Men,deepseek/deepseek-chat-v3,combined,24,48,0.345139,0.05724,23.0,0.05724,23,,,
+all,without GLM-4.7,four,Women minus Men,pooled,combined,72,144,0.507176,0.05459,44.414585,0.067547,71,0.053229,143.0,0.507176
+all,without GLM-4.7,four,Low minus High SES,openai/gpt-4o-mini,clinical,16,16,3.504167,0.165884,15.0,0.165884,15,,,
+all,without GLM-4.7,four,Low minus High SES,google/gemini-3-flash-preview,clinical,16,16,7.158333,0.434661,15.0,0.434661,15,,,
+all,without GLM-4.7,four,Low minus High SES,deepseek/deepseek-chat-v3,clinical,16,16,2.377083,0.152714,15.0,0.152714,15,,,
+all,without GLM-4.7,four,Low minus High SES,pooled,clinical,48,48,4.346528,0.163221,23.309111,0.337818,47,0.337818,47.0,4.346528
+all,without GLM-4.7,four,Low minus High SES,openai/gpt-4o-mini,narrative,16,16,2.1,0.103905,15.0,0.103905,15,,,
+all,without GLM-4.7,four,Low minus High SES,google/gemini-3-flash-preview,narrative,16,16,6.00625,0.586043,15.0,0.586043,15,,,
+all,without GLM-4.7,four,Low minus High SES,deepseek/deepseek-chat-v3,narrative,16,16,2.58125,0.147164,15.0,0.147164,15,,,
+all,without GLM-4.7,four,Low minus High SES,pooled,narrative,48,48,3.5625,0.204369,17.879971,0.32302,47,0.32302,47.0,3.5625
+all,without GLM-4.7,four,Low minus High SES,openai/gpt-4o-mini,combined,16,32,2.802083,0.103524,15.0,0.103524,15,,,
+all,without GLM-4.7,four,Low minus High SES,google/gemini-3-flash-preview,combined,16,32,6.582292,0.499834,15.0,0.499834,15,,,
+all,without GLM-4.7,four,Low minus High SES,deepseek/deepseek-chat-v3,combined,16,32,2.479167,0.117265,15.0,0.117265,15,,,
+all,without GLM-4.7,four,Low minus High SES,pooled,combined,48,96,3.954514,0.17458,17.994413,0.320953,47,0.23592,95.0,3.954514
+all,without GLM-4.7,four,Middle minus High SES,openai/gpt-4o-mini,clinical,16,16,1.80625,0.1311,15.0,0.1311,15,,,
+all,without GLM-4.7,four,Middle minus High SES,google/gemini-3-flash-preview,clinical,16,16,0.622917,0.143331,15.0,0.143331,15,,,
+all,without GLM-4.7,four,Middle minus High SES,deepseek/deepseek-chat-v3,clinical,16,16,1.252083,0.125756,15.0,0.125756,15,,,
+all,without GLM-4.7,four,Middle minus High SES,pooled,clinical,48,48,1.227083,0.077133,44.4494,0.103288,47,0.103288,47.0,1.227083
+all,without GLM-4.7,four,Middle minus High SES,openai/gpt-4o-mini,narrative,16,16,0.927083,0.139251,15.0,0.139251,15,,,
+all,without GLM-4.7,four,Middle minus High SES,google/gemini-3-flash-preview,narrative,16,16,0.9625,0.070702,15.0,0.070702,15,,,
+all,without GLM-4.7,four,Middle minus High SES,deepseek/deepseek-chat-v3,narrative,16,16,1.8625,0.107921,15.0,0.107921,15,,,
+all,without GLM-4.7,four,Middle minus High SES,pooled,narrative,48,48,1.250694,0.063278,36.298829,0.088431,47,0.088431,47.0,1.250694
+all,without GLM-4.7,four,Middle minus High SES,openai/gpt-4o-mini,combined,16,32,1.366667,0.105804,15.0,0.105804,15,,,
+all,without GLM-4.7,four,Middle minus High SES,google/gemini-3-flash-preview,combined,16,32,0.792708,0.078351,15.0,0.078351,15,,,
+all,without GLM-4.7,four,Middle minus High SES,deepseek/deepseek-chat-v3,combined,16,32,1.557292,0.102164,15.0,0.102164,15,,,
+all,without GLM-4.7,four,Middle minus High SES,pooled,combined,48,96,1.238889,0.055548,42.539324,0.072118,47,0.067639,95.0,1.238889
+all,without GLM-4.7,four,Low minus Middle SES,openai/gpt-4o-mini,clinical,16,16,1.697917,0.090955,15.0,0.090955,15,,,
+all,without GLM-4.7,four,Low minus Middle SES,google/gemini-3-flash-preview,clinical,16,16,6.535417,0.357298,15.0,0.357298,15,,,
+all,without GLM-4.7,four,Low minus Middle SES,deepseek/deepseek-chat-v3,clinical,16,16,1.125,0.168888,15.0,0.168888,15,,,
+all,without GLM-4.7,four,Low minus Middle SES,pooled,clinical,48,48,3.119444,0.135178,23.615038,0.377884,47,0.377884,47.0,3.119444
+all,without GLM-4.7,four,Low minus Middle SES,openai/gpt-4o-mini,narrative,16,16,1.172917,0.114229,15.0,0.114229,15,,,
+all,without GLM-4.7,four,Low minus Middle SES,google/gemini-3-flash-preview,narrative,16,16,5.04375,0.59177,15.0,0.59177,15,,,
+all,without GLM-4.7,four,Low minus Middle SES,deepseek/deepseek-chat-v3,narrative,16,16,0.71875,0.084927,15.0,0.084927,15,,,
+all,without GLM-4.7,four,Low minus Middle SES,pooled,narrative,48,48,2.311806,0.202883,16.755546,0.345746,47,0.345746,47.0,2.311806
+all,without GLM-4.7,four,Low minus Middle SES,openai/gpt-4o-mini,combined,16,32,1.435417,0.066734,15.0,0.066734,15,,,
+all,without GLM-4.7,four,Low minus Middle SES,google/gemini-3-flash-preview,combined,16,32,5.789583,0.47003,15.0,0.47003,15,,,
+all,without GLM-4.7,four,Low minus Middle SES,deepseek/deepseek-chat-v3,combined,16,32,0.921875,0.111945,15.0,0.111945,15,,,
+all,without GLM-4.7,four,Low minus Middle SES,pooled,combined,48,96,2.715625,0.162588,17.332282,0.356046,47,0.25809,95.0,2.715625
+all,without GLM-4.7,five,Women minus Men,openai/gpt-4o-mini,clinical,30,30,0.201111,0.080587,29.0,0.080587,29,,,
+all,without GLM-4.7,five,Women minus Men,google/gemini-3-flash-preview,clinical,30,30,0.992222,0.129807,29.0,0.129807,29,,,
+all,without GLM-4.7,five,Women minus Men,deepseek/deepseek-chat-v3,clinical,30,30,0.38,0.079407,29.0,0.079407,29,,,
+all,without GLM-4.7,five,Women minus Men,pooled,clinical,90,90,0.524444,0.057397,69.683572,0.067153,89,0.067153,89.0,0.524444
+all,without GLM-4.7,five,Women minus Men,openai/gpt-4o-mini,narrative,30,30,0.277778,0.089818,29.0,0.089818,29,,,
+all,without GLM-4.7,five,Women minus Men,google/gemini-3-flash-preview,narrative,30,30,0.985556,0.13065,29.0,0.13065,29,,,
+all,without GLM-4.7,five,Women minus Men,deepseek/deepseek-chat-v3,narrative,30,30,0.258889,0.058997,29.0,0.058997,29,,,
+all,without GLM-4.7,five,Women minus Men,pooled,narrative,90,90,0.507407,0.056389,64.438821,0.066282,89,0.066282,89.0,0.507407
+all,without GLM-4.7,five,Women minus Men,openai/gpt-4o-mini,combined,30,60,0.239444,0.066655,29.0,0.066655,29,,,
+all,without GLM-4.7,five,Women minus Men,google/gemini-3-flash-preview,combined,30,60,0.988889,0.116314,29.0,0.116314,29,,,
+all,without GLM-4.7,five,Women minus Men,deepseek/deepseek-chat-v3,combined,30,60,0.319444,0.047733,29.0,0.047733,29,,,
+all,without GLM-4.7,five,Women minus Men,pooled,combined,90,180,0.515926,0.047434,57.183879,0.058891,89,0.04705,179.0,0.515926
+all,without GLM-4.7,five,Low minus High SES,openai/gpt-4o-mini,clinical,20,20,3.521667,0.137613,19.0,0.137613,19,,,
+all,without GLM-4.7,five,Low minus High SES,google/gemini-3-flash-preview,clinical,20,20,7.453333,0.384224,19.0,0.384224,19,,,
+all,without GLM-4.7,five,Low minus High SES,deepseek/deepseek-chat-v3,clinical,20,20,2.383333,0.127905,19.0,0.127905,19,,,
+all,without GLM-4.7,five,Low minus High SES,pooled,clinical,60,60,4.452778,0.142566,28.356864,0.315588,59,0.315588,59.0,4.452778
+all,without GLM-4.7,five,Low minus High SES,openai/gpt-4o-mini,narrative,20,20,2.103333,0.087422,19.0,0.087422,19,,,
+all,without GLM-4.7,five,Low minus High SES,google/gemini-3-flash-preview,narrative,20,20,6.675,0.558312,19.0,0.558312,19,,,
+all,without GLM-4.7,five,Low minus High SES,deepseek/deepseek-chat-v3,narrative,20,20,2.511667,0.1244,19.0,0.1244,19,,,
+all,without GLM-4.7,five,Low minus High SES,pooled,narrative,60,60,3.763333,0.192882,21.855746,0.329027,59,0.329027,59.0,3.763333
+all,without GLM-4.7,five,Low minus High SES,openai/gpt-4o-mini,combined,20,40,2.8125,0.088331,19.0,0.088331,19,,,
+all,without GLM-4.7,five,Low minus High SES,google/gemini-3-flash-preview,combined,20,40,7.064167,0.457413,19.0,0.457413,19,,,
+all,without GLM-4.7,five,Low minus High SES,deepseek/deepseek-chat-v3,combined,20,40,2.4475,0.095691,19.0,0.095691,19,,,
+all,without GLM-4.7,five,Low minus High SES,pooled,combined,60,120,4.108056,0.15853,22.131825,0.314185,59,0.229185,119.0,4.108056
+all,without GLM-4.7,five,Middle minus High SES,openai/gpt-4o-mini,clinical,20,20,1.776667,0.110768,19.0,0.110768,19,,,
+all,without GLM-4.7,five,Middle minus High SES,google/gemini-3-flash-preview,clinical,20,20,0.718333,0.152148,19.0,0.152148,19,,,
+all,without GLM-4.7,five,Middle minus High SES,deepseek/deepseek-chat-v3,clinical,20,20,1.168333,0.112064,19.0,0.112064,19,,,
+all,without GLM-4.7,five,Middle minus High SES,pooled,clinical,60,60,1.221111,0.073012,51.809427,0.091311,59,0.091311,59.0,1.221111
+all,without GLM-4.7,five,Middle minus High SES,openai/gpt-4o-mini,narrative,20,20,0.911667,0.119558,19.0,0.119558,19,,,
+all,without GLM-4.7,five,Middle minus High SES,google/gemini-3-flash-preview,narrative,20,20,1.168333,0.121912,19.0,0.121912,19,,,
+all,without GLM-4.7,five,Middle minus High SES,deepseek/deepseek-chat-v3,narrative,20,20,1.808333,0.090414,19.0,0.090414,19,,,
+all,without GLM-4.7,five,Middle minus High SES,pooled,narrative,60,60,1.296111,0.064404,53.814471,0.080105,59,0.080105,59.0,1.296111
+all,without GLM-4.7,five,Middle minus High SES,openai/gpt-4o-mini,combined,20,40,1.344167,0.092995,19.0,0.092995,19,,,
+all,without GLM-4.7,five,Middle minus High SES,google/gemini-3-flash-preview,combined,20,40,0.943333,0.114589,19.0,0.114589,19,,,
+all,without GLM-4.7,five,Middle minus High SES,deepseek/deepseek-chat-v3,combined,20,40,1.488333,0.088853,19.0,0.088853,19,,,
+all,without GLM-4.7,five,Middle minus High SES,pooled,combined,60,120,1.258611,0.05742,54.049019,0.063925,59,0.060576,119.0,1.258611
+all,without GLM-4.7,five,Low minus Middle SES,openai/gpt-4o-mini,clinical,20,20,1.745,0.084302,19.0,0.084302,19,,,
+all,without GLM-4.7,five,Low minus Middle SES,google/gemini-3-flash-preview,clinical,20,20,6.735,0.303628,19.0,0.303628,19,,,
+all,without GLM-4.7,five,Low minus Middle SES,deepseek/deepseek-chat-v3,clinical,20,20,1.215,0.144742,19.0,0.144742,19,,,
+all,without GLM-4.7,five,Low minus Middle SES,pooled,clinical,60,60,3.231667,0.115589,30.564647,0.343093,59,0.343093,59.0,3.231667
+all,without GLM-4.7,five,Low minus Middle SES,openai/gpt-4o-mini,narrative,20,20,1.191667,0.09406,19.0,0.09406,19,,,
+all,without GLM-4.7,five,Low minus Middle SES,google/gemini-3-flash-preview,narrative,20,20,5.506667,0.520243,19.0,0.520243,19,,,
+all,without GLM-4.7,five,Low minus Middle SES,deepseek/deepseek-chat-v3,narrative,20,20,0.703333,0.075157,19.0,0.075157,19,,,
+all,without GLM-4.7,five,Low minus Middle SES,pooled,narrative,60,60,2.467222,0.177998,21.058053,0.331018,59,0.331018,59.0,2.467222
+all,without GLM-4.7,five,Low minus Middle SES,openai/gpt-4o-mini,combined,20,40,1.468333,0.062066,19.0,0.062066,19,,,
+all,without GLM-4.7,five,Low minus Middle SES,google/gemini-3-flash-preview,combined,20,40,6.120833,0.404572,19.0,0.404572,19,,,
+all,without GLM-4.7,five,Low minus Middle SES,deepseek/deepseek-chat-v3,combined,20,40,0.959167,0.094432,19.0,0.094432,19,,,
+all,without GLM-4.7,five,Low minus Middle SES,pooled,combined,60,120,2.849444,0.140019,22.002765,0.332217,59,0.239941,119.0,2.849444
+dec_only,four models,n/a,Black minus White,openai/gpt-4o-mini,clinical,12,12,-0.044444,0.106152,11.0,0.106152,11,,,
+dec_only,four models,n/a,Black minus White,google/gemini-3-flash-preview,clinical,12,12,-0.272222,0.155907,11.0,0.155907,11,,,
+dec_only,four models,n/a,Black minus White,deepseek/deepseek-chat-v3,clinical,8,8,0.378571,0.211047,7.0,0.211047,7,,,
+dec_only,four models,n/a,Black minus White,z-ai/glm-4.7,clinical,12,12,-0.458333,0.201097,11.0,0.201097,11,,,
+dec_only,four models,n/a,Black minus White,pooled,clinical,44,44,-0.099107,0.086803,29.223028,0.092575,43,0.092575,43.0,-0.142532
+dec_only,four models,n/a,Black minus White,openai/gpt-4o-mini,narrative,12,12,0.477778,0.150886,11.0,0.150886,11,,,
+dec_only,four models,n/a,Black minus White,google/gemini-3-flash-preview,narrative,12,12,-0.516667,0.271345,11.0,0.271345,11,,,
+dec_only,four models,n/a,Black minus White,deepseek/deepseek-chat-v3,narrative,12,12,0.169444,0.133866,11.0,0.133866,11,,,
+dec_only,four models,n/a,Black minus White,z-ai/glm-4.7,narrative,12,12,-0.658333,0.195407,11.0,0.195407,11,,,
+dec_only,four models,n/a,Black minus White,pooled,narrative,48,48,-0.131944,0.097628,33.142823,0.11681,47,0.11681,47.0,-0.131944
+dec_only,four models,n/a,Black minus White,openai/gpt-4o-mini,combined,12,24,0.216667,0.092273,11.0,0.092273,11,,,
+dec_only,four models,n/a,Black minus White,google/gemini-3-flash-preview,combined,12,24,-0.394444,0.193381,11.0,0.193381,11,,,
+dec_only,four models,n/a,Black minus White,deepseek/deepseek-chat-v3,combined,12,20,0.233135,0.113071,11.0,0.113071,11,,,
+dec_only,four models,n/a,Black minus White,z-ai/glm-4.7,combined,12,24,-0.558333,0.16319,11.0,0.16319,11,,,
+dec_only,four models,n/a,Black minus White,pooled,combined,48,92,-0.125744,0.073027,34.172028,0.087639,47,0.074926,91.0,-0.125744
+dec_only,four models,n/a,Hispanic minus White,openai/gpt-4o-mini,clinical,12,12,-0.027778,0.121912,11.0,0.121912,11,,,
+dec_only,four models,n/a,Hispanic minus White,google/gemini-3-flash-preview,clinical,12,12,-0.041667,0.094292,11.0,0.094292,11,,,
+dec_only,four models,n/a,Hispanic minus White,deepseek/deepseek-chat-v3,clinical,12,12,0.147222,0.120846,11.0,0.120846,11,,,
+dec_only,four models,n/a,Hispanic minus White,z-ai/glm-4.7,clinical,8,8,-0.287879,0.209839,7.0,0.209839,7,,,
+dec_only,four models,n/a,Hispanic minus White,pooled,clinical,44,44,-0.052525,0.071759,20.974473,0.066788,43,0.066788,43.0,-0.031129
+dec_only,four models,n/a,Hispanic minus White,openai/gpt-4o-mini,narrative,12,12,0.308333,0.126872,11.0,0.126872,11,,,
+dec_only,four models,n/a,Hispanic minus White,google/gemini-3-flash-preview,narrative,12,12,0.027778,0.159642,11.0,0.159642,11,,,
+dec_only,four models,n/a,Hispanic minus White,deepseek/deepseek-chat-v3,narrative,12,12,0.2,0.13713,11.0,0.13713,11,,,
+dec_only,four models,n/a,Hispanic minus White,z-ai/glm-4.7,narrative,12,12,-0.719444,0.210237,11.0,0.210237,11,,,
+dec_only,four models,n/a,Hispanic minus White,pooled,narrative,48,48,-0.045833,0.080849,37.415245,0.097726,47,0.097726,47.0,-0.045833
+dec_only,four models,n/a,Hispanic minus White,openai/gpt-4o-mini,combined,12,24,0.140278,0.059049,11.0,0.059049,11,,,
+dec_only,four models,n/a,Hispanic minus White,google/gemini-3-flash-preview,combined,12,24,-0.006944,0.091872,11.0,0.091872,11,,,
+dec_only,four models,n/a,Hispanic minus White,deepseek/deepseek-chat-v3,combined,12,24,0.173611,0.120228,11.0,0.120228,11,,,
+dec_only,four models,n/a,Hispanic minus White,z-ai/glm-4.7,combined,12,20,-0.611237,0.191952,11.0,0.191952,11,,,
+dec_only,four models,n/a,Hispanic minus White,pooled,combined,48,92,-0.076073,0.062863,26.652513,0.076347,47,0.059852,91.0,-0.076073
+dec_only,four models,n/a,Asian minus White,openai/gpt-4o-mini,clinical,12,12,-0.475,0.177294,11.0,0.177294,11,,,
+dec_only,four models,n/a,Asian minus White,google/gemini-3-flash-preview,clinical,12,12,-1.091667,0.464717,11.0,0.464717,11,,,
+dec_only,four models,n/a,Asian minus White,deepseek/deepseek-chat-v3,clinical,12,12,-0.644444,0.17792,11.0,0.17792,11,,,
+dec_only,four models,n/a,Asian minus White,z-ai/glm-4.7,clinical,12,12,-1.511111,0.415186,11.0,0.415186,11,,,
+dec_only,four models,n/a,Asian minus White,pooled,clinical,48,48,-0.930556,0.167971,28.613161,0.172869,47,0.172869,47.0,-0.930556
+dec_only,four models,n/a,Asian minus White,openai/gpt-4o-mini,narrative,12,12,-0.330556,0.143575,11.0,0.143575,11,,,
+dec_only,four models,n/a,Asian minus White,google/gemini-3-flash-preview,narrative,12,12,-1.802778,0.795912,11.0,0.795912,11,,,
+dec_only,four models,n/a,Asian minus White,deepseek/deepseek-chat-v3,narrative,12,12,-0.772222,0.121011,11.0,0.121011,11,,,
+dec_only,four models,n/a,Asian minus White,z-ai/glm-4.7,narrative,12,12,-1.961111,0.452078,11.0,0.452078,11,,,
+dec_only,four models,n/a,Asian minus White,pooled,narrative,48,48,-1.216667,0.233601,18.899005,0.247161,47,0.247161,47.0,-1.216667
+dec_only,four models,n/a,Asian minus White,openai/gpt-4o-mini,combined,12,24,-0.402778,0.10799,11.0,0.10799,11,,,
+dec_only,four models,n/a,Asian minus White,google/gemini-3-flash-preview,combined,12,24,-1.447222,0.626944,11.0,0.626944,11,,,
+dec_only,four models,n/a,Asian minus White,deepseek/deepseek-chat-v3,combined,12,24,-0.708333,0.124781,11.0,0.124781,11,,,
+dec_only,four models,n/a,Asian minus White,z-ai/glm-4.7,combined,12,24,-1.736111,0.41712,11.0,0.41712,11,,,
+dec_only,four models,n/a,Asian minus White,pooled,combined,48,96,-1.073611,0.192724,20.982672,0.202367,47,0.150728,95.0,-1.073611
+dec_only,four models,four,Women minus Men,openai/gpt-4o-mini,clinical,24,24,0.168056,0.092828,23.0,0.092828,23,,,
+dec_only,four models,four,Women minus Men,google/gemini-3-flash-preview,clinical,24,24,0.947222,0.137816,23.0,0.137816,23,,,
+dec_only,four models,four,Women minus Men,deepseek/deepseek-chat-v3,clinical,20,20,0.398571,0.088383,19.0,0.088383,19,,,
+dec_only,four models,four,Women minus Men,z-ai/glm-4.7,clinical,20,20,1.646515,0.156675,19.0,0.156675,19,,,
+dec_only,four models,four,Women minus Men,pooled,clinical,88,88,0.790091,0.061221,66.797991,0.084844,87,0.084844,87.0,0.768959
+dec_only,four models,four,Women minus Men,openai/gpt-4o-mini,narrative,24,24,0.213889,0.102425,23.0,0.102425,23,,,
+dec_only,four models,four,Women minus Men,google/gemini-3-flash-preview,narrative,24,24,1.023611,0.152284,23.0,0.152284,23,,,
+dec_only,four models,four,Women minus Men,deepseek/deepseek-chat-v3,narrative,24,24,0.254167,0.068713,23.0,0.068713,23,,,
+dec_only,four models,four,Women minus Men,z-ai/glm-4.7,narrative,24,24,1.786111,0.217547,23.0,0.217547,23,,,
+dec_only,four models,four,Women minus Men,pooled,narrative,96,96,0.819444,0.073199,58.089873,0.097793,95,0.097793,95.0,0.819444
+dec_only,four models,four,Women minus Men,openai/gpt-4o-mini,combined,24,48,0.190972,0.072579,23.0,0.072579,23,,,
+dec_only,four models,four,Women minus Men,google/gemini-3-flash-preview,combined,24,48,0.985417,0.13519,23.0,0.13519,23,,,
+dec_only,four models,four,Women minus Men,deepseek/deepseek-chat-v3,combined,24,44,0.315377,0.05876,23.0,0.05876,23,,,
+dec_only,four models,four,Women minus Men,z-ai/glm-4.7,combined,24,44,1.681187,0.168086,23.0,0.168086,23,,,
+dec_only,four models,four,Women minus Men,pooled,combined,96,184,0.793238,0.058763,59.908603,0.084093,95,0.065042,183.0,0.793238
+dec_only,four models,four,Low minus High SES,openai/gpt-4o-mini,clinical,16,16,3.504167,0.165884,15.0,0.165884,15,,,
+dec_only,four models,four,Low minus High SES,google/gemini-3-flash-preview,clinical,16,16,7.158333,0.434661,15.0,0.434661,15,,,
+dec_only,four models,four,Low minus High SES,deepseek/deepseek-chat-v3,clinical,14,14,2.483333,0.152862,13.0,0.152862,13,,,
+dec_only,four models,four,Low minus High SES,z-ai/glm-4.7,clinical,14,14,6.033333,0.372612,13.0,0.372612,13,,,
+dec_only,four models,four,Low minus High SES,pooled,clinical,60,60,4.794792,0.153837,36.253236,0.288039,59,0.288039,59.0,4.830556
+dec_only,four models,four,Low minus High SES,openai/gpt-4o-mini,narrative,16,16,2.1,0.103905,15.0,0.103905,15,,,
+dec_only,four models,four,Low minus High SES,google/gemini-3-flash-preview,narrative,16,16,6.00625,0.586043,15.0,0.586043,15,,,
+dec_only,four models,four,Low minus High SES,deepseek/deepseek-chat-v3,narrative,16,16,2.58125,0.147164,15.0,0.147164,15,,,
+dec_only,four models,four,Low minus High SES,z-ai/glm-4.7,narrative,16,16,7.0125,0.392816,15.0,0.392816,15,,,
+dec_only,four models,four,Low minus High SES,pooled,narrative,64,64,4.425,0.182038,29.62221,0.320921,63,0.320921,63.0,4.425
+dec_only,four models,four,Low minus High SES,openai/gpt-4o-mini,combined,16,32,2.802083,0.103524,15.0,0.103524,15,,,
+dec_only,four models,four,Low minus High SES,google/gemini-3-flash-preview,combined,16,32,6.582292,0.499834,15.0,0.499834,15,,,
+dec_only,four models,four,Low minus High SES,deepseek/deepseek-chat-v3,combined,16,30,2.517708,0.115063,15.0,0.115063,15,,,
+dec_only,four models,four,Low minus High SES,z-ai/glm-4.7,combined,16,30,6.666667,0.369641,15.0,0.369641,15,,,
+dec_only,four models,four,Low minus High SES,pooled,combined,64,124,4.642187,0.160161,31.050025,0.294919,63,0.216372,123.0,4.642188
+dec_only,four models,four,Middle minus High SES,openai/gpt-4o-mini,clinical,16,16,1.80625,0.1311,15.0,0.1311,15,,,
+dec_only,four models,four,Middle minus High SES,google/gemini-3-flash-preview,clinical,16,16,0.622917,0.143331,15.0,0.143331,15,,,
+dec_only,four models,four,Middle minus High SES,deepseek/deepseek-chat-v3,clinical,14,14,1.288095,0.140929,13.0,0.140929,13,,,
+dec_only,four models,four,Middle minus High SES,z-ai/glm-4.7,clinical,14,14,1.209524,0.212877,13.0,0.212877,13,,,
+dec_only,four models,four,Middle minus High SES,pooled,clinical,60,60,1.231696,0.080198,44.846667,0.095345,59,0.095345,59.0,1.230556
+dec_only,four models,four,Middle minus High SES,openai/gpt-4o-mini,narrative,16,16,0.927083,0.139251,15.0,0.139251,15,,,
+dec_only,four models,four,Middle minus High SES,google/gemini-3-flash-preview,narrative,16,16,0.9625,0.070702,15.0,0.070702,15,,,
+dec_only,four models,four,Middle minus High SES,deepseek/deepseek-chat-v3,narrative,16,16,1.8625,0.107921,15.0,0.107921,15,,,
+dec_only,four models,four,Middle minus High SES,z-ai/glm-4.7,narrative,16,16,1.4125,0.211605,15.0,0.211605,15,,,
+dec_only,four models,four,Middle minus High SES,pooled,narrative,64,64,1.291146,0.071069,38.543529,0.084373,63,0.084373,63.0,1.291146
+dec_only,four models,four,Middle minus High SES,openai/gpt-4o-mini,combined,16,32,1.366667,0.105804,15.0,0.105804,15,,,
+dec_only,four models,four,Middle minus High SES,google/gemini-3-flash-preview,combined,16,32,0.792708,0.078351,15.0,0.078351,15,,,
+dec_only,four models,four,Middle minus High SES,deepseek/deepseek-chat-v3,combined,16,30,1.609375,0.103961,15.0,0.103961,15,,,
+dec_only,four models,four,Middle minus High SES,z-ai/glm-4.7,combined,16,30,1.364583,0.182123,15.0,0.182123,15,,,
+dec_only,four models,four,Middle minus High SES,pooled,combined,64,124,1.283333,0.061902,40.858302,0.071275,63,0.06324,123.0,1.283333
+dec_only,four models,four,Low minus Middle SES,openai/gpt-4o-mini,clinical,16,16,1.697917,0.090955,15.0,0.090955,15,,,
+dec_only,four models,four,Low minus Middle SES,google/gemini-3-flash-preview,clinical,16,16,6.535417,0.357298,15.0,0.357298,15,,,
+dec_only,four models,four,Low minus Middle SES,deepseek/deepseek-chat-v3,clinical,14,14,1.195238,0.185818,13.0,0.185818,13,,,
+dec_only,four models,four,Low minus Middle SES,z-ai/glm-4.7,clinical,14,14,4.82381,0.262826,13.0,0.262826,13,,,
+dec_only,four models,four,Low minus Middle SES,pooled,clinical,60,60,3.563095,0.122357,37.02322,0.31406,59,0.31406,59.0,3.6
+dec_only,four models,four,Low minus Middle SES,openai/gpt-4o-mini,narrative,16,16,1.172917,0.114229,15.0,0.114229,15,,,
+dec_only,four models,four,Low minus Middle SES,google/gemini-3-flash-preview,narrative,16,16,5.04375,0.59177,15.0,0.59177,15,,,
+dec_only,four models,four,Low minus Middle SES,deepseek/deepseek-chat-v3,narrative,16,16,0.71875,0.084927,15.0,0.084927,15,,,
+dec_only,four models,four,Low minus Middle SES,z-ai/glm-4.7,narrative,16,16,5.6,0.261158,15.0,0.261158,15,,,
+dec_only,four models,four,Low minus Middle SES,pooled,narrative,64,64,3.133854,0.165578,22.636113,0.32113,63,0.32113,63.0,3.133854
+dec_only,four models,four,Low minus Middle SES,openai/gpt-4o-mini,combined,16,32,1.435417,0.066734,15.0,0.066734,15,,,
+dec_only,four models,four,Low minus Middle SES,google/gemini-3-flash-preview,combined,16,32,5.789583,0.47003,15.0,0.47003,15,,,
+dec_only,four models,four,Low minus Middle SES,deepseek/deepseek-chat-v3,combined,16,30,0.908333,0.119111,15.0,0.119111,15,,,
+dec_only,four models,four,Low minus Middle SES,z-ai/glm-4.7,combined,16,30,5.302083,0.244807,15.0,0.244807,15,,,
+dec_only,four models,four,Low minus Middle SES,pooled,combined,64,124,3.358854,0.136816,25.569118,0.307845,63,0.224936,123.0,3.358854
+dec_only,four models,five,Women minus Men,openai/gpt-4o-mini,clinical,30,30,0.201111,0.080587,29.0,0.080587,29,,,
+dec_only,four models,five,Women minus Men,google/gemini-3-flash-preview,clinical,30,30,0.992222,0.129807,29.0,0.129807,29,,,
+dec_only,four models,five,Women minus Men,deepseek/deepseek-chat-v3,clinical,26,26,0.342491,0.078187,25.0,0.078187,25,,,
+dec_only,four models,five,Women minus Men,z-ai/glm-4.7,clinical,20,20,1.646515,0.156675,19.0,0.156675,19,,,
+dec_only,four models,five,Women minus Men,pooled,clinical,106,106,0.795585,0.058097,65.607885,0.076284,105,0.076284,105.0,0.732406
+dec_only,four models,five,Women minus Men,openai/gpt-4o-mini,narrative,30,30,0.277778,0.089818,29.0,0.089818,29,,,
+dec_only,four models,five,Women minus Men,google/gemini-3-flash-preview,narrative,30,30,0.985556,0.13065,29.0,0.13065,29,,,
+dec_only,four models,five,Women minus Men,deepseek/deepseek-chat-v3,narrative,30,30,0.258889,0.058997,29.0,0.058997,29,,,
+dec_only,four models,five,Women minus Men,z-ai/glm-4.7,narrative,30,30,1.828889,0.187609,29.0,0.187609,29,,,
+dec_only,four models,five,Women minus Men,pooled,narrative,120,120,0.837778,0.063154,73.470358,0.085792,119,0.085792,119.0,0.837778
+dec_only,four models,five,Women minus Men,openai/gpt-4o-mini,combined,30,60,0.239444,0.066655,29.0,0.066655,29,,,
+dec_only,four models,five,Women minus Men,google/gemini-3-flash-preview,combined,30,60,0.988889,0.116314,29.0,0.116314,29,,,
+dec_only,four models,five,Women minus Men,deepseek/deepseek-chat-v3,combined,30,56,0.295635,0.048508,29.0,0.048508,29,,,
+dec_only,four models,five,Women minus Men,z-ai/glm-4.7,combined,30,50,1.744949,0.152983,29.0,0.152983,29,,,
+dec_only,four models,five,Women minus Men,pooled,combined,120,226,0.817229,0.052278,73.346914,0.076204,119,0.057905,225.0,0.817229
+dec_only,four models,five,Low minus High SES,openai/gpt-4o-mini,clinical,20,20,3.521667,0.137613,19.0,0.137613,19,,,
+dec_only,four models,five,Low minus High SES,google/gemini-3-flash-preview,clinical,20,20,7.453333,0.384224,19.0,0.384224,19,,,
+dec_only,four models,five,Low minus High SES,deepseek/deepseek-chat-v3,clinical,18,18,2.466667,0.12637,17.0,0.12637,17,,,
+dec_only,four models,five,Low minus High SES,z-ai/glm-4.7,clinical,14,14,6.033333,0.372612,13.0,0.372612,13,,,
+dec_only,four models,five,Low minus High SES,pooled,clinical,72,72,4.86875,0.141725,38.773186,0.274833,71,0.274833,71.0,4.838426
+dec_only,four models,five,Low minus High SES,openai/gpt-4o-mini,narrative,20,20,2.103333,0.087422,19.0,0.087422,19,,,
+dec_only,four models,five,Low minus High SES,google/gemini-3-flash-preview,narrative,20,20,6.675,0.558312,19.0,0.558312,19,,,
+dec_only,four models,five,Low minus High SES,deepseek/deepseek-chat-v3,narrative,20,20,2.511667,0.1244,19.0,0.1244,19,,,
+dec_only,four models,five,Low minus High SES,z-ai/glm-4.7,narrative,20,20,7.33,0.357549,19.0,0.357549,19,,,
+dec_only,four models,five,Low minus High SES,pooled,narrative,80,80,4.655,0.17005,35.738362,0.313876,79,0.313876,79.0,4.655
+dec_only,four models,five,Low minus High SES,openai/gpt-4o-mini,combined,20,40,2.8125,0.088331,19.0,0.088331,19,,,
+dec_only,four models,five,Low minus High SES,google/gemini-3-flash-preview,combined,20,40,7.064167,0.457413,19.0,0.457413,19,,,
+dec_only,four models,five,Low minus High SES,deepseek/deepseek-chat-v3,combined,20,38,2.478333,0.094599,19.0,0.094599,19,,,
+dec_only,four models,five,Low minus High SES,z-ai/glm-4.7,combined,20,34,7.053333,0.35628,19.0,0.35628,19,,,
+dec_only,four models,five,Low minus High SES,pooled,combined,80,152,4.852083,0.148516,39.420856,0.288156,79,0.209777,151.0,4.852083
+dec_only,four models,five,Middle minus High SES,openai/gpt-4o-mini,clinical,20,20,1.776667,0.110768,19.0,0.110768,19,,,
+dec_only,four models,five,Middle minus High SES,google/gemini-3-flash-preview,clinical,20,20,0.718333,0.152148,19.0,0.152148,19,,,
+dec_only,four models,five,Middle minus High SES,deepseek/deepseek-chat-v3,clinical,18,18,1.187037,0.123585,17.0,0.123585,17,,,
+dec_only,four models,five,Middle minus High SES,z-ai/glm-4.7,clinical,14,14,1.209524,0.212877,13.0,0.212877,13,,,
+dec_only,four models,five,Middle minus High SES,pooled,clinical,72,72,1.22289,0.077463,44.35434,0.085798,71,0.085798,71.0,1.225
+dec_only,four models,five,Middle minus High SES,openai/gpt-4o-mini,narrative,20,20,0.911667,0.119558,19.0,0.119558,19,,,
+dec_only,four models,five,Middle minus High SES,google/gemini-3-flash-preview,narrative,20,20,1.168333,0.121912,19.0,0.121912,19,,,
+dec_only,four models,five,Middle minus High SES,deepseek/deepseek-chat-v3,narrative,20,20,1.808333,0.090414,19.0,0.090414,19,,,
+dec_only,four models,five,Middle minus High SES,z-ai/glm-4.7,narrative,20,20,1.571667,0.210614,19.0,0.210614,19,,,
+dec_only,four models,five,Middle minus High SES,pooled,narrative,80,80,1.365,0.071453,51.547075,0.08026,79,0.08026,79.0,1.365
+dec_only,four models,five,Middle minus High SES,openai/gpt-4o-mini,combined,20,40,1.344167,0.092995,19.0,0.092995,19,,,
+dec_only,four models,five,Middle minus High SES,google/gemini-3-flash-preview,combined,20,40,0.943333,0.114589,19.0,0.114589,19,,,
+dec_only,four models,five,Middle minus High SES,deepseek/deepseek-chat-v3,combined,20,38,1.53,0.091946,19.0,0.091946,19,,,
+dec_only,four models,five,Middle minus High SES,z-ai/glm-4.7,combined,20,34,1.533333,0.194136,19.0,0.194136,19,,,
+dec_only,four models,five,Middle minus High SES,pooled,combined,80,152,1.337708,0.065154,50.401264,0.069385,79,0.0587,151.0,1.337708
+dec_only,four models,five,Low minus Middle SES,openai/gpt-4o-mini,clinical,20,20,1.745,0.084302,19.0,0.084302,19,,,
+dec_only,four models,five,Low minus Middle SES,google/gemini-3-flash-preview,clinical,20,20,6.735,0.303628,19.0,0.303628,19,,,
+dec_only,four models,five,Low minus Middle SES,deepseek/deepseek-chat-v3,clinical,18,18,1.27963,0.153396,17.0,0.153396,17,,,
+dec_only,four models,five,Low minus Middle SES,z-ai/glm-4.7,clinical,14,14,4.82381,0.262826,13.0,0.262826,13,,,
+dec_only,four models,five,Low minus Middle SES,pooled,clinical,72,72,3.64586,0.109517,43.346974,0.293633,71,0.293633,71.0,3.613426
+dec_only,four models,five,Low minus Middle SES,openai/gpt-4o-mini,narrative,20,20,1.191667,0.09406,19.0,0.09406,19,,,
+dec_only,four models,five,Low minus Middle SES,google/gemini-3-flash-preview,narrative,20,20,5.506667,0.520243,19.0,0.520243,19,,,
+dec_only,four models,five,Low minus Middle SES,deepseek/deepseek-chat-v3,narrative,20,20,0.703333,0.075157,19.0,0.075157,19,,,
+dec_only,four models,five,Low minus Middle SES,z-ai/glm-4.7,narrative,20,20,5.758333,0.224388,19.0,0.224388,19,,,
+dec_only,four models,five,Low minus Middle SES,pooled,narrative,80,80,3.29,0.144806,28.177574,0.300182,79,0.300182,79.0,3.29
+dec_only,four models,five,Low minus Middle SES,openai/gpt-4o-mini,combined,20,40,1.468333,0.062066,19.0,0.062066,19,,,
+dec_only,four models,five,Low minus Middle SES,google/gemini-3-flash-preview,combined,20,40,6.120833,0.404572,19.0,0.404572,19,,,
+dec_only,four models,five,Low minus Middle SES,deepseek/deepseek-chat-v3,combined,20,38,0.948333,0.100036,19.0,0.100036,19,,,
+dec_only,four models,five,Low minus Middle SES,z-ai/glm-4.7,combined,20,34,5.52,0.223259,19.0,0.223259,19,,,
+dec_only,four models,five,Low minus Middle SES,pooled,combined,80,152,3.514375,0.119211,33.424594,0.28633,79,0.210211,151.0,3.514375
+dec_only,without GLM-4.7,n/a,Black minus White,openai/gpt-4o-mini,clinical,12,12,-0.044444,0.106152,11.0,0.106152,11,,,
+dec_only,without GLM-4.7,n/a,Black minus White,google/gemini-3-flash-preview,clinical,12,12,-0.272222,0.155907,11.0,0.155907,11,,,
+dec_only,without GLM-4.7,n/a,Black minus White,deepseek/deepseek-chat-v3,clinical,8,8,0.378571,0.211047,7.0,0.211047,7,,,
+dec_only,without GLM-4.7,n/a,Black minus White,pooled,clinical,32,32,0.020635,0.094349,18.408914,0.096465,31,0.096465,31.0,-0.024107
+dec_only,without GLM-4.7,n/a,Black minus White,openai/gpt-4o-mini,narrative,12,12,0.477778,0.150886,11.0,0.150886,11,,,
+dec_only,without GLM-4.7,n/a,Black minus White,google/gemini-3-flash-preview,narrative,12,12,-0.516667,0.271345,11.0,0.271345,11,,,
+dec_only,without GLM-4.7,n/a,Black minus White,deepseek/deepseek-chat-v3,narrative,12,12,0.169444,0.133866,11.0,0.133866,11,,,
+dec_only,without GLM-4.7,n/a,Black minus White,pooled,narrative,36,36,0.043519,0.112702,22.960748,0.130044,35,0.130044,35.0,0.043519
+dec_only,without GLM-4.7,n/a,Black minus White,openai/gpt-4o-mini,combined,12,24,0.216667,0.092273,11.0,0.092273,11,,,
+dec_only,without GLM-4.7,n/a,Black minus White,google/gemini-3-flash-preview,combined,12,24,-0.394444,0.193381,11.0,0.193381,11,,,
+dec_only,without GLM-4.7,n/a,Black minus White,deepseek/deepseek-chat-v3,combined,12,20,0.233135,0.113071,11.0,0.113071,11,,,
+dec_only,without GLM-4.7,n/a,Black minus White,pooled,combined,36,68,0.018452,0.080757,23.186631,0.09266,35,0.081977,67.0,0.018452
+dec_only,without GLM-4.7,n/a,Hispanic minus White,openai/gpt-4o-mini,clinical,12,12,-0.027778,0.121912,11.0,0.121912,11,,,
+dec_only,without GLM-4.7,n/a,Hispanic minus White,google/gemini-3-flash-preview,clinical,12,12,-0.041667,0.094292,11.0,0.094292,11,,,
+dec_only,without GLM-4.7,n/a,Hispanic minus White,deepseek/deepseek-chat-v3,clinical,12,12,0.147222,0.120846,11.0,0.120846,11,,,
+dec_only,without GLM-4.7,n/a,Hispanic minus White,pooled,clinical,36,36,0.025926,0.065283,31.534778,0.065034,35,0.065034,35.0,0.025926
+dec_only,without GLM-4.7,n/a,Hispanic minus White,openai/gpt-4o-mini,narrative,12,12,0.308333,0.126872,11.0,0.126872,11,,,
+dec_only,without GLM-4.7,n/a,Hispanic minus White,google/gemini-3-flash-preview,narrative,12,12,0.027778,0.159642,11.0,0.159642,11,,,
+dec_only,without GLM-4.7,n/a,Hispanic minus White,deepseek/deepseek-chat-v3,narrative,12,12,0.2,0.13713,11.0,0.13713,11,,,
+dec_only,without GLM-4.7,n/a,Hispanic minus White,pooled,narrative,36,36,0.178704,0.081912,31.778873,0.081899,35,0.081899,35.0,0.178704
+dec_only,without GLM-4.7,n/a,Hispanic minus White,openai/gpt-4o-mini,combined,12,24,0.140278,0.059049,11.0,0.059049,11,,,
+dec_only,without GLM-4.7,n/a,Hispanic minus White,google/gemini-3-flash-preview,combined,12,24,-0.006944,0.091872,11.0,0.091872,11,,,
+dec_only,without GLM-4.7,n/a,Hispanic minus White,deepseek/deepseek-chat-v3,combined,12,24,0.173611,0.120228,11.0,0.120228,11,,,
+dec_only,without GLM-4.7,n/a,Hispanic minus White,pooled,combined,36,72,0.102315,0.054142,26.189128,0.054219,35,0.052706,71.0,0.102315
+dec_only,without GLM-4.7,n/a,Asian minus White,openai/gpt-4o-mini,clinical,12,12,-0.475,0.177294,11.0,0.177294,11,,,
+dec_only,without GLM-4.7,n/a,Asian minus White,google/gemini-3-flash-preview,clinical,12,12,-1.091667,0.464717,11.0,0.464717,11,,,
+dec_only,without GLM-4.7,n/a,Asian minus White,deepseek/deepseek-chat-v3,clinical,12,12,-0.644444,0.17792,11.0,0.17792,11,,,
+dec_only,without GLM-4.7,n/a,Asian minus White,pooled,clinical,36,36,-0.737037,0.176084,17.613963,0.176542,35,0.176542,35.0,-0.737037
+dec_only,without GLM-4.7,n/a,Asian minus White,openai/gpt-4o-mini,narrative,12,12,-0.330556,0.143575,11.0,0.143575,11,,,
+dec_only,without GLM-4.7,n/a,Asian minus White,google/gemini-3-flash-preview,narrative,12,12,-1.802778,0.795912,11.0,0.795912,11,,,
+dec_only,without GLM-4.7,n/a,Asian minus White,deepseek/deepseek-chat-v3,narrative,12,12,-0.772222,0.121011,11.0,0.121011,11,,,
+dec_only,without GLM-4.7,n/a,Asian minus White,pooled,narrative,36,36,-0.968519,0.272587,12.239031,0.284481,35,0.284481,35.0,-0.968519
+dec_only,without GLM-4.7,n/a,Asian minus White,openai/gpt-4o-mini,combined,12,24,-0.402778,0.10799,11.0,0.10799,11,,,
+dec_only,without GLM-4.7,n/a,Asian minus White,google/gemini-3-flash-preview,combined,12,24,-1.447222,0.626944,11.0,0.626944,11,,,
+dec_only,without GLM-4.7,n/a,Asian minus White,deepseek/deepseek-chat-v3,combined,12,24,-0.708333,0.124781,11.0,0.124781,11,,,
+dec_only,without GLM-4.7,n/a,Asian minus White,pooled,combined,36,72,-0.852778,0.2161,12.54628,0.222538,35,0.166788,71.0,-0.852778
+dec_only,without GLM-4.7,four,Women minus Men,openai/gpt-4o-mini,clinical,24,24,0.168056,0.092828,23.0,0.092828,23,,,
+dec_only,without GLM-4.7,four,Women minus Men,google/gemini-3-flash-preview,clinical,24,24,0.947222,0.137816,23.0,0.137816,23,,,
+dec_only,without GLM-4.7,four,Women minus Men,deepseek/deepseek-chat-v3,clinical,20,20,0.398571,0.088383,19.0,0.088383,19,,,
+dec_only,without GLM-4.7,four,Women minus Men,pooled,clinical,68,68,0.504616,0.062736,56.711255,0.075327,67,0.075327,67.0,0.510854
+dec_only,without GLM-4.7,four,Women minus Men,openai/gpt-4o-mini,narrative,24,24,0.213889,0.102425,23.0,0.102425,23,,,
+dec_only,without GLM-4.7,four,Women minus Men,google/gemini-3-flash-preview,narrative,24,24,1.023611,0.152284,23.0,0.152284,23,,,
+dec_only,without GLM-4.7,four,Women minus Men,deepseek/deepseek-chat-v3,narrative,24,24,0.254167,0.068713,23.0,0.068713,23,,,
+dec_only,without GLM-4.7,four,Women minus Men,pooled,narrative,72,72,0.497222,0.065322,50.615458,0.078114,71,0.078114,71.0,0.497222
+dec_only,without GLM-4.7,four,Women minus Men,openai/gpt-4o-mini,combined,24,48,0.190972,0.072579,23.0,0.072579,23,,,
+dec_only,without GLM-4.7,four,Women minus Men,google/gemini-3-flash-preview,combined,24,48,0.985417,0.13519,23.0,0.13519,23,,,
+dec_only,without GLM-4.7,four,Women minus Men,deepseek/deepseek-chat-v3,combined,24,44,0.315377,0.05876,23.0,0.05876,23,,,
+dec_only,without GLM-4.7,four,Women minus Men,pooled,combined,72,140,0.497255,0.054769,44.857551,0.068042,71,0.054145,139.0,0.497255
+dec_only,without GLM-4.7,four,Low minus High SES,openai/gpt-4o-mini,clinical,16,16,3.504167,0.165884,15.0,0.165884,15,,,
+dec_only,without GLM-4.7,four,Low minus High SES,google/gemini-3-flash-preview,clinical,16,16,7.158333,0.434661,15.0,0.434661,15,,,
+dec_only,without GLM-4.7,four,Low minus High SES,deepseek/deepseek-chat-v3,clinical,14,14,2.483333,0.152862,13.0,0.152862,13,,,
+dec_only,without GLM-4.7,four,Low minus High SES,pooled,clinical,46,46,4.381944,0.163236,23.26379,0.341928,45,0.341928,45.0,4.464493
+dec_only,without GLM-4.7,four,Low minus High SES,openai/gpt-4o-mini,narrative,16,16,2.1,0.103905,15.0,0.103905,15,,,
+dec_only,without GLM-4.7,four,Low minus High SES,google/gemini-3-flash-preview,narrative,16,16,6.00625,0.586043,15.0,0.586043,15,,,
+dec_only,without GLM-4.7,four,Low minus High SES,deepseek/deepseek-chat-v3,narrative,16,16,2.58125,0.147164,15.0,0.147164,15,,,
+dec_only,without GLM-4.7,four,Low minus High SES,pooled,narrative,48,48,3.5625,0.204369,17.879971,0.32302,47,0.32302,47.0,3.5625
+dec_only,without GLM-4.7,four,Low minus High SES,openai/gpt-4o-mini,combined,16,32,2.802083,0.103524,15.0,0.103524,15,,,
+dec_only,without GLM-4.7,four,Low minus High SES,google/gemini-3-flash-preview,combined,16,32,6.582292,0.499834,15.0,0.499834,15,,,
+dec_only,without GLM-4.7,four,Low minus High SES,deepseek/deepseek-chat-v3,combined,16,30,2.517708,0.115063,15.0,0.115063,15,,,
+dec_only,without GLM-4.7,four,Low minus High SES,pooled,combined,48,94,3.967361,0.174417,17.931295,0.31962,47,0.238321,93.0,3.967361
+dec_only,without GLM-4.7,four,Middle minus High SES,openai/gpt-4o-mini,clinical,16,16,1.80625,0.1311,15.0,0.1311,15,,,
+dec_only,without GLM-4.7,four,Middle minus High SES,google/gemini-3-flash-preview,clinical,16,16,0.622917,0.143331,15.0,0.143331,15,,,
+dec_only,without GLM-4.7,four,Middle minus High SES,deepseek/deepseek-chat-v3,clinical,14,14,1.288095,0.140929,13.0,0.140929,13,,,
+dec_only,without GLM-4.7,four,Middle minus High SES,pooled,clinical,46,46,1.239087,0.079994,42.429562,0.107508,45,0.107508,45.0,1.236957
+dec_only,without GLM-4.7,four,Middle minus High SES,openai/gpt-4o-mini,narrative,16,16,0.927083,0.139251,15.0,0.139251,15,,,
+dec_only,without GLM-4.7,four,Middle minus High SES,google/gemini-3-flash-preview,narrative,16,16,0.9625,0.070702,15.0,0.070702,15,,,
+dec_only,without GLM-4.7,four,Middle minus High SES,deepseek/deepseek-chat-v3,narrative,16,16,1.8625,0.107921,15.0,0.107921,15,,,
+dec_only,without GLM-4.7,four,Middle minus High SES,pooled,narrative,48,48,1.250694,0.063278,36.298829,0.088431,47,0.088431,47.0,1.250694
+dec_only,without GLM-4.7,four,Middle minus High SES,openai/gpt-4o-mini,combined,16,32,1.366667,0.105804,15.0,0.105804,15,,,
+dec_only,without GLM-4.7,four,Middle minus High SES,google/gemini-3-flash-preview,combined,16,32,0.792708,0.078351,15.0,0.078351,15,,,
+dec_only,without GLM-4.7,four,Middle minus High SES,deepseek/deepseek-chat-v3,combined,16,30,1.609375,0.103961,15.0,0.103961,15,,,
+dec_only,without GLM-4.7,four,Middle minus High SES,pooled,combined,48,94,1.25625,0.055918,42.453179,0.074084,47,0.068959,93.0,1.25625
+dec_only,without GLM-4.7,four,Low minus Middle SES,openai/gpt-4o-mini,clinical,16,16,1.697917,0.090955,15.0,0.090955,15,,,
+dec_only,without GLM-4.7,four,Low minus Middle SES,google/gemini-3-flash-preview,clinical,16,16,6.535417,0.357298,15.0,0.357298,15,,,
+dec_only,without GLM-4.7,four,Low minus Middle SES,deepseek/deepseek-chat-v3,clinical,14,14,1.195238,0.185818,13.0,0.185818,13,,,
+dec_only,without GLM-4.7,four,Low minus Middle SES,pooled,clinical,46,46,3.142857,0.137624,24.567349,0.386512,45,0.386512,45.0,3.227536
+dec_only,without GLM-4.7,four,Low minus Middle SES,openai/gpt-4o-mini,narrative,16,16,1.172917,0.114229,15.0,0.114229,15,,,
+dec_only,without GLM-4.7,four,Low minus Middle SES,google/gemini-3-flash-preview,narrative,16,16,5.04375,0.59177,15.0,0.59177,15,,,
+dec_only,without GLM-4.7,four,Low minus Middle SES,deepseek/deepseek-chat-v3,narrative,16,16,0.71875,0.084927,15.0,0.084927,15,,,
+dec_only,without GLM-4.7,four,Low minus Middle SES,pooled,narrative,48,48,2.311806,0.202883,16.755546,0.345746,47,0.345746,47.0,2.311806
+dec_only,without GLM-4.7,four,Low minus Middle SES,openai/gpt-4o-mini,combined,16,32,1.435417,0.066734,15.0,0.066734,15,,,
+dec_only,without GLM-4.7,four,Low minus Middle SES,google/gemini-3-flash-preview,combined,16,32,5.789583,0.47003,15.0,0.47003,15,,,
+dec_only,without GLM-4.7,four,Low minus Middle SES,deepseek/deepseek-chat-v3,combined,16,30,0.908333,0.119111,15.0,0.119111,15,,,
+dec_only,without GLM-4.7,four,Low minus Middle SES,pooled,combined,48,94,2.711111,0.163153,17.55851,0.356778,47,0.26168,93.0,2.711111
+dec_only,without GLM-4.7,five,Women minus Men,openai/gpt-4o-mini,clinical,30,30,0.201111,0.080587,29.0,0.080587,29,,,
+dec_only,without GLM-4.7,five,Women minus Men,google/gemini-3-flash-preview,clinical,30,30,0.992222,0.129807,29.0,0.129807,29,,,
+dec_only,without GLM-4.7,five,Women minus Men,deepseek/deepseek-chat-v3,clinical,26,26,0.342491,0.078187,25.0,0.078187,25,,,
+dec_only,without GLM-4.7,five,Women minus Men,pooled,clinical,86,86,0.511941,0.05721,68.113918,0.069039,85,0.069039,85.0,0.519823
+dec_only,without GLM-4.7,five,Women minus Men,openai/gpt-4o-mini,narrative,30,30,0.277778,0.089818,29.0,0.089818,29,,,
+dec_only,without GLM-4.7,five,Women minus Men,google/gemini-3-flash-preview,narrative,30,30,0.985556,0.13065,29.0,0.13065,29,,,
+dec_only,without GLM-4.7,five,Women minus Men,deepseek/deepseek-chat-v3,narrative,30,30,0.258889,0.058997,29.0,0.058997,29,,,
+dec_only,without GLM-4.7,five,Women minus Men,pooled,narrative,90,90,0.507407,0.056389,64.438821,0.066282,89,0.066282,89.0,0.507407
+dec_only,without GLM-4.7,five,Women minus Men,openai/gpt-4o-mini,combined,30,60,0.239444,0.066655,29.0,0.066655,29,,,
+dec_only,without GLM-4.7,five,Women minus Men,google/gemini-3-flash-preview,combined,30,60,0.988889,0.116314,29.0,0.116314,29,,,
+dec_only,without GLM-4.7,five,Women minus Men,deepseek/deepseek-chat-v3,combined,30,56,0.295635,0.048508,29.0,0.048508,29,,,
+dec_only,without GLM-4.7,five,Women minus Men,pooled,combined,90,176,0.507989,0.047522,57.510236,0.059268,89,0.047687,175.0,0.507989
+dec_only,without GLM-4.7,five,Low minus High SES,openai/gpt-4o-mini,clinical,20,20,3.521667,0.137613,19.0,0.137613,19,,,
+dec_only,without GLM-4.7,five,Low minus High SES,google/gemini-3-flash-preview,clinical,20,20,7.453333,0.384224,19.0,0.384224,19,,,
+dec_only,without GLM-4.7,five,Low minus High SES,deepseek/deepseek-chat-v3,clinical,18,18,2.466667,0.12637,17.0,0.12637,17,,,
+dec_only,without GLM-4.7,five,Low minus High SES,pooled,clinical,58,58,4.480556,0.142414,28.214148,0.31882,57,0.31882,57.0,4.55
+dec_only,without GLM-4.7,five,Low minus High SES,openai/gpt-4o-mini,narrative,20,20,2.103333,0.087422,19.0,0.087422,19,,,
+dec_only,without GLM-4.7,five,Low minus High SES,google/gemini-3-flash-preview,narrative,20,20,6.675,0.558312,19.0,0.558312,19,,,
+dec_only,without GLM-4.7,five,Low minus High SES,deepseek/deepseek-chat-v3,narrative,20,20,2.511667,0.1244,19.0,0.1244,19,,,
+dec_only,without GLM-4.7,five,Low minus High SES,pooled,narrative,60,60,3.763333,0.192882,21.855746,0.329027,59,0.329027,59.0,3.763333
+dec_only,without GLM-4.7,five,Low minus High SES,openai/gpt-4o-mini,combined,20,40,2.8125,0.088331,19.0,0.088331,19,,,
+dec_only,without GLM-4.7,five,Low minus High SES,google/gemini-3-flash-preview,combined,20,40,7.064167,0.457413,19.0,0.457413,19,,,
+dec_only,without GLM-4.7,five,Low minus High SES,deepseek/deepseek-chat-v3,combined,20,38,2.478333,0.094599,19.0,0.094599,19,,,
+dec_only,without GLM-4.7,five,Low minus High SES,pooled,combined,60,118,4.118333,0.158457,22.09306,0.313233,59,0.23113,117.0,4.118333
+dec_only,without GLM-4.7,five,Middle minus High SES,openai/gpt-4o-mini,clinical,20,20,1.776667,0.110768,19.0,0.110768,19,,,
+dec_only,without GLM-4.7,five,Middle minus High SES,google/gemini-3-flash-preview,clinical,20,20,0.718333,0.152148,19.0,0.152148,19,,,
+dec_only,without GLM-4.7,five,Middle minus High SES,deepseek/deepseek-chat-v3,clinical,18,18,1.187037,0.123585,17.0,0.123585,17,,,
+dec_only,without GLM-4.7,five,Middle minus High SES,pooled,clinical,58,58,1.227346,0.07505,51.548741,0.094268,57,0.094268,57.0,1.228736
+dec_only,without GLM-4.7,five,Middle minus High SES,openai/gpt-4o-mini,narrative,20,20,0.911667,0.119558,19.0,0.119558,19,,,
+dec_only,without GLM-4.7,five,Middle minus High SES,google/gemini-3-flash-preview,narrative,20,20,1.168333,0.121912,19.0,0.121912,19,,,
+dec_only,without GLM-4.7,five,Middle minus High SES,deepseek/deepseek-chat-v3,narrative,20,20,1.808333,0.090414,19.0,0.090414,19,,,
+dec_only,without GLM-4.7,five,Middle minus High SES,pooled,narrative,60,60,1.296111,0.064404,53.814471,0.080105,59,0.080105,59.0,1.296111
+dec_only,without GLM-4.7,five,Middle minus High SES,openai/gpt-4o-mini,combined,20,40,1.344167,0.092995,19.0,0.092995,19,,,
+dec_only,without GLM-4.7,five,Middle minus High SES,google/gemini-3-flash-preview,combined,20,40,0.943333,0.114589,19.0,0.114589,19,,,
+dec_only,without GLM-4.7,five,Middle minus High SES,deepseek/deepseek-chat-v3,combined,20,38,1.53,0.091946,19.0,0.091946,19,,,
+dec_only,without GLM-4.7,five,Middle minus High SES,pooled,combined,60,118,1.2725,0.057959,54.49575,0.065277,59,0.061506,117.0,1.2725
+dec_only,without GLM-4.7,five,Low minus Middle SES,openai/gpt-4o-mini,clinical,20,20,1.745,0.084302,19.0,0.084302,19,,,
+dec_only,without GLM-4.7,five,Low minus Middle SES,google/gemini-3-flash-preview,clinical,20,20,6.735,0.303628,19.0,0.303628,19,,,
+dec_only,without GLM-4.7,five,Low minus Middle SES,deepseek/deepseek-chat-v3,clinical,18,18,1.27963,0.153396,17.0,0.153396,17,,,
+dec_only,without GLM-4.7,five,Low minus Middle SES,pooled,clinical,58,58,3.25321,0.116822,31.264651,0.349022,57,0.349022,57.0,3.321264
+dec_only,without GLM-4.7,five,Low minus Middle SES,openai/gpt-4o-mini,narrative,20,20,1.191667,0.09406,19.0,0.09406,19,,,
+dec_only,without GLM-4.7,five,Low minus Middle SES,google/gemini-3-flash-preview,narrative,20,20,5.506667,0.520243,19.0,0.520243,19,,,
+dec_only,without GLM-4.7,five,Low minus Middle SES,deepseek/deepseek-chat-v3,narrative,20,20,0.703333,0.075157,19.0,0.075157,19,,,
+dec_only,without GLM-4.7,five,Low minus Middle SES,pooled,narrative,60,60,2.467222,0.177998,21.058053,0.331018,59,0.331018,59.0,2.467222
+dec_only,without GLM-4.7,five,Low minus Middle SES,openai/gpt-4o-mini,combined,20,40,1.468333,0.062066,19.0,0.062066,19,,,
+dec_only,without GLM-4.7,five,Low minus Middle SES,google/gemini-3-flash-preview,combined,20,40,6.120833,0.404572,19.0,0.404572,19,,,
+dec_only,without GLM-4.7,five,Low minus Middle SES,deepseek/deepseek-chat-v3,combined,20,38,0.948333,0.100036,19.0,0.100036,19,,,
+dec_only,without GLM-4.7,five,Low minus Middle SES,pooled,combined,60,118,2.845833,0.140451,22.258323,0.332741,59,0.242537,117.0,2.845833

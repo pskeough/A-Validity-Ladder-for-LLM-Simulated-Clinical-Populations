@@ -1,0 +1,81 @@
+outcome,scope,model,framing,component,estimate_raw,estimate,share_pct,boot_lo,boot_hi,n_persona
+PHQ-8 total,joint,all,both,p,6.4973,6.4973,49.483,4.9441,7.9831,71
+PHQ-8 total,joint,all,both,m,0.1196,0.1196,0.91089,0.051099,0.36726,71
+PHQ-8 total,joint,all,both,f,0.034818,0.034818,0.26516,0.0037368,0.070367,71
+PHQ-8 total,joint,all,both,pm,3.2271,3.2271,24.577,2.5696,3.8403,71
+PHQ-8 total,joint,all,both,pf,-0.0093591,0,0,-0.045049,0.032167,71
+PHQ-8 total,joint,all,both,mf,0.070066,0.070066,0.53361,0.045807,0.11528,71
+PHQ-8 total,joint,all,both,pmf,0.34251,0.34251,2.6085,0.25627,0.42265,71
+PHQ-8 total,joint,all,both,e,2.8391,2.8391,21.622,2.6223,3.0552,71
+PHQ-8 total,model,DeepSeek-V3,both,p,1.8696,1.8696,46.119,1.3711,2.423,111
+PHQ-8 total,model,DeepSeek-V3,both,f,0.27487,0.27487,6.7804,0.21098,0.35342,111
+PHQ-8 total,model,DeepSeek-V3,both,pf,0.083469,0.083469,2.059,0.049943,0.11723,111
+PHQ-8 total,model,DeepSeek-V3,both,e,1.826,1.826,45.042,1.624,2.0516,111
+PHQ-8 total,model_x_framing,DeepSeek-V3,clinical,p,2.1886,2.1886,51.704,1.5974,2.79,111
+PHQ-8 total,model_x_framing,DeepSeek-V3,clinical,e,2.0443,2.0443,48.296,1.7765,2.3167,111
+PHQ-8 total,model_x_framing,DeepSeek-V3,narrative,p,1.6074,1.6074,50.535,1.1646,2.0913,120
+PHQ-8 total,model_x_framing,DeepSeek-V3,narrative,e,1.5734,1.5734,49.465,1.3871,1.7846,120
+PHQ-8 total,model,Gemini-3-Flash,both,p,19.101,19.101,86.907,16.152,21.742,120
+PHQ-8 total,model,Gemini-3-Flash,both,f,0.046719,0.046719,0.21256,-1.4523e-05,0.12875,120
+PHQ-8 total,model,Gemini-3-Flash,both,pf,0.61407,0.61407,2.7939,0.39208,0.84598,120
+PHQ-8 total,model,Gemini-3-Flash,both,e,2.2168,2.2168,10.086,1.9797,2.4601,120
+PHQ-8 total,model_x_framing,Gemini-3-Flash,clinical,p,18.743,18.743,89.64,15.775,21.322,120
+PHQ-8 total,model_x_framing,Gemini-3-Flash,clinical,e,2.1662,2.1662,10.36,1.9044,2.4164,120
+PHQ-8 total,model_x_framing,Gemini-3-Flash,narrative,p,20.687,20.687,90.122,17.781,23.42,120
+PHQ-8 total,model_x_framing,Gemini-3-Flash,narrative,e,2.2674,2.2674,9.8779,2.0177,2.5387,120
+PHQ-8 total,model,GPT-4o-mini,both,p,1.1814,1.1814,26.737,0.93035,1.4005,120
+PHQ-8 total,model,GPT-4o-mini,both,f,6.4115e-05,6.4115e-05,0.001451,-0.00237,0.01785,120
+PHQ-8 total,model,GPT-4o-mini,both,pf,0.16554,0.16554,3.7464,0.10319,0.23062,120
+PHQ-8 total,model,GPT-4o-mini,both,e,3.0717,3.0717,69.515,2.9117,3.2417,120
+PHQ-8 total,model_x_framing,GPT-4o-mini,clinical,p,1.8873,1.8873,38.16,1.5057,2.2306,120
+PHQ-8 total,model_x_framing,GPT-4o-mini,clinical,e,3.0585,3.0585,61.84,2.8507,3.2694,120
+PHQ-8 total,model_x_framing,GPT-4o-mini,narrative,p,0.80667,0.80667,20.728,0.62185,0.9846,120
+PHQ-8 total,model_x_framing,GPT-4o-mini,narrative,e,3.085,3.085,79.272,2.8824,3.3231,120
+PHQ-8 total,model,GLM-4.7,both,p,16.3,16.3,77.127,12.727,19.663,80
+PHQ-8 total,model,GLM-4.7,both,f,0.00037933,0.00037933,0.0017949,-0.0079332,0.050644,80
+PHQ-8 total,model,GLM-4.7,both,pf,0.40407,0.40407,1.912,0.24697,0.57747,80
+PHQ-8 total,model,GLM-4.7,both,e,4.4295,4.4295,20.96,3.9712,4.8931,80
+PHQ-8 total,model_x_framing,GLM-4.7,clinical,p,13.949,13.949,71.496,10.89,16.775,80
+PHQ-8 total,model_x_framing,GLM-4.7,clinical,e,5.5612,5.5612,28.504,4.9122,6.2468,80
+PHQ-8 total,model_x_framing,GLM-4.7,narrative,p,20.159,20.159,85.013,16.676,23.274,120
+PHQ-8 total,model_x_framing,GLM-4.7,narrative,e,3.554,3.554,14.987,3.2465,3.8803,120
+PHQ-8 >= 10,joint,all,both,p,0.07792,0.07792,36.272,0.06007,0.094726,71
+PHQ-8 >= 10,joint,all,both,m,0.011451,0.011451,5.3306,0.006222,0.01899,71
+PHQ-8 >= 10,joint,all,both,f,0.00042546,0.00042546,0.19806,-0.00026696,0.0012903,71
+PHQ-8 >= 10,joint,all,both,pm,0.020194,0.020194,9.4005,0.015574,0.024081,71
+PHQ-8 >= 10,joint,all,both,pf,0.00078081,0.00078081,0.36347,-9.6413e-05,0.0017202,71
+PHQ-8 >= 10,joint,all,both,mf,0.0014798,0.0014798,0.68884,0.00059291,0.0031136,71
+PHQ-8 >= 10,joint,all,both,pmf,0.0068961,0.0068961,3.2102,0.0047151,0.0088871,71
+PHQ-8 >= 10,joint,all,both,e,0.095673,0.095673,44.536,0.080867,0.11147,71
+PHQ-8 >= 10,model,DeepSeek-V3,both,p,0.051901,0.051901,31.531,0.035896,0.066867,111
+PHQ-8 >= 10,model,DeepSeek-V3,both,f,0.0078014,0.0078014,4.7396,0.0048658,0.011475,111
+PHQ-8 >= 10,model,DeepSeek-V3,both,pf,0.0079693,0.0079693,4.8416,0.0052708,0.010603,111
+PHQ-8 >= 10,model,DeepSeek-V3,both,e,0.09693,0.09693,58.888,0.081943,0.11235,111
+PHQ-8 >= 10,model_x_framing,DeepSeek-V3,clinical,p,0.083386,0.083386,42.726,0.062783,0.10353,111
+PHQ-8 >= 10,model_x_framing,DeepSeek-V3,clinical,e,0.11178,0.11178,57.274,0.094092,0.13071,111
+PHQ-8 >= 10,model_x_framing,DeepSeek-V3,narrative,p,0.035165,0.035165,29.374,0.02269,0.04787,120
+PHQ-8 >= 10,model_x_framing,DeepSeek-V3,narrative,e,0.08455,0.08455,70.626,0.069606,0.10154,120
+PHQ-8 >= 10,model,Gemini-3-Flash,both,p,0.18144,0.18144,72.244,0.16255,0.19607,120
+PHQ-8 >= 10,model,Gemini-3-Flash,both,f,-1.5484e-05,0,0,-0.00013432,0.00072919,120
+PHQ-8 >= 10,model,Gemini-3-Flash,both,pf,0.011492,0.011492,4.5755,0.0062645,0.017161,120
+PHQ-8 >= 10,model,Gemini-3-Flash,both,e,0.058218,0.058218,23.18,0.045396,0.072039,120
+PHQ-8 >= 10,model_x_framing,Gemini-3-Flash,clinical,p,0.18725,0.18725,74.483,0.1685,0.20032,120
+PHQ-8 >= 10,model_x_framing,Gemini-3-Flash,clinical,e,0.064148,0.064148,25.517,0.049312,0.080619,120
+PHQ-8 >= 10,model_x_framing,Gemini-3-Flash,narrative,p,0.19862,0.19862,79.16,0.18134,0.21123,120
+PHQ-8 >= 10,model_x_framing,Gemini-3-Flash,narrative,e,0.052289,0.052289,20.84,0.038766,0.067578,120
+PHQ-8 >= 10,model,GPT-4o-mini,both,p,0.034115,0.034115,16.695,0.026995,0.040832,120
+PHQ-8 >= 10,model,GPT-4o-mini,both,f,1.7507e-05,1.7507e-05,0.0085673,-8.9951e-05,0.00060691,120
+PHQ-8 >= 10,model,GPT-4o-mini,both,pf,0.0039304,0.0039304,1.9234,0.0014749,0.0070355,120
+PHQ-8 >= 10,model,GPT-4o-mini,both,e,0.16628,0.16628,81.373,0.15328,0.17935,120
+PHQ-8 >= 10,model_x_framing,GPT-4o-mini,clinical,p,0.052221,0.052221,25.176,0.041898,0.060965,120
+PHQ-8 >= 10,model_x_framing,GPT-4o-mini,clinical,e,0.1552,0.1552,74.824,0.13981,0.16973,120
+PHQ-8 >= 10,model_x_framing,GPT-4o-mini,narrative,p,0.023869,0.023869,11.861,0.018498,0.029299,120
+PHQ-8 >= 10,model_x_framing,GPT-4o-mini,narrative,e,0.17737,0.17737,88.139,0.16465,0.19028,120
+PHQ-8 >= 10,model,GLM-4.7,both,p,0.13613,0.13613,60.73,0.10779,0.15913,80
+PHQ-8 >= 10,model,GLM-4.7,both,f,-7.1474e-05,0,0,-9.8097e-05,0.00029458,80
+PHQ-8 >= 10,model,GLM-4.7,both,pf,0.0031912,0.0031912,1.4237,0.00088859,0.0061233,80
+PHQ-8 >= 10,model,GLM-4.7,both,e,0.084833,0.084833,37.846,0.065219,0.10452,80
+PHQ-8 >= 10,model_x_framing,GLM-4.7,clinical,p,0.12241,0.12241,54.823,0.096929,0.1455,80
+PHQ-8 >= 10,model_x_framing,GLM-4.7,clinical,e,0.10087,0.10087,45.177,0.080544,0.12276,80
+PHQ-8 >= 10,model_x_framing,GLM-4.7,narrative,p,0.16251,0.16251,69.77,0.13701,0.18147,120
+PHQ-8 >= 10,model_x_framing,GLM-4.7,narrative,e,0.070412,0.070412,30.23,0.05384,0.088056,120

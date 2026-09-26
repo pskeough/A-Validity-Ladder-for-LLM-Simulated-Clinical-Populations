@@ -1,0 +1,9 @@
+spec,sum,size
+S1 primary,8,50
+S2 cohabiting as married,8,50
+S2b cohabiting as single,8,50
+S3 2007-2018 PIR (bridge),8,50
+S4 persona-string income,5,50
+"S5 persona-string, high top-coded",4,50
+S6 2017-2020 pre-pandemic,11,50
+S7 2021-2023,14,50

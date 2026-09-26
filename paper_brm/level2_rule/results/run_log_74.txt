@@ -1,0 +1,94 @@
+receipt: 35 pooled and per-model verdicts match paper_brm\level2_rule\results\paper_pooled_and_permodel.csv
+
+LEVEL 2 UNDER THE RATIO-INTERVAL RULE (boundaries -0.25,0.25,0.75,1.25; 90% Fieller per row, 98.6% Bonferroni on the pooled family)
+====================================================================================================
+contrast                 ratio  90% interval    66 verdict   R3 per row            98.6% Bonferroni  R3 reported
+Black minus White        -0.40  [-0.94, -0.03]  missing      reversed or missing   [-1.54,  0.16]  reversed or missing
+Hispanic minus White     -0.14  [-0.69,  0.29]  missing      undetermined          [-1.53,  0.69]  undetermined
+Asian minus White         1.42  [ 1.04,  1.90]  kept         kept or steepened     [ 0.87,  2.19]  kept or steepened
+Women minus Men           0.90  [ 0.76,  1.06]  kept         kept                  [ 0.70,  1.15]  flattened or kept
+Low minus High SES        2.35  [ 2.13,  2.60]  steepened    steepened             [ 2.02,  2.73]  steepened
+Middle minus High SES     1.45  [ 1.26,  1.68]  steepened    steepened             [ 1.18,  1.82]  kept or steepened
+Low minus Middle SES      3.06  [ 2.59,  3.65]  steepened    steepened             [ 2.39,  4.01]  steepened
+
+PER MODEL
+  Black minus White         gpt-4o-mini: +0.66 u   gemini-3-flash-preview: -1.20 r   deepseek-chat-v3: +0.65 u   glm-4.7: -1.69 r
+  Hispanic minus White      gpt-4o-mini: +0.58 u   gemini-3-flash-preview: -0.03 u   deepseek-chat-v3: +0.72 u   glm-4.7: -1.83 r
+  Asian minus White         gpt-4o-mini: +0.53 f/k   gemini-3-flash-preview: +1.92 k/s   deepseek-chat-v3: +0.94 u   glm-4.7: +2.30 s
+  Women minus Men           gpt-4o-mini: +0.26 m/f   gemini-3-flash-preview: +1.05 k/s   deepseek-chat-v3: +0.34 m/f   glm-4.7: +1.93 s
+  Low minus High SES        gpt-4o-mini: +1.38 k/s   gemini-3-flash-preview: +3.50 s   deepseek-chat-v3: +1.21 k/s   glm-4.7: +3.31 s
+  Middle minus High SES     gpt-4o-mini: +1.50 k/s   gemini-3-flash-preview: +1.06 k/s   deepseek-chat-v3: +1.67 s   glm-4.7: +1.57 s
+  Low minus Middle SES      gpt-4o-mini: +1.30 k/s   gemini-3-flash-preview: +5.42 s   deepseek-chat-v3: +0.85 f/k   glm-4.7: +4.68 s
+
+pooled: 5 of 7 reported verdicts change from 66
+    Black minus White / pooled: missing -> reversed or missing
+    Hispanic minus White / pooled: missing -> undetermined
+    Asian minus White / pooled: kept -> kept or steepened
+    Women minus Men / pooled: kept -> flattened or kept
+    Middle minus High SES / pooled: steepened -> kept or steepened
+
+model: 12 of 28 reported verdicts change from 66
+    Asian minus White / deepseek/deepseek-chat-v3: kept -> undetermined
+    Asian minus White / google/gemini-3-flash-preview: undetermined -> kept or steepened
+    Asian minus White / openai/gpt-4o-mini: missing -> flattened or kept
+    Women minus Men / deepseek/deepseek-chat-v3: missing -> missing or flattened
+    Women minus Men / google/gemini-3-flash-preview: kept -> kept or steepened
+    Women minus Men / openai/gpt-4o-mini: missing -> missing or flattened
+    Low minus High SES / deepseek/deepseek-chat-v3: steepened -> kept or steepened
+    Low minus High SES / openai/gpt-4o-mini: steepened -> kept or steepened
+    Middle minus High SES / google/gemini-3-flash-preview: kept -> kept or steepened
+    Middle minus High SES / openai/gpt-4o-mini: steepened -> kept or steepened
+    Low minus Middle SES / deepseek/deepseek-chat-v3: kept -> flattened or kept
+    Low minus Middle SES / openai/gpt-4o-mini: steepened -> kept or steepened
+
+condition: 9 of 14 reported verdicts change from 66
+    Black minus White / clinical: missing -> reversed or missing
+    Black minus White / narrative: missing -> reversed or missing
+    Hispanic minus White / clinical: missing -> undetermined
+    Hispanic minus White / narrative: missing -> undetermined
+    Asian minus White / clinical: kept -> kept or steepened
+    Asian minus White / narrative: undetermined -> kept or steepened
+    Women minus Men / clinical: kept -> flattened or kept
+    Women minus Men / narrative: kept -> flattened or kept
+    Middle minus High SES / clinical: steepened -> kept or steepened
+
+model_x_condition: 25 of 56 reported verdicts change from 66
+    Black minus White / google/gemini-3-flash-preview | clinical: reversed -> reversed or missing
+    Black minus White / google/gemini-3-flash-preview | narrative: reversed -> reversed or missing
+    Black minus White / openai/gpt-4o-mini | clinical: missing -> undetermined
+    Hispanic minus White / google/gemini-3-flash-preview | clinical: missing -> undetermined
+    Asian minus White / deepseek/deepseek-chat-v3 | clinical: kept -> undetermined
+    Asian minus White / deepseek/deepseek-chat-v3 | narrative: kept -> undetermined
+    Asian minus White / openai/gpt-4o-mini | clinical: kept -> undetermined
+    Asian minus White / openai/gpt-4o-mini | narrative: missing -> undetermined
+    Asian minus White / z-ai/glm-4.7 | clinical: undetermined -> kept or steepened
+    Women minus Men / deepseek/deepseek-chat-v3 | clinical: missing -> flattened
+    Women minus Men / deepseek/deepseek-chat-v3 | narrative: missing -> missing or flattened
+    Women minus Men / google/gemini-3-flash-preview | clinical: kept -> kept or steepened
+    Women minus Men / google/gemini-3-flash-preview | narrative: kept -> kept or steepened
+    Women minus Men / openai/gpt-4o-mini | clinical: missing -> missing or flattened
+    Women minus Men / openai/gpt-4o-mini | narrative: missing -> missing or flattened
+    Low minus High SES / deepseek/deepseek-chat-v3 | clinical: steepened -> kept or steepened
+    Low minus High SES / deepseek/deepseek-chat-v3 | narrative: steepened -> kept or steepened
+    Middle minus High SES / deepseek/deepseek-chat-v3 | clinical: steepened -> kept or steepened
+    Middle minus High SES / google/gemini-3-flash-preview | clinical: kept -> flattened or kept
+    Middle minus High SES / google/gemini-3-flash-preview | narrative: kept -> kept or steepened
+    Middle minus High SES / openai/gpt-4o-mini | narrative: kept -> kept or steepened
+    Middle minus High SES / z-ai/glm-4.7 | clinical: kept -> kept or steepened
+    Low minus Middle SES / deepseek/deepseek-chat-v3 | clinical: kept -> kept or steepened
+    Low minus Middle SES / deepseek/deepseek-chat-v3 | narrative: missing -> flattened or kept
+    Low minus Middle SES / openai/gpt-4o-mini | narrative: kept -> kept or steepened
+
+two-region verdicts: 40 of 105 rows, 4 pooled
+
+cross-tab, all 105 rows (rows: 66, columns: R3 as reported)
+verdict_reported  flattened  flattened or kept  kept  kept or steepened  missing or flattened  reversed  reversed or missing  steepened  undetermined
+verdict_r0                                                                                                                                           
+kept                      0                  5     1                 11                     0         0                    0          0             4
+missing                   1                  2     0                  0                     5         0                    3          0             6
+reversed                  0                  0     0                  0                     0         6                    2          0             0
+steepened                 0                  0     0                  9                     0         0                    0         31             0
+undetermined              0                  0     0                  3                     0         0                    0          0            16
+
+Written -> analysis\level2_ratio_interval.csv (105 rows)
+Written -> paper_brm\tables\tab_level2_r3.tex

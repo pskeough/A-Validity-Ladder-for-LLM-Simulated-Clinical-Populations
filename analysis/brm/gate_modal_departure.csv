@@ -1,0 +1,21 @@
+cell_definition,model,n_cells,draws_per_cell,modal_departure_pct,single_draw_matches_mode_pct
+"model x persona, clinical only",DeepSeek-V3,120,30,18.670,81.330
+"model x persona, clinical only",GLM-4.7,120,30,32.778,67.222
+"model x persona, clinical only",GPT-4o-mini,120,30,26.222,73.778
+"model x persona, clinical only",Gemini-3-Flash,120,30,21.861,78.139
+"model x persona, clinical only",ALL,480,30,24.883,75.117
+"model x persona, narrative only",DeepSeek-V3,120,30,15.028,84.972
+"model x persona, narrative only",GLM-4.7,120,30,27.333,72.667
+"model x persona, narrative only",GPT-4o-mini,120,30,28.722,71.278
+"model x persona, narrative only",Gemini-3-Flash,120,30,19.694,80.306
+"model x persona, narrative only",ALL,480,30,22.694,77.306
+"model x persona, both framings pooled (script 25)",DeepSeek-V3,120,60,17.988,82.012
+"model x persona, both framings pooled (script 25)",GLM-4.7,120,60,31.222,68.778
+"model x persona, both framings pooled (script 25)",GPT-4o-mini,120,60,28.417,71.583
+"model x persona, both framings pooled (script 25)",Gemini-3-Flash,120,60,22.306,77.694
+"model x persona, both framings pooled (script 25)",ALL,480,60,24.983,75.017
+"script 25 receipt (simulated, model_outputs.csv)",ALL,480,60,25.100,74.900
+"script 25 receipt (simulated, model_outputs.csv)",DeepSeek-V3,120,60,18.200,81.800
+"script 25 receipt (simulated, model_outputs.csv)",Gemini-3-Flash,120,60,22.500,77.500
+"script 25 receipt (simulated, model_outputs.csv)",GPT-4o-mini,120,60,28.300,71.700
+"script 25 receipt (simulated, model_outputs.csv)",GLM-4.7,120,60,30.900,69.100

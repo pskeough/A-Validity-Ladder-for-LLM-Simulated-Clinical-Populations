@@ -1,0 +1,73 @@
+spec,corpus,estimand,framing,outcome,n_rows,resid_min,resid_max,all_positive,n_positive_sig,n_negative_sig,pass_0.2SD,pass_0.2SD_pooled,pass_0.2SD_nine_groups,pass_1pt,pass_1pt_pooled,pass_1pt_nine_groups,pass_2pt,pass_2pt_pooled,pass_2pt_nine_groups,pass_5pt_benchmark,pass_5pt_benchmark_pooled,pass_5pt_benchmark_nine_groups,pass_2.5pp,pass_2.5pp_pooled,pass_2.5pp_nine_groups,pass_5pp,pass_5pp_pooled,pass_5pp_nine_groups,pass_ratio_0.80_1.25,pass_ratio_0.80_1.25_pooled,pass_ratio_0.80_1.25_nine_groups
+S1 primary,all,DS,combined,mean,40,0.6036,6.6634,True,40,0,1.0,0.0,1.0,1.0,0.0,1.0,4.0,0.0,4.0,26.0,9.0,23.0,,,,,,,,,
+S1 primary,all,DS,combined,prev10,40,-6.4296,53.2261,False,30,6,,,,,,,,,,,,,4.0,0.0,3.0,9.0,2.0,8.0,0.0,0.0,0.0
+S1 primary,all,MG,combined,mean,40,0.8753,6.5197,True,40,0,0.0,0.0,0.0,1.0,0.0,1.0,4.0,0.0,4.0,27.0,9.0,24.0,,,,,,,,,
+S1 primary,all,MG,combined,prev10,40,-7.2461,56.1103,False,30,6,,,,,,,,,,,,,1.0,0.0,1.0,11.0,2.0,10.0,0.0,0.0,0.0
+S1 primary,all,PS,combined,mean,40,0.6615,7.3656,True,40,0,0.0,0.0,0.0,1.0,0.0,1.0,6.0,0.0,6.0,28.0,9.0,24.0,,,,,,,,,
+S1 primary,all,PS,combined,prev10,40,-7.3273,67.5187,False,26,6,,,,,,,,,,,,,3.0,0.0,2.0,9.0,3.0,8.0,1.0,0.0,0.0
+S1 primary,dec_only,DS,combined,mean,40,0.5943,6.6634,True,40,0,1.0,0.0,1.0,1.0,0.0,1.0,4.0,0.0,4.0,27.0,9.0,24.0,,,,,,,,,
+S1 primary,dec_only,DS,combined,prev10,40,-6.4296,53.2261,False,30,6,,,,,,,,,,,,,4.0,0.0,3.0,9.0,2.0,8.0,0.0,0.0,0.0
+S1 primary,dec_only,MG,combined,mean,40,0.5799,6.5197,True,40,0,1.0,0.0,1.0,1.0,0.0,1.0,4.0,0.0,4.0,28.0,9.0,25.0,,,,,,,,,
+S1 primary,dec_only,MG,combined,prev10,40,-7.2461,56.1103,False,29,6,,,,,,,,,,,,,2.0,0.0,2.0,12.0,2.0,11.0,0.0,0.0,0.0
+S1 primary,dec_only,PS,combined,mean,40,0.6656,7.3656,True,40,0,0.0,0.0,0.0,1.0,0.0,1.0,6.0,0.0,6.0,30.0,9.0,26.0,,,,,,,,,
+S1 primary,dec_only,PS,combined,prev10,40,-7.3273,67.5187,False,26,6,,,,,,,,,,,,,2.0,0.0,1.0,9.0,3.0,8.0,0.0,0.0,0.0
+S2 cohabiting as married,all,DS,combined,mean,40,0.591,6.5638,True,40,0,1.0,0.0,1.0,1.0,0.0,1.0,4.0,0.0,4.0,27.0,9.0,23.0,,,,,,,,,
+S2 cohabiting as married,all,DS,combined,prev10,40,-6.6073,52.7431,False,29,6,,,,,,,,,,,,,4.0,0.0,3.0,10.0,2.0,9.0,0.0,0.0,0.0
+S2 cohabiting as married,all,MG,combined,mean,40,0.8753,6.5197,True,40,0,0.0,0.0,0.0,1.0,0.0,1.0,4.0,0.0,4.0,27.0,9.0,24.0,,,,,,,,,
+S2 cohabiting as married,all,MG,combined,prev10,40,-7.2461,56.1103,False,30,6,,,,,,,,,,,,,1.0,0.0,1.0,11.0,2.0,10.0,0.0,0.0,0.0
+S2 cohabiting as married,all,PS,combined,mean,40,0.613,7.2263,True,40,0,1.0,0.0,1.0,1.0,0.0,1.0,7.0,0.0,7.0,29.0,9.0,25.0,,,,,,,,,
+S2 cohabiting as married,all,PS,combined,prev10,40,-7.3774,66.1588,False,26,6,,,,,,,,,,,,,3.0,0.0,2.0,9.0,3.0,8.0,1.0,0.0,0.0
+S2 cohabiting as married,dec_only,DS,combined,mean,40,0.5754,6.5638,True,40,0,1.0,0.0,1.0,1.0,0.0,1.0,4.0,0.0,4.0,28.0,9.0,24.0,,,,,,,,,
+S2 cohabiting as married,dec_only,DS,combined,prev10,40,-6.6073,52.7431,False,28,6,,,,,,,,,,,,,4.0,0.0,3.0,9.0,2.0,8.0,0.0,0.0,0.0
+S2 cohabiting as married,dec_only,MG,combined,mean,40,0.5799,6.5197,True,40,0,1.0,0.0,1.0,1.0,0.0,1.0,4.0,0.0,4.0,28.0,9.0,25.0,,,,,,,,,
+S2 cohabiting as married,dec_only,MG,combined,prev10,40,-7.2461,56.1103,False,29,6,,,,,,,,,,,,,2.0,0.0,2.0,12.0,2.0,11.0,0.0,0.0,0.0
+S2 cohabiting as married,dec_only,PS,combined,mean,40,0.6151,7.2263,True,40,0,1.0,0.0,1.0,1.0,0.0,1.0,7.0,0.0,7.0,31.0,9.0,27.0,,,,,,,,,
+S2 cohabiting as married,dec_only,PS,combined,prev10,40,-7.3774,66.1588,False,26,6,,,,,,,,,,,,,2.0,0.0,1.0,9.0,3.0,8.0,1.0,0.0,0.0
+S2b cohabiting as single,all,DS,combined,mean,40,0.6374,6.6684,True,40,0,1.0,0.0,1.0,1.0,0.0,1.0,4.0,0.0,4.0,26.0,9.0,23.0,,,,,,,,,
+S2b cohabiting as single,all,DS,combined,prev10,40,-6.3185,53.2843,False,30,6,,,,,,,,,,,,,4.0,0.0,3.0,10.0,2.0,9.0,0.0,0.0,0.0
+S2b cohabiting as single,all,MG,combined,mean,40,0.8753,6.5197,True,40,0,0.0,0.0,0.0,1.0,0.0,1.0,4.0,0.0,4.0,27.0,9.0,24.0,,,,,,,,,
+S2b cohabiting as single,all,MG,combined,prev10,40,-7.2461,56.1103,False,30,6,,,,,,,,,,,,,1.0,0.0,1.0,11.0,2.0,10.0,0.0,0.0,0.0
+S2b cohabiting as single,all,PS,combined,mean,40,0.6571,7.3929,True,40,0,0.0,0.0,0.0,1.0,0.0,1.0,6.0,0.0,6.0,28.0,9.0,24.0,,,,,,,,,
+S2b cohabiting as single,all,PS,combined,prev10,40,-7.3757,68.0796,False,26,6,,,,,,,,,,,,,4.0,0.0,3.0,8.0,3.0,7.0,0.0,0.0,0.0
+S3 2007-2018 PIR (bridge),all,DS,combined,mean,40,0.582,6.629,True,40,0,1.0,0.0,1.0,1.0,0.0,1.0,4.0,0.0,4.0,26.0,9.0,23.0,,,,,,,,,
+S3 2007-2018 PIR (bridge),all,DS,combined,prev10,40,-6.6107,53.0859,False,29,6,,,,,,,,,,,,,4.0,0.0,3.0,9.0,2.0,8.0,0.0,0.0,0.0
+S3 2007-2018 PIR (bridge),all,MG,combined,mean,40,0.8323,6.46,True,40,0,0.0,0.0,0.0,1.0,0.0,1.0,4.0,0.0,4.0,31.0,9.0,27.0,,,,,,,,,
+S3 2007-2018 PIR (bridge),all,MG,combined,prev10,40,-7.6297,55.8733,False,29,6,,,,,,,,,,,,,4.0,0.0,3.0,10.0,2.0,9.0,0.0,0.0,0.0
+S3 2007-2018 PIR (bridge),all,PS,combined,mean,40,0.6148,7.3236,True,40,0,1.0,0.0,1.0,1.0,0.0,1.0,7.0,0.0,7.0,30.0,9.0,26.0,,,,,,,,,
+S3 2007-2018 PIR (bridge),all,PS,combined,prev10,40,-7.7623,67.5106,False,26,6,,,,,,,,,,,,,3.0,0.0,2.0,9.0,3.0,8.0,1.0,0.0,0.0
+S4 persona-string income,all,DS,combined,mean,40,0.8855,5.8615,True,40,0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,3.0,27.0,9.0,24.0,,,,,,,,,
+S4 persona-string income,all,DS,combined,prev10,40,-4.4024,49.4598,False,30,6,,,,,,,,,,,,,3.0,1.0,2.0,12.0,2.0,11.0,0.0,0.0,0.0
+S4 persona-string income,all,MG,combined,mean,40,1.0916,5.5096,True,40,0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,31.0,10.0,27.0,,,,,,,,,
+S4 persona-string income,all,MG,combined,prev10,40,-4.5556,49.2715,False,30,6,,,,,,,,,,,,,3.0,2.0,2.0,13.0,2.0,12.0,0.0,1.0,0.0
+S4 persona-string income,all,PS,combined,mean,40,0.7865,6.3224,True,40,0,0.0,0.0,0.0,1.0,0.0,1.0,8.0,0.0,7.0,29.0,9.0,25.0,,,,,,,,,
+S4 persona-string income,all,PS,combined,prev10,40,-5.0409,64.2054,False,21,5,,,,,,,,,,,,,2.0,2.0,1.0,16.0,6.0,14.0,0.0,0.0,0.0
+S4 persona-string income,dec_only,DS,combined,mean,40,0.8349,5.8615,True,40,0,0.0,0.0,0.0,1.0,0.0,1.0,3.0,0.0,3.0,27.0,9.0,24.0,,,,,,,,,
+S4 persona-string income,dec_only,DS,combined,prev10,40,-4.4024,49.4598,False,30,6,,,,,,,,,,,,,3.0,1.0,2.0,12.0,2.0,11.0,0.0,0.0,0.0
+S4 persona-string income,dec_only,MG,combined,mean,40,0.7962,5.4943,True,40,0,0.0,0.0,0.0,1.0,0.0,1.0,3.0,0.0,3.0,31.0,10.0,27.0,,,,,,,,,
+S4 persona-string income,dec_only,MG,combined,prev10,40,-4.5556,49.2715,False,30,6,,,,,,,,,,,,,2.0,2.0,2.0,13.0,2.0,12.0,0.0,0.0,0.0
+S4 persona-string income,dec_only,PS,combined,mean,40,0.7831,6.3224,True,40,0,0.0,0.0,0.0,1.0,0.0,1.0,8.0,0.0,7.0,29.0,9.0,25.0,,,,,,,,,
+S4 persona-string income,dec_only,PS,combined,prev10,40,-5.0409,64.2054,False,21,5,,,,,,,,,,,,,2.0,2.0,1.0,16.0,6.0,14.0,0.0,0.0,0.0
+"S5 persona-string, high top-coded",all,DS,combined,mean,40,0.9771,5.8615,True,40,0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,3.0,26.0,9.0,23.0,,,,,,,,,
+"S5 persona-string, high top-coded",all,DS,combined,prev10,40,-4.4024,49.4598,False,30,6,,,,,,,,,,,,,3.0,2.0,2.0,13.0,2.0,12.0,0.0,0.0,0.0
+"S5 persona-string, high top-coded",all,MG,combined,mean,40,1.196,5.5096,True,40,0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,31.0,10.0,27.0,,,,,,,,,
+"S5 persona-string, high top-coded",all,MG,combined,prev10,40,-4.5556,49.2715,False,30,6,,,,,,,,,,,,,3.0,2.0,2.0,13.0,2.0,12.0,0.0,1.0,0.0
+"S5 persona-string, high top-coded",all,PS,combined,mean,40,0.8462,6.3224,True,40,0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,0.0,7.0,29.0,9.0,25.0,,,,,,,,,
+"S5 persona-string, high top-coded",all,PS,combined,prev10,40,-5.0409,64.2054,False,22,4,,,,,,,,,,,,,3.0,2.0,2.0,16.0,6.0,14.0,0.0,0.0,0.0
+S6 2017-2020 pre-pandemic,all,DS,combined,mean,40,0.5322,6.5656,True,40,0,1.0,0.0,1.0,1.0,0.0,1.0,4.0,0.0,4.0,29.0,9.0,25.0,,,,,,,,,
+S6 2017-2020 pre-pandemic,all,DS,combined,prev10,40,-7.8654,52.7907,False,26,6,,,,,,,,,,,,,3.0,0.0,2.0,10.0,1.0,9.0,0.0,0.0,0.0
+S6 2017-2020 pre-pandemic,all,MG,combined,mean,40,0.734,6.3081,True,40,0,0.0,0.0,0.0,1.0,0.0,1.0,4.0,0.0,4.0,31.0,9.0,27.0,,,,,,,,,
+S6 2017-2020 pre-pandemic,all,MG,combined,prev10,40,-9.1133,55.5009,False,27,6,,,,,,,,,,,,,4.0,0.0,3.0,9.0,1.0,8.0,0.0,0.0,0.0
+S6 2017-2020 pre-pandemic,all,PS,combined,mean,40,0.4817,7.045,True,40,0,1.0,0.0,1.0,1.0,0.0,1.0,9.0,0.0,8.0,31.0,9.0,27.0,,,,,,,,,
+S6 2017-2020 pre-pandemic,all,PS,combined,prev10,40,-9.0993,66.1938,False,23,9,,,,,,,,,,,,,1.0,1.0,1.0,10.0,4.0,9.0,0.0,0.0,0.0
+S7 2021-2023,all,DS,combined,mean,40,-0.5409,5.6713,False,36,1,3.0,0.0,3.0,4.0,0.0,4.0,9.0,1.0,8.0,37.0,9.0,33.0,,,,,,,,,
+S7 2021-2023,all,DS,combined,prev10,40,-13.2377,44.7918,False,20,14,,,,,,,,,,,,,0.0,0.0,0.0,3.0,1.0,2.0,0.0,0.0,0.0
+S7 2021-2023,all,MG,combined,mean,40,-0.0425,5.3988,False,37,0,4.0,0.0,4.0,4.0,0.0,4.0,8.0,0.0,8.0,39.0,10.0,35.0,,,,,,,,,
+S7 2021-2023,all,MG,combined,prev10,40,-14.0609,48.6978,False,21,12,,,,,,,,,,,,,0.0,0.0,0.0,9.0,1.0,8.0,1.0,0.0,1.0
+S7 2021-2023,all,PS,combined,mean,40,-0.3257,6.266,False,36,1,6.0,0.0,6.0,6.0,0.0,6.0,15.0,1.0,13.0,38.0,9.0,34.0,,,,,,,,,
+S7 2021-2023,all,PS,combined,prev10,40,-14.2302,60.9826,False,13,15,,,,,,,,,,,,,1.0,1.0,0.0,8.0,4.0,6.0,2.0,2.0,1.0
+S7 2021-2023,dec_only,DS,combined,mean,40,-0.5273,5.6713,False,36,1,3.0,0.0,3.0,4.0,0.0,4.0,8.0,1.0,7.0,37.0,9.0,33.0,,,,,,,,,
+S7 2021-2023,dec_only,DS,combined,prev10,40,-13.2377,44.7918,False,19,14,,,,,,,,,,,,,0.0,0.0,0.0,2.0,1.0,2.0,0.0,0.0,0.0
+S7 2021-2023,dec_only,MG,combined,mean,40,-0.3378,5.3988,False,37,2,4.0,0.0,4.0,4.0,0.0,4.0,8.0,0.0,7.0,39.0,10.0,35.0,,,,,,,,,
+S7 2021-2023,dec_only,MG,combined,prev10,40,-14.0609,48.6978,False,21,12,,,,,,,,,,,,,1.0,0.0,1.0,8.0,1.0,7.0,1.0,0.0,1.0
+S7 2021-2023,dec_only,PS,combined,mean,40,-0.3086,6.266,False,36,1,6.0,0.0,6.0,6.0,0.0,6.0,14.0,1.0,12.0,38.0,9.0,34.0,,,,,,,,,
+S7 2021-2023,dec_only,PS,combined,prev10,40,-14.2302,60.9826,False,15,15,,,,,,,,,,,,,0.0,2.0,0.0,8.0,4.0,6.0,2.0,1.0,1.0

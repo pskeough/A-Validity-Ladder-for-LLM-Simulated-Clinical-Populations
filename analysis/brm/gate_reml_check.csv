@@ -1,0 +1,67 @@
+outcome,scope,model,framing,component,reml,anova,converged,llf,llf_at_anova,start,abs_diff,rel_diff_pct
+PHQ-8 total,model_x_framing,DeepSeek-V3,clinical,p,2.1349,2.1354,True,-6589.1,,,0.00054296,0.025427
+PHQ-8 total,model_x_framing,DeepSeek-V3,clinical,e,2.0285,2.0285,True,-6589.1,,,7.4069e-06,0.00036514
+PHQ-8 total,model_x_framing,DeepSeek-V3,narrative,p,1.6074,1.6074,True,-6132,,,5.1195e-06,0.0003185
+PHQ-8 total,model_x_framing,DeepSeek-V3,narrative,e,1.5734,1.5734,True,-6132,,,1.8463e-05,0.0011734
+PHQ-8 total,model,DeepSeek-V3,both,p,1.7702,1.7702,True,-12641,,,4.4912e-05,0.0025371
+PHQ-8 total,model,DeepSeek-V3,both,pf,0.10089,0.10089,True,-12641,,,4.6064e-06,0.0045658
+PHQ-8 total,model,DeepSeek-V3,both,e,1.8009,1.8009,True,-12641,,,1.1514e-05,0.00063937
+PHQ-8 total,model_x_framing,Gemini-3-Flash,clinical,p,18.743,18.743,True,-6832.8,,,0.00025067,0.0013374
+PHQ-8 total,model_x_framing,Gemini-3-Flash,clinical,e,2.1662,2.1662,True,-6832.8,,,1.2259e-05,0.00056594
+PHQ-8 total,model_x_framing,Gemini-3-Flash,narrative,p,20.687,20.687,True,-6918.1,,,0.00011602,0.00056082
+PHQ-8 total,model_x_framing,Gemini-3-Flash,narrative,e,2.2674,2.2674,True,-6918.1,,,1.3778e-05,0.00060767
+PHQ-8 total,model,Gemini-3-Flash,both,p,19.101,19.101,True,-13592,,,8.9093e-05,0.00046643
+PHQ-8 total,model,Gemini-3-Flash,both,pf,0.61408,0.61407,True,-13592,,,5.1232e-06,0.0008343
+PHQ-8 total,model,Gemini-3-Flash,both,e,2.2168,2.2168,True,-13592,,,6.783e-07,3.0598e-05
+PHQ-8 total,model_x_framing,GPT-4o-mini,clinical,p,1.8873,1.8873,True,-7299.3,,,1.0449e-05,0.00055363
+PHQ-8 total,model_x_framing,GPT-4o-mini,clinical,e,3.0585,3.0585,True,-7299.3,,,1.3433e-05,0.00043919
+PHQ-8 total,model_x_framing,GPT-4o-mini,narrative,p,0.80667,0.80667,True,-7267.8,,,3.0209e-06,0.00037449
+PHQ-8 total,model_x_framing,GPT-4o-mini,narrative,e,3.085,3.085,True,-7267.8,,,1.926e-05,0.00062431
+PHQ-8 total,model,GPT-4o-mini,both,p,1.1814,1.1814,True,-14511,,,2.5679e-05,0.0021736
+PHQ-8 total,model,GPT-4o-mini,both,pf,0.16555,0.16554,True,-14511,,,1.3494e-05,0.0081515
+PHQ-8 total,model,GPT-4o-mini,both,e,3.0717,3.0717,True,-14511,,,3.2662e-05,0.0010633
+PHQ-8 total,model_x_framing,GLM-4.7,clinical,p,15.035,15.035,True,-8289.3,,,0.00026433,0.0017581
+PHQ-8 total,model_x_framing,GLM-4.7,clinical,e,5.0395,5.0395,True,-8289.3,,,1.7216e-05,0.00034163
+PHQ-8 total,model_x_framing,GLM-4.7,narrative,p,20.159,20.159,True,-7698.7,,,0.00044113,0.0021883
+PHQ-8 total,model_x_framing,GLM-4.7,narrative,e,3.554,3.554,True,-7698.7,,,3.4479e-05,0.00097015
+PHQ-8 total,model,GLM-4.7,both,p,17.136,17.135,True,-15881,,,0.00056889,0.0033201
+PHQ-8 total,model,GLM-4.7,both,pf,0.46189,0.4619,True,-15881,,,9.3864e-06,0.0020321
+PHQ-8 total,model,GLM-4.7,both,e,4.2967,4.2967,True,-15881,,,2.4964e-05,0.00058101
+PHQ-8 total,joint,all,both,p,6.4287,6.4314,True,-57459,-57459,anova/lbfgs,0.0026504,0.041211
+PHQ-8 total,joint,all,both,pm,3.3724,3.3656,True,-57459,-57459,anova/lbfgs,0.0067869,0.20165
+PHQ-8 total,joint,all,both,pf,3.1423e-09,-0.013646,True,-57459,-57459,anova/lbfgs,0.013646,100
+PHQ-8 total,joint,all,both,pmf,0.33559,0.34925,True,-57459,-57459,anova/lbfgs,0.013661,3.9116
+PHQ-8 total,joint,all,both,e,2.8466,2.8466,True,-57459,-57459,anova/lbfgs,2.4868e-05,0.0008736
+PHQ-8 >= 10,model_x_framing,DeepSeek-V3,clinical,p,0.082912,0.082928,True,-1353.2,,,1.5599e-05,0.01881
+PHQ-8 >= 10,model_x_framing,DeepSeek-V3,clinical,e,0.11169,0.11169,True,-1353.2,,,3.8244e-06,0.0034241
+PHQ-8 >= 10,model_x_framing,DeepSeek-V3,narrative,p,0.035165,0.035165,True,-820.1,,,1.4278e-07,0.00040602
+PHQ-8 >= 10,model_x_framing,DeepSeek-V3,narrative,e,0.08455,0.08455,True,-820.1,,,1.9679e-07,0.00023275
+PHQ-8 >= 10,model,DeepSeek-V3,both,p,0.050661,0.050662,True,-2152.3,,,6.661e-07,0.0013148
+PHQ-8 >= 10,model,DeepSeek-V3,both,pf,0.008376,0.0083756,True,-2152.3,,,4.3836e-07,0.0052337
+PHQ-8 >= 10,model,DeepSeek-V3,both,e,0.098116,0.098116,True,-2152.3,,,3.7789e-08,3.8515e-05
+PHQ-8 >= 10,model_x_framing,Gemini-3-Flash,clinical,p,0.18725,0.18725,True,-435.19,,,4.5839e-06,0.002448
+PHQ-8 >= 10,model_x_framing,Gemini-3-Flash,clinical,e,0.064148,0.064148,True,-435.19,,,4.9031e-07,0.00076435
+PHQ-8 >= 10,model_x_framing,Gemini-3-Flash,narrative,p,0.19862,0.19862,True,-82.895,,,4.2293e-06,0.0021293
+PHQ-8 >= 10,model_x_framing,Gemini-3-Flash,narrative,e,0.052289,0.052289,True,-82.895,,,2.7181e-07,0.00051982
+PHQ-8 >= 10,model,Gemini-3-Flash,both,p,0.18144,0.18144,True,-416.28,,,2.8668e-06,0.00158
+PHQ-8 >= 10,model,Gemini-3-Flash,both,pf,0.011491,0.011492,True,-416.28,,,5.9138e-07,0.005146
+PHQ-8 >= 10,model,Gemini-3-Flash,both,e,0.058218,0.058218,True,-416.28,,,4.0285e-07,0.00069196
+PHQ-8 >= 10,model_x_framing,GPT-4o-mini,clinical,p,0.052221,0.052221,True,-1901.5,,,9.3389e-08,0.00017883
+PHQ-8 >= 10,model_x_framing,GPT-4o-mini,clinical,e,0.1552,0.1552,True,-1901.5,,,1.1303e-06,0.00072829
+PHQ-8 >= 10,model_x_framing,GPT-4o-mini,narrative,p,0.023869,0.023869,True,-2094.7,,,4.2263e-07,0.0017706
+PHQ-8 >= 10,model_x_framing,GPT-4o-mini,narrative,e,0.17737,0.17737,True,-2094.7,,,4.1369e-06,0.0023324
+PHQ-8 >= 10,model,GPT-4o-mini,both,p,0.034116,0.034115,True,-3953.9,,,1.4144e-06,0.0041461
+PHQ-8 >= 10,model,GPT-4o-mini,both,pf,0.0039313,0.0039304,True,-3953.9,,,9.2882e-07,0.023632
+PHQ-8 >= 10,model,GPT-4o-mini,both,e,0.16628,0.16628,True,-3953.9,,,3.1018e-06,0.0018654
+PHQ-8 >= 10,model_x_framing,GLM-4.7,clinical,p,0.13686,0.13686,True,-1145.4,,,1.125e-06,0.00082198
+PHQ-8 >= 10,model_x_framing,GLM-4.7,clinical,e,0.097481,0.097481,True,-1145.4,,,1.5719e-07,0.00016125
+PHQ-8 >= 10,model_x_framing,GLM-4.7,narrative,p,0.16251,0.16251,True,-589.06,,,1.2315e-06,0.0007578
+PHQ-8 >= 10,model_x_framing,GLM-4.7,narrative,e,0.070412,0.070412,True,-589.06,,,1.2237e-07,0.0001738
+PHQ-8 >= 10,model,GLM-4.7,both,p,0.14718,0.14718,True,-1621,,,4.5403e-07,0.00030848
+PHQ-8 >= 10,model,GLM-4.7,both,pf,0.0025051,0.0025051,True,-1621,,,1.3806e-08,0.00055113
+PHQ-8 >= 10,model,GLM-4.7,both,e,0.083946,0.083946,True,-1621,,,3.5582e-07,0.00042387
+PHQ-8 >= 10,joint,all,both,p,0.082233,0.082232,True,-9031.4,-9031.4,anova/lbfgs,9.4143e-07,0.0011448
+PHQ-8 >= 10,joint,all,both,pm,0.021118,0.021118,True,-9031.4,-9031.4,anova/lbfgs,2.4177e-07,0.0011448
+PHQ-8 >= 10,joint,all,both,pf,0.00077269,0.00077268,True,-9031.4,-9031.4,anova/lbfgs,8.846e-09,0.0011448
+PHQ-8 >= 10,joint,all,both,pmf,0.0058031,0.005803,True,-9031.4,-9031.4,anova/lbfgs,6.6435e-08,0.0011448
+PHQ-8 >= 10,joint,all,both,e,0.10164,0.10164,True,-9031.4,-9031.4,anova/lbfgs,1.1636e-06,0.0011448

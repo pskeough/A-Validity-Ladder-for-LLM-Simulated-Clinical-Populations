@@ -1,0 +1,36 @@
+contrast,scope,n_pairs,ratio,ratio_ci90,ratio_ci90_if_simulation_exact,published,R3_now,pairs_multiplier_for_single_name,single_name_reached
+Black minus White,pooled,96,-0.396,-0.94 to -0.03,-0.70 to -0.28,missing,reversed or missing,16.0,reversed
+Black minus White,deepseek-chat-v3,24,0.648,0.10 to 1.52,0.45 to 1.17,undetermined,undetermined,anchor-limited,
+Black minus White,gemini-3-flash-preview,24,-1.196,-2.62 to -0.37,-2.16 to -0.83,reversed,reversed,already,reversed
+Black minus White,gpt-4o-mini,24,0.657,0.11 to 1.54,0.45 to 1.19,undetermined,undetermined,anchor-limited,
+Black minus White,glm-4.7,24,-1.692,-3.36 to -0.87,-3.06 to -1.17,reversed,reversed,already,reversed
+Hispanic minus White,pooled,96,-0.14,-0.69 to 0.29,-0.31 to -0.09,missing,undetermined,anchor-limited,
+Hispanic minus White,deepseek-chat-v3,24,0.716,0.08 to 2.01,0.46 to 1.63,undetermined,undetermined,anchor-limited,
+Hispanic minus White,gemini-3-flash-preview,24,-0.028,-0.82 to 0.74,-0.06 to -0.02,undetermined,undetermined,16.0,missing
+Hispanic minus White,gpt-4o-mini,24,0.579,-0.08 to 1.77,0.37 to 1.32,undetermined,undetermined,anchor-limited,
+Hispanic minus White,glm-4.7,24,-1.827,-4.63 to -0.70,-4.16 to -1.17,reversed,reversed,already,reversed
+Asian minus White,pooled,96,1.422,1.04 to 1.90,1.21 to 1.73,kept,kept or steepened,anchor-limited,
+Asian minus White,deepseek-chat-v3,24,0.938,0.67 to 1.27,0.79 to 1.15,kept,undetermined,4.0,kept
+Asian minus White,gemini-3-flash-preview,24,1.917,0.87 to 3.10,1.62 to 2.35,undetermined,kept or steepened,3.0,steepened
+Asian minus White,gpt-4o-mini,24,0.533,0.27 to 0.83,0.45 to 0.65,missing,flattened or kept,3.0,flattened
+Asian minus White,glm-4.7,24,2.299,1.55 to 3.21,1.94 to 2.82,steepened,steepened,already,steepened
+Women minus Men,pooled,240,0.897,0.76 to 1.06,0.80 to 1.01,kept,kept,already,kept
+Women minus Men,deepseek-chat-v3,60,0.341,0.25 to 0.44,0.30 to 0.39,missing,missing or flattened,1.5,flattened
+Women minus Men,gemini-3-flash-preview,60,1.054,0.86 to 1.27,0.94 to 1.19,kept,kept or steepened,2.0,kept
+Women minus Men,gpt-4o-mini,60,0.261,0.15 to 0.38,0.23 to 0.30,missing,missing or flattened,anchor-limited,
+Women minus Men,glm-4.7,60,1.931,1.65 to 2.27,1.73 to 2.19,steepened,steepened,already,steepened
+Low minus High SES,pooled,160,2.35,2.13 to 2.60,2.19 to 2.53,steepened,steepened,already,steepened
+Low minus High SES,deepseek-chat-v3,40,1.212,1.10 to 1.33,1.13 to 1.31,steepened,kept or steepened,anchor-limited,
+Low minus High SES,gemini-3-flash-preview,40,3.497,3.13 to 3.90,3.26 to 3.77,steepened,steepened,already,steepened
+Low minus High SES,gpt-4o-mini,40,1.384,1.24 to 1.54,1.29 to 1.49,steepened,kept or steepened,1.5,steepened
+Low minus High SES,glm-4.7,40,3.307,3.01 to 3.64,3.08 to 3.56,steepened,steepened,already,steepened
+Middle minus High SES,pooled,160,1.448,1.26 to 1.68,1.29 to 1.65,steepened,steepened,already,steepened
+Middle minus High SES,deepseek-chat-v3,40,1.67,1.43 to 1.97,1.48 to 1.91,steepened,steepened,already,steepened
+Middle minus High SES,gemini-3-flash-preview,40,1.059,0.84 to 1.31,0.94 to 1.21,kept,kept or steepened,4.0,kept
+Middle minus High SES,gpt-4o-mini,40,1.496,1.24 to 1.80,1.33 to 1.71,steepened,kept or steepened,1.5,steepened
+Middle minus High SES,glm-4.7,40,1.568,1.26 to 1.92,1.39 to 1.79,steepened,steepened,already,steepened
+Low minus Middle SES,pooled,160,3.062,2.59 to 3.65,2.69 to 3.56,steepened,steepened,already,steepened
+Low minus Middle SES,deepseek-chat-v3,40,0.85,0.68 to 1.05,0.74 to 0.99,kept,flattened or kept,anchor-limited,
+Low minus Middle SES,gemini-3-flash-preview,40,5.423,4.62 to 6.45,4.75 to 6.32,steepened,steepened,already,steepened
+Low minus Middle SES,gpt-4o-mini,40,1.296,1.10 to 1.54,1.14 to 1.51,steepened,kept or steepened,anchor-limited,
+Low minus Middle SES,glm-4.7,40,4.68,4.05 to 5.50,4.10 to 5.45,steepened,steepened,already,steepened

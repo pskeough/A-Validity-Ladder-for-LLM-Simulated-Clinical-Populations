@@ -1,0 +1,15 @@
+quantity,value
+NHANES gap Black minus White,0.3299
+NHANES gap Hispanic minus White,0.2425
+NHANES gap Asian minus White,-0.7551
+NHANES gap Women minus Men,0.9380
+NHANES gap Low minus High SES,2.0198
+NHANES anchor design SE White,0.0498
+NHANES anchor design SE Black,0.0702
+NHANES anchor design SE Asian,0.0642
+NHANES anchor design SE Hispanic,0.0619
+NHANES anchor design SE Men,0.0413
+NHANES anchor design SE Women,0.0510
+NHANES anchor design SE Low,0.0779
+NHANES anchor design SE Middle,0.0546
+NHANES anchor design SE High,0.0382

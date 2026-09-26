@@ -1,6 +1,0 @@
-model,model_gap,gt_gap,calibration_error
-deepseek/deepseek-chat-v3,0.708,0.755,-0.047
-google/gemini-3-flash-preview,1.447,0.755,0.692
-openai/gpt-4o-mini,0.403,0.755,-0.352
-z-ai/glm-4.7,1.736,0.755,0.981
-POOLED,1.074,0.755,0.318

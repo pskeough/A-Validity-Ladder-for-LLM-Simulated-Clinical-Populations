@@ -1,4 +1,0 @@
-source,mean,sd,pct_ge_10,note
-"NHANES, survey-weighted",2.985,3.935,7.5,"PHQ-8, n=36,274 (eight items complete)"
-Perlis internet panel,6.5,6.6,26.4,"PHQ-9, as published"
-"simulated, cisgender",6.99,3.077,18.2,55.3% in 5-9; within-cell SD 1.49

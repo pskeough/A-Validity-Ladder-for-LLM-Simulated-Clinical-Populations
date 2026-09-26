@@ -1,0 +1,304 @@
+rung,item,got,want,tol,ok
+L1,DeepSeek-V3 misfit ratio,0.04722878177524656,0.0472287817752465,1e-09,True
+L1,DeepSeek-V3 overfit ratio,0.0,0.0,1e-09,True
+L1,DeepSeek-V3 misfit ci90 hi,0.14724369539608728,0.1446596102773144,0.08,True
+L1,DeepSeek-V3 overfit ci90 hi,0.008335648791330925,0.0111111111111111,0.08,True
+L1,DeepSeek-V3 verdict,fail: compressed (both tails in deficit),fail: compressed (both tails in deficit),0.0,True
+L1,Gemini-3-Flash misfit ratio,0.0,0.0,1e-09,True
+L1,Gemini-3-Flash overfit ratio,0.17096206745105155,0.1709620674510515,1e-09,True
+L1,Gemini-3-Flash misfit ci90 hi,0.0,0.0,0.08,True
+L1,Gemini-3-Flash overfit ci90 hi,0.35697839707685086,0.4072393636898311,0.08,True
+L1,Gemini-3-Flash verdict,fail: compressed (both tails in deficit),fail: compressed (both tails in deficit),0.0,True
+L1,GLM-4.7 misfit ratio,0.017702397351800944,0.0177023973518009,1e-09,True
+L1,GLM-4.7 overfit ratio,0.7713624332039679,0.7713624332039679,1e-09,True
+L1,GLM-4.7 misfit ci90 hi,0.03676198016066442,0.0376966758875909,0.08,True
+L1,GLM-4.7 overfit ci90 hi,0.9683711245531004,1.0315561972312604,0.08,True
+L1,GLM-4.7 verdict,fail: misfit deficit,fail: misfit deficit,0.0,True
+L1,GPT-4o-mini misfit ratio,0.18333333333333332,0.1833333333333333,1e-09,True
+L1,GPT-4o-mini overfit ratio,0.001874374557261473,0.0018743745572614,1e-09,True
+L1,GPT-4o-mini misfit ci90 hi,0.3363888888888886,0.325,0.08,True
+L1,GPT-4o-mini overfit ci90 hi,0.02324783023301859,0.022937234633019,0.08,True
+L1,GPT-4o-mini verdict,fail: compressed (both tails in deficit),fail: compressed (both tails in deficit),0.0,True
+L2,reference Black minus White estimate,-0.2844143880915472,-0.284414,0.0001,True
+L2,reference Black minus White JK/Taylor SE ratio,1.000348001924343,1.0,0.1,True
+L2,reference Black minus White df,109,109,1.0,True
+L2,reference Hispanic minus White estimate,-0.1833107413904787,-0.183311,0.0001,True
+L2,reference Hispanic minus White JK/Taylor SE ratio,1.0003893493201799,1.0,0.1,True
+L2,reference Hispanic minus White df,109,109,1.0,True
+L2,reference Asian minus White estimate,-0.9535949886775215,-0.953595,0.0001,True
+L2,reference Asian minus White JK/Taylor SE ratio,1.0007627251751916,1.0,0.1,True
+L2,reference Asian minus White df,109,108,1.0,True
+L2,reference Women minus Men estimate,0.8411336459223926,0.841134,0.0001,True
+L2,reference Women minus Men JK/Taylor SE ratio,1.0004004534037316,1.0,0.1,True
+L2,reference Women minus Men df,109,109,1.0,True
+L2,reference Low minus High SES estimate,1.297439720488184,1.29744,0.0001,True
+L2,reference Low minus High SES JK/Taylor SE ratio,1.0028719557097154,1.0,0.1,True
+L2,reference Low minus High SES df,109,109,1.0,True
+L2,reference Middle minus High SES estimate,0.6068308923685362,0.606831,0.0001,True
+L2,reference Middle minus High SES JK/Taylor SE ratio,1.001221093869613,1.0,0.1,True
+L2,reference Middle minus High SES df,109,109,1.0,True
+L2,reference Low minus Middle SES estimate,0.6906088281196479,0.690609,0.0001,True
+L2,reference Low minus Middle SES JK/Taylor SE ratio,1.001161006334398,1.0,0.1,True
+L2,reference Low minus Middle SES df,109,109,1.0,True
+L2,DeepSeek-V3 Black minus White sim gap,0.21388888888888877,0.213889,1e-05,True
+L2,DeepSeek-V3 Black minus White sim se,0.10759916992824825,0.107599,1e-05,True
+L2,DeepSeek-V3 Black minus White verdict,undetermined,undetermined,0.0,True
+L2,DeepSeek-V3 Hispanic minus White sim gap,0.17361111111111124,0.173611,1e-05,True
+L2,DeepSeek-V3 Hispanic minus White sim se,0.12022807893835633,0.120228,1e-05,True
+L2,DeepSeek-V3 Hispanic minus White verdict,no population gap,no population gap,0.0,True
+L2,DeepSeek-V3 Asian minus White sim gap,-0.7083333333333334,-0.708333,1e-05,True
+L2,DeepSeek-V3 Asian minus White sim se,0.12478095285453704,0.124781,1e-05,True
+L2,DeepSeek-V3 Asian minus White verdict,attenuated or kept,attenuated or kept,0.0,True
+L2,DeepSeek-V3 Women minus Men sim gap,0.3451388888888891,0.345139,1e-05,True
+L2,DeepSeek-V3 Women minus Men sim se,0.05724026936223576,0.05724,1e-05,True
+L2,DeepSeek-V3 Women minus Men verdict,missing or attenuated,missing or attenuated,0.0,True
+L2,DeepSeek-V3 Low minus High SES sim gap,2.4791666666666665,2.479167,1e-05,True
+L2,DeepSeek-V3 Low minus High SES sim se,0.11726532909350239,0.117265,1e-05,True
+L2,DeepSeek-V3 Low minus High SES verdict,steepened,steepened,0.0,True
+L2,DeepSeek-V3 Middle minus High SES sim gap,1.5572916666666667,1.557292,1e-05,True
+L2,DeepSeek-V3 Middle minus High SES sim se,0.10216372967955427,0.102164,1e-05,True
+L2,DeepSeek-V3 Middle minus High SES verdict,steepened,steepened,0.0,True
+L2,DeepSeek-V3 Low minus Middle SES sim gap,0.9218750000000001,0.921875,1e-05,True
+L2,DeepSeek-V3 Low minus Middle SES sim se,0.11194532757440462,0.111945,1e-05,True
+L2,DeepSeek-V3 Low minus Middle SES verdict,kept or steepened,kept or steepened,0.0,True
+L2,Gemini-3-Flash Black minus White sim gap,-0.3944444444444446,-0.394444,1e-05,True
+L2,Gemini-3-Flash Black minus White sim se,0.19338092993584136,0.193381,1e-05,True
+L2,Gemini-3-Flash Black minus White verdict,undetermined,undetermined,0.0,True
+L2,Gemini-3-Flash Hispanic minus White sim gap,-0.006944444444444697,-0.006944,1e-05,True
+L2,Gemini-3-Flash Hispanic minus White sim se,0.0918720915234755,0.091872,1e-05,True
+L2,Gemini-3-Flash Hispanic minus White verdict,no population gap,no population gap,0.0,True
+L2,Gemini-3-Flash Asian minus White sim gap,-1.4472222222222226,-1.447222,1e-05,True
+L2,Gemini-3-Flash Asian minus White sim se,0.626944226267959,0.626944,1e-05,True
+L2,Gemini-3-Flash Asian minus White verdict,undetermined,undetermined,0.0,True
+L2,Gemini-3-Flash Women minus Men sim gap,0.9854166666666667,0.985417,1e-05,True
+L2,Gemini-3-Flash Women minus Men sim se,0.13518979508993031,0.13519,1e-05,True
+L2,Gemini-3-Flash Women minus Men verdict,undetermined,undetermined,0.0,True
+L2,Gemini-3-Flash Low minus High SES sim gap,6.582291666666667,6.582292,1e-05,True
+L2,Gemini-3-Flash Low minus High SES sim se,0.4998343909764291,0.499834,1e-05,True
+L2,Gemini-3-Flash Low minus High SES verdict,steepened,steepened,0.0,True
+L2,Gemini-3-Flash Middle minus High SES sim gap,0.7927083333333333,0.792708,1e-05,True
+L2,Gemini-3-Flash Middle minus High SES sim se,0.07835060019505867,0.078351,1e-05,True
+L2,Gemini-3-Flash Middle minus High SES verdict,kept or steepened,kept or steepened,0.0,True
+L2,Gemini-3-Flash Low minus Middle SES sim gap,5.789583333333334,5.789583,1e-05,True
+L2,Gemini-3-Flash Low minus Middle SES sim se,0.47002973457951464,0.47003,1e-05,True
+L2,Gemini-3-Flash Low minus Middle SES verdict,steepened,steepened,0.0,True
+L2,GLM-4.7 Black minus White sim gap,-0.558333333333333,-0.558333,1e-05,True
+L2,GLM-4.7 Black minus White sim se,0.16318974310872678,0.16319,1e-05,True
+L2,GLM-4.7 Black minus White verdict,undetermined,undetermined,0.0,True
+L2,GLM-4.7 Hispanic minus White sim gap,-0.44305555555555537,-0.443056,1e-05,True
+L2,GLM-4.7 Hispanic minus White sim se,0.1646015791360961,0.164602,1e-05,True
+L2,GLM-4.7 Hispanic minus White verdict,no population gap,no population gap,0.0,True
+L2,GLM-4.7 Asian minus White sim gap,-1.736111111111111,-1.736111,1e-05,True
+L2,GLM-4.7 Asian minus White sim se,0.4171201236225174,0.41712,1e-05,True
+L2,GLM-4.7 Asian minus White verdict,undetermined,undetermined,0.0,True
+L2,GLM-4.7 Women minus Men sim gap,1.729861111111111,1.729861,1e-05,True
+L2,GLM-4.7 Women minus Men sim se,0.154044961644313,0.154045,1e-05,True
+L2,GLM-4.7 Women minus Men verdict,steepened,steepened,0.0,True
+L2,GLM-4.7 Low minus High SES sim gap,6.530208333333333,6.530208,1e-05,True
+L2,GLM-4.7 Low minus High SES sim se,0.3356455180292866,0.335646,1e-05,True
+L2,GLM-4.7 Low minus High SES verdict,steepened,steepened,0.0,True
+L2,GLM-4.7 Middle minus High SES sim gap,1.3406250000000002,1.340625,1e-05,True
+L2,GLM-4.7 Middle minus High SES sim se,0.17695971992759213,0.17696,1e-05,True
+L2,GLM-4.7 Middle minus High SES verdict,steepened,steepened,0.0,True
+L2,GLM-4.7 Low minus Middle SES sim gap,5.189583333333333,5.189583,1e-05,True
+L2,GLM-4.7 Low minus Middle SES sim se,0.2226309175810111,0.222631,1e-05,True
+L2,GLM-4.7 Low minus Middle SES verdict,steepened,steepened,0.0,True
+L2,GPT-4o-mini Black minus White sim gap,0.2166666666666669,0.216667,1e-05,True
+L2,GPT-4o-mini Black minus White sim se,0.09227301753118176,0.092273,1e-05,True
+L2,GPT-4o-mini Black minus White verdict,reversed or missing,reversed or missing,0.0,True
+L2,GPT-4o-mini Hispanic minus White sim gap,0.14027777777777792,0.140278,1e-05,True
+L2,GPT-4o-mini Hispanic minus White sim se,0.05904894154169199,0.059049,1e-05,True
+L2,GPT-4o-mini Hispanic minus White verdict,no population gap,no population gap,0.0,True
+L2,GPT-4o-mini Asian minus White sim gap,-0.40277777777777785,-0.402778,1e-05,True
+L2,GPT-4o-mini Asian minus White sim se,0.10798961271077465,0.10799,1e-05,True
+L2,GPT-4o-mini Asian minus White verdict,undetermined,undetermined,0.0,True
+L2,GPT-4o-mini Women minus Men sim gap,0.19097222222222232,0.190972,1e-05,True
+L2,GPT-4o-mini Women minus Men sim se,0.07257887018970437,0.072579,1e-05,True
+L2,GPT-4o-mini Women minus Men verdict,missing or attenuated,missing or attenuated,0.0,True
+L2,GPT-4o-mini Low minus High SES sim gap,2.802083333333333,2.802083,1e-05,True
+L2,GPT-4o-mini Low minus High SES sim se,0.10352440891278124,0.103524,1e-05,True
+L2,GPT-4o-mini Low minus High SES verdict,steepened,steepened,0.0,True
+L2,GPT-4o-mini Middle minus High SES sim gap,1.3666666666666667,1.366667,1e-05,True
+L2,GPT-4o-mini Middle minus High SES sim se,0.10580380165402584,0.105804,1e-05,True
+L2,GPT-4o-mini Middle minus High SES verdict,steepened,steepened,0.0,True
+L2,GPT-4o-mini Low minus Middle SES sim gap,1.4354166666666663,1.435417,1e-05,True
+L2,GPT-4o-mini Low minus Middle SES sim se,0.06673390706269079,0.066734,1e-05,True
+L2,GPT-4o-mini Low minus Middle SES verdict,steepened,steepened,0.0,True
+L2,pooled Black minus White sim gap,-0.13055555555555548,-0.130556,1e-05,True
+L2,pooled Black minus White sim se,0.07250817516507227,0.072508,1e-05,True
+L2,pooled Black minus White sim df,33.63390148050008,33.633901,0.01,True
+L2,pooled Black minus White verdict,reference too imprecise,reference too imprecise,0.0,True
+L2,pooled Hispanic minus White sim gap,-0.03402777777777772,-0.034028,1e-05,True
+L2,pooled Hispanic minus White sim se,0.05781204973737967,0.057812,1e-05,True
+L2,pooled Hispanic minus White sim df,30.646873310985274,30.646873,0.01,True
+L2,pooled Hispanic minus White verdict,no population gap,no population gap,0.0,True
+L2,pooled Asian minus White sim gap,-1.073611111111111,-1.073611,1e-05,True
+L2,pooled Asian minus White sim se,0.192723944904088,0.192724,1e-05,True
+L2,pooled Asian minus White sim df,20.982672082569557,20.982672,0.01,True
+L2,pooled Asian minus White verdict,undetermined,undetermined,0.0,True
+L2,pooled Women minus Men sim gap,0.8128472222222223,0.812847,1e-05,True
+L2,pooled Women minus Men sim se,0.05620846896772456,0.056208,1e-05,True
+L2,pooled Women minus Men sim df,62.81727266900484,62.817273,0.01,True
+L2,pooled Women minus Men verdict,undetermined,undetermined,0.0,True
+L2,pooled Low minus High SES sim gap,4.5984375,4.598437,1e-05,True
+L2,pooled Low minus High SES sim se,0.15551543187576156,0.155515,1e-05,True
+L2,pooled Low minus High SES sim df,29.78372316334644,29.783723,0.01,True
+L2,pooled Low minus High SES verdict,steepened,steepened,0.0,True
+L2,pooled Middle minus High SES sim gap,1.2643229166666667,1.264323,1e-05,True
+L2,pooled Middle minus High SES sim se,0.06076873740576813,0.060769,1e-05,True
+L2,pooled Middle minus High SES sim df,41.807648465001584,41.807648,0.01,True
+L2,pooled Middle minus High SES verdict,steepened,steepened,0.0,True
+L2,pooled Low minus Middle SES sim gap,3.3341145833333337,3.334115,1e-05,True
+L2,pooled Low minus Middle SES sim se,0.1340423551460145,0.134042,1e-05,True
+L2,pooled Low minus Middle SES sim df,24.097713705028575,24.097714,0.01,True
+L2,pooled Low minus Middle SES verdict,steepened,steepened,0.0,True
+L3,DeepSeek-V3 Overall resid,4.581711045607456,4.581711,0.0001,True
+L3,DeepSeek-V3 Overall se,0.053070453048727505,0.05307,0.0001,True
+L3,DeepSeek-V3 White resid,4.424084881045992,4.424085,0.0001,True
+L3,DeepSeek-V3 White se,0.0712033131487202,0.071203,0.0001,True
+L3,DeepSeek-V3 Black resid,5.053466071648105,5.053466,0.0001,True
+L3,DeepSeek-V3 Black se,0.08910232443650085,0.089102,0.0001,True
+L3,DeepSeek-V3 Asian resid,4.468812575915965,4.468813,0.0001,True
+L3,DeepSeek-V3 Asian se,0.08780384642866622,0.087804,0.0001,True
+L3,DeepSeek-V3 Hispanic resid,5.094668668375197,5.094669,0.0001,True
+L3,DeepSeek-V3 Hispanic se,0.07888255201886693,0.078883,0.0001,True
+L3,DeepSeek-V3 Men resid,4.801432098898815,4.801432,0.0001,True
+L3,DeepSeek-V3 Men se,0.07040168458091779,0.070402,0.0001,True
+L3,DeepSeek-V3 Women resid,4.375317334655018,4.375317,0.0001,True
+L3,DeepSeek-V3 Women se,0.07037788901672863,0.070378,0.0001,True
+L3,DeepSeek-V3 Low resid,5.129137944702779,5.129138,0.0001,True
+L3,DeepSeek-V3 Low se,0.10412301267129719,0.104123,0.0001,True
+L3,DeepSeek-V3 Middle resid,4.92073983668841,4.92074,0.0001,True
+L3,DeepSeek-V3 Middle se,0.06109977828094239,0.0611,0.0001,True
+L3,DeepSeek-V3 High resid,4.058644335074689,4.058644,0.0001,True
+L3,DeepSeek-V3 High se,0.08856093379737079,0.088561,0.0001,True
+L3,DeepSeek-V3 all-groups pass at 0.2SD,False,False,0.0,True
+L3,DeepSeek-V3 all-groups pass at 1pt,False,False,0.0,True
+L3,DeepSeek-V3 all-groups pass at 2pt,False,False,0.0,True
+L3,Gemini-3-Flash Overall resid,2.589151656800993,2.589152,0.0001,True
+L3,Gemini-3-Flash Overall se,0.05885012181396339,0.05885,0.0001,True
+L3,Gemini-3-Flash White resid,2.234880575629482,2.234881,0.0001,True
+L3,Gemini-3-Flash White se,0.07175883376510647,0.071759,0.0001,True
+L3,Gemini-3-Flash Black resid,3.3443212089162193,3.344321,0.0001,True
+L3,Gemini-3-Flash Black se,0.1135011404452581,0.113501,0.0001,True
+L3,Gemini-3-Flash Asian resid,2.4172781511132384,2.417278,0.0001,True
+L3,Gemini-3-Flash Asian se,0.096131878001334,0.096132,0.0001,True
+L3,Gemini-3-Flash Hispanic resid,3.9650638694246783,3.965064,0.0001,True
+L3,Gemini-3-Flash Hispanic se,0.11493484331697343,0.114935,0.0001,True
+L3,Gemini-3-Flash Men resid,2.4808679841114905,2.480868,0.0001,True
+L3,Gemini-3-Flash Men se,0.06633887121456133,0.066339,0.0001,True
+L3,Gemini-3-Flash Women resid,2.690867303559296,2.690867,0.0001,True
+L3,Gemini-3-Flash Women se,0.07628490955963321,0.076285,0.0001,True
+L3,Gemini-3-Flash Low resid,7.3656395150073495,7.36564,0.0001,True
+L3,Gemini-3-Flash Low se,0.10093777063836261,0.100938,0.0001,True
+L3,Gemini-3-Flash Middle resid,1.3262694688304948,1.326269,0.0001,True
+L3,Gemini-3-Flash Middle se,0.06691959213881553,0.06692,0.0001,True
+L3,Gemini-3-Flash High resid,1.4194679163980055,1.419468,0.0001,True
+L3,Gemini-3-Flash High se,0.059899557731179234,0.0599,0.0001,True
+L3,Gemini-3-Flash all-groups pass at 0.2SD,False,False,0.0,True
+L3,Gemini-3-Flash all-groups pass at 1pt,False,False,0.0,True
+L3,Gemini-3-Flash all-groups pass at 2pt,False,False,0.0,True
+L3,GLM-4.7 Overall resid,2.1208233854058087,2.120823,0.0001,True
+L3,GLM-4.7 Overall se,0.07062867379169005,0.070629,0.0001,True
+L3,GLM-4.7 White resid,1.8637250310672244,1.863725,0.0001,True
+L3,GLM-4.7 White se,0.09059634935999701,0.090596,0.0001,True
+L3,GLM-4.7 Black resid,2.960255542796908,2.960256,0.0001,True
+L3,GLM-4.7 Black se,0.1263449106689746,0.126345,0.0001,True
+L3,GLM-4.7 Asian resid,1.4965275149786779,1.496528,0.0001,True
+L3,GLM-4.7 Asian se,0.11971661320208775,0.119717,0.0001,True
+L3,GLM-4.7 Hispanic resid,3.0784712570586845,3.078471,0.0001,True
+L3,GLM-4.7 Hispanic se,0.11547208372372628,0.115472,0.0001,True
+L3,GLM-4.7 Men resid,1.5133922937951318,1.513392,0.0001,True
+L3,GLM-4.7 Men se,0.07364835422730664,0.073648,0.0001,True
+L3,GLM-4.7 Women resid,2.6914102967072626,2.69141,0.0001,True
+L3,GLM-4.7 Women se,0.10427372316912473,0.104274,0.0001,True
+L3,GLM-4.7 Low resid,6.399235221582891,6.399235,0.0001,True
+L3,GLM-4.7 Low se,0.11722191743774485,0.117222,0.0001,True
+L3,GLM-4.7 Middle resid,1.5014797896018632,1.50148,0.0001,True
+L3,GLM-4.7 Middle se,0.09511984716675588,0.09512,0.0001,True
+L3,GLM-4.7 High resid,0.6615167345104918,0.661517,0.0001,True
+L3,GLM-4.7 High se,0.09088912344901277,0.090889,0.0001,True
+L3,GLM-4.7 all-groups pass at 0.2SD,False,False,0.0,True
+L3,GLM-4.7 all-groups pass at 1pt,False,False,0.0,True
+L3,GLM-4.7 all-groups pass at 2pt,False,False,0.0,True
+L3,GPT-4o-mini Overall resid,4.679768833145362,4.679769,0.0001,True
+L3,GPT-4o-mini Overall se,0.06745855251718175,0.067459,0.0001,True
+L3,GPT-4o-mini White resid,4.50702600113258,4.507026,0.0001,True
+L3,GPT-4o-mini White se,0.09092271023765101,0.090923,0.0001,True
+L3,GPT-4o-mini Black resid,5.070823196664753,5.070823,0.0001,True
+L3,GPT-4o-mini Black se,0.10282808346528804,0.102828,0.0001,True
+L3,GPT-4o-mini Asian resid,4.98205644831293,4.982056,0.0001,True
+L3,GPT-4o-mini Asian se,0.10236325921930088,0.102363,0.0001,True
+L3,GPT-4o-mini Hispanic resid,5.173761410022019,5.173761,0.0001,True
+L3,GPT-4o-mini Hispanic se,0.09183826118809983,0.091838,0.0001,True
+L3,GPT-4o-mini Men resid,4.91374315495144,4.913743,0.0001,True
+L3,GPT-4o-mini Men se,0.08551057219235338,0.085511,0.0001,True
+L3,GPT-4o-mini Women resid,4.459986396179249,4.459986,0.0001,True
+L3,GPT-4o-mini Women se,0.09720796834037644,0.097208,0.0001,True
+L3,GPT-4o-mini Low resid,5.316997130569036,5.316997,0.0001,True
+L3,GPT-4o-mini Low se,0.11617218736384098,0.116172,0.0001,True
+L3,GPT-4o-mini Middle resid,4.876608964177995,4.876609,0.0001,True
+L3,GPT-4o-mini Middle se,0.08951496389674704,0.089515,0.0001,True
+L3,GPT-4o-mini High resid,4.229956873746857,4.229957,0.0001,True
+L3,GPT-4o-mini High se,0.11619070916531289,0.116191,0.0001,True
+L3,GPT-4o-mini all-groups pass at 0.2SD,False,False,0.0,True
+L3,GPT-4o-mini all-groups pass at 1pt,False,False,0.0,True
+L3,GPT-4o-mini all-groups pass at 2pt,False,False,0.0,True
+L4,NHANES loadings min,0.6699649096557264,0.6699649096557441,0.0001,True
+L4,NHANES ev ratio,7.466701805082279,7.466701805083927,0.001,True
+L4,DeepSeek-V3 clinical ev ratio,1.7252716993485033,1.725271699348503,0.001,True
+L4,DeepSeek-V3 clinical R1,False,False,0.0,True
+L4,DeepSeek-V3 clinical phi,0.3485171439523316,0.3485171439523298,0.001,True
+L4,DeepSeek-V3 clinical phi lo90,0.28236768407928625,0.2846188988181988,0.05,True
+L4,DeepSeek-V3 clinical R2,False,False,0.0,True
+L4,DeepSeek-V3 clinical within ev ratio,1.4463363134251686,1.4463363134251714,0.001,True
+L4,DeepSeek-V3 clinical R3,False,False,0.0,True
+L4,DeepSeek-V3 narrative ev ratio,1.4333240587191285,1.4333240587191285,0.001,True
+L4,DeepSeek-V3 narrative R1,False,False,0.0,True
+L4,DeepSeek-V3 narrative phi,0.16334250449424828,0.1633425044942444,0.001,True
+L4,DeepSeek-V3 narrative phi lo90,0.07836455752142962,0.0743666194636768,0.05,True
+L4,DeepSeek-V3 narrative R2,False,False,0.0,True
+L4,DeepSeek-V3 narrative within ev ratio,1.3395243135405765,1.339524313540574,0.001,True
+L4,DeepSeek-V3 narrative R3,False,False,0.0,True
+L4,Gemini-3-Flash clinical ev ratio,8.68992319144965,8.68992319144965,0.001,True
+L4,Gemini-3-Flash clinical R1,True,True,0.0,True
+L4,Gemini-3-Flash clinical phi,0.989513908907484,0.9895139089074824,0.001,True
+L4,Gemini-3-Flash clinical phi lo90,0.9860277610323234,0.9858242003316918,0.05,True
+L4,Gemini-3-Flash clinical R2,True,True,0.0,True
+L4,Gemini-3-Flash clinical within ev ratio,1.291112499697853,1.2911124996978562,0.001,True
+L4,Gemini-3-Flash clinical R3,False,False,0.0,True
+L4,Gemini-3-Flash narrative ev ratio,9.325527729675397,9.325527729675397,0.001,True
+L4,Gemini-3-Flash narrative R1,True,True,0.0,True
+L4,Gemini-3-Flash narrative phi,0.9897109312609714,0.98971093126097,0.001,True
+L4,Gemini-3-Flash narrative phi lo90,0.9862340996487617,0.98657376288303,0.05,True
+L4,Gemini-3-Flash narrative R2,True,True,0.0,True
+L4,Gemini-3-Flash narrative within ev ratio,1.4511853674651418,1.4511853674651456,0.001,True
+L4,Gemini-3-Flash narrative R3,False,False,0.0,True
+L4,GLM-4.7 clinical ev ratio,5.734309193225554,5.734309193225554,0.001,True
+L4,GLM-4.7 clinical R1,True,True,0.0,True
+L4,GLM-4.7 clinical phi,0.9958722337080049,0.9958722337080046,0.001,True
+L4,GLM-4.7 clinical phi lo90,0.9944897662490348,0.9943247742908484,0.05,True
+L4,GLM-4.7 clinical R2,True,True,0.0,True
+L4,GLM-4.7 clinical within ev ratio,1.5881724540219535,1.5881724540219564,0.001,True
+L4,GLM-4.7 clinical R3,False,False,0.0,True
+L4,GLM-4.7 narrative ev ratio,8.123447759442273,8.123447759442273,0.001,True
+L4,GLM-4.7 narrative R1,True,True,0.0,True
+L4,GLM-4.7 narrative phi,0.9977476572107125,0.997747657210712,0.001,True
+L4,GLM-4.7 narrative phi lo90,0.9967640737662339,0.9969223993952264,0.05,True
+L4,GLM-4.7 narrative R2,True,True,0.0,True
+L4,GLM-4.7 narrative within ev ratio,1.3372615120866338,1.3372615120866398,0.001,True
+L4,GLM-4.7 narrative R3,False,False,0.0,True
+L4,GPT-4o-mini clinical ev ratio,1.087400250512291,1.087400250512291,0.001,True
+L4,GPT-4o-mini clinical R1,False,False,0.0,True
+L4,GPT-4o-mini clinical phi,0.36393357742076893,0.363933577420773,0.001,True
+L4,GPT-4o-mini clinical phi lo90,0.2187877401304128,0.1777326257456284,0.05,True
+L4,GPT-4o-mini clinical R2,False,False,0.0,True
+L4,GPT-4o-mini clinical within ev ratio,1.231553130985303,1.231553130985302,0.001,True
+L4,GPT-4o-mini clinical R3,False,False,0.0,True
+L4,GPT-4o-mini narrative ev ratio,1.3280665784150525,1.3280665784150525,0.001,True
+L4,GPT-4o-mini narrative R1,False,False,0.0,True
+L4,GPT-4o-mini narrative phi,0.04331128634626394,0.0433112863462544,0.001,True
+L4,GPT-4o-mini narrative phi lo90,-0.011562091239981994,-0.0169133851051441,0.05,True
+L4,GPT-4o-mini narrative R2,False,False,0.0,True
+L4,GPT-4o-mini narrative within ev ratio,1.2611983989593392,1.2611983989593387,0.001,True
+L4,GPT-4o-mini narrative R3,False,False,0.0,True

@@ -1,4 +1,0 @@
-statistic,observed,bootstrap_median,ci_lo,ci_hi,obs_pctile_in_boot,n_bootstrap,share_above_1
-extremum ratio min(large)/max(small),1.749,1.061,0.73,1.455,100.0,400,0.6275
-median ratio median(large)/median(small),2.377,1.919,1.387,2.506,93.8,400,1.0
-pairwise concordance (share of 49 large-vs-small comparisons ordered large>small),1.0,1.0,0.878,1.0,37.2,400,

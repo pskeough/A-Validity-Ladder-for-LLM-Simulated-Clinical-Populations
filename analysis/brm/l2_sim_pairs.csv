@@ -1,0 +1,1585 @@
+model,condition,gender,ses,relationship,diff,contrast,corpus,panel,race_set,race
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,High,Married,0.8333333333333339,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,High,Married,0.7999999999999998,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,High,Single,0.5666666666666664,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,High,Single,0.033333333333333215,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,Low,Married,0.1999999999999993,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,Low,Married,-0.43333333333333357,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,Low,Single,-0.6666666666666661,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,Low,Single,0.2666666666666675,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,Middle,Married,0.0,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,Middle,Married,0.4333333333333327,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,Middle,Single,0.4666666666666668,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,Middle,Single,0.2666666666666657,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,High,Married,1.0999999999999996,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,High,Married,-0.10000000000000053,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,High,Single,0.8666666666666671,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,High,Single,0.33333333333333304,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,Low,Married,-0.6333333333333329,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,Low,Married,0.7333333333333325,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,Low,Single,-0.2666666666666675,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,Low,Single,-0.8333333333333339,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,Middle,Married,0.13333333333333464,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,Middle,Married,0.4333333333333327,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,Middle,Single,0.5,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,Middle,Single,0.09999999999999964,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,High,Married,-0.10000000000000009,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,High,Married,0.0,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,High,Single,-0.23333333333333384,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,High,Single,0.09999999999999964,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,Low,Married,-1.0666666666666664,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,Low,Married,-1.1333333333333346,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,Low,Single,0.43333333333333357,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,Low,Single,-1.7666666666666657,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,Middle,Married,0.06666666666666687,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,Middle,Married,0.46666666666666723,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,Middle,Single,0.13333333333333375,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,Middle,Single,0.2333333333333334,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,High,Married,0.06666666666666643,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,High,Married,-0.19999999999999973,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,High,Single,-0.2999999999999998,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,High,Single,-0.1333333333333333,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,Low,Married,-1.166666666666666,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,Low,Married,-2.166666666666666,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,Low,Single,-1.0999999999999996,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,Low,Single,-1.833333333333334,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,Middle,Married,0.09999999999999964,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,Middle,Married,0.33333333333333304,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,Middle,Single,-0.10000000000000053,Black minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,Middle,Single,-0.10000000000000053,Black minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,High,Married,-0.7333333333333334,Black minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,High,Married,1.0,Black minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,High,Single,0.06666666666666643,Black minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,High,Single,0.9666666666666659,Black minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,Low,Married,-0.36666666666666714,Black minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,Low,Married,1.0666666666666664,Black minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,Low,Single,0.2666666666666675,Black minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,Low,Single,0.3333333333333339,Black minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,Middle,Married,-0.36666666666666714,Black minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,Middle,Married,0.033333333333333215,Black minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,Middle,Single,0.2666666666666657,Black minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,Middle,Single,-0.33333333333333304,Black minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,High,Married,-0.39999999999999947,Black minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,High,Married,-0.033333333333333215,Black minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,High,Single,0.13333333333333286,Black minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,High,Single,0.2666666666666666,Black minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,Low,Married,0.4666666666666668,Black minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,Low,Married,1.2333333333333343,Black minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,Low,Single,-0.09999999999999964,Black minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,Low,Single,0.6333333333333329,Black minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,Middle,Married,0.36666666666666714,Black minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,Middle,Married,0.6666666666666679,Black minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,Middle,Single,-0.13333333333333286,Black minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,Middle,Single,-0.09999999999999964,Black minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,High,Married,-0.5,Black minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,High,Married,0.19999999999999996,Black minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,High,Single,0.2333333333333334,Black minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,High,Single,-0.20000000000000018,Black minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,Low,Married,-1.9666666666666668,Black minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,Low,Married,-1.166666666666666,Black minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,Low,Single,-1.0666666666666682,Black minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,Low,Single,-0.9333333333333318,Black minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,Middle,Married,0.0,Black minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,Middle,Married,0.6000000000000001,Black minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,Middle,Single,0.7333333333333334,Black minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,Middle,Single,-0.43333333333333357,Black minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,High,Married,-0.5999999999999996,Black minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,High,Married,-0.06666666666666643,Black minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,High,Single,0.09999999999999964,Black minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,High,Single,-1.1333333333333329,Black minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,Low,Married,-0.3333333333333339,Black minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,Low,Married,-1.6999999999999993,Black minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,Low,Single,-0.7999999999999989,Black minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,Low,Single,-1.1999999999999993,Black minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,Middle,Married,-0.5,Black minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,Middle,Married,-1.0333333333333332,Black minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,Middle,Single,-0.7999999999999998,Black minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,Middle,Single,-0.833333333333333,Black minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,High,Married,0.5666666666666673,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,High,Married,0.6333333333333337,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,High,Single,0.5333333333333332,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,High,Single,0.39999999999999947,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,Low,Married,0.06666666666666643,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,Low,Married,-0.09999999999999964,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,Low,Single,-0.2666666666666657,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,Low,Single,-0.033333333333333215,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,Middle,Married,0.033333333333333215,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,Middle,Married,0.33333333333333304,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,Middle,Single,0.2333333333333325,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,Middle,Single,0.06666666666666643,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,High,Married,0.5333333333333332,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,High,Married,0.4666666666666668,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,High,Single,0.666666666666667,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,High,Single,1.0,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,Low,Married,-0.5999999999999996,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,Low,Married,0.16666666666666607,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,Low,Single,-0.4666666666666668,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,Low,Single,-0.9666666666666668,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,Middle,Married,0.10000000000000142,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,Middle,Married,0.2333333333333334,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,Middle,Single,0.36666666666666714,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,Middle,Single,0.20000000000000107,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,High,Married,-0.03333333333333366,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,High,Married,0.1333333333333333,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,High,Single,-0.46666666666666723,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,High,Single,0.09999999999999964,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,Low,Married,-0.5999999999999996,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,Low,Married,-0.2666666666666675,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,Low,Single,0.3000000000000007,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,Low,Single,-1.299999999999999,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,Middle,Married,-0.1333333333333333,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,Middle,Married,0.16666666666666696,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,Middle,Single,0.3000000000000007,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,Middle,Single,0.36666666666666625,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,High,Married,-0.10000000000000009,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,High,Married,0.30000000000000027,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,High,Single,-0.43333333333333357,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,High,Single,-0.1333333333333333,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,Low,Married,-0.09999999999999964,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,Low,Married,0.6333333333333329,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,Low,Single,0.16666666666666607,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,Low,Single,-0.6333333333333329,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,Middle,Married,0.2666666666666666,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,Middle,Married,0.6333333333333329,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,Middle,Single,0.33333333333333304,Hispanic minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,Middle,Single,0.33333333333333304,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,High,Married,0.06666666666666732,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,High,Married,1.2000000000000002,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,High,Single,0.39999999999999947,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,High,Single,0.0,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,Low,Married,-0.7000000000000011,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,Low,Married,0.9333333333333336,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,Low,Single,0.13333333333333464,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,Low,Single,0.13333333333333286,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,Middle,Married,0.4333333333333327,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,Middle,Married,0.1999999999999993,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,Middle,Single,0.06666666666666643,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,Middle,Single,-0.16666666666666696,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,High,Married,0.7000000000000002,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,High,Married,-0.16666666666666696,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,High,Single,-0.2666666666666666,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,High,Single,0.6666666666666661,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,Low,Married,-0.2333333333333325,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,Low,Married,0.13333333333333464,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,Low,Single,-0.6333333333333329,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,Low,Single,0.5999999999999996,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,Middle,Married,0.0,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,Middle,Married,0.0333333333333341,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,Middle,Single,-0.29999999999999893,Hispanic minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,Middle,Single,0.13333333333333286,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,High,Married,-0.2666666666666666,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,High,Married,0.43333333333333335,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,High,Single,0.0,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,High,Single,0.19999999999999973,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,Low,Married,-1.0999999999999996,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,Low,Married,-1.0,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,Low,Single,-0.7333333333333343,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,Low,Single,-1.299999999999999,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,Middle,Married,0.5,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,Middle,Married,-0.1333333333333333,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,Middle,Single,0.40000000000000036,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,Middle,Single,-0.3666666666666667,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,High,Married,-0.09999999999999964,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,High,Married,-0.09999999999999964,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,High,Single,0.9666666666666668,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,High,Single,-1.233333333333333,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,Low,Married,-0.6333333333333329,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,Low,Married,-1.1333333333333329,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,Low,Single,-0.9333333333333336,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,Low,Single,-1.5999999999999996,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,Middle,Married,0.39999999999999947,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,Middle,Married,-0.6000000000000005,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,Middle,Single,-0.5,Hispanic minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,Middle,Single,-1.7999999999999998,Hispanic minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,High,Married,-0.33333333333333304,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,High,Married,-0.7999999999999998,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,High,Single,-0.6000000000000005,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,High,Single,-1.2666666666666666,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,Low,Married,-0.3000000000000007,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,Low,Married,-0.6666666666666661,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,Low,Single,-1.0666666666666664,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,Low,Single,-0.7666666666666657,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,Middle,Married,-0.2999999999999998,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,Middle,Married,-0.5666666666666673,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,Middle,Single,-0.0333333333333341,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,Middle,Single,-0.40000000000000036,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,High,Married,-0.8333333333333339,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,High,Married,-1.333333333333334,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,High,Single,-0.16666666666666696,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,High,Single,-0.9000000000000004,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,Low,Married,-1.5999999999999996,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,Low,Married,-0.20000000000000107,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,Low,Single,-1.9666666666666668,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,Low,Single,-1.5333333333333332,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,Middle,Married,-0.4666666666666659,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,Middle,Married,-0.36666666666666714,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,Middle,Single,-0.06666666666666643,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,Middle,Single,-0.4666666666666659,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,High,Married,-0.10000000000000009,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,High,Married,-0.1333333333333333,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,High,Single,0.09999999999999964,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,High,Single,0.06666666666666643,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,Low,Married,-3.166666666666667,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,Low,Married,-4.366666666666667,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,Low,Single,-2.833333333333332,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,Low,Single,-5.8,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,Middle,Married,0.3333333333333335,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,Middle,Married,0.30000000000000027,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Man,Middle,Single,-0.13333333333333286,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Man,Middle,Single,-0.06666666666666687,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,High,Married,0.2333333333333334,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,High,Married,0.30000000000000027,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,High,Single,-0.06666666666666643,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,High,Single,-0.19999999999999973,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,Low,Married,-3.5999999999999996,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,Low,Married,-5.266666666666667,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,Low,Single,-3.366666666666667,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,Low,Single,-6.466666666666667,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,Middle,Married,0.0,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,Middle,Married,0.2333333333333334,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,clinical,Cisgender Woman,Middle,Single,-0.5,Asian minus White,all,four models,four,
+google/gemini-3-flash-preview,narrative,Cisgender Woman,Middle,Single,-0.2333333333333334,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,High,Married,0.2333333333333334,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,High,Married,0.36666666666666625,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,High,Single,-0.7333333333333334,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,High,Single,-0.13333333333333375,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,Low,Married,-0.8333333333333339,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,Low,Married,0.4666666666666668,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,Low,Single,-0.5999999999999996,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,Low,Single,-0.5999999999999996,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,Middle,Married,0.033333333333333215,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,Middle,Married,-0.4666666666666668,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Man,Middle,Single,-0.13333333333333375,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Man,Middle,Single,-0.2999999999999998,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,High,Married,0.7000000000000002,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,High,Married,-1.1000000000000005,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,High,Single,-0.36666666666666714,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,High,Single,-0.20000000000000018,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,Low,Married,-1.0333333333333332,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,Low,Married,0.23333333333333428,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,Low,Single,-1.4333333333333336,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,Low,Single,-0.7333333333333325,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,Middle,Married,-0.40000000000000036,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,Middle,Married,-0.6333333333333329,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,clinical,Cisgender Woman,Middle,Single,-1.1333333333333329,Asian minus White,all,four models,four,
+openai/gpt-4o-mini,narrative,Cisgender Woman,Middle,Single,-0.8666666666666663,Asian minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,High,Married,-0.5666666666666669,Asian minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,High,Married,0.03333333333333344,Asian minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,High,Single,0.5333333333333337,Asian minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,High,Single,-0.5666666666666669,Asian minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,Low,Married,-3.8666666666666663,Asian minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,Low,Married,-2.8999999999999995,Asian minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,Low,Single,-3.0666666666666673,Asian minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,Low,Single,-4.133333333333333,Asian minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,Middle,Married,-0.5,Asian minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,Middle,Married,-0.3666666666666667,Asian minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Man,Middle,Single,-0.7999999999999998,Asian minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Man,Middle,Single,-0.5,Asian minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,High,Married,-0.5333333333333332,Asian minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,High,Married,-0.6666666666666665,Asian minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,High,Single,0.09999999999999964,Asian minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,High,Single,-1.4999999999999996,Asian minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,Low,Married,-2.333333333333334,Asian minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,Low,Married,-3.833333333333333,Asian minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,Low,Single,-3.4333333333333336,Asian minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,Low,Single,-4.166666666666666,Asian minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,Middle,Married,-1.666666666666667,Asian minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,Middle,Married,-2.5333333333333337,Asian minus White,all,four models,four,
+z-ai/glm-4.7,clinical,Cisgender Woman,Middle,Single,-2.0,Asian minus White,all,four models,four,
+z-ai/glm-4.7,narrative,Cisgender Woman,Middle,Single,-2.4000000000000004,Asian minus White,all,four models,four,
+deepseek/deepseek-chat-v3,clinical,,High,Married,-0.13333333333333375,Women minus Men,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,,High,Married,0.09999999999999964,Women minus Men,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,,High,Single,0.5333333333333332,Women minus Men,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,,High,Single,0.39999999999999947,Women minus Men,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,,Low,Married,0.0666666666666682,Women minus Men,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,,Low,Married,0.1999999999999993,Women minus Men,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,,Low,Single,0.2666666666666675,Women minus Men,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,,Low,Single,0.40000000000000036,Women minus Men,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,,Middle,Married,0.0,Women minus Men,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,,Middle,Married,0.2333333333333334,Women minus Men,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,,Middle,Single,0.10000000000000053,Women minus Men,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,,Middle,Single,0.16666666666666696,Women minus Men,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,,High,Married,0.6333333333333329,Women minus Men,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,,High,Married,-0.2666666666666666,Women minus Men,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,,High,Single,0.40000000000000036,Women minus Men,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,,High,Single,0.33333333333333304,Women minus Men,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,,Low,Married,0.533333333333335,Women minus Men,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,,Low,Married,0.9000000000000004,Women minus Men,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,,Low,Single,1.5666666666666664,Women minus Men,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,,Low,Single,0.06666666666666643,Women minus Men,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,,Middle,Married,0.3000000000000007,Women minus Men,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,,Middle,Married,0.033333333333333215,Women minus Men,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,,Middle,Single,0.16666666666666607,Women minus Men,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,,Middle,Single,0.06666666666666643,Women minus Men,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,,High,Married,0.33333333333333304,Women minus Men,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,,High,Married,0.4666666666666668,Women minus Men,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,,High,Single,0.2333333333333334,Women minus Men,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,,High,Single,0.6333333333333337,Women minus Men,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,,Low,Married,0.7000000000000011,Women minus Men,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,,Low,Married,0.0,Women minus Men,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,,Low,Single,0.9666666666666668,Women minus Men,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,,Low,Single,0.23333333333333428,Women minus Men,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,,Middle,Married,0.23333333333333428,Women minus Men,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,,Middle,Married,-0.06666666666666643,Women minus Men,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,,Middle,Single,0.2666666666666675,Women minus Men,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,,Middle,Single,0.36666666666666714,Women minus Men,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,,High,Married,0.36666666666666714,Women minus Men,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,,High,Married,0.6333333333333337,Women minus Men,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,,High,Single,0.09999999999999964,Women minus Men,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,,High,Single,0.033333333333333215,Women minus Men,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,,Low,Married,1.3666666666666671,Women minus Men,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,,Low,Married,-0.2666666666666657,Women minus Men,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,,Low,Single,1.1666666666666679,Women minus Men,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,,Low,Single,1.1666666666666679,Women minus Men,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,,Middle,Married,0.16666666666666607,Women minus Men,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,,Middle,Married,0.033333333333333215,Women minus Men,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,,Middle,Single,0.13333333333333286,Women minus Men,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,,Middle,Single,0.2333333333333325,Women minus Men,all,four models,four,White
+google/gemini-3-flash-preview,clinical,,High,Married,0.5,Women minus Men,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,,High,Married,1.0666666666666669,Women minus Men,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,,High,Single,0.43333333333333357,Women minus Men,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,,High,Single,0.7000000000000002,Women minus Men,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,,Low,Married,1.166666666666667,Women minus Men,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,,Low,Married,1.2999999999999998,Women minus Men,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,,Low,Single,1.7333333333333325,Women minus Men,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,,Low,Single,1.1333333333333337,Women minus Men,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,,Middle,Married,0.0,Women minus Men,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,,Middle,Married,0.2333333333333334,Women minus Men,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,,Middle,Single,0.9666666666666668,Women minus Men,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,,Middle,Single,0.5000000000000004,Women minus Men,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,,High,Married,0.33333333333333304,Women minus Men,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,,High,Married,0.43333333333333357,Women minus Men,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,,High,Single,0.5333333333333337,Women minus Men,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,,High,Single,0.7333333333333334,Women minus Men,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,,Low,Married,1.5,Women minus Men,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,,Low,Married,1.1666666666666679,Women minus Men,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,,Low,Single,0.7333333333333343,Women minus Men,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,,Low,Single,1.7333333333333325,Women minus Men,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,,Middle,Married,0.36666666666666625,Women minus Men,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,,Middle,Married,0.16666666666666607,Women minus Men,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,,Middle,Single,1.0999999999999996,Women minus Men,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,,Middle,Single,0.33333333333333304,Women minus Men,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,,High,Married,0.10000000000000009,Women minus Men,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,,High,Married,0.8000000000000003,Women minus Men,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,,High,Single,0.6333333333333333,Women minus Men,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,,High,Single,0.7333333333333334,Women minus Men,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,,Low,Married,2.0999999999999996,Women minus Men,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,,Low,Married,3.0999999999999996,Women minus Men,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,,Low,Single,2.133333333333333,Women minus Men,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,,Low,Single,2.466666666666667,Women minus Men,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,,Middle,Married,0.7333333333333334,Women minus Men,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,,Middle,Married,0.7666666666666662,Women minus Men,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,,Middle,Single,1.3666666666666663,Women minus Men,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,,Middle,Single,0.6333333333333337,Women minus Men,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,,High,Married,0.16666666666666652,Women minus Men,all,four models,four,White
+google/gemini-3-flash-preview,narrative,,High,Married,0.6333333333333333,Women minus Men,all,four models,four,White
+google/gemini-3-flash-preview,clinical,,High,Single,0.5999999999999996,Women minus Men,all,four models,four,White
+google/gemini-3-flash-preview,narrative,,High,Single,0.9666666666666663,Women minus Men,all,four models,four,White
+google/gemini-3-flash-preview,clinical,,Low,Married,1.5999999999999996,Women minus Men,all,four models,four,White
+google/gemini-3-flash-preview,narrative,,Low,Married,2.1999999999999993,Women minus Men,all,four models,four,White
+google/gemini-3-flash-preview,clinical,,Low,Single,2.2666666666666675,Women minus Men,all,four models,four,White
+google/gemini-3-flash-preview,narrative,,Low,Single,1.8000000000000007,Women minus Men,all,four models,four,White
+google/gemini-3-flash-preview,clinical,,Middle,Married,0.3333333333333335,Women minus Men,all,four models,four,White
+google/gemini-3-flash-preview,narrative,,Middle,Married,0.30000000000000027,Women minus Men,all,four models,four,White
+google/gemini-3-flash-preview,clinical,,Middle,Single,1.333333333333334,Women minus Men,all,four models,four,White
+google/gemini-3-flash-preview,narrative,,Middle,Single,0.666666666666667,Women minus Men,all,four models,four,White
+openai/gpt-4o-mini,clinical,,High,Married,0.2333333333333334,Women minus Men,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,,High,Married,-0.033333333333333215,Women minus Men,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,,High,Single,0.13333333333333286,Women minus Men,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,,High,Single,-0.2999999999999998,Women minus Men,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,,Low,Married,-0.3333333333333339,Women minus Men,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,,Low,Married,0.3333333333333339,Women minus Men,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,,Low,Single,-0.06666666666666643,Women minus Men,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,,Low,Single,-0.16666666666666607,Women minus Men,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,,Middle,Married,0.13333333333333286,Women minus Men,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,,Middle,Married,-0.20000000000000018,Women minus Men,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,,Middle,Single,-0.33333333333333304,Women minus Men,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,,Middle,Single,0.0,Women minus Men,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,,High,Married,0.10000000000000053,Women minus Men,all,four models,four,Black
+openai/gpt-4o-mini,narrative,,High,Married,0.40000000000000036,Women minus Men,all,four models,four,Black
+openai/gpt-4o-mini,clinical,,High,Single,-0.16666666666666696,Women minus Men,all,four models,four,Black
+openai/gpt-4o-mini,narrative,,High,Single,-0.9333333333333327,Women minus Men,all,four models,four,Black
+openai/gpt-4o-mini,clinical,,Low,Married,0.6999999999999993,Women minus Men,all,four models,four,Black
+openai/gpt-4o-mini,narrative,,Low,Married,0.7333333333333343,Women minus Men,all,four models,four,Black
+openai/gpt-4o-mini,clinical,,Low,Single,0.40000000000000036,Women minus Men,all,four models,four,Black
+openai/gpt-4o-mini,narrative,,Low,Single,0.2666666666666657,Women minus Men,all,four models,four,Black
+openai/gpt-4o-mini,clinical,,Middle,Married,1.3000000000000007,Women minus Men,all,four models,four,Black
+openai/gpt-4o-mini,narrative,,Middle,Married,0.6000000000000005,Women minus Men,all,four models,four,Black
+openai/gpt-4o-mini,clinical,,Middle,Single,0.2666666666666675,Women minus Men,all,four models,four,Black
+openai/gpt-4o-mini,narrative,,Middle,Single,0.7999999999999998,Women minus Men,all,four models,four,Black
+openai/gpt-4o-mini,clinical,,High,Married,0.39999999999999947,Women minus Men,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,,High,Married,0.06666666666666643,Women minus Men,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,,High,Single,-0.8999999999999995,Women minus Men,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,,High,Single,0.4333333333333327,Women minus Men,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,,Low,Married,0.3333333333333339,Women minus Men,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,,Low,Married,-0.2333333333333325,Women minus Men,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,,Low,Single,0.0,Women minus Men,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,,Low,Single,0.43333333333333357,Women minus Men,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,,Middle,Married,0.13333333333333375,Women minus Men,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,,Middle,Married,-0.1999999999999993,Women minus Men,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,,Middle,Single,0.3000000000000007,Women minus Men,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,,Middle,Single,0.8666666666666663,Women minus Men,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,,High,Married,-0.2333333333333334,Women minus Men,all,four models,four,White
+openai/gpt-4o-mini,narrative,,High,Married,1.4333333333333336,Women minus Men,all,four models,four,White
+openai/gpt-4o-mini,clinical,,High,Single,-0.2333333333333334,Women minus Men,all,four models,four,White
+openai/gpt-4o-mini,narrative,,High,Single,-0.2333333333333334,Women minus Men,all,four models,four,White
+openai/gpt-4o-mini,clinical,,Low,Married,-0.13333333333333464,Women minus Men,all,four models,four,White
+openai/gpt-4o-mini,narrative,,Low,Married,0.5666666666666664,Women minus Men,all,four models,four,White
+openai/gpt-4o-mini,clinical,,Low,Single,0.7666666666666675,Women minus Men,all,four models,four,White
+openai/gpt-4o-mini,narrative,,Low,Single,-0.033333333333333215,Women minus Men,all,four models,four,White
+openai/gpt-4o-mini,clinical,,Middle,Married,0.5666666666666664,Women minus Men,all,four models,four,White
+openai/gpt-4o-mini,narrative,,Middle,Married,-0.0333333333333341,Women minus Men,all,four models,four,White
+openai/gpt-4o-mini,clinical,,Middle,Single,0.6666666666666661,Women minus Men,all,four models,four,White
+openai/gpt-4o-mini,narrative,,Middle,Single,0.5666666666666664,Women minus Men,all,four models,four,White
+z-ai/glm-4.7,clinical,,High,Married,0.7333333333333334,Women minus Men,all,four models,four,Asian
+z-ai/glm-4.7,narrative,,High,Married,0.2666666666666666,Women minus Men,all,four models,four,Asian
+z-ai/glm-4.7,clinical,,High,Single,1.3666666666666663,Women minus Men,all,four models,four,Asian
+z-ai/glm-4.7,narrative,,High,Single,0.8333333333333335,Women minus Men,all,four models,four,Asian
+z-ai/glm-4.7,clinical,,Low,Married,2.5666666666666655,Women minus Men,all,four models,four,Asian
+z-ai/glm-4.7,narrative,,Low,Married,1.4333333333333336,Women minus Men,all,four models,four,Asian
+z-ai/glm-4.7,clinical,,Low,Single,1.466666666666666,Women minus Men,all,four models,four,Asian
+z-ai/glm-4.7,narrative,,Low,Single,3.3000000000000007,Women minus Men,all,four models,four,Asian
+z-ai/glm-4.7,clinical,,Middle,Married,0.6666666666666665,Women minus Men,all,four models,four,Asian
+z-ai/glm-4.7,narrative,,Middle,Married,0.4333333333333331,Women minus Men,all,four models,four,Asian
+z-ai/glm-4.7,clinical,,Middle,Single,2.033333333333333,Women minus Men,all,four models,four,Asian
+z-ai/glm-4.7,narrative,,Middle,Single,1.5333333333333328,Women minus Men,all,four models,four,Asian
+z-ai/glm-4.7,clinical,,High,Married,0.6000000000000001,Women minus Men,all,four models,four,Black
+z-ai/glm-4.7,narrative,,High,Married,0.7000000000000002,Women minus Men,all,four models,four,Black
+z-ai/glm-4.7,clinical,,High,Single,1.6666666666666665,Women minus Men,all,four models,four,Black
+z-ai/glm-4.7,narrative,,High,Single,0.8333333333333335,Women minus Men,all,four models,four,Black
+z-ai/glm-4.7,clinical,,Low,Married,2.666666666666666,Women minus Men,all,four models,four,Black
+z-ai/glm-4.7,narrative,,Low,Married,1.833333333333334,Women minus Men,all,four models,four,Black
+z-ai/glm-4.7,clinical,,Low,Single,2.1000000000000014,Women minus Men,all,four models,four,Black
+z-ai/glm-4.7,narrative,,Low,Single,3.0666666666666664,Women minus Men,all,four models,four,Black
+z-ai/glm-4.7,clinical,,Middle,Married,1.3333333333333335,Women minus Men,all,four models,four,Black
+z-ai/glm-4.7,narrative,,Middle,Married,0.9666666666666668,Women minus Men,all,four models,four,Black
+z-ai/glm-4.7,clinical,,Middle,Single,1.7000000000000002,Women minus Men,all,four models,four,Black
+z-ai/glm-4.7,narrative,,Middle,Single,3.0333333333333337,Women minus Men,all,four models,four,Black
+z-ai/glm-4.7,clinical,,High,Married,0.8666666666666667,Women minus Men,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,,High,Married,0.43333333333333357,Women minus Men,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,,High,Single,2.766666666666667,Women minus Men,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,,High,Single,0.3333333333333335,Women minus Men,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,,Low,Married,1.5,Women minus Men,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,,Low,Married,2.2333333333333343,Women minus Men,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,,Low,Single,1.6333333333333329,Women minus Men,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,,Low,Single,3.033333333333333,Women minus Men,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,,Middle,Married,1.733333333333333,Women minus Men,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,,Middle,Married,2.133333333333333,Women minus Men,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,,Middle,Single,2.333333333333333,Women minus Men,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,,Middle,Single,2.0,Women minus Men,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,,High,Married,0.6999999999999997,Women minus Men,all,four models,four,White
+z-ai/glm-4.7,narrative,,High,Married,0.9666666666666666,Women minus Men,all,four models,four,White
+z-ai/glm-4.7,clinical,,High,Single,1.8000000000000003,Women minus Men,all,four models,four,White
+z-ai/glm-4.7,narrative,,High,Single,1.7666666666666662,Women minus Men,all,four models,four,White
+z-ai/glm-4.7,clinical,,Low,Married,1.0333333333333332,Women minus Men,all,four models,four,White
+z-ai/glm-4.7,narrative,,Low,Married,2.366666666666667,Women minus Men,all,four models,four,White
+z-ai/glm-4.7,clinical,,Low,Single,1.8333333333333321,Women minus Men,all,four models,four,White
+z-ai/glm-4.7,narrative,,Low,Single,3.333333333333334,Women minus Men,all,four models,four,White
+z-ai/glm-4.7,clinical,,Middle,Married,1.8333333333333335,Women minus Men,all,four models,four,White
+z-ai/glm-4.7,narrative,,Middle,Married,2.6,Women minus Men,all,four models,four,White
+z-ai/glm-4.7,clinical,,Middle,Single,3.2333333333333334,Women minus Men,all,four models,four,White
+z-ai/glm-4.7,narrative,,Middle,Single,3.433333333333333,Women minus Men,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,2.499999999999999,Low minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,3.166666666666667,Low minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,2.2,Low minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,2.966666666666667,Low minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,2.700000000000001,Low minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,3.2666666666666666,Low minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,1.9333333333333345,Low minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,2.9666666666666677,Low minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,1.8333333333333321,Low minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,1.7999999999999998,Low minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,1.4333333333333336,Low minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,2.7,Low minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,1.7333333333333343,Low minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,2.966666666666667,Low minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,2.5999999999999996,Low minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,2.4333333333333336,Low minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,1.966666666666666,Low minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,2.3,Low minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,1.8666666666666671,Low minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,2.033333333333333,Low minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,2.333333333333334,Low minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,1.833333333333333,Low minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,2.6000000000000005,Low minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,1.6333333333333337,Low minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,2.466666666666667,Low minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,3.033333333333333,Low minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,2.666666666666666,Low minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,2.466666666666666,Low minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,3.466666666666667,Low minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,2.1333333333333337,Low minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,3.7333333333333343,Low minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,3.6000000000000005,Low minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,3.966666666666667,Low minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,2.366666666666667,Low minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,4.633333333333334,Low minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,2.1666666666666665,Low minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,4.633333333333334,Low minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,2.6,Low minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,5.933333333333333,Low minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,2.6,Low minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,6.066666666666667,Low minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,5.466666666666667,Low minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,8.233333333333333,Low minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,6.166666666666668,Low minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,7.233333333333334,Low minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,6.200000000000001,Low minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,8.433333333333334,Low minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,7.166666666666666,Low minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,6.466666666666668,Low minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,6.2,Low minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,8.333333333333334,Low minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,6.633333333333335,Low minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,8.466666666666667,Low minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,8.5,Low minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,9.833333333333332,Low minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,8.366666666666667,Low minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,7.033333333333333,Low minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,6.600000000000001,Low minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,7.5666666666666655,Low minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,8.033333333333333,Low minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,8.466666666666667,Low minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,8.166666666666668,Low minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,9.233333333333334,Low minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,8.866666666666667,Low minus High SES,all,four models,four,White
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,2.7333333333333334,Low minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,2.2666666666666666,Low minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,3.3999999999999995,Low minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,1.7000000000000002,Low minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,2.166666666666666,Low minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,2.6333333333333337,Low minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,3.2,Low minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,1.833333333333334,Low minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,4.166666666666667,Low minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,2.2333333333333325,Low minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,3.466666666666667,Low minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,1.533333333333334,Low minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,4.766666666666666,Low minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,2.5666666666666664,Low minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,4.033333333333334,Low minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,2.7333333333333325,Low minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,3.0333333333333323,Low minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,1.8999999999999995,Low minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,3.000000000000001,Low minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,2.299999999999999,Low minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,2.966666666666667,Low minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,1.6000000000000005,Low minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,3.9000000000000004,Low minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,2.3,Low minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,3.8000000000000007,Low minus High SES,all,four models,four,White
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,2.166666666666666,Low minus High SES,all,four models,four,White
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,3.2666666666666657,Low minus High SES,all,four models,four,White
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,2.166666666666666,Low minus High SES,all,four models,four,White
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,3.8999999999999995,Low minus High SES,all,four models,four,White
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,1.299999999999999,Low minus High SES,all,four models,four,White
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,4.266666666666667,Low minus High SES,all,four models,four,White
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,2.3666666666666663,Low minus High SES,all,four models,four,White
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,3.4666666666666672,Low minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,4.5,Low minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,4.0,Low minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,4.1,Low minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,5.299999999999999,Low minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,5.666666666666667,Low minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,4.1,Low minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,6.566666666666666,Low minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,5.3,Low minus High SES,all,four models,four,Black
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,6.066666666666666,Low minus High SES,all,four models,four,Black
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,6.299999999999999,Low minus High SES,all,four models,four,Black
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,6.933333333333334,Low minus High SES,all,four models,four,Black
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,7.366666666666665,Low minus High SES,all,four models,four,Black
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,7.200000000000001,Low minus High SES,all,four models,four,Black
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,6.733333333333334,Low minus High SES,all,four models,four,Black
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,9.166666666666668,Low minus High SES,all,four models,four,Black
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,5.933333333333334,Low minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,6.0,Low minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,6.866666666666667,Low minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,6.166666666666667,Low minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,6.566666666666666,Low minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,7.800000000000001,Low minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,5.7333333333333325,Low minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,8.866666666666667,Low minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,6.766666666666667,Low minus High SES,all,four models,four,White
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,7.433333333333333,Low minus High SES,all,four models,four,White
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,7.600000000000001,Low minus High SES,all,four models,four,White
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,7.666666666666666,Low minus High SES,all,four models,four,White
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,7.1,Low minus High SES,all,four models,four,White
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,8.833333333333334,Low minus High SES,all,four models,four,White
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,7.633333333333333,Low minus High SES,all,four models,four,White
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,9.233333333333334,Low minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,2.0,Middle minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,2.333333333333333,Middle minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,1.5333333333333332,Middle minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,2.5666666666666664,Middle minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,2.1333333333333337,Middle minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,2.466666666666667,Middle minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,1.1000000000000005,Middle minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,2.333333333333334,Middle minus High SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,1.1333333333333329,Middle minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,1.7333333333333334,Middle minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,0.8666666666666671,Middle minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,1.9333333333333327,Middle minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,0.8000000000000007,Middle minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,2.033333333333333,Middle minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,0.6333333333333329,Middle minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,1.666666666666666,Middle minus High SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,1.4333333333333327,Middle minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,1.7999999999999998,Middle minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,0.6666666666666661,Middle minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,1.3666666666666671,Middle minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,1.333333333333334,Middle minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,1.2666666666666666,Middle minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,0.7000000000000002,Middle minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,1.1000000000000005,Middle minus High SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,1.9666666666666668,Middle minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,2.1000000000000005,Middle minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,0.9666666666666668,Middle minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,1.7000000000000002,Middle minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,1.7666666666666657,Middle minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,1.5,Middle minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,1.0,Middle minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,1.8999999999999995,Middle minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,0.5,Middle minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,1.4333333333333336,Middle minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,0.2333333333333334,Middle minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,0.7999999999999998,Middle minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,0.0,Middle minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,0.6000000000000001,Middle minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,0.7666666666666666,Middle minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,0.6000000000000001,Middle minus High SES,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,0.2333333333333334,Middle minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,1.4666666666666672,Middle minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,0.8333333333333335,Middle minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,1.0666666666666669,Middle minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,0.2666666666666666,Middle minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,1.1999999999999997,Middle minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,1.3999999999999995,Middle minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,0.6666666666666665,Middle minus High SES,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,-0.033333333333333215,Middle minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,1.0333333333333337,Middle minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,1.2333333333333338,Middle minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,1.1999999999999997,Middle minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,0.6000000000000001,Middle minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,0.9999999999999996,Middle minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,1.9666666666666668,Middle minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,1.1,Middle minus High SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,0.06666666666666643,Middle minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,1.0,Middle minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,0.4666666666666659,Middle minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,0.9333333333333331,Middle minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,0.2333333333333334,Middle minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,0.666666666666667,Middle minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,1.2000000000000002,Middle minus High SES,all,four models,four,White
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,0.6333333333333337,Middle minus High SES,all,four models,four,White
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,1.166666666666667,Middle minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,0.8000000000000007,Middle minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,2.133333333333333,Middle minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,0.9666666666666668,Middle minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,1.0666666666666664,Middle minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,0.6333333333333337,Middle minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,1.666666666666667,Middle minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,1.2666666666666666,Middle minus High SES,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,1.7333333333333334,Middle minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,0.666666666666667,Middle minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.7333333333333325,Middle minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,-0.16666666666666607,Middle minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,2.9333333333333336,Middle minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,0.8666666666666671,Middle minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,2.166666666666667,Middle minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,1.5666666666666664,Middle minus High SES,all,four models,four,Black
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,1.7333333333333325,Middle minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,0.6333333333333329,Middle minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.2000000000000002,Middle minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,0.9666666666666659,Middle minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,1.4666666666666668,Middle minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,0.36666666666666714,Middle minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,2.4000000000000004,Middle minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,1.3999999999999995,Middle minus High SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,1.3666666666666671,Middle minus High SES,all,four models,four,White
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,1.6333333333333337,Middle minus High SES,all,four models,four,White
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.5333333333333332,Middle minus High SES,all,four models,four,White
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,1.1333333333333329,Middle minus High SES,all,four models,four,White
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,2.166666666666667,Middle minus High SES,all,four models,four,White
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,0.16666666666666607,Middle minus High SES,all,four models,four,White
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,2.4333333333333327,Middle minus High SES,all,four models,four,White
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,1.9333333333333327,Middle minus High SES,all,four models,four,White
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,0.40000000000000036,Middle minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,0.5,Middle minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,0.09999999999999964,Middle minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,1.0666666666666669,Middle minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,0.3333333333333335,Middle minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,0.6666666666666665,Middle minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,0.7666666666666666,Middle minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,1.7666666666666662,Middle minus High SES,all,four models,four,Asian
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,0.8333333333333335,Middle minus High SES,all,four models,four,Black
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,1.3000000000000003,Middle minus High SES,all,four models,four,Black
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,1.9333333333333331,Middle minus High SES,all,four models,four,Black
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,0.7666666666666666,Middle minus High SES,all,four models,four,Black
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,1.5666666666666669,Middle minus High SES,all,four models,four,Black
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,1.5666666666666669,Middle minus High SES,all,four models,four,Black
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,1.9666666666666668,Middle minus High SES,all,four models,four,Black
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,2.966666666666667,Middle minus High SES,all,four models,four,Black
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,1.1,Middle minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,0.3333333333333335,Middle minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,1.8333333333333335,Middle minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,0.43333333333333357,Middle minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,1.9666666666666663,Middle minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,2.0333333333333328,Middle minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,1.3999999999999995,Middle minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,2.1,Middle minus High SES,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,0.3333333333333335,Middle minus High SES,all,four models,four,White
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,0.9000000000000001,Middle minus High SES,all,four models,four,White
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,1.4333333333333331,Middle minus High SES,all,four models,four,White
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,1.0,Middle minus High SES,all,four models,four,White
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,1.4666666666666672,Middle minus High SES,all,four models,four,White
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,2.5333333333333337,Middle minus High SES,all,four models,four,White
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,2.8666666666666663,Middle minus High SES,all,four models,four,White
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,2.666666666666667,Middle minus High SES,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,0.4999999999999991,Low minus Middle SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,0.8333333333333339,Low minus Middle SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,0.666666666666667,Low minus Middle SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,0.40000000000000036,Low minus Middle SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,0.5666666666666673,Low minus Middle SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,0.7999999999999998,Low minus Middle SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,0.8333333333333339,Low minus Middle SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,0.6333333333333337,Low minus Middle SES,all,four models,four,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,0.6999999999999993,Low minus Middle SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,0.06666666666666643,Low minus Middle SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,0.5666666666666664,Low minus Middle SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,0.7666666666666675,Low minus Middle SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,0.9333333333333336,Low minus Middle SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,0.9333333333333336,Low minus Middle SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,1.9666666666666668,Low minus Middle SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,0.7666666666666675,Low minus Middle SES,all,four models,four,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,0.5333333333333332,Low minus Middle SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,0.5,Low minus Middle SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,1.200000000000001,Low minus Middle SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,0.6666666666666661,Low minus Middle SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,1.0,Low minus Middle SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,0.5666666666666664,Low minus Middle SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,1.9000000000000004,Low minus Middle SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,0.5333333333333332,Low minus Middle SES,all,four models,four,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,0.5,Low minus Middle SES,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,0.9333333333333327,Low minus Middle SES,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,1.6999999999999993,Low minus Middle SES,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,0.7666666666666657,Low minus Middle SES,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,1.700000000000001,Low minus Middle SES,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,0.6333333333333337,Low minus Middle SES,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,2.7333333333333343,Low minus Middle SES,all,four models,four,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,1.700000000000001,Low minus Middle SES,all,four models,four,White
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,3.466666666666667,Low minus Middle SES,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,0.9333333333333336,Low minus Middle SES,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,4.4,Low minus Middle SES,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,1.3666666666666667,Low minus Middle SES,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,4.633333333333334,Low minus Middle SES,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,2.0,Low minus Middle SES,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,5.166666666666666,Low minus Middle SES,all,four models,four,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,2.0,Low minus Middle SES,all,four models,four,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,5.833333333333334,Low minus Middle SES,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,3.999999999999999,Low minus Middle SES,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,7.3999999999999995,Low minus Middle SES,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,5.1000000000000005,Low minus Middle SES,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,6.966666666666668,Low minus Middle SES,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,5.000000000000001,Low minus Middle SES,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,7.033333333333334,Low minus Middle SES,all,four models,four,Black
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,6.5,Low minus Middle SES,all,four models,four,Black
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,6.500000000000001,Low minus Middle SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,5.166666666666666,Low minus Middle SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,7.1,Low minus Middle SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,5.4333333333333345,Low minus Middle SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,7.866666666666667,Low minus Middle SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,7.5,Low minus Middle SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,7.866666666666666,Low minus Middle SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,7.2666666666666675,Low minus Middle SES,all,four models,four,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,6.966666666666667,Low minus Middle SES,all,four models,four,White
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,5.600000000000001,Low minus Middle SES,all,four models,four,White
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,7.1,Low minus Middle SES,all,four models,four,White
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,7.1,Low minus Middle SES,all,four models,four,White
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,8.233333333333334,Low minus Middle SES,all,four models,four,White
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,7.5,Low minus Middle SES,all,four models,four,White
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,8.033333333333333,Low minus Middle SES,all,four models,four,White
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,8.233333333333334,Low minus Middle SES,all,four models,four,White
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,1.5666666666666664,Low minus Middle SES,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,1.466666666666666,Low minus Middle SES,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.2666666666666666,Low minus Middle SES,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,0.7333333333333334,Low minus Middle SES,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,1.0999999999999996,Low minus Middle SES,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,2.0,Low minus Middle SES,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,1.5333333333333332,Low minus Middle SES,all,four models,four,Asian
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,0.5666666666666673,Low minus Middle SES,all,four models,four,Asian
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,2.4333333333333336,Low minus Middle SES,all,four models,four,Black
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,1.5666666666666655,Low minus Middle SES,all,four models,four,Black
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.7333333333333343,Low minus Middle SES,all,four models,four,Black
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,1.7000000000000002,Low minus Middle SES,all,four models,four,Black
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,1.8333333333333321,Low minus Middle SES,all,four models,four,Black
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,1.6999999999999993,Low minus Middle SES,all,four models,four,Black
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,1.8666666666666671,Low minus Middle SES,all,four models,four,Black
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,1.166666666666666,Low minus Middle SES,all,four models,four,Black
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,1.2999999999999998,Low minus Middle SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,1.2666666666666666,Low minus Middle SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.8000000000000007,Low minus Middle SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,1.333333333333333,Low minus Middle SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,1.5,Low minus Middle SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,1.2333333333333334,Low minus Middle SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,1.5,Low minus Middle SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,0.9000000000000004,Low minus Middle SES,all,four models,four,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,2.4333333333333336,Low minus Middle SES,all,four models,four,White
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,0.5333333333333323,Low minus Middle SES,all,four models,four,White
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.7333333333333325,Low minus Middle SES,all,four models,four,White
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,1.0333333333333332,Low minus Middle SES,all,four models,four,White
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,1.7333333333333325,Low minus Middle SES,all,four models,four,White
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,1.1333333333333329,Low minus Middle SES,all,four models,four,White
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,1.833333333333334,Low minus Middle SES,all,four models,four,White
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,0.43333333333333357,Low minus Middle SES,all,four models,four,White
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,3.066666666666667,Low minus Middle SES,all,four models,four,Asian
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,4.0,Low minus Middle SES,all,four models,four,Asian
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,3.9000000000000004,Low minus Middle SES,all,four models,four,Asian
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,3.0333333333333328,Low minus Middle SES,all,four models,four,Asian
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,4.966666666666666,Low minus Middle SES,all,four models,four,Asian
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,5.0,Low minus Middle SES,all,four models,four,Asian
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,3.333333333333333,Low minus Middle SES,all,four models,four,Asian
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,4.800000000000001,Low minus Middle SES,all,four models,four,Asian
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,4.466666666666667,Low minus Middle SES,all,four models,four,Black
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,4.766666666666667,Low minus Middle SES,all,four models,four,Black
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,4.366666666666666,Low minus Middle SES,all,four models,four,Black
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,6.166666666666668,Low minus Middle SES,all,four models,four,Black
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,5.799999999999999,Low minus Middle SES,all,four models,four,Black
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,5.633333333333334,Low minus Middle SES,all,four models,four,Black
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,4.7666666666666675,Low minus Middle SES,all,four models,four,Black
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,6.2,Low minus Middle SES,all,four models,four,Black
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,4.833333333333334,Low minus Middle SES,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,5.666666666666666,Low minus Middle SES,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,5.033333333333333,Low minus Middle SES,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,5.733333333333333,Low minus Middle SES,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,4.6000000000000005,Low minus Middle SES,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,5.7666666666666675,Low minus Middle SES,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,4.333333333333333,Low minus Middle SES,all,four models,four,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,6.766666666666667,Low minus Middle SES,all,four models,four,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,6.433333333333334,Low minus Middle SES,all,four models,four,White
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,6.533333333333333,Low minus Middle SES,all,four models,four,White
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,6.166666666666668,Low minus Middle SES,all,four models,four,White
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,6.666666666666666,Low minus Middle SES,all,four models,four,White
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,5.633333333333333,Low minus Middle SES,all,four models,four,White
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,6.3,Low minus Middle SES,all,four models,four,White
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,4.766666666666667,Low minus Middle SES,all,four models,four,White
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,6.566666666666666,Low minus Middle SES,all,four models,four,White
+deepseek/deepseek-chat-v3,clinical,,High,Married,-0.13333333333333375,Women minus Men,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,,High,Married,0.09999999999999964,Women minus Men,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,,High,Single,0.5333333333333332,Women minus Men,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,,High,Single,0.39999999999999947,Women minus Men,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,,Low,Married,0.0666666666666682,Women minus Men,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,,Low,Married,0.1999999999999993,Women minus Men,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,,Low,Single,0.2666666666666675,Women minus Men,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,,Low,Single,0.40000000000000036,Women minus Men,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,,Middle,Married,0.0,Women minus Men,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,,Middle,Married,0.2333333333333334,Women minus Men,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,,Middle,Single,0.10000000000000053,Women minus Men,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,,Middle,Single,0.16666666666666696,Women minus Men,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,,High,Married,0.6333333333333329,Women minus Men,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,,High,Married,-0.2666666666666666,Women minus Men,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,,High,Single,0.40000000000000036,Women minus Men,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,,High,Single,0.33333333333333304,Women minus Men,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,,Low,Married,0.533333333333335,Women minus Men,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,,Low,Married,0.9000000000000004,Women minus Men,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,,Low,Single,1.5666666666666664,Women minus Men,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,,Low,Single,0.06666666666666643,Women minus Men,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,,Middle,Married,0.3000000000000007,Women minus Men,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,,Middle,Married,0.033333333333333215,Women minus Men,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,,Middle,Single,0.16666666666666607,Women minus Men,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,,Middle,Single,0.06666666666666643,Women minus Men,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,,High,Married,0.33333333333333304,Women minus Men,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,,High,Married,0.4666666666666668,Women minus Men,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,,High,Single,0.2333333333333334,Women minus Men,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,,High,Single,0.6333333333333337,Women minus Men,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,,Low,Married,0.7000000000000011,Women minus Men,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,,Low,Married,0.0,Women minus Men,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,,Low,Single,0.9666666666666668,Women minus Men,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,,Low,Single,0.23333333333333428,Women minus Men,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,,Middle,Married,0.23333333333333428,Women minus Men,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,,Middle,Married,-0.06666666666666643,Women minus Men,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,,Middle,Single,0.2666666666666675,Women minus Men,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,,Middle,Single,0.36666666666666714,Women minus Men,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,,High,Married,-0.06666666666666643,Women minus Men,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,,High,Married,0.33333333333333304,Women minus Men,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,,High,Single,-0.36666666666666625,Women minus Men,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,,High,Single,0.5666666666666673,Women minus Men,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,,Low,Married,0.7333333333333325,Women minus Men,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,,Low,Married,-0.2333333333333325,Women minus Men,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,,Low,Single,0.40000000000000036,Women minus Men,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,,Low,Single,0.5333333333333332,Women minus Men,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,,Middle,Married,0.033333333333333215,Women minus Men,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,,Middle,Married,0.1999999999999993,Women minus Men,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,,Middle,Single,0.20000000000000107,Women minus Men,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,,Middle,Single,0.2666666666666675,Women minus Men,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,,High,Married,0.36666666666666714,Women minus Men,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,,High,Married,0.6333333333333337,Women minus Men,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,,High,Single,0.09999999999999964,Women minus Men,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,,High,Single,0.033333333333333215,Women minus Men,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,,Low,Married,1.3666666666666671,Women minus Men,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,,Low,Married,-0.2666666666666657,Women minus Men,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,,Low,Single,1.1666666666666679,Women minus Men,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,,Low,Single,1.1666666666666679,Women minus Men,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,,Middle,Married,0.16666666666666607,Women minus Men,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,,Middle,Married,0.033333333333333215,Women minus Men,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,,Middle,Single,0.13333333333333286,Women minus Men,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,,Middle,Single,0.2333333333333325,Women minus Men,all,four models,five,White
+google/gemini-3-flash-preview,clinical,,High,Married,0.5,Women minus Men,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,,High,Married,1.0666666666666669,Women minus Men,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,,High,Single,0.43333333333333357,Women minus Men,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,,High,Single,0.7000000000000002,Women minus Men,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,,Low,Married,1.166666666666667,Women minus Men,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,,Low,Married,1.2999999999999998,Women minus Men,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,,Low,Single,1.7333333333333325,Women minus Men,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,,Low,Single,1.1333333333333337,Women minus Men,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,,Middle,Married,0.0,Women minus Men,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,,Middle,Married,0.2333333333333334,Women minus Men,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,,Middle,Single,0.9666666666666668,Women minus Men,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,,Middle,Single,0.5000000000000004,Women minus Men,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,,High,Married,0.33333333333333304,Women minus Men,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,,High,Married,0.43333333333333357,Women minus Men,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,,High,Single,0.5333333333333337,Women minus Men,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,,High,Single,0.7333333333333334,Women minus Men,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,,Low,Married,1.5,Women minus Men,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,,Low,Married,1.1666666666666679,Women minus Men,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,,Low,Single,0.7333333333333343,Women minus Men,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,,Low,Single,1.7333333333333325,Women minus Men,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,,Middle,Married,0.36666666666666625,Women minus Men,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,,Middle,Married,0.16666666666666607,Women minus Men,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,,Middle,Single,1.0999999999999996,Women minus Men,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,,Middle,Single,0.33333333333333304,Women minus Men,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,,High,Married,0.10000000000000009,Women minus Men,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,,High,Married,0.8000000000000003,Women minus Men,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,,High,Single,0.6333333333333333,Women minus Men,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,,High,Single,0.7333333333333334,Women minus Men,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,,Low,Married,2.0999999999999996,Women minus Men,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,,Low,Married,3.0999999999999996,Women minus Men,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,,Low,Single,2.133333333333333,Women minus Men,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,,Low,Single,2.466666666666667,Women minus Men,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,,Middle,Married,0.7333333333333334,Women minus Men,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,,Middle,Married,0.7666666666666662,Women minus Men,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,,Middle,Single,1.3666666666666663,Women minus Men,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,,Middle,Single,0.6333333333333337,Women minus Men,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,,High,Married,0.23333333333333295,Women minus Men,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,,High,Married,0.3666666666666667,Women minus Men,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,,High,Single,0.666666666666667,Women minus Men,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,,High,Single,0.733333333333333,Women minus Men,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,,Low,Married,1.5666666666666682,Women minus Men,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,,Low,Married,-0.09999999999999964,Women minus Men,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,,Low,Single,2.466666666666667,Women minus Men,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,,Low,Single,1.200000000000001,Women minus Men,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,,Middle,Married,0.36666666666666714,Women minus Men,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,,Middle,Married,1.4000000000000004,Women minus Men,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,,Middle,Single,1.7333333333333325,Women minus Men,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,,Middle,Single,1.3999999999999995,Women minus Men,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,,High,Married,0.16666666666666652,Women minus Men,all,four models,five,White
+google/gemini-3-flash-preview,narrative,,High,Married,0.6333333333333333,Women minus Men,all,four models,five,White
+google/gemini-3-flash-preview,clinical,,High,Single,0.5999999999999996,Women minus Men,all,four models,five,White
+google/gemini-3-flash-preview,narrative,,High,Single,0.9666666666666663,Women minus Men,all,four models,five,White
+google/gemini-3-flash-preview,clinical,,Low,Married,1.5999999999999996,Women minus Men,all,four models,five,White
+google/gemini-3-flash-preview,narrative,,Low,Married,2.1999999999999993,Women minus Men,all,four models,five,White
+google/gemini-3-flash-preview,clinical,,Low,Single,2.2666666666666675,Women minus Men,all,four models,five,White
+google/gemini-3-flash-preview,narrative,,Low,Single,1.8000000000000007,Women minus Men,all,four models,five,White
+google/gemini-3-flash-preview,clinical,,Middle,Married,0.3333333333333335,Women minus Men,all,four models,five,White
+google/gemini-3-flash-preview,narrative,,Middle,Married,0.30000000000000027,Women minus Men,all,four models,five,White
+google/gemini-3-flash-preview,clinical,,Middle,Single,1.333333333333334,Women minus Men,all,four models,five,White
+google/gemini-3-flash-preview,narrative,,Middle,Single,0.666666666666667,Women minus Men,all,four models,five,White
+openai/gpt-4o-mini,clinical,,High,Married,0.2333333333333334,Women minus Men,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,,High,Married,-0.033333333333333215,Women minus Men,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,,High,Single,0.13333333333333286,Women minus Men,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,,High,Single,-0.2999999999999998,Women minus Men,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,,Low,Married,-0.3333333333333339,Women minus Men,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,,Low,Married,0.3333333333333339,Women minus Men,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,,Low,Single,-0.06666666666666643,Women minus Men,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,,Low,Single,-0.16666666666666607,Women minus Men,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,,Middle,Married,0.13333333333333286,Women minus Men,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,,Middle,Married,-0.20000000000000018,Women minus Men,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,,Middle,Single,-0.33333333333333304,Women minus Men,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,,Middle,Single,0.0,Women minus Men,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,,High,Married,0.10000000000000053,Women minus Men,all,four models,five,Black
+openai/gpt-4o-mini,narrative,,High,Married,0.40000000000000036,Women minus Men,all,four models,five,Black
+openai/gpt-4o-mini,clinical,,High,Single,-0.16666666666666696,Women minus Men,all,four models,five,Black
+openai/gpt-4o-mini,narrative,,High,Single,-0.9333333333333327,Women minus Men,all,four models,five,Black
+openai/gpt-4o-mini,clinical,,Low,Married,0.6999999999999993,Women minus Men,all,four models,five,Black
+openai/gpt-4o-mini,narrative,,Low,Married,0.7333333333333343,Women minus Men,all,four models,five,Black
+openai/gpt-4o-mini,clinical,,Low,Single,0.40000000000000036,Women minus Men,all,four models,five,Black
+openai/gpt-4o-mini,narrative,,Low,Single,0.2666666666666657,Women minus Men,all,four models,five,Black
+openai/gpt-4o-mini,clinical,,Middle,Married,1.3000000000000007,Women minus Men,all,four models,five,Black
+openai/gpt-4o-mini,narrative,,Middle,Married,0.6000000000000005,Women minus Men,all,four models,five,Black
+openai/gpt-4o-mini,clinical,,Middle,Single,0.2666666666666675,Women minus Men,all,four models,five,Black
+openai/gpt-4o-mini,narrative,,Middle,Single,0.7999999999999998,Women minus Men,all,four models,five,Black
+openai/gpt-4o-mini,clinical,,High,Married,0.39999999999999947,Women minus Men,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,,High,Married,0.06666666666666643,Women minus Men,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,,High,Single,-0.8999999999999995,Women minus Men,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,,High,Single,0.4333333333333327,Women minus Men,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,,Low,Married,0.3333333333333339,Women minus Men,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,,Low,Married,-0.2333333333333325,Women minus Men,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,,Low,Single,0.0,Women minus Men,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,,Low,Single,0.43333333333333357,Women minus Men,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,,Middle,Married,0.13333333333333375,Women minus Men,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,,Middle,Married,-0.1999999999999993,Women minus Men,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,,Middle,Single,0.3000000000000007,Women minus Men,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,,Middle,Single,0.8666666666666663,Women minus Men,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,,High,Married,-0.33333333333333304,Women minus Men,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,,High,Married,-0.2333333333333334,Women minus Men,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,,High,Single,0.2666666666666666,Women minus Men,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,,High,Single,0.7000000000000002,Women minus Men,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,,Low,Married,0.6333333333333346,Women minus Men,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,,Low,Married,0.5333333333333332,Women minus Men,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,,Low,Single,0.2666666666666675,Women minus Men,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,,Low,Single,0.7333333333333343,Women minus Men,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,,Middle,Married,0.36666666666666625,Women minus Men,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,,Middle,Married,0.6999999999999993,Women minus Men,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,,Middle,Single,0.7999999999999998,Women minus Men,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,,Middle,Single,0.7666666666666657,Women minus Men,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,,High,Married,-0.2333333333333334,Women minus Men,all,four models,five,White
+openai/gpt-4o-mini,narrative,,High,Married,1.4333333333333336,Women minus Men,all,four models,five,White
+openai/gpt-4o-mini,clinical,,High,Single,-0.2333333333333334,Women minus Men,all,four models,five,White
+openai/gpt-4o-mini,narrative,,High,Single,-0.2333333333333334,Women minus Men,all,four models,five,White
+openai/gpt-4o-mini,clinical,,Low,Married,-0.13333333333333464,Women minus Men,all,four models,five,White
+openai/gpt-4o-mini,narrative,,Low,Married,0.5666666666666664,Women minus Men,all,four models,five,White
+openai/gpt-4o-mini,clinical,,Low,Single,0.7666666666666675,Women minus Men,all,four models,five,White
+openai/gpt-4o-mini,narrative,,Low,Single,-0.033333333333333215,Women minus Men,all,four models,five,White
+openai/gpt-4o-mini,clinical,,Middle,Married,0.5666666666666664,Women minus Men,all,four models,five,White
+openai/gpt-4o-mini,narrative,,Middle,Married,-0.0333333333333341,Women minus Men,all,four models,five,White
+openai/gpt-4o-mini,clinical,,Middle,Single,0.6666666666666661,Women minus Men,all,four models,five,White
+openai/gpt-4o-mini,narrative,,Middle,Single,0.5666666666666664,Women minus Men,all,four models,five,White
+z-ai/glm-4.7,clinical,,High,Married,0.7333333333333334,Women minus Men,all,four models,five,Asian
+z-ai/glm-4.7,narrative,,High,Married,0.2666666666666666,Women minus Men,all,four models,five,Asian
+z-ai/glm-4.7,clinical,,High,Single,1.3666666666666663,Women minus Men,all,four models,five,Asian
+z-ai/glm-4.7,narrative,,High,Single,0.8333333333333335,Women minus Men,all,four models,five,Asian
+z-ai/glm-4.7,clinical,,Low,Married,2.5666666666666655,Women minus Men,all,four models,five,Asian
+z-ai/glm-4.7,narrative,,Low,Married,1.4333333333333336,Women minus Men,all,four models,five,Asian
+z-ai/glm-4.7,clinical,,Low,Single,1.466666666666666,Women minus Men,all,four models,five,Asian
+z-ai/glm-4.7,narrative,,Low,Single,3.3000000000000007,Women minus Men,all,four models,five,Asian
+z-ai/glm-4.7,clinical,,Middle,Married,0.6666666666666665,Women minus Men,all,four models,five,Asian
+z-ai/glm-4.7,narrative,,Middle,Married,0.4333333333333331,Women minus Men,all,four models,five,Asian
+z-ai/glm-4.7,clinical,,Middle,Single,2.033333333333333,Women minus Men,all,four models,five,Asian
+z-ai/glm-4.7,narrative,,Middle,Single,1.5333333333333328,Women minus Men,all,four models,five,Asian
+z-ai/glm-4.7,clinical,,High,Married,0.6000000000000001,Women minus Men,all,four models,five,Black
+z-ai/glm-4.7,narrative,,High,Married,0.7000000000000002,Women minus Men,all,four models,five,Black
+z-ai/glm-4.7,clinical,,High,Single,1.6666666666666665,Women minus Men,all,four models,five,Black
+z-ai/glm-4.7,narrative,,High,Single,0.8333333333333335,Women minus Men,all,four models,five,Black
+z-ai/glm-4.7,clinical,,Low,Married,2.666666666666666,Women minus Men,all,four models,five,Black
+z-ai/glm-4.7,narrative,,Low,Married,1.833333333333334,Women minus Men,all,four models,five,Black
+z-ai/glm-4.7,clinical,,Low,Single,2.1000000000000014,Women minus Men,all,four models,five,Black
+z-ai/glm-4.7,narrative,,Low,Single,3.0666666666666664,Women minus Men,all,four models,five,Black
+z-ai/glm-4.7,clinical,,Middle,Married,1.3333333333333335,Women minus Men,all,four models,five,Black
+z-ai/glm-4.7,narrative,,Middle,Married,0.9666666666666668,Women minus Men,all,four models,five,Black
+z-ai/glm-4.7,clinical,,Middle,Single,1.7000000000000002,Women minus Men,all,four models,five,Black
+z-ai/glm-4.7,narrative,,Middle,Single,3.0333333333333337,Women minus Men,all,four models,five,Black
+z-ai/glm-4.7,clinical,,High,Married,0.8666666666666667,Women minus Men,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,,High,Married,0.43333333333333357,Women minus Men,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,,High,Single,2.766666666666667,Women minus Men,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,,High,Single,0.3333333333333335,Women minus Men,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,,Low,Married,1.5,Women minus Men,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,,Low,Married,2.2333333333333343,Women minus Men,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,,Low,Single,1.6333333333333329,Women minus Men,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,,Low,Single,3.033333333333333,Women minus Men,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,,Middle,Married,1.733333333333333,Women minus Men,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,,Middle,Married,2.133333333333333,Women minus Men,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,,Middle,Single,2.333333333333333,Women minus Men,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,,Middle,Single,2.0,Women minus Men,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,,High,Married,0.9000000000000004,Women minus Men,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,,High,Married,0.8333333333333333,Women minus Men,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,,High,Single,2.666666666666667,Women minus Men,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,,High,Single,1.0,Women minus Men,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,,Low,Married,1.5999999999999996,Women minus Men,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,,Low,Married,2.866666666666667,Women minus Men,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,,Low,Single,2.833333333333334,Women minus Men,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,,Low,Single,2.0999999999999996,Women minus Men,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,,Middle,Married,2.3000000000000003,Women minus Men,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,,Middle,Married,2.133333333333333,Women minus Men,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,,Middle,Single,3.333333333333334,Women minus Men,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,,Middle,Single,3.0666666666666664,Women minus Men,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,,High,Married,0.6999999999999997,Women minus Men,all,four models,five,White
+z-ai/glm-4.7,narrative,,High,Married,0.9666666666666666,Women minus Men,all,four models,five,White
+z-ai/glm-4.7,clinical,,High,Single,1.8000000000000003,Women minus Men,all,four models,five,White
+z-ai/glm-4.7,narrative,,High,Single,1.7666666666666662,Women minus Men,all,four models,five,White
+z-ai/glm-4.7,clinical,,Low,Married,1.0333333333333332,Women minus Men,all,four models,five,White
+z-ai/glm-4.7,narrative,,Low,Married,2.366666666666667,Women minus Men,all,four models,five,White
+z-ai/glm-4.7,clinical,,Low,Single,1.8333333333333321,Women minus Men,all,four models,five,White
+z-ai/glm-4.7,narrative,,Low,Single,3.333333333333334,Women minus Men,all,four models,five,White
+z-ai/glm-4.7,clinical,,Middle,Married,1.8333333333333335,Women minus Men,all,four models,five,White
+z-ai/glm-4.7,narrative,,Middle,Married,2.6,Women minus Men,all,four models,five,White
+z-ai/glm-4.7,clinical,,Middle,Single,3.2333333333333334,Women minus Men,all,four models,five,White
+z-ai/glm-4.7,narrative,,Middle,Single,3.433333333333333,Women minus Men,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,2.499999999999999,Low minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,3.166666666666667,Low minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,2.2,Low minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,2.966666666666667,Low minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,2.700000000000001,Low minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,3.2666666666666666,Low minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,1.9333333333333345,Low minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,2.9666666666666677,Low minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,1.8333333333333321,Low minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,1.7999999999999998,Low minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,1.4333333333333336,Low minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,2.7,Low minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,1.7333333333333343,Low minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,2.966666666666667,Low minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,2.5999999999999996,Low minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,2.4333333333333336,Low minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,1.966666666666666,Low minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,2.3,Low minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,1.8666666666666671,Low minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,2.033333333333333,Low minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,2.333333333333334,Low minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,1.833333333333333,Low minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,2.6000000000000005,Low minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,1.6333333333333337,Low minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,2.033333333333334,Low minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,2.333333333333333,Low minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,2.000000000000001,Low minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,2.4333333333333345,Low minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,2.833333333333333,Low minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,1.7666666666666675,Low minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,2.7666666666666675,Low minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,2.4000000000000004,Low minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,2.466666666666667,Low minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,3.033333333333333,Low minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,2.666666666666666,Low minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,2.466666666666666,Low minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,3.466666666666667,Low minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,2.1333333333333337,Low minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,3.7333333333333343,Low minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,3.6000000000000005,Low minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,3.966666666666667,Low minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,2.366666666666667,Low minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,4.633333333333334,Low minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,2.1666666666666665,Low minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,4.633333333333334,Low minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,2.6,Low minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,5.933333333333333,Low minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,2.6,Low minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,6.066666666666667,Low minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,5.466666666666667,Low minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,8.233333333333333,Low minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,6.166666666666668,Low minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,7.233333333333334,Low minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,6.200000000000001,Low minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,8.433333333333334,Low minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,7.166666666666666,Low minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,6.466666666666668,Low minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,6.2,Low minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,8.333333333333334,Low minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,6.633333333333335,Low minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,8.466666666666667,Low minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,8.5,Low minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,9.833333333333332,Low minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,8.366666666666667,Low minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,7.399999999999999,Low minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,9.666666666666666,Low minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,8.3,Low minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,9.033333333333331,Low minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,8.733333333333334,Low minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,9.2,Low minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,10.1,Low minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,9.5,Low minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,7.033333333333333,Low minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,6.600000000000001,Low minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,7.5666666666666655,Low minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,8.033333333333333,Low minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,8.466666666666667,Low minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,8.166666666666668,Low minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,9.233333333333334,Low minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,8.866666666666667,Low minus High SES,all,four models,five,White
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,2.7333333333333334,Low minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,2.2666666666666666,Low minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,3.3999999999999995,Low minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,1.7000000000000002,Low minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,2.166666666666666,Low minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,2.6333333333333337,Low minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,3.2,Low minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,1.833333333333334,Low minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,4.166666666666667,Low minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,2.2333333333333325,Low minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,3.466666666666667,Low minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,1.533333333333334,Low minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,4.766666666666666,Low minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,2.5666666666666664,Low minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,4.033333333333334,Low minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,2.7333333333333325,Low minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,3.0333333333333323,Low minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,1.8999999999999995,Low minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,3.000000000000001,Low minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,2.299999999999999,Low minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,2.966666666666667,Low minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,1.6000000000000005,Low minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,3.9000000000000004,Low minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,2.3,Low minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,3.2666666666666657,Low minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,1.666666666666667,Low minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,3.4333333333333327,Low minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,2.166666666666667,Low minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,4.233333333333333,Low minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,2.4333333333333336,Low minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,3.4333333333333336,Low minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,2.200000000000001,Low minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,3.8000000000000007,Low minus High SES,all,four models,five,White
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,2.166666666666666,Low minus High SES,all,four models,five,White
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,3.2666666666666657,Low minus High SES,all,four models,five,White
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,2.166666666666666,Low minus High SES,all,four models,five,White
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,3.8999999999999995,Low minus High SES,all,four models,five,White
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,1.299999999999999,Low minus High SES,all,four models,five,White
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,4.266666666666667,Low minus High SES,all,four models,five,White
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,2.3666666666666663,Low minus High SES,all,four models,five,White
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,3.4666666666666672,Low minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,4.5,Low minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,4.0,Low minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,4.1,Low minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,5.299999999999999,Low minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,5.666666666666667,Low minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,4.1,Low minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,6.566666666666666,Low minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,5.3,Low minus High SES,all,four models,five,Black
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,6.066666666666666,Low minus High SES,all,four models,five,Black
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,6.299999999999999,Low minus High SES,all,four models,five,Black
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,6.933333333333334,Low minus High SES,all,four models,five,Black
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,7.366666666666665,Low minus High SES,all,four models,five,Black
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,7.200000000000001,Low minus High SES,all,four models,five,Black
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,6.733333333333334,Low minus High SES,all,four models,five,Black
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,9.166666666666668,Low minus High SES,all,four models,five,Black
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,5.933333333333334,Low minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,6.0,Low minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,6.866666666666667,Low minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,6.166666666666667,Low minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,6.566666666666666,Low minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,7.800000000000001,Low minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,5.7333333333333325,Low minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,8.866666666666667,Low minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,5.333333333333333,Low minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,7.133333333333333,Low minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,6.133333333333334,Low minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,8.5,Low minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,6.033333333333332,Low minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,9.166666666666668,Low minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,6.300000000000001,Low minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,9.600000000000001,Low minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,6.766666666666667,Low minus High SES,all,four models,five,White
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,7.433333333333333,Low minus High SES,all,four models,five,White
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,7.600000000000001,Low minus High SES,all,four models,five,White
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,7.666666666666666,Low minus High SES,all,four models,five,White
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,7.1,Low minus High SES,all,four models,five,White
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,8.833333333333334,Low minus High SES,all,four models,five,White
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,7.633333333333333,Low minus High SES,all,four models,five,White
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,9.233333333333334,Low minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,2.0,Middle minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,2.333333333333333,Middle minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,1.5333333333333332,Middle minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,2.5666666666666664,Middle minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,2.1333333333333337,Middle minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,2.466666666666667,Middle minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,1.1000000000000005,Middle minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,2.333333333333334,Middle minus High SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,1.1333333333333329,Middle minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,1.7333333333333334,Middle minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,0.8666666666666671,Middle minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,1.9333333333333327,Middle minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,0.8000000000000007,Middle minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,2.033333333333333,Middle minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,0.6333333333333329,Middle minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,1.666666666666666,Middle minus High SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,1.4333333333333327,Middle minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,1.7999999999999998,Middle minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,0.6666666666666661,Middle minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,1.3666666666666671,Middle minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,1.333333333333334,Middle minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,1.2666666666666666,Middle minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,0.7000000000000002,Middle minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,1.1000000000000005,Middle minus High SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,1.033333333333334,Middle minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,1.7333333333333334,Middle minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,0.2999999999999998,Middle minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,1.666666666666667,Middle minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,1.1333333333333337,Middle minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,1.5999999999999996,Middle minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,0.8666666666666671,Middle minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,1.3666666666666671,Middle minus High SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,1.9666666666666668,Middle minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,2.1000000000000005,Middle minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,0.9666666666666668,Middle minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,1.7000000000000002,Middle minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,1.7666666666666657,Middle minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,1.5,Middle minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,1.0,Middle minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,1.8999999999999995,Middle minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,0.5,Middle minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,1.4333333333333336,Middle minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,0.2333333333333334,Middle minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,0.7999999999999998,Middle minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,0.0,Middle minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,0.6000000000000001,Middle minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,0.7666666666666666,Middle minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,0.6000000000000001,Middle minus High SES,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,0.2333333333333334,Middle minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,1.4666666666666672,Middle minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,0.8333333333333335,Middle minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,1.0666666666666669,Middle minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,0.2666666666666666,Middle minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,1.1999999999999997,Middle minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,1.3999999999999995,Middle minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,0.6666666666666665,Middle minus High SES,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,-0.033333333333333215,Middle minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,1.0333333333333337,Middle minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,1.2333333333333338,Middle minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,1.1999999999999997,Middle minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,0.6000000000000001,Middle minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,0.9999999999999996,Middle minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,1.9666666666666668,Middle minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,1.1,Middle minus High SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,0.23333333333333295,Middle minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,1.1999999999999997,Middle minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,1.3666666666666671,Middle minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,1.9333333333333336,Middle minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,0.36666666666666714,Middle minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,2.2333333333333334,Middle minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,2.4333333333333327,Middle minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,2.6,Middle minus High SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,0.06666666666666643,Middle minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,1.0,Middle minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,0.4666666666666659,Middle minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,0.9333333333333331,Middle minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,0.2333333333333334,Middle minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,0.666666666666667,Middle minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,1.2000000000000002,Middle minus High SES,all,four models,five,White
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,0.6333333333333337,Middle minus High SES,all,four models,five,White
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,1.166666666666667,Middle minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,0.8000000000000007,Middle minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,2.133333333333333,Middle minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,0.9666666666666668,Middle minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,1.0666666666666664,Middle minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,0.6333333333333337,Middle minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,1.666666666666667,Middle minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,1.2666666666666666,Middle minus High SES,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,1.7333333333333334,Middle minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,0.666666666666667,Middle minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.7333333333333325,Middle minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,-0.16666666666666607,Middle minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,2.9333333333333336,Middle minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,0.8666666666666671,Middle minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,2.166666666666667,Middle minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,1.5666666666666664,Middle minus High SES,all,four models,five,Black
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,1.7333333333333325,Middle minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,0.6333333333333329,Middle minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.2000000000000002,Middle minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,0.9666666666666659,Middle minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,1.4666666666666668,Middle minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,0.36666666666666714,Middle minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,2.4000000000000004,Middle minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,1.3999999999999995,Middle minus High SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,1.166666666666667,Middle minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,0.10000000000000053,Middle minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.5333333333333332,Middle minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,1.1000000000000005,Middle minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,1.8666666666666663,Middle minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,1.0333333333333332,Middle minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,2.0666666666666664,Middle minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,1.166666666666666,Middle minus High SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,1.3666666666666671,Middle minus High SES,all,four models,five,White
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,1.6333333333333337,Middle minus High SES,all,four models,five,White
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.5333333333333332,Middle minus High SES,all,four models,five,White
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,1.1333333333333329,Middle minus High SES,all,four models,five,White
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,2.166666666666667,Middle minus High SES,all,four models,five,White
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,0.16666666666666607,Middle minus High SES,all,four models,five,White
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,2.4333333333333327,Middle minus High SES,all,four models,five,White
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,1.9333333333333327,Middle minus High SES,all,four models,five,White
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,0.40000000000000036,Middle minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,0.5,Middle minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,0.09999999999999964,Middle minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,1.0666666666666669,Middle minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,0.3333333333333335,Middle minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,0.6666666666666665,Middle minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,0.7666666666666666,Middle minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,1.7666666666666662,Middle minus High SES,all,four models,five,Asian
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,0.8333333333333335,Middle minus High SES,all,four models,five,Black
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,1.3000000000000003,Middle minus High SES,all,four models,five,Black
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,1.9333333333333331,Middle minus High SES,all,four models,five,Black
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,0.7666666666666666,Middle minus High SES,all,four models,five,Black
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,1.5666666666666669,Middle minus High SES,all,four models,five,Black
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,1.5666666666666669,Middle minus High SES,all,four models,five,Black
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,1.9666666666666668,Middle minus High SES,all,four models,five,Black
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,2.966666666666667,Middle minus High SES,all,four models,five,Black
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,1.1,Middle minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,0.3333333333333335,Middle minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,1.8333333333333335,Middle minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,0.43333333333333357,Middle minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,1.9666666666666663,Middle minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,2.0333333333333328,Middle minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,1.3999999999999995,Middle minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,2.1,Middle minus High SES,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,-0.16666666666666652,Middle minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,1.0333333333333334,Middle minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,1.2000000000000002,Middle minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,1.7000000000000002,Middle minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,1.2333333333333334,Middle minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,2.333333333333333,Middle minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,1.8666666666666671,Middle minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,3.7666666666666666,Middle minus High SES,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,0.3333333333333335,Middle minus High SES,all,four models,five,White
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,0.9000000000000001,Middle minus High SES,all,four models,five,White
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,1.4333333333333331,Middle minus High SES,all,four models,five,White
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,1.0,Middle minus High SES,all,four models,five,White
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,1.4666666666666672,Middle minus High SES,all,four models,five,White
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,2.5333333333333337,Middle minus High SES,all,four models,five,White
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,2.8666666666666663,Middle minus High SES,all,four models,five,White
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,2.666666666666667,Middle minus High SES,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,0.4999999999999991,Low minus Middle SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,0.8333333333333339,Low minus Middle SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,0.666666666666667,Low minus Middle SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,0.40000000000000036,Low minus Middle SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,0.5666666666666673,Low minus Middle SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,0.7999999999999998,Low minus Middle SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,0.8333333333333339,Low minus Middle SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,0.6333333333333337,Low minus Middle SES,all,four models,five,Asian
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,0.6999999999999993,Low minus Middle SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,0.06666666666666643,Low minus Middle SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,0.5666666666666664,Low minus Middle SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,0.7666666666666675,Low minus Middle SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,0.9333333333333336,Low minus Middle SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,0.9333333333333336,Low minus Middle SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,1.9666666666666668,Low minus Middle SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,0.7666666666666675,Low minus Middle SES,all,four models,five,Black
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,0.5333333333333332,Low minus Middle SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,0.5,Low minus Middle SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,1.200000000000001,Low minus Middle SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,0.6666666666666661,Low minus Middle SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,1.0,Low minus Middle SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,0.5666666666666664,Low minus Middle SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,1.9000000000000004,Low minus Middle SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,0.5333333333333332,Low minus Middle SES,all,four models,five,Hispanic
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,1.0,Low minus Middle SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,0.5999999999999996,Low minus Middle SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,1.700000000000001,Low minus Middle SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,0.7666666666666675,Low minus Middle SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,1.6999999999999993,Low minus Middle SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,0.16666666666666785,Low minus Middle SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,1.9000000000000004,Low minus Middle SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,1.0333333333333332,Low minus Middle SES,all,four models,five,Multiracial
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Married,0.5,Low minus Middle SES,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Married,0.9333333333333327,Low minus Middle SES,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Man,,Single,1.6999999999999993,Low minus Middle SES,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Man,,Single,0.7666666666666657,Low minus Middle SES,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Married,1.700000000000001,Low minus Middle SES,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Married,0.6333333333333337,Low minus Middle SES,all,four models,five,White
+deepseek/deepseek-chat-v3,clinical,Cisgender Woman,,Single,2.7333333333333343,Low minus Middle SES,all,four models,five,White
+deepseek/deepseek-chat-v3,narrative,Cisgender Woman,,Single,1.700000000000001,Low minus Middle SES,all,four models,five,White
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,3.466666666666667,Low minus Middle SES,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,0.9333333333333336,Low minus Middle SES,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,4.4,Low minus Middle SES,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,1.3666666666666667,Low minus Middle SES,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,4.633333333333334,Low minus Middle SES,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,2.0,Low minus Middle SES,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,5.166666666666666,Low minus Middle SES,all,four models,five,Asian
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,2.0,Low minus Middle SES,all,four models,five,Asian
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,5.833333333333334,Low minus Middle SES,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,3.999999999999999,Low minus Middle SES,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,7.3999999999999995,Low minus Middle SES,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,5.1000000000000005,Low minus Middle SES,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,6.966666666666668,Low minus Middle SES,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,5.000000000000001,Low minus Middle SES,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,7.033333333333334,Low minus Middle SES,all,four models,five,Black
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,6.5,Low minus Middle SES,all,four models,five,Black
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,6.500000000000001,Low minus Middle SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,5.166666666666666,Low minus Middle SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,7.1,Low minus Middle SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,5.4333333333333345,Low minus Middle SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,7.866666666666667,Low minus Middle SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,7.5,Low minus Middle SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,7.866666666666666,Low minus Middle SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,7.2666666666666675,Low minus Middle SES,all,four models,five,Hispanic
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,7.166666666666666,Low minus Middle SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,8.466666666666667,Low minus Middle SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,6.933333333333333,Low minus Middle SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,7.099999999999999,Low minus Middle SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,8.366666666666667,Low minus Middle SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,6.966666666666667,Low minus Middle SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,7.666666666666667,Low minus Middle SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,6.9,Low minus Middle SES,all,four models,five,Multiracial
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Married,6.966666666666667,Low minus Middle SES,all,four models,five,White
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Married,5.600000000000001,Low minus Middle SES,all,four models,five,White
+google/gemini-3-flash-preview,clinical,Cisgender Man,,Single,7.1,Low minus Middle SES,all,four models,five,White
+google/gemini-3-flash-preview,narrative,Cisgender Man,,Single,7.1,Low minus Middle SES,all,four models,five,White
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Married,8.233333333333334,Low minus Middle SES,all,four models,five,White
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Married,7.5,Low minus Middle SES,all,four models,five,White
+google/gemini-3-flash-preview,clinical,Cisgender Woman,,Single,8.033333333333333,Low minus Middle SES,all,four models,five,White
+google/gemini-3-flash-preview,narrative,Cisgender Woman,,Single,8.233333333333334,Low minus Middle SES,all,four models,five,White
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,1.5666666666666664,Low minus Middle SES,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,1.466666666666666,Low minus Middle SES,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.2666666666666666,Low minus Middle SES,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,0.7333333333333334,Low minus Middle SES,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,1.0999999999999996,Low minus Middle SES,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,2.0,Low minus Middle SES,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,1.5333333333333332,Low minus Middle SES,all,four models,five,Asian
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,0.5666666666666673,Low minus Middle SES,all,four models,five,Asian
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,2.4333333333333336,Low minus Middle SES,all,four models,five,Black
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,1.5666666666666655,Low minus Middle SES,all,four models,five,Black
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.7333333333333343,Low minus Middle SES,all,four models,five,Black
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,1.7000000000000002,Low minus Middle SES,all,four models,five,Black
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,1.8333333333333321,Low minus Middle SES,all,four models,five,Black
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,1.6999999999999993,Low minus Middle SES,all,four models,five,Black
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,1.8666666666666671,Low minus Middle SES,all,four models,five,Black
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,1.166666666666666,Low minus Middle SES,all,four models,five,Black
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,1.2999999999999998,Low minus Middle SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,1.2666666666666666,Low minus Middle SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.8000000000000007,Low minus Middle SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,1.333333333333333,Low minus Middle SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,1.5,Low minus Middle SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,1.2333333333333334,Low minus Middle SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,1.5,Low minus Middle SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,0.9000000000000004,Low minus Middle SES,all,four models,five,Hispanic
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,2.0999999999999988,Low minus Middle SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,1.5666666666666664,Low minus Middle SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.8999999999999995,Low minus Middle SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,1.0666666666666664,Low minus Middle SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,2.366666666666667,Low minus Middle SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,1.4000000000000004,Low minus Middle SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,1.3666666666666671,Low minus Middle SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,1.033333333333335,Low minus Middle SES,all,four models,five,Multiracial
+openai/gpt-4o-mini,clinical,Cisgender Man,,Married,2.4333333333333336,Low minus Middle SES,all,four models,five,White
+openai/gpt-4o-mini,narrative,Cisgender Man,,Married,0.5333333333333323,Low minus Middle SES,all,four models,five,White
+openai/gpt-4o-mini,clinical,Cisgender Man,,Single,1.7333333333333325,Low minus Middle SES,all,four models,five,White
+openai/gpt-4o-mini,narrative,Cisgender Man,,Single,1.0333333333333332,Low minus Middle SES,all,four models,five,White
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Married,1.7333333333333325,Low minus Middle SES,all,four models,five,White
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Married,1.1333333333333329,Low minus Middle SES,all,four models,five,White
+openai/gpt-4o-mini,clinical,Cisgender Woman,,Single,1.833333333333334,Low minus Middle SES,all,four models,five,White
+openai/gpt-4o-mini,narrative,Cisgender Woman,,Single,0.43333333333333357,Low minus Middle SES,all,four models,five,White
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,3.066666666666667,Low minus Middle SES,all,four models,five,Asian
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,4.0,Low minus Middle SES,all,four models,five,Asian
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,3.9000000000000004,Low minus Middle SES,all,four models,five,Asian
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,3.0333333333333328,Low minus Middle SES,all,four models,five,Asian
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,4.966666666666666,Low minus Middle SES,all,four models,five,Asian
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,5.0,Low minus Middle SES,all,four models,five,Asian
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,3.333333333333333,Low minus Middle SES,all,four models,five,Asian
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,4.800000000000001,Low minus Middle SES,all,four models,five,Asian
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,4.466666666666667,Low minus Middle SES,all,four models,five,Black
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,4.766666666666667,Low minus Middle SES,all,four models,five,Black
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,4.366666666666666,Low minus Middle SES,all,four models,five,Black
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,6.166666666666668,Low minus Middle SES,all,four models,five,Black
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,5.799999999999999,Low minus Middle SES,all,four models,five,Black
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,5.633333333333334,Low minus Middle SES,all,four models,five,Black
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,4.7666666666666675,Low minus Middle SES,all,four models,five,Black
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,6.2,Low minus Middle SES,all,four models,five,Black
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,4.833333333333334,Low minus Middle SES,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,5.666666666666666,Low minus Middle SES,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,5.033333333333333,Low minus Middle SES,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,5.733333333333333,Low minus Middle SES,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,4.6000000000000005,Low minus Middle SES,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,5.7666666666666675,Low minus Middle SES,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,4.333333333333333,Low minus Middle SES,all,four models,five,Hispanic
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,6.766666666666667,Low minus Middle SES,all,four models,five,Hispanic
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,5.5,Low minus Middle SES,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,6.1,Low minus Middle SES,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,4.933333333333334,Low minus Middle SES,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,6.800000000000001,Low minus Middle SES,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,4.799999999999999,Low minus Middle SES,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,6.833333333333334,Low minus Middle SES,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,4.433333333333334,Low minus Middle SES,all,four models,five,Multiracial
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,5.833333333333334,Low minus Middle SES,all,four models,five,Multiracial
+z-ai/glm-4.7,clinical,Cisgender Man,,Married,6.433333333333334,Low minus Middle SES,all,four models,five,White
+z-ai/glm-4.7,narrative,Cisgender Man,,Married,6.533333333333333,Low minus Middle SES,all,four models,five,White
+z-ai/glm-4.7,clinical,Cisgender Man,,Single,6.166666666666668,Low minus Middle SES,all,four models,five,White
+z-ai/glm-4.7,narrative,Cisgender Man,,Single,6.666666666666666,Low minus Middle SES,all,four models,five,White
+z-ai/glm-4.7,clinical,Cisgender Woman,,Married,5.633333333333333,Low minus Middle SES,all,four models,five,White
+z-ai/glm-4.7,narrative,Cisgender Woman,,Married,6.3,Low minus Middle SES,all,four models,five,White
+z-ai/glm-4.7,clinical,Cisgender Woman,,Single,4.766666666666667,Low minus Middle SES,all,four models,five,White
+z-ai/glm-4.7,narrative,Cisgender Woman,,Single,6.566666666666666,Low minus Middle SES,all,four models,five,White

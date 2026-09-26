@@ -3,12 +3,13 @@ Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
 
 Copyright (c) 2026 Patrick S. Keough
 
-Applies to: data/, groundtruth/, analysis/, reports/, paper_library/, and the
-manuscript sources and figures in paper_short/ and paper_v2/.
+Applies to: data/, groundtruth/, analysis/, and the reports and result files
+in paper_brm/.
 
-Code in scripts/ is licensed separately under the MIT License; see LICENSE.
-NHANES source data fetched by scripts/01_download_nhanes.sh is US federal
-government work and is in the public domain.
+Code (scripts/, generation/ and the .py files in paper_brm/) is licensed
+separately under the MIT License; see LICENSE. NHANES source data fetched by
+scripts/00_download_nhanes.py is US federal government work and is in the
+public domain.
 
 You are free to:
 

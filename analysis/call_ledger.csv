@@ -1,5 +1,0 @@
-model_permaslug,calls,errors,tokens_prompt,tokens_completion,tokens_reasoning,cost,error_pct,providers
-deepseek/deepseek-chat-v3,3935,1,345.7,94.9,0.0,0.8,0.0,DeepInfra
-google/gemini-3-flash-preview-20251217,3600,0,354.7,97.0,0.0,1.7,0.0,Google|Google AI Studio
-openai/gpt-4o-mini,3600,0,340.5,92.1,0.0,0.4,0.0,OpenAI
-z-ai/glm-4.7-20251222,6141,1283,338.2,1971.7,1400.1,19.8,20.9,DeepInfra|GMICloud|Mancer 2|Novita|Parasail

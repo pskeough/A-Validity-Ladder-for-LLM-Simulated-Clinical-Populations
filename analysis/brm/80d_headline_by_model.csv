@@ -1,0 +1,6 @@
+model,resid_min,resid_max,delta_min_max,prev_resid_min,prev_resid_max,pass_0.2SD_sum,pass_1pt_sum,pass_2pt_sum,pass_5pt_benchmark_sum,pass_2.5pp_sum,pass_5pp_sum,pass_ratio_0.80_1.25_sum
+deepseek-chat-v3,4.0586,5.1291,5.3009,-5.9517,19.0948,0.0,0.0,0.0,6.0,2.0,5.0,1.0
+gemini-3-flash-preview,1.3263,7.3656,7.5321,-7.3273,67.5187,0.0,0.0,2.0,9.0,0.0,1.0,0.0
+glm-4.7,0.6615,6.3992,6.5924,-5.3766,47.7715,0.0,1.0,4.0,9.0,1.0,2.0,0.0
+gpt-4o-mini,4.23,5.317,5.5085,1.6248,33.0235,0.0,0.0,0.0,4.0,0.0,1.0,0.0
+pooled,2.5924,6.0528,6.1949,-2.8987,41.8521,0.0,0.0,0.0,9.0,0.0,3.0,0.0

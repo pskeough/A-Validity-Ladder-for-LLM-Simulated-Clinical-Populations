@@ -1,0 +1,15 @@
+                    cells  draws  min_n  zero_var_cells
+corpus   framing                                       
+all      clinical     240   7200     30               0
+         narrative    240   7200     30               0
+dec_only clinical     220   6558      7               0
+         narrative    240   7200     30               0
+all cells: 480 expected 480
+dec_only cells: 460 expected 480
+
+dec_only clinical cells with fewer than 20 draws:
+           model          profile_id  n
+deepseek-chat-v3   P_BLACK_CM_HIGH_S  7
+         glm-4.7 P_HISPANIC_CW_LOW_M 11
+
+dec_only clinical draws by model: {'deepseek-chat-v3': 1657, 'gemini-3-flash-preview': 1800, 'glm-4.7': 1301, 'gpt-4o-mini': 1800}

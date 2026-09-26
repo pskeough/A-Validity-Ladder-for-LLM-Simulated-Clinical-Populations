@@ -1,0 +1,5 @@
+data/nhanes_raw/
+paper_brm/external/raw/
+__pycache__/
+*.pyc
+.env

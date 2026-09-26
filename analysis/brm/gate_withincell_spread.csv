@@ -1,0 +1,17 @@
+outcome,model,framing,cell_sd_min,cell_sd_median,cell_sd_q90,cell_sd_max,pooled_sd,pct_cells_one_valued,sd_of_cell_means
+PHQ-8 total,DeepSeek-V3,clinical,0.46113,1.2787,2.0553,2.4997,1.4243,0,1.4841
+PHQ-8 total,DeepSeek-V3,narrative,0.43417,1.1462,1.7083,2.4059,1.2543,0,1.2884
+PHQ-8 total,Gemini-3-Flash,clinical,0.36515,1.4624,2.0299,2.5371,1.4718,0,4.3377
+PHQ-8 total,Gemini-3-Flash,narrative,0.49013,1.4631,2.1031,2.5778,1.5058,0,4.5566
+PHQ-8 total,GPT-4o-mini,clinical,1.0171,1.7202,2.1439,2.8446,1.7489,0,1.4104
+PHQ-8 total,GPT-4o-mini,narrative,1.2058,1.6935,2.1432,3.2598,1.7564,0,0.95368
+PHQ-8 total,GLM-4.7,clinical,0.86834,2.12,2.8526,3.8928,2.2449,0,3.8991
+PHQ-8 total,GLM-4.7,narrative,0.70221,1.867,2.4185,3.3774,1.8852,0,4.5031
+PHQ-8 >= 10,DeepSeek-V3,clinical,0,0.34575,0.49827,0.50855,0.33419,25.833,0.29434
+PHQ-8 >= 10,DeepSeek-V3,narrative,0,0.18257,0.49013,0.50742,0.29077,35.833,0.19489
+PHQ-8 >= 10,Gemini-3-Flash,clinical,0,0,0.49013,0.50855,0.25327,56.667,0.43518
+PHQ-8 >= 10,Gemini-3-Flash,narrative,0,0,0.46609,0.50855,0.22867,56.667,0.44762
+PHQ-8 >= 10,GPT-4o-mini,clinical,0,0.43018,0.50401,0.50855,0.39396,9.1667,0.23957
+PHQ-8 >= 10,GPT-4o-mini,narrative,0,0.44009,0.50742,0.50855,0.42115,0.83333,0.17257
+PHQ-8 >= 10,GLM-4.7,clinical,0,0.22102,0.49013,0.50855,0.31222,35.833,0.37431
+PHQ-8 >= 10,GLM-4.7,narrative,0,0,0.49013,0.50855,0.26535,50.833,0.40603

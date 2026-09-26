@@ -1,0 +1,80 @@
+done PHQ-8 total DeepSeek-V3
+done PHQ-8 total Gemini-3-Flash
+done PHQ-8 total GPT-4o-mini
+done PHQ-8 total GLM-4.7
+done PHQ-8 total joint
+done PHQ-8 >= 10 DeepSeek-V3
+done PHQ-8 >= 10 Gemini-3-Flash
+done PHQ-8 >= 10 GPT-4o-mini
+done PHQ-8 >= 10 GLM-4.7
+done PHQ-8 >= 10 joint
+    outcome           scope          model   framing component    reml   anova  converged         llf  llf_at_anova       start  abs_diff  rel_diff_pct
+PHQ-8 total model_x_framing    DeepSeek-V3  clinical         p  2.1349  2.1354       True  -6589.1189           NaN         NaN    0.0005        0.0254
+PHQ-8 total model_x_framing    DeepSeek-V3  clinical         e  2.0285  2.0285       True  -6589.1189           NaN         NaN    0.0000        0.0004
+PHQ-8 total model_x_framing    DeepSeek-V3 narrative         p  1.6074  1.6074       True  -6131.9906           NaN         NaN    0.0000        0.0003
+PHQ-8 total model_x_framing    DeepSeek-V3 narrative         e  1.5734  1.5734       True  -6131.9906           NaN         NaN    0.0000        0.0012
+PHQ-8 total           model    DeepSeek-V3      both         p  1.7702  1.7702       True -12641.1528           NaN         NaN    0.0000        0.0025
+PHQ-8 total           model    DeepSeek-V3      both        pf  0.1009  0.1009       True -12641.1528           NaN         NaN    0.0000        0.0046
+PHQ-8 total           model    DeepSeek-V3      both         e  1.8009  1.8009       True -12641.1528           NaN         NaN    0.0000        0.0006
+PHQ-8 total model_x_framing Gemini-3-Flash  clinical         p 18.7433 18.7430       True  -6832.8045           NaN         NaN    0.0003        0.0013
+PHQ-8 total model_x_framing Gemini-3-Flash  clinical         e  2.1662  2.1662       True  -6832.8045           NaN         NaN    0.0000        0.0006
+PHQ-8 total model_x_framing Gemini-3-Flash narrative         p 20.6871 20.6870       True  -6918.1317           NaN         NaN    0.0001        0.0006
+PHQ-8 total model_x_framing Gemini-3-Flash narrative         e  2.2674  2.2674       True  -6918.1317           NaN         NaN    0.0000        0.0006
+PHQ-8 total           model Gemini-3-Flash      both         p 19.1011 19.1010       True -13592.3174           NaN         NaN    0.0001        0.0005
+PHQ-8 total           model Gemini-3-Flash      both        pf  0.6141  0.6141       True -13592.3174           NaN         NaN    0.0000        0.0008
+PHQ-8 total           model Gemini-3-Flash      both         e  2.2168  2.2168       True -13592.3174           NaN         NaN    0.0000        0.0000
+PHQ-8 total model_x_framing    GPT-4o-mini  clinical         p  1.8873  1.8873       True  -7299.3284           NaN         NaN    0.0000        0.0006
+PHQ-8 total model_x_framing    GPT-4o-mini  clinical         e  3.0585  3.0585       True  -7299.3284           NaN         NaN    0.0000        0.0004
+PHQ-8 total model_x_framing    GPT-4o-mini narrative         p  0.8067  0.8067       True  -7267.7706           NaN         NaN    0.0000        0.0004
+PHQ-8 total model_x_framing    GPT-4o-mini narrative         e  3.0850  3.0850       True  -7267.7706           NaN         NaN    0.0000        0.0006
+PHQ-8 total           model    GPT-4o-mini      both         p  1.1814  1.1814       True -14511.0457           NaN         NaN    0.0000        0.0022
+PHQ-8 total           model    GPT-4o-mini      both        pf  0.1656  0.1655       True -14511.0457           NaN         NaN    0.0000        0.0082
+PHQ-8 total           model    GPT-4o-mini      both         e  3.0717  3.0717       True -14511.0457           NaN         NaN    0.0000        0.0011
+PHQ-8 total model_x_framing        GLM-4.7  clinical         p 15.0353 15.0350       True  -8289.2632           NaN         NaN    0.0003        0.0018
+PHQ-8 total model_x_framing        GLM-4.7  clinical         e  5.0395  5.0395       True  -8289.2632           NaN         NaN    0.0000        0.0003
+PHQ-8 total model_x_framing        GLM-4.7 narrative         p 20.1594 20.1590       True  -7698.7239           NaN         NaN    0.0004        0.0022
+PHQ-8 total model_x_framing        GLM-4.7 narrative         e  3.5540  3.5540       True  -7698.7239           NaN         NaN    0.0000        0.0010
+PHQ-8 total           model        GLM-4.7      both         p 17.1356 17.1350       True -15881.2229           NaN         NaN    0.0006        0.0033
+PHQ-8 total           model        GLM-4.7      both        pf  0.4619  0.4619       True -15881.2229           NaN         NaN    0.0000        0.0020
+PHQ-8 total           model        GLM-4.7      both         e  4.2967  4.2967       True -15881.2229           NaN         NaN    0.0000        0.0006
+PHQ-8 total           joint            all      both         p  6.4287  6.4314       True -57459.1591   -57459.2907 anova/lbfgs    0.0027        0.0412
+PHQ-8 total           joint            all      both        pm  3.3724  3.3656       True -57459.1591   -57459.2907 anova/lbfgs    0.0068        0.2017
+PHQ-8 total           joint            all      both        pf  0.0000 -0.0136       True -57459.1591   -57459.2907 anova/lbfgs    0.0136      100.0000
+PHQ-8 total           joint            all      both       pmf  0.3356  0.3492       True -57459.1591   -57459.2907 anova/lbfgs    0.0137        3.9116
+PHQ-8 total           joint            all      both         e  2.8466  2.8466       True -57459.1591   -57459.2907 anova/lbfgs    0.0000        0.0009
+PHQ-8 >= 10 model_x_framing    DeepSeek-V3  clinical         p  0.0829  0.0829       True  -1353.1579           NaN         NaN    0.0000        0.0188
+PHQ-8 >= 10 model_x_framing    DeepSeek-V3  clinical         e  0.1117  0.1117       True  -1353.1579           NaN         NaN    0.0000        0.0034
+PHQ-8 >= 10 model_x_framing    DeepSeek-V3 narrative         p  0.0352  0.0352       True   -820.1027           NaN         NaN    0.0000        0.0004
+PHQ-8 >= 10 model_x_framing    DeepSeek-V3 narrative         e  0.0845  0.0846       True   -820.1027           NaN         NaN    0.0000        0.0002
+PHQ-8 >= 10           model    DeepSeek-V3      both         p  0.0507  0.0507       True  -2152.3085           NaN         NaN    0.0000        0.0013
+PHQ-8 >= 10           model    DeepSeek-V3      both        pf  0.0084  0.0084       True  -2152.3085           NaN         NaN    0.0000        0.0052
+PHQ-8 >= 10           model    DeepSeek-V3      both         e  0.0981  0.0981       True  -2152.3085           NaN         NaN    0.0000        0.0000
+PHQ-8 >= 10 model_x_framing Gemini-3-Flash  clinical         p  0.1872  0.1872       True   -435.1867           NaN         NaN    0.0000        0.0024
+PHQ-8 >= 10 model_x_framing Gemini-3-Flash  clinical         e  0.0641  0.0641       True   -435.1867           NaN         NaN    0.0000        0.0008
+PHQ-8 >= 10 model_x_framing Gemini-3-Flash narrative         p  0.1986  0.1986       True    -82.8955           NaN         NaN    0.0000        0.0021
+PHQ-8 >= 10 model_x_framing Gemini-3-Flash narrative         e  0.0523  0.0523       True    -82.8955           NaN         NaN    0.0000        0.0005
+PHQ-8 >= 10           model Gemini-3-Flash      both         p  0.1814  0.1814       True   -416.2812           NaN         NaN    0.0000        0.0016
+PHQ-8 >= 10           model Gemini-3-Flash      both        pf  0.0115  0.0115       True   -416.2812           NaN         NaN    0.0000        0.0051
+PHQ-8 >= 10           model Gemini-3-Flash      both         e  0.0582  0.0582       True   -416.2812           NaN         NaN    0.0000        0.0007
+PHQ-8 >= 10 model_x_framing    GPT-4o-mini  clinical         p  0.0522  0.0522       True  -1901.5077           NaN         NaN    0.0000        0.0002
+PHQ-8 >= 10 model_x_framing    GPT-4o-mini  clinical         e  0.1552  0.1552       True  -1901.5077           NaN         NaN    0.0000        0.0007
+PHQ-8 >= 10 model_x_framing    GPT-4o-mini narrative         p  0.0239  0.0239       True  -2094.7497           NaN         NaN    0.0000        0.0018
+PHQ-8 >= 10 model_x_framing    GPT-4o-mini narrative         e  0.1774  0.1774       True  -2094.7497           NaN         NaN    0.0000        0.0023
+PHQ-8 >= 10           model    GPT-4o-mini      both         p  0.0341  0.0341       True  -3953.8765           NaN         NaN    0.0000        0.0041
+PHQ-8 >= 10           model    GPT-4o-mini      both        pf  0.0039  0.0039       True  -3953.8765           NaN         NaN    0.0000        0.0236
+PHQ-8 >= 10           model    GPT-4o-mini      both         e  0.1663  0.1663       True  -3953.8765           NaN         NaN    0.0000        0.0019
+PHQ-8 >= 10 model_x_framing        GLM-4.7  clinical         p  0.1369  0.1369       True  -1145.3947           NaN         NaN    0.0000        0.0008
+PHQ-8 >= 10 model_x_framing        GLM-4.7  clinical         e  0.0975  0.0975       True  -1145.3947           NaN         NaN    0.0000        0.0002
+PHQ-8 >= 10 model_x_framing        GLM-4.7 narrative         p  0.1625  0.1625       True   -589.0622           NaN         NaN    0.0000        0.0008
+PHQ-8 >= 10 model_x_framing        GLM-4.7 narrative         e  0.0704  0.0704       True   -589.0622           NaN         NaN    0.0000        0.0002
+PHQ-8 >= 10           model        GLM-4.7      both         p  0.1472  0.1472       True  -1621.0328           NaN         NaN    0.0000        0.0003
+PHQ-8 >= 10           model        GLM-4.7      both        pf  0.0025  0.0025       True  -1621.0328           NaN         NaN    0.0000        0.0006
+PHQ-8 >= 10           model        GLM-4.7      both         e  0.0839  0.0839       True  -1621.0328           NaN         NaN    0.0000        0.0004
+PHQ-8 >= 10           joint            all      both         p  0.0822  0.0822       True  -9031.3754    -9031.3754 anova/lbfgs    0.0000        0.0011
+PHQ-8 >= 10           joint            all      both        pm  0.0211  0.0211       True  -9031.3754    -9031.3754 anova/lbfgs    0.0000        0.0011
+PHQ-8 >= 10           joint            all      both        pf  0.0008  0.0008       True  -9031.3754    -9031.3754 anova/lbfgs    0.0000        0.0011
+PHQ-8 >= 10           joint            all      both       pmf  0.0058  0.0058       True  -9031.3754    -9031.3754 anova/lbfgs    0.0000        0.0011
+PHQ-8 >= 10           joint            all      both         e  0.1016  0.1016       True  -9031.3754    -9031.3754 anova/lbfgs    0.0000        0.0011
+
+max abs diff, total: 0.013661174262103726
+max abs diff, indicator: 1.559865972930452e-05

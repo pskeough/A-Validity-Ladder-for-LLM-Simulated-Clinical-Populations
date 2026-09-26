@@ -1,0 +1,11 @@
+outcome,model,min,max,mean
+mean,deepseek-chat-v3,-0.8172,-0.222,-0.5329
+mean,gemini-3-flash-preview,-1.4326,-0.5139,-0.9433
+mean,glm-4.7,-0.6976,0.4728,-0.3409
+mean,gpt-4o-mini,-0.8017,0.7054,0.0563
+mean,pooled,-0.6447,-0.2994,-0.4402
+prev10,deepseek-chat-v3,-22.7964,-1.0795,-6.6323
+prev10,gemini-3-flash-preview,-17.2284,0.0,-5.3642
+prev10,glm-4.7,-2.2711,4.2312,0.1307
+prev10,gpt-4o-mini,-19.8527,3.9958,-3.1662
+prev10,pooled,-13.9116,0.6109,-3.758

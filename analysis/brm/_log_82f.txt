@@ -1,0 +1,107 @@
+                        quantity  value
+    NHANES gap Black minus White  0.330
+ NHANES gap Hispanic minus White  0.243
+    NHANES gap Asian minus White -0.755
+      NHANES gap Women minus Men  0.938
+   NHANES gap Low minus High SES  2.020
+   NHANES anchor design SE White  0.050
+   NHANES anchor design SE Black  0.070
+   NHANES anchor design SE Asian  0.064
+NHANES anchor design SE Hispanic  0.062
+     NHANES anchor design SE Men  0.041
+   NHANES anchor design SE Women  0.051
+     NHANES anchor design SE Low  0.078
+  NHANES anchor design SE Middle  0.055
+    NHANES anchor design SE High  0.038
+
+MODELS
+          model  phi1_clinical  phi1_narrative  within_sd_max  single_draw_passes  k_minimum_rule  k_recommended_rule  k30_meets_minimum  k30_meets_recommended  phi30_min_over_framings  se30_max_over_framings  k_se05_q90cell_max
+   DeepSeek-V3          0.513           0.505          1.424               False             4.0                 9.0               True                   True                    0.968                   0.260                17.0
+Gemini-3-Flash          0.896           0.901          1.506               False             3.0                10.0               True                   True                    0.996                   0.275                18.0
+   GPT-4o-mini          0.382           0.207          1.756               False            16.0                35.0               True                  False                    0.887                   0.321                19.0
+       GLM-4.7          0.749           0.850          2.245               False             6.0                21.0               True                   True                    0.989                   0.410                33.0
+
+CIS D-STUDY
+          model   framing  n_persona   s2_p  s2_e  phi_1  phi_30  k_phi80  k_phi90  k_se05  k_se10
+   DeepSeek-V3  clinical         60  1.264 1.496  0.458   0.962      5.0     11.0     6.0     2.0
+   DeepSeek-V3 narrative         60  1.354 1.188  0.533   0.972      4.0      8.0     5.0     2.0
+Gemini-3-Flash  clinical         60 12.863 1.540  0.893   0.996      1.0      2.0     7.0     2.0
+Gemini-3-Flash narrative         60 11.022 1.569  0.875   0.995      1.0      2.0     7.0     2.0
+   GPT-4o-mini  clinical         60  2.188 2.888  0.431   0.958      6.0     12.0    12.0     3.0
+   GPT-4o-mini narrative         60  0.877 2.932  0.230   0.900     14.0     31.0    12.0     3.0
+       GLM-4.7  clinical         60  9.144 3.476  0.725   0.987      2.0      4.0    14.0     4.0
+       GLM-4.7 narrative         60 12.379 2.722  0.820   0.993      1.0      2.0    11.0     3.0
+
+LEVEL 3
+          model    group  n_design_cells  phi_L3_1  phi_L3_30  k_phiL3_80  k_phiL3_90  se_group_mean_obs_k30  se_group_mean_draw_only_k30  se_group_mean_draw_only_k1  draw_share_of_se2_k30  anchor_design_se  use_tolerance
+   DeepSeek-V3    White              12     0.655      0.983           3           5                  0.384                        0.043                       0.236                  0.013             0.050            5.0
+   DeepSeek-V3    Black              12     0.655      0.983           3           5                  0.287                        0.043                       0.236                  0.023             0.070            5.0
+   DeepSeek-V3 Hispanic              12     0.655      0.983           3           5                  0.273                        0.043                       0.236                  0.025             0.062            5.0
+   DeepSeek-V3    Asian              12     0.655      0.983           3           5                  0.356                        0.043                       0.236                  0.015             0.064            5.0
+   DeepSeek-V3      Men              30     0.655      0.983           3           5                  0.196                        0.027                       0.150                  0.019             0.041            5.0
+   DeepSeek-V3    Women              30     0.655      0.983           3           5                  0.219                        0.027                       0.150                  0.016             0.051            5.0
+   DeepSeek-V3      Low              20     0.655      0.983           3           5                  0.130                        0.033                       0.183                  0.066             0.078            5.0
+   DeepSeek-V3   Middle              20     0.655      0.983           3           5                  0.060                        0.033                       0.183                  0.315             0.055            5.0
+   DeepSeek-V3     High              20     0.655      0.983           3           5                  0.143                        0.033                       0.183                  0.055             0.038            5.0
+Gemini-3-Flash    White              12     0.938      0.998           1           1                  1.120                        0.046                       0.254                  0.002             0.050            5.0
+Gemini-3-Flash    Black              12     0.938      0.998           1           1                  0.943                        0.046                       0.254                  0.002             0.070            5.0
+Gemini-3-Flash Hispanic              12     0.938      0.998           1           1                  1.084                        0.046                       0.254                  0.002             0.062            5.0
+Gemini-3-Flash    Asian              12     0.938      0.998           1           1                  0.504                        0.046                       0.254                  0.008             0.064            5.0
+Gemini-3-Flash      Men              30     0.938      0.998           1           1                  0.576                        0.029                       0.161                  0.003             0.041            5.0
+Gemini-3-Flash    Women              30     0.938      0.998           1           1                  0.670                        0.029                       0.161                  0.002             0.051            5.0
+Gemini-3-Flash      Low              20     0.938      0.998           1           1                  0.492                        0.036                       0.197                  0.005             0.078            5.0
+Gemini-3-Flash   Middle              20     0.938      0.998           1           1                  0.171                        0.036                       0.197                  0.044             0.055            5.0
+Gemini-3-Flash     High              20     0.938      0.998           1           1                  0.088                        0.036                       0.197                  0.167             0.038            5.0
+   GPT-4o-mini    White              12     0.498      0.967           5          10                  0.370                        0.064                       0.348                  0.030             0.050            5.0
+   GPT-4o-mini    Black              12     0.498      0.967           5          10                  0.408                        0.064                       0.348                  0.024             0.070            5.0
+   GPT-4o-mini Hispanic              12     0.498      0.967           5          10                  0.330                        0.064                       0.348                  0.037             0.062            5.0
+   GPT-4o-mini    Asian              12     0.498      0.967           5          10                  0.310                        0.064                       0.348                  0.042             0.064            5.0
+   GPT-4o-mini      Men              30     0.498      0.967           5          10                  0.211                        0.040                       0.220                  0.036             0.041            5.0
+   GPT-4o-mini    Women              30     0.498      0.967           5          10                  0.236                        0.040                       0.220                  0.029             0.051            5.0
+   GPT-4o-mini      Low              20     0.498      0.967           5          10                  0.096                        0.049                       0.270                  0.261             0.078            5.0
+   GPT-4o-mini   Middle              20     0.498      0.967           5          10                  0.095                        0.049                       0.270                  0.268             0.055            5.0
+   GPT-4o-mini     High              20     0.498      0.967           5          10                  0.069                        0.049                       0.270                  0.512             0.038            5.0
+       GLM-4.7    White              12     0.873      0.995           1           2                  1.081                        0.066                       0.359                  0.004             0.050            5.0
+       GLM-4.7    Black              12     0.873      0.995           1           2                  0.952                        0.066                       0.359                  0.005             0.070            5.0
+       GLM-4.7 Hispanic              12     0.873      0.995           1           2                  0.931                        0.066                       0.359                  0.005             0.062            5.0
+       GLM-4.7    Asian              12     0.873      0.995           1           2                  0.689                        0.066                       0.359                  0.009             0.064            5.0
+       GLM-4.7      Men              30     0.873      0.995           1           2                  0.531                        0.041                       0.227                  0.006             0.041            5.0
+       GLM-4.7    Women              30     0.873      0.995           1           2                  0.620                        0.041                       0.227                  0.004             0.051            5.0
+       GLM-4.7      Low              20     0.873      0.995           1           2                  0.433                        0.051                       0.278                  0.014             0.078            5.0
+       GLM-4.7   Middle              20     0.873      0.995           1           2                  0.350                        0.051                       0.278                  0.021             0.055            5.0
+       GLM-4.7     High              20     0.873      0.995           1           2                  0.200                        0.051                       0.278                  0.065             0.038            5.0
+
+LEVEL 2
+          model             contrast  n_pairs  gap_k30  population_gap  se_gap_obs_k30  se_gap_draw_only_k30  se_gap_draw_only_k1  draw_share_of_se2_k30  tau2  phi_gap_30  k_phi_gap80  k_phi_gap90  se_draw_k1_over_abs_pop_gap
+   DeepSeek-V3    Black minus White       24    0.214           0.330           0.105                 0.064                0.349                  0.371 0.165       0.629           71          160                        1.057
+   DeepSeek-V3 Hispanic minus White       24    0.174           0.243           0.090                 0.062                0.340                  0.479 0.100       0.521          111          249                        1.400
+   DeepSeek-V3    Asian minus White       24   -0.708          -0.755           0.106                 0.060                0.328                  0.319 0.184       0.681           57          127                        0.435
+   DeepSeek-V3      Women minus Men       60    0.319           0.938           0.050                 0.039                0.212                  0.604 0.059       0.396          184          413                        0.225
+   DeepSeek-V3   Low minus High SES       40    2.448           2.020           0.089                 0.053                0.293                  0.364 0.200       0.636           69          155                        0.145
+Gemini-3-Flash    Black minus White       24   -0.394           0.330           0.155                 0.065                0.356                  0.175 0.476       0.825           26           58                        1.078
+Gemini-3-Flash Hispanic minus White       24   -0.007           0.243           0.091                 0.063                0.347                  0.485 0.102       0.515          113          255                        1.431
+Gemini-3-Flash    Asian minus White       24   -1.447          -0.755           0.457                 0.064                0.348                  0.019 4.910       0.981            3            6                        0.461
+Gemini-3-Flash      Women minus Men       60    0.989           0.938           0.091                 0.042                0.228                  0.207 0.397       0.793           32           71                        0.243
+Gemini-3-Flash   Low minus High SES       40    7.064           2.020           0.340                 0.054                0.297                  0.025 4.513       0.975            4            8                        0.147
+   GPT-4o-mini    Black minus White       24    0.217           0.330           0.105                 0.092                0.504                  0.762 0.063       0.238          386          867                        1.527
+   GPT-4o-mini Hispanic minus White       24    0.140           0.243           0.093                 0.089                0.485                  0.910 0.019       0.090         1211         2723                        2.001
+   GPT-4o-mini    Asian minus White       24   -0.403          -0.755           0.113                 0.093                0.511                  0.688 0.095       0.312          265          596                        0.677
+   GPT-4o-mini      Women minus Men       60    0.239           0.938           0.060                 0.057                0.311                  0.897 0.022       0.103         1048         2357                        0.332
+   GPT-4o-mini   Low minus High SES       40    2.812           2.020           0.139                 0.074                0.404                  0.281 0.557       0.719           47          106                        0.200
+       GLM-4.7    Black minus White       24   -0.558           0.330           0.139                 0.095                0.519                  0.466 0.246       0.534          105          236                        1.572
+       GLM-4.7 Hispanic minus White       24   -0.443           0.243           0.149                 0.094                0.515                  0.401 0.318       0.599           81          181                        2.124
+       GLM-4.7    Asian minus White       24   -1.736          -0.755           0.304                 0.092                0.502                  0.091 2.014       0.909           13           28                        0.665
+       GLM-4.7      Women minus Men       60    1.811           0.938           0.116                 0.059                0.321                  0.255 0.605       0.745           41           93                        0.343
+       GLM-4.7   Low minus High SES       40    6.679           2.020           0.242                 0.073                0.401                  0.091 2.138       0.909           13           28                        0.199
+
+ITEMS
+                           min_phi30  max_k80  max_k90  items_phi30_below_80
+model          framing                                                     
+DeepSeek-V3    clinical       0.494    123.0    277.0                     3
+               narrative      0.593     83.0    186.0                     6
+GLM-4.7        clinical       0.930      9.0     21.0                     0
+               narrative      0.965      5.0     10.0                     0
+GPT-4o-mini    clinical       0.390    188.0    422.0                     8
+               narrative      0.127    825.0   1856.0                     8
+Gemini-3-Flash clinical       0.964      5.0     10.0                     0
+               narrative      0.972      4.0      8.0                     0

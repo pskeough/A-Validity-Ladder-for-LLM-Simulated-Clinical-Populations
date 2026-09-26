@@ -1,0 +1,84 @@
+frame rows by cycle: {'D': 4800, 'E': 5416, 'F': 5551, 'G': 4926, 'H': 5375, 'I': 5136, 'J': 5070, 'L': 5457, 'P': 8279}
+                                                      gate    value  receipt      diff  tolerance  asserted  passed
+                             2005-2018 mean All adults 18+ 2.984561 2.984561 -0.000000    0.00050      True    True
+    2005-2018 JKn SE vs script 26 Taylor SE All adults 18+ 0.040092 0.040100 -0.000008    0.01000     False    True
+     2005-2018 Taylor (domain) SE vs JKn SE All adults 18+ 0.040091 0.040092 -0.000000    0.00500     False    True
+                                      2005-2018 mean White 2.911655 2.911655 -0.000000    0.00050      True    True
+             2005-2018 JKn SE vs script 26 Taylor SE White 0.049865 0.049800  0.000065    0.01000     False    True
+              2005-2018 Taylor (domain) SE vs JKn SE White 0.049864 0.049865 -0.000002    0.00500     False    True
+                                      2005-2018 mean Black 3.241594 3.241594 -0.000000    0.00050      True    True
+             2005-2018 JKn SE vs script 26 Taylor SE Black 0.070690 0.070200  0.000490    0.01000     False    True
+              2005-2018 Taylor (domain) SE vs JKn SE Black 0.070683 0.070690 -0.000007    0.00500     False    True
+                                      2005-2018 mean Asian 2.156530 2.156530  0.000000    0.00050      True    True
+             2005-2018 JKn SE vs script 26 Taylor SE Asian 0.064583 0.064200  0.000383    0.01000     False    True
+              2005-2018 Taylor (domain) SE vs JKn SE Asian 0.064541 0.064583 -0.000042    0.00500     False    True
+                          2005-2018 mean Hispanic (pooled) 3.154156 3.154156  0.000000    0.00050      True    True
+ 2005-2018 JKn SE vs script 26 Taylor SE Hispanic (pooled) 0.061925 0.061900  0.000025    0.01000     False    True
+  2005-2018 Taylor (domain) SE vs JKn SE Hispanic (pooled) 0.061894 0.061925 -0.000032    0.00500     False    True
+                                        2005-2018 mean Men 2.504500 2.504500  0.000000    0.00050      True    True
+               2005-2018 JKn SE vs script 26 Taylor SE Men 0.041348 0.041300  0.000048    0.01000     False    True
+                2005-2018 Taylor (domain) SE vs JKn SE Men 0.041348 0.041348 -0.000000    0.00500     False    True
+                                      2005-2018 mean Women 3.442537 3.442537  0.000000    0.00050      True    True
+             2005-2018 JKn SE vs script 26 Taylor SE Women 0.050982 0.051000 -0.000018    0.01000     False    True
+              2005-2018 Taylor (domain) SE vs JKn SE Women 0.050982 0.050982 -0.000001    0.00500     False    True
+                                        2005-2018 mean Low 4.246984 4.246984 -0.000000    0.00050      True    True
+               2005-2018 JKn SE vs script 26 Taylor SE Low 0.078723 0.077900  0.000823    0.01000     False    True
+                2005-2018 Taylor (domain) SE vs JKn SE Low 0.078718 0.078723 -0.000005    0.00500     False    True
+                                     2005-2018 mean Middle 3.118258 3.118258 -0.000000    0.00050      True    True
+            2005-2018 JKn SE vs script 26 Taylor SE Middle 0.054074 0.054600 -0.000526    0.01000     False    True
+             2005-2018 Taylor (domain) SE vs JKn SE Middle 0.054072 0.054074 -0.000001    0.00500     False    True
+                                       2005-2018 mean High 2.227231 2.227231  0.000000    0.00050      True    True
+              2005-2018 JKn SE vs script 26 Taylor SE High 0.038191 0.038200 -0.000009    0.01000     False    True
+               2005-2018 Taylor (domain) SE vs JKn SE High 0.038190 0.038191 -0.000001    0.00500     False    True
+         2005-2018 income<$35k & Medicaid mean (script 59) 5.519162 5.519200 -0.000038    0.00050      True    True
+2005-2018 income<$35k & Medicaid JKn SE (script 59 Taylor) 0.148565 0.148600 -0.000035    0.00743      True    True
+                          2017-2020 mean White (script 30) 3.131254 3.131000  0.000254    0.00060      True    True
+                          2017-2020 mean Black (script 30) 3.152312 3.152000  0.000312    0.00060      True    True
+                          2017-2020 mean Asian (script 30) 2.022802 2.023000 -0.000198    0.00060      True    True
+                       2017-2020 mean Hispanic (script 30) 3.277185 3.277000  0.000185    0.00060      True    True
+                  2017-2020 mean Cisgender Man (script 30) 2.653849 2.654000 -0.000151    0.00060      True    True
+                2017-2020 mean Cisgender Woman (script 30) 3.603532 3.604000 -0.000468    0.00060      True    True
+          2017-2020 mean Low (script 30, boundary differs) 4.458613 4.452000  0.006613    0.02000     False    True
+       2017-2020 mean Middle (script 30, boundary differs) 3.467194 3.469000 -0.001806    0.02000     False    True
+         2017-2020 mean High (script 30, boundary differs) 2.368526 2.369000 -0.000474    0.02000     False    True
+                          2021-2023 mean White (script 30) 3.866445 3.866000  0.000445    0.00060      True    True
+                          2021-2023 mean Black (script 30) 4.100567 4.101000 -0.000433    0.00060      True    True
+                          2021-2023 mean Asian (script 30) 3.101311 3.101000  0.000311    0.00060      True    True
+                       2021-2023 mean Hispanic (script 30) 4.248877 4.249000 -0.000123    0.00060      True    True
+                  2021-2023 mean Cisgender Man (script 30) 3.418633 3.419000 -0.000367    0.00060      True    True
+                2021-2023 mean Cisgender Woman (script 30) 4.506851 4.507000 -0.000149    0.00060      True    True
+          2021-2023 mean Low (script 30, boundary differs) 5.367863 5.344000  0.023863    0.02000     False   False
+       2021-2023 mean Middle (script 30, boundary differs) 4.391255 4.393000 -0.001745    0.02000     False    True
+         2021-2023 mean High (script 30, boundary differs) 3.144971 3.145000 -0.000029    0.02000     False    True
+
+   window         population     n  design_df   mean  se_mean     sd  sd_0p2  sd_0p5  prev_ge8  prev_ge9  prev_ge10  se_prev_ge10  prev_ge11  prev_ge12  prev_shift_plus1_pp  prev_shift_plus2_pp  prev_shift_minus1_pp
+2005-2018     all adults 18+ 36274        109 2.9846   0.0401 3.9352  0.7870  1.9676    11.515     9.210      7.476         0.225      6.066      5.035                1.734                4.039                -1.410
+2005-2018 four persona races 34829        109 2.9625   0.0406 3.9157  0.7831  1.9579    11.374     9.069      7.352         0.230      5.962      4.971                1.717                4.022                -1.390
+2007-2018     all adults 18+ 31474         94 3.0505   0.0432 3.9979  0.7996  1.9989    11.972     9.576      7.818         0.244      6.343      5.246                1.758                4.154                -1.475
+2007-2018 four persona races 30213         94 3.0258   0.0435 3.9758  0.7952  1.9879    11.801     9.405      7.673         0.247      6.231      5.173                1.732                4.128                -1.442
+2017-2020     all adults 18+  8279         25 3.1420   0.0649 3.9855  0.7971  1.9927    13.396    10.502      8.364         0.467      6.286      5.124                2.138                5.032                -2.078
+2017-2020 four persona races  7868         25 3.0960   0.0681 3.9548  0.7910  1.9774    12.981    10.110      8.081         0.461      6.109      4.969                2.029                4.900                -1.972
+2021-2023     all adults 18+  5457         15 3.9716   0.1113 4.4517  0.8903  2.2258    18.350    14.974     12.236         0.705      9.605      7.556                2.738                6.114                -2.631
+2021-2023 four persona races  5092         15 3.9149   0.1062 4.4137  0.8827  2.2069    17.918    14.631     11.913         0.604      9.283      7.275                2.718                6.005                -2.630
+
+   window    income   marital  n_adults  n_four_races  n_classified  wshare_four_races  wshare_classified_of_four  n_missing_income_four  n_missing_marital_four  n_young_imputed_single
+2005-2018  pir_band       mar     36274         34829         29378             0.9574                     0.8585                   2975                    2724                    1351
+2005-2018  pir_band mar_cohab     36274         34829         31844             0.9574                     0.9313                   2975                      17                    1351
+2005-2018  pir_band   mar_all     36274         34829         31844             0.9574                     0.9313                   2975                      17                    1351
+2007-2018  pir_band       mar     31474         30213         25331             0.9581                     0.8543                   2768                    2346                    1351
+2007-2018     p_inc       mar     31474         30213          9743             0.9581                     0.4098                  19834                    2346                     511
+2007-2018 p_inc_top       mar     31474         30213          8948             0.9581                     0.3740                  20700                    2346                     443
+2017-2020  pir_band mar_cohab      8279          7868          6811             0.9593                     0.8894                   1054                       5                     301
+2021-2023  pir_band mar_cohab      5457          5092          4471             0.9378                     0.8715                    617                       4                     192
+
+cells per coding (min n):
+                               count  min  median
+window    income    marital                      
+2005-2018 pir_band  mar           48   83   562.0
+                    mar_all       48   92   586.5
+                    mar_cohab     48   83   615.0
+2007-2018 p_inc     mar           48   16   148.5
+          p_inc_top mar           48   16   134.0
+          pir_band  mar           48   83   488.5
+2017-2020 pir_band  mar_cohab     48   25   133.0
+2021-2023 pir_band  mar_cohab     48    5    47.0

@@ -30,7 +30,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 BASE = os.path.join(HERE, "..")
 OUT = os.path.join(BASE, "analysis")
 RAW = os.path.join(OUT, "decoding_control_raw.jsonl")
-PREREG = os.path.join(OUT, "decoding_control_preregistration.json")
+PREREG = os.path.join(OUT, "decoding_control_design.json")  # written before the run; not registered
 
 BANDS = [(0, 4, "None"), (5, 9, "Mild"), (10, 14, "Moderate"),
          (15, 19, "Mod-severe"), (20, 24, "Severe")]

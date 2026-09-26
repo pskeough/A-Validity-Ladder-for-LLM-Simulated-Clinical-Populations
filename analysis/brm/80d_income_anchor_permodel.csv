@@ -1,0 +1,13 @@
+model,group,S3 2007-2018 PIR (bridge),S4 persona-string income
+deepseek-chat-v3,High,4.0156,4.2083
+deepseek-chat-v3,Low,5.0779,3.978
+deepseek-chat-v3,Middle,4.8354,5.4306
+gemini-3-flash-preview,High,1.3747,1.588
+gemini-3-flash-preview,Low,7.3236,6.3224
+gemini-3-flash-preview,Middle,1.2477,1.7123
+glm-4.7,High,0.6148,0.7865
+glm-4.7,Low,6.3551,5.4471
+glm-4.7,Middle,1.428,1.7696
+gpt-4o-mini,High,4.1875,4.4253
+gpt-4o-mini,Low,5.2647,4.1269
+gpt-4o-mini,Middle,4.7946,5.3196

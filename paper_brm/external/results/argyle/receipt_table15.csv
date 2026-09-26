@@ -1,0 +1,17 @@
+statistic,ours,argyle_table15,ours_rounded,match
+N,1781.0,1781.0,1781.0,True
+pid7_gpt3,4.4284110050533405,4.4,4.4,True
+pid7_anes,3.8568220101066815,3.9,3.9,True
+ideology_gpt3,4.017967434025828,4.0,4.0,True
+ideology_anes,4.094890510948905,4.1,4.1,True
+patriotism_gpt3,1.455362156092083,1.5,1.5,True
+patriotism_anes,1.9635036496350364,2.0,2.0,True
+interest_gpt3,1.694553621560921,1.7,1.7,True
+interest_anes,1.9898933183604717,2.0,2.0,True
+church_gpt3 (1=yes),0.6041549691184728,0.6,0.6,True
+church_anes,0.5833801235261089,0.6,0.6,True
+voted_gpt3,0.832678270634475,0.8,0.8,True
+voted_anes,0.8719820325659742,0.9,0.9,True
+trump_gpt3 | voted,0.24477410654079568,0.2,0.2,True
+other_gpt3 | voted,0.5225893459204316,0.5,0.5,True
+trump_anes | voted,0.437862202189311,0.4,0.4,True

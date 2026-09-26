@@ -1,8 +1,0 @@
-specification,r2,share_pct,df_model
-model identity alone,0.014958,1.496,3
-demographic factors alone,0.702792,70.279,10
-all five main effects (M0),0.71775,71.775,13
-M0 + model-by-factor (M1),0.951591,95.159,43
-M1 + factor-by-factor (M2),0.96466,96.466,78
-model-by-factor block (30 terms),,23.384,30
-factor-by-factor block (35 terms),,1.307,35

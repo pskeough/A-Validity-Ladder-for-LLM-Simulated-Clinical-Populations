@@ -1,0 +1,5 @@
+model,phi1_clinical,phi1_narrative,within_sd_max,single_draw_passes,k_minimum_rule,k_recommended_rule,k30_meets_minimum,k30_meets_recommended,phi30_min_over_framings,se30_max_over_framings,k_se05_q90cell_max
+DeepSeek-V3,0.5128,0.5053,1.4243,False,4.0000,9.0000,True,True,0.9684,0.2600,17.0000
+Gemini-3-Flash,0.8964,0.9012,1.5058,False,3.0000,10.0000,True,True,0.9962,0.2749,18.0000
+GPT-4o-mini,0.3816,0.2073,1.7564,False,16.0000,35.0000,True,False,0.8869,0.3207,19.0000
+GLM-4.7,0.7490,0.8501,2.2449,False,6.0000,21.0000,True,True,0.9889,0.4099,33.0000

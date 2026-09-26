@@ -1,9 +1,0 @@
-model,arm,cells,n,pairs,flip_pct,cross_of_discordant_pct,cross_of_all_pairs_pct,mean_total,sd_total,distinct_totals
-deepseek-chat,default,12,360,5220,24.64,95.49,23.52,8.558,1.519,11
-deepseek-chat,temp0,12,360,5220,9.06,100.0,9.06,8.294,1.334,7
-gemini-3-flash-preview,default,12,360,5220,23.47,31.27,7.34,9.022,4.723,18
-gemini-3-flash-preview,temp0,12,360,5220,4.14,0.0,0.0,9.269,5.068,8
-glm-4.7,default,12,360,5220,41.42,36.77,15.23,8.742,4.433,19
-glm-4.7,temp0,12,360,5220,37.76,34.96,13.2,8.936,4.325,17
-gpt-4o-mini,default,12,360,5220,37.32,86.7,32.36,8.139,1.932,13
-gpt-4o-mini,temp0,12,360,5220,1.55,0.0,0.0,7.483,1.12,5

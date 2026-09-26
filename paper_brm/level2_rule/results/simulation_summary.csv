@@ -1,0 +1,33 @@
+rule,se_p,se_g,largest_ratio_called_missing_10pct,p_missing_at_0_50,p_missing_at_0_75,p_missing_at_0_90,p_flattened_at_0_50,p_kept_at_1_00,p_kept_at_0_90,p_kept_at_1_10,p_reversed_at_minus_0_50,labels_ever_modal,mean_single_name,mean_single_name_right,mean_right_incl_two_names,mean_wrong,mean_undetermined,max_wrong
+R0_current,0.0,0.05,0.95,1.0,0.999,0.513,0.0,0.952,0.487,0.478,0.0,"kept,missing,steepened",1.0,0.53,0.53,0.47,0.0,1.0
+R0_current,0.0,0.1,0.925,0.999,0.706,0.158,0.0,0.954,0.84,0.836,0.0,"kept,missing,steepened",1.0,0.584,0.584,0.416,0.0,1.0
+R0_current,0.0,0.2,0.85,0.696,0.245,0.07,0.0,0.951,0.922,0.92,0.198,"kept,missing,reversed,steepened",1.0,0.601,0.601,0.399,0.0,1.0
+R0_current,0.0,0.4,0.7,0.217,0.086,0.045,0.0,0.618,0.584,0.585,0.66,"kept,missing,reversed,steepened,undetermined",0.7,0.409,0.409,0.291,0.3,0.612
+R0_current,0.15,0.05,0.875,0.882,0.354,0.083,0.0,0.959,0.914,0.902,0.004,"kept,missing,steepened",1.0,0.579,0.579,0.421,0.0,1.0
+R0_current,0.15,0.1,0.875,0.796,0.279,0.07,0.0,0.952,0.924,0.918,0.028,"kept,missing,steepened",1.0,0.579,0.579,0.421,0.0,1.0
+R0_current,0.15,0.2,0.825,0.517,0.174,0.064,0.0,0.922,0.908,0.887,0.242,"kept,missing,reversed,steepened",0.982,0.564,0.564,0.418,0.018,0.986
+R0_current,0.15,0.4,0.675,0.205,0.088,0.036,0.0,0.497,0.488,0.483,0.642,"kept,missing,reversed,steepened,undetermined",0.636,0.368,0.368,0.268,0.364,0.519
+R1_half_bound,0.0,0.05,0.475,0.05,0.0,0.0,0.95,0.952,0.487,0.478,0.957,"flattened,kept,missing,reversed,steepened",1.0,0.77,0.77,0.23,0.0,0.999
+R1_half_bound,0.0,0.1,0.45,0.053,0.0,0.0,0.946,0.954,0.84,0.836,0.955,"flattened,kept,missing,reversed,steepened",1.0,0.857,0.857,0.143,0.0,0.805
+R1_half_bound,0.0,0.2,0.4,0.045,0.002,0.0,0.651,0.601,0.55,0.544,0.953,"flattened,kept,missing,reversed,steepened,undetermined",0.838,0.664,0.664,0.174,0.162,0.666
+R1_half_bound,0.0,0.4,,0.0,0.0,0.0,0.133,0.0,0.0,0.0,0.899,"reversed,steepened,undetermined",0.457,0.284,0.284,0.173,0.543,0.878
+R1_half_bound,0.15,0.05,0.525,0.169,0.0,0.0,0.712,0.844,0.842,0.715,0.815,"flattened,kept,missing,reversed,steepened",0.943,0.754,0.754,0.189,0.057,0.97
+R1_half_bound,0.15,0.1,0.475,0.094,0.0,0.0,0.702,0.74,0.691,0.661,0.904,"flattened,kept,missing,reversed,steepened,undetermined",0.889,0.741,0.741,0.148,0.111,0.756
+R1_half_bound,0.15,0.2,0.425,0.062,0.004,0.0,0.452,0.279,0.215,0.298,0.933,"flattened,missing,reversed,steepened,undetermined",0.711,0.548,0.548,0.163,0.289,0.666
+R1_half_bound,0.15,0.4,,0.001,0.0,0.0,0.12,0.0,0.0,0.0,0.887,"reversed,steepened,undetermined",0.429,0.27,0.27,0.16,0.571,0.83
+R2_reorder,0.0,0.05,0.05,0.0,0.0,0.0,1.0,0.952,0.487,0.478,0.0,"flattened,kept,missing,steepened",1.0,0.625,0.625,0.375,0.0,1.0
+R2_reorder,0.0,0.1,0.125,0.0,0.0,0.0,0.999,0.954,0.84,0.836,0.0,"flattened,kept,missing,steepened",1.0,0.673,0.673,0.327,0.0,1.0
+R2_reorder,0.0,0.2,0.25,0.006,0.0,0.0,0.69,0.951,0.922,0.92,0.198,"flattened,kept,missing,reversed,steepened",1.0,0.633,0.633,0.367,0.0,0.974
+R2_reorder,0.0,0.4,0.45,0.084,0.027,0.013,0.133,0.618,0.584,0.585,0.66,"kept,missing,reversed,steepened,undetermined",0.7,0.399,0.399,0.301,0.3,0.569
+R2_reorder,0.15,0.05,0.05,0.0,0.0,0.0,0.882,0.959,0.914,0.902,0.004,"flattened,kept,missing,steepened",1.0,0.64,0.64,0.359,0.0,1.0
+R2_reorder,0.15,0.1,0.125,0.0,0.0,0.0,0.796,0.952,0.924,0.918,0.028,"flattened,kept,missing,steepened",1.0,0.628,0.628,0.372,0.0,0.999
+R2_reorder,0.15,0.2,0.25,0.01,0.0,0.0,0.507,0.922,0.908,0.887,0.242,"flattened,kept,missing,reversed,steepened",0.982,0.574,0.574,0.408,0.018,0.941
+R2_reorder,0.15,0.4,0.425,0.084,0.026,0.01,0.12,0.497,0.488,0.483,0.642,"kept,missing,reversed,steepened,undetermined",0.636,0.362,0.362,0.274,0.364,0.52
+R3_interval,0.0,0.05,0.225,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,"flattened,flattened or kept,kept,kept or steepened,missing,missing or flattened,reversed,reversed or missing,steepened",0.762,0.759,0.997,0.003,0.0,0.053
+R3_interval,0.0,0.1,0.2,0.0,0.0,0.0,1.0,1.0,0.999,0.999,1.0,"flattened,flattened or kept,kept,kept or steepened,missing,missing or flattened,reversed,reversed or missing,steepened",0.524,0.518,0.994,0.006,0.0,0.06
+R3_interval,0.0,0.2,,0.0,0.0,0.0,0.668,0.676,0.661,0.707,0.981,"flattened or kept,kept or steepened,missing or flattened,reversed,reversed or missing,steepened",0.228,0.225,0.814,0.012,0.174,0.057
+R3_interval,0.0,0.4,,0.0,0.0,0.0,0.0,0.132,0.09,0.202,0.586,"kept or steepened,reversed or missing,steepened,undetermined",0.112,0.106,0.35,0.012,0.638,0.052
+R3_interval,0.15,0.05,0.225,0.0,0.0,0.0,0.985,0.977,0.896,0.99,1.0,"flattened,flattened or kept,kept or steepened,missing,missing or flattened,reversed,reversed or missing,steepened",0.49,0.484,0.978,0.007,0.016,0.047
+R3_interval,0.15,0.1,0.2,0.0,0.0,0.0,0.96,0.816,0.757,0.904,1.0,"flattened or kept,kept or steepened,missing,missing or flattened,reversed,reversed or missing,steepened",0.353,0.347,0.952,0.009,0.039,0.053
+R3_interval,0.15,0.2,,0.0,0.0,0.0,0.478,0.492,0.436,0.557,0.977,"kept or steepened,missing or flattened,reversed,reversed or missing,steepened,undetermined",0.19,0.186,0.729,0.014,0.258,0.053
+R3_interval,0.15,0.4,,0.0,0.0,0.0,0.001,0.133,0.087,0.185,0.586,"kept or steepened,reversed or missing,steepened,undetermined",0.104,0.097,0.342,0.012,0.646,0.053

@@ -1,4 +1,0 @@
-quantity,unit,low,high,n
-"SE inflation, cell over generation","model x cohort, both conditions (60 draws)",5.17,6.85,7
-"SE inflation, cell over generation",model x cohort x condition (30 draws),3.89,4.88,7
-two-way cluster-robust SE over between-cell SE,"model and cohort, Cameron-Gelbach-Miller",1.77,4.74,7
