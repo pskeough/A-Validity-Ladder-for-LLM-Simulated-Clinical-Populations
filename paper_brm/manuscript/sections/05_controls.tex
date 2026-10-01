@@ -1,6 +1,6 @@
 % Section 5. Controls. Source: analysis_brm/CONTROLS.md (scripts 83a-83g), decision 15.
 % Note: the 200-replicate positive control scores level 4 on R1, R2 and R3. R4 is read in the
-% intermediate panel (scripts 88, 88b, 88c; 69 replicates, R4 on 24), and the text says which is which.
+% intermediate panel (scripts 88, 88b, 88c; 70 replicates, R4 on 25), and the text says which is which.
 
 \section{Controls: Real People and Planted Failures}
 \label{sec:controls}
@@ -19,11 +19,11 @@ Each rung is read with its own rule.
 Run on the real corpus with the full reference, the control code reproduces every published rung number, 303 of 303 checks. % R: 83a_receipt.csv
 
 \paragraph{What real people pass.}
-The level-1 rule is read per framing, and under it real respondents pass both framings in 92.8\% of 69 replicates, with the remaining replicates unresolved and none failed. % R: analysis_brm/intermediate_panel/88_confusion.csv
+The level-1 rule is read per framing, and under it real respondents pass both framings in 92.9\% of 70 replicates, with the remaining replicates unresolved and none failed. % R: analysis_brm/intermediate_panel/88_confusion.csv
 The pseudo-model passes level 3 on all ten groups in 100\% of replicates at 2 points and 98.1\% at 1 point. % R: 83c_l3.csv
 It passes the level-4 structure rules (R1, R2 and the R3 diagnostic, in both framings) in all 200 replicates. % R: 83c_l4.csv
-Real respondents are unresolved on R4 at the .08 margin in 23 of 24 replicates and fail it in 1, since 24 to 40 personas per group leave some invariance steps unresolved. % R: analysis_brm/intermediate_panel/88_confusion.csv; analysis_brm/intermediate_panel/88_r4_steps.csv
-Making three items independent within the low-income group produces an R4 failure in 24 of 24 replicates, located at the income metric step. % R: analysis_brm/intermediate_panel/88_confusion.csv; analysis_brm/intermediate_panel/88_r4_steps.csv
+Real respondents are unresolved on R4 at the .08 margin in 24 of 25 replicates and fail it in 1, since 24 to 40 personas per group leave some invariance steps unresolved. % R: analysis_brm/intermediate_panel/88_confusion.csv; analysis_brm/intermediate_panel/88_r4_steps.csv
+Making three items independent within the low-income group produces an R4 failure in 25 of 25 replicates, located at the income metric step. % R: analysis_brm/intermediate_panel/88_confusion.csv; analysis_brm/intermediate_panel/88_r4_steps.csv
 At level 2, a determinate wrong verdict occurs in at most 1.0\% of readings at any dose and scope. % R: 83c_l2.csv
 The level-2 intervals cover the true ratio in .986 to 1.000 of replicates per model, against .986 nominal. % R: 83c_l2_coverage.csv
 
@@ -66,11 +66,11 @@ At the audit's own precision, the racial contrasts of a faithful model are stopp
 The same design returns these stops for a faithful model, so the stops on race in the Results come from the reference and not from the models.
 
 \paragraph{Intermediate simulators.}
-Table~\ref{tab:panel} reads seven simulator types, all built from NHANES respondents through the corpus design, at every rung over 69 replicates. % R: analysis_brm/intermediate_panel/88_confusion.csv
+Table~\ref{tab:panel} reads seven simulator types, all built from NHANES respondents through the corpus design, at every rung over 70 replicates. % R: analysis_brm/intermediate_panel/88_confusion.csv
 Each planted failure trips the rung it targets, and the other rungs fail it in under 2\% of readings, except level 3 under the doubled gap. % R: analysis_brm/intermediate_panel/88_confusion.csv
-That plant fails level 3 in 14.5\% of readings, because raising the low-income personas raises that group's level. % R: analysis_brm/intermediate_panel/88_confusion.csv
+That plant fails level 3 in 14.6\% of readings, because raising the low-income personas raises that group's level. % R: analysis_brm/intermediate_panel/88_confusion.csv
 Shifted samples fail level 3 in every reading without a level-1 failure, compressed samples fail level 1 in every replicate and pass level 3, and independent items fail level 1, R1 and R2 while passing level 3. % R: analysis_brm/intermediate_panel/88_confusion.csv
-A doubled income gap fails level 2 in 92.4\% of per-model readings with R1 and R2 holding in every replicate. % R: analysis_brm/intermediate_panel/88_confusion.csv
+A doubled income gap fails level 2 in 92.5\% of per-model readings with R1 and R2 holding in every replicate. % R: analysis_brm/intermediate_panel/88_confusion.csv
 No type passes level 2 or level 4 in any reading, real respondents included, and at this design's size both levels can therefore fail a sample without being able to pass one. % R: analysis_brm/intermediate_panel/88_confusion.csv
 The gate fails real respondents at 30 draws in every reading and passes independent items in every reading, since it measures how stable a persona mean is, and real respondents within one cell vary far more than the cell means differ. % R: analysis_brm/intermediate_panel/88_confusion.csv
 

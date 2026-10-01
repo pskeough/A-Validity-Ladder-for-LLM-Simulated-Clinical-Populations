@@ -183,7 +183,14 @@ def objective(theta, spec, mom, N, with_means):
     return F, grad
 
 
+def degenerate(mom):
+    """An item with no variance in a group makes S_g singular, so ln|S_g| and the ML fit are undefined."""
+    return any(np.diag(S).min() <= 1e-12 for _, S, _ in mom)
+
+
 def start_values(spec, mom, prev=None):
+    if degenerate(mom):
+        raise ValueError("an item has zero variance in a group; the ML fit is undefined")
     th0 = np.zeros(spec.n)
     lam_g = []
     for (m, S, n) in mom:
@@ -328,17 +335,26 @@ def analyse(label, X, w, gidx, G, clusters, strata, perm_units, perm_blocks, rng
     ub = None
     if perm_blocks is not None:
         ub = np.zeros(len(uid), int); ub[uinv] = perm_blocks
+    # A resample with a zero-variance item in some group has no ML fit; it is redrawn and counted.
+    # Inputs that never produce one consume the random stream exactly as before.
     pDM, pDS, pDP = [], [], []
+    n_redraw_perm = 0
     for kperm in range(K_PERM if resample else 0):
-        if ub is None:
-            ugp = rng.permutation(ug)
-        else:
-            ugp = ug.copy()
-            for bk in np.unique(ub):
-                ix = np.flatnonzero(ub == bk)
-                ugp[ix] = rng.permutation(ug[ix])
-        gp = ugp[uinv]
-        momp = group_moments(X, w, gp, G)
+        while True:
+            if ub is None:
+                ugp = rng.permutation(ug)
+            else:
+                ugp = ug.copy()
+                for bk in np.unique(ub):
+                    ix = np.flatnonzero(ub == bk)
+                    ugp[ix] = rng.permutation(ug[ix])
+            gp = ugp[uinv]
+            momp = group_moments(X, w, gp, G)
+            if not degenerate(momp):
+                break
+            n_redraw_perm += 1
+            if n_redraw_perm > 1000:
+                raise RuntimeError(f"{label}: over 1000 degenerate permutations")
         fp = fit_all(momp, prev)
         pDM.append(fp["metric"][0] - fp["configural"][0])
         pDS.append(fp["scalar"][0] - fp["metric"][0])
@@ -355,17 +371,24 @@ def analyse(label, X, w, gidx, G, clusters, strata, perm_units, perm_blocks, rng
     cid, cinv = np.unique(clusters, return_inverse=True)
     cg = np.zeros(len(cid), int); cg[cinv] = gidx
     bDM, bDS, bDP = [], [], []
+    n_redraw_boot = 0
     for b in range(B if resample else 0):
-        if strata is None:
-            mult = np.zeros(len(cid))
-            for k in range(G):
-                ix = np.flatnonzero(cg == k)
-                np.add.at(mult, rng.choice(ix, len(ix), replace=True), 1.0)
-        else:
-            mult = L.cluster_boot_mult(len(cid), rng, strata)
-        rw = mult[cinv]
-        keep = rw > 0
-        momb = group_moments(X[keep], (w * rw)[keep], gidx[keep], G, n_mult=rw[keep])
+        while True:
+            if strata is None:
+                mult = np.zeros(len(cid))
+                for k in range(G):
+                    ix = np.flatnonzero(cg == k)
+                    np.add.at(mult, rng.choice(ix, len(ix), replace=True), 1.0)
+            else:
+                mult = L.cluster_boot_mult(len(cid), rng, strata)
+            rw = mult[cinv]
+            keep = rw > 0
+            momb = group_moments(X[keep], (w * rw)[keep], gidx[keep], G, n_mult=rw[keep])
+            if not degenerate(momb):
+                break
+            n_redraw_boot += 1
+            if n_redraw_boot > 1000:
+                raise RuntimeError(f"{label}: over 1000 degenerate bootstrap resamples")
         fb = fit_all(momb, prev)
         bDM.append(fb["metric"][0] - fb["configural"][0])
         bDS.append(fb["scalar"][0] - fb["metric"][0])
@@ -391,7 +414,8 @@ def analyse(label, X, w, gidx, G, clusters, strata, perm_units, perm_blocks, rng
                  step=step, df_diff=d, dF=DFo, dT_normal=N * DFo, nu_perm=nu if resample else np.nan,
                  nu_normal=d / N, c_hat=nu / (d / N) if resample else np.nan, p_perm=pp,
                  rmsea_d_naive=rmsea_d(DFo, d / N, d, G), rmsea_d=rmsea_d(DFo, nu, d, G),
-                 rmsea_d_lo90=lo, rmsea_d_hi90=hi, n_perm=len(perm), n_boot=len(boot))
+                 rmsea_d_lo90=lo, rmsea_d_hi90=hi, n_perm=len(perm), n_boot=len(boot),
+                 n_redraw_perm=n_redraw_perm, n_redraw_boot=n_redraw_boot)
         for e0 in E0:
             r[f"verdict_e{int(e0 * 100):02d}"] = (verdict(lo, hi, e0) if resample
                                                   else "not interpretable (no general factor)")

@@ -60,7 +60,7 @@ lines += [
     r"\begin{tabnote}",
     r"\textit{Note.} Percentage of readings that pass, except the columns marked fail or unresolved. "
     f"Gate, L2 and L3 are read per pseudo-model ({int(n['gate_n'])} readings per type); "
-    f"L1, R1 and R2 on one pseudo-model per replicate ({int(n['L1_n'])} replicates; a 70th crashed in an R4 fit and is excluded). "
+    f"L1, R1 and R2 on one pseudo-model per replicate ({int(n['L1_n'])} replicates). "
     "R4 is read at margin .08 on the number of replicates in parentheses; it gives no verdict without a general factor. "
     "L2 passes in no reading of any type; its remaining readings are unresolved. "
     "L4 is the level-4 pass (R1, R2 and R4 in both framings). Shifted types raise every persona by the stated points; "

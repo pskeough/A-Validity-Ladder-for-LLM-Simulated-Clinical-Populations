@@ -275,7 +275,8 @@ def r4_eval(X, persona, pers, rng_seed):
             rows.append(dict(attribute=attr, step=r["step"], rmsea_d=r["rmsea_d"], lo=r["rmsea_d_lo90"],
                              hi=r["rmsea_d_hi90"], p_perm=r["p_perm"], v05=r["verdict_e05"],
                              v08=r["verdict_e08"], ref05=ref05, ref08=ref08,
-                             converged=fitrow["converged"]))
+                             converged=fitrow["converged"], n_redraw_perm=r["n_redraw_perm"],
+                             n_redraw_boot=r["n_redraw_boot"]))
     out = {}
     for e in ("05", "08"):
         st = []
