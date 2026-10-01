@@ -1,0 +1,121 @@
+model,framing,spec,window,income_def,marital_def,sim,ref,resid,ci90_lo,ci90_hi,pass_1pt,pass_2pt
+deepseek-chat-v3,clinical,S1 primary,2005-2018,pir_band,mar,7.720519,2.894827,4.825692,4.710782,4.940602,0.0,0.0
+deepseek-chat-v3,clinical,S2 cohabiting as married,2005-2018,pir_band,mar_cohab,7.735221,2.942129,4.793092,4.679003,4.90718,0.0,0.0
+deepseek-chat-v3,clinical,S2b cohabiting as single,2005-2018,pir_band,mar_all,7.774722,2.942129,4.832593,4.72065,4.944537,0.0,0.0
+deepseek-chat-v3,clinical,S3 2007-2018 PIR (bridge),2007-2018,pir_band,mar,7.735564,2.964783,4.770781,4.654046,4.887516,0.0,0.0
+deepseek-chat-v3,clinical,S4 persona-string income,2007-2018,p_inc,mar,7.501074,2.578888,4.922186,4.787426,5.056946,0.0,0.0
+deepseek-chat-v3,clinical,"S5 persona-string, high top-coded",2007-2018,p_inc_top,mar,7.592968,2.603533,4.989435,4.855496,5.123374,0.0,0.0
+deepseek-chat-v3,clinical,S6 2017-2020 pre-pandemic,2017-2020,pir_band,mar_cohab,7.640423,3.097861,4.542561,4.389828,4.695295,0.0,0.0
+deepseek-chat-v3,clinical,S7 2021-2023,2021-2023,pir_band,mar_cohab,7.683695,3.964792,3.718903,3.51587,3.921936,0.0,0.0
+deepseek-chat-v3,combined,S1 primary,2005-2018,pir_band,mar,7.476538,2.894827,4.581711,4.494265,4.669157,0.0,0.0
+deepseek-chat-v3,combined,S2 cohabiting as married,2005-2018,pir_band,mar_cohab,7.49234,2.942129,4.550211,4.46327,4.637151,0.0,0.0
+deepseek-chat-v3,combined,S2b cohabiting as single,2005-2018,pir_band,mar_all,7.527658,2.942129,4.585529,4.499636,4.671421,0.0,0.0
+deepseek-chat-v3,combined,S3 2007-2018 PIR (bridge),2007-2018,pir_band,mar,7.490551,2.964783,4.525768,4.435922,4.615615,0.0,0.0
+deepseek-chat-v3,combined,S4 persona-string income,2007-2018,p_inc,mar,7.268251,2.578888,4.689363,4.582416,4.796311,0.0,0.0
+deepseek-chat-v3,combined,"S5 persona-string, high top-coded",2007-2018,p_inc_top,mar,7.36577,2.603533,4.762237,4.653215,4.871259,0.0,0.0
+deepseek-chat-v3,combined,S6 2017-2020 pre-pandemic,2017-2020,pir_band,mar_cohab,7.398657,3.097861,4.300796,4.166366,4.435226,0.0,0.0
+deepseek-chat-v3,combined,S7 2021-2023,2021-2023,pir_band,mar_cohab,7.437881,3.964792,3.473089,3.274674,3.671505,0.0,0.0
+deepseek-chat-v3,narrative,S1 primary,2005-2018,pir_band,mar,7.232557,2.894827,4.33773,4.23568,4.439779,0.0,0.0
+deepseek-chat-v3,narrative,S2 cohabiting as married,2005-2018,pir_band,mar_cohab,7.249458,2.942129,4.307329,4.206298,4.408361,0.0,0.0
+deepseek-chat-v3,narrative,S2b cohabiting as single,2005-2018,pir_band,mar_all,7.280593,2.942129,4.338464,4.238273,4.438655,0.0,0.0
+deepseek-chat-v3,narrative,S3 2007-2018 PIR (bridge),2007-2018,pir_band,mar,7.245539,2.964783,4.280756,4.176988,4.384523,0.0,0.0
+deepseek-chat-v3,narrative,S4 persona-string income,2007-2018,p_inc,mar,7.035429,2.578888,4.456541,4.332524,4.580558,0.0,0.0
+deepseek-chat-v3,narrative,"S5 persona-string, high top-coded",2007-2018,p_inc_top,mar,7.138572,2.603533,4.535039,4.409877,4.660201,0.0,0.0
+deepseek-chat-v3,narrative,S6 2017-2020 pre-pandemic,2017-2020,pir_band,mar_cohab,7.156892,3.097861,4.05903,3.914522,4.203539,0.0,0.0
+deepseek-chat-v3,narrative,S7 2021-2023,2021-2023,pir_band,mar_cohab,7.192067,3.964792,3.227275,3.01608,3.43847,0.0,0.0
+gemini-3-flash-preview,clinical,S1 primary,2005-2018,pir_band,mar,5.918799,2.894827,3.023972,2.917225,3.130718,0.0,0.0
+gemini-3-flash-preview,clinical,S2 cohabiting as married,2005-2018,pir_band,mar_cohab,5.959506,2.942129,3.017377,2.913636,3.121118,0.0,0.0
+gemini-3-flash-preview,clinical,S2b cohabiting as single,2005-2018,pir_band,mar_all,6.043953,2.942129,3.101824,2.99632,3.207327,0.0,0.0
+gemini-3-flash-preview,clinical,S3 2007-2018 PIR (bridge),2007-2018,pir_band,mar,5.969771,2.964783,3.004988,2.889855,3.120121,0.0,0.0
+gemini-3-flash-preview,clinical,S4 persona-string income,2007-2018,p_inc,mar,5.126175,2.578888,2.547286,2.433884,2.660689,0.0,0.0
+gemini-3-flash-preview,clinical,"S5 persona-string, high top-coded",2007-2018,p_inc_top,mar,5.228273,2.603533,2.62474,2.506659,2.742821,0.0,0.0
+gemini-3-flash-preview,clinical,S6 2017-2020 pre-pandemic,2017-2020,pir_band,mar_cohab,5.748355,3.097861,2.650493,2.495776,2.805211,0.0,0.0
+gemini-3-flash-preview,clinical,S7 2021-2023,2021-2023,pir_band,mar_cohab,5.746956,3.964792,1.782165,1.559884,2.004445,0.0,0.0
+gemini-3-flash-preview,combined,S1 primary,2005-2018,pir_band,mar,5.483979,2.894827,2.589152,2.491863,2.68644,0.0,0.0
+gemini-3-flash-preview,combined,S2 cohabiting as married,2005-2018,pir_band,mar_cohab,5.529599,2.942129,2.58747,2.49267,2.682271,0.0,0.0
+gemini-3-flash-preview,combined,S2b cohabiting as single,2005-2018,pir_band,mar_all,5.59967,2.942129,2.657541,2.56222,2.752862,0.0,0.0
+gemini-3-flash-preview,combined,S3 2007-2018 PIR (bridge),2007-2018,pir_band,mar,5.531572,2.964783,2.566789,2.460852,2.672726,0.0,0.0
+gemini-3-flash-preview,combined,S4 persona-string income,2007-2018,p_inc,mar,4.744581,2.578888,2.165692,2.060046,2.271339,0.0,0.0
+gemini-3-flash-preview,combined,"S5 persona-string, high top-coded",2007-2018,p_inc_top,mar,4.852831,2.603533,2.249298,2.139643,2.358953,0.0,0.0
+gemini-3-flash-preview,combined,S6 2017-2020 pre-pandemic,2017-2020,pir_band,mar_cohab,5.322092,3.097861,2.224231,2.077652,2.370809,0.0,0.0
+gemini-3-flash-preview,combined,S7 2021-2023,2021-2023,pir_band,mar_cohab,5.323227,3.964792,1.358435,1.13555,1.581321,0.0,1.0
+gemini-3-flash-preview,narrative,S1 primary,2005-2018,pir_band,mar,5.049159,2.894827,2.154332,2.045241,2.263423,0.0,0.0
+gemini-3-flash-preview,narrative,S2 cohabiting as married,2005-2018,pir_band,mar_cohab,5.099692,2.942129,2.157563,2.050457,2.26467,0.0,0.0
+gemini-3-flash-preview,narrative,S2b cohabiting as single,2005-2018,pir_band,mar_all,5.155387,2.942129,2.213258,2.106299,2.320217,0.0,0.0
+gemini-3-flash-preview,narrative,S3 2007-2018 PIR (bridge),2007-2018,pir_band,mar,5.093372,2.964783,2.128589,2.012122,2.245056,0.0,0.0
+gemini-3-flash-preview,narrative,S4 persona-string income,2007-2018,p_inc,mar,4.362987,2.578888,1.784099,1.664236,1.903961,0.0,1.0
+gemini-3-flash-preview,narrative,"S5 persona-string, high top-coded",2007-2018,p_inc_top,mar,4.477389,2.603533,1.873856,1.751024,1.996687,0.0,1.0
+gemini-3-flash-preview,narrative,S6 2017-2020 pre-pandemic,2017-2020,pir_band,mar_cohab,4.895829,3.097861,1.797968,1.64559,1.950346,0.0,1.0
+gemini-3-flash-preview,narrative,S7 2021-2023,2021-2023,pir_band,mar_cohab,4.899497,3.964792,0.934706,0.702842,1.16657,0.0,1.0
+glm-4.7,clinical,S1 primary,2005-2018,pir_band,mar,5.195807,2.894827,2.30098,2.151922,2.450038,0.0,0.0
+glm-4.7,clinical,S2 cohabiting as married,2005-2018,pir_band,mar_cohab,5.219707,2.942129,2.277578,2.131349,2.423808,0.0,0.0
+glm-4.7,clinical,S2b cohabiting as single,2005-2018,pir_band,mar_all,5.311376,2.942129,2.369247,2.221467,2.517026,0.0,0.0
+glm-4.7,clinical,S3 2007-2018 PIR (bridge),2007-2018,pir_band,mar,5.238682,2.964783,2.273899,2.121204,2.426594,0.0,0.0
+glm-4.7,clinical,S4 persona-string income,2007-2018,p_inc,mar,4.496137,2.578888,1.917248,1.74777,2.086727,0.0,0.0
+glm-4.7,clinical,"S5 persona-string, high top-coded",2007-2018,p_inc_top,mar,4.621828,2.603533,2.018295,1.844421,2.192169,0.0,0.0
+glm-4.7,clinical,S6 2017-2020 pre-pandemic,2017-2020,pir_band,mar_cohab,5.040271,3.097861,1.942409,1.754319,2.130499,0.0,0.0
+glm-4.7,clinical,S7 2021-2023,2021-2023,pir_band,mar_cohab,5.069968,3.964792,1.105176,0.859136,1.351216,0.0,1.0
+glm-4.7,combined,S1 primary,2005-2018,pir_band,mar,5.01565,2.894827,2.120823,2.004393,2.237254,0.0,0.0
+glm-4.7,combined,S2 cohabiting as married,2005-2018,pir_band,mar_cohab,5.042981,2.942129,2.100852,1.986749,2.214954,0.0,0.0
+glm-4.7,combined,S2b cohabiting as single,2005-2018,pir_band,mar_all,5.137605,2.942129,2.195476,2.080858,2.310094,0.0,0.0
+glm-4.7,combined,S3 2007-2018 PIR (bridge),2007-2018,pir_band,mar,5.06011,2.964783,2.095327,1.972879,2.217775,0.0,0.0
+glm-4.7,combined,S4 persona-string income,2007-2018,p_inc,mar,4.290856,2.578888,1.711968,1.580362,1.843573,0.0,1.0
+glm-4.7,combined,"S5 persona-string, high top-coded",2007-2018,p_inc_top,mar,4.429299,2.603533,1.825766,1.689478,1.962054,0.0,1.0
+glm-4.7,combined,S6 2017-2020 pre-pandemic,2017-2020,pir_band,mar_cohab,4.83924,3.097861,1.741378,1.571766,1.91099,0.0,1.0
+glm-4.7,combined,S7 2021-2023,2021-2023,pir_band,mar_cohab,4.871939,3.964792,0.907147,0.669477,1.144817,0.0,1.0
+glm-4.7,narrative,S1 primary,2005-2018,pir_band,mar,4.835494,2.894827,1.940667,1.805699,2.075635,0.0,0.0
+glm-4.7,narrative,S2 cohabiting as married,2005-2018,pir_band,mar_cohab,4.866254,2.942129,1.924125,1.791601,2.056649,0.0,0.0
+glm-4.7,narrative,S2b cohabiting as single,2005-2018,pir_band,mar_all,4.963834,2.942129,2.021705,1.889138,2.154273,0.0,0.0
+glm-4.7,narrative,S3 2007-2018 PIR (bridge),2007-2018,pir_band,mar,4.881538,2.964783,1.916755,1.775822,2.057688,0.0,0.0
+glm-4.7,narrative,S4 persona-string income,2007-2018,p_inc,mar,4.085575,2.578888,1.506687,1.354612,1.658761,0.0,1.0
+glm-4.7,narrative,"S5 persona-string, high top-coded",2007-2018,p_inc_top,mar,4.236771,2.603533,1.633237,1.476411,1.790063,0.0,1.0
+glm-4.7,narrative,S6 2017-2020 pre-pandemic,2017-2020,pir_band,mar_cohab,4.638209,3.097861,1.540347,1.35453,1.726164,0.0,1.0
+glm-4.7,narrative,S7 2021-2023,2021-2023,pir_band,mar_cohab,4.67391,3.964792,0.709118,0.455114,0.963123,1.0,1.0
+gpt-4o-mini,clinical,S1 primary,2005-2018,pir_band,mar,7.508045,2.894827,4.613218,4.46898,4.757456,0.0,0.0
+gpt-4o-mini,clinical,S2 cohabiting as married,2005-2018,pir_band,mar_cohab,7.53333,2.942129,4.591201,4.448522,4.733879,0.0,0.0
+gpt-4o-mini,clinical,S2b cohabiting as single,2005-2018,pir_band,mar_all,7.564503,2.942129,4.622374,4.481552,4.763196,0.0,0.0
+gpt-4o-mini,clinical,S3 2007-2018 PIR (bridge),2007-2018,pir_band,mar,7.527336,2.964783,4.562553,4.417097,4.708009,0.0,0.0
+gpt-4o-mini,clinical,S4 persona-string income,2007-2018,p_inc,mar,7.231757,2.578888,4.652869,4.480669,4.825068,0.0,0.0
+gpt-4o-mini,clinical,"S5 persona-string, high top-coded",2007-2018,p_inc_top,mar,7.342053,2.603533,4.73852,4.566258,4.910782,0.0,0.0
+gpt-4o-mini,clinical,S6 2017-2020 pre-pandemic,2017-2020,pir_band,mar_cohab,7.422699,3.097861,4.324838,4.148025,4.501651,0.0,0.0
+gpt-4o-mini,clinical,S7 2021-2023,2021-2023,pir_band,mar_cohab,7.464763,3.964792,3.499971,3.273449,3.726493,0.0,0.0
+gpt-4o-mini,combined,S1 primary,2005-2018,pir_band,mar,7.574596,2.894827,4.679769,4.568736,4.790802,0.0,0.0
+gpt-4o-mini,combined,S2 cohabiting as married,2005-2018,pir_band,mar_cohab,7.592231,2.942129,4.650102,4.539863,4.76034,0.0,0.0
+gpt-4o-mini,combined,S2b cohabiting as single,2005-2018,pir_band,mar_all,7.623113,2.942129,4.680984,4.572682,4.789286,0.0,0.0
+gpt-4o-mini,combined,S3 2007-2018 PIR (bridge),2007-2018,pir_band,mar,7.590506,2.964783,4.625723,4.513117,4.738329,0.0,0.0
+gpt-4o-mini,combined,S4 persona-string income,2007-2018,p_inc,mar,7.341733,2.578888,4.762845,4.627294,4.898396,0.0,0.0
+gpt-4o-mini,combined,"S5 persona-string, high top-coded",2007-2018,p_inc_top,mar,7.429665,2.603533,4.826132,4.689219,4.963045,0.0,0.0
+gpt-4o-mini,combined,S6 2017-2020 pre-pandemic,2017-2020,pir_band,mar_cohab,7.506368,3.097861,4.408506,4.260844,4.556169,0.0,0.0
+gpt-4o-mini,combined,S7 2021-2023,2021-2023,pir_band,mar_cohab,7.532541,3.964792,3.56775,3.362729,3.772771,0.0,0.0
+gpt-4o-mini,narrative,S1 primary,2005-2018,pir_band,mar,7.641147,2.894827,4.74632,4.598693,4.893947,0.0,0.0
+gpt-4o-mini,narrative,S2 cohabiting as married,2005-2018,pir_band,mar_cohab,7.651132,2.942129,4.709003,4.562385,4.855621,0.0,0.0
+gpt-4o-mini,narrative,S2b cohabiting as single,2005-2018,pir_band,mar_all,7.681723,2.942129,4.739594,4.596811,4.882377,0.0,0.0
+gpt-4o-mini,narrative,S3 2007-2018 PIR (bridge),2007-2018,pir_band,mar,7.653676,2.964783,4.688893,4.540745,4.837041,0.0,0.0
+gpt-4o-mini,narrative,S4 persona-string income,2007-2018,p_inc,mar,7.451709,2.578888,4.872821,4.693198,5.052444,0.0,0.0
+gpt-4o-mini,narrative,"S5 persona-string, high top-coded",2007-2018,p_inc_top,mar,7.517278,2.603533,4.913744,4.733789,5.0937,0.0,0.0
+gpt-4o-mini,narrative,S6 2017-2020 pre-pandemic,2017-2020,pir_band,mar_cohab,7.590036,3.097861,4.492175,4.319428,4.664922,0.0,0.0
+gpt-4o-mini,narrative,S7 2021-2023,2021-2023,pir_band,mar_cohab,7.60032,3.964792,3.635528,3.413835,3.857222,0.0,0.0
+pooled,clinical,S1 primary,2005-2018,pir_band,mar,6.585792,2.894827,3.690965,3.603771,3.77816,0.0,0.0
+pooled,clinical,S2 cohabiting as married,2005-2018,pir_band,mar_cohab,6.611941,2.942129,3.669812,3.583921,3.755702,0.0,0.0
+pooled,clinical,S2b cohabiting as single,2005-2018,pir_band,mar_all,6.673639,2.942129,3.731509,3.645737,3.817282,0.0,0.0
+pooled,clinical,S3 2007-2018 PIR (bridge),2007-2018,pir_band,mar,6.617838,2.964783,3.653055,3.561016,3.745094,0.0,0.0
+pooled,clinical,S4 persona-string income,2007-2018,p_inc,mar,6.088785,2.578888,3.509897,3.408021,3.611774,0.0,0.0
+pooled,clinical,"S5 persona-string, high top-coded",2007-2018,p_inc_top,mar,6.196281,2.603533,3.592748,3.487899,3.697596,0.0,0.0
+pooled,clinical,S6 2017-2020 pre-pandemic,2017-2020,pir_band,mar_cohab,6.462937,3.097861,3.365075,3.229024,3.501127,0.0,0.0
+pooled,clinical,S7 2021-2023,2021-2023,pir_band,mar_cohab,6.491345,3.964792,2.526554,2.328136,2.724971,0.0,0.0
+pooled,combined,S1 primary,2005-2018,pir_band,mar,6.387691,2.894827,3.492864,3.415656,3.570072,0.0,0.0
+pooled,combined,S2 cohabiting as married,2005-2018,pir_band,mar_cohab,6.414288,2.942129,3.472159,3.395962,3.548355,0.0,0.0
+pooled,combined,S2b cohabiting as single,2005-2018,pir_band,mar_all,6.472011,2.942129,3.529882,3.453963,3.605802,0.0,0.0
+pooled,combined,S3 2007-2018 PIR (bridge),2007-2018,pir_band,mar,6.418185,2.964783,3.453402,3.370875,3.535928,0.0,0.0
+pooled,combined,S4 persona-string income,2007-2018,p_inc,mar,5.911355,2.578888,3.332467,3.241079,3.423855,0.0,0.0
+pooled,combined,"S5 persona-string, high top-coded",2007-2018,p_inc_top,mar,6.019391,2.603533,3.415858,3.320901,3.510816,0.0,0.0
+pooled,combined,S6 2017-2020 pre-pandemic,2017-2020,pir_band,mar_cohab,6.266589,3.097861,3.168728,3.038474,3.298981,0.0,0.0
+pooled,combined,S7 2021-2023,2021-2023,pir_band,mar_cohab,6.291397,3.964792,2.326605,2.130567,2.522644,0.0,0.0
+pooled,narrative,S1 primary,2005-2018,pir_band,mar,6.189589,2.894827,3.294762,3.210889,3.378635,0.0,0.0
+pooled,narrative,S2 cohabiting as married,2005-2018,pir_band,mar_cohab,6.216634,2.942129,3.274505,3.191562,3.357448,0.0,0.0
+pooled,narrative,S2b cohabiting as single,2005-2018,pir_band,mar_all,6.270384,2.942129,3.328255,3.245953,3.410557,0.0,0.0
+pooled,narrative,S3 2007-2018 PIR (bridge),2007-2018,pir_band,mar,6.218531,2.964783,3.253748,3.165246,3.34225,0.0,0.0
+pooled,narrative,S4 persona-string income,2007-2018,p_inc,mar,5.733925,2.578888,3.155037,3.055563,3.25451,0.0,0.0
+pooled,narrative,"S5 persona-string, high top-coded",2007-2018,p_inc_top,mar,5.842502,2.603533,3.238969,3.136238,3.3417,0.0,0.0
+pooled,narrative,S6 2017-2020 pre-pandemic,2017-2020,pir_band,mar_cohab,6.070241,3.097861,2.97238,2.838491,3.106269,0.0,0.0
+pooled,narrative,S7 2021-2023,2021-2023,pir_band,mar_cohab,6.091449,3.964792,2.126657,1.927431,2.325883,0.0,0.0

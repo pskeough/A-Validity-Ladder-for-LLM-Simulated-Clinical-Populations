@@ -1,0 +1,16 @@
+model,framing,resid_min,resid_max,ci90_lo_min,ci90_hi_max,specs_pass_2pt,specs_pass_1pt,specs_passing_2pt
+deepseek-chat-v3,clinical,3.718903,4.989435,3.51587,5.123374,0.0,0.0,
+deepseek-chat-v3,combined,3.473089,4.762237,3.274674,4.871259,0.0,0.0,
+deepseek-chat-v3,narrative,3.227275,4.535039,3.01608,4.660201,0.0,0.0,
+gemini-3-flash-preview,clinical,1.782165,3.101824,1.559884,3.207327,0.0,0.0,
+gemini-3-flash-preview,combined,1.358435,2.657541,1.13555,2.752862,1.0,0.0,S7 2021-2023
+gemini-3-flash-preview,narrative,0.934706,2.213258,0.702842,2.320217,4.0,0.0,"S4 persona-string income; S5 persona-string, high top-coded; S6 2017-2020 pre-pandemic; S7 2021-2023"
+glm-4.7,clinical,1.105176,2.369247,0.859136,2.517026,1.0,0.0,S7 2021-2023
+glm-4.7,combined,0.907147,2.195476,0.669477,2.310094,4.0,0.0,"S4 persona-string income; S5 persona-string, high top-coded; S6 2017-2020 pre-pandemic; S7 2021-2023"
+glm-4.7,narrative,0.709118,2.021705,0.455114,2.154273,4.0,1.0,"S4 persona-string income; S5 persona-string, high top-coded; S6 2017-2020 pre-pandemic; S7 2021-2023"
+gpt-4o-mini,clinical,3.499971,4.73852,3.273449,4.910782,0.0,0.0,
+gpt-4o-mini,combined,3.56775,4.826132,3.362729,4.963045,0.0,0.0,
+gpt-4o-mini,narrative,3.635528,4.913744,3.413835,5.0937,0.0,0.0,
+pooled,clinical,2.526554,3.731509,2.328136,3.817282,0.0,0.0,
+pooled,combined,2.326605,3.529882,2.130567,3.605802,0.0,0.0,
+pooled,narrative,2.126657,3.328255,1.927431,3.410557,0.0,0.0,

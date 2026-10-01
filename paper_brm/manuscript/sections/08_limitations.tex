@@ -4,7 +4,7 @@
 
 Each demographic cell has one persona, so a persona's own quirks cannot be separated from its cell.
 Transgender and multiracial personas have no NHANES comparison group, so they are not tested at levels 2 and 3.
-At NHANES precision level 2 can detect distortion and cannot certify faithfulness.
+With 24 to 40 personas per group the model failures at levels 2 and 4 are determinate, but a pass at level 4 needs more personas per group, and a pass at level 2 is also limited by the survey's own precision.
 No clinician reviewed individual answer vectors, and that review is the next test of level 1.
 Of the clinical rows, 1,575 are not the December run's own output, 1,345 of them came from a prompt that cannot be established, and no per-model verdict changes without them. % R: corpus_v3_provenance.csv; 87_row_sources.csv
 The reissue line added to refused calls was not logged per attempt, so the rows produced under it cannot be identified.
@@ -17,7 +17,7 @@ No analysis was registered with a public registry.
 
 This paper proposes the validity ladder as a protocol that other researchers can apply to any simulated population and extend to new instruments.
 In the worked example, four models generated 28,800 PHQ-8 assessments, and every model failed every level above the gate. % R: corpus_v3_provenance.csv
-Pseudo-models built from survey respondents passed levels 1 and 3 and the level-4 structure rules, and planted failures at those levels were detected.
-Level 2 detected planted distortion but cannot certify a faithful model at survey precision.
+Pseudo-models built from survey respondents passed levels 1 and 3, and every planted failure tripped its own rung while the others passed.
+No sample passed level 2 or level 4 at this design's size, real respondents included.
 A researcher who uses language models to represent a population should therefore run each rung before reporting a claim that the rung supports.
 The code and a receipt for every reported number are public, so the ladder can be run on a new corpus without rebuilding it.

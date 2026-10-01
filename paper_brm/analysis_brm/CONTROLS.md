@@ -76,4 +76,13 @@ Limits:
 
 - The reference half has twice the sampling variance of the audit's full sample. L2 is also read with the reference SE divided by the square root of 2, and 83f simulates the audit's precision directly.
 - A pseudo-model reproduces its donor half, not the population. L2 and L3 calibration therefore carry the donor half's error, and 83e adds it back.
-- R4 (invariance) is not simulated. Its permutation null is already the audit's own calibration (L4.md, section 3).
+- R4 (invariance) is not simulated here. The intermediate panel below reads it.
+
+## Intermediate simulator panel (scripts 88, 88b, 88c)
+
+`intermediate_panel/INTERMEDIATE_PANEL.md` reads seven simulator types built from NHANES respondents through the corpus design (real respondents, independent items, shifted +2.1 and +4.7, income gap doubled, compressed, non-invariant within the low-income group) at every rung, including R4, over 69 replicates (R4 on 24). It supersedes two readings above:
+
+- L1 is read per framing, as the paper's rule states. Real respondents pass both framings in 92.8% of 69 replicates, with the rest unresolved and none failed. The 99.4% above pools framings, a different unit.
+- The level-4 pass is R1, R2 and R4 in both framings. The 200-replicate control above scores R1 to R3. In the panel, real respondents are unresolved on R4 at the .08 margin in 23 of 24 replicates and fail in 1, and the planted non-invariance fails R4 in 24 of 24.
+
+Known issue: `81c_l4_invariance.py` has no zero-variance guard in its start values, so an item with no variance within a group raises a LinAlgError. This killed panel replicate 4 of 70, which is excluded (INTERMEDIATE_PANEL.md, section 7). The audit's own R4 run did not hit it.

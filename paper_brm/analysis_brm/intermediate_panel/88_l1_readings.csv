@@ -1,0 +1,15 @@
+type,verdict,share,misfit_ratio,overfit_ratio
+COMPRESSED,fail: compressed (both tails in deficit),0.8696,0.3297,0.3838
+COMPRESSED,fail: misfit deficit,0.1304,0.3297,0.3838
+NONINVARIANT,undetermined,0.8913,1.4533,0.8365
+NONINVARIANT,pass,0.0942,1.4533,0.8365
+NONINVARIANT,fail: excess misfit,0.0145,1.4533,0.8365
+ORACLE-INDEP,fail: excess misfit and overfit deficit,1.0000,2.6660,0.4430
+REAL,pass,0.9565,1.1567,0.9986
+REAL,undetermined,0.0435,1.1567,0.9986
+SHIFTED-2.1,pass,0.8188,1.1891,1.0138
+SHIFTED-2.1,undetermined,0.1812,1.1891,1.0138
+SHIFTED-4.7,undetermined,0.7246,1.2567,0.9993
+SHIFTED-4.7,pass,0.2754,1.2567,0.9993
+STEEPENED-2x,pass,0.8986,1.1923,1.0002
+STEEPENED-2x,undetermined,0.1014,1.1923,1.0002

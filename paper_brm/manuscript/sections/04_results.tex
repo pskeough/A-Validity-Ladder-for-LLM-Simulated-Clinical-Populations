@@ -113,6 +113,9 @@ In every model the largest residual is in the low-income band. % R: 80c_l3_resul
 
 Against NHANES 2021--2023, with cohabiting adults counted as married in both cycles, every residual falls by 0.9 to 2.1 points and no model passes all ten groups at 2 points. % R: 80d_era_shift_permodel.csv; 80d_model_verdicts_all.csv
 The overall rows of Gemini-3-Flash and GLM-4.7 pass at 2 points against that cycle, so a use that needs only the national level would pass these two models against 2021--2023 and fail them against 2005--2018. % R: 80d_model_verdicts_all.csv
+Across all eight declared reference specifications no model passes all ten groups at 2 points, and the most any model reaches is 8 of 10, for GLM-4.7 against 2021--2023. % R: 80c_l3_results.csv; 89_l3_spec_range.csv
+The overall row passes at 2 points for GLM-4.7 under four specifications, the two persona-string income crosswalks and the 2017--2020 and 2021--2023 periods, and for Gemini-3-Flash under the 2021--2023 period alone. % R: 89_l3_spec_range_summary.csv
+The model-level failure therefore holds under every specification, while an overall-row pass depends on the reference chosen.
 
 The prevalence row does not follow the mean.
 Pooled over models, 13.5\% of simulated respondents score 10 or more against 7.0\% in NHANES. % R: 80d_headline.csv

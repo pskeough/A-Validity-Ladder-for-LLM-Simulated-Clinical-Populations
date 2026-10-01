@@ -1,0 +1,55 @@
+70 replicates, 6 workers, B_L1 400, B_L4 100, R4 on reps < 25 (REAL, NONINVARIANT) and < 5 (others), K_PERM 30, B_R4 100
+[1/70 314s] {'rep': 5, 'gate': 6.4, 'l1': 2.4, 'l2l3': 9.8, 'l4': 290.4, 'total': 308.9}
+<repo>\scripts\81c_l4_invariance.py:191: RuntimeWarning: invalid value encountered in divide
+  lam_c, _, _ = L.one_factor_uls(S / np.outer(sd, sd))
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Python314\Lib\concurrent\futures\process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "<repo>\scripts\88_intermediate_panel.py", line 425, in worker
+    df, tm = run_rep(rep, B1, B4, r4_reps, r4_other)
+             ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>\scripts\88_intermediate_panel.py", line 392, in run_rep
+    r4, steps = r4_eval(g["X"][m], g["persona"][m], pers, [SEED, rep, ti, f])
+                ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>\scripts\88_intermediate_panel.py", line 269, in r4_eval
+    res, fitrow = R4M.analyse("sim", X[keep].astype(float), np.ones(keep.sum()), gidx, len(levels),
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              persona[keep], None, persona[keep], None, rng, (attr, levels))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>\scripts\81c_l4_invariance.py", line 369, in analyse
+    fb = fit_all(momb, prev)
+  File "<repo>\scripts\81c_l4_invariance.py", line 249, in fit_all
+    out[kind] = fit(kind, mom, pv)
+                ~~~^^^^^^^^^^^^^^^
+  File "<repo>\scripts\81c_l4_invariance.py", line 213, in fit
+    x0 = start_values(spec, mom, prev)
+  File "<repo>\scripts\81c_l4_invariance.py", line 191, in start_values
+    lam_c, _, _ = L.one_factor_uls(S / np.outer(sd, sd))
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>\scripts\81_l4_lib.py", line 262, in one_factor_uls
+    vals, vecs = np.linalg.eigh(R)
+                 ~~~~~~~~~~~~~~^^^
+  File "<site-packages>\numpy\linalg\_linalg.py", line 1655, in eigh
+    w, vt = gufunc(a, signature=signature)
+            ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<site-packages>\numpy\linalg\_linalg.py", line 150, in _raise_linalgerror_eigenvalues_nonconvergence
+    raise LinAlgError("Eigenvalues did not converge")
+numpy.linalg.LinAlgError: Eigenvalues did not converge
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<repo>\scripts\88_intermediate_panel.py", line 470, in <module>
+    main()
+    ~~~~^^
+  File "<repo>\scripts\88_intermediate_panel.py", line 461, in main
+    tm = f.result()
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+numpy.linalg.LinAlgError: Eigenvalues did not converge
