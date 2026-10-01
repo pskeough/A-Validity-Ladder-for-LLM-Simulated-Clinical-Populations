@@ -1,0 +1,30 @@
+% Table: gate D-study. Source: analysis_brm/GATE.md Table 1; receipts gate_dstudy.csv,
+% gate_components.csv, gate_bandflip_summary.csv, gate_license_models.csv.
+\begin{table}[tp]
+\centering
+\caption{Gate: Dependability of a Persona Mean of $k$ Draws, PHQ-8 Total}
+\label{tab:gate}
+\small
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}llrrrrrrr@{}}
+\toprule
+ & & \multicolumn{2}{c}{Variance} & & & \multicolumn{2}{c}{$k$ needed} & \\
+\cmidrule(lr){3-4}\cmidrule(lr){7-8}
+Model & Framing & $\sigma^2_p$ & $\sigma^2_r$ & $\phi(1)$ & $\phi(30)$ & Minimum & Recommended & Band flip (\%) \\
+\midrule
+DeepSeek-V3 & Clinical & 2.14 & 2.03 & .51 & .97 & 4 & 9 & 27.0 \\
+ & Narrative & 1.61 & 1.57 & .51 & .97 & 4 & 9 & 22.4 \\
+Gemini-3-Flash & Clinical & 18.74 & 2.17 & .90 & >.99 & 3 & 9 & 31.6 \\
+ & Narrative & 20.69 & 2.27 & .90 & >.99 & 3 & 10 & 28.7 \\
+GPT-4o-mini & Clinical & 1.89 & 3.06 & .38 & .95 & 7 & 15 & 37.3 \\
+ & Narrative & 0.81 & 3.09 & .21 & .89 & 16 & 35 & 39.9 \\
+GLM-4.7 & Clinical & 15.04 & 5.04 & .75 & .99 & 6 & 21 & 44.8 \\
+ & Narrative & 20.16 & 3.55 & .85 & .99 & 4 & 15 & 37.6 \\
+\bottomrule
+\end{tabular}}
+\vspace{4pt}
+\begin{tabnote}
+\textit{Note.} $\sigma^2_p$ = variance between personas; $\sigma^2_r$ = variance between draws of one persona, in squared PHQ-8 points. $\phi(k)$ = dependability of a mean of $k$ draws (Equation~\ref{eq:phi}). Minimum: the smallest $k$ with $\phi(k) \ge .80$ and $\mathrm{SE}(k) \le 1.0$. Recommended: the smallest $k$ with $\phi(k) \ge .90$ and $\mathrm{SE}(k) \le 0.5$. Band flip = probability that two draws of one persona fall in different PHQ-8 severity categories, a description of single-draw labels. Persona-bootstrap intervals for every entry are in Supplement S4.
+\end{tabnote}
+\end{table}

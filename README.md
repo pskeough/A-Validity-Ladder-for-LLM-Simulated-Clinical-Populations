@@ -24,9 +24,9 @@ Results, each with its receipt in the report named above:
 - **Gate.** Persona means are reliable at k = 30 for every model except GPT-4o-mini under the narrative framing (phi .887 against .90). Averaging both framings gives .967.
 - **Level 1.** All four models fail. Three give too few atypical and too few highly regular answer vectors at matched totals. GLM-4.7 shows a misfit deficit only.
 - **Level 2.** Income gaps are steepened in every model: standardised ratios of 1.3 to 8.4 per model and 2.1 to 4.8 pooled. Sex is mixed across models. None of the earlier race verdicts survives. At equal income, sex and marital status the NHANES Black-White and Hispanic-White gaps are small and slightly negative.
-- **Level 3.** Every model is 2.1 to 4.7 PHQ-8 points above NHANES after post-stratification, and none passes at 0.2 SD, 1 point or 2 points.
+- **Level 3.** Every model is 2.1 to 4.7 PHQ-8 points above NHANES after post-stratification, and none passes at 0.2 SD, 1 point or 2 points against 2005-2018. Against 2021-2023, Gemini-3-Flash and GLM-4.7 pass the overall row at 2 points.
 - **Level 4.** No model passes. DeepSeek-V3 and GPT-4o-mini show no general factor. In GLM-4.7 and Gemini-3-Flash the factor comes from differences between personas, and draws of one persona show none. Income fails invariance.
-- **Controls.** A pseudo-model built from NHANES respondents passes every rung. Planted failures are detected at doses well below the distortions the models show. At NHANES precision level 2 can detect a distorted gap but cannot certify a faithful one.
+- **Controls.** A pseudo-model built from NHANES respondents passes levels 1 and 3 and the level-4 structure rules. R4 was not simulated. At levels 3 and 4 and for compression at level 1, the models' real distortions lie beyond the dose at which a planted failure is detected. At level 2, per-model detection needs a threefold gap, and at NHANES precision the level can detect a distorted gap but cannot certify a faithful one.
 
 ## Reproducing
 
@@ -49,7 +49,10 @@ groundtruth/                  published NHANES PHQ-8 group anchors, used as a ch
 analysis/brm/                 every output of scripts 76-83g
 analysis/*.csv, *.jsonl       earlier outputs the scripts reproduce as a check, and the logged
                               generations of the prompt and decoding controls
-scripts/                      the analysis, 00-83g, and run_all.py
+scripts/                      the analysis, 00-83g, and run_all.py; 84-87 build the paper's
+                              figure, worked case, receipt map (Supplement S2) and supplement tables
+paper_brm/manuscript/         the paper and supplement (LaTeX sources and PDFs); a line ending in
+                              "% R: file" names the receipt for the numbers on it
 paper_brm/analysis_brm/       one report per rung, plus the controls
 paper_brm/external/           levels 2 and 3 on two releases by other groups (see below)
 paper_brm/level2_rule/        the comparison of candidate level-2 rules that led to the ratio rule
@@ -57,9 +60,9 @@ paper_brm/level2_rule/        the comparison of candidate level-2 rules that led
 
 ## Provenance
 
-- **Recovery rows.** 1,575 of the 14,400 clinical rows came from recovery scripts run after the main session, with prompts that differ from the main script. They are labelled in `row_source`. Each rung report gives a sensitivity without them. Dropping them changes one level-2 verdict (the standardised pooled sex gap) and no other.
+- **Recovery rows.** 1,575 of the 14,400 clinical rows are not the December run's own output. 1,532 came from recovery runs after the main session: 187 used a known recovery prompt, and the prompt of the other 1,345 cannot be established (paper Section 3 and Supplement S1). The other 43 are the restored rows below. All 1,575 are labelled in `row_source`. Each rung report gives a sensitivity without them. Dropping them changes one level-2 verdict (the standardised pooled sex gap) and no other.
 - **Restored rows.** 43 GPT-4o-mini rows from the original 28 Dec 2025 run had been overwritten in v2. v3 restores them from the original output file.
-- **No preregistration.** Nothing in this project was preregistered. `analysis/prompt_control_design.json` and `analysis/decoding_control_design.json` were written before those runs and were not registered anywhere.
+- **No public registration.** No analysis was registered with a public registry. `analysis/prompt_control_design.json`, `analysis/decoding_control_design.json` and the dated `analysis/decoding_control_preregistration.json` were written before those runs and were not registered anywhere.
 - **Prompt control.** The "orig" arm of the prompt control asks for 20 PCL-5 items where the original script asked for 4 (`analysis/brm/l2_prompt_control_receipts.csv`).
 - **External data.** `paper_brm/external` runs levels 2 and 3 on Meister, Guestrin & Hashimoto (2024, OpinionQA; arXiv:2411.05403, repository commit 36869b5) and Argyle et al. (2023, Study 3; Harvard Dataverse doi:10.7910/DVN/JPV20K). Their raw files are not redistributed here. The results files are included, and the level-2 verdicts under the current rule are in `analysis/brm/l2_external_r3*.csv` (script 78e).
 

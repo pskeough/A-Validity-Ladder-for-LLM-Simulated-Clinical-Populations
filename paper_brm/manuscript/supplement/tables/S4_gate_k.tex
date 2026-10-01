@@ -1,0 +1,43 @@
+% Written by scripts/87_supplement_tables.py. Do not edit by hand.
+% Receipts: analysis/brm/gate_dstudy.csv; analysis/brm/gate_license_models.csv
+\begingroup
+\singlespacing
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{llllllllrr}
+\caption{Gate: Draws Needed per Persona With Persona-Bootstrap Intervals}\label{tab:s4gatek}\\
+\toprule
+ & & & \multicolumn{2}{c}{Dependability} & \multicolumn{2}{c}{Standard error} & & \multicolumn{2}{c}{Rule} \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){9-10}Outcome & Model & Framing & $\phi \ge .80$ & $\phi \ge .90$ & SE $\le 1$ & SE $\le 0.5$ & & Min. & Rec. \\
+\midrule
+\endfirsthead
+\multicolumn{10}{@{}l}{\textit{Table \thetable, continued}} \\
+\toprule
+ & & & \multicolumn{2}{c}{Dependability} & \multicolumn{2}{c}{Standard error} & & \multicolumn{2}{c}{Rule} \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){9-10}Outcome & Model & Framing & $\phi \ge .80$ & $\phi \ge .90$ & SE $\le 1$ & SE $\le 0.5$ & & Min. & Rec. \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+PHQ-8 total & DeepSeek-V3 & Clinical & 4 [4, 5] & 9 [7, 12] & 3 [2, 3] & 9 [8, 10] & 4 & 9 \\
+ & DeepSeek-V3 & Narrative & 4 [4, 6] & 9 [8, 12] & 2 [2, 2] & 7 [6, 8] & 4 & 9 \\
+ & Gemini-3-Flash & Clinical & 1 [1, 1] & 2 [1, 2] & 3 [2, 3] & 9 [8, 10] & 3 & 9 \\
+ & Gemini-3-Flash & Narrative & 1 [1, 1] & 1 [1, 2] & 3 [3, 3] & 10 [9, 11] & 3 & 10 \\
+ & GPT-4o-mini & Clinical & 7 [6, 9] & 15 [13, 19] & 4 [3, 4] & 13 [12, 14] & 7 & 15 \\
+ & GPT-4o-mini & Narrative & 16 [13, 20] & 35 [29, 45] & 4 [3, 4] & 13 [12, 14] & 16 & 35 \\
+ & GLM-4.7 & Clinical & 2 [2, 2] & 4 [3, 4] & 6 [5, 6] & 21 [19, 23] & 6 & 21 \\
+ & GLM-4.7 & Narrative & 1 [1, 1] & 2 [2, 3] & 4 [4, 4] & 15 [13, 16] & 4 & 15 \\
+\midrule
+PHQ-8 $\ge$ 10 & DeepSeek-V3 & Clinical & 6 [5, 8] & 13 [10, 17] & 12 [10, 13] & 45 [39, 52] & 12 & 45 \\
+ & DeepSeek-V3 & Narrative & 10 [8, 14] & 22 [16, 32] & 9 [7, 11] & 34 [28, 41] & 10 & 34 \\
+ & Gemini-3-Flash & Clinical & 2 [1, 2] & 4 [3, 5] & 7 [5, 9] & 26 [20, 33] & 7 & 26 \\
+ & Gemini-3-Flash & Narrative & 2 [1, 2] & 3 [2, 4] & 6 [4, 7] & 21 [16, 28] & 6 & 21 \\
+ & GPT-4o-mini & Clinical & 12 [10, 16] & 27 [22, 34] & 16 [14, 17] & 63 [56, 68] & 16 & 63 \\
+ & GPT-4o-mini & Narrative & 30 [24, 40] & 67 [54, 90] & 18 [17, 20] & 71 [66, 77] & 30 & 71 \\
+ & GLM-4.7 & Clinical & 3 [3, 4] & 7 [5, 9] & 10 [9, 12] & 39 [33, 47] & 10 & 39 \\
+ & GLM-4.7 & Narrative & 2 [2, 3] & 4 [3, 6] & 8 [6, 9] & 29 [22, 36] & 8 & 29 \\
+\end{longtable}
+\vspace{-6pt}
+\noindent\textit{Note.} Brackets: 95\% persona-bootstrap intervals for $k$. Standard-error tolerances are in PHQ-8 points for the total and are applied on the same scale to the indicator as stored in \texttt{gate\_dstudy.csv}. Min.\ = larger of the first and third columns; Rec.\ = larger of the second and fourth; both checked against \texttt{gate\_license\_models.csv}.
+\par
+\endgroup

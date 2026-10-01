@@ -1,0 +1,37 @@
+% Section 1. Introduction.
+% Rule: at most one number per sentence. Positioning from REWRITE_PLAN_2026-09-24 section 4.
+% Patrick-owned: the claim sentence and the framing paragraph marked below.
+
+Large language models (LLMs) prompted with a demographic description will answer a survey as that person might.
+Researchers have used such answers as \emph{silicon samples} to reproduce vote choice and opinion by group \citep{argyle2023outofone,santurkar2023whose}, to replicate classic experiments \citep{park2024diminished}, and to pilot instruments before fielding them \citep{lin2026simulators}.
+For behavioral research, a simulated sample costs little, reaches groups that are hard to recruit, and can be rerun at will.
+
+Each of these uses assumes that the simulated sample stands in for a real one in some respect.
+How well that assumption is checked varies.
+An audit of LLM studies across eight social science journals found validation practice ``inconsistent and limited'' \citep{desai2026validating}.
+\citet{park2024diminished} found GPT-3.5 answering with almost no variation where people vary, and \citet{bisbee2024synthetic} found synthetic opinion distributions narrower than the survey distributions they imitate.
+\citet{lin2026workflow} set out a workflow in which the validity a study needs rises with the claim it makes, and \citet{lin2026simulators} list strategies for validating simulated participants against human data.
+What these sources do not supply is a fixed set of tests, run in a stated order, each with a pass rule and a population reference, that a researcher can apply to one model and report.
+
+One persona from the corpus analysed here shows the problem.
+Prompted as a single Black woman on Medicaid with a household income under \$35,000, GPT-4o-mini returns a PHQ-8 total of 8 on its first clinical draw. % R: 85_worked_case.csv
+That answer is internally consistent and sits in the mild band.
+The same prompt run thirty times averages 10.3, above the usual screening cut point. % R: 85_worked_case.csv
+Adults in the national survey who share her race, sex, income band and marital status average 4.7. % R: 85_worked_case.csv
+Reading her answers one at a time would not reveal that the simulated population she belongs to sits well above the real one.
+
+A simulated sample supports only the uses whose matching validity checks it has passed.
+Checking individual answers covers one of those uses at most, and a researcher who wants group gaps, population levels or item structure from the sample needs a separate test of each against people who answered the same instrument.
+
+This paper gives the protocol, which we call the validity ladder (Figure~\ref{fig:ladder}).
+A gate measures how many repeated draws a persona needs before its score is dependable.
+Four rungs then ask whether a single draw is an answer pattern a person could give (level 1), whether gaps between groups match the population's (level 2), whether the level matches (level 3), and whether the items relate to each other as they do in people (level 4).
+Each rung is stated as a question, a statistic, a pass rule, and the use that a pass supports.
+The ladder is read per model, and it records a stop wherever the population reference cannot support a verdict.
+The ladder makes concrete one of the uses in \citeauthor{lin2026workflow}'s (\citeyear{lin2026workflow}) workflow, the LLM as a simulated population.
+
+We demonstrate the ladder on 28,800 PHQ-8 assessments from four models, against the National Health and Nutrition Examination Survey (NHANES). % R: corpus_v3_provenance.csv
+We then show that real people pass every rung when run through the same design, and that each rung detects planted failures of known size.
+Finally, we apply levels 2 and 3 to two silicon-sample datasets released by other authors \citep{meister2025distributional,argyle2023outofone}.
+The corpus was first reported in an earlier preprint \citep{keough2026plausible}.
+This paper contributes the protocol, the rebuilt analyses at every rung, the controls, and the external demonstration.

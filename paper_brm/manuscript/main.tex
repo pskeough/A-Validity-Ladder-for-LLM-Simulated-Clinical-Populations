@@ -1,0 +1,67 @@
+% Validity Ladder, Behavior Research Methods submission draft.
+% Build: tectonic -X compile main.tex   (BibTeX runs automatically; apacite in natbibapa mode)
+%
+% Conventions used in the source (read before editing):
+%   - One sentence per line.
+%   - A line that carries a number ends with "% R: file.csv[; file.csv]" naming the receipt in
+%     analysis/brm/ (or analysis_brm/*.md where noted). scripts/86_receipts.py parses these tags
+%     into the receipts table (supplement S2) and checks each number against its file.
+%   - \PATRICK{...} marks text only Patrick writes (gate rule 9: the claim, section points,
+%     Discussion interpretations, conclusion). It prints as a red bracket so it cannot ship by accident.
+%   - \CHECK{...} marks a fact still to confirm before submission.
+\documentclass[man,12pt,floatsintext,natbib]{apa7}
+\usepackage[natbibapa]{apacite}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{catchfile}
+% The abstract is read into a macro: apa7 cannot take \input inside \abstract.
+\CatchFileDef{\abstracttext}{sections/00_abstract.tex}{}
+\graphicspath{{figures/}}
+
+\newcommand{\PATRICK}[1]{\textcolor{red}{\textbf{[PATRICK:} #1\textbf{]}}}
+\newcommand{\CHECK}[1]{\textcolor{orange}{\textbf{[CHECK:} #1\textbf{]}}}
+% Verdict words at level 2 are the rule's output; set them in small caps so they read as labels.
+\newcommand{\vd}[1]{\textsc{#1}}
+% Table notes as an environment (apa7's \tablenote is a one-argument command that needs threeparttable).
+\newenvironment{tabnote}{\par\vspace{2pt}\small\raggedright}{\par}
+
+\title{A Validity Ladder for LLM-Simulated Populations}
+\shorttitle{Validity Ladder for Simulated Populations}
+\authorsnames{Patrick Keough}
+\authorsaffiliations{Independent researcher}
+\leftheader{Keough}
+\authornote{
+  % ORCID: paste the real iD and uncomment the next line.
+  % \addORCIDlink{Patrick Keough}{0000-0000-0000-0000}
+
+  Data, code and every receipt file are at
+  \url{https://github.com/pskeough/A-Validity-Ladder-for-LLM-Simulated-Clinical-Populations}.
+
+  Correspondence concerning this article should be addressed to Patrick Keough, Email: pskeough@gmail.com
+}
+
+\abstract{\abstracttext}
+\keywords{silicon samples, large language models, simulated participants, validity, measurement invariance, PHQ-8, NHANES}
+
+\begin{document}
+% apacite prints APA 6 "doi:" and "Retrieved from" forms; these give APA 7 output.
+\renewcommand{\doiprefix}{https://doi.org/\ignorespaces}
+\renewcommand{\BRetrievedFrom}{}
+\maketitle
+
+\input{sections/01_introduction}
+\input{sections/02_ladder}
+\input{sections/03_data}
+\input{sections/04_results}
+\input{sections/05_controls}
+\input{sections/06_external}
+\input{sections/07_discussion}
+\input{sections/08_limitations}
+\input{sections/09_declarations}
+
+\bibliography{refs}
+
+\end{document}

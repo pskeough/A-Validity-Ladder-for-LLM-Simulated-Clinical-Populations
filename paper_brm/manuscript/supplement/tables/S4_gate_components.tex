@@ -1,0 +1,41 @@
+% Written by scripts/87_supplement_tables.py. Do not edit by hand.
+% Receipts: analysis/brm/gate_dstudy.csv
+\begingroup
+\singlespacing
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{lll>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{2.4cm}}
+\caption{Gate: Variance Components and Dependability With Persona-Bootstrap Intervals}\label{tab:s4gatecomp}\\
+\toprule
+Outcome & Model & Framing & $\sigma^2_p$ & $\sigma^2_r$ & $\phi(1)$ & $\phi(30)$ \\
+\midrule
+\endfirsthead
+\multicolumn{7}{@{}l}{\textit{Table \thetable, continued}} \\
+\toprule
+Outcome & Model & Framing & $\sigma^2_p$ & $\sigma^2_r$ & $\phi(1)$ & $\phi(30)$ \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+PHQ-8 total & DeepSeek-V3 & Clinical & 2.14 [1.58, 2.71] & 2.03 [1.78, 2.28] & .513 [.449, .563] & .969 [.961, .975] \\
+ & DeepSeek-V3 & Narrative & 1.61 [1.16, 2.09] & 1.57 [1.39, 1.78] & .505 [.439, .561] & .968 [.959, .975] \\
+ & Gemini-3-Flash & Clinical & 18.74 [15.78, 21.32] & 2.17 [1.90, 2.42] & .896 [.870, .916] & .996 [.995, .997] \\
+ & Gemini-3-Flash & Narrative & 20.69 [17.78, 23.42] & 2.27 [2.02, 2.54] & .901 [.877, .919] & .996 [.995, .997] \\
+ & GPT-4o-mini & Clinical & 1.89 [1.51, 2.23] & 3.06 [2.85, 3.27] & .382 [.332, .419] & .949 [.937, .956] \\
+ & GPT-4o-mini & Narrative & 0.81 [0.62, 0.98] & 3.08 [2.88, 3.32] & .207 [.168, .243] & .887 [.858, .906] \\
+ & GLM-4.7 & Clinical & 15.04 [12.10, 17.66] & 5.04 [4.56, 5.53] & .749 [.697, .787] & .989 [.986, .991] \\
+ & GLM-4.7 & Narrative & 20.16 [16.68, 23.27] & 3.55 [3.25, 3.88] & .850 [.814, .874] & .994 [.992, .995] \\
+\midrule
+PHQ-8 $\ge$ 10 & DeepSeek-V3 & Clinical & 0.08 [0.06, 0.10] & 0.11 [0.10, 0.13] & .426 [.349, .499] & .957 [.941, .968] \\
+ & DeepSeek-V3 & Narrative & 0.04 [0.02, 0.05] & 0.08 [0.07, 0.10] & .294 [.224, .360] & .926 [.897, .944] \\
+ & Gemini-3-Flash & Clinical & 0.19 [0.17, 0.20] & 0.06 [0.05, 0.08] & .745 [.677, .802] & .989 [.984, .992] \\
+ & Gemini-3-Flash & Narrative & 0.20 [0.18, 0.21] & 0.05 [0.04, 0.07] & .792 [.730, .845] & .991 [.988, .994] \\
+ & GPT-4o-mini & Clinical & 0.05 [0.04, 0.06] & 0.16 [0.14, 0.17] & .252 [.210, .291] & .910 [.889, .925] \\
+ & GPT-4o-mini & Narrative & 0.02 [0.02, 0.03] & 0.18 [0.16, 0.19] & .119 [.092, .143] & .801 [.752, .834] \\
+ & GLM-4.7 & Clinical & 0.14 [0.12, 0.15] & 0.10 [0.08, 0.12] & .584 [.507, .652] & .977 [.969, .983] \\
+ & GLM-4.7 & Narrative & 0.16 [0.14, 0.18] & 0.07 [0.05, 0.09] & .698 [.620, .765] & .986 [.980, .990] \\
+\end{longtable}
+\vspace{-6pt}
+\noindent\textit{Note.} Brackets: 95\% persona-bootstrap intervals. $\sigma^2_p$ = variance between personas, $\sigma^2_r$ = variance between draws of one persona (squared PHQ-8 points for the total, squared proportion for the indicator). $\phi$ from the nested design.
+\par
+\endgroup

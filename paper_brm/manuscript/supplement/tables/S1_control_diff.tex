@@ -1,0 +1,42 @@
+% Written by scripts/87_supplement_tables.py. Do not edit by hand.
+% Receipts: analysis/prompt_control_design.json; scripts/55_decoding_control_run.py; ../original_generation_2025-12-31/main.py
+\begingroup
+\singlespacing
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{>{\raggedright\arraybackslash}p{2.6cm}r>{\raggedright\arraybackslash}p{5.9cm}>{\raggedright\arraybackslash}p{5.9cm}}
+\caption{Lines of the Control System Prompts That Differ From the Corpus System Prompt}\label{tab:s1diff}\\
+\toprule
+Control prompt & Line & Corpus prompt & Control prompt \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\textit{Table \thetable, continued}} \\
+\toprule
+Control prompt & Line & Corpus prompt & Control prompt \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Prompt control, \texttt{orig} & 16 & \texttt{  "PCL5": [int, int...] // 4 items, 0-4 scale} & \texttt{  "PCL5": [int, int...] // 20 items, 0-4 scale} \\
+\midrule
+Prompt control, \texttt{no\_pop} & 7 & \texttt{2. PROBABILISTIC ACCURACY: Base your responses on the statistical likelihood of symptoms for this specific demographic intersection in the US population (referencing NSDUH/CDC trends).} & \texttt{2. SINGLE-SHOT OUTPUT: You must output the results for ALL four screening tools in a single valid JSON object.} \\
+ & 8 & \texttt{3. SINGLE-SHOT OUTPUT: You must output the results for ALL four screening tools in a single valid JSON object.} & \texttt{3. NUMERIC ONLY: Do not generate text explanations. Return integers.} \\
+ & 9 & \texttt{4. NUMERIC ONLY: Do not generate text explanations. Return integers.} & (absent) \\
+ & 16 & \texttt{  "PCL5": [int, int...] // 4 items, 0-4 scale} & \texttt{  "PCL5": [int, int...] // 20 items, 0-4 scale} \\
+\midrule
+Prompt control, \texttt{first\_person} & 1 & \texttt{ROLE:} & \texttt{You are the person described in the profile below.} \\
+ & 2 & \texttt{You are a Clinical Simulation Engine designed for a synthetic data study.} & \texttt{Answer the four screening questionnaires as that person, about yourself.} \\
+ & 3 & \texttt{Your task is to generate PROBABILISTIC responses for a "Standardized Patient" based on a provided demographic profile.} & (absent) \\
+ & 5 & \texttt{OPERATIONAL CONSTRAINTS (STRICT):} & \texttt{CONSTRAINTS (STRICT):} \\
+ & 6 & \texttt{1. NO MORALIZING: Do not offer help, advice, or disclaimers. You are simulating data, not treating a patient.} & \texttt{1. NO MORALIZING: Do not offer help, advice, or disclaimers.} \\
+ & 7 & \texttt{2. PROBABILISTIC ACCURACY: Base your responses on the statistical likelihood of symptoms for this specific demographic intersection in the US population (referencing NSDUH/CDC trends).} & \texttt{2. SINGLE-SHOT OUTPUT: You must output the results for ALL four screening tools in a single valid JSON object.} \\
+ & 8 & \texttt{3. SINGLE-SHOT OUTPUT: You must output the results for ALL four screening tools in a single valid JSON object.} & \texttt{3. NUMERIC ONLY: Do not generate text explanations. Return integers.} \\
+ & 9 & \texttt{4. NUMERIC ONLY: Do not generate text explanations. Return integers.} & (absent) \\
+ & 16 & \texttt{  "PCL5": [int, int...] // 4 items, 0-4 scale} & \texttt{  "PCL5": [int, int...] // 20 items, 0-4 scale} \\
+\midrule
+Decoding control (both arms) & 16 & \texttt{  "PCL5": [int, int...] // 4 items, 0-4 scale} & \texttt{  "PCL5": [int, int...] // 20 items, 0-4 scale} \\
+\end{longtable}
+\vspace{-6pt}
+\noindent\textit{Note.} Line numbers count lines of the corpus system prompt (S1.1). Lines not listed are identical. Computed with Python \texttt{difflib} on the prompt strings.
+\par
+\endgroup

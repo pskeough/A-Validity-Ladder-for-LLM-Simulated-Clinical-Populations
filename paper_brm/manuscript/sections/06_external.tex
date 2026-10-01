@@ -1,0 +1,26 @@
+% Section 6. External demonstration. Source: analysis_brm/L2.md section 5 (script 78e), which
+% supersedes the level-2 part of external/RESULTS.md. External level 3 goes to the supplement as
+% an illustration (ledger L43, recommended; Patrick to confirm), because its tolerances are placeholders.
+
+\section{External Demonstration}
+\label{sec:external}
+
+We applied level 2, with the same rule, multiplicity control and stops, to two silicon-sample datasets released by other authors.
+Neither dataset has repeated draws of one persona with a fixed prompt, so the gate and level 1 cannot run, and the ladder records those stops.
+
+\paragraph{OpinionQA.}
+\citet{meister2025distributional} released model opinion distributions steered toward demographic groups, alongside the Pew American Trends Panel distributions for the same questions \citep{santurkar2023whose}.
+Both sides are crude group differences, so the reference is marginal.
+Each model, steering method and attribute is one family.
+The 154 group contrasts that the earlier version of this protocol had read as 51 kept and 85 missing become, under the ladder's rule, 89 undetermined, 29 attenuated or kept, 17 missing or attenuated, 12 kept or steepened, 5 reversed or missing, 1 kept and 1 steepened. % R: l2_external_r3_summary.csv; l2_external_r3.csv; analysis_brm/L2.md
+Most of the earlier ``missing'' readings become undetermined (48) or two-region verdicts (37), because their intervals span more than one region. % R: l2_external_r3_receipts.csv
+
+\paragraph{Argyle et al.\ Study 3.}
+\citet{argyle2023outofone} released GPT-3 answers conditioned on the backstories of real American National Election Studies respondents, so the simulated and human gaps are computed on the same people.
+This removes the question of marginal against standardised reference and makes it the cleanest level-2 case available.
+In the main run, 23 of 61 contrasts record no population gap and 12 record a reference too imprecise to read. % R: l2_external_r3.csv; analysis_brm/L2.md
+The two Republican--Democrat contrasts on ideology and on the Trump two-party vote share are kept (both 0.92). % R: l2_external_r3.csv
+The Black--White gap in Trump vote share is attenuated (0.53), as is the Republican--Democrat gap in Trump's share among all voters (0.60). % R: l2_external_r3.csv
+Black--White and Republican--Democrat differences in patriotism are missing. % R: l2_external_r3.csv
+The two kept verdicts show that the rule awards kept when the reference is as precise as it is for these partisan contrasts.
+Level 3 for both datasets is in Supplement S6, as an illustration, because it depends on use tolerances that the original authors did not state.

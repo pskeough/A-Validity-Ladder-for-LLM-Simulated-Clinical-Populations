@@ -1,0 +1,31 @@
+% Written by scripts/87_supplement_tables.py. Do not edit by hand.
+% Receipts: analysis/brm/80c_l3_results.csv; analysis/brm/80d_december_summary.csv
+\begingroup
+\singlespacing
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{lrrrrrcc}
+\caption{Level 3 on the Full Corpus and on December Rows Only}\label{tab:s3decl3}\\
+\toprule
+ & \multicolumn{2}{c}{Overall residual} & \multicolumn{2}{c}{Group residuals, range} & Largest & \multicolumn{2}{c}{All groups pass at 2 points} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){7-8}Model & Full & Dec. & Full & Dec. & change & Full & Dec. \\
+\midrule
+\endfirsthead
+\multicolumn{8}{@{}l}{\textit{Table \thetable, continued}} \\
+\toprule
+ & \multicolumn{2}{c}{Overall residual} & \multicolumn{2}{c}{Group residuals, range} & Largest & \multicolumn{2}{c}{All groups pass at 2 points} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){7-8}Model & Full & Dec. & Full & Dec. & change & Full & Dec. \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+DeepSeek-V3 & 4.58 & 4.55 & 4.06 to 5.13 & 4.06 to 5.10 & 0.25 & No & No \\
+Gemini-3-Flash & 2.59 & 2.59 & 1.33 to 7.37 & 1.33 to 7.37 & 0.00 & No & No \\
+GPT-4o-mini & 4.68 & 4.68 & 4.23 to 5.32 & 4.23 to 5.32 & 0.00 & No & No \\
+GLM-4.7 & 2.12 & 2.15 & 0.66 to 6.40 & 0.67 to 6.41 & 0.75 & No & No \\
+Pooled & 3.49 & 3.50 & 2.59 to 6.05 & 2.61 to 6.07 & 0.15 & No & No \\
+\end{longtable}
+\vspace{-6pt}
+\noindent\textit{Note.} Specification S1, post-stratified estimand, framings combined, PHQ-8 mean in points. Largest change = largest absolute change in a group residual across the ten groups.
+\par
+\endgroup

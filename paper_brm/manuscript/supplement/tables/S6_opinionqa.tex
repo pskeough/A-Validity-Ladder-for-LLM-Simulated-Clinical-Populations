@@ -1,0 +1,50 @@
+% Written by scripts/87_supplement_tables.py. Do not edit by hand.
+% Receipts: paper_brm/external/results/opinionqa/level3_groups.csv
+\begingroup
+\singlespacing
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{2.2cm}lr>{\raggedright\arraybackslash}p{2.3cm}>{\raggedleft\arraybackslash}p{1.3cm}>{\raggedleft\arraybackslash}p{1.2cm}>{\raggedleft\arraybackslash}p{1.1cm}>{\raggedleft\arraybackslash}p{1.2cm}}
+\caption{External Level 3 Illustration: OpinionQA Steered Distributions Against Pew}\label{tab:s6oqa}\\
+\toprule
+Method & Model & Steering & Groups & Plurality match, median (range) & Human resample & Within strict & Mean $|R|$ & Groups passing \\
+\midrule
+\endfirsthead
+\multicolumn{9}{@{}l}{\textit{Table \thetable, continued}} \\
+\toprule
+Method & Model & Steering & Groups & Plurality match, median (range) & Human resample & Within strict & Mean $|R|$ & Groups passing \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+express\_\allowbreak{}distribution & anthropic\_\allowbreak{}haiku & few-shot & 14 & 57.1 (47.9--66.3) & 94.3 & 16.8 & 0.10 & 0 \\
+express\_\allowbreak{}distribution & anthropic\_\allowbreak{}haiku & persona & 14 & 60.2 (36.6--62.7) & 94.3 & 13.8 & 0.12 & 0 \\
+express\_\allowbreak{}distribution & anthropic\_\allowbreak{}opus & few-shot & 14 & 66.3 (61.8--78.6) & 94.3 & 18.5 & 0.08 & 0 \\
+express\_\allowbreak{}distribution & anthropic\_\allowbreak{}opus & persona & 14 & 67.0 (45.6--79.7) & 94.5 & 20.3 & 0.09 & 0 \\
+express\_\allowbreak{}distribution & gpt-\allowbreak{}3.5-\allowbreak{}turbo-\allowbreak{}0125 & few-shot & 14 & 46.2 (39.8--52.0) & 94.3 & 10.3 & 0.16 & 0 \\
+express\_\allowbreak{}distribution & gpt-\allowbreak{}3.5-\allowbreak{}turbo-\allowbreak{}0125 & persona & 14 & 46.6 (26.5--51.6) & 94.7 & 12.8 & 0.13 & 0 \\
+express\_\allowbreak{}distribution & gpt-\allowbreak{}4 & few-shot & 14 & 60.5 (54.1--68.4) & 94.3 & 18.9 & 0.09 & 0 \\
+express\_\allowbreak{}distribution & gpt-\allowbreak{}4 & persona & 14 & 63.0 (52.8--74.5) & 94.3 & 15.3 & 0.09 & 0 \\
+express\_\allowbreak{}distribution & llama3-\allowbreak{}70b & few-shot & 6 & 58.2 (56.1--66.3) & 96.2 & 14.3 & 0.11 & 0 \\
+express\_\allowbreak{}distribution & llama3-\allowbreak{}70b & persona & 6 & 57.7 (50.0--63.3) & 96.2 & 11.7 & 0.11 & 0 \\
+model\_\allowbreak{}logprobs & gpt-\allowbreak{}3.5-\allowbreak{}turbo-\allowbreak{}0125 & few-shot & 14 & 46.0 (40.2--50.0) & 94.3 & 5.1 & 0.23 & 0 \\
+model\_\allowbreak{}logprobs & gpt-\allowbreak{}3.5-\allowbreak{}turbo-\allowbreak{}0125 & persona & 14 & 45.4 (39.8--54.1) & 94.3 & 12.3 & 0.16 & 0 \\
+model\_\allowbreak{}logprobs & gpt-\allowbreak{}4 & few-shot & 14 & 66.0 (57.7--73.5) & 94.3 & 6.7 & 0.20 & 0 \\
+model\_\allowbreak{}logprobs & gpt-\allowbreak{}4 & persona & 14 & 60.5 (43.7--69.4) & 94.3 & 4.6 & 0.24 & 0 \\
+model\_\allowbreak{}logprobs & llama3-\allowbreak{}70b & few-shot & 6 & 60.2 (54.6--63.3) & 95.3 & 6.1 & 0.19 & 0 \\
+model\_\allowbreak{}logprobs & llama3-\allowbreak{}70b & persona & 6 & 62.2 (52.0--69.4) & 95.3 & 3.6 & 0.22 & 0 \\
+sequence & anthropic\_\allowbreak{}haiku & few-shot & 8 & 54.1 (47.4--59.2) & 94.3 & 11.3 & 0.12 & 0 \\
+sequence & anthropic\_\allowbreak{}haiku & persona & 8 & 49.0 (36.7--55.1) & 94.3 & 11.2 & 0.13 & 0 \\
+sequence & anthropic\_\allowbreak{}opus & few-shot & 8 & 64.8 (58.2--74.5) & 94.3 & 10.7 & 0.12 & 0 \\
+sequence & anthropic\_\allowbreak{}opus & persona & 8 & 58.2 (48.0--66.3) & 94.3 & 11.3 & 0.13 & 0 \\
+sequence & gpt-\allowbreak{}3.5-\allowbreak{}turbo-\allowbreak{}0125 & few-shot & 8 & 45.4 (41.8--50.0) & 94.3 & 11.3 & 0.16 & 0 \\
+sequence & gpt-\allowbreak{}3.5-\allowbreak{}turbo-\allowbreak{}0125 & persona & 8 & 34.2 (25.5--40.8) & 94.3 & 6.7 & 0.16 & 0 \\
+sequence & gpt-\allowbreak{}4 & few-shot & 8 & 60.2 (56.7--68.4) & 94.3 & 15.8 & 0.10 & 0 \\
+sequence & gpt-\allowbreak{}4 & persona & 8 & 55.1 (49.5--60.2) & 94.3 & 13.8 & 0.11 & 0 \\
+sequence & llama3-\allowbreak{}70b & few-shot & 6 & 58.2 (51.0--66.3) & 95.3 & 9.7 & 0.16 & 0 \\
+sequence & llama3-\allowbreak{}70b & persona & 6 & 58.7 (56.7--63.3) & 95.3 & 7.1 & 0.16 & 0 \\
+\end{longtable}
+\vspace{-6pt}
+\noindent\textit{Note.} Shares in percent, medians over groups. Plurality match = share of questions on which the model's plurality answer equals the Pew plurality answer. Human resample = the same share for a fresh Pew sample of the same size. Within strict = share of questions whose residual lies inside the human group's own 95\% sampling half-width. Mean $|R|$ = mean absolute residual as a share of the scale range. Groups passing = groups whose plurality match is at least 90\%, the placeholder use tolerance.
+\par
+\endgroup

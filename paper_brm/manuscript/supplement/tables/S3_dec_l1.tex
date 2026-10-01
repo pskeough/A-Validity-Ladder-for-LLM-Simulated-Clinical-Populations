@@ -1,0 +1,41 @@
+% Written by scripts/87_supplement_tables.py. Do not edit by hand.
+% Receipts: analysis/brm/l1_personfit_main.csv
+\begingroup
+\singlespacing
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{llrrrr>{\raggedright\arraybackslash}p{2.8cm}>{\raggedright\arraybackslash}p{2.8cm}}
+\caption{Level 1 on the Full Corpus and on December Rows Only}\label{tab:s3decl1}\\
+\toprule
+ & & \multicolumn{2}{c}{Misfit ratio} & \multicolumn{2}{c}{Overfit ratio} & &  \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}Model & Framing & Full & Dec. & Full & Dec. & Verdict, full & Verdict, Dec. \\
+\midrule
+\endfirsthead
+\multicolumn{8}{@{}l}{\textit{Table \thetable, continued}} \\
+\toprule
+ & & \multicolumn{2}{c}{Misfit ratio} & \multicolumn{2}{c}{Overfit ratio} & &  \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}Model & Framing & Full & Dec. & Full & Dec. & Verdict, full & Verdict, Dec. \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+DeepSeek-V3 & Both & 0.05 & 0.05 & 0.00 & 0.00 & compressed & compressed \\
+DeepSeek-V3 & Clinical & 0.07 & 0.07 & 0.00 & 0.00 & compressed & compressed \\
+DeepSeek-V3 & Narrative & 0.03 & 0.03 & 0.00 & 0.00 & compressed & compressed \\
+Gemini-3-Flash & Both & 0.00 & 0.00 & 0.17 & 0.17 & compressed & compressed \\
+Gemini-3-Flash & Clinical & 0.00 & 0.00 & 0.16 & 0.16 & compressed & compressed \\
+Gemini-3-Flash & Narrative & 0.00 & 0.00 & 0.18 & 0.18 & compressed & compressed \\
+GPT-4o-mini & Both & 0.18 & 0.18 & 0.00 & 0.00 & compressed & compressed \\
+GPT-4o-mini & Clinical & 0.20 & 0.20 & 0.00 & 0.00 & compressed & compressed \\
+GPT-4o-mini & Narrative & 0.17 & 0.17 & 0.00 & 0.00 & compressed & compressed \\
+GLM-4.7 & Both & 0.02 & 0.01 & 0.77 & 0.78 & misfit deficit & misfit deficit \\
+GLM-4.7 & Clinical & 0.02 & 0.02 & 0.68 & 0.64 & misfit deficit & misfit deficit \\
+GLM-4.7 & Narrative & 0.01 & 0.01 & 0.87 & 0.87 & misfit deficit & misfit deficit \\
+Pooled & Both & 0.06 & 0.06 & 0.24 & 0.22 & compressed & compressed \\
+Pooled & Clinical & 0.07 & 0.08 & 0.21 & 0.16 & compressed & compressed \\
+Pooled & Narrative & 0.05 & 0.05 & 0.26 & 0.26 & compressed & compressed \\
+\end{longtable}
+\vspace{-6pt}
+\noindent\textit{Note.} Reference: NHANES 2005--2018, weighted graded response model; all personas. Every verdict is a fail; the verdict column gives the failure reading, where compressed means a deficit in both tails.
+\par
+\endgroup

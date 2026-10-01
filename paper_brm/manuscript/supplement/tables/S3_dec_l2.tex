@@ -1,0 +1,109 @@
+% Written by scripts/87_supplement_tables.py. Do not edit by hand.
+% Receipts: analysis/brm/l2_verdicts.csv
+\begingroup
+\singlespacing
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{l>{\raggedright\arraybackslash}p{2.0cm}lr>{\raggedright\arraybackslash}p{2.6cm}r>{\raggedright\arraybackslash}p{2.6cm}c}
+\caption{Level 2 on the Full Corpus and on December Rows Only}\label{tab:s3decl2}\\
+\toprule
+ & & & \multicolumn{2}{c}{Full corpus} & \multicolumn{2}{c}{December only} &  \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}Estimand & Contrast & Model & Ratio & Verdict & Ratio & Verdict & Changed \\
+\midrule
+\endfirsthead
+\multicolumn{8}{@{}l}{\textit{Table \thetable, continued}} \\
+\toprule
+ & & & \multicolumn{2}{c}{Full corpus} & \multicolumn{2}{c}{December only} &  \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}Estimand & Contrast & Model & Ratio & Verdict & Ratio & Verdict & Changed \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Standardised & Black minus White & DeepSeek-V3 & $-$0.75 & undetermined & $-$0.82 & undetermined &  \\
+ &  & Gemini-3-Flash & 1.39 & undetermined & 1.39 & undetermined &  \\
+ &  & GPT-4o-mini & $-$0.76 & reversed or missing & $-$0.76 & reversed or missing &  \\
+ &  & GLM-4.7 & 1.96 & undetermined & 1.96 & undetermined &  \\
+ &  & Pooled & 0.46 & reference too imprecise & 0.44 & reference too imprecise &  \\
+\addlinespace
+ & Hispanic minus White & DeepSeek-V3 & $-$0.95 & no population gap & $-$0.95 & no population gap &  \\
+ &  & Gemini-3-Flash & 0.04 & no population gap & 0.04 & no population gap &  \\
+ &  & GPT-4o-mini & $-$0.77 & no population gap & $-$0.77 & no population gap &  \\
+ &  & GLM-4.7 & 2.42 & no population gap & 3.33 & no population gap &  \\
+ &  & Pooled & 0.19 & no population gap & 0.41 & no population gap &  \\
+\addlinespace
+ & Asian minus White & DeepSeek-V3 & 0.74 & attenuated or kept & 0.74 & attenuated or kept &  \\
+ &  & Gemini-3-Flash & 1.52 & undetermined & 1.52 & undetermined &  \\
+ &  & GPT-4o-mini & 0.42 & undetermined & 0.42 & undetermined &  \\
+ &  & GLM-4.7 & 1.82 & undetermined & 1.82 & undetermined &  \\
+ &  & Pooled & 1.13 & undetermined & 1.13 & undetermined &  \\
+\addlinespace
+ & Women minus Men & DeepSeek-V3 & 0.41 & missing or attenuated & 0.37 & missing or attenuated &  \\
+ &  & Gemini-3-Flash & 1.17 & undetermined & 1.17 & undetermined &  \\
+ &  & GPT-4o-mini & 0.23 & missing or attenuated & 0.23 & missing or attenuated &  \\
+ &  & GLM-4.7 & 2.06 & steepened & 2.00 & steepened &  \\
+ &  & Pooled & 0.97 & undetermined & 0.94 & attenuated or kept & * \\
+\addlinespace
+ & Low minus High SES & DeepSeek-V3 & 1.91 & steepened & 1.94 & steepened &  \\
+ &  & Gemini-3-Flash & 5.07 & steepened & 5.07 & steepened &  \\
+ &  & GPT-4o-mini & 2.16 & steepened & 2.16 & steepened &  \\
+ &  & GLM-4.7 & 5.03 & steepened & 5.14 & steepened &  \\
+ &  & Pooled & 3.54 & steepened & 3.58 & steepened &  \\
+\addlinespace
+ & Middle minus High SES & DeepSeek-V3 & 2.57 & steepened & 2.65 & steepened &  \\
+ &  & Gemini-3-Flash & 1.31 & kept or steepened & 1.31 & kept or steepened &  \\
+ &  & GPT-4o-mini & 2.25 & steepened & 2.25 & steepened &  \\
+ &  & GLM-4.7 & 2.21 & steepened & 2.25 & steepened &  \\
+ &  & Pooled & 2.08 & steepened & 2.11 & steepened &  \\
+\addlinespace
+ & Low minus Middle SES & DeepSeek-V3 & 1.33 & kept or steepened & 1.32 & kept or steepened &  \\
+ &  & Gemini-3-Flash & 8.38 & steepened & 8.38 & steepened &  \\
+ &  & GPT-4o-mini & 2.08 & steepened & 2.08 & steepened &  \\
+ &  & GLM-4.7 & 7.51 & steepened & 7.68 & steepened &  \\
+ &  & Pooled & 4.83 & steepened & 4.86 & steepened &  \\
+\midrule
+Marginal & Black minus White & DeepSeek-V3 & 0.65 & reference too imprecise & 0.71 & reference too imprecise &  \\
+ &  & Gemini-3-Flash & $-$1.20 & undetermined & $-$1.20 & undetermined &  \\
+ &  & GPT-4o-mini & 0.66 & reference too imprecise & 0.66 & reference too imprecise &  \\
+ &  & GLM-4.7 & $-$1.69 & reversed & $-$1.69 & reversed &  \\
+ &  & Pooled & $-$0.40 & reversed or missing & $-$0.38 & reversed or missing &  \\
+\addlinespace
+ & Hispanic minus White & DeepSeek-V3 & 0.72 & reference too imprecise & 0.72 & reference too imprecise &  \\
+ &  & Gemini-3-Flash & $-$0.03 & undetermined & $-$0.03 & undetermined &  \\
+ &  & GPT-4o-mini & 0.58 & reference too imprecise & 0.58 & reference too imprecise &  \\
+ &  & GLM-4.7 & $-$1.83 & reversed or missing & $-$2.52 & reversed or missing &  \\
+ &  & Pooled & $-$0.14 & undetermined & $-$0.31 & undetermined &  \\
+\addlinespace
+ & Asian minus White & DeepSeek-V3 & 0.94 & reference too imprecise & 0.94 & reference too imprecise &  \\
+ &  & Gemini-3-Flash & 1.92 & undetermined & 1.92 & undetermined &  \\
+ &  & GPT-4o-mini & 0.53 & undetermined & 0.53 & undetermined &  \\
+ &  & GLM-4.7 & 2.30 & undetermined & 2.30 & undetermined &  \\
+ &  & Pooled & 1.42 & undetermined & 1.42 & undetermined &  \\
+\addlinespace
+ & Women minus Men & DeepSeek-V3 & 0.37 & missing or attenuated & 0.34 & missing or attenuated &  \\
+ &  & Gemini-3-Flash & 1.05 & undetermined & 1.05 & undetermined &  \\
+ &  & GPT-4o-mini & 0.20 & missing or attenuated & 0.20 & missing or attenuated &  \\
+ &  & GLM-4.7 & 1.84 & steepened & 1.79 & steepened &  \\
+ &  & Pooled & 0.87 & attenuated or kept & 0.85 & attenuated or kept &  \\
+\addlinespace
+ & Low minus High SES & DeepSeek-V3 & 1.23 & kept or steepened & 1.25 & kept or steepened &  \\
+ &  & Gemini-3-Flash & 3.26 & steepened & 3.26 & steepened &  \\
+ &  & GPT-4o-mini & 1.39 & kept or steepened & 1.39 & kept or steepened &  \\
+ &  & GLM-4.7 & 3.23 & steepened & 3.30 & steepened &  \\
+ &  & Pooled & 2.28 & steepened & 2.30 & steepened &  \\
+\addlinespace
+ & Middle minus High SES & DeepSeek-V3 & 1.75 & steepened & 1.81 & steepened &  \\
+ &  & Gemini-3-Flash & 0.89 & attenuated or kept & 0.89 & attenuated or kept &  \\
+ &  & GPT-4o-mini & 1.53 & kept or steepened & 1.53 & kept or steepened &  \\
+ &  & GLM-4.7 & 1.50 & kept or steepened & 1.53 & kept or steepened &  \\
+ &  & Pooled & 1.42 & kept or steepened & 1.44 & kept or steepened &  \\
+\addlinespace
+ & Low minus Middle SES & DeepSeek-V3 & 0.82 & attenuated or kept & 0.80 & attenuated or kept &  \\
+ &  & Gemini-3-Flash & 5.13 & steepened & 5.13 & steepened &  \\
+ &  & GPT-4o-mini & 1.27 & kept or steepened & 1.27 & kept or steepened &  \\
+ &  & GLM-4.7 & 4.60 & steepened & 4.70 & steepened &  \\
+ &  & Pooled & 2.95 & steepened & 2.98 & steepened &  \\
+\end{longtable}
+\vspace{-6pt}
+\noindent\textit{Note.} Rows of \texttt{l2\_verdicts.csv} with analysis \texttt{headline} and \texttt{dec\_only}. Ratio = simulated gap over population gap. * = verdict differs.
+\par
+\endgroup

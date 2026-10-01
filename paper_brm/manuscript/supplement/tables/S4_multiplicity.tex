@@ -1,0 +1,29 @@
+% Written by scripts/87_supplement_tables.py. Do not edit by hand.
+% Receipts: analysis/brm/l2_verdicts.csv; analysis/brm/80c_l3_results.csv; analysis/brm/l1_personfit_main.csv; analysis/brm/l4_summary.csv; analysis/brm/l4_invariance.csv; analysis/brm/gate_dstudy.csv
+\begingroup
+\singlespacing
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{>{\raggedright\arraybackslash}p{1.3cm}>{\raggedright\arraybackslash}p{2.8cm}>{\raggedright\arraybackslash}p{2.9cm}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{4.5cm}}
+\caption{Multiplicity: Family and Procedure at Each Rung}\label{tab:s4mult}\\
+\toprule
+Rung & Claim & Family & Members & Procedure \\
+\midrule
+\endfirsthead
+\multicolumn{5}{@{}l}{\textit{Table \thetable, continued}} \\
+\toprule
+Rung & Claim & Family & Members & Procedure \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Gate & Draws needed per persona & Each model $\times$ framing (4 $\times$ 2) & Estimation of $\phi(k)$ and SE$(k)$; no test & None; persona-bootstrap intervals reported \\
+Level 1 & Person-fit like people's & Each model $\times$ framing & 2 tails: misfit ratio and overfit ratio, each against $[1/\tau, \tau]$, $\tau = 1.5$ & Intersection-union: pass needs both 90\% intervals inside the band; no adjustment \\
+Level 2 & Group gaps like people's & Each model (the pooled row is description) & 7 contrasts & Bonferroni: one-sided $\alpha = .05/7 = .0071$, 98.6\% Fieller intervals \\
+Level 3 & Group levels like people's, at a stated tolerance & Each model $\times$ tolerance & 10 group rows & Intersection-union: pass needs every row's 90\% interval inside the tolerance (two one-sided tests at .05); no adjustment \\
+Level 4 & Structure like people's & Each model & R1, R2 and R4 in each of 2 framings; R4 reads 6 invariance steps & Intersection-union: pass needs every rule in every framing; R4 needs every step to match the reference's verdict; R3 is a diagnostic and not counted \\
+\end{longtable}
+\vspace{-6pt}
+\noindent\textit{Note.} Family sizes, $\tau$, $\alpha$ and the interval level are read from the receipts named in the source comment of this table.
+\par
+\endgroup

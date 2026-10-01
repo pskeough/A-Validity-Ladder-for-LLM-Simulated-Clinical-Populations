@@ -1,0 +1,31 @@
+% Written by scripts/87_supplement_tables.py. Do not edit by hand.
+% Receipts: analysis/brm/80c_l3_results.csv; analysis/brm/80d_era_shift_permodel.csv
+\begingroup
+\singlespacing
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{lrccrccrcc}
+\caption{Level 3 Overall Residual Under Three NHANES Reference Periods}\label{tab:s3l3era}\\
+\toprule
+ & \multicolumn{3}{c}{2005--2018 (S1)} & \multicolumn{3}{c}{2017--2020 (S6)} & \multicolumn{3}{c}{2021--2023 (S7)} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}Model & Overall & Row & All & Overall & Row & All & Overall & Row & All \\
+\midrule
+\endfirsthead
+\multicolumn{10}{@{}l}{\textit{Table \thetable, continued}} \\
+\toprule
+ & \multicolumn{3}{c}{2005--2018 (S1)} & \multicolumn{3}{c}{2017--2020 (S6)} & \multicolumn{3}{c}{2021--2023 (S7)} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}Model & Overall & Row & All & Overall & Row & All & Overall & Row & All \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+DeepSeek-V3 & 4.58 & No & No & 4.30 & No & No & 3.47 & No & No \\
+Gemini-3-Flash & 2.59 & No & No & 2.22 & No & No & 1.36 & Yes & No \\
+GPT-4o-mini & 4.68 & No & No & 4.41 & No & No & 3.57 & No & No \\
+GLM-4.7 & 2.12 & No & No & 1.74 & Yes & No & 0.91 & Yes & No \\
+Pooled & 3.49 & No & No & 3.17 & No & No & 2.33 & No & No \\
+\end{longtable}
+\vspace{-6pt}
+\noindent\textit{Note.} Overall = post-stratified overall residual (simulated minus reference, PHQ-8 points), framings combined. Row = the overall row passes at 2 points. All = all ten group rows pass at 2 points.
+\par
+\endgroup

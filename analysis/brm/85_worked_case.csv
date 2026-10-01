@@ -1,0 +1,43 @@
+quantity,value,se,n,note
+cell_mean_clinical,10.333333333333334,0.44806950747055335,30.0,mean PHQ-8 over the cell's draws
+cell_sd_clinical,2.454177765718516,,30.0,
+cell_min_clinical,7.0,,30.0,
+cell_max_clinical,16.0,,30.0,
+share_ge10_clinical,0.5333333333333333,,30.0,share of draws at or above the screening cut
+modal_band_clinical,1.0,,30.0,"0=0-4, 1=5-9, 2=10-14, 3=15-19, 4=20-24"
+outside_modal_clinical,0.5333333333333333,,30.0,share of draws outside the modal category
+bandflip_clinical,0.6045977011494252,,30.0,P(two distinct draws differ in category)
+first_draw_total_clinical,8.0,,,iteration 1
+cell_mean_narrative,9.666666666666666,0.3263639225798186,30.0,mean PHQ-8 over the cell's draws
+cell_sd_narrative,1.7875688235283629,,30.0,
+cell_min_narrative,7.0,,30.0,
+cell_max_narrative,14.0,,30.0,
+share_ge10_narrative,0.5333333333333333,,30.0,share of draws at or above the screening cut
+modal_band_narrative,2.0,,30.0,"0=0-4, 1=5-9, 2=10-14, 3=15-19, 4=20-24"
+outside_modal_narrative,0.4666666666666667,,30.0,share of draws outside the modal category
+bandflip_narrative,0.5149425287356322,,30.0,P(two distinct draws differ in category)
+first_draw_total_narrative,11.0,,,iteration 1
+cell_mean_combined,10.0,,60.0,average of the two framing means (the level-3 unit)
+l1_below_p5_share,0.0,,60.0,share of her draws below the NHANES within-total 5th percentile of lz*
+l1_above_p95_share,0.0,,60.0,share above the 95th
+l1_mid_pit,0.39808377515376275,,60.0,mean mid-PIT (NHANES = 0.5)
+l1_elevated_draws,32.0,,,draws at 10 or more
+l1_gateway_violations,0.0,,32.0,elevated draws with items 1 and 2 both below 2
+nhanes_mean_low_income_all,4.215058888969527,0.07853273425955598,10663.0,"all adults PIR < 1.3 (the 24 Sep comparator, 4.25)"
+nhanes_ge10_low_income_all,0.1410138822985336,0.00524382956394091,10663.0,"all adults PIR < 1.3 (the 24 Sep comparator, 4.25)"
+nhanes_mean_own_cell,4.693157097916899,0.2173833853959014,1108.0,"Black women, PIR < 1.3, not married (her level-3 cell)"
+nhanes_ge10_own_cell,0.15487843510005103,0.011669681107097795,1108.0,"Black women, PIR < 1.3, not married (her level-3 cell)"
+nhanes_mean_black_women_low,4.754456411434015,0.19408772927620604,1416.0,"Black women, PIR < 1.3, any marital status"
+nhanes_ge10_black_women_low,0.16539382291419713,0.009916927877563684,1416.0,"Black women, PIR < 1.3, any marital status"
+nhanes_mean_medicaid_under35k_all,5.469352896032144,0.1474000701896027,2736.0,"household income under $35,000 and Medicaid, all adults"
+nhanes_ge10_medicaid_under35k_all,0.20842476475349142,0.010132912002461983,2736.0,"household income under $35,000 and Medicaid, all adults"
+nhanes_mean_medicaid_under35k_own_cell,5.503928292271209,0.2604365778304206,500.0,"under $35,000 and Medicaid, Black women, not married"
+nhanes_ge10_medicaid_under35k_own_cell,0.20384733969600746,0.01758194428030327,500.0,"under $35,000 and Medicaid, Black women, not married"
+counterpart_mean_combined_middle,8.483333333333334,,60.0,"P_BLACK_CW_MIDDLE_S, average of the two framing means"
+nhanes_mean_own_stratum_middle,3.693480438857671,0.1746087578875643,915.0,"Black women, PIR band Middle, not married"
+nhanes_ge10_own_stratum_middle,0.11014836392229524,0.012352798739850608,915.0,"Black women, PIR band Middle, not married"
+counterpart_mean_combined_high,6.616666666666667,,60.0,"P_BLACK_CW_HIGH_S, average of the two framing means"
+nhanes_mean_own_stratum_high,3.107790307997885,0.19874808582731668,405.0,"Black women, PIR band High, not married"
+nhanes_ge10_own_stratum_high,0.08587728183344602,0.01455654504940391,405.0,"Black women, PIR band High, not married"
+stratum_gap_low_high_sim,3.383333333333333,,,her persona mean minus her high-income counterpart's (GPT-4o-mini)
+stratum_gap_low_high_nhanes,1.5853667899190138,,,"NHANES: Black women not married, PIR < 1.3 minus PIR > 3.5 (one stratum of the standardised gap)"

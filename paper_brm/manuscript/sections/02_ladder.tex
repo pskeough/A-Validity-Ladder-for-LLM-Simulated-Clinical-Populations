@@ -1,0 +1,230 @@
+% Section 2. The ladder. Source: the "Methods as they should be written" parts of
+% analysis_brm/GATE.md, L1.md, L2.md, L3.md, L4.md, with decisions 1, 3-8 and 13-15 applied
+% (plan/DECISIONS_2026-09-26.md). Four-part block per rung: question, statistic, pass rule, use.
+% Patrick-owned: one-line point for the section (PATRICK_TODO.md item 2).
+
+\section{The Validity Ladder}
+\label{sec:ladder}
+
+The ladder applies to any simulated sample in which a model answers a fixed instrument while conditioned on a persona.
+We write $p$ for a persona, $m$ for a model, $f$ for a prompt framing and $r$ for one draw, that is, one call to the model and the answer vector it returns.
+A \emph{cell} is one persona under one model and one framing, and it holds $k$ draws.
+The \emph{persona mean} is the mean score over a cell's draws.
+Figure~\ref{fig:ladder} sets out the gate and the four rungs.
+
+At every rung, ``pass'' means that the rung's test detected no failure at the resolution the data allow, and each verdict states that resolution.
+Every verdict is read per model, because a researcher runs one model, and a pooled verdict can average models that err in opposite directions.
+Pooled rows are reported as description.
+Where the population reference cannot support a verdict, the rung records a stop and names the reason, and it does not report a pass or a fail.
+
+The rungs are ordered by the unit they read and not by nesting.
+The gate fixes $k$, the number of draws averaged into a persona mean, and levels 2 and 3 inherit it.
+A failure at level 1 rules out the uses of a single draw as one respondent, and levels 2 to 4 still run, because they read persona means or the whole simulated population.
+No other result at one rung stops the rungs above it.
+The rung order is a reading order, and a pass at level 2 or level 3 is read beside the level-4 invariance result, because a group comparison assumes the items measure the same construct in each group.
+
+The pass rules were set on the worked example and its reference, so the worked example illustrates the ladder and does not test it confirmatorily.
+Three rules changed during the analysis.
+The level-2 rule in its present form was adopted on 25 September 2026, after an earlier rule had been run on the external datasets. % R: analysis_brm/L2.md
+The earlier rule read a gap as missing whenever its ratio was confidently below 1, so it could never return attenuated, and it made kept harder to earn as precision rose.
+The level-4 invariance rule was written after the NHANES fits and before any model was fitted, with a margin of .05, and the margin was moved to .08 after the model results were in, because the reference itself does not hold on three of its six steps at .05. % R: analysis_brm/L4.md; l4_summary.csv
+The within-persona factor at level 4 was first scored as a rule and is reported here as a diagnostic.
+No verdict in this paper changes under either margin or under either status of the within-persona factor. % R: l4_summary.csv
+The remaining thresholds are defaults that a user may change, and each rung gives its source.
+Supplement S4 lists the multiplicity family and procedure at every rung.
+
+\begin{figure}[tp]
+\input{figures/fig1_ladder_caption}
+{\centering\includegraphics[width=\linewidth,height=0.71\textheight,keepaspectratio]{fig1_ladder.pdf}\par}
+\input{figures/fig1_ladder_note}
+\end{figure}
+
+% ------------------------------------------------------------------------------------------
+\subsection{Gate: Regeneration Stability}
+\label{sec:gate-method}
+
+\paragraph{Question.}
+How many draws must be averaged before a persona's score is dependable enough to read?
+
+\paragraph{Statistic.}
+The gate is a generalizability study \citep{cronbach1972dependability,brennan2001gtheory}.
+Within one model and one framing, the score of draw $r$ of persona $p$ is
+\begin{equation}
+X_{pr} = \mu + \nu_p + e_{r:p},
+\end{equation}
+with persona variance $\sigma^2_p$ and within-cell draw variance $\sigma^2_r$.
+The dependability of a mean of $k$ draws is
+\begin{equation}
+\phi(k) = \frac{\sigma^2_p}{\sigma^2_p + \sigma^2_r / k},
+\label{eq:phi}
+\end{equation}
+and its standard error is $\mathrm{SE}(k) = \sqrt{\sigma^2_r / k}$.
+The $k$ needed for a target $\phi^*$ is $\lceil \phi^*/(1-\phi^*) \cdot \sigma^2_r/\sigma^2_p \rceil$, and the $k$ needed for a tolerance $t$ on the standard error is $\lceil \sigma^2_r / t^2 \rceil$.
+Draws of one persona carry no order, and a crossed fit of persona by draw index finds no draw main effect, so the absolute and relative coefficients coincide. % R: gate_iteration_check.csv
+Components are estimated from expected mean squares and checked against restricted maximum likelihood. % R: gate_reml_check.csv
+Intervals are percentile bootstrap intervals over personas ($B = 1{,}000$).
+When a persona's score must also hold across prompt wording, framing becomes a random facet, and $\phi_F(k) = \sigma^2_p / (\sigma^2_p + \sigma^2_f + \sigma^2_{pf} + \sigma^2_r/k)$ has a ceiling that no number of draws can pass.
+
+\paragraph{Pass rule.}
+A single draw may be read as the persona's score when $\phi(1) \ge .80$ and the within-cell standard deviation is at most 1 point.
+Persona means of $k$ draws may be read when $\phi(k) \ge .80$ and $\mathrm{SE}(k) \le 1.0$ in each framing (the minimum rule), and the recommended $k$ meets $\phi(k) \ge .90$ and $\mathrm{SE}(k) \le 0.5$ in each framing.
+When a later level reads the persona mean over both framings, the gate is also reported for that mean.
+One point is about the size of the population's sex gap on the PHQ-8, and half a point keeps a persona mean's error below both that gap and half the low-to-high income gap. % R: gate_tolerance_rationale.csv
+The probability that two draws of one persona fall in different severity categories (band flip) is reported beside the pass rule as a description of single-draw labels.
+
+\paragraph{What a pass supports.}
+A pass at $k$ supports reading the persona mean of $k$ draws as the model's answer for that persona.
+Levels 2 and 3 compare these persona means with the population.
+The gate says nothing about whether that answer is correct.
+
+% ------------------------------------------------------------------------------------------
+\subsection{Level 1: Individual Coherence}
+\label{sec:l1-method}
+
+\paragraph{Question.}
+Is a single draw an answer pattern that a real respondent with the same total score could plausibly give, and are the draws as varied as real respondents?
+
+\paragraph{Statistic.}
+A graded response model \citep{samejima1969graded} is fitted to the population reference with survey weights, and every respondent and every draw is scored on its item parameters.
+For an answer vector $\mathbf{x}$ with trait estimate $\hat\theta$, the log-likelihood person-fit statistic \citep{drasgow1985appropriateness} is
+\begin{equation}
+l_0 = \sum_{j} \sum_{k} d_{jk} \log P_{jk}(\hat\theta), \qquad d_{jk} = 1 \text{ if } x_j = k,
+\end{equation}
+where $P_{jk}$ is the model's probability of category $k$ on item $j$.
+We standardise it with the correction for an estimated trait \citep{snijders2001personfit} in its polytomous form \citep{sinharay2016personfit}, giving $l_z^*$, with $\hat\theta$ the weighted likelihood estimate \citep{warm1989wle}.
+Low $l_z^*$ marks a vector less likely than the model expects at its trait level (misfit), and high $l_z^*$ marks a vector more regular than expected (overfit).
+Because $l_z^*$ depends on the total score, each draw is placed in the weighted reference distribution of $l_z^*$ among respondents with the same total, using a randomised probability integral transform.
+The reference therefore puts exactly 5\% of its own respondents below its within-total 5th percentile and 5\% above its 95th, whatever the mix of totals.
+The \emph{misfit ratio} is a model's share of draws below the within-total 5th percentile divided by .05, and the \emph{overfit ratio} is its share above the 95th percentile divided by .05.
+A real population has both ratios equal to 1.
+
+\paragraph{Pass rule.}
+A model passes in a framing when the 90\% intervals of both ratios lie inside $[1/\tau, \tau]$.
+The tolerance $\tau$ is the smallest value in $\{1.10, 1.25, 1.50, 2.00, 3.00\}$ that contains the point ratio of every reference subgroup (by sex, race and ethnicity, income band and survey cycle) when each subgroup is scored against the pooled reference.
+The population's own subgroups must pass.
+On NHANES the largest subgroup departure is 1.36, so $\tau = 1.5$. % R: l1_personfit_tolerance.csv
+Each tail is read on its interval: above the band, below it, inside it, or crossing a boundary.
+A deficit in both tails, too few atypical and too few highly regular vectors, is called \emph{compressed}.
+A pass needs both tails, so the rule is an intersection-union test and needs no multiplicity adjustment \citep{berger1982iut}.
+Intervals come from a persona-clustered bootstrap of the simulated draws, drawn jointly with a Rao--Wu bootstrap over the reference's primary sampling units \citep{raowu1988resampling,raowuyue1992resampling} ($B = 2{,}000$).
+For the PHQ-8, the gateway rule (an elevated total with neither of the two core items at 2 or more) is reported at matched totals as a descriptive row.
+The row is descriptive because, with the corpus's totals kept, uniformly random answer vectors read as too prototypical on it (observed to expected 0.62), while person fit reads them as excess misfit (ratio 6.05). % R: l1_planted_controls.csv
+
+\paragraph{What a pass supports.}
+A pass supports using single draws as individual cases whose item pattern is as plausible, and as varied, as a real respondent's at the same severity.
+Examples are exemplar vignettes, item-level test cases for a screening tool, and training data for a classifier that reads item patterns.
+A compressed failure rules out uses that depend on the spread of presentations, such as stress-testing a screener with atypical cases.
+
+% ------------------------------------------------------------------------------------------
+\subsection{Level 2: Subgroup Fidelity}
+\label{sec:l2-method}
+
+\paragraph{Question.}
+Is the gap between two groups in the simulated sample the same size and direction as the gap in the population?
+
+\paragraph{Estimand.}
+A simulated contrast compares persona pairs that differ on one attribute and match on the rest, so it is a conditional gap.
+For a contrast between groups $A$ and $B$ over strata $s$ of the other attributes,
+\begin{equation}
+g = \frac{1}{S} \sum_{s=1}^{S} \left(\bar{X}_{A s} - \bar{X}_{B s}\right),
+\end{equation}
+where $\bar{X}$ is a persona mean.
+The \emph{standardised} population gap $\gamma$ is the reference contrast computed within the same strata and averaged with the same equal weights.
+This gap answers the question the persona design asks, and it is the primary reference.
+The \emph{marginal} population gap, the crude difference between the two groups in the survey, is reported beside it.
+The two can differ in sign when the groups differ in composition.
+
+\paragraph{Statistic.}
+The statistic is the ratio $\rho = g / \gamma$.
+Its interval is the Fieller set \citep{fieller1954interval}: the values $c$ at which the one-sided tests of $\rho > c$ and $\rho < c$, using
+\begin{equation}
+t_c = \frac{g - c\,\gamma}{\sqrt{\mathrm{SE}_g^2 + c^2\,\mathrm{SE}_\gamma^2}},
+\end{equation}
+do not reject.
+The simulation and the survey are independent samples, and degrees of freedom are Welch--Satterthwaite, combining the simulation's and the survey design's.
+The standard error of $g$ is the standard deviation of the persona-pair differences divided by the square root of the number of pairs.
+This standard error treats differences in the gap between strata as noise, so it is conservative.
+A draw-only standard error, which holds the persona set fixed, is reported as a sensitivity analysis.
+The population gap's standard error is a design-based Taylor linearisation of the whole contrast.
+
+\paragraph{Pass rule.}
+The boundaries $-0.25$, $0.25$, $0.75$ and $1.25$ divide the ratio into five regions, named \vd{reversed}, \vd{missing}, \vd{attenuated}, \vd{kept} and \vd{steepened}.
+The verdict names the region that holds the interval, names two adjacent regions when the interval crosses one boundary, and is \vd{undetermined} when it crosses more.
+A contrast passes when it is \vd{kept}.
+A model passes level 2 when every contrast that is not stopped is \vd{kept}, fails when any verdict excludes \vd{kept}, and is otherwise unresolved.
+Each model is one family of contrasts, and every one-sided test runs at $.05$ divided by the family size (Bonferroni), so with seven contrasts the intervals are 98.6\% intervals.
+Two stops are checked first.
+The rung records \vd{no population gap} when the population gap's own interval covers zero, since a ratio to an unresolved denominator has no meaning.
+It records \vd{reference too imprecise} when the observed simulated gap, treated as measured without error, would still give a ratio interval spanning three or more regions.
+
+\paragraph{What a pass supports.}
+A pass supports reading the size and direction of the group difference from the simulated sample.
+A kept gap says nothing about either group's level.
+
+% ------------------------------------------------------------------------------------------
+\subsection{Level 3: Population Calibration}
+\label{sec:l3-method}
+
+\paragraph{Question.}
+Reweighted to the real composition of a group, does the simulated sample have the group's level?
+
+\paragraph{Statistic.}
+Each persona cell $c$ in a group $G$ receives the weight $p_c = N_c / \sum_{c' \in G} N_{c'}$, where $N_c$ is the weighted count of reference respondents in that cell.
+The residual is
+\begin{equation}
+R_G = \sum_{c \in G} p_c\,(s_c - y_c),
+\end{equation}
+where $s_c$ is the persona mean and $y_c$ is the reference mean in the same cell, so the simulated level is post-stratified to the population's composition \citep{holtsmith1979poststrat}.
+The persona cells are fixed by design, so the simulated side's sampling error is the draw sampling within cells, $\mathrm{var}_{\mathrm{sim}}(R_G) = \sum_c p_c^2\,\mathrm{var}(s_c)$.
+The reference side's error, which includes the uncertainty in the weights $p_c$, comes from a stratified delete-one-PSU jackknife over the survey design \citep{rustrao1996replication}.
+The two sides are independent, and degrees of freedom follow Satterthwaite with the design degrees of freedom on the reference term \citep{satterthwaite1946approximate}.
+The share of the group scoring at or above the instrument's cut point is a second row, compared both as a difference in percentage points and as a ratio with a Fieller interval.
+
+\paragraph{Pass rule.}
+A row passes at tolerance $\delta$ when two one-sided tests at $\alpha = .05$ reject both $-\delta$ and $+\delta$, that is, when the 90\% interval of $R_G$ lies inside $(-\delta, +\delta)$ \citep{schuirmann1987tost,lakens2018tutorial}.
+A model passes for a use when every group row passes, and this rule is again an intersection-union test.
+The tolerance is the smallest difference that matters for the stated use, and the researcher names it.
+For the PHQ-8 we report 0.2 reference standard deviations, 1 point and 2 points, with 2 points (about half a standard deviation) as the named default.
+The prevalence row uses differences of 2.5 and 5 percentage points and a ratio band of 0.80 to 1.25.
+The 5-point minimal important change of the PHQ-9 \citep{lowe2004monitoring} is a within-person threshold and is not used as a population tolerance.
+
+\paragraph{What a pass supports.}
+A pass at $\delta$ supports using the simulated level as a stand-in for the group's level, within $\delta$, for this prompt, this persona grid and this survey period.
+A level-3 pass on the mean does not support prevalence or screening uses, and the prevalence row tests those separately.
+
+% ------------------------------------------------------------------------------------------
+\subsection{Level 4: Structural Fidelity}
+\label{sec:l4-method}
+
+\paragraph{Question.}
+Do the items hang together as they do in people, and in the same way across groups?
+
+\paragraph{Unit.}
+A model's simulated population in one framing is every draw across its personas.
+Its item correlations, like the population's, mix variation between demographic profiles with variation among respondents who share a profile.
+The persona is the resampling unit for every interval, because its draws share one prompt.
+
+\paragraph{Statistics and pass rule.}
+Polychoric correlations are estimated by two-step maximum likelihood \citep{olsson1979polychoric}, and a one-factor model is fitted by unweighted least squares.
+Level 4 has three scored rules and one diagnostic.
+\begin{enumerate}
+\item \emph{R1, a general factor.} Every loading is at least .30 and the ratio of the first to the second eigenvalue, $\lambda_1/\lambda_2$, is at least 3. A population without a general factor fails level 4, and its later rules are reported as description.
+\item \emph{R2, loadings like people's.} Tucker's congruence between the model's loadings $\boldsymbol{\lambda}$ and the reference loadings $\boldsymbol{\mu}$,
+\begin{equation}
+\phi_T = \frac{\sum_i \lambda_i \mu_i}{\sqrt{\sum_i \lambda_i^2 \sum_i \mu_i^2}},
+\end{equation}
+has a lower 90\% limit of at least .95 \citep{lorenzoseva2006congruence}. Because an equal-loading vector already scores close to 1 on a scale with a strong general factor, its congruence with the reference is reported beside every model as a baseline.
+\item \emph{R4, invariance like people's.} Multi-group confirmatory factor models test metric and scalar invariance across sex, race and income. The change in fit between nested steps is read as the root mean square error of approximation of the difference \citep{savalei2024rmsea},
+\begin{equation}
+\mathrm{RMSEA}_D = \sqrt{G}\,\sqrt{\max(0, \Delta F - \nu)/d},
+\end{equation}
+where $\Delta F$ is the change in the fit function, $d$ the change in degrees of freedom, $G$ the number of groups and $\nu$ the expected $\Delta F$ under exact invariance. Draws are clustered in personas and the items are coarse, so $\nu$ is estimated by permuting group labels among personas \citep{jorgensen2018permutation}. A step holds when the upper limit of its 90\% interval is below the margin, fails when the lower limit is above it, and is indeterminate otherwise \citep{yuanchan2016invariance,marcoulides2017equivalence}. The margin is .08, because the reference itself fails or is indeterminate on three of its six steps at .05; .05 is a sensitivity analysis. R4 passes when every model step matches the reference's verdict on the same step, fails when any determinate step differs from it, and is unresolved when no step differs but some are indeterminate.
+A model with an indeterminate step therefore cannot pass R4, and a design needs enough personas per group to resolve every step.
+\item \emph{R3, diagnostic: the source of the factor.} Each population's item covariance is split into a between-cell part and a pooled within-cell part, where a cell is a persona in the simulation and a demographic profile in the reference. The one-factor model is fitted to the within-cell part. This shows whether the factor lives among draws of one persona, as it lives among people who share a profile, and it feeds the same restriction as level 1.
+\end{enumerate}
+A model passes level 4 when it passes R1, R2 and R4 in every framing.
+
+\paragraph{What a pass supports.}
+Passing R1 and R2 supports scoring the simulated population's total as one score with human-like item weights.
+Passing R4 adds that a group comparison of the total means the same thing in the simulation as in people.
+A within-persona factor (R3) would support treating draws as individual respondents in item-level psychometric work.

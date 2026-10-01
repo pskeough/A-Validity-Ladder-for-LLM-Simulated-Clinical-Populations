@@ -1,0 +1,113 @@
+% Written by scripts/87_supplement_tables.py. Do not edit by hand.
+% Receipts: analysis/brm/l4_invariance.csv
+\begingroup
+\singlespacing
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{>{\raggedright\arraybackslash}p{2.4cm}l>{\raggedright\arraybackslash}p{1.6cm}rrrlr>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{2.4cm}}
+\caption{Level 4 Invariance Steps: RMSEA of the Difference}\label{tab:s4l4inv}\\
+\toprule
+Population & Attribute & Step & $G$ & $d$ & RMSEA$_D$ & 90\% CI & $\hat c$ & At .08 & At .05 \\
+\midrule
+\endfirsthead
+\multicolumn{10}{@{}l}{\textit{Table \thetable, continued}} \\
+\toprule
+Population & Attribute & Step & $G$ & $d$ & RMSEA$_D$ & 90\% CI & $\hat c$ & At .08 & At .05 \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+NHANES 2005-2018 (weighted) & sex & metric & 2 & 7 & .033 & [.020, .044] & 4.18 & holds & holds \\
+ & sex & scalar & 2 & 7 & .067 & [.061, .073] & 1.67 & holds & fails \\
+ & sex & metric (polychoric) & 2 & 7 & .020 & [.009, .029] & 3.14 & holds & holds \\
+ & race & metric & 4 & 21 & .033 & [.019, .043] & 5.20 & holds & holds \\
+ & race & scalar & 4 & 21 & .052 & [.048, .056] & 3.24 & holds & indeterminate \\
+ & race & metric (polychoric) & 4 & 21 & .037 & [.027, .047] & 3.42 & holds & holds \\
+ & income & metric & 3 & 14 & .051 & [.037, .062] & 4.58 & holds & indeterminate \\
+ & income & scalar & 3 & 14 & .026 & [.018, .032] & 1.63 & holds & holds \\
+ & income & metric (polychoric) & 3 & 14 & .031 & [.021, .042] & 3.16 & holds & holds \\
+\midrule
+DeepSeek-V3 clinical & sex & metric & 2 & 7 & .100 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & sex & scalar & 2 & 7 & .059 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & sex & metric (polychoric) & 2 & 7 & .052 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & race & metric & 4 & 21 & .109 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & race & scalar & 4 & 21 & .072 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & race & metric (polychoric) & 4 & 21 & .145 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & income & metric & 3 & 14 & .205 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & income & scalar & 3 & 14 & .223 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & income & metric (polychoric) & 3 & 14 & .243 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+\midrule
+DeepSeek-V3 narrative & sex & metric & 2 & 7 & .033 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & sex & scalar & 2 & 7 & .047 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & sex & metric (polychoric) & 2 & 7 & .330 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & race & metric & 4 & 21 & .139 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & race & scalar & 4 & 21 & .152 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & race & metric (polychoric) & 4 & 21 & .144 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & income & metric & 3 & 14 & .211 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & income & scalar & 3 & 14 & .263 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & income & metric (polychoric) & 3 & 14 & .252 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+\midrule
+Gemini-3-Flash clinical & sex & metric & 2 & 7 & .070 & [.000, .127] & 4.79 & indeterminate & indeterminate \\
+ & sex & scalar & 2 & 7 & .116 & [.052, .183] & 4.83 & indeterminate & fails \\
+ & sex & metric (polychoric) & 2 & 7 & .047 & [.000, .138] & 7.39 & indeterminate & indeterminate \\
+ & race & metric & 4 & 21 & .000 & [.000, .062] & 4.39 & holds & indeterminate \\
+ & race & scalar & 4 & 21 & .040 & [.000, .104] & 5.28 & indeterminate & indeterminate \\
+ & race & metric (polychoric) & 4 & 21 & .000 & [.000, .080] & 5.80 & holds & indeterminate \\
+ & income & metric & 3 & 14 & .192 & [.151, .230] & 4.19 & fails & fails \\
+ & income & scalar & 3 & 14 & .096 & [.061, .125] & 5.49 & indeterminate & fails \\
+ & income & metric (polychoric) & 3 & 14 & .148 & [.053, .197] & 5.74 & indeterminate & fails \\
+\midrule
+Gemini-3-Flash narrative & sex & metric & 2 & 7 & .039 & [.000, .105] & 2.85 & indeterminate & indeterminate \\
+ & sex & scalar & 2 & 7 & .034 & [.000, .120] & 4.38 & indeterminate & indeterminate \\
+ & sex & metric (polychoric) & 2 & 7 & .000 & [.000, .141] & 13.66 & indeterminate & indeterminate \\
+ & race & metric & 4 & 21 & .000 & [.000, .037] & 3.88 & holds & holds \\
+ & race & scalar & 4 & 21 & .000 & [.000, .073] & 4.23 & holds & indeterminate \\
+ & race & metric (polychoric) & 4 & 21 & .069 & [.000, .127] & 4.84 & indeterminate & indeterminate \\
+ & income & metric & 3 & 14 & .159 & [.134, .186] & 4.00 & fails & fails \\
+ & income & scalar & 3 & 14 & .160 & [.123, .196] & 4.17 & fails & fails \\
+ & income & metric (polychoric) & 3 & 14 & .167 & [.120, .216] & 5.09 & fails & fails \\
+\midrule
+GLM-4.7 clinical & sex & metric & 2 & 7 & .000 & [.000, .072] & 2.57 & holds & indeterminate \\
+ & sex & scalar & 2 & 7 & .081 & [.048, .108] & 2.17 & indeterminate & indeterminate \\
+ & sex & metric (polychoric) & 2 & 7 & .000 & [.000, .059] & 2.67 & holds & indeterminate \\
+ & race & metric & 4 & 21 & .035 & [.000, .071] & 2.16 & holds & indeterminate \\
+ & race & scalar & 4 & 21 & .043 & [.000, .078] & 2.82 & holds & indeterminate \\
+ & race & metric (polychoric) & 4 & 21 & .012 & [.000, .062] & 2.11 & holds & indeterminate \\
+ & income & metric & 3 & 14 & .162 & [.139, .185] & 2.28 & fails & fails \\
+ & income & scalar & 3 & 14 & .160 & [.136, .184] & 2.87 & fails & fails \\
+ & income & metric (polychoric) & 3 & 14 & .081 & [.053, .105] & 2.14 & indeterminate & fails \\
+\midrule
+GLM-4.7 narrative & sex & metric & 2 & 7 & .102 & [.023, .149] & 3.00 & indeterminate & indeterminate \\
+ & sex & scalar & 2 & 7 & .052 & [.000, .091] & 2.13 & indeterminate & indeterminate \\
+ & sex & metric (polychoric) & 2 & 7 & .044 & [.000, .108] & 3.22 & indeterminate & indeterminate \\
+ & race & metric & 4 & 21 & .000 & [.000, .053] & 2.66 & holds & indeterminate \\
+ & race & scalar & 4 & 21 & .000 & [.000, .060] & 3.26 & holds & indeterminate \\
+ & race & metric (polychoric) & 4 & 21 & .000 & [.000, .031] & 2.77 & holds & holds \\
+ & income & metric & 3 & 14 & .199 & [.180, .219] & 2.70 & fails & fails \\
+ & income & scalar & 3 & 14 & .190 & [.165, .212] & 3.42 & fails & fails \\
+ & income & metric (polychoric) & 3 & 14 & .123 & [.097, .148] & 2.18 & fails & fails \\
+\midrule
+GPT-4o-mini clinical & sex & metric & 2 & 7 & .000 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & sex & scalar & 2 & 7 & .033 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & sex & metric (polychoric) & 2 & 7 & .022 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & race & metric & 4 & 21 & .019 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & race & scalar & 4 & 21 & .035 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & race & metric (polychoric) & 4 & 21 & .076 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & income & metric & 3 & 14 & .121 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & income & scalar & 3 & 14 & .246 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & income & metric (polychoric) & 3 & 14 & .153 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+\midrule
+GPT-4o-mini narrative & sex & metric & 2 & 7 & .006 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & sex & scalar & 2 & 7 & .031 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & sex & metric (polychoric) & 2 & 7 & .028 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & race & metric & 4 & 21 & .048 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & race & scalar & 4 & 21 & .060 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & race & metric (polychoric) & 4 & 21 & .066 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & income & metric & 3 & 14 & .099 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & income & scalar & 3 & 14 & .169 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+ & income & metric (polychoric) & 3 & 14 & .106 & -- & -- & not interpretable (no general factor) & not interpretable (no general factor) \\
+\end{longtable}
+\vspace{-6pt}
+\noindent\textit{Note.} A step holds when the upper 90\% limit of RMSEA$_D$ is below the margin, fails when the lower limit is above it, and is indeterminate otherwise. The margin of .08 is primary and .05 a sensitivity analysis. $\hat c$ = permutation scaling of the expected $\Delta F$ under exact invariance. The polychoric metric rows are reported as fitted.
+\par
+\endgroup

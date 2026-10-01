@@ -1,0 +1,61 @@
+% Written by scripts/87_supplement_tables.py. Do not edit by hand.
+% Receipts: analysis/brm/l2_verdicts.csv
+\begingroup
+\singlespacing
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{l>{\raggedright\arraybackslash}p{2.2cm}lr>{\raggedright\arraybackslash}p{2.8cm}r>{\raggedright\arraybackslash}p{2.8cm}}
+\caption{Level 2 Income Contrasts Under the Alternative Income Mapping}\label{tab:s3incl2}\\
+\toprule
+ & & & \multicolumn{2}{c}{Poverty ratio (primary)} & \multicolumn{2}{c}{Persona string}  \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}Estimand & Contrast & Model & Ratio & Verdict & Ratio & Verdict \\
+\midrule
+\endfirsthead
+\multicolumn{7}{@{}l}{\textit{Table \thetable, continued}} \\
+\toprule
+ & & & \multicolumn{2}{c}{Poverty ratio (primary)} & \multicolumn{2}{c}{Persona string}  \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}Estimand & Contrast & Model & Ratio & Verdict & Ratio & Verdict \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Standardised & Low minus High SES & DeepSeek-V3 & 1.91 & steepened & 1.04 & kept or steepened \\
+ &  & Gemini-3-Flash & 5.07 & steepened & 2.76 & steepened \\
+ &  & GPT-4o-mini & 2.16 & steepened & 1.18 & kept or steepened \\
+ &  & GLM-4.7 & 5.03 & steepened & 2.74 & steepened \\
+ &  & Pooled & 3.54 & steepened & 1.93 & steepened \\
+\addlinespace
+ & Middle minus High SES & DeepSeek-V3 & 2.57 & steepened & 3.29 & steepened \\
+ &  & Gemini-3-Flash & 1.31 & kept or steepened & 1.68 & kept or steepened \\
+ &  & GPT-4o-mini & 2.25 & steepened & 2.89 & steepened \\
+ &  & GLM-4.7 & 2.21 & steepened & 2.83 & steepened \\
+ &  & Pooled & 2.08 & steepened & 2.67 & steepened \\
+\addlinespace
+ & Low minus Middle SES & DeepSeek-V3 & 1.33 & kept or steepened & 0.48 & attenuated \\
+ &  & Gemini-3-Flash & 8.38 & steepened & 3.03 & steepened \\
+ &  & GPT-4o-mini & 2.08 & steepened & 0.75 & attenuated or kept \\
+ &  & GLM-4.7 & 7.51 & steepened & 2.72 & steepened \\
+ &  & Pooled & 4.83 & steepened & 1.75 & steepened \\
+\midrule
+Marginal & Low minus High SES & DeepSeek-V3 & 1.23 & kept or steepened & 0.70 & attenuated or kept \\
+ &  & Gemini-3-Flash & 3.26 & steepened & 1.86 & steepened \\
+ &  & GPT-4o-mini & 1.39 & kept or steepened & 0.79 & attenuated or kept \\
+ &  & GLM-4.7 & 3.23 & steepened & 1.85 & steepened \\
+ &  & Pooled & 2.28 & steepened & 1.30 & kept or steepened \\
+\addlinespace
+ & Middle minus High SES & DeepSeek-V3 & 1.75 & steepened & 3.07 & steepened \\
+ &  & Gemini-3-Flash & 0.89 & attenuated or kept & 1.56 & kept or steepened \\
+ &  & GPT-4o-mini & 1.53 & kept or steepened & 2.69 & steepened \\
+ &  & GLM-4.7 & 1.50 & kept or steepened & 2.64 & steepened \\
+ &  & Pooled & 1.42 & kept or steepened & 2.49 & steepened \\
+\addlinespace
+ & Low minus Middle SES & DeepSeek-V3 & 0.82 & attenuated or kept & 0.30 & missing or attenuated \\
+ &  & Gemini-3-Flash & 5.13 & steepened & 1.91 & steepened \\
+ &  & GPT-4o-mini & 1.27 & kept or steepened & 0.47 & attenuated \\
+ &  & GLM-4.7 & 4.60 & steepened & 1.71 & steepened \\
+ &  & Pooled & 2.95 & steepened & 1.10 & kept or steepened \\
+\end{longtable}
+\vspace{-6pt}
+\noindent\textit{Note.} Rows of \texttt{l2\_verdicts.csv} with analysis \texttt{headline} and \texttt{ref\_income\_alt}. The alternative mapping was run for the marginal estimand on the income contrasts only.
+\par
+\endgroup

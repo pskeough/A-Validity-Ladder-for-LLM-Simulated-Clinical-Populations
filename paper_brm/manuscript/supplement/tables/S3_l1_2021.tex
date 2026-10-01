@@ -1,0 +1,41 @@
+% Written by scripts/87_supplement_tables.py. Do not edit by hand.
+% Receipts: analysis/brm/l1_summary.csv; analysis/brm/l1_personfit_main.csv
+\begingroup
+\singlespacing
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{llrrrr>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{2.6cm}}
+\caption{Level 1 Against NHANES 2005--2018 and NHANES 2021--2023}\label{tab:s3l12021}\\
+\toprule
+ & & \multicolumn{2}{c}{Misfit ratio} & \multicolumn{2}{c}{Overfit ratio} & &  \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}Model & Framing & 2005--18 & 2021--23 & 2005--18 & 2021--23 & Verdict, 2005--18 & Verdict, 2021--23 \\
+\midrule
+\endfirsthead
+\multicolumn{8}{@{}l}{\textit{Table \thetable, continued}} \\
+\toprule
+ & & \multicolumn{2}{c}{Misfit ratio} & \multicolumn{2}{c}{Overfit ratio} & &  \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}Model & Framing & 2005--18 & 2021--23 & 2005--18 & 2021--23 & Verdict, 2005--18 & Verdict, 2021--23 \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+DeepSeek-V3 & Both & 0.05 & 0.28 & 0.00 & 0.00 & compressed & overfit deficit \\
+DeepSeek-V3 & Clinical & 0.07 & 0.34 & 0.00 & 0.00 & compressed & overfit deficit \\
+DeepSeek-V3 & Narrative & 0.03 & 0.22 & 0.00 & 0.00 & compressed & overfit deficit \\
+Gemini-3-Flash & Both & 0.00 & 0.26 & 0.17 & 0.12 & compressed & compressed \\
+Gemini-3-Flash & Clinical & 0.00 & 0.33 & 0.16 & 0.11 & compressed & compressed \\
+Gemini-3-Flash & Narrative & 0.00 & 0.18 & 0.18 & 0.13 & compressed & compressed \\
+GPT-4o-mini & Both & 0.18 & 0.99 & 0.00 & 0.00 & compressed & overfit deficit \\
+GPT-4o-mini & Clinical & 0.20 & 1.00 & 0.00 & 0.00 & compressed & overfit deficit \\
+GPT-4o-mini & Narrative & 0.17 & 0.97 & 0.00 & 0.00 & compressed & overfit deficit \\
+GLM-4.7 & Both & 0.02 & 0.06 & 0.77 & 0.83 & misfit deficit & misfit deficit \\
+GLM-4.7 & Clinical & 0.02 & 0.07 & 0.68 & 0.74 & misfit deficit & misfit deficit \\
+GLM-4.7 & Narrative & 0.01 & 0.05 & 0.87 & 0.91 & misfit deficit & misfit deficit \\
+pooled & Both & 0.06 & 0.40 & 0.24 & 0.24 & compressed & overfit deficit \\
+pooled & Clinical & 0.07 & 0.44 & 0.21 & 0.21 & compressed & overfit deficit \\
+pooled & Narrative & 0.05 & 0.36 & 0.26 & 0.26 & compressed & overfit deficit \\
+\end{longtable}
+\vspace{-6pt}
+\noindent\textit{Note.} Each reference has its own weighted graded response model. Every verdict is a fail; the verdict column gives the failure reading, where compressed means a deficit in both tails.
+\par
+\endgroup

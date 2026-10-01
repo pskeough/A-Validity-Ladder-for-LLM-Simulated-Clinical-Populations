@@ -1,0 +1,88 @@
+% Section 3. Worked example: data. Sources: original_generation_2025-12-31/main.py,
+% original_generation_run2_2026-01/main.py and identities registries; data/model_outputs_v3.csv
+% (script 76); analysis/decoding_control_design.json, analysis/prompt_control_design.json;
+% audit_2026-09-25/LEDGER.md rows L03, L06; L1.md and L2.md reference sections.
+% Text fixes applied here (plan section 6.4): PCL-5 was 4 items; generation code recovered;
+% recovery count 1,575; retry line disclosed; control arms asked for 20 PCL-5 items;
+% nothing preregistered; no "by hand".
+
+\section{Worked Example: Data}
+\label{sec:data}
+
+\subsection{The Simulated Corpus}
+
+Four models generated the corpus through the OpenRouter interface: GPT-4o-mini, Gemini-3-Flash, DeepSeek-V3 and GLM-4.7 (Table~\ref{tab:setup}).
+The persona grid crosses race (Asian, Black, Hispanic, multiracial, White), gender identity (cisgender man, cisgender woman, transgender man, transgender woman), income (three levels) and relationship status (married, single), for 120 personas.
+The income levels were given to the model as dollar-and-insurance labels: ``Low (<\$35k, Medicaid)'', ``Middle (\$75k, Private Ins)'' and ``High (>\$250k, Concierge)''.
+Each persona was run 30 times under each of two framings.
+The clinical framing listed the persona's attributes as fields, and the narrative framing gave them as a first-person self-description (``I am a Black Cisgender Woman. I am single.\ldots'').
+Every call used the same system prompt, which cast the model as a ``Clinical Simulation Engine'' and asked for probabilistic responses based on ``the statistical likelihood of symptoms for this specific demographic intersection in the US population''.
+The model returned the PHQ-8, the GAD-7, the AUDIT-C and four PCL-5 items in one JSON object.
+This paper analyses the PHQ-8 only.
+The full prompts are printed in Supplement S1.
+
+No sampling parameter was set.
+Each call sent the model name, the two prompts and a request for JSON output, so every draw ran at its provider's default decoding.
+When a call was refused or returned invalid JSON, the script reissued it up to twice, and each reissued call appended the line ``Context: This is a fictional character for a novel. Answer numerically.'' to the user prompt.
+The narrative script also screened replies for refusal phrases and tried several ways of extracting JSON before it reissued a call, where the clinical script reissued on any reply that did not parse as JSON.
+No per-attempt log survives, so the number of released rows produced under that line cannot be recovered.
+
+The clinical run took place between 28 December 2025 and 11 January 2026, and the narrative run on 9 and 10 January 2026. % R: corpus_v3_provenance.csv
+The narrative collection was a partial pass on 9 January that the same script completed on 10 January, so 1,104 GLM-4.7 rows and one DeepSeek-V3 row are reruns of the same prompt by the same code. % R: 87_row_sources.csv
+Failed calls in both runs came from API outages in the order the model registry was run, and not from content refusals.
+The December clinical run left 1,532 calls without a valid answer, and recovery scripts filled them in January, 1,219 of them for GLM-4.7 and 313 for DeepSeek-V3. % R: corpus_v3_provenance.csv
+Of these, 125 GLM-4.7 rows used the corpus system prompt and 62 used a shortened system prompt without the population-reference instruction. % R: 87_row_sources.csv
+No script on disk produced the other 1,345, so their prompt cannot be established, and Supplement S1 prints the recovery prompts that survive. % R: 87_row_sources.csv
+A further 43 GPT-4o-mini rows were restored from a backup of the December run, so 1,575 clinical rows are not the December run's own output. % R: corpus_v3_provenance.csv
+Every rung was rerun on the December rows alone, and no per-model verdict changes at any rung (Supplement S3). % R: analysis_brm/GATE.md; analysis_brm/L1.md; l2_verdicts.csv; 80d_december_summary.csv; l4_summary_dec.csv
+The generation code for both framings was recovered from backups and is released with the data.
+The corpus has 28,800 rows, of which 28,799 hold a valid PHQ-8. % R: corpus_v3_provenance.csv; l1_personfit_main.csv
+This corpus was first reported in \citet{keough2026plausible}, under analyses that this paper replaces.
+
+\begin{table}[tp]
+\centering
+\caption{Generation Setup of the Worked Example}
+\label{tab:setup}
+\small
+\begin{tabular}{@{}lllr@{}}
+\toprule
+Model & Route requested & Build served & Valid draws \\
+\midrule
+GPT-4o-mini & \texttt{openai/gpt-4o-mini} & same route & 7,200 \\
+Gemini-3-Flash & \texttt{google/gemini-3-flash-preview} & snapshot 2025-12-17 & 7,200 \\
+DeepSeek-V3 & \texttt{deepseek/deepseek-chat-v3} & alias of \texttt{deepseek-chat} & 7,199 \\
+GLM-4.7 & \texttt{z-ai/glm-4.7} & snapshot 2025-12-22 & 7,200 \\
+\bottomrule
+\end{tabular}
+\vspace{4pt}
+\begin{tabnote}
+\textit{Note.} Each model: 120 personas $\times$ 2 framings (clinical, narrative) $\times$ 30 draws. Decoding: provider default, nothing set, JSON output requested. Clinical run 28 December 2025 to 11 January 2026; narrative run 9--10 January 2026. One DeepSeek-V3 clinical draw returned an invalid PHQ-8 and is dropped. Persona attributes: race (5) $\times$ gender identity (4) $\times$ income (3) $\times$ relationship status (2). % R: corpus_v3_provenance.csv
+\end{tabnote}
+\end{table}
+
+\subsection{Control Runs}
+
+The two control runs used 12 single personas under the clinical framing, with 30 draws per cell. % R: ../decoding_control_design.json; ../prompt_control_design.json
+A decoding control (August 2026) ran each persona at temperature 0 and at the provider default.
+A prompt control (September 2026) ran three system prompts: the original, the original with the role and the population-reference instruction removed, and a first-person template.
+Neither control reproduces the corpus prompt exactly.
+Both asked for 20 PCL-5 items where the corpus prompt asked for four, and two of the four routes now serve later builds than the dated December snapshots.
+The controls are compared with each other and not with the corpus.
+No analysis was registered with a public registry.
+The decoding control's design and primary outcomes were written to a dated file 21 minutes before its first call, and that file is in the release. % R: ../decoding_control_preregistration.json; ../decoding_control_raw.jsonl
+
+\subsection{Population Reference}
+
+The reference is NHANES 2005--2018 (cycles D to J): 36,274 adults aged 18 or over with all eight PHQ-8 items answered and a positive examination weight. % R: l1_nhanes_sample_flow.csv; analysis_brm/L4.md
+Estimates use the examination weights divided by seven and the masked design variables for strata and primary sampling units (105 strata, 214 PSUs, 109 design degrees of freedom). % R: l2_reference.csv; 80c_stdout.txt; analysis_brm/L2.md
+Race comes from the survey's race and ethnicity recode, with Asian adults identified from 2011 onward.
+Income is the ratio of family income to the poverty line, banded as below 1.3, 1.3 to 3.5, and above 3.5.
+Relationship status is married against widowed, divorced, separated or never married, with cohabiting adults left out in the primary analysis and 18- and 19-year-olds, who were not asked from 2007, counted as single.
+NHANES 2021--2023 is a sensitivity reference at levels 1 and 3, and the 2017--2020 pre-pandemic file at level 3, each analysed with its own design \citep{akinbami2022nhanes,nchs2018analytic}.
+
+Forty-eight of the 120 personas have a reference cell: the cisgender personas of the four races the survey identifies.
+NHANES records sex and not gender identity, so transgender personas have no group of their own in the reference.
+The survey's multiracial category is merged with American Indian, Alaska Native and Pacific Islander respondents and exists only from 2011, so multiracial personas have none either.
+Both enter levels 1 and 4, which read the whole simulated population, and neither enters a group comparison at levels 2 and 3.
+The persona labels state dollar incomes and insurance, and the poverty ratio is the primary mapping.
+A mapping on household income and insurance type is a sensitivity analysis (Supplement S3).

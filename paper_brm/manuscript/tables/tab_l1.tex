@@ -1,0 +1,32 @@
+% Table: level 1. Source: analysis_brm/L1.md Table 1; receipts l1_summary.csv, l1_personfit_main.csv,
+% l1_gateway_main.csv, l1_pattern_reuse.csv.
+\begin{table}[tp]
+\centering
+\caption{Level 1: Person Fit of Single Draws Against NHANES Adults at the Same Total}
+\label{tab:l1}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}llrrrrrl@{}}
+\toprule
+ & & \multicolumn{2}{c}{Below NHANES 5th pct.} & \multicolumn{2}{c}{Above NHANES 95th pct.} & & \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+Model & Framing & \% & Ratio 90\% CI & \% & Ratio 90\% CI & Mid-PIT & Verdict \\
+\midrule
+DeepSeek-V3 & Clinical & 0.3 & 0.01--0.21 & 0.0 & 0.00--0.01 & .36 & Compressed \\
+ & Narrative & 0.1 & 0.00--0.11 & 0.0 & 0.00--0.01 & .37 & Compressed \\
+Gemini-3-Flash & Clinical & 0.0 & 0.00--0.00 & 0.8 & 0.11--0.39 & .66 & Compressed \\
+ & Narrative & 0.0 & 0.00--0.00 & 0.9 & 0.11--0.42 & .65 & Compressed \\
+GPT-4o-mini & Clinical & 1.0 & 0.09--0.37 & 0.0 & 0.00--0.03 & .38 & Compressed \\
+ & Narrative & 0.8 & 0.09--0.30 & 0.0 & 0.00--0.03 & .38 & Compressed \\
+GLM-4.7 & Clinical & 0.1 & 0.01--0.04 & 3.4 & 0.55--0.92 & .65 & Misfit deficit \\
+ & Narrative & 0.1 & 0.00--0.04 & 4.3 & 0.74--1.15 & .65 & Misfit deficit \\
+\addlinespace
+NHANES & & 5.0 & & 5.0 & & .50 & \\
+\bottomrule
+\end{tabular}}
+\vspace{4pt}
+\begin{tabnote}
+\textit{Note.} Each draw is placed in the weighted NHANES 2005--2018 distribution of the person-fit statistic $l_z^*$ among adults with the same PHQ-8 total. \% = share of a model's draws below the within-total 5th percentile (misfit tail) or above the 95th (overfit tail); NHANES places 5\% in each by construction. Ratio = share divided by .05, with a 90\% interval from a persona-clustered bootstrap drawn jointly with a Rao--Wu bootstrap of NHANES. A model passes when both ratio intervals lie inside 0.67 to 1.5 ($\tau = 1.5$). Mid-PIT = mean probability integral transform, .50 for a population like NHANES. Compressed = a deficit in both tails.
+\end{tabnote}
+\end{table}

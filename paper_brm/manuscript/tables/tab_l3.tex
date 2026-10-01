@@ -1,0 +1,28 @@
+% Table: level 3. Source: analysis_brm/L3.md section 1 table; receipts 80d_headline.csv,
+% 80d_headline_by_model.csv, 80d_pass_counts.csv, 80c_l3_results.csv (spec "S7 2021-2023", PS, combined, Overall).
+\begin{table}[tp]
+\centering
+\caption{Level 3: Post-Stratified Residual of the Simulated Population Against NHANES}
+\label{tab:l3}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}lrrrcrr@{}}
+\toprule
+ & \multicolumn{2}{c}{Overall residual, points} & & Groups passing & \multicolumn{2}{c}{PHQ-8 $\ge$ 10 (\%)} \\
+\cmidrule(lr){2-3}\cmidrule(lr){6-7}
+Model & 2005--2018 [90\% CI] & 2021--2023 & Range over 10 groups & 0.2 SD / 1 / 2 pt & Simulated & NHANES \\
+\midrule
+DeepSeek-V3 & +4.58 [4.49, 4.67] & +3.47 & +4.06 to +5.13 & 0 / 0 / 0 & 7.35 & 7.01 \\
+Gemini-3-Flash & +2.59 [2.49, 2.69] & +1.36 & +1.33 to +7.37 & 0 / 0 / 2 & 16.42 & 7.01 \\
+GPT-4o-mini & +4.68 [4.57, 4.79] & +3.57 & +4.23 to +5.32 & 0 / 0 / 0 & 16.92 & 7.01 \\
+GLM-4.7 & +2.12 [2.00, 2.24] & +0.91 & +0.66 to +6.40 & 0 / 1 / 4 & 13.23 & 7.01 \\
+\addlinespace
+Pooled (descriptive) & +3.49 [3.42, 3.57] & +2.33 & +2.59 to +6.05 & 0 / 0 / 0 & 13.48 & 7.01 \\
+\bottomrule
+\end{tabular}}
+\vspace{4pt}
+\begin{tabnote}
+\textit{Note.} Residual = simulated minus NHANES mean PHQ-8, with each persona mean weighted by the NHANES share of its demographic cell (post-stratification), both framings averaged, over the 48 personas with a reference cell. The 10 groups are all adults, four races, two sexes and three income bands. Groups passing = rows whose 90\% interval lies inside $\pm$0.79 points (0.2 SD), $\pm$1 point or $\pm$2 points; a model passes for a use only when all 10 pass. 2021--2023 = the residual against NHANES 2021--2023, analysed with its own design and with cohabiting adults counted as married (the 2005--2018 column leaves them out). The simulated share scoring 10 or more is post-stratified in the same way. Every group row is in Supplement S4.
+\end{tabnote}
+\end{table}

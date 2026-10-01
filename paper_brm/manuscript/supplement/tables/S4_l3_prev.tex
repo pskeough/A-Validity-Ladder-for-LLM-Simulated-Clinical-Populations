@@ -1,0 +1,80 @@
+% Written by scripts/87_supplement_tables.py. Do not edit by hand.
+% Receipts: analysis/brm/80d_headline.csv
+\begingroup
+\singlespacing
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{llrrrlrlccc}
+\caption{Level 3 per Model and Group: Share Scoring 10 or More}\label{tab:s4l3prev}\\
+\toprule
+ & & & & & & & & \multicolumn{3}{c}{Passes} \\
+\cmidrule(lr){9-11}Model & Group & Sim.\ \% & Ref.\ \% & Diff.\ (pp) & 90\% CI & Ratio & 90\% CI & 2.5 pp & 5 pp & 0.80--1.25 \\
+\midrule
+\endfirsthead
+\multicolumn{11}{@{}l}{\textit{Table \thetable, continued}} \\
+\toprule
+ & & & & & & & & \multicolumn{3}{c}{Passes} \\
+\cmidrule(lr){9-11}Model & Group & Sim.\ \% & Ref.\ \% & Diff.\ (pp) & 90\% CI & Ratio & 90\% CI & 2.5 pp & 5 pp & 0.80--1.25 \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+DeepSeek-V3 & Overall & 7.4 & 7.0 & 0.3 & [$-$1.0, 1.7] & 1.05 & [0.85, 1.25] & Yes & Yes & Yes \\
+ & White & 6.1 & 6.8 & $-$0.8 & [$-$2.6, 1.1] & 0.89 & [0.62, 1.17] & No & Yes & No \\
+ & Black & 14.0 & 8.8 & 5.1 & [2.7, 7.6] & 1.58 & [1.30, 1.88] & No & No & No \\
+ & Asian & 1.8 & 3.4 & $-$1.6 & [$-$3.4, 0.1] & 0.53 & [0.04, 1.05] & No & Yes & No \\
+ & Hispanic & 11.2 & 8.1 & 3.1 & [0.9, 5.3] & 1.38 & [1.10, 1.67] & No & No & No \\
+ & Men & 4.8 & 5.2 & $-$0.4 & [$-$2.3, 1.6] & 0.93 & [0.56, 1.32] & Yes & Yes & No \\
+ & Women & 9.7 & 8.7 & 1.0 & [$-$0.9, 2.9] & 1.11 & [0.89, 1.34] & No & Yes & No \\
+ & Low & 32.7 & 13.6 & 19.1 & [16.0, 22.1] & 2.40 & [2.15, 2.68] & No & No & No \\
+ & Middle & 1.4 & 7.3 & $-$6.0 & [$-$7.9, $-$4.0] & 0.19 & [0.00, 0.44] & No & No & No \\
+ & High & 0.5 & 3.7 & $-$3.2 & [$-$5.5, $-$0.9] & 0.14 & [0.00, 0.75] & No & No & No \\
+\midrule
+Gemini-3-Flash & Overall & 16.4 & 7.0 & 9.4 & [7.9, 10.9] & 2.34 & [2.12, 2.57] & No & No & No \\
+ & White & 13.2 & 6.8 & 6.4 & [4.5, 8.3] & 1.94 & [1.65, 2.24] & No & No & No \\
+ & Black & 26.3 & 8.8 & 17.5 & [15.0, 19.9] & 2.98 & [2.68, 3.30] & No & No & No \\
+ & Asian & 4.4 & 3.4 & 1.0 & [$-$0.9, 2.9] & 1.30 & [0.75, 1.93] & No & Yes & No \\
+ & Hispanic & 30.7 & 8.1 & 22.6 & [20.2, 25.1] & 3.79 & [3.41, 4.22] & No & No & No \\
+ & Men & 12.8 & 5.2 & 7.6 & [5.7, 9.5] & 2.47 & [2.07, 2.89] & No & No & No \\
+ & Women & 19.8 & 8.7 & 11.1 & [9.1, 13.1] & 2.27 & [2.03, 2.52] & No & No & No \\
+ & Low & 81.1 & 13.6 & 67.5 & [65.2, 69.9] & 5.96 & [5.57, 6.39] & No & No & No \\
+ & Middle & 0.0 & 7.3 & $-$7.3 & [$-$9.1, $-$5.5] & 0.00 & [0.00, 0.23] & No & No & No \\
+ & High & 0.0 & 3.7 & $-$3.7 & [$-$5.9, $-$1.6] & 0.00 & [0.00, 0.57] & No & No & No \\
+\midrule
+GPT-4o-mini & Overall & 16.9 & 7.0 & 9.9 & [8.2, 11.7] & 2.41 & [2.15, 2.69] & No & No & No \\
+ & White & 14.5 & 6.8 & 7.7 & [5.3, 10.0] & 2.13 & [1.77, 2.50] & No & No & No \\
+ & Black & 26.5 & 8.8 & 17.7 & [14.8, 20.6] & 3.00 & [2.64, 3.38] & No & No & No \\
+ & Asian & 11.2 & 3.4 & 7.8 & [5.4, 10.2] & 3.31 & [2.50, 4.31] & No & No & No \\
+ & Hispanic & 24.5 & 8.1 & 16.4 & [13.7, 19.2] & 3.03 & [2.64, 3.45] & No & No & No \\
+ & Men & 14.0 & 5.2 & 8.9 & [6.6, 11.1] & 2.71 & [2.25, 3.20] & No & No & No \\
+ & Women & 19.6 & 8.7 & 10.9 & [8.3, 13.5] & 2.25 & [1.94, 2.57] & No & No & No \\
+ & Low & 46.6 & 13.6 & 33.0 & [29.8, 36.2] & 3.42 & [3.12, 3.76] & No & No & No \\
+ & Middle & 14.4 & 7.3 & 7.1 & [4.3, 9.9] & 1.96 & [1.57, 2.37] & No & No & No \\
+ & High & 5.3 & 3.7 & 1.6 & [$-$1.2, 4.4] & 1.44 & [0.69, 2.22] & No & Yes & No \\
+\midrule
+GLM-4.7 & Overall & 13.2 & 7.0 & 6.2 & [4.8, 7.7] & 1.89 & [1.68, 2.11] & No & No & No \\
+ & White & 11.4 & 6.8 & 4.6 & [2.7, 6.5] & 1.68 & [1.40, 1.98] & No & No & No \\
+ & Black & 20.8 & 8.8 & 11.9 & [9.4, 14.4] & 2.35 & [2.05, 2.66] & No & No & No \\
+ & Asian & 3.6 & 3.4 & 0.2 & [$-$1.7, 2.1] & 1.06 & [0.53, 1.66] & Yes & Yes & No \\
+ & Hispanic & 20.7 & 8.1 & 12.6 & [10.2, 14.9] & 2.55 & [2.23, 2.91] & No & No & No \\
+ & Men & 7.8 & 5.2 & 2.6 & [0.7, 4.5] & 1.51 & [1.14, 1.89] & No & Yes & No \\
+ & Women & 18.3 & 8.7 & 9.6 & [7.6, 11.6] & 2.10 & [1.86, 2.35] & No & No & No \\
+ & Low & 61.4 & 13.6 & 47.8 & [44.9, 50.6] & 4.51 & [4.18, 4.87] & No & No & No \\
+ & Middle & 2.0 & 7.3 & $-$5.4 & [$-$7.4, $-$3.4] & 0.27 & [0.01, 0.53] & No & No & No \\
+ & High & 0.3 & 3.7 & $-$3.5 & [$-$5.6, $-$1.3] & 0.07 & [0.00, 0.65] & No & No & No \\
+\midrule
+Pooled & Overall & 13.5 & 7.0 & 6.5 & [5.6, 7.4] & 1.92 & [1.78, 2.07] & No & No & No \\
+ & White & 11.3 & 6.8 & 4.5 & [3.3, 5.7] & 1.66 & [1.48, 1.85] & No & No & No \\
+ & Black & 21.9 & 8.8 & 13.1 & [11.4, 14.7] & 2.48 & [2.27, 2.70] & No & No & No \\
+ & Asian & 5.3 & 3.4 & 1.9 & [0.6, 3.1] & 1.55 & [1.17, 2.02] & No & Yes & No \\
+ & Hispanic & 21.8 & 8.1 & 13.7 & [12.2, 15.2] & 2.69 & [2.44, 2.97] & No & No & No \\
+ & Men & 9.9 & 5.2 & 4.7 & [3.6, 5.8] & 1.90 & [1.67, 2.16] & No & No & No \\
+ & Women & 16.9 & 8.7 & 8.1 & [6.9, 9.4] & 1.93 & [1.77, 2.10] & No & No & No \\
+ & Low & 55.5 & 13.6 & 41.9 & [40.2, 43.5] & 4.07 & [3.81, 4.37] & No & No & No \\
+ & Middle & 4.4 & 7.3 & $-$2.9 & [$-$4.1, $-$1.7] & 0.61 & [0.46, 0.76] & No & Yes & No \\
+ & High & 1.5 & 3.7 & $-$2.2 & [$-$3.4, $-$0.9] & 0.41 & [0.10, 0.74] & No & Yes & No \\
+\end{longtable}
+\vspace{-6pt}
+\noindent\textit{Note.} Post-stratified estimand, specification S1, framings combined. pp = percentage points. Ratio = simulated share over reference share, Fieller interval.
+\par
+\endgroup

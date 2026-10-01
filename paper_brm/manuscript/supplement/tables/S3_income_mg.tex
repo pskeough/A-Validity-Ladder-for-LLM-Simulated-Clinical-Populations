@@ -1,0 +1,30 @@
+% Written by scripts/87_supplement_tables.py. Do not edit by hand.
+% Receipts: analysis/brm/80d_income_anchor_permodel.csv
+\begingroup
+\singlespacing
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{lrrrrrr}
+\caption{Marginal Income-Group Residuals Under Two Income Mappings}\label{tab:s3incmg}\\
+\toprule
+ & \multicolumn{2}{c}{Low} & \multicolumn{2}{c}{Middle} & \multicolumn{2}{c}{High} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}Model & S3 & S4 & S3 & S4 & S3 & S4 \\
+\midrule
+\endfirsthead
+\multicolumn{7}{@{}l}{\textit{Table \thetable, continued}} \\
+\toprule
+ & \multicolumn{2}{c}{Low} & \multicolumn{2}{c}{Middle} & \multicolumn{2}{c}{High} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}Model & S3 & S4 & S3 & S4 & S3 & S4 \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+DeepSeek-V3 & 5.08 & 3.98 & 4.84 & 5.43 & 4.02 & 4.21 \\
+Gemini-3-Flash & 7.32 & 6.32 & 1.25 & 1.71 & 1.37 & 1.59 \\
+GPT-4o-mini & 5.26 & 4.13 & 4.79 & 5.32 & 4.19 & 4.43 \\
+GLM-4.7 & 6.36 & 5.45 & 1.43 & 1.77 & 0.61 & 0.79 \\
+\end{longtable}
+\vspace{-6pt}
+\noindent\textit{Note.} Marginal residual (simulated group mean minus reference group mean), PHQ-8 points, from \texttt{80d\_income\_anchor\_permodel.csv}.
+\par
+\endgroup

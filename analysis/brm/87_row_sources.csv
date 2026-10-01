@@ -1,0 +1,16 @@
+prompt_condition,model,row_source,narr_source,rows,valid_phq8
+clinical,deepseek/deepseek-chat-v3,dec28_main,,3287,3286
+clinical,deepseek/deepseek-chat-v3,recovery_inplace,,313,313
+clinical,google/gemini-3-flash-preview,dec28_main,,3600,3600
+clinical,openai/gpt-4o-mini,dec28_main,,3557,3557
+clinical,openai/gpt-4o-mini,dec28_restored,,43,43
+clinical,z-ai/glm-4.7,dec28_main,,2381,2381
+clinical,z-ai/glm-4.7,recovery_inplace,,1032,1032
+clinical,z-ai/glm-4.7,recovery_last_mile,,62,62
+clinical,z-ai/glm-4.7,recovery_slow,,125,125
+narrative,deepseek/deepseek-chat-v3,narrative,narr_main,3599,3599
+narrative,deepseek/deepseek-chat-v3,narrative,narr_rerun_same_script,1,1
+narrative,google/gemini-3-flash-preview,narrative,narr_main,3600,3600
+narrative,openai/gpt-4o-mini,narrative,narr_main,3600,3600
+narrative,z-ai/glm-4.7,narrative,narr_main,2496,2496
+narrative,z-ai/glm-4.7,narrative,narr_rerun_same_script,1104,1104

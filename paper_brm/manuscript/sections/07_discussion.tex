@@ -1,0 +1,31 @@
+% Section 7. Discussion. Gate rule 9 and feedback-prose-rhythm-and-argument: the interpretive
+% paragraphs are built from Patrick's own answers to the questions below (transcribed, then
+% shaped through mimesis, voice="research"). Each question names the result it ties back to.
+% The procedural subsection 7.2 is drafted, because it restates what the results require of a
+% user and makes no interpretive claim; Patrick may cut it.
+
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{What the Results Mean for a User}
+
+Under this prompt family, the four models should not be used to simulate PHQ-8 respondents.
+The distortion runs the same way in every model, with population means above the survey's after post-stratification and the low-to-high income gap steepened.
+Each single draw reads as an answer a person could give, and the distortion appears only across repeated draws and against the survey.
+Only the rungs above the gate detect the distortion, so a researcher has to run them before using such a sample.
+The failure belongs to base deployments of these four models, unaltered and under one prompt family, and the paper makes no claim about language models in general.
+The corpus therefore serves as a baseline, and interventions that ground a model in real population data can be tested against it with the same ladder.
+
+Above the gate, the corpus supports no population use.
+The gate pass supports reading a persona's mean over enough draws as that model's stable answer for the persona, and that stable answer is what a later intervention would be compared with.
+The ladder can be run on any clinical silicon sample for which a validated human dataset on the same instrument exists, whether a national survey such as NHANES or a private validated dataset.
+Without a human reference no rung above the gate can return a verdict, so the reference has to be chosen before the simulated sample is generated.
+
+\subsection{Running the Ladder on a New Simulated Sample}
+
+The results set four requirements for a researcher who runs the ladder.
+First, the design needs repeated draws of each persona under a fixed prompt, because the gate and level 1 cannot run without them, and the gate decides how many draws a persona mean needs.
+Second, the population reference should be computed within the persona design's strata, because a crude survey gap and a conditional simulated gap can differ in sign.
+Third, a design that tests invariance at level 4 needs more personas per group, since more draws per persona do not narrow the persona-level intervals.
+Fourth, the tolerance at level 3 is part of the claim and should be named for the use before the residuals are read.
+The code for every rung is in the release, one script per analysis, and each script writes the receipt files that Supplement S2 maps to the text.

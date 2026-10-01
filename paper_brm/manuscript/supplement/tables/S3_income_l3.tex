@@ -1,0 +1,31 @@
+% Written by scripts/87_supplement_tables.py. Do not edit by hand.
+% Receipts: analysis/brm/80c_l3_results.csv
+\begingroup
+\singlespacing
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{lrcrcrcrc}
+\caption{Level 3 Income-Group Residuals Under Four Income Mappings}\label{tab:s3incl3}\\
+\toprule
+ & \multicolumn{2}{c}{S1: poverty ratio} & \multicolumn{2}{c}{S3: PIR 2007--18} & \multicolumn{2}{c}{S4: persona string} & \multicolumn{2}{c}{S5: top-coded} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}Model & Low, Mid, High & Pass & Low, Mid, High & Pass & Low, Mid, High & Pass & Low, Mid, High & Pass \\
+\midrule
+\endfirsthead
+\multicolumn{9}{@{}l}{\textit{Table \thetable, continued}} \\
+\toprule
+ & \multicolumn{2}{c}{S1: poverty ratio} & \multicolumn{2}{c}{S3: PIR 2007--18} & \multicolumn{2}{c}{S4: persona string} & \multicolumn{2}{c}{S5: top-coded} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}Model & Low, Mid, High & Pass & Low, Mid, High & Pass & Low, Mid, High & Pass & Low, Mid, High & Pass \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+DeepSeek-V3 & 5.13, 4.92, 4.06 & No & 5.08, 4.84, 4.02 & No & 3.98, 5.43, 4.21 & No & 3.98, 5.43, 4.27 & No \\
+Gemini-3-Flash & 7.37, 1.33, 1.42 & No & 7.32, 1.25, 1.37 & No & 6.32, 1.71, 1.59 & No & 6.32, 1.71, 1.65 & No \\
+GPT-4o-mini & 5.32, 4.88, 4.23 & No & 5.26, 4.79, 4.19 & No & 4.13, 5.32, 4.43 & No & 4.13, 5.32, 4.50 & No \\
+GLM-4.7 & 6.40, 1.50, 0.66 & No & 6.36, 1.43, 0.61 & No & 5.45, 1.77, 0.79 & No & 5.45, 1.77, 0.85 & No \\
+Pooled & 6.05, 3.16, 2.59 & No & 6.01, 3.08, 2.55 & No & 4.97, 3.56, 2.75 & No & 4.97, 3.56, 2.82 & No \\
+\end{longtable}
+\vspace{-6pt}
+\noindent\textit{Note.} Post-stratified residuals in PHQ-8 points, framings combined. S3 uses the poverty ratio on 2007--2018 only; S4 maps the persona's dollar income and insurance onto household income and insurance type; S5 is S4 with the high band top-coded. Pass = all ten group rows pass at 2 points.
+\par
+\endgroup

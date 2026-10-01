@@ -1,0 +1,272 @@
+% Online supplement to "A Validity Ladder for LLM-Simulated Populations, with a Worked Example on
+% the PHQ-8". Build: tectonic -X compile supplement.tex
+%
+% Conventions:
+%   - One sentence per line.
+%   - Every number in a table and every result number in the prose is printed by
+%     scripts/87_supplement_tables.py (tables/*.tex and tables/supp_macros.tex) or by
+%     scripts/86_receipts.py (S2_receipts.tex). Rerun the scripts; do not edit the fragments.
+%   - Rule constants (tolerances, margins, interval levels) are part of the method and are written
+%     in the prose as the article states them.
+%   - \CHECK{...} marks a fact still to confirm before submission.
+\documentclass[man,12pt,floatsintext,natbib]{apa7}
+\usepackage[natbibapa]{apacite}
+\usepackage{amsmath,amssymb}
+\usepackage{longtable,array,booktabs}
+\usepackage{xcolor}
+\usepackage{fvextra}
+\usepackage{url}
+\usepackage{setspace}
+\usepackage{newunicodechar}
+% S2_receipts.tex carries en dashes as Unicode; the T1 Latin Modern fonts print them as --.
+\newunicodechar{–}{--}
+
+\newcommand{\CHECK}[1]{\textcolor{orange}{\textbf{[CHECK:} #1\textbf{]}}}
+\newcommand{\vd}[1]{\textsc{#1}}
+
+% Supplement tables and listings are numbered S1, S2, ...
+\renewcommand{\thetable}{S\arabic{table}}
+\setlength{\LTcapwidth}{\linewidth}
+
+\title{Online Supplement to ``A Validity Ladder for LLM-Simulated Populations''}
+\shorttitle{Validity Ladder: Online Supplement}
+\authorsnames{Patrick Keough}
+\authorsaffiliations{Independent researcher}
+\leftheader{Keough}
+
+\begin{document}
+\maketitle
+\input{tables/supp_macros}
+
+\noindent This supplement has six parts.
+S1 prints the prompts.
+S2 maps every number in the article to its receipt.
+S3 gives the provenance of the corpus and the sensitivity analyses.
+S4 gives the full per-model results.
+S5 gives the control results by dose.
+S6 gives the external level-3 illustration.
+Every table is written by \texttt{scripts/87\_supplement\_tables.py}, except the S2 table, which is written by \texttt{scripts/86\_receipts.py}.
+Each table file names its receipt files in its first lines.
+Paths are relative to the repository root.
+
+% =============================================================================================
+\section{S1. Prompts}
+\label{sec:s1}
+
+The clinical run used \texttt{\SOneClinFile} and the narrative run used \texttt{\SOneNarrFile}.
+Both files were recovered from backups of the generation folders and sit one level above the repository.
+The release carries them as \texttt{generation/main.py} and \texttt{generation/narrative\_main.py}.
+The released clinical copy differs from the recovered file only in its file paths, and script 87 checks that its system prompt, user prompt and retry line are the same strings (lines \SOneRelSys, \SOneRelUsr{} and \SOneRelNovel{} of the released copy).
+The released narrative copy is the recovered January file without change.
+The line numbers in the listings below are those of the source files.
+
+Both framings sent the same system prompt (clinical lines \SOneSysClin, narrative lines \SOneSysNarr).
+Each user prompt opened with a fresh random \texttt{PROFILE\_ID} from \texttt{uuid.uuid4()}, followed by the persona block and the task line.
+The clinical framing filled four fields from the registry, and the narrative framing inserted the registry's first-person self-description.
+The registry holds \SOneRegistryN{} personas.
+
+\input{tables/S1_corpus_prompts}
+
+\subsection*{S1.7 Retry Rule}
+
+The call set the model, the two messages and a JSON response format, and no sampling parameter (clinical lines \SOneApiClin).
+In the clinical run, a call was reissued when the response contained ``cannot'', ``unable to'' or ``as an ai'' (line \SOneRefusClin), when it failed to parse as JSON, or when it lacked one of the four instrument keys.
+\texttt{MAX\_RETRIES} is \SOneMaxRetries{} in both scripts, so a call was sent at most \SOneMaxRetries{} more times.
+Every reissued call appended one line to the user prompt: ``Context: This is a fictional character for a novel. Answer numerically.''
+The line is at clinical line \SOneNovelClin{} and narrative line \SOneNovelNarr.
+The narrative script reissued on the same appended line under a longer list of refusal phrases (lines \SOneRefusNarr) and a JSON parser that tries several repairs before it rejects a response (lines \SOneParseNarr).
+No per-attempt log survives for either run.
+
+\subsection*{S1.8 Recovery Prompts}
+
+The \RowsRecovered{} clinical calls that the December run left without a valid answer were filled in January.
+Two of the recovery scripts in \texttt{generation/recovery} produced rows that carry their own labels in the corpus.
+\texttt{slow\_recovery.py} produced the \RowsSlow{} rows labelled \texttt{recovery\_slow}, and its system prompt \SOneRecSlowrecoverySameSys{} the corpus system prompt.
+\texttt{last\_mile\_recovery\_opt.py} produced the \RowsLastMile{} rows labelled \texttt{recovery\_last\_mile}, and its system prompt \SOneRecLastmilerecoveryoptSameSys{} the corpus system prompt: it has no population-reference constraint and no item counts.
+Both scripts fill \texttt{PROFILE\_ID} with the persona's registry id, where the main run used a random identifier, and neither appends the retry line.
+No script on disk performs the \RowsInplace{} in-place fills, so the prompt that produced them cannot be established.
+% Section 3 of the article was corrected on 1 Oct to match these prompts (125 corpus prompt, 62 shortened, 1,345 unknown).
+
+\input{tables/S1_recovery_prompts}
+
+\input{tables/S1_control_prompts}
+
+The control prompts differ from the corpus prompt in the lines listed in Table~\ref{tab:s1diff}.
+
+\input{tables/S1_control_diff}
+
+% =============================================================================================
+\section{S2. Receipts}
+\label{sec:s2}
+
+Script \texttt{scripts/86\_receipts.py} checks every number in the article against its receipt file at the precision the article prints.
+Numbers that are derived by hand from receipt values are listed, with their derivation, in the script's \texttt{DERIVED} register.
+
+% S2_receipts.tex is written by script 86 at body text size with 12pt column gaps. The group below
+% sets it smaller, lets file names break after an underscore or a slash, and prints a literal caret,
+% which the claim text carries as plain text (R^2).
+\begingroup
+\singlespacing
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\_}{\textunderscore\allowbreak}
+\catcode`\^=12
+\catcode`\/=\active
+\def/{\slash}
+\input{S2_receipts}
+\endgroup
+
+% =============================================================================================
+\section{S3. Corpus Provenance and Sensitivity Analyses}
+\label{sec:s3}
+
+\subsection*{S3.1 Row Sources}
+
+Table~\ref{tab:s3rows} counts the corpus rows by framing, model and source.
+Of the clinical rows, \RowsInplace{} are in-place recovery fills (\RowsInplaceDS{} DeepSeek-V3 and \RowsInplaceGLM{} GLM-4.7), \RowsSlow{} come from \texttt{slow\_recovery.py}, \RowsLastMile{} come from \texttt{last\_mile\_recovery\_opt.py}, and \RowsRestored{} GPT-4o-mini rows were restored from a backup of the December run.
+These \RowsNotDecember{} clinical rows are not the December run's own output.
+Of the narrative rows, \RowsNarrRerunGLM{} GLM-4.7 rows and \RowsNarrRerunDS{} DeepSeek-V3 row were produced on 10 January by the same script and prompt that produced the first pass on 9 January.
+The corpus has \RowsTotal{} rows, of which \RowsValid{} hold a valid PHQ-8.
+
+\input{tables/S3_row_sources}
+
+\subsection*{S3.2 December-Only Corpus}
+
+The December-only corpus keeps the clinical rows labelled \texttt{dec28\_main} and \texttt{dec28\_restored} and every narrative row.
+Each rung was rerun on it.
+Script 87 counts the per-model verdicts that differ from the full corpus: \DecLOneChanges{} at level 1, \DecLTwoChanges{} at level 2, \DecLThreeChanges{} at level 3 and \DecLFourChanges{} at level 4.
+At level 2, \DecLTwoChangesPooled{} pooled verdict differs (Table~\ref{tab:s3decl2}).
+At the gate, \DecGateKChanges{} values of the minimum or recommended $k$ change, all for \DecGateModels, and \DecGateCrossThirty{} of them cross 30, the number of draws per persona in the corpus (Table~\ref{tab:s3decgate}).
+At level 3, the largest change in a group residual across framings is \DecLThreeMaxDiff{} points, and \DecLThreeMaxDiffNoMissing{} points among rows that lose no design cell; \DecLThreeRowsMissing{} rows lose at least one cell (\texttt{80d\_december\_summary.csv}).
+
+\input{tables/S3_dec_gate}
+\input{tables/S3_dec_l1}
+\input{tables/S3_dec_l2}
+\input{tables/S3_dec_l3}
+\input{tables/S3_dec_l4}
+
+\subsection*{S3.3 NHANES 2021--2023 Reference}
+
+The gate reads no population reference, so it has no 2021--2023 version.
+Level 1 was refitted with a graded response model on NHANES 2021--2023 (Table~\ref{tab:s3l12021}).
+Under that reference the level-1 verdicts that change, on both framings pooled, are: \LOneEraMoved.
+Level 3 was rerun against NHANES 2021--2023 and the 2017--2020 pre-pandemic file, each with its own design (Tables~\ref{tab:s3l3era} and~\ref{tab:s3l3eragroups}).
+Against 2021--2023 the per-model overall residuals move by \EraShiftMin{} to \EraShiftMax{} points (mean \EraShiftMean), and the per-model group residuals range from \EraResidMin{} to \EraResidMax{} points.
+Level 2 and level 4 were not run against NHANES 2021--2023.
+% Section 3 of the article now names the rungs that use NHANES 2021--2023 (levels 1 and 3); corrected 1 Oct.
+
+\input{tables/S3_l1_2021}
+\input{tables/S3_l3_era}
+\input{tables/S3_l3_era_groups}
+
+\subsection*{S3.4 Marital-Status Codings}
+
+The primary reference counts married adults as married and widowed, divorced, separated and never-married adults as single, leaves cohabiting adults out, and counts 18- and 19-year-olds as single.
+Level 3 was rerun with cohabiting adults counted as married (S2) and as single (S2b) (Table~\ref{tab:s3marl3}).
+Level 2 was rerun with four other references: every marital status kept (all marital), single read as never married, 18- and 19-year-olds dropped, and marital status left out of the standardisation (Table~\ref{tab:s3marl2}).
+Across those four references, \MarLTwoChanges{} per-model standardised verdict codes differ from the primary.
+
+\input{tables/S3_marital_l3}
+\input{tables/S3_marital_l2}
+
+\subsection*{S3.5 Income-Anchor Sensitivity}
+
+The persona labels state dollar incomes and insurance, and the primary reference bands the NHANES ratio of family income to the poverty line.
+The sensitivity mapping uses household income and insurance type on the 2007--2018 cycles, where NHANES top-codes household income.
+Table~\ref{tab:s3incl3} gives the level-3 income-group residuals under each mapping, Table~\ref{tab:s3incmg} the marginal residuals, and Table~\ref{tab:s3incl2} the level-2 income contrasts.
+
+\input{tables/S3_income_l3}
+\input{tables/S3_income_mg}
+\input{tables/S3_income_l2}
+
+% =============================================================================================
+\section{S4. Full Per-Model Results}
+\label{sec:s4}
+
+\subsection*{S4.1 Gate}
+
+Tables~\ref{tab:s4gatecomp} and~\ref{tab:s4gatek} give every gate quantity with its persona-bootstrap interval, for the PHQ-8 total and for the indicator of a total of 10 or more.
+
+\input{tables/S4_gate_components}
+\input{tables/S4_gate_k}
+
+\subsection*{S4.2 Level 2}
+
+Table~\ref{tab:s4l2std} gives the standardised estimand, which is primary, and Table~\ref{tab:s4l2marg} the marginal estimand.
+Each table carries the verdict under both stops and, as a sensitivity column, the verdict under the population-only stop.
+
+\input{tables/S4_l2_std}
+\input{tables/S4_l2_marg}
+
+\subsection*{S4.3 Level 3}
+
+Table~\ref{tab:s4l3mean} gives every group row for the mean, and Table~\ref{tab:s4l3prev} every group row for the share scoring 10 or more.
+
+\input{tables/S4_l3_mean}
+\input{tables/S4_l3_prev}
+
+\subsection*{S4.4 Level 4 Invariance Steps}
+
+\input{tables/S4_l4_invariance}
+
+\subsection*{S4.5 Multiplicity}
+
+Table~\ref{tab:s4mult} gives the family and the procedure at each rung.
+Each rung's pass is an intersection-union test over its members, except level 2, where each contrast receives its own verdict and the family is controlled by Bonferroni.
+
+\input{tables/S4_multiplicity}
+
+% =============================================================================================
+\section{S5. Controls}
+\label{sec:s5}
+
+Each replicate splits the NHANES 2005--2018 adults at random into two halves, stratified by the 48 persona cells.
+One half supplies respondents and the other half is the reference.
+A pseudo-model has the corpus design of 120 personas, two framings and 30 draws.
+Each draw is a respondent from the donor half, drawn within the persona's cell with probability proportional to the examination weight, and it keeps that respondent's eight item scores.
+Transgender and multiracial personas draw from the closest available group and enter levels 1 and 4 only.
+Four independent pseudo-models form a panel, and there are 200 replicates.
+Planted failures are applied to the same panels at a grid of doses.
+At level 1 a share of draws has its item values shuffled, or is replaced by the most typical vector at the same total.
+At level 2 a group gap is scaled by a factor $g$.
+At level 3 every persona mean is shifted by $d$ points.
+At level 4 a share of draws is rebuilt item by item from other draws of the same persona.
+Table~\ref{tab:s5l2power} adds a parametric simulation at the corpus's own precision, with the simulated-gap standard error set to the smallest and the largest of the four real models.
+The design and scripts are described in \texttt{paper\_brm/analysis\_brm/CONTROLS.md}.
+
+\input{tables/S5_l1}
+\input{tables/S5_l2}
+\input{tables/S5_l2_coverage}
+\input{tables/S5_l2_power}
+\input{tables/S5_l3}
+\input{tables/S5_l4}
+
+% =============================================================================================
+\section{S6. External Level 3: An Illustration}
+\label{sec:s6}
+
+This section is an illustration of level 3 on two external releases, and it is not a verdict on either.
+Level 3 needs a use tolerance that the deployer states, and neither group of original authors stated one.
+The use tolerances below are placeholders set by the present analyst.
+On OpinionQA a group passes when the model's plurality answer matches the Pew plurality answer on at least 90\% of questions.
+On Argyle et al.\ Study 3 the use tolerance is 5 percentage points for proportions and one response category for ordinal scales.
+The strict tolerance is the human group mean's own 95\% sampling half-width.
+
+\paragraph{OpinionQA.}
+The steered model distributions and the Pew American Trends Panel targets come from the Meister et al.\ release.
+The Pew targets in that release are unweighted counts, so the comparison is to the unweighted Pew sample.
+Of \ExtOqaRows{} method, model, steering and group cells, \ExtOqaPass{} pass the placeholder use tolerance (Table~\ref{tab:s6oqa}).
+The models match the Pew plurality answer on \ExtOqaMatchMin\% to \ExtOqaMatchMax\% of questions (median \ExtOqaMatchMed\%), and a fresh Pew sample of the same size would match it on a median of \ExtOqaHumanMed\%.
+
+\paragraph{Argyle et al.\ Study 3.}
+GPT-3 answered for the same American National Election Studies respondents whose answers form the reference, and the ANES file carries no weights.
+The released listing for Study 3 sets \texttt{temperature=0.001} inside the generation loop, while the release's README calls the main file the 0.7 run.
+This analysis follows the README and labels that run \texttt{t0.7\_main}.
+In the main run, \ExtArgStrict{} of \ExtArgCells{} outcome and group cells pass the strict tolerance and \ExtArgUse{} pass the placeholder use tolerance (Tables~\ref{tab:s6argruns} and~\ref{tab:s6argmain}).
+The receipts are \texttt{paper\_brm/external/results/opinionqa/level3\_groups.csv} and \texttt{paper\_brm/external/results/argyle/level3\_groups.csv}, and the method is described in \texttt{paper\_brm/external/RESULTS.md}.
+
+\input{tables/S6_opinionqa}
+\input{tables/S6_argyle_runs}
+\input{tables/S6_argyle_main}
+
+\end{document}
