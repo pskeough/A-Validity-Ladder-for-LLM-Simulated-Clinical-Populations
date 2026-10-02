@@ -81,12 +81,38 @@ def region_reading(lo, hi):
     return "undetermined"
 
 
-def verdict_text(v):
+def three_way(v, lo, hi, unbounded):
+    """Article's per-contrast verdict (2 Oct 2026 rewrite): kept / not kept / unresolved, read
+    from the interval against the kept region [0.75, 1.25]. A stop is 'not read' unless the
+    interval already excludes kept (LADDER_SPEC stop 2), which 78c prints as the region verdict."""
+    if v in STOPS:
+        return "not read"
+    assert not unbounded, v
+    if lo >= BOUNDS[2] and hi <= BOUNDS[3]:
+        out = "kept"
+    elif hi < BOUNDS[2] or lo > BOUNDS[3]:
+        out = "not kept"
+    else:
+        out = "unresolved"
+    # consistency with 78c's region verdict
+    if out == "kept":
+        assert v == "kept", v
+    elif out == "unresolved":
+        assert v == "undetermined" or "kept" in v, v
+    else:
+        assert "kept" not in v, v
+    return out
+
+
+def verdict_text(v, lo=np.nan, hi=np.nan, unbounded=True):
     if v == "reference too imprecise":
-        return "stopped (imprecise reference)"
+        return "not read (imprecise reference)"
     if v == "no population gap":
-        return "stopped (no population gap)"
-    return v
+        return "not read (no population gap)"
+    t = three_way(v, lo, hi, unbounded)
+    if t == "not kept":
+        return f"not kept, {v}"
+    return t
 
 
 def load():
@@ -171,7 +197,7 @@ def build_rows(h):
                 clipped_lo=bool(draw_interval and r.ci_lo < XMIN),
                 clipped_hi=bool(draw_interval and r.ci_hi > XMAX),
                 r3_unstopped=r.r3_unstopped, verdict_78c=r.verdict,
-                verdict_printed=verdict_text(r.verdict),
+                verdict_printed=verdict_text(r.verdict, r.ci_lo, r.ci_hi, bool(r.ci_unbounded)),
                 verdict_popstop_78c=r.verdict_popstop,
                 k_rel_halfwidth=r.k_rel_halfwidth,
                 source="analysis/brm/l2_verdicts.csv analysis=headline estimand=standardised"))
@@ -186,7 +212,8 @@ def main():
     d, headers, ybot = build_rows(h)
     # the printed verdict must be 78c's verdict, row by row
     for r in d.itertuples():
-        assert r.verdict_printed == verdict_text(r.verdict_78c)
+        assert r.verdict_printed == verdict_text(r.verdict_78c, r.fieller_lo, r.fieller_hi,
+                                                 r.ci_unbounded)
 
     plt.rcParams.update({"font.family": "Arial", "font.size": FS, "pdf.fonttype": 42,
                          "ps.fonttype": 42, "axes.linewidth": 0.6, "xtick.major.width": 0.6,
@@ -200,18 +227,16 @@ def main():
     ax.set_xlim(XMIN, XMAX)
     ax.set_ylim(ybot + 0.55, ytop)
 
-    # region bands
-    edges = [XMIN] + list(BOUNDS) + [XMAX]
-    shades = ["#d9d9d9", "#f2f2f2", "#d9d9d9", "#f2f2f2", "#d9d9d9"]
-    for i, lab in enumerate(LABELS):
-        ax.axvspan(edges[i], edges[i + 1], color=shades[i], lw=0, zorder=0)
-        mid = 0.5 * (edges[i] + edges[i + 1])
-        wide = edges[i + 1] - edges[i] > 1.0
-        ax.text(mid, ytop - 0.15, lab, ha="center", va="top", fontsize=FS_MIN,
-                rotation=0 if wide else 90, color="0.2", zorder=6)
-    for b in BOUNDS:
-        ax.axvline(b, color="0.55", lw=0.5, zorder=1)
+    # the kept region is the only band that decides a verdict; the other boundaries only name
+    # the direction of a contrast that is not kept, so they are drawn as faint ticks
+    ax.axvspan(BOUNDS[2], BOUNDS[3], color="#cfe8d6", lw=0, zorder=0)
+    for b in BOUNDS[2:]:
+        ax.axvline(b, color="#2e7d4f", lw=0.7, zorder=1)
+    ax.axvline(0.0, color="0.55", lw=0.5, zorder=1)
     ax.plot([1.0, 1.0], [ybot, 0.75], color="0.35", lw=0.6, ls=(0, (2, 2)), zorder=1)
+    ax.text(1.0, ytop - 1.0, "kept region, 0.75 to 1.25", ha="center", va="center",
+            fontsize=FS_MIN, color="#1b5e36", fontweight="bold", zorder=6,
+            bbox=dict(boxstyle="square,pad=0.2", fc="white", ec="#2e7d4f", lw=0.5))
 
     tr_l = blended_transform_factory(fig.transFigure, ax.transData)
     tr_r = blended_transform_factory(ax.transAxes, ax.transData)
@@ -252,7 +277,7 @@ def main():
         elif not np.isnan(r.point_plotted):          # reference too imprecise
             ax.plot([r.ratio], [r.y], marker=mk, ms=4.6, mfc="white", mec=col, mew=1.0,
                     zorder=5)
-            ax.text(r.ratio + 0.2, r.y, "stopped", ha="left", va="center", fontsize=FS_MIN,
+            ax.text(r.ratio + 0.2, r.y, "not read", ha="left", va="center", fontsize=FS_MIN,
                     style="italic", color="0.15", zorder=5)
 
     # "no population gap" groups: one annotation over the group
@@ -263,9 +288,9 @@ def main():
         assert len(g) == 5, "partial no-population-gap group"
         r0 = g.iloc[0]
         ymid = g.y.mean()
-        txt = (f"No population gap: the standardised NHANES gap is {r0.nhanes_std_gap:.2f}\n"
-               f"and its 98.6% interval ({r0.nhanes_ci_lo:.2f} to {r0.nhanes_ci_hi:.2f}) covers 0,\n"
-               "so no ratio is defined; all five rows are stopped.")
+        txt = (f"Not read: the matched NHANES gap ({r0.nhanes_std_gap:.2f}, interval\n"
+               f"{r0.nhanes_ci_lo:.2f} to {r0.nhanes_ci_hi:.2f}) cannot be told from zero,\n"
+               "so no ratio is defined.")
         ax.text(4.6, ymid, txt.replace("-", "−"), ha="center", va="center", fontsize=FS_MIN,
                 color="0.1", zorder=6, linespacing=1.25,
                 bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="0.6", lw=0.5))
@@ -286,7 +311,7 @@ def main():
     handles.append(Line2D([], [], marker="o", color="0.15", lw=1.3, ms=4.6, mfc="white",
                           mec="0.15", mew=1.0, label="pooled, descriptive"))
     handles.append(Line2D([], [], marker="o", lw=0, ms=4.6, mfc="white", mec="0.15", mew=1.0,
-                          label="stopped (point, no interval)"))
+                          label="not read (point only)"))
     handles.append(Line2D([], [], marker=">", lw=0, color="0.15", ms=4.0, mew=0,
                           label="interval clipped"))
     fig.legend(handles=handles, loc="upper center", bbox_to_anchor=(0.5, 1.0), ncol=4,
@@ -294,8 +319,8 @@ def main():
                columnspacing=0.9, borderaxespad=0.15)
 
     os.makedirs(OUT, exist_ok=True)
-    fig.savefig(os.path.join(OUT, "fig2_level2.pdf"))
-    fig.savefig(os.path.join(OUT, "fig2_level2.png"), dpi=200)
+    fig.savefig(os.path.join(OUT, "figS_level2_intervals.pdf"))
+    fig.savefig(os.path.join(OUT, "figS_level2_intervals.png"), dpi=200)
     out = d.drop(columns=["y"]).copy()
     for c in out.columns:
         if out[c].dtype == float:

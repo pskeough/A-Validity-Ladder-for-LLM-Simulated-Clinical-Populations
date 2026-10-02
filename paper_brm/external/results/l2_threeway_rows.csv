@@ -1,0 +1,569 @@
+dataset,run,framing,family,contrast,ratio,ci_lo,ci_hi,verdict,outcome,label
+OpinionQA,all,,anthropic_haiku | express_distribution | persona,Republican - Democrat,1.10001562855383,0.791526381327823,1.421269888166701,kept or steepened,,unresolved
+OpinionQA,all,,anthropic_haiku | express_distribution | persona,Female - Male,0.8339188463494956,0.2290757066580288,1.4214760990744948,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | express_distribution | persona,Black - White,0.4252587237583086,0.0793007001242842,0.7671944619184574,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | express_distribution | persona,Hispanic - White,0.4636690218592706,0.0853326653407725,0.8407931105155423,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | express_distribution | persona,Asian - White,0.7687753401009378,0.3410382314062091,1.2157603545850948,attenuated or kept,,unresolved
+OpinionQA,all,,anthropic_haiku | express_distribution | persona,Less than high school - College graduate or some postgrad,0.4748576743010488,-0.3589561115971172,1.2497150732904327,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | express_distribution | persona,"Less than $30,000 - $100,000 or more",0.1106527545476318,-1.0334875817872295,1.202623582457685,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | express_distribution | persona,South - Northeast,0.9754724955365266,0.1137072773534534,1.8934109940419317,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | express_distribution | few-shot,Republican - Democrat,0.752031306249098,0.5743913049426576,0.9517086619110956,attenuated or kept,,unresolved
+OpinionQA,all,,anthropic_haiku | express_distribution | few-shot,Female - Male,0.3757902627428825,-0.0934839115134756,0.798778473673211,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | express_distribution | few-shot,Black - White,0.4632698391432872,0.1865309927029313,0.7620520185952017,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | express_distribution | few-shot,Hispanic - White,0.4554451353738063,0.1519534833800881,0.7817634613281284,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | express_distribution | few-shot,Asian - White,0.5123982635839642,0.2327499452390323,0.8021188087127369,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | express_distribution | few-shot,Less than high school - College graduate or some postgrad,0.4632711618138498,0.0191232674446752,0.8836030702457163,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | express_distribution | few-shot,"Less than $30,000 - $100,000 or more",0.0026292950783061,-0.5839634478551458,0.5106688612260628,undetermined,,not kept
+OpinionQA,all,,anthropic_haiku | express_distribution | few-shot,South - Northeast,0.896530688900978,0.1933362482064133,1.6607463627595158,undetermined,,unresolved
+OpinionQA,all,,anthropic_opus | express_distribution | persona,Republican - Democrat,1.1764018433064642,0.9568204100356764,1.430004500770354,reference too imprecise,,not read
+OpinionQA,all,,anthropic_opus | express_distribution | persona,Female - Male,1.0354066313002106,0.402766487752463,1.6939194080762516,reference too imprecise,,not read
+OpinionQA,all,,anthropic_opus | express_distribution | persona,Black - White,0.7012371219785491,0.3148946378244325,1.095928420459979,reference too imprecise,,not read
+OpinionQA,all,,anthropic_opus | express_distribution | persona,Hispanic - White,0.8707590738862411,0.4582115477769128,1.335375490999798,reference too imprecise,,not read
+OpinionQA,all,,anthropic_opus | express_distribution | persona,Asian - White,0.7042303271183212,0.255307238753523,1.1154887410948344,attenuated or kept,,unresolved
+OpinionQA,all,,anthropic_opus | express_distribution | persona,Less than high school - College graduate or some postgrad,0.7551412739913612,0.0212432515140426,1.4762449686145074,undetermined,,unresolved
+OpinionQA,all,,anthropic_opus | express_distribution | persona,"Less than $30,000 - $100,000 or more",1.098865409689958,0.036793642874021,2.199054294517389,undetermined,,unresolved
+OpinionQA,all,,anthropic_opus | express_distribution | persona,South - Northeast,1.9684922713722035,1.0819749561155063,3.020068489520204,reference too imprecise,,not read
+OpinionQA,all,,anthropic_opus | express_distribution | few-shot,Republican - Democrat,1.088312938502232,0.927744522955982,1.2676533059717696,kept or steepened,,unresolved
+OpinionQA,all,,anthropic_opus | express_distribution | few-shot,Female - Male,0.91152871557437,0.5552981326367561,1.2653068439712516,undetermined,,unresolved
+OpinionQA,all,,anthropic_opus | express_distribution | few-shot,Black - White,0.6903528589466918,0.4414649578963092,0.9509889782659344,attenuated or kept,,unresolved
+OpinionQA,all,,anthropic_opus | express_distribution | few-shot,Hispanic - White,0.6869181832159054,0.4024382688534215,0.99575336928242,attenuated or kept,,unresolved
+OpinionQA,all,,anthropic_opus | express_distribution | few-shot,Asian - White,0.7281920282943851,0.4724259225771015,0.986026183563406,attenuated or kept,,unresolved
+OpinionQA,all,,anthropic_opus | express_distribution | few-shot,Less than high school - College graduate or some postgrad,0.6693082397821833,0.190385016576948,1.126693178006522,undetermined,,unresolved
+OpinionQA,all,,anthropic_opus | express_distribution | few-shot,"Less than $30,000 - $100,000 or more",0.5652073586412556,-0.0196682080685303,1.113510153631485,undetermined,,unresolved
+OpinionQA,all,,anthropic_opus | express_distribution | few-shot,South - Northeast,1.563741509821979,0.8862518435523906,2.2818028848737244,kept or steepened,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | persona,Republican - Democrat,0.4957698763413825,0.2243313819138804,0.7789837349434905,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | persona,Female - Male,0.4702124315759432,-0.0808492663270195,1.037471383482341,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | persona,Black - White,0.3713285662356742,-0.1124900779558328,0.8799459720830284,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | persona,Hispanic - White,0.4565546605087103,0.0258302101178705,0.9017196390405626,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | persona,Asian - White,0.4016367199324713,0.0064411983760969,0.8006215716794963,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | persona,Less than high school - College graduate or some postgrad,0.3016063530876022,-0.6989349879543091,1.225938888898615,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | persona,"Less than $30,000 - $100,000 or more",0.1255104644734154,-0.9775067866464942,1.1897304754240885,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | persona,South - Northeast,0.0492556200770304,-0.8026592573144362,0.8249070356622739,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | few-shot,Republican - Democrat,0.3209178353654279,0.0392635994587311,0.6138943622536623,missing or attenuated,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | few-shot,Female - Male,0.5758176734895906,-0.0442326596382125,1.209319895834816,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | few-shot,Black - White,0.1887231056859734,-0.3461506632582823,0.6733281984048712,undetermined,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | few-shot,Hispanic - White,-0.0350949544333291,-0.6701613029852674,0.5683890964400666,undetermined,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | few-shot,Asian - White,0.2760172030388003,-0.1722100632072844,0.7496136682849858,missing or attenuated,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | few-shot,Less than high school - College graduate or some postgrad,0.3754797457083628,-0.1986991137211249,0.9336440376698552,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | few-shot,"Less than $30,000 - $100,000 or more",0.2737433233017718,-0.6156477583907669,1.1776064602162677,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | express_distribution | few-shot,South - Northeast,0.6732016147628673,-0.4299891033278554,1.744936079201137,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | express_distribution | persona,Republican - Democrat,0.9653206321600054,0.7857304127899275,1.157686392620377,kept,,kept
+OpinionQA,all,,gpt-4 | express_distribution | persona,Female - Male,0.9353050927150618,0.5216803179213286,1.3493085896409054,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | express_distribution | persona,Black - White,0.620227391948448,0.3914139530722051,0.856481980174908,attenuated or kept,,unresolved
+OpinionQA,all,,gpt-4 | express_distribution | persona,Hispanic - White,0.4299434058364385,0.1594736572840774,0.7041186190990791,missing or attenuated,,not kept
+OpinionQA,all,,gpt-4 | express_distribution | persona,Asian - White,0.6234246727475172,0.33705489463244,0.91673185399786,attenuated or kept,,unresolved
+OpinionQA,all,,gpt-4 | express_distribution | persona,Less than high school - College graduate or some postgrad,0.4784724542753798,-0.1712598722377623,1.098785703920126,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | express_distribution | persona,"Less than $30,000 - $100,000 or more",0.5041139271590316,-0.1568804554887885,1.1598197072605174,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | express_distribution | persona,South - Northeast,1.2045248224404377,0.3266651166822525,2.062029847204372,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | express_distribution | few-shot,Republican - Democrat,0.8189188989726159,0.6483823046427778,1.006939175441273,attenuated or kept,,unresolved
+OpinionQA,all,,gpt-4 | express_distribution | few-shot,Female - Male,0.7344992842467989,0.4790551094167797,0.989792634682468,attenuated or kept,,unresolved
+OpinionQA,all,,gpt-4 | express_distribution | few-shot,Black - White,0.461155153856257,0.2034490537807465,0.7232369505082873,missing or attenuated,,not kept
+OpinionQA,all,,gpt-4 | express_distribution | few-shot,Hispanic - White,0.3637963811667514,0.1050022660292037,0.6175221364509169,missing or attenuated,,not kept
+OpinionQA,all,,gpt-4 | express_distribution | few-shot,Asian - White,0.5620391381578309,0.3561902520507427,0.7736858362890536,attenuated or kept,,unresolved
+OpinionQA,all,,gpt-4 | express_distribution | few-shot,Less than high school - College graduate or some postgrad,0.5360310227837155,0.1849501098739782,0.8681437177474718,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | express_distribution | few-shot,"Less than $30,000 - $100,000 or more",0.3203165255109588,-0.0798003867291552,0.7134561142135799,missing or attenuated,,not kept
+OpinionQA,all,,gpt-4 | express_distribution | few-shot,South - Northeast,0.4268297115793402,-0.070301223598745,0.9014295333524264,undetermined,,unresolved
+OpinionQA,all,,llama3-70b | express_distribution | persona,Republican - Democrat,0.8397189482386969,0.6464583890113703,1.0397129324667025,attenuated or kept,,unresolved
+OpinionQA,all,,llama3-70b | express_distribution | persona,Female - Male,0.7827559333889078,0.3987547664768084,1.1506032858138395,attenuated or kept,,unresolved
+OpinionQA,all,,llama3-70b | express_distribution | persona,Black - White,0.4718249087037175,0.2183177627480054,0.754457411675275,undetermined,,unresolved
+OpinionQA,all,,llama3-70b | express_distribution | few-shot,Republican - Democrat,0.6250331177161275,0.4607749779828276,0.8002666164617837,attenuated or kept,,unresolved
+OpinionQA,all,,llama3-70b | express_distribution | few-shot,Female - Male,0.7642932741048792,0.4445195226949023,1.068088300422427,attenuated or kept,,unresolved
+OpinionQA,all,,llama3-70b | express_distribution | few-shot,Black - White,0.4530276839395484,0.2155042712547383,0.7122119913579574,missing or attenuated,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | persona,Republican - Democrat,0.3039406113428019,0.0931220010336271,0.5219450808607466,missing or attenuated,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | persona,Female - Male,0.4997114977923996,-0.1157478763188926,1.1764645018636626,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | persona,Black - White,-0.1449055049974286,-0.605111190431531,0.324651458859791,undetermined,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | persona,Hispanic - White,-0.2250328485267706,-0.6605993410334479,0.2269670843986751,reversed or missing,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | persona,Asian - White,0.0211559059987127,-0.3354153313984019,0.3788085857524139,undetermined,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | persona,Less than high school - College graduate or some postgrad,-0.1409397812555435,-1.1220127884634192,0.7374095764720832,undetermined,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | persona,"Less than $30,000 - $100,000 or more",-0.940850132540462,-1.990977242326136,-0.0344043754484244,reversed or missing,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | persona,South - Northeast,0.1959765787338025,-0.6011475653894051,1.0577269479202098,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | few-shot,Republican - Democrat,0.2898001210241515,0.0212450271552025,0.5562058691453688,missing or attenuated,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | few-shot,Female - Male,0.4887808010420408,-0.2941119296478244,1.2283110082879716,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | few-shot,Black - White,-0.1138432536252162,-0.6959364415399114,0.4557853895367076,undetermined,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | few-shot,Hispanic - White,0.1339439538742731,-0.6110947495061899,0.9235700532248108,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | few-shot,Asian - White,0.0277079828680088,-0.6668252334964115,0.69503324349813,undetermined,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | few-shot,Less than high school - College graduate or some postgrad,0.2960125391463226,-0.336561302284365,0.9235405503255912,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | few-shot,"Less than $30,000 - $100,000 or more",0.0714166801459026,-0.9660263512290788,1.151516614925998,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | model_logprobs | few-shot,South - Northeast,0.1191748128074233,-0.8026429361349863,1.0204415754732767,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | persona,Republican - Democrat,1.5987459920762646,1.1861377353474172,2.034884565197371,kept or steepened,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | persona,Female - Male,1.290367128518745,0.3598364270778863,2.241658431983549,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | persona,Black - White,0.4607074474093935,-0.1783738307121002,1.0977756323319108,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | persona,Hispanic - White,0.8074875447473472,0.2351804599413566,1.444709550281137,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | persona,Asian - White,0.7811811896003629,0.2082674196581604,1.3361601979194238,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | persona,Less than high school - College graduate or some postgrad,-0.0813573305462671,-1.4551002041965684,1.2383364134680976,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | persona,"Less than $30,000 - $100,000 or more",0.4838868579148556,-1.4691989788399722,2.4064954081124244,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | persona,South - Northeast,1.278768741467217,-0.159465685637736,2.773037648189109,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | few-shot,Republican - Democrat,1.3453290500600552,1.0251149074360533,1.6878314871128983,kept or steepened,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | few-shot,Female - Male,1.149827078143237,0.3470325329314963,1.9755147625172056,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | few-shot,Black - White,0.719802042885317,0.1232797917843095,1.356466828473952,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | few-shot,Hispanic - White,1.0797285050836307,0.366957347079861,1.8156446060777525,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | few-shot,Asian - White,0.8294715530534907,0.1674995769509213,1.4687874740772455,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | few-shot,Less than high school - College graduate or some postgrad,0.5130774566900029,-0.3028581618796829,1.2737822578190223,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | few-shot,"Less than $30,000 - $100,000 or more",0.8928098947584527,-0.3283234995414337,2.2112529716001657,undetermined,,unresolved
+OpinionQA,all,,gpt-4 | model_logprobs | few-shot,South - Northeast,0.3962502965463044,-0.7421065832900862,1.5156940268503458,undetermined,,unresolved
+OpinionQA,all,,llama3-70b | model_logprobs | persona,Republican - Democrat,1.3479678937038624,0.9861130274759846,1.7180137909221085,kept or steepened,,unresolved
+OpinionQA,all,,llama3-70b | model_logprobs | persona,Female - Male,1.0044970353038964,0.2478004995868291,1.7868963984420487,undetermined,,unresolved
+OpinionQA,all,,llama3-70b | model_logprobs | persona,Black - White,0.0737165908185471,-0.2683710934528053,0.3972157078745674,undetermined,,not kept
+OpinionQA,all,,llama3-70b | model_logprobs | few-shot,Republican - Democrat,1.141085008665872,0.8615832410620813,1.4188113091985144,kept or steepened,,unresolved
+OpinionQA,all,,llama3-70b | model_logprobs | few-shot,Female - Male,1.406925835130587,0.5775687803425203,2.240084407873318,undetermined,,unresolved
+OpinionQA,all,,llama3-70b | model_logprobs | few-shot,Black - White,0.9858336552917176,0.4688398107820125,1.5339445857081733,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | sequence | persona,Republican - Democrat,1.2423845994658995,0.9045064197862072,1.609254685354745,kept or steepened,,unresolved
+OpinionQA,all,,anthropic_haiku | sequence | persona,Female - Male,0.7735585654834937,-0.0246447666005345,1.5175720860500328,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | sequence | persona,Black - White,0.4130715881586756,0.0457166972272975,0.7920503521768429,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | sequence | persona,Hispanic - White,0.341969468201548,-0.0602436858412991,0.7846656037604206,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | sequence | persona,Asian - White,0.594962781767693,0.1820238057488681,1.0336794972514385,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | sequence | few-shot,Republican - Democrat,0.6760812190463387,0.433108754052239,0.9139470611125046,attenuated or kept,,unresolved
+OpinionQA,all,,anthropic_haiku | sequence | few-shot,Female - Male,0.5928998209245235,-0.0396928675323529,1.1965091421834992,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | sequence | few-shot,Black - White,0.633460783380535,0.3272162368964272,0.9578028727310328,attenuated or kept,,unresolved
+OpinionQA,all,,anthropic_haiku | sequence | few-shot,Hispanic - White,0.501083700170632,0.1214114320695257,0.9178039797407402,undetermined,,unresolved
+OpinionQA,all,,anthropic_haiku | sequence | few-shot,Asian - White,0.595988205344365,0.2188914956049918,1.0012764452939404,undetermined,,unresolved
+OpinionQA,all,,anthropic_opus | sequence | persona,Republican - Democrat,1.575447199513901,1.3120317293362938,1.86379015100158,steepened,,not kept
+OpinionQA,all,,anthropic_opus | sequence | persona,Female - Male,0.8727418530142831,0.3782273333730082,1.343055075724188,undetermined,,unresolved
+OpinionQA,all,,anthropic_opus | sequence | persona,Black - White,0.6810860107068937,0.289262436870384,1.089400306324723,attenuated or kept,,unresolved
+OpinionQA,all,,anthropic_opus | sequence | persona,Hispanic - White,0.7168413687525766,0.2882057781002449,1.1902114910176462,attenuated or kept,,unresolved
+OpinionQA,all,,anthropic_opus | sequence | persona,Asian - White,0.4971600226279745,0.0969826306957153,0.9296361429741278,undetermined,,unresolved
+OpinionQA,all,,anthropic_opus | sequence | few-shot,Republican - Democrat,1.2923514114934955,1.080625397385461,1.5242599013187286,kept or steepened,,unresolved
+OpinionQA,all,,anthropic_opus | sequence | few-shot,Female - Male,0.996435511849902,0.5201908668472718,1.4732693022691046,undetermined,,unresolved
+OpinionQA,all,,anthropic_opus | sequence | few-shot,Black - White,0.7677361997443375,0.4108847555470477,1.146108984451226,attenuated or kept,,unresolved
+OpinionQA,all,,anthropic_opus | sequence | few-shot,Hispanic - White,0.7872385861705539,0.3860586922179065,1.2198700114724528,attenuated or kept,,unresolved
+OpinionQA,all,,anthropic_opus | sequence | few-shot,Asian - White,0.6374776664766758,0.3044073856170153,0.9809120131129174,attenuated or kept,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | sequence | persona,Republican - Democrat,0.1696284297035041,0.0317486904831249,0.3160066981290598,missing or attenuated,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | sequence | persona,Female - Male,0.4752700316725089,-0.0810691977405513,1.036351678092546,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | sequence | persona,Black - White,0.1428495091325001,-0.1351741202656576,0.4122037941687867,missing or attenuated,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | sequence | persona,Hispanic - White,-0.4475991467959762,-0.8862111113657545,-0.0405974174020192,reversed or missing,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | sequence | persona,Asian - White,-0.1027010599410845,-0.4332583838856772,0.2168035381751309,reversed or missing,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | sequence | few-shot,Republican - Democrat,0.2126523671527465,-0.0819389331273103,0.4946859291838663,missing or attenuated,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | sequence | few-shot,Female - Male,0.4216783795062728,-0.3442306156336639,1.1755288606943042,undetermined,,unresolved
+OpinionQA,all,,gpt-3.5-turbo-0125 | sequence | few-shot,Black - White,0.2580642932796927,-0.1572096027170534,0.6724214717975165,missing or attenuated,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | sequence | few-shot,Hispanic - White,-0.2213102474157573,-0.6281906080549633,0.2047701364800346,reversed or missing,,not kept
+OpinionQA,all,,gpt-3.5-turbo-0125 | sequence | few-shot,Asian - White,0.050692049568026,-0.3970412584893523,0.5050114043192085,undetermined,,not kept
+OpinionQA,all,,gpt-4 | sequence | persona,Republican - Democrat,1.0048025575609811,0.7631786336789192,1.2526805368032117,kept or steepened,,unresolved
+OpinionQA,all,,gpt-4 | sequence | persona,Female - Male,0.6420765932260032,0.290855820747459,1.0016183351743797,attenuated or kept,,unresolved
+OpinionQA,all,,gpt-4 | sequence | persona,Black - White,0.1702182295871818,-0.1622652171188216,0.5144314782268973,missing or attenuated,,not kept
+OpinionQA,all,,gpt-4 | sequence | persona,Hispanic - White,0.2351940826477795,-0.0585952924224727,0.552161887764018,missing or attenuated,,not kept
+OpinionQA,all,,gpt-4 | sequence | persona,Asian - White,0.3759469374541351,0.0477860822044371,0.7282286555521809,missing or attenuated,,not kept
+OpinionQA,all,,gpt-4 | sequence | few-shot,Republican - Democrat,0.8425536899149466,0.6449614155759447,1.0409571733338598,attenuated or kept,,unresolved
+OpinionQA,all,,gpt-4 | sequence | few-shot,Female - Male,0.7344433262293749,0.3605428715723709,1.12684828899882,attenuated or kept,,unresolved
+OpinionQA,all,,gpt-4 | sequence | few-shot,Black - White,0.5800673470652834,0.322634740223855,0.8417747948541363,attenuated or kept,,unresolved
+OpinionQA,all,,gpt-4 | sequence | few-shot,Hispanic - White,0.6687001978267098,0.3985073717079257,0.969764786326664,attenuated or kept,,unresolved
+OpinionQA,all,,gpt-4 | sequence | few-shot,Asian - White,0.4432926680055954,0.1630341771507619,0.7198126488961626,missing or attenuated,,not kept
+OpinionQA,all,,llama3-70b | sequence | persona,Republican - Democrat,1.0898496340238142,0.6961521945472677,1.4703954366734793,undetermined,,unresolved
+OpinionQA,all,,llama3-70b | sequence | persona,Female - Male,1.591705054207896,0.7421936212009225,2.465137215645344,undetermined,,unresolved
+OpinionQA,all,,llama3-70b | sequence | persona,Black - White,0.282585530034536,-0.2233624440997065,0.775056851589255,undetermined,,unresolved
+OpinionQA,all,,llama3-70b | sequence | few-shot,Republican - Democrat,0.9122736195552468,0.6609292039992682,1.1743697928133183,attenuated or kept,,unresolved
+OpinionQA,all,,llama3-70b | sequence | few-shot,Female - Male,0.8672870157670873,0.325142700640663,1.4015037029101334,undetermined,,unresolved
+OpinionQA,all,,llama3-70b | sequence | few-shot,Black - White,0.5160548436456626,0.0304120625169367,0.9784150273694596,undetermined,,unresolved
+Argyle,t0.7_main,,t0.7_main,Female - Male,1.519466403162056,0.8592837392891264,4.558526269819342,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Black - White,0.5299733464861943,0.4310197796919506,0.6351596593091765,attenuated,,not kept
+Argyle,t0.7_main,,t0.7_main,Hispanic - White,0.5406335541714604,0.2585152288069973,0.894999435142606,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Asian - White,0.8084739719515094,0.3814385405064958,2.063352410946349,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,HS or less - Graduate,0.4118225939925296,0.0224504009627195,0.8242138363857372,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,18-29 - 65+,0.313295729250604,-0.8375372668823908,1.1460983772861717,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Republican - Democrat,0.5996116979989209,0.5315279000201503,0.6697218363313072,attenuated,,not kept
+Argyle,t0.7_main,,t0.7_main,Female - Male,1.2676124651388387,0.8167690410918789,2.532127258440656,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Black - White,0.866564417177914,0.6743316700744106,1.0867320848647428,attenuated or kept,,unresolved
+Argyle,t0.7_main,,t0.7_main,Hispanic - White,0.5506691157176591,-0.2353331913485518,1.1538144994598891,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,HS or less - Graduate,0.743977864583333,0.2599853857315907,1.253204521713212,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,18-29 - 65+,0.3108578664134224,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,Republican - Democrat,0.9159176827825006,0.8468647920915657,0.9885242392229264,kept,,kept
+Argyle,t0.7_main,,t0.7_main,Female - Male,-0.7877498249205315,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,Black - White,-0.2964295599224988,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,Hispanic - White,0.4817445565586828,-0.1206236511187086,1.24047762383948,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Asian - White,-0.0245795601552391,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,HS or less - Graduate,0.7708407489143586,0.2975978586347883,1.4901955721490794,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,18-29 - 65+,0.3419903057866073,-0.0488583192673494,0.7675387115124976,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Republican - Democrat,1.9221859452736303,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,Female - Male,-0.4925950912941371,-2.7970318111050925,0.271893566714298,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Black - White,-0.1627671746231778,-0.6315486628640153,0.2612745593889432,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Hispanic - White,-1.7595703402261842,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,Asian - White,4.556743162527537,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,HS or less - Graduate,10.978820500819102,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,18-29 - 65+,0.9901957094467444,0.0835666345066015,10.23804473469043,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Republican - Democrat,0.1759385454094905,-0.124017443196867,0.5153870802629429,missing or attenuated,,not kept
+Argyle,t0.7_main,,t0.7_main,Female - Male,0.9481597657883792,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,Black - White,-0.0174769251274532,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,Hispanic - White,-0.1454753068798157,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,Asian - White,0.4749339452092886,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,HS or less - Graduate,0.3478333780520525,0.1124681953355917,0.62655718661504,missing or attenuated,,not kept
+Argyle,t0.7_main,,t0.7_main,18-29 - 65+,0.6340966751235138,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,Republican - Democrat,0.4223696545756082,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,Female - Male,0.8607477040760265,0.4132858948843116,1.6392200838446285,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Black - White,0.3831211900821088,0.2364980257845763,0.5333275697412363,missing or attenuated,,not kept
+Argyle,t0.7_main,,t0.7_main,Hispanic - White,0.6005379372605484,0.31161617198219,0.943572804358987,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Asian - White,0.8990739287395988,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,HS or less - Graduate,0.0308310866908574,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,18-29 - 65+,2.23724074560252,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,Female - Male,1.3789307209472426,0.7018981406436309,3.5443929409575525,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Black - White,1.726703935325974,1.0471429924576634,3.372406510920307,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Hispanic - White,1.0655498482372128,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,Asian - White,1.5640407449822178,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,HS or less - Graduate,0.0212352295679001,-0.664202289492974,0.4633362945073102,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,18-29 - 65+,0.4812400915976754,0.0441147266675169,0.9326015980456642,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Republican - Democrat,0.924706337130333,0.8417240739091869,1.0138257044125936,kept,,kept
+Argyle,t0.7_main,,t0.7_main,Female - Male,0.4619800621060064,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,Black - White,-0.0811194410073514,-0.2201788447873233,0.0476940202637635,missing,,not kept
+Argyle,t0.7_main,,t0.7_main,Hispanic - White,0.3503592210465753,-0.2857996607787849,1.6067222017807612,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Asian - White,0.3344032852288157,-0.4244028305212158,1.979618776644248,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,HS or less - Graduate,0.1755792609933232,-0.3038481796584953,0.9193107567920484,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,18-29 - 65+,0.278941727954711,0.08736179504809,0.5231325984465948,missing or attenuated,,not kept
+Argyle,t0.7_main,,t0.7_main,Republican - Democrat,-0.0559821838339018,-0.1631168880602102,0.0489820581597977,missing,,not kept
+Argyle,t0.7_main,,t0.7_main,Female - Male,0.6341773281965698,-0.0148754887555481,1.9159041951857956,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Black - White,1.1213968957871396,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,Hispanic - White,2.4326023269440027,,,no population gap,,not read
+Argyle,t0.7_main,,t0.7_main,Asian - White,1.1980694980694988,0.3740544950634701,6.205456883262944,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,HS or less - Graduate,0.36006237986436,0.0956474041344439,0.6448902829307134,missing or attenuated,,not kept
+Argyle,t0.7_main,,t0.7_main,18-29 - 65+,0.8596100742715675,0.450437822598658,1.5213093270494702,reference too imprecise,,not read
+Argyle,t0.7_main,,t0.7_main,Republican - Democrat,22.39069767441899,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Female - Male,1.420521231757897,0.8268428000644571,4.4875984446976895,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,Black - White,0.5731659695260696,0.4921775019864712,0.6608440232289677,attenuated,,not kept
+Argyle,t0.001,,t0.001,Hispanic - White,0.6616722738535542,0.4620778921878951,0.9247446232843766,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,Asian - White,0.8899359702571517,0.4616931255950443,2.4354623254490133,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,HS or less - Graduate,0.6273617118142498,0.2959021063027254,1.0465370490415908,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,18-29 - 65+,0.4078576604138153,-0.2092620347472515,0.9448361092845958,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,Republican - Democrat,0.714819102083692,0.656769071943553,0.7749420616215512,attenuated or kept,,unresolved
+Argyle,t0.001,,t0.001,Female - Male,1.228420705572042,0.9625711703523449,1.991614386851936,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,Black - White,0.9284088640447192,0.836416173412017,1.0203158276548054,kept,,kept
+Argyle,t0.001,,t0.001,Hispanic - White,0.4974504249291773,,,no population gap,,not read
+Argyle,t0.001,,t0.001,HS or less - Graduate,0.681684733514002,-0.4296123611549012,0.9806026887756664,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,18-29 - 65+,0.5992499999999983,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Republican - Democrat,1.081581648591958,1.0410809266922685,1.1253610851145015,kept,,kept
+Argyle,t0.001,,t0.001,Female - Male,0.8593977266605669,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Black - White,-0.0965956269028518,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Hispanic - White,0.4836032926181612,0.0295776436122674,1.0738975489699831,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,Asian - White,0.8718467011642966,,,no population gap,,not read
+Argyle,t0.001,,t0.001,HS or less - Graduate,0.7477041361144732,0.4669008164848974,1.2306556867211271,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,18-29 - 65+,0.522350547543534,0.2587576025846562,0.8376409888298776,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,Republican - Democrat,1.3606187810945245,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Female - Male,-0.1567162029836985,-1.579784561646755,0.6097922334922911,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,Black - White,-0.2660570604661949,-0.7050876295715951,0.1020621259769975,reversed or missing,,not kept
+Argyle,t0.001,,t0.001,Hispanic - White,-3.1966575797084147,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Asian - White,3.9638009049774063,,,no population gap,,not read
+Argyle,t0.001,,t0.001,HS or less - Graduate,18.90019614630212,,,no population gap,,not read
+Argyle,t0.001,,t0.001,18-29 - 65+,1.657793371724954,0.6805064567511169,24.163583657399982,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,Republican - Democrat,0.2588158522199629,0.0104355416493316,0.5531752744634643,missing or attenuated,,not kept
+Argyle,t0.001,,t0.001,Female - Male,-0.3912799050534108,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Black - White,-0.2177216040875309,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Hispanic - White,0.2609362263711512,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Asian - White,0.3086795355993835,,,no population gap,,not read
+Argyle,t0.001,,t0.001,HS or less - Graduate,0.2265936670617098,0.1003783224118519,0.3794224151399748,missing or attenuated,,not kept
+Argyle,t0.001,,t0.001,18-29 - 65+,0.2568767525704362,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Republican - Democrat,0.1995473289306401,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Female - Male,1.33882209387807,0.9314302988528362,2.177400878922382,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,Black - White,0.6601276959883337,0.5197666392047601,0.80842342391771,attenuated or kept,,unresolved
+Argyle,t0.001,,t0.001,Hispanic - White,0.8337234470955405,0.553345927565702,1.168034730399201,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,Asian - White,0.8381005649085536,,,no population gap,,not read
+Argyle,t0.001,,t0.001,HS or less - Graduate,2.8515593815968705,,,no population gap,,not read
+Argyle,t0.001,,t0.001,18-29 - 65+,3.150946080523545,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Female - Male,1.174094218458694,0.7170558146744973,2.169821521337047,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,Black - White,1.9149797884368165,1.2666487647361762,3.6017998729966108,steepened,,not kept
+Argyle,t0.001,,t0.001,Hispanic - White,1.715053364406902,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Asian - White,0.6731027611298117,,,no population gap,,not read
+Argyle,t0.001,,t0.001,HS or less - Graduate,0.1298389859540942,-0.4487504977757593,0.4723646984934034,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,18-29 - 65+,0.5793034051800676,0.1485567269545208,0.9849338061631624,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,Republican - Democrat,1.171367212106119,1.104421504082878,1.2446569168870778,kept,,kept
+Argyle,t0.001,,t0.001,Female - Male,0.0561650115694371,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Black - White,-0.0154943830735346,-0.0397447544030252,0.006670820691268,missing,,not kept
+Argyle,t0.001,,t0.001,Hispanic - White,0.1131729036076507,-0.077942842011096,0.5527767031148013,missing or attenuated,,not kept
+Argyle,t0.001,,t0.001,Asian - White,0.1183913022562177,-0.1140132335376356,0.7045570455753933,missing or attenuated,,not kept
+Argyle,t0.001,,t0.001,HS or less - Graduate,-0.0501621149769296,-0.1993668452432379,0.0253781574878461,missing,,not kept
+Argyle,t0.001,,t0.001,18-29 - 65+,0.0669260637827495,0.0149282678263431,0.1296901727338448,missing,,not kept
+Argyle,t0.001,,t0.001,Republican - Democrat,-0.0074645133814648,-0.0320139082711048,0.0164256202042815,missing,,not kept
+Argyle,t0.001,,t0.001,Female - Male,0.5565012276878082,-0.1009467343114107,1.546343105560826,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,Black - White,0.7209352818371603,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Hispanic - White,2.9129278939249788,,,no population gap,,not read
+Argyle,t0.001,,t0.001,Asian - White,1.1959273195565123,0.4178206100776194,5.886943767679684,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,HS or less - Graduate,0.8407888407888408,0.5883200683979282,1.1782322840109734,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,18-29 - 65+,1.0492553937543836,0.6513782354102963,1.767838085482209,reference too imprecise,,not read
+Argyle,t0.001,,t0.001,Republican - Democrat,-148.02853745543987,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Female - Male,1.2672099307549407,0.7013411204256145,3.1111733855769,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Black - White,0.3700376845616851,0.2078550152368471,0.536926381125245,missing or attenuated,,not kept
+Argyle,t1.0,,t1.0,Hispanic - White,0.4701752294671593,0.1806656247807332,0.7949084595725175,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Asian - White,0.3457551385165323,-0.3789120092452154,1.4230427481040635,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,HS or less - Graduate,0.3883071821168667,-0.1362774284079663,0.9353530821855351,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,18-29 - 65+,-0.0267865461660298,-1.5946537719549545,0.7548473521622235,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Republican - Democrat,0.5102376191355243,0.4369631517879435,0.5860723559538514,attenuated,,not kept
+Argyle,t1.0,,t1.0,Female - Male,1.328502187019742,0.7871200628916427,3.072327300922093,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Black - White,0.5329759962712654,0.2785179989161169,0.7857578534553051,attenuated or kept,,unresolved
+Argyle,t1.0,,t1.0,Hispanic - White,0.6975235211419917,0.1511757435911352,1.3854441044736272,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,HS or less - Graduate,0.6013160880417515,-0.2697747000704391,1.5946175752381295,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,18-29 - 65+,-0.1081364829396319,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Republican - Democrat,0.7576815204624586,0.6708817479450079,0.8478749394671867,attenuated or kept,,unresolved
+Argyle,t1.0,,t1.0,Female - Male,-0.1321614583333286,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Black - White,0.0361879425687543,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Hispanic - White,0.5982108833168194,-0.0505603114458694,1.6710103927348576,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Asian - White,2.8855117340286847,,,no population gap,,not read
+Argyle,t1.0,,t1.0,HS or less - Graduate,0.5180585499706,-0.0461442855937316,1.2206579091443914,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,18-29 - 65+,0.4199011254864837,-0.0135987232715774,0.9001225789890781,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Republican - Democrat,2.378525233248514,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Female - Male,-0.2582506346642034,-1.809916268852165,0.649016218876612,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Black - White,0.0896973282888045,-0.3256931811454266,0.538584975965107,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Hispanic - White,-0.2541581249867916,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Asian - White,5.592962576412706,,,no population gap,,not read
+Argyle,t1.0,,t1.0,HS or less - Graduate,3.397101449275365,,,no population gap,,not read
+Argyle,t1.0,,t1.0,18-29 - 65+,0.5944285290921656,-0.389237261449223,8.36406593692868,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Republican - Democrat,-0.0717320907878728,-0.4013308073270745,0.2455016457163234,reversed or missing,,not kept
+Argyle,t1.0,,t1.0,Female - Male,-0.0207012504816302,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Black - White,-0.7688766272954554,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Hispanic - White,0.1691078052697988,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Asian - White,-0.4437994278983678,,,no population gap,,not read
+Argyle,t1.0,,t1.0,HS or less - Graduate,0.3830743306496911,0.0958945365434034,0.7101043909933922,missing or attenuated,,not kept
+Argyle,t1.0,,t1.0,18-29 - 65+,0.2743806386939694,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Republican - Democrat,0.3337677214591225,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Female - Male,0.7087732227940066,0.2298527653109921,1.4868610368763595,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Black - White,0.3113610607717155,0.1618068384407187,0.467999703294384,missing or attenuated,,not kept
+Argyle,t1.0,,t1.0,Hispanic - White,0.1934623916377593,-0.1436598660372423,0.5065022453312091,missing or attenuated,,not kept
+Argyle,t1.0,,t1.0,Asian - White,0.2007289058018676,,,no population gap,,not read
+Argyle,t1.0,,t1.0,HS or less - Graduate,-0.1383531354893712,,,no population gap,,not read
+Argyle,t1.0,,t1.0,18-29 - 65+,1.5506979896743684,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Female - Male,1.20696961176032,0.5498882164612207,2.8647934403245348,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Black - White,1.5799885423173652,0.8989457966684606,3.287468561820426,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Hispanic - White,1.4724385556791773,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Asian - White,1.3751480245451644,,,no population gap,,not read
+Argyle,t1.0,,t1.0,HS or less - Graduate,0.2428028946048571,-0.3385629257442808,0.734025943453725,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,18-29 - 65+,0.2961844972075243,-0.4096123474639599,0.8457445860644536,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Republican - Democrat,0.8208315433866771,0.7355305368369407,0.9111725592778006,attenuated or kept,,unresolved
+Argyle,t1.0,,t1.0,Female - Male,0.9350642080150228,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Black - White,0.0147228267827422,-0.2123432624043795,0.2237981740264763,missing,,not kept
+Argyle,t1.0,,t1.0,Hispanic - White,0.7482186228305802,-0.0651191399502471,4.38095323374443,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Asian - White,0.3616054792408216,-0.322331568006436,2.572099296558307,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,HS or less - Graduate,0.2911332991978155,-0.3380995027469049,1.4385523396621975,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,18-29 - 65+,0.122500479612768,-0.1613251113094365,0.42389233026084,missing or attenuated,,not kept
+Argyle,t1.0,,t1.0,Republican - Democrat,-0.0603326060230154,-0.2076035232936454,0.0823491867116424,missing,,not kept
+Argyle,t1.0,,t1.0,Female - Male,0.0573404772573418,-0.8931989561464366,0.7942424487416907,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Black - White,-0.2064893791894196,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Hispanic - White,2.025350096104815,,,no population gap,,not read
+Argyle,t1.0,,t1.0,Asian - White,0.7472491197183093,-0.2762231314399594,7.682553294577399,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,HS or less - Graduate,0.2184376474625715,-0.0807459992384646,0.529521882861833,missing or attenuated,,not kept
+Argyle,t1.0,,t1.0,18-29 - 65+,0.6522498625173881,0.2468665618980942,1.274404933671549,reference too imprecise,,not read
+Argyle,t1.0,,t1.0,Republican - Democrat,-9.394510673689776,,,no population gap,,not read
+Bisbee,rr1,demogs,demogs,female - male,2.1362248729053386,1.6367200437958374,3.0775187203786207,steepened,Democratic Party,not kept
+Bisbee,rr1,demogs,demogs,non-Hispanic black - non-Hispanic white,1.0580808676692546,0.9418981323994918,1.2058705556816165,kept,Democratic Party,kept
+Bisbee,rr1,demogs,demogs,Hispanic - non-Hispanic white,1.7267291062839614,1.3064801774802812,2.5403091688572346,steepened,Democratic Party,not kept
+Bisbee,rr1,demogs,demogs,a high school diploma - a bachelor's degree or more,0.8336261499138486,0.5136372087802352,1.6964786609039106,reference too imprecise,Democratic Party,not read
+Bisbee,rr1,demogs,demogs,18-29 - 65+,4.114997820398429,,,no population gap,Democratic Party,not read
+Bisbee,rr1,demogs,demogs,Republican - Democrat,0.1363341970244875,0.1128082146921465,0.1600266584571497,missing,Democratic Party,not kept
+Bisbee,rr1,demogs,demogs,"$30,000 - more than $150,000",2.749537645820745,,,no population gap,Democratic Party,not read
+Bisbee,rr1,demogs,demogs,female - male,9.618508248791658,,,no population gap,Republican Party,not read
+Bisbee,rr1,demogs,demogs,non-Hispanic black - non-Hispanic white,1.4248585861436076,1.196641302342313,1.7579327293678495,kept or steepened,Republican Party,unresolved
+Bisbee,rr1,demogs,demogs,Hispanic - non-Hispanic white,3.201303402745701,1.8998392470094705,10.22186633133479,steepened,Republican Party,not kept
+Bisbee,rr1,demogs,demogs,a high school diploma - a bachelor's degree or more,0.0775076068648978,-0.0175563606087275,0.1735226180242841,missing,Republican Party,not kept
+Bisbee,rr1,demogs,demogs,18-29 - 65+,2.0046920016393823,1.0978247009135045,10.46806606586038,reference too imprecise,Republican Party,not read
+Bisbee,rr1,demogs,demogs,Republican - Democrat,0.1219976855031211,0.1015324777025822,0.1428228180744902,missing,Republican Party,not kept
+Bisbee,rr1,demogs,demogs,"$30,000 - more than $150,000",-3.520348998390868,,,no population gap,Republican Party,not read
+Bisbee,rr1,demogs,demogs,female - male,1.5487638336326366,1.2009856604582736,2.171289946272966,reference too imprecise,Black Americans,not read
+Bisbee,rr1,demogs,demogs,non-Hispanic black - non-Hispanic white,1.4669341666313096,1.2563969097772822,1.7619224082690816,steepened,Black Americans,not kept
+Bisbee,rr1,demogs,demogs,Hispanic - non-Hispanic white,3.648333510167737,1.9281627415864648,36.11707618371667,steepened,Black Americans,not kept
+Bisbee,rr1,demogs,demogs,a high school diploma - a bachelor's degree or more,1.2502304658730647,0.8744044191781194,2.10996530336734,reference too imprecise,Black Americans,not read
+Bisbee,rr1,demogs,demogs,18-29 - 65+,3.238192931827599,,,no population gap,Black Americans,not read
+Bisbee,rr1,demogs,demogs,Republican - Democrat,0.4688496409083753,0.3790037846446156,0.5810571459429569,attenuated,Black Americans,not kept
+Bisbee,rr1,demogs,demogs,"$30,000 - more than $150,000",1.0034593115492945,,,no population gap,Black Americans,not read
+Bisbee,rr1,demogs,demogs,female - male,-1.432053567073748,-4.395396108905159,-0.8309094279575698,reversed,White Americans,not kept
+Bisbee,rr1,demogs,demogs,non-Hispanic black - non-Hispanic white,1.527218168932872,0.9322666594067786,4.052873858842369,reference too imprecise,White Americans,not read
+Bisbee,rr1,demogs,demogs,Hispanic - non-Hispanic white,1.8058113905669195,0.9092775326151824,66.71736505464737,reference too imprecise,White Americans,not read
+Bisbee,rr1,demogs,demogs,a high school diploma - a bachelor's degree or more,0.2827292386021227,,,no population gap,White Americans,not read
+Bisbee,rr1,demogs,demogs,18-29 - 65+,0.6019257828508561,0.4450847318429142,0.8922621053369035,reference too imprecise,White Americans,not read
+Bisbee,rr1,demogs,demogs,Republican - Democrat,0.4446849963788646,0.2824683365038853,0.7834908537378488,reference too imprecise,White Americans,not read
+Bisbee,rr1,demogs,demogs,"$30,000 - more than $150,000",3.1783689042552723,,,no population gap,White Americans,not read
+Bisbee,rr1,demogs,demogs,female - male,1.3184616901633306,,,no population gap,Asian Americans,not read
+Bisbee,rr1,demogs,demogs,non-Hispanic black - non-Hispanic white,-7.6668816348093936,,,no population gap,Asian Americans,not read
+Bisbee,rr1,demogs,demogs,Hispanic - non-Hispanic white,2.0015179548988518,,,no population gap,Asian Americans,not read
+Bisbee,rr1,demogs,demogs,a high school diploma - a bachelor's degree or more,0.8323948559953301,0.617997129171923,1.25194452776287,reference too imprecise,Asian Americans,not read
+Bisbee,rr1,demogs,demogs,18-29 - 65+,-3.952134881381865,,,no population gap,Asian Americans,not read
+Bisbee,rr1,demogs,demogs,Republican - Democrat,0.2269774025573931,0.1327552468494938,0.3828597783388528,missing or attenuated,Asian Americans,not kept
+Bisbee,rr1,demogs,demogs,"$30,000 - more than $150,000",1.8493651411320875,,,no population gap,Asian Americans,not read
+Bisbee,rr1,demogs,demogs,female - male,1.809538441036802,1.4546125756923225,2.3844411587733028,steepened,Gays and Lesbians,not kept
+Bisbee,rr1,demogs,demogs,non-Hispanic black - non-Hispanic white,-19.797391136078765,,,no population gap,Gays and Lesbians,not read
+Bisbee,rr1,demogs,demogs,Hispanic - non-Hispanic white,7.855863408987389,,,no population gap,Gays and Lesbians,not read
+Bisbee,rr1,demogs,demogs,a high school diploma - a bachelor's degree or more,0.8760784521851399,0.687117284776834,1.157292337887821,attenuated or kept,Gays and Lesbians,unresolved
+Bisbee,rr1,demogs,demogs,18-29 - 65+,1.2303100312041544,0.9358449644676892,1.7518391454950482,reference too imprecise,Gays and Lesbians,not read
+Bisbee,rr1,demogs,demogs,Republican - Democrat,0.2791423585297954,0.2250385707708525,0.3372567195766078,missing or attenuated,Gays and Lesbians,not kept
+Bisbee,rr1,demogs,demogs,"$30,000 - more than $150,000",0.1410624926943031,-0.1847432346021028,0.5182119227045194,missing or attenuated,Gays and Lesbians,not kept
+Bisbee,rr1,demogs,demogs,female - male,2.006969622436545,1.502450839717048,3.010478332335724,steepened,Muslims,not kept
+Bisbee,rr1,demogs,demogs,non-Hispanic black - non-Hispanic white,2.626342696510352,1.937179910680345,4.074043408337445,steepened,Muslims,not kept
+Bisbee,rr1,demogs,demogs,Hispanic - non-Hispanic white,4.157372679860807,2.357132761835694,18.22156557512304,steepened,Muslims,not kept
+Bisbee,rr1,demogs,demogs,a high school diploma - a bachelor's degree or more,0.658503500315848,0.5056797050457935,0.8811585224610194,attenuated or kept,Muslims,unresolved
+Bisbee,rr1,demogs,demogs,18-29 - 65+,1.4521205650000288,0.9840740473756454,2.681537353032973,reference too imprecise,Muslims,not read
+Bisbee,rr1,demogs,demogs,Republican - Democrat,0.2828128523459445,0.2289047701423889,0.3410832161620807,missing or attenuated,Muslims,not kept
+Bisbee,rr1,demogs,demogs,"$30,000 - more than $150,000",-0.4957040510902138,,,no population gap,Muslims,not read
+Bisbee,rr1,demogs,demogs,female - male,0.0259095943001175,-0.0518376451154308,0.1045828322668051,missing,Jews,not kept
+Bisbee,rr1,demogs,demogs,non-Hispanic black - non-Hispanic white,0.3147100810046056,0.1273621818341466,1.172759639455668,reference too imprecise,Jews,not read
+Bisbee,rr1,demogs,demogs,Hispanic - non-Hispanic white,0.6084250218369764,,,no population gap,Jews,not read
+Bisbee,rr1,demogs,demogs,a high school diploma - a bachelor's degree or more,0.5468808126320335,0.3973574667865352,0.8508000046559505,reference too imprecise,Jews,not read
+Bisbee,rr1,demogs,demogs,18-29 - 65+,0.6502836766964245,0.391995750365577,1.6951493091337917,reference too imprecise,Jews,not read
+Bisbee,rr1,demogs,demogs,Republican - Democrat,-0.0305959827886481,-0.1937498199318093,0.0870298095263109,missing,Jews,not kept
+Bisbee,rr1,demogs,demogs,"$30,000 - more than $150,000",1.9746006329663848,1.0115222246507414,43.18595706938922,reference too imprecise,Jews,not read
+Bisbee,rr1,demogs,demogs,female - male,2.5694871119992726,1.944372403267543,3.781307586717829,steepened,Liberals,not kept
+Bisbee,rr1,demogs,demogs,non-Hispanic black - non-Hispanic white,2.466329919920514,1.968190831724285,3.30412480982847,steepened,Liberals,not kept
+Bisbee,rr1,demogs,demogs,Hispanic - non-Hispanic white,3.817024633132919,2.476468342862059,8.375949470645962,steepened,Liberals,not kept
+Bisbee,rr1,demogs,demogs,a high school diploma - a bachelor's degree or more,0.5767656804660946,0.3986528267625625,0.8305349325110967,reference too imprecise,Liberals,not read
+Bisbee,rr1,demogs,demogs,18-29 - 65+,2.978412695249636,1.6985553589270657,12.176724164552397,steepened,Liberals,not kept
+Bisbee,rr1,demogs,demogs,Republican - Democrat,0.1973019512578044,0.163753196042413,0.23163100203603,missing,Liberals,not kept
+Bisbee,rr1,demogs,demogs,"$30,000 - more than $150,000",-4.231151292507978,,,no population gap,Liberals,not read
+Bisbee,rr1,demogs,demogs,female - male,9.895411279297823,,,no population gap,Conservatives,not read
+Bisbee,rr1,demogs,demogs,non-Hispanic black - non-Hispanic white,3.201998512245888,2.243301625365395,5.578035727064315,steepened,Conservatives,not kept
+Bisbee,rr1,demogs,demogs,Hispanic - non-Hispanic white,4.366879329353353,2.377301397080341,25.93206492165502,steepened,Conservatives,not kept
+Bisbee,rr1,demogs,demogs,a high school diploma - a bachelor's degree or more,0.1229236940856061,-0.0088057656833128,0.2658598793922442,missing or attenuated,Conservatives,not kept
+Bisbee,rr1,demogs,demogs,18-29 - 65+,0.9833495451892836,0.7166784445063208,1.4860812445188112,reference too imprecise,Conservatives,not read
+Bisbee,rr1,demogs,demogs,Republican - Democrat,0.1675782467326605,0.1375769545300658,0.1986069776914498,missing,Conservatives,not kept
+Bisbee,rr1,demogs,demogs,"$30,000 - more than $150,000",-3.3917681344332733,,,no population gap,Conservatives,not read
+Bisbee,rr1,demogs,demogs,female - male,-1.259411659241397,-4.098175959445513,-0.7233394571246964,reversed,Christians,not kept
+Bisbee,rr1,demogs,demogs,non-Hispanic black - non-Hispanic white,-2.5890907167128034,,,no population gap,Christians,not read
+Bisbee,rr1,demogs,demogs,Hispanic - non-Hispanic white,2.2345792959619555,,,no population gap,Christians,not read
+Bisbee,rr1,demogs,demogs,a high school diploma - a bachelor's degree or more,-0.0828325735055846,-0.3329502601752711,0.0534044373839773,reversed or missing,Christians,not kept
+Bisbee,rr1,demogs,demogs,18-29 - 65+,0.4777716550807653,0.3709013687737006,0.6543101229856156,attenuated,Christians,not kept
+Bisbee,rr1,demogs,demogs,Republican - Democrat,0.1166452228376209,0.0865023420257015,0.1500382741362977,missing,Christians,not kept
+Bisbee,rr1,demogs,demogs,"$30,000 - more than $150,000",-2.3004560546896005,,,no population gap,Christians,not read
+Bisbee,rr1,full,full,female - male,1.136278291337863,0.9412886333673084,1.426760377013358,reference too imprecise,Democratic Party,not read
+Bisbee,rr1,full,full,non-Hispanic black - non-Hispanic white,0.823412284983838,0.7398900712776734,0.9189917868163524,attenuated or kept,Democratic Party,unresolved
+Bisbee,rr1,full,full,Hispanic - non-Hispanic white,0.746353821712533,0.5583828508230521,0.97670646967646,reference too imprecise,Democratic Party,not read
+Bisbee,rr1,full,full,a high school diploma - a bachelor's degree or more,1.6439708323314992,1.2241112000763128,2.8183415818835504,reference too imprecise,Democratic Party,not read
+Bisbee,rr1,full,full,18-29 - 65+,2.70495308994637,,,no population gap,Democratic Party,not read
+Bisbee,rr1,full,full,Republican - Democrat,1.121034228902535,1.0886573506498007,1.155356296292588,kept,Democratic Party,kept
+Bisbee,rr1,full,full,"$30,000 - more than $150,000",0.2474890316133057,,,no population gap,Democratic Party,not read
+Bisbee,rr1,full,full,female - male,4.921155868679031,,,no population gap,Republican Party,not read
+Bisbee,rr1,full,full,non-Hispanic black - non-Hispanic white,1.1214419110544882,0.9694110056116136,1.331467832039293,kept or steepened,Republican Party,unresolved
+Bisbee,rr1,full,full,Hispanic - non-Hispanic white,1.511342915081104,1.0202846293435466,3.890985441392887,reference too imprecise,Republican Party,not read
+Bisbee,rr1,full,full,a high school diploma - a bachelor's degree or more,0.5691563815104945,0.4364510936038374,0.6998509933508965,attenuated,Republican Party,not kept
+Bisbee,rr1,full,full,18-29 - 65+,1.5515237418616208,0.989624895194754,5.648823446801751,reference too imprecise,Republican Party,not read
+Bisbee,rr1,full,full,Republican - Democrat,1.0538728130313162,1.0211406246351291,1.0887438711425617,kept,Republican Party,kept
+Bisbee,rr1,full,full,"$30,000 - more than $150,000",-0.5159529806550125,,,no population gap,Republican Party,not read
+Bisbee,rr1,full,full,female - male,0.612024929659488,0.4387897430335021,0.8744561975125623,reference too imprecise,Black Americans,not read
+Bisbee,rr1,full,full,non-Hispanic black - non-Hispanic white,0.9577042857428316,0.8137964951926477,1.1599827534989982,kept,Black Americans,kept
+Bisbee,rr1,full,full,Hispanic - non-Hispanic white,1.257851754081127,0.6323011030944558,11.17831326056868,reference too imprecise,Black Americans,not read
+Bisbee,rr1,full,full,a high school diploma - a bachelor's degree or more,0.9340956483159272,0.6334171961057173,1.574631644532576,reference too imprecise,Black Americans,not read
+Bisbee,rr1,full,full,18-29 - 65+,1.563596612593085,,,no population gap,Black Americans,not read
+Bisbee,rr1,full,full,Republican - Democrat,1.9104872791966971,1.6496298662042077,2.2698114574539647,steepened,Black Americans,not kept
+Bisbee,rr1,full,full,"$30,000 - more than $150,000",1.3444169001127422,,,no population gap,Black Americans,not read
+Bisbee,rr1,full,full,female - male,-0.3668468938031676,-1.2034776058327403,-0.1167384754656645,reversed or missing,White Americans,not kept
+Bisbee,rr1,full,full,non-Hispanic black - non-Hispanic white,0.8913059671269361,0.5290225849745082,2.528748094802292,reference too imprecise,White Americans,not read
+Bisbee,rr1,full,full,Hispanic - non-Hispanic white,1.048756227518822,0.5129181797918617,56.51666911391238,reference too imprecise,White Americans,not read
+Bisbee,rr1,full,full,a high school diploma - a bachelor's degree or more,-0.0972700875197154,,,no population gap,White Americans,not read
+Bisbee,rr1,full,full,18-29 - 65+,0.4418607183621814,0.3128028026432459,0.6627355053141335,attenuated,White Americans,not kept
+Bisbee,rr1,full,full,Republican - Democrat,2.3486768167978536,1.6520286017763304,4.03241115579681,steepened,White Americans,not kept
+Bisbee,rr1,full,full,"$30,000 - more than $150,000",1.7042900721751213,,,no population gap,White Americans,not read
+Bisbee,rr1,full,full,female - male,0.7801973140285497,,,no population gap,Asian Americans,not read
+Bisbee,rr1,full,full,non-Hispanic black - non-Hispanic white,-2.1615874805673405,,,no population gap,Asian Americans,not read
+Bisbee,rr1,full,full,Hispanic - non-Hispanic white,0.1618478854688201,,,no population gap,Asian Americans,not read
+Bisbee,rr1,full,full,a high school diploma - a bachelor's degree or more,0.5633862658099954,0.4107188192446128,0.8487740078068315,reference too imprecise,Asian Americans,not read
+Bisbee,rr1,full,full,18-29 - 65+,0.9437298711414408,,,no population gap,Asian Americans,not read
+Bisbee,rr1,full,full,Republican - Democrat,1.1487401836494189,0.8477387210005192,1.7719828902062085,reference too imprecise,Asian Americans,not read
+Bisbee,rr1,full,full,"$30,000 - more than $150,000",0.997626933716668,,,no population gap,Asian Americans,not read
+Bisbee,rr1,full,full,female - male,0.7614776953530857,0.5822571062322554,0.9888718731945412,attenuated or kept,Gays and Lesbians,unresolved
+Bisbee,rr1,full,full,non-Hispanic black - non-Hispanic white,-15.153827065861488,,,no population gap,Gays and Lesbians,not read
+Bisbee,rr1,full,full,Hispanic - non-Hispanic white,3.6538753965940094,,,no population gap,Gays and Lesbians,not read
+Bisbee,rr1,full,full,a high school diploma - a bachelor's degree or more,0.7270255196754553,0.5544929430066763,0.9471216932054702,attenuated or kept,Gays and Lesbians,unresolved
+Bisbee,rr1,full,full,18-29 - 65+,0.7183484427432358,0.5100443311151168,1.0028798727267618,reference too imprecise,Gays and Lesbians,not read
+Bisbee,rr1,full,full,Republican - Democrat,1.8313952145795052,1.6816671953854463,2.0111415115310414,steepened,Gays and Lesbians,not kept
+Bisbee,rr1,full,full,"$30,000 - more than $150,000",0.206046842453027,-0.3212222432245125,0.6358930928767804,reference too imprecise,Gays and Lesbians,not read
+Bisbee,rr1,full,full,female - male,1.046100431901592,0.7664327274009716,1.513339596502979,reference too imprecise,Muslims,not read
+Bisbee,rr1,full,full,non-Hispanic black - non-Hispanic white,1.605609785310866,1.1662889753168262,2.532044373676962,reference too imprecise,Muslims,not read
+Bisbee,rr1,full,full,Hispanic - non-Hispanic white,1.7086000524877885,0.9630030617196184,6.382857150710119,reference too imprecise,Muslims,not read
+Bisbee,rr1,full,full,a high school diploma - a bachelor's degree or more,0.7909193926099867,0.6080706424580986,1.0341110356923449,attenuated or kept,Muslims,unresolved
+Bisbee,rr1,full,full,18-29 - 65+,0.8418771214545328,0.5187685252232055,1.5124120959887166,reference too imprecise,Muslims,not read
+Bisbee,rr1,full,full,Republican - Democrat,1.7153751891463331,1.5711188448264943,1.8887396657747424,steepened,Muslims,not kept
+Bisbee,rr1,full,full,"$30,000 - more than $150,000",0.42991731408729,,,no population gap,Muslims,not read
+Bisbee,rr1,full,full,female - male,0.3293968691635702,0.2131671331074536,0.5413323475412765,missing or attenuated,Jews,not kept
+Bisbee,rr1,full,full,non-Hispanic black - non-Hispanic white,0.4829775299896158,0.2506210552255081,1.6755689853727826,reference too imprecise,Jews,not read
+Bisbee,rr1,full,full,Hispanic - non-Hispanic white,1.1776761067869703,,,no population gap,Jews,not read
+Bisbee,rr1,full,full,a high school diploma - a bachelor's degree or more,0.5378349055286514,0.3909671303268779,0.8163607034367719,reference too imprecise,Jews,not read
+Bisbee,rr1,full,full,18-29 - 65+,0.525263351288516,0.3120427208159854,1.2818846538484243,reference too imprecise,Jews,not read
+Bisbee,rr1,full,full,Republican - Democrat,0.1902799517528744,0.0627547063735208,0.4772694018731662,missing or attenuated,Jews,not kept
+Bisbee,rr1,full,full,"$30,000 - more than $150,000",1.17892337489516,0.598602673466485,26.620526390149383,reference too imprecise,Jews,not read
+Bisbee,rr1,full,full,female - male,1.2270615426198457,0.9953875336498446,1.5767027429444145,reference too imprecise,Liberals,not read
+Bisbee,rr1,full,full,non-Hispanic black - non-Hispanic white,1.6593874702851892,1.3457242763793678,2.1634500205834994,steepened,Liberals,not kept
+Bisbee,rr1,full,full,Hispanic - non-Hispanic white,1.4482081942252627,1.0040020863504964,2.592847826194394,reference too imprecise,Liberals,not read
+Bisbee,rr1,full,full,a high school diploma - a bachelor's degree or more,0.9841438393377018,0.7879308952876216,1.2372611735350134,reference too imprecise,Liberals,not read
+Bisbee,rr1,full,full,18-29 - 65+,1.6690431919889344,1.050022531786364,5.091733049259575,reference too imprecise,Liberals,not read
+Bisbee,rr1,full,full,Republican - Democrat,1.3648822941578729,1.3122596987756845,1.4221073209156738,steepened,Liberals,not kept
+Bisbee,rr1,full,full,"$30,000 - more than $150,000",-0.0863796529330204,,,no population gap,Liberals,not read
+Bisbee,rr1,full,full,female - male,4.584222022492274,,,no population gap,Conservatives,not read
+Bisbee,rr1,full,full,non-Hispanic black - non-Hispanic white,2.2302790023917147,1.6007972232090488,3.778894062265649,steepened,Conservatives,not kept
+Bisbee,rr1,full,full,Hispanic - non-Hispanic white,1.8232024239457945,1.0760050399777343,9.57306965263598,reference too imprecise,Conservatives,not read
+Bisbee,rr1,full,full,a high school diploma - a bachelor's degree or more,0.6991281309160106,0.5205542233567161,0.90590360223678,reference too imprecise,Conservatives,not read
+Bisbee,rr1,full,full,18-29 - 65+,0.676406373579926,0.4749257272671576,0.9134738913113384,reference too imprecise,Conservatives,not read
+Bisbee,rr1,full,full,Republican - Democrat,1.2538766529376248,1.1989498929581317,1.314384486300765,kept or steepened,Conservatives,unresolved
+Bisbee,rr1,full,full,"$30,000 - more than $150,000",-0.4623718334185797,,,no population gap,Conservatives,not read
+Bisbee,rr1,full,full,female - male,-0.3839918364258246,-1.787774660931637,-0.1012616236196263,reversed or missing,Christians,not kept
+Bisbee,rr1,full,full,non-Hispanic black - non-Hispanic white,-2.020106208511102,,,no population gap,Christians,not read
+Bisbee,rr1,full,full,Hispanic - non-Hispanic white,1.4199625287587117,,,no population gap,Christians,not read
+Bisbee,rr1,full,full,a high school diploma - a bachelor's degree or more,0.066047061959929,-0.2035205805889371,0.2835343444436144,missing or attenuated,Christians,not kept
+Bisbee,rr1,full,full,18-29 - 65+,0.3932695569650181,0.2936233316889218,0.5358770397567064,attenuated,Christians,not kept
+Bisbee,rr1,full,full,Republican - Democrat,0.786287422445415,0.7034715314092239,0.8897787848471649,attenuated or kept,Christians,unresolved
+Bisbee,rr1,full,full,"$30,000 - more than $150,000",-1.2525182700347857,,,no population gap,Christians,not read
+Bisbee,rr1,pol,pol,female - male,0.7798352826328325,0.6065945949369912,0.9781266238844027,reference too imprecise,Democratic Party,not read
+Bisbee,rr1,pol,pol,non-Hispanic black - non-Hispanic white,0.7260581433544863,0.6448993946715432,0.8167282773506256,attenuated or kept,Democratic Party,unresolved
+Bisbee,rr1,pol,pol,Hispanic - non-Hispanic white,0.5942090118765047,0.4026282661017319,0.7842691956197941,reference too imprecise,Democratic Party,not read
+Bisbee,rr1,pol,pol,a high school diploma - a bachelor's degree or more,1.3957726902435694,1.0374810474347749,2.3673708523478325,reference too imprecise,Democratic Party,not read
+Bisbee,rr1,pol,pol,18-29 - 65+,2.50933783415848,,,no population gap,Democratic Party,not read
+Bisbee,rr1,pol,pol,Republican - Democrat,1.0827495850360862,1.0532838651297447,1.1138857801365396,kept,Democratic Party,kept
+Bisbee,rr1,pol,pol,"$30,000 - more than $150,000",0.1991824737446295,,,no population gap,Democratic Party,not read
+Bisbee,rr1,pol,pol,female - male,3.995560655347968,,,no population gap,Republican Party,not read
+Bisbee,rr1,pol,pol,non-Hispanic black - non-Hispanic white,0.9409024966529984,0.8074895483304267,1.1202426017454672,kept,Republican Party,kept
+Bisbee,rr1,pol,pol,Hispanic - non-Hispanic white,1.1459388134705757,0.7568759959200319,2.6501293633969776,reference too imprecise,Republican Party,not read
+Bisbee,rr1,pol,pol,a high school diploma - a bachelor's degree or more,0.5739479158052955,0.4477389272100101,0.7010430761318986,attenuated,Republican Party,not kept
+Bisbee,rr1,pol,pol,18-29 - 65+,1.374880559786755,0.8654810725407339,4.718166080921298,reference too imprecise,Republican Party,not read
+Bisbee,rr1,pol,pol,Republican - Democrat,1.0328956957013462,1.0013361887252965,1.066503817262645,kept,Republican Party,kept
+Bisbee,rr1,pol,pol,"$30,000 - more than $150,000",-0.2121712206448611,,,no population gap,Republican Party,not read
+Bisbee,rr1,pol,pol,female - male,0.3962398672911363,0.2354055375274765,0.6076733659749615,missing or attenuated,Black Americans,not kept
+Bisbee,rr1,pol,pol,non-Hispanic black - non-Hispanic white,0.5363845906860434,0.4426924050255428,0.658084448341221,attenuated,Black Americans,not kept
+Bisbee,rr1,pol,pol,Hispanic - non-Hispanic white,1.0047854571097772,0.4549301669545986,9.131940128633705,reference too imprecise,Black Americans,not read
+Bisbee,rr1,pol,pol,a high school diploma - a bachelor's degree or more,0.6408245650131377,0.3861998837948365,1.1091495160732496,reference too imprecise,Black Americans,not read
+Bisbee,rr1,pol,pol,18-29 - 65+,1.1486887216092936,,,no population gap,Black Americans,not read
+Bisbee,rr1,pol,pol,Republican - Democrat,2.120326761604104,1.827834491924106,2.5235611496948183,steepened,Black Americans,not kept
+Bisbee,rr1,pol,pol,"$30,000 - more than $150,000",-0.2728644434404609,,,no population gap,Black Americans,not read
+Bisbee,rr1,pol,pol,female - male,-0.1108422585829693,-0.4264828277933955,0.0332823729804867,reversed or missing,White Americans,not kept
+Bisbee,rr1,pol,pol,non-Hispanic black - non-Hispanic white,0.3720302905918507,0.2138699050093157,1.032839078734792,reference too imprecise,White Americans,not read
+Bisbee,rr1,pol,pol,Hispanic - non-Hispanic white,0.3958864944877758,0.1594625310296388,13.000355697260671,reference too imprecise,White Americans,not read
+Bisbee,rr1,pol,pol,a high school diploma - a bachelor's degree or more,-0.5022019459402549,,,no population gap,White Americans,not read
+Bisbee,rr1,pol,pol,18-29 - 65+,0.1146959068416118,0.0476426185333419,0.2036119026165358,missing,White Americans,not kept
+Bisbee,rr1,pol,pol,Republican - Democrat,1.326491932760297,0.940251069279093,2.2354476299063712,reference too imprecise,White Americans,not read
+Bisbee,rr1,pol,pol,"$30,000 - more than $150,000",0.2102427209082136,,,no population gap,White Americans,not read
+Bisbee,rr1,pol,pol,female - male,0.552785821408726,,,no population gap,Asian Americans,not read
+Bisbee,rr1,pol,pol,non-Hispanic black - non-Hispanic white,-7.749206764342446,,,no population gap,Asian Americans,not read
+Bisbee,rr1,pol,pol,Hispanic - non-Hispanic white,0.381836379329519,,,no population gap,Asian Americans,not read
+Bisbee,rr1,pol,pol,a high school diploma - a bachelor's degree or more,0.2581506702364783,0.1576015496069302,0.4184049246452639,missing or attenuated,Asian Americans,not kept
+Bisbee,rr1,pol,pol,18-29 - 65+,-0.7211693136945592,,,no population gap,Asian Americans,not read
+Bisbee,rr1,pol,pol,Republican - Democrat,1.4275528903815409,1.057669483443495,2.189606904831995,reference too imprecise,Asian Americans,not read
+Bisbee,rr1,pol,pol,"$30,000 - more than $150,000",0.1301451030728878,,,no population gap,Asian Americans,not read
+Bisbee,rr1,pol,pol,female - male,0.5375355281661919,0.3546091471802901,0.7399706721260086,attenuated,Gays and Lesbians,not kept
+Bisbee,rr1,pol,pol,non-Hispanic black - non-Hispanic white,-14.552545139151643,,,no population gap,Gays and Lesbians,not read
+Bisbee,rr1,pol,pol,Hispanic - non-Hispanic white,2.8516155639504253,,,no population gap,Gays and Lesbians,not read
+Bisbee,rr1,pol,pol,a high school diploma - a bachelor's degree or more,0.5108553613833388,0.3404135086168721,0.6996101685553431,attenuated,Gays and Lesbians,not kept
+Bisbee,rr1,pol,pol,18-29 - 65+,0.4934826156625977,0.2707485042181551,0.7402780790147275,attenuated,Gays and Lesbians,not kept
+Bisbee,rr1,pol,pol,Republican - Democrat,1.9144785606460808,1.7554047285034484,2.105582707838006,steepened,Gays and Lesbians,not kept
+Bisbee,rr1,pol,pol,"$30,000 - more than $150,000",-0.1206995776829832,-0.8497936630072278,0.3189885907186582,reference too imprecise,Gays and Lesbians,not read
+Bisbee,rr1,pol,pol,female - male,0.6835984808124056,0.4477476966581643,1.0168664761020083,reference too imprecise,Muslims,not read
+Bisbee,rr1,pol,pol,non-Hispanic black - non-Hispanic white,1.4318593846489691,1.0349135649333567,2.2440628954506505,reference too imprecise,Muslims,not read
+Bisbee,rr1,pol,pol,Hispanic - non-Hispanic white,1.0554394911740987,0.5139302645302896,3.8237851789416255,reference too imprecise,Muslims,not read
+Bisbee,rr1,pol,pol,a high school diploma - a bachelor's degree or more,0.5641140445565668,0.3965881695293184,0.7632079634348659,attenuated or kept,Muslims,unresolved
+Bisbee,rr1,pol,pol,18-29 - 65+,0.57693205789364,0.2573123963398285,1.058130617078929,reference too imprecise,Muslims,not read
+Bisbee,rr1,pol,pol,Republican - Democrat,1.7239478391028946,1.5720403291390048,1.908313402397008,steepened,Muslims,not kept
+Bisbee,rr1,pol,pol,"$30,000 - more than $150,000",0.0576542795400267,,,no population gap,Muslims,not read
+Bisbee,rr1,pol,pol,female - male,0.1730385842371324,0.0807365762835325,0.3122951788183126,missing or attenuated,Jews,not kept
+Bisbee,rr1,pol,pol,non-Hispanic black - non-Hispanic white,-0.1726786278562549,-0.7455191690853117,-0.0151969568528734,reversed or missing,Jews,not kept
+Bisbee,rr1,pol,pol,Hispanic - non-Hispanic white,0.3098731349859863,,,no population gap,Jews,not read
+Bisbee,rr1,pol,pol,a high school diploma - a bachelor's degree or more,0.2628903440427529,0.168267368514642,0.4217865747707451,missing or attenuated,Jews,not kept
+Bisbee,rr1,pol,pol,18-29 - 65+,0.1789391408312617,0.0364443501767388,0.4933779375112935,missing or attenuated,Jews,not kept
+Bisbee,rr1,pol,pol,Republican - Democrat,1.1937293340604729,0.7485804612302975,2.915255837566231,reference too imprecise,Jews,not read
+Bisbee,rr1,pol,pol,"$30,000 - more than $150,000",0.2343267104257308,-0.0099612810776861,3.377001702315414,reference too imprecise,Jews,not read
+Bisbee,rr1,pol,pol,female - male,0.8189037160964483,0.6082278556064836,1.0547345263451604,reference too imprecise,Liberals,not read
+Bisbee,rr1,pol,pol,non-Hispanic black - non-Hispanic white,1.4135998720076044,1.1358907394841204,1.845484956953481,reference too imprecise,Liberals,not read
+Bisbee,rr1,pol,pol,Hispanic - non-Hispanic white,1.033202767828269,0.6521504105808832,1.8000371389748369,reference too imprecise,Liberals,not read
+Bisbee,rr1,pol,pol,a high school diploma - a bachelor's degree or more,0.8114383135593325,0.6218630409551987,1.0308587628721904,reference too imprecise,Liberals,not read
+Bisbee,rr1,pol,pol,18-29 - 65+,1.353678968539839,0.8019132328513067,3.97139952024845,reference too imprecise,Liberals,not read
+Bisbee,rr1,pol,pol,Republican - Democrat,1.3127900301883455,1.262238134681597,1.367808945780384,steepened,Liberals,not kept
+Bisbee,rr1,pol,pol,"$30,000 - more than $150,000",-0.016409612784196,,,no population gap,Liberals,not read
+Bisbee,rr1,pol,pol,female - male,3.4812641248285474,,,no population gap,Conservatives,not read
+Bisbee,rr1,pol,pol,non-Hispanic black - non-Hispanic white,1.7571699571406811,1.2502617520422006,2.9823394211148355,steepened,Conservatives,not kept
+Bisbee,rr1,pol,pol,Hispanic - non-Hispanic white,1.323740527526787,0.7642697264670619,6.136132085340902,reference too imprecise,Conservatives,not read
+Bisbee,rr1,pol,pol,a high school diploma - a bachelor's degree or more,0.6969547714888469,0.5285858848608782,0.9002671638465634,reference too imprecise,Conservatives,not read
+Bisbee,rr1,pol,pol,18-29 - 65+,0.5427399279153647,0.3501768991479198,0.7421102237753991,attenuated,Conservatives,not kept
+Bisbee,rr1,pol,pol,Republican - Democrat,1.1954639134114815,1.1427571706106672,1.253538573523946,kept or steepened,Conservatives,unresolved
+Bisbee,rr1,pol,pol,"$30,000 - more than $150,000",-0.067492870233165,,,no population gap,Conservatives,not read
+Bisbee,rr1,pol,pol,female - male,-0.3970026276453227,-1.862610062498705,-0.1139763744552455,reversed or missing,Christians,not kept
+Bisbee,rr1,pol,pol,non-Hispanic black - non-Hispanic white,-1.226628115009023,,,no population gap,Christians,not read
+Bisbee,rr1,pol,pol,Hispanic - non-Hispanic white,0.8281857040560772,,,no population gap,Christians,not read
+Bisbee,rr1,pol,pol,a high school diploma - a bachelor's degree or more,0.367477593133019,0.1683649420321517,0.8052134560936873,reference too imprecise,Christians,not read
+Bisbee,rr1,pol,pol,18-29 - 65+,0.2236371229158897,0.1396606535505293,0.3259369354270073,missing or attenuated,Christians,not kept
+Bisbee,rr1,pol,pol,Republican - Democrat,0.8035358851460624,0.7182544847958868,0.9110765128168852,attenuated or kept,Christians,unresolved
+Bisbee,rr1,pol,pol,"$30,000 - more than $150,000",-0.2292764511233333,,,no population gap,Christians,not read

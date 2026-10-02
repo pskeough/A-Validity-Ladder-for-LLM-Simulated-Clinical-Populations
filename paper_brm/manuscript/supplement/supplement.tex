@@ -23,9 +23,14 @@
 
 \newcommand{\CHECK}[1]{\textcolor{orange}{\textbf{[CHECK:} #1\textbf{]}}}
 \newcommand{\vd}[1]{\textsc{#1}}
+% The article's per-level tables (moved here in the 2 Oct 2026 rewrite) use the article's note environment.
+\newenvironment{tabnote}{\par\vspace{2pt}\small\raggedright}{\par}
 
 % Supplement tables and listings are numbered S1, S2, ...
 \renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\usepackage{graphicx}
+\graphicspath{{../figures/}}
 \setlength{\LTcapwidth}{\linewidth}
 
 \title{Online Supplement to ``A Validity Ladder for LLM-Simulated Populations''}
@@ -38,13 +43,14 @@
 \maketitle
 \input{tables/supp_macros}
 
-\noindent This supplement has six parts.
+\noindent This supplement has seven parts.
 S1 prints the prompts.
 S2 maps every number in the article to its receipt.
 S3 gives the provenance of the corpus and the sensitivity analyses.
 S4 gives the full per-model results.
 S5 gives the control results by dose.
 S6 gives the external level-3 illustration.
+S7 gives the full specification of every rung.
 Every table is written by \texttt{scripts/87\_supplement\_tables.py}, except the S2 table, which is written by \texttt{scripts/86\_receipts.py}.
 Each table file names its receipt files in its first lines.
 Paths are relative to the repository root.
@@ -188,11 +194,26 @@ Tables~\ref{tab:s4gatecomp} and~\ref{tab:s4gatek} give every gate quantity with 
 
 \input{tables/S4_gate_components}
 \input{tables/S4_gate_k}
+\input{../tables/tab_gate}
+
+\subsection*{S4.1a Level 1}
+
+Table~\ref{tab:l1} gives the person-fit tails for each model and framing.
+
+\input{../tables/tab_l1}
 
 \subsection*{S4.2 Level 2}
 
 Table~\ref{tab:s4l2std} gives the standardised estimand, which is primary, and Table~\ref{tab:s4l2marg} the marginal estimand.
 Each table carries the verdict under both stops and, as a sensitivity column, the verdict under the population-only stop.
+
+Figure~\ref{fig:s1intervals} draws every per-model and pooled ratio of the article's Figure 2 with its 98.6\% Fieller interval.
+
+\begin{figure}[tp]
+\caption{Level 2: Simulated Gaps as Ratios of the Standardised NHANES Gaps, With Intervals}
+\label{fig:s1intervals}
+{\centering\includegraphics[width=\linewidth,height=0.8\textheight,keepaspectratio]{figS_level2_intervals.pdf}\par}
+\end{figure}
 
 \input{tables/S4_l2_std}
 \input{tables/S4_l2_marg}
@@ -203,8 +224,11 @@ Table~\ref{tab:s4l3mean} gives every group row for the mean, and Table~\ref{tab:
 
 \input{tables/S4_l3_mean}
 \input{tables/S4_l3_prev}
+\input{../tables/tab_l3}
 
-\subsection*{S4.4 Level 4 Invariance Steps}
+\subsection*{S4.4 Level 4}
+
+\input{../tables/tab_l4}
 
 \input{tables/S4_l4_invariance}
 
@@ -218,6 +242,10 @@ Each rung's pass is an intersection-union test over its members, except level 2,
 % =============================================================================================
 \section{S5. Controls}
 \label{sec:s5}
+
+Table~\ref{tab:s5dose} gives, for each rung, the dose at which a planted failure is detected in at least 95\% of replicates, beside the distortion the real models show.
+
+\input{tables/S5_dose_detection}
 
 Each replicate splits the NHANES 2005--2018 adults at random into two halves, stratified by the 48 persona cells.
 One half supplies respondents and the other half is the reference.
@@ -267,5 +295,8 @@ The receipts are \texttt{paper\_brm/external/results/opinionqa/level3\_groups.cs
 \input{tables/S6_opinionqa}
 \input{tables/S6_argyle_runs}
 \input{tables/S6_argyle_main}
+
+% =============================================================================================
+\input{S7_ladder_spec}
 
 \end{document}

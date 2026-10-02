@@ -1,6 +1,6 @@
-tagged lines: 190
-numbers: 646  matched 505  derived 53  unmatched 0  weak 88
+tagged lines: 105
+numbers: 456  matched 374  derived 19  unmatched 0  weak 63
 receipt files missing: 0 []
-receipts with no writing script found: 2 ['../decoding_control_preregistration.json', '../decoding_control_raw.jsonl']
+receipts with no writing script found: 1 ['../../paper_brm/external/RESULTS.md']
 
 UNMATCHED (re-derive each by hand):

@@ -1,0 +1,8 @@
+dataset,run,framing,kept,not kept,not read,unresolved,total,point_ratio_in_kept
+Argyle,t0.001,,3,11,45,2,61,3
+Argyle,t0.7_main,,2,9,49,1,61,3
+Argyle,t1.0,,0,10,48,3,61,2
+Bisbee,rr1,demogs,1,33,40,3,77,2
+Bisbee,rr1,full,3,15,52,7,77,8
+Bisbee,rr1,pol,3,21,49,4,77,5
+OpinionQA,all,,1,33,5,115,154,37

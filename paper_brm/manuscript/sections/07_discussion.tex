@@ -1,31 +1,32 @@
-% Section 7. Discussion. Gate rule 9 and feedback-prose-rhythm-and-argument: the interpretive
-% paragraphs are built from Patrick's own answers to the questions below (transcribed, then
-% shaped through mimesis, voice="research"). Each question names the result it ties back to.
-% The procedural subsection 7.2 is drafted, because it restates what the results require of a
-% user and makes no interpretive claim; Patrick may cut it.
+% Section 6. Discussion and conclusion. Rewrite of 2 Oct 2026, built from Patrick's spoken answers
+% (what a researcher should do differently; how to read published claims) and gated through
+% mimesis voice=research (compose_slate + gate_candidates, candidate 2). The limitations section is
+% folded into the last paragraph; the pre-rewrite text is in _pre_rewrite_2026-10-02/sections/.
 
 \section{Discussion}
 \label{sec:discussion}
 
-\subsection{What the Results Mean for a User}
+In the worked example and the three external datasets, every sample failed at least one check on a use that researchers make of such samples.
+Every finding drawn from a simulated sample therefore needs its own check.
+A group gap, a population level and a scale score are separate extrapolations, and a pass on one carries no information about the others.
+Researchers running persona studies should hold each extrapolation in critical doubt, audit it against the level that tests it, and treat a claim without that check as unsupported.
+The ladder makes the audit routine, and the controls show that it passes real respondents and detects failures of a known size.
 
-Under this prompt family, the four models should not be used to simulate PHQ-8 respondents.
-The distortion runs the same way in every model, with population means above the survey's after post-stratification and the low-to-high income gap steepened.
-Each single draw reads as an answer a person could give, and the distortion appears only across repeated draws and against the survey.
-Only the rungs above the gate detect the distortion, so a researcher has to run them before using such a sample.
-The failure belongs to base deployments of these four models, unaltered and under one prompt family, and the paper makes no claim about language models in general.
-The corpus therefore serves as a baseline, and interventions that ground a model in real population data can be tested against it with the same ladder.
+Every level above the gate rests on human data.
+A national survey or a private validated dataset on the same instrument has to be in hand before the simulated sample is generated, because the reference fixes which personas can be compared, how many draws they need and which gaps the survey can measure at all.
+The cleanest reference comes from personas built on real respondents' profiles, as in the releases of \citet{bisbee2024synthetic} and \citet{argyle2023outofone}, where every simulated answer has a human twin.
 
-Above the gate, the corpus supports no population use.
-The gate pass supports reading a persona's mean over enough draws as that model's stable answer for the persona, and that stable answer is what a later intervention would be compared with.
-The ladder can be run on any clinical silicon sample for which a validated human dataset on the same instrument exists, whether a national survey such as NHANES or a private validated dataset.
-Without a human reference no rung above the gate can return a verdict, so the reference has to be chosen before the simulated sample is generated.
+For published silicon samples, the ladder narrows claims more often than it overturns them.
+Partisan gaps in the releases of \citet{bisbee2024synthetic} and \citet{argyle2023outofone} hold, while most gaps by sex, age and race fail or cannot be read, so claims of fidelity from these samples apply within partisan comparisons.
+The ladder leaves the substantive question to the human data.
+Its contribution is a stronger context for each claim and a screen against readings of a persona sample that the data do not support.
 
-\subsection{Running the Ladder on a New Simulated Sample}
+The worked example covers four base models under one prompt family, with one wording for each attribute, one persona per demographic cell, no age in the personas and the PHQ-8 items in a fixed order.
+Transgender and multiracial personas have no comparison group in NHANES and are not tested at levels 2 and 3.
+The corpus serves as a baseline against which grounded or fine-tuned simulators can be tested with the same ladder, and the code for every rung is released for that purpose.
 
-The results set four requirements for a researcher who runs the ladder.
-First, the design needs repeated draws of each persona under a fixed prompt, because the gate and level 1 cannot run without them, and the gate decides how many draws a persona mean needs.
-Second, the population reference should be computed within the persona design's strata, because a crude survey gap and a conditional simulated gap can differ in sign.
-Third, a design that tests invariance at level 4 needs more personas per group, since more draws per persona do not narrow the persona-level intervals.
-Fourth, the tolerance at level 3 is part of the claim and should be named for the use before the residuals are read.
-The code for every rung is in the release, one script per analysis, and each script writes the receipt files that Supplement S2 maps to the text.
+\subsection*{Conclusion}
+
+The validity ladder turns the question of whether a simulated sample can stand in for people into a set of checks, one for each use, each with a pass rule and a population reference.
+Applied to 28,800 PHQ-8 assessments from four models, it reads every model's persona means and fails every model on every use above them. % R: corpus_v3_provenance.csv; l1_personfit_main.csv
+Applied to three published silicon samples, it separates the uses each release supports from those it does not.

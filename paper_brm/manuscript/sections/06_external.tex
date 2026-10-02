@@ -1,43 +1,59 @@
-% Section 6. External demonstration. Source: analysis_brm/L2.md section 5 (script 78e), which
-% supersedes the level-2 part of external/RESULTS.md. External level 3 goes to the supplement as
-% an illustration (ledger L43, recommended; Patrick to confirm), because its tolerances are placeholders.
+% Section 5. External datasets. Rewrite of 2 Oct 2026, revised after Patrick's read: each dataset
+% reports which rungs the release allows and what the verdicts support or rule out for a user,
+% with fewer contrast-level details (those are in the result files). Level-2 counts are the
+% three-way labels of paper_brm/external/scripts/l2_threeway.py; Figure 3 draws them.
+% Pre-rewrite text: _pre_rewrite_2026-10-02/sections/06_external.tex.
 
-\section{External Demonstration}
+\section{Three External Datasets}
 \label{sec:external}
 
-We applied the ladder, with the same rules, multiplicity control and stops, to three silicon-sample datasets released by other authors.
-Two of them have no repeated draws of one persona with a fixed prompt, so the gate and level 1 cannot run on them, and the ladder records those stops.
-The third has repeated draws, and it was scored after the rules were frozen.
+The ladder was applied without changing any rule to three silicon-sample datasets released by other authors (Figure~\ref{fig:external}).
+For each dataset we report which rungs the release allows and what the verdicts tell a researcher who would use that sample.
 
-\paragraph{OpinionQA\@.}
-\citet{meister2025distributional} released model opinion distributions steered toward demographic groups, alongside the Pew American Trends Panel distributions for the same questions \citep{santurkar2023whose}.
-Both sides are crude group differences, so the reference is marginal.
-Each model, steering method and attribute is one family.
-The 154 group contrasts that the earlier version of this protocol had read as 51 kept and 85 missing become, under the ladder's rule, 87 undetermined, 28 attenuated or kept, 17 missing or attenuated, 10 kept or steepened, 5 reversed or missing, 5 with a reference too imprecise to certify kept, 1 kept and 1 steepened. % R: l2_external_r3_summary.csv; l2_external_r3.csv; analysis_brm/L2.md
-Most of the earlier ``missing'' readings become undetermined (48) or two-region verdicts (37), because their intervals span more than one region. % R: l2_external_r3_receipts.csv
+\begin{figure}[tp]
+\input{figures/fig3_external_l2_caption}
+{\centering\includegraphics[width=\linewidth]{fig3_external_l2.pdf}\par}
+\input{figures/fig3_external_l2_note}
+\end{figure}
 
-\paragraph{Argyle et al.\ Study 3.}
-\citet{argyle2023outofone} released GPT-3 answers conditioned on the backstories of real American National Election Studies respondents, so the simulated and human gaps are computed on the same people.
-This removes the question of marginal against standardised reference and makes it the cleanest level-2 case available.
-In the main run, 23 of 61 contrasts record no population gap and 26 record a reference too imprecise to certify kept. % R: l2_external_r3.csv; analysis_brm/L2.md
-The two Republican--Democrat contrasts on ideology and on the Trump two-party vote share are kept (both 0.92). % R: l2_external_r3.csv
-The Black--White gap in Trump vote share is attenuated (0.53), as is the Republican--Democrat gap in Trump's share among all voters (0.60). % R: l2_external_r3.csv
-Black--White and Republican--Democrat differences in patriotism are missing. % R: l2_external_r3.csv
-The two kept verdicts show that the rule awards kept when the reference is as precise as it is for these partisan contrasts.
-Level 3 for both datasets is in Supplement S6, as an illustration, because it depends on use tolerances that the original authors did not state.
+\subsection{Bisbee et al.: ChatGPT Feeling Thermometers}
 
-\paragraph{Bisbee et al.}
-\citet{bisbee2024synthetic} gave ChatGPT (gpt-3.5-turbo, June 2023, temperature 1) the profiles of 7,530 respondents to the 2016 and 2020 American National Election Studies and asked for a feeling thermometer, from 0 to 100, toward each of 11 groups. % R: ../../paper_brm/external/results/bisbee/summary_rr1.csv; ../../paper_brm/external/results/bisbee/gate_rr1.csv; ../../paper_brm/external/results/bisbee/parse_receipts_rr1.csv
-Each respondent was asked about 30 times under each of three prompts: the full profile, its demographic part only, and its political part only. % R: ../../paper_brm/external/results/bisbee/gate_rr1.csv
-Every persona has a human twin, as in Argyle et al., so the reference is the same respondents' own thermometers.
-Our cleaning of the released file reproduces the authors' analysis data, including the 2,235,705 observations and the coefficients of the regression in their Supplementary Section 8 to six decimals. % R: ../../paper_brm/external/results/bisbee/receipts_rr1.csv
-The gate passes the minimum and recommended rules for every thermometer under every prompt, with 1 to 3 draws needed for the minimum rule and 3 to 11 for the recommended rule. % R: ../../paper_brm/external/results/bisbee/summary_rr1.csv
-Level 2 fails under every prompt. % R: ../../paper_brm/external/results/bisbee/summary_rr1.csv
-Under the full prompt, 23 of the 77 contrasts record no population gap and 29 a reference too imprecise to certify kept. % R: ../../paper_brm/external/results/bisbee/summary_rr1.csv
-Three contrasts are kept: the Republican--Democrat gaps in feeling toward the Democratic Party (ratio 1.12) and the Republican Party (1.05), and the Black--White gap in feeling toward Black Americans (0.96). % R: ../../paper_brm/external/results/bisbee/level2_contrasts_rr1.csv
-The Republican--Democrat gap is steepened toward five other groups (liberals, Muslims, gays and lesbians, Black Americans and White Americans), with ratios of 1.36 to 2.35. % R: ../../paper_brm/external/results/bisbee/level2_contrasts_rr1.csv; ../../paper_brm/external/results/bisbee/summary_rr1.csv
-The female--male gaps in feeling toward White Americans and Christians are reversed or missing, and the age gaps toward the same two groups are attenuated (0.44 and 0.39). % R: ../../paper_brm/external/results/bisbee/level2_contrasts_rr1.csv
-Level 3 passes at 0.5 reference SD for 7 of the 11 thermometers under the full prompt and under the political prompt, for 1 under the demographic prompt, and for none at 0.2 SD. % R: ../../paper_brm/external/results/bisbee/summary_rr1.csv
-With 7,530 respondents the reference is precise enough to certify a kept gap where the population gap is large, as it is for the party gaps on the party thermometers (54 and 57 points). % R: ../../paper_brm/external/results/bisbee/level2_contrasts_rr1.csv; ../../paper_brm/external/results/bisbee/summary_rr1.csv
-The release also holds 9,238 rows that the authors' code repaired but did not carry into its analysis. % R: ../../paper_brm/external/results/bisbee/parse_receipts_rr1.csv
-Some of them hold misparsed thermometers above 100, so the analysis uses the authors' data; adding the rows changes one of the 231 level-2 verdicts. % R: ../../paper_brm/external/results/bisbee/parse_receipts_rr1.csv; ../../paper_brm/external/results/bisbee/level2_contrasts_rr1_withfix2.csv
+\citet{bisbee2024synthetic} gave ChatGPT (gpt-3.5-turbo, June 2023) the profiles of 7,530 respondents to the 2016 and 2020 American National Election Studies and asked, about 30 times under each of three prompts, for a feeling thermometer toward each of 11 groups. % R: ../../paper_brm/external/results/bisbee/summary_rr1.csv; ../../paper_brm/external/results/bisbee/gate_rr1.csv
+Every persona has a human twin, so the reference is the same respondents' own thermometers, and the release supports the gate, level 2 and level 3.
+Our cleaning of the released file reproduces the authors' analysis data and their published regression to six decimals. % R: ../../paper_brm/external/results/bisbee/receipts_rr1.csv
+The gate passes for every thermometer, with at most 11 draws needed under the recommended rule, and level 2 fails under every prompt. % R: ../../paper_brm/external/results/bisbee/summary_rr1.csv
+Under the full prompt, 3 of the 77 contrasts are kept, among them the partisan gaps in feeling toward the Democratic and Republican parties (ratios 1.12 and 1.05), which are large gaps the survey measures precisely. % R: ../../paper_brm/external/results/l2_threeway_summary.csv; ../../paper_brm/external/results/bisbee/level2_contrasts_rr1.csv
+The Republican--Democrat gap is steepened toward five other groups, and several gaps by sex and age are reversed, missing or attenuated. % R: ../../paper_brm/external/results/bisbee/summary_rr1.csv; ../../paper_brm/external/results/bisbee/level2_contrasts_rr1.csv
+Level 3 passes at half a standard deviation for 7 of the 11 thermometers under the full prompt. % R: ../../paper_brm/external/results/bisbee/summary_rr1.csv
+For a researcher, these verdicts support using the sample for the partisan gaps toward the two parties and for the average level of most thermometers, and they rule out using it for partisan feeling toward other groups or for differences by sex and age.
+\citet{bisbee2024synthetic} already read these data with caution, and the ladder places that caution on the specific uses that fail.
+
+\subsection{Argyle et al.: GPT-3 Answering for Survey Respondents}
+
+In their Study 3, \citet{argyle2023outofone} gave GPT-3 each of 4,270 American National Election Studies respondents' answers to 11 of 12 interview questions and asked it to answer the twelfth. % R: ../../paper_brm/external/RESULTS.md
+The study tested pattern correspondence, the criterion of their algorithmic fidelity under which simulated answers reproduce the relationships among attitudes, demographics and behaviour that people show.
+The release holds one answer per respondent and outcome, so the gate and level 1 cannot run, and level 2 compares groups of the same respondents.
+Of 61 contrasts in the main run, 2 are kept, the Republican--Democrat gaps in ideology and in Trump's two-party vote share (both 0.92). % R: ../../paper_brm/external/results/l2_threeway_summary.csv; l2_external_r3.csv
+Nine are not kept, among them the Black--White gap in Trump's vote share, which GPT-3 reproduces at about half its size (0.53). % R: ../../paper_brm/external/results/l2_threeway_summary.csv; l2_external_r3.csv
+Most of the remaining contrasts are not read, because the survey's subgroups are too small to measure their gaps. % R: ../../paper_brm/external/results/l2_threeway_summary.csv
+The verdicts support the partisan gaps, where the original claim is strongest, and leave the racial and other demographic gaps unsupported, so the claim of algorithmic fidelity holds within that narrower range of uses.
+Level 3 for this release is an illustration in Supplement S6, because it needs a use tolerance that the original authors did not state.
+
+\subsection{OpinionQA: What a Crude Reference Allows}
+
+\citet{meister2025distributional} steered five models toward demographic groups on 100 contested questions from the Pew American Trends Panel and released the models' answer distributions beside the Pew distributions for the same groups \citep{santurkar2023whose}.
+The human side is each group's distribution of answers to a question, built from unweighted counts, with no individual respondents.
+Without repeated draws of a persona or individual answer vectors, the gate, level 1 and level 4 cannot run.
+The model is steered on one attribute, such as being a Democrat, while the Pew groups also differ in age, income and every other attribute, so the reference is a crude gap and not the conditional gap the steering asks about.
+Each contrast is also averaged over questions with differing gaps, which leaves its interval wide.
+
+Of the 154 contrasts across models, elicitation methods and steering methods, 1 is kept, 33 are not kept, 115 are unresolved and 5 are not read. % R: ../../paper_brm/external/results/l2_threeway_summary.csv
+The point ratio falls inside the kept region for 37 of them, so a comparison of point estimates would credit far more fidelity than the data establish. % R: ../../paper_brm/external/results/l2_threeway_summary.csv
+The ladder reports those contrasts as unresolved, and a researcher using these releases can claim little about group gaps in either direction.
+
+\subsection{What the Three Datasets Show}
+
+Applied to other authors' samples, the ladder separates the uses a release supports from the uses it does not, and it reports where the human data are too thin to decide.
+Repeated draws of each persona under a fixed prompt make the gate and level 1 possible, and individual answer vectors make level 4 possible.
+Personas built from real respondents' profiles, as in the releases of \citet{bisbee2024synthetic} and \citet{argyle2023outofone}, give a reference that matches the simulated contrast.
+A large, individually measured reference makes a kept verdict reachable for the gaps that matter, while a crude, group-level reference leaves level 2 able to detect broken gaps and unable to certify faithful ones.

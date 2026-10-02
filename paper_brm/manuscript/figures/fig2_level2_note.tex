@@ -1,7 +1,7 @@
-% Figure 2 note (below the figure). Method details live in the Validity Ladder section; this note says how to read the plot.
-\figurenote{Points are ratios of the simulated PHQ-8 gap to the standardised NHANES 2005--2018 gap, and lines are 98.6\% Fieller intervals.
-Shaded bands are the five regions of the rule, and the dotted line marks a ratio of 1.
-The pooled Women--Men interval (0.746 to 1.262) crosses both edges of the kept band, so it is undetermined. % R: l2_verdicts.csv
-Pooled rows (hollow circles, grey italic verdicts) are descriptive.
-Rows stopped as reference too imprecise show a point without an interval, rows with no population gap are not drawn, and arrows mark clipped intervals.
-Each model has 12 persona pairs per racial contrast, 24 for sex and 16 per income contrast.} % R: l2_headline.csv
+% Figure 2 note (below the figure): how to read the grid.
+\figurenote{Each tile gives the simulated PHQ-8 gap as a multiple of the NHANES 2005--2018 gap among adults matched on the other persona attributes, so 1$\times$ reproduces the survey gap.
+A gap is kept when its 98.6\% interval lies between 0.75$\times$ and 1.25$\times$, not kept when the interval lies wholly outside that range, and unresolved when it overlaps it.
+For a gap that is not kept, the second line names the direction of the error.
+A tile is not read when the survey cannot tell its gap from zero or measures it too imprecisely for any simulated gap to be certified kept.
+No model keeps any gap.
+Supplement Figure S1 shows every interval.} % R: l2_verdicts.csv; l2_headline.csv

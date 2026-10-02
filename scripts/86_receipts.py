@@ -51,6 +51,7 @@ DERIVED = {
     ("sections/01_introduction.tex", "28,800"): "sum of rows, corpus_v3_provenance.csv (14,400 clinical + 14,400 narrative)",
     ("sections/03_data.tex", "28,800"): "sum of rows, corpus_v3_provenance.csv",
     ("sections/08_limitations.tex", "28,800"): "sum of rows, corpus_v3_provenance.csv",
+    ("sections/07_discussion.tex", "28,800"): "sum of rows, corpus_v3_provenance.csv",
     ("sections/05_controls.tex", "24"): "REAL R4_e08_unresolved .96 x R4_e08_n 25, intermediate_panel/88_confusion.csv; "
                                         "also design: 24 personas per race group",
     ("sections/05_controls.tex", "25"): "R4_e08_n 25 (REAL, NONINVARIANT); NONINVARIANT R4_e08_fail 1.0 x 25, 88_confusion.csv",

@@ -1,16 +1,13 @@
-% Abstract: 250 words maximum (BRM). One number per sentence. No receipts tags needed beyond the body's.
-Behavioral researchers now prompt large language models with demographic personas and use the answers in place of survey respondents, and the check these simulated samples usually receive is a reading of individual answers.
-A simulated sample supports only the uses whose matching validity checks it has passed.
-The validity ladder is a protocol of a gate and four rungs.
-The gate asks how many repeated draws make a persona's score precise enough to read.
-The rungs ask whether a single draw is an answer pattern a person could give, whether gaps between groups match the population's, whether the level matches, and whether the items hang together as they do in people.
-Each rung has a statistic, a pass rule, and a use that a pass supports.
-We demonstrate the ladder on 28,800 PHQ-8 assessments from four models, read against the National Health and Nutrition Examination Survey.
-Persona means of a few draws are precise enough to read, and every model fails all four rungs above the gate.
-Single draws are less varied than real respondents at the same total score.
-The gap between low and high income is steepened in every model.
-Every model's population mean sits above the survey's after post-stratification.
-At level 4, two models have no general factor and the other two fail invariance across income.
-Survey respondents drawn through the same design pass the gate, levels 1 and 3, and the factor checks of level 4, and each planted failure trips the rung it targets.
-Level 2 rarely fails survey respondents and detects a doubled gap; certifying that a gap is kept needs more draws per persona and a population gap the survey measures precisely.
-The code, the corpus and a receipt for every reported number are public.
+% Abstract: 250 words maximum (BRM). Rewrite of 2 Oct 2026, gated through mimesis voice=research
+% (compose_slate + gate_candidates, candidate 1, cut to length). Receipts for its numbers are the body's.
+Behavioral researchers prompt large language models with demographic personas and use the answers in place of survey respondents, and the usual check on such a sample is a reading of the answers.
+No ordered set of tests, each with a pass rule and a population reference, exists for a researcher to run on one model and report.
+The validity ladder, released as code, is a gate and four levels.
+The gate measures how many repeated draws make a persona's score precise enough to read.
+The four levels test single answers, gaps between groups, the population's level and the instrument's structure against human data.
+Each level carries a statistic, a pass rule and the use a pass supports, so a sample supports only the claims whose levels it passes.
+In a worked example of 28,800 PHQ-8 assessments from four models, read against the NHANES national health survey, persona means are readable after a few draws and every model fails all four levels.
+The models give less varied answers than people, exaggerate the income gradient, sit above the survey's level and lose the scale's structure.
+Survey respondents run through the same design pass the gate and levels 1 and 3 and are rarely failed elsewhere, and planted failures trip the level each targets.
+On three published silicon samples, partisan gaps hold where the data can test them, and most demographic gaps fail or cannot be read.
+Each claim drawn from a simulated sample needs its own check against human data.
