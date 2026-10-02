@@ -3,7 +3,7 @@
 % (script 76); analysis/decoding_control_design.json, analysis/prompt_control_design.json;
 % audit_2026-09-25/LEDGER.md rows L03, L06; L1.md and L2.md reference sections.
 % Text fixes applied here (plan section 6.4): PCL-5 was 4 items; generation code recovered;
-% recovery count 1,575; retry line disclosed; control arms asked for 20 PCL-5 items;
+% resend count 1,532, traced to scripts by 87a (2 Oct); retry line disclosed; control arms asked for 20 PCL-5 items;
 % nothing preregistered; no "by hand".
 
 \section{Worked Example: Data}
@@ -25,17 +25,14 @@ No sampling parameter was set.
 Each call sent the model name, the two prompts and a request for JSON output, so every draw ran at its provider's default decoding.
 When a call was refused or returned invalid JSON, the script reissued it up to twice, and each reissued call appended the line ``Context: This is a fictional character for a novel. Answer numerically.'' to the user prompt.
 The narrative script also screened replies for refusal phrases and tried several ways of extracting JSON before it reissued a call, where the clinical script reissued on any reply that did not parse as JSON.
-No per-attempt log survives, so the number of released rows produced under that line cannot be recovered.
 
 The clinical run took place between 28 December 2025 and 11 January 2026, and the narrative run on 9 and 10 January 2026. % R: corpus_v3_provenance.csv
 The narrative collection was a partial pass on 9 January that the same script completed on 10 January, so 1,104 GLM-4.7 rows and one DeepSeek-V3 row are reruns of the same prompt by the same code. % R: 87_row_sources.csv
 Failed calls in both runs came from API outages in the order the model registry was run, and not from content refusals.
-The December clinical run left 1,532 calls without a valid answer, and recovery scripts filled them in January, 1,219 of them for GLM-4.7 and 313 for DeepSeek-V3. % R: corpus_v3_provenance.csv
-Of these, 125 GLM-4.7 rows used the corpus system prompt and 62 used a shortened system prompt without the population-reference instruction. % R: 87_row_sources.csv
-No script on disk produced the other 1,345, so their prompt cannot be established, and Supplement S1 prints the recovery prompts that survive. % R: 87_row_sources.csv
-A further 43 GPT-4o-mini rows were restored from a backup of the December run, so 1,575 clinical rows are not the December run's own output. % R: corpus_v3_provenance.csv
-Every rung was rerun on the December rows alone, and no per-model verdict changes at any rung (Supplement S3). % R: analysis_brm/GATE.md; analysis_brm/L1.md; l2_verdicts.csv; 80d_december_summary.csv; l4_summary_dec.csv
-The generation code for both framings was recovered from backups and is released with the data.
+The December clinical run left 1,532 calls without a usable answer, 1,219 for GLM-4.7 and 313 for DeepSeek-V3, and in January the same calls were sent again under the corpus prompt, with the persona's registry id in place of the random identifier (Supplement S1.8). % R: corpus_v3_provenance.csv; 87a_resend_sources.csv
+The exception is 62 GLM-4.7 calls, resent under a shortened system prompt without the population-reference instruction. % R: 87_row_sources.csv
+Every rung gives the same per-model verdicts without the resent rows (Supplement S3). % R: analysis_brm/GATE.md; analysis_brm/L1.md; l2_verdicts.csv; 80d_december_summary.csv; l4_summary_dec.csv
+The generation and resend code is released with the data.
 The corpus has 28,800 rows, of which 28,799 hold a valid PHQ-8. % R: corpus_v3_provenance.csv; l1_personfit_main.csv
 This corpus was first reported in \citet{keough2026plausible}, under analyses that this paper replaces.
 

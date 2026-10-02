@@ -10,7 +10,9 @@ Sources
     generation/main.py, generation/narrative_main.py  released generation code
     ../original_generation_2025-12-31/main.py         recovered December code (read only, if present)
     ../original_generation_run2_2026-01/main.py       recovered January code (read only, if present)
-    generation/recovery/slow_recovery.py, last_mile_recovery_opt.py
+    generation/recovery/verify_run1_refusals.py, generation/retry_failed.py,
+    generation/recovery/slow_recovery.py, last_mile_recovery_opt.py   January resend scripts
+    analysis/brm/87a_resend_sources.csv                                 script 87a
     generation/registries/identities_registry*.json
     analysis/prompt_control_design.json, analysis/decoding_control_design.json
     scripts/55_decoding_control_run.py                decoding-control system prompt and template
@@ -407,24 +409,27 @@ def s1():
                               f"\\texttt{{{tex(rel(narr_path))}}}, lines {L(retn[0])}--{L(retn[1])}."))
     write("S1_corpus_prompts.tex", "".join(out))
 
-    # Recovery prompts.
-    rec_files = ["slow_recovery.py", "last_mile_recovery_opt.py"]
-    out = [header([os.path.join(GEN, "recovery", f) for f in rec_files])]
+    # Resend prompts, in the order the scripts ran in January.
+    rec_files = ["recovery/verify_run1_refusals.py", "retry_failed.py",
+                 "recovery/slow_recovery.py", "recovery/last_mile_recovery_opt.py"]
+    out = [header([os.path.join(GEN, f) for f in rec_files])]
     for f in rec_files:
-        R = readlines(os.path.join(GEN, "recovery", f))
+        R = readlines(os.path.join(GEN, f))
         a = find_line(R, r'system_prompt = """ROLE:')
         b = find_line(R, r'^\}"""', a)
-        c = find_line(R, r'user_prompt = f"""PROFILE_ID', b)
+        c = find_line(R, r'user_prompt = f"""PROFILE_ID', b if f != "retry_failed.py" else 0)
         d = find_line(R, r'"""\s*$', c + 1)
-        sub = f.replace(".py", "").replace("_", "")
+        sub = os.path.basename(f).replace(".py", "").replace("_", "").replace("1", "one")
         MACROS[f"SOneRec{sub.title()}Sys"] = f"{a + 1}--{b + 1}"
         MACROS[f"SOneRec{sub.title()}Usr"] = f"{c + 1}--{d + 1}"
         rs = triple_string(R, a)
         MACROS[f"SOneRec{sub.title()}SameSys"] = "is identical to" if rs == sys_clin else "differs from"
+        # Supplement S1.8 states that only the last-mile script changed the system prompt.
+        assert (rs == sys_clin) == (f != "recovery/last_mile_recovery_opt.py"), f"system prompt check: {f}"
         out.append(verbatim_block(excerpt(R, a, b), a + 1,
-                                  f"\\texttt{{generation/recovery/{tex(f)}}}, lines {a + 1}--{b + 1}."))
+                                  f"\\texttt{{generation/{tex(f)}}}, lines {a + 1}--{b + 1}."))
         out.append(verbatim_block(excerpt(R, c, d), c + 1,
-                                  f"\\texttt{{generation/recovery/{tex(f)}}}, lines {c + 1}--{d + 1}."))
+                                  f"\\texttt{{generation/{tex(f)}}}, lines {c + 1}--{d + 1}."))
     write("S1_recovery_prompts.tex", "".join(out))
 
     # Control prompts.
@@ -519,6 +524,15 @@ def s3_row_sources():
 
     clin = g[g.prompt_condition == "clinical"]
     narr = g[g.prompt_condition == "narrative"]
+    # Which January script produced each in-place row (script 87a).
+    rs_src = read(brm("87a_resend_sources.csv"))
+    assert rs_src.rows.sum() == clin.loc[clin.row_source == "recovery_inplace", "rows"].sum(), \
+        "87a does not cover every in-place row"
+
+    def inplace_desc(model):
+        parts = [f"\\texttt{{{texb(r.script)}}} ({ki(r.rows)})" for r in
+                 rs_src[rs_src.model == model].sort_values("rows", ascending=False).itertuples()]
+        return "Resent in January: " + ", ".join(parts)
 
     def n(frame, **kw):
         sel = frame
@@ -538,6 +552,8 @@ def s3_row_sources():
                               + n(clin, row_source="recovery_last_mile") + n(clin, row_source="dec28_restored")),
         "RowsRecovered": ki(n(clin, row_source="recovery_inplace") + n(clin, row_source="recovery_slow")
                             + n(clin, row_source="recovery_last_mile")),
+        "RowsResentVerify": ki(int(rs_src.loc[rs_src.script == "verify_run1_refusals.py", "rows"].sum())),
+        "RowsResentRetry": ki(int(rs_src.loc[rs_src.script == "retry_failed.py", "rows"].sum())),
         "RowsNarrRerun": ki(n(narr, narr_source="narr_rerun_same_script")),
         "RowsNarrRerunGLM": ki(n(narr, narr_source="narr_rerun_same_script", model="z-ai/glm-4.7")),
         "RowsNarrRerunDS": ki(n(narr, narr_source="narr_rerun_same_script", model="deepseek/deepseek-chat-v3")),
@@ -546,9 +562,8 @@ def s3_row_sources():
     desc = {
         "dec28_main": "December run, own output",
         "dec28_restored": "December run, restored from backup",
-        "recovery_inplace": "Recovery, filled in place",
-        "recovery_slow": "Recovery, \\texttt{slow\\_recovery.py}",
-        "recovery_last_mile": "Recovery, \\texttt{last\\_mile\\_recovery\\_opt.py}",
+        "recovery_slow": "Resent in January: \\texttt{slow\\_recovery.py}",
+        "recovery_last_mile": "Resent in January: \\texttt{last\\_mile\\_recovery\\_opt.py}",
         "narrative": "Narrative run",
     }
     ndesc = {"narr_main": "first pass", "narr_rerun_same_script": "rerun, same script"}
@@ -562,7 +577,8 @@ def s3_row_sources():
             rows.append([cond.capitalize() if first else "", mname(r.model),
                          f"\\texttt{{{texb(r.row_source)}}}",
                          "--" if isnan(r.narr_source) else f"\\texttt{{{texb(r.narr_source)}}}",
-                         desc.get(r.row_source, "") + ("" if isnan(r.narr_source) else ", " + ndesc.get(r.narr_source, "")),
+                         (inplace_desc(r.model) if r.row_source == "recovery_inplace" else desc.get(r.row_source, ""))
+                         + ("" if isnan(r.narr_source) else ", " + ndesc.get(r.narr_source, "")),
                          ki(r.rows), ki(r.valid_phq8)])
             first = False
         rows.append("MID")

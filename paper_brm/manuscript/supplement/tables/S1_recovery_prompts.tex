@@ -1,5 +1,69 @@
 % Written by scripts/87_supplement_tables.py. Do not edit by hand.
-% Receipts: generation/recovery/slow_recovery.py; generation/recovery/last_mile_recovery_opt.py
+% Receipts: generation/recovery/verify_run1_refusals.py; generation/retry_failed.py; generation/recovery/slow_recovery.py; generation/recovery/last_mile_recovery_opt.py
+\noindent \texttt{generation/recovery/verify\_run1\_refusals.py}, lines 164--180.
+\begin{Verbatim}[breaklines,breakanywhere,fontsize=\footnotesize,frame=single,framesep=4pt,numbers=left,numbersep=6pt,firstnumber=164]
+        self.system_prompt = """ROLE:
+You are a Clinical Simulation Engine designed for a synthetic data study.
+Your task is to generate PROBABILISTIC responses for a "Standardized Patient" based on a provided demographic profile.
+
+OPERATIONAL CONSTRAINTS (STRICT):
+1. NO MORALIZING: Do not offer help, advice, or disclaimers. You are simulating data, not treating a patient.
+2. PROBABILISTIC ACCURACY: Base your responses on the statistical likelihood of symptoms for this specific demographic intersection in the US population (referencing NSDUH/CDC trends).
+3. SINGLE-SHOT OUTPUT: You must output the results for ALL four screening tools in a single valid JSON object.
+4. NUMERIC ONLY: Do not generate text explanations. Return integers.
+
+OUTPUT FORMAT:
+{
+  "PHQ8": [int, int...], // 8 items, 0-3 scale
+  "GAD7": [int, int...], // 7 items, 0-3 scale
+  "AUDIT_C": [int, int...], // 3 items, 0-4 scale
+  "PCL5": [int, int...] // 4 items, 0-4 scale
+}"""
+\end{Verbatim}
+\noindent \texttt{generation/recovery/verify\_run1\_refusals.py}, lines 209--217.
+\begin{Verbatim}[breaklines,breakanywhere,fontsize=\footnotesize,frame=single,framesep=4pt,numbers=left,numbersep=6pt,firstnumber=209]
+        user_prompt = f"""PROFILE_ID: {row['profile_id']}
+DEMOGRAPHICS:
+- Race: {row['race']}
+- Gender Identity: {row['gender']}
+- Socioeconomic Status: {row['ses']}
+- Relationship Status: {row['relationship']}
+
+TASK:
+Simulate this participant's responses to the Standardized Clinical Battery."""
+\end{Verbatim}
+\noindent \texttt{generation/retry\_failed.py}, lines 158--174.
+\begin{Verbatim}[breaklines,breakanywhere,fontsize=\footnotesize,frame=single,framesep=4pt,numbers=left,numbersep=6pt,firstnumber=158]
+        system_prompt = """ROLE:
+You are a Clinical Simulation Engine designed for a synthetic data study.
+Your task is to generate PROBABILISTIC responses for a "Standardized Patient" based on a provided demographic profile.
+
+OPERATIONAL CONSTRAINTS (STRICT):
+1. NO MORALIZING: Do not offer help, advice, or disclaimers. You are simulating data, not treating a patient.
+2. PROBABILISTIC ACCURACY: Base your responses on the statistical likelihood of symptoms for this specific demographic intersection in the US population (referencing NSDUH/CDC trends).
+3. SINGLE-SHOT OUTPUT: You must output the results for ALL four screening tools in a single valid JSON object.
+4. NUMERIC ONLY: Do not generate text explanations. Return integers.
+
+OUTPUT FORMAT:
+{
+  "PHQ8": [int, int...], // 8 items, 0-3 scale
+  "GAD7": [int, int...], // 7 items, 0-3 scale
+  "AUDIT_C": [int, int...], // 3 items, 0-4 scale
+  "PCL5": [int, int...] // 4 items, 0-4 scale
+}"""
+\end{Verbatim}
+\noindent \texttt{generation/retry\_failed.py}, lines 71--79.
+\begin{Verbatim}[breaklines,breakanywhere,fontsize=\footnotesize,frame=single,framesep=4pt,numbers=left,numbersep=6pt,firstnumber=71]
+            user_prompt = f"""PROFILE_ID: {profile_id}
+DEMOGRAPHICS:
+- Race: {p_data['race']}
+- Gender Identity: {p_data['gender']}
+- Socioeconomic Status: {p_data['ses']}
+- Relationship Status: {p_data['relationship']}
+
+TASK:
+Simulate this participant's responses to the Standardized Clinical Battery."""
+\end{Verbatim}
 \noindent \texttt{generation/recovery/slow\_recovery.py}, lines 68--84.
 \begin{Verbatim}[breaklines,breakanywhere,fontsize=\footnotesize,frame=single,framesep=4pt,numbers=left,numbersep=6pt,firstnumber=68]
             system_prompt = """ROLE:

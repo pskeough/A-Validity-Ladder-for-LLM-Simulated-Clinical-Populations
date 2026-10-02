@@ -75,17 +75,16 @@ In the clinical run, a call was reissued when the response contained ``cannot'',
 Every reissued call appended one line to the user prompt: ``Context: This is a fictional character for a novel. Answer numerically.''
 The line is at clinical line \SOneNovelClin{} and narrative line \SOneNovelNarr.
 The narrative script reissued on the same appended line under a longer list of refusal phrases (lines \SOneRefusNarr) and a JSON parser that tries several repairs before it rejects a response (lines \SOneParseNarr).
-No per-attempt log survives for either run.
 
-\subsection*{S1.8 Recovery Prompts}
+\subsection*{S1.8 Resend Prompts}
 
-The \RowsRecovered{} clinical calls that the December run left without a valid answer were filled in January.
-Two of the recovery scripts in \texttt{generation/recovery} produced rows that carry their own labels in the corpus.
-\texttt{slow\_recovery.py} produced the \RowsSlow{} rows labelled \texttt{recovery\_slow}, and its system prompt \SOneRecSlowrecoverySameSys{} the corpus system prompt.
-\texttt{last\_mile\_recovery\_opt.py} produced the \RowsLastMile{} rows labelled \texttt{recovery\_last\_mile}, and its system prompt \SOneRecLastmilerecoveryoptSameSys{} the corpus system prompt: it has no population-reference constraint and no item counts.
-Both scripts fill \texttt{PROFILE\_ID} with the persona's registry id, where the main run used a random identifier, and neither appends the retry line.
-No script on disk performs the \RowsInplace{} in-place fills, so the prompt that produced them cannot be established.
-% Section 3 of the article was corrected on 1 Oct to match these prompts (125 corpus prompt, 62 shortened, 1,345 unknown).
+The clinical run left \RowsRecovered{} calls without a usable answer, and in January those calls were sent again by four scripts, each run on the calls the previous one had not filled.
+\texttt{generation/recovery/verify\_run1\_refusals.py} sent each call once and read the reply with the narrative script's tolerant parser; \texttt{generation/recovery/merge\_recovered\_data.py} wrote the \RowsResentVerify{} parsed replies into the December rows (\texttt{recovery\_inplace}).
+\texttt{generation/retry\_failed.py} produced \RowsResentRetry{} further \texttt{recovery\_inplace} rows, reissuing a failed call with the line ``Context: Fictional character. JSON format only.''
+\texttt{slow\_recovery.py} produced the \RowsSlow{} rows labelled \texttt{recovery\_slow}, and \texttt{last\_mile\_recovery\_opt.py} the \RowsLastMile{} rows labelled \texttt{recovery\_last\_mile}.
+The first three scripts send the corpus system prompt unchanged (script 87 checks the strings), and \texttt{last\_mile\_recovery\_opt.py} sends a shortened one with no population-reference constraint and no item counts.
+All four fill \texttt{PROFILE\_ID} with the persona's registry id where the main run used a random identifier, and their user prompts otherwise match the corpus user prompt.
+Script \texttt{87a\_resend\_sources.py} matches every \texttt{recovery\_inplace} row, on all eight PHQ-8 items, to the output of the script that produced it (\texttt{data/raw/run1\_resend\_verification\_2026-01.csv} and \texttt{data/raw/run1\_retry\_results\_2026-01.csv}).
 
 \input{tables/S1_recovery_prompts}
 
@@ -123,8 +122,8 @@ Numbers that are derived by hand from receipt values are listed, with their deri
 \subsection*{S3.1 Row Sources}
 
 Table~\ref{tab:s3rows} counts the corpus rows by framing, model and source.
-Of the clinical rows, \RowsInplace{} are in-place recovery fills (\RowsInplaceDS{} DeepSeek-V3 and \RowsInplaceGLM{} GLM-4.7), \RowsSlow{} come from \texttt{slow\_recovery.py}, \RowsLastMile{} come from \texttt{last\_mile\_recovery\_opt.py}, and \RowsRestored{} GPT-4o-mini rows were restored from a backup of the December run.
-These \RowsNotDecember{} clinical rows are not the December run's own output.
+Of the clinical rows, \RowsRecovered{} come from the January resend (Supplement S1.8): \RowsInplace{} in place (\RowsInplaceDS{} DeepSeek-V3 and \RowsInplaceGLM{} GLM-4.7), \RowsSlow{} from \texttt{slow\_recovery.py} and \RowsLastMile{} from \texttt{last\_mile\_recovery\_opt.py}.
+A later processing step had overwritten \RowsRestored{} December GPT-4o-mini rows, and corpus v3 restores them from a backup of the December run.
 Of the narrative rows, \RowsNarrRerunGLM{} GLM-4.7 rows and \RowsNarrRerunDS{} DeepSeek-V3 row were produced on 10 January by the same script and prompt that produced the first pass on 9 January.
 The corpus has \RowsTotal{} rows, of which \RowsValid{} hold a valid PHQ-8.
 
