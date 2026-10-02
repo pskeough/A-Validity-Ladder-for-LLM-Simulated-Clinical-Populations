@@ -1,40 +1,42 @@
 % Written by scripts/87_supplement_tables.py. Do not edit by hand.
-% Receipts: analysis/brm/83c_l4.csv
+% Receipts: analysis/brm/83c_l4.csv; analysis/brm/83h_r2_size.csv
 \begingroup
 \singlespacing
 \scriptsize
-\setlength{\tabcolsep}{3pt}
-\begin{longtable}{lrlrrrrrrrr}
+\setlength{\tabcolsep}{2pt}
+\begin{longtable}{lrlrrrrrrrrrrr}
 \caption{Controls, Level 4: Share of Replicates Passing Each Rule}\label{tab:s5l4}\\
 \toprule
-Condition & Dose (\%) & Unit & $n$ & R1 & R2 & R3 & Pass & $\lambda_1/\lambda_2$ & $\phi$ & Within $\lambda_1/\lambda_2$ \\
+ & & & \multicolumn{3}{c}{200 replicates} & \multicolumn{5}{c}{R2 calibration} & & &  \\
+\cmidrule(lr){4-6}\cmidrule(lr){7-11}Condition & Dose (\%) & Unit & $n$ & R1 & R3 & $n$ & R2 pass & R2 unres. & R2 fail & Pass & $\lambda_1/\lambda_2$ & RMSD & Within $\lambda_1/\lambda_2$ \\
 \midrule
 \endfirsthead
-\multicolumn{11}{@{}l}{\textit{Table \thetable, continued}} \\
+\multicolumn{14}{@{}l}{\textit{Table \thetable, continued}} \\
 \toprule
-Condition & Dose (\%) & Unit & $n$ & R1 & R2 & R3 & Pass & $\lambda_1/\lambda_2$ & $\phi$ & Within $\lambda_1/\lambda_2$ \\
+ & & & \multicolumn{3}{c}{200 replicates} & \multicolumn{5}{c}{R2 calibration} & & &  \\
+\cmidrule(lr){4-6}\cmidrule(lr){7-11}Condition & Dose (\%) & Unit & $n$ & R1 & R3 & $n$ & R2 pass & R2 unres. & R2 fail & Pass & $\lambda_1/\lambda_2$ & RMSD & Within $\lambda_1/\lambda_2$ \\
 \midrule
 \endhead
 \bottomrule
 \endlastfoot
-L4 decorrelate & 25.0 & clinical & 200 & 100.0 & 100.0 & 100.0 & -- & 5.68 & .999 & 3.46 \\
-L4 decorrelate & 25.0 & model & 200 & 100.0 & 100.0 & 100.0 & 100.0 & -- & -- & -- \\
-L4 decorrelate & 25.0 & narrative & 200 & 100.0 & 100.0 & 100.0 & -- & 5.66 & .999 & 3.46 \\
-L4 decorrelate & 50.0 & clinical & 200 & 100.0 & 100.0 & 0.0 & -- & 4.13 & .999 & 2.55 \\
-L4 decorrelate & 50.0 & model & 200 & 100.0 & 100.0 & 0.0 & 0.0 & -- & -- & -- \\
-L4 decorrelate & 50.0 & narrative & 200 & 100.0 & 100.0 & 0.0 & -- & 4.13 & .999 & 2.56 \\
-L4 decorrelate & 75.0 & clinical & 200 & 7.5 & 100.0 & 0.0 & -- & 2.75 & .997 & 1.71 \\
-L4 decorrelate & 75.0 & model & 200 & 1.5 & 100.0 & 0.0 & 0.0 & -- & -- & -- \\
-L4 decorrelate & 75.0 & narrative & 200 & 8.5 & 100.0 & 0.0 & -- & 2.78 & .997 & 1.72 \\
-L4 decorrelate & 100.0 & clinical & 200 & 0.0 & 20.0 & 0.0 & -- & 1.50 & .982 & 1.03 \\
-L4 decorrelate & 100.0 & model & 200 & 0.0 & 8.5 & 0.0 & 0.0 & -- & -- & -- \\
-L4 decorrelate & 100.0 & narrative & 200 & 0.0 & 24.5 & 0.0 & -- & 1.51 & .982 & 1.03 \\
-Positive control & 0.0 & clinical & 200 & 100.0 & 100.0 & 100.0 & -- & 7.56 & .999 & 4.44 \\
-Positive control & 0.0 & model & 200 & 100.0 & 100.0 & 100.0 & 100.0 & -- & -- & -- \\
-Positive control & 0.0 & narrative & 200 & 100.0 & 100.0 & 100.0 & -- & 7.53 & .999 & 4.45 \\
-reference half & 0.0 & reference & 200 & 100.0 & -- & 100.0 & -- & -- & -- & 4.25 \\
+L4 decorrelate & 25.0 & clinical & 200 & 100.0 & 100.0 & 40 & 55.0 & 45.0 & 0.0 & -- & 5.68 & 0.08 & 3.46 \\
+L4 decorrelate & 25.0 & model & 200 & 100.0 & 100.0 & 40 & 37.5 & 62.5 & 0.0 & 37.5 & -- & -- & -- \\
+L4 decorrelate & 25.0 & narrative & 200 & 100.0 & 100.0 & 40 & 60.0 & 40.0 & 0.0 & -- & 5.66 & 0.08 & 3.46 \\
+L4 decorrelate & 50.0 & clinical & 200 & 100.0 & 0.0 & 40 & 0.0 & 0.0 & 100.0 & -- & 4.13 & 0.17 & 2.55 \\
+L4 decorrelate & 50.0 & model & 200 & 100.0 & 0.0 & 40 & 0.0 & 0.0 & 100.0 & 0.0 & -- & -- & -- \\
+L4 decorrelate & 50.0 & narrative & 200 & 100.0 & 0.0 & 40 & 0.0 & 0.0 & 100.0 & -- & 4.13 & 0.17 & 2.56 \\
+L4 decorrelate & 75.0 & clinical & 200 & 7.5 & 0.0 & 40 & 0.0 & 0.0 & 100.0 & -- & 2.75 & 0.29 & 1.71 \\
+L4 decorrelate & 75.0 & model & 200 & 1.5 & 0.0 & 40 & 0.0 & 0.0 & 100.0 & 0.0 & -- & -- & -- \\
+L4 decorrelate & 75.0 & narrative & 200 & 8.5 & 0.0 & 40 & 0.0 & 0.0 & 100.0 & -- & 2.78 & 0.29 & 1.72 \\
+L4 decorrelate & 100.0 & clinical & 200 & 0.0 & 0.0 & 40 & 0.0 & 0.0 & 100.0 & -- & 1.50 & 0.48 & 1.03 \\
+L4 decorrelate & 100.0 & model & 200 & 0.0 & 0.0 & 40 & 0.0 & 0.0 & 100.0 & 0.0 & -- & -- & -- \\
+L4 decorrelate & 100.0 & narrative & 200 & 0.0 & 0.0 & 40 & 0.0 & 0.0 & 100.0 & -- & 1.51 & 0.48 & 1.03 \\
+Positive control & 0.0 & clinical & 200 & 100.0 & 100.0 & 40 & 100.0 & 0.0 & 0.0 & -- & 7.56 & 0.03 & 4.44 \\
+Positive control & 0.0 & model & 200 & 100.0 & 100.0 & 40 & 100.0 & 0.0 & 0.0 & 100.0 & -- & -- & -- \\
+Positive control & 0.0 & narrative & 200 & 100.0 & 100.0 & 40 & 100.0 & 0.0 & 0.0 & -- & 7.53 & 0.03 & 4.45 \\
+reference half & 0.0 & reference & 200 & 100.0 & 100.0 & -- & -- & -- & -- & -- & -- & -- & 4.25 \\
 \end{longtable}
 \vspace{-6pt}
-\noindent\textit{Note.} Dose = share of draws rebuilt item by item from other draws of the same persona. R1, R2, R3 and Pass are shares of replicates in percent; Pass is scored on R1, R2 and R3 in both framings (unit \texttt{model}). R4 was not simulated. The last three columns are means over replicates. The reference-half row reads the NHANES half used as reference.
+\noindent\textit{Note.} Dose = share of draws rebuilt item by item from other draws of the same persona. Rule columns are shares of replicates in percent. R2 is read on congruence and loading RMSD (pass, unresolved, fail) in the R2 calibration replicates (script 83h), which rerun the level-4 block with the RMSD recorded. Pass is scored on R1, R2 and R3 in both framings (unit \texttt{model}) in those replicates. R4 was not simulated. $\lambda_1/\lambda_2$, RMSD (mean loading RMSD against the reference) and the within-persona ratio are means over replicates. The reference-half row reads the NHANES half used as reference.
 \par
 \endgroup

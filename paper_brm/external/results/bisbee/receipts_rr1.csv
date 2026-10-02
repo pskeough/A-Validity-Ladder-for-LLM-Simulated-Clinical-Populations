@@ -1,0 +1,22 @@
+check,got,want,match
+cells (respondent x prompt x group),248490,248490,True
+minimum rows in a cell,10,10,True
+rows in cell 2020509521 full Democratic Party,10,10,True
+rows in cell 2020509521 full Republican Party,12,12,True
+rows in cell 20162661 full Democratic Party,13,13,True
+rows in cell 2020209487 full Democratic Party,13,13,True
+rows in cell 20160204 full Democratic Party,14,14,True
+rows in cell 20162117 full Democratic Party,14,14,True
+rows in cell 20162977 full Democratic Party,14,14,True
+rows in cell 20160479 full Democratic Party,15,15,True
+rows in cell 20161115 full Democratic Party,15,15,True
+rows in cell 20160479 full Republican Party,16,16,True
+SI Section 8 observations,2235705,2235705,True
+SI Section 8 coefficient (Intercept),16.616461,16.616461,True
+SI Section 8 coefficient year2020,0.026391,0.026391,True
+SI Section 8 coefficient groupDemocratic Party,1.412408,1.412408,True
+SI Section 8 coefficient groupGays and Lesbians,3.652706,3.652706,True
+SI Section 8 coefficient groupMuslims,2.371490,2.371490,True
+SI Section 8 coefficient groupRepublican Party,1.652356,1.652356,True
+SI Section 8 coefficient year2020:groupChristians,3.484029,3.484029,True
+SI Section 8 coefficient year2020:groupGays and Lesbians,-0.979443,-0.979443,True

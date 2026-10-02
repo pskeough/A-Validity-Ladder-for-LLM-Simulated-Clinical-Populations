@@ -19,25 +19,25 @@
 \endhead
 \bottomrule
 \endlastfoot
-PHQ-8 total & DeepSeek-V3 & Clinical & 120 & 111 & .514 & .513 & 4 & 4 & 9 & 9 \\
- & DeepSeek-V3 & Narrative & 120 & 120 & .505 & .505 & 4 & 4 & 9 & 9 \\
+PHQ-8 total & DeepSeek-V3 & Clinical & 120 & 111 & .514 & .513 & 3 & 3 & 9 & 9 \\
+ & DeepSeek-V3 & Narrative & 120 & 120 & .505 & .505 & 2 & 2 & 7 & 7 \\
  & Gemini-3-Flash & Clinical & 120 & 120 & .896 & .896 & 3 & 3 & 9 & 9 \\
  & Gemini-3-Flash & Narrative & 120 & 120 & .901 & .901 & 3 & 3 & 10 & 10 \\
- & GPT-4o-mini & Clinical & 120 & 120 & .382 & .382 & 7 & 7 & 15 & 15 \\
- & GPT-4o-mini & Narrative & 120 & 120 & .207 & .207 & 16 & 16 & 35 & 35 \\
+ & GPT-4o-mini & Clinical & 120 & 120 & .382 & .382 & 4 & 4 & 13 & 13 \\
+ & GPT-4o-mini & Narrative & 120 & 120 & .207 & .207 & 4 & 4 & 13 & 13 \\
  & GLM-4.7 & Clinical & 120 & 80 & .749 & .715 & 6 & 6 & 21 & 23 \\
  & GLM-4.7 & Narrative & 120 & 120 & .850 & .850 & 4 & 4 & 15 & 15 \\
 \midrule
 PHQ-8 $\ge$ 10 & DeepSeek-V3 & Clinical & 120 & 111 & .427 & .424 & 12 & 12 & 45 & 45 \\
- & DeepSeek-V3 & Narrative & 120 & 120 & .294 & .294 & 10 & 10 & 34 & 34 \\
+ & DeepSeek-V3 & Narrative & 120 & 120 & .294 & .294 & 9 & 9 & 34 & 34 \\
  & Gemini-3-Flash & Clinical & 120 & 120 & .745 & .745 & 7 & 7 & 26 & 26 \\
  & Gemini-3-Flash & Narrative & 120 & 120 & .792 & .792 & 6 & 6 & 21 & 21 \\
  & GPT-4o-mini & Clinical & 120 & 120 & .252 & .252 & 16 & 16 & 63 & 63 \\
- & GPT-4o-mini & Narrative & 120 & 120 & .119 & .119 & 30 & 30 & 71 & 71 \\
+ & GPT-4o-mini & Narrative & 120 & 120 & .119 & .119 & 18 & 18 & 71 & 71 \\
  & GLM-4.7 & Clinical & 120 & 80 & .584 & .550 & 10 & 11 & 39 & 41 \\
  & GLM-4.7 & Narrative & 120 & 120 & .698 & .698 & 8 & 8 & 29 & 29 \\
 \end{longtable}
 \vspace{-6pt}
-\noindent\textit{Note.} Dec.\ = December rows only (\texttt{dec28\_main}, \texttt{dec28\_restored} and all narrative rows). Minimum: the larger of the $k$ for $\phi \ge .80$ and for SE $\le 1.0$. Recommended: the larger of the $k$ for $\phi \ge .90$ and for SE $\le 0.5$.
+\noindent\textit{Note.} Dec.\ = December rows only (\texttt{dec28\_main}, \texttt{dec28\_restored} and all narrative rows). Minimum: the $k$ for SE $\le$ 0.25 reference SD (0.98 PHQ-8 points). Recommended: the $k$ for SE $\le$ 0.125 reference SD (0.49 points). Indicator rows: SE $\le$ 0.10 and 0.05 in proportion.
 \par
 \endgroup

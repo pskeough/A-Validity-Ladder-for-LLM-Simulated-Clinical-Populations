@@ -2,39 +2,35 @@ check,item,got,want
 "reproduces R3_interval of applied_all_rules.csv (90%, external rows)",rows matched / rows,337 / 337,all
 published verdict -> headline R3 verdict,Argyle | attenuated,kept,1
 published verdict -> headline R3 verdict,Argyle | attenuated,reference too imprecise,1
-published verdict -> headline R3 verdict,Argyle | kept,attenuated or kept,2
-published verdict -> headline R3 verdict,Argyle | kept,kept or steepened,2
 published verdict -> headline R3 verdict,Argyle | kept,no population gap,7
-published verdict -> headline R3 verdict,Argyle | kept,reference too imprecise,20
-published verdict -> headline R3 verdict,Argyle | kept,undetermined,2
+published verdict -> headline R3 verdict,Argyle | kept,reference too imprecise,26
 published verdict -> headline R3 verdict,Argyle | missing,attenuated,4
-published verdict -> headline R3 verdict,Argyle | missing,attenuated or kept,11
+published verdict -> headline R3 verdict,Argyle | missing,attenuated or kept,6
 published verdict -> headline R3 verdict,Argyle | missing,kept,2
 published verdict -> headline R3 verdict,Argyle | missing,missing,8
 published verdict -> headline R3 verdict,Argyle | missing,missing or attenuated,15
 published verdict -> headline R3 verdict,Argyle | missing,no population gap,9
-published verdict -> headline R3 verdict,Argyle | missing,reference too imprecise,8
+published verdict -> headline R3 verdict,Argyle | missing,reference too imprecise,36
 published verdict -> headline R3 verdict,Argyle | missing,reversed or missing,2
-published verdict -> headline R3 verdict,Argyle | missing,undetermined,23
 published verdict -> headline R3 verdict,Argyle | reversed,no population gap,5
 published verdict -> headline R3 verdict,Argyle | steepened,kept,2
-published verdict -> headline R3 verdict,Argyle | steepened,kept or steepened,5
 published verdict -> headline R3 verdict,Argyle | steepened,no population gap,9
-published verdict -> headline R3 verdict,Argyle | steepened,reference too imprecise,1
+published verdict -> headline R3 verdict,Argyle | steepened,reference too imprecise,6
 published verdict -> headline R3 verdict,Argyle | steepened,steepened,1
 published verdict -> headline R3 verdict,Argyle | undetermined,no population gap,40
-published verdict -> headline R3 verdict,Argyle | undetermined,reference too imprecise,2
-published verdict -> headline R3 verdict,Argyle | undetermined,undetermined,1
-published verdict -> headline R3 verdict,OpinionQA | kept,attenuated or kept,13
+published verdict -> headline R3 verdict,Argyle | undetermined,reference too imprecise,3
+published verdict -> headline R3 verdict,OpinionQA | kept,attenuated or kept,12
 published verdict -> headline R3 verdict,OpinionQA | kept,kept,1
 published verdict -> headline R3 verdict,OpinionQA | kept,kept or steepened,5
-published verdict -> headline R3 verdict,OpinionQA | kept,undetermined,32
+published verdict -> headline R3 verdict,OpinionQA | kept,reference too imprecise,3
+published verdict -> headline R3 verdict,OpinionQA | kept,undetermined,30
 published verdict -> headline R3 verdict,OpinionQA | missing,attenuated or kept,16
 published verdict -> headline R3 verdict,OpinionQA | missing,missing or attenuated,17
 published verdict -> headline R3 verdict,OpinionQA | missing,reversed or missing,4
 published verdict -> headline R3 verdict,OpinionQA | missing,undetermined,48
 published verdict -> headline R3 verdict,OpinionQA | reversed,reversed or missing,1
-published verdict -> headline R3 verdict,OpinionQA | steepened,kept or steepened,7
+published verdict -> headline R3 verdict,OpinionQA | steepened,kept or steepened,5
+published verdict -> headline R3 verdict,OpinionQA | steepened,reference too imprecise,2
 published verdict -> headline R3 verdict,OpinionQA | steepened,steepened,1
 published verdict -> headline R3 verdict,OpinionQA | undetermined,undetermined,9
 published verdict count (all runs),Argyle | attenuated,,2

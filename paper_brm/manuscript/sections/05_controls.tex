@@ -21,7 +21,7 @@ Run on the real corpus with the full reference, the control code reproduces ever
 \paragraph{What real people pass.}
 The level-1 rule is read per framing, and under it real respondents pass both framings in 92.9\% of 70 replicates, with the remaining replicates unresolved and none failed. % R: analysis_brm/intermediate_panel/88_confusion.csv
 The pseudo-model passes level 3 on all ten groups in 100\% of replicates at 2 points and 98.1\% at 1 point. % R: 83c_l3.csv
-It passes the level-4 structure rules (R1, R2 and the R3 diagnostic, in both framings) in all 200 replicates. % R: 83c_l4.csv
+It holds R1 and the R3 diagnostic in both framings in all 200 replicates, and R2 in all 40 replicates of the R2 calibration (loading RMSD upper limit .044 on average). % R: 83c_l4.csv; 83h_r2_size.csv
 Real respondents are unresolved on R4 at the .08 margin in 24 of 25 replicates and fail it in 1, since 24 to 40 personas per group leave some invariance steps unresolved. % R: analysis_brm/intermediate_panel/88_confusion.csv; analysis_brm/intermediate_panel/88_r4_steps.csv
 Making three items independent within the low-income group produces an R4 failure in 25 of 25 replicates, located at the income metric step. % R: analysis_brm/intermediate_panel/88_confusion.csv; analysis_brm/intermediate_panel/88_r4_steps.csv
 At level 2, a determinate wrong verdict occurs in at most 1.0\% of readings at any dose and scope. % R: 83c_l2.csv
@@ -47,12 +47,12 @@ Level 1 & Share of draws with item values shuffled & 40\% of draws & Not seen \\
 Level 1 & Share of draws replaced by the most typical vector at the same total & 80\% of draws & Misfit ratio 0.00 to 0.18 (both framings); a 100\% dose reaches 0.33 \\
 Level 2 & Income or sex gap scaled by $g$ & $g = 3$ per model (97.4\% to 100\%) & Low minus High, standardised: 1.9 to 5.1 per model \\
 Level 3 & Every persona mean shifted by $d$ points & $d = 2$ at the 2-point tolerance (100\%) & $+2.1$ to $+4.7$ points overall \\
-Level 4 & Share of draws decorrelated within persona & 75\% fails R1 in 98.5\% & Within-persona $\lambda_1/\lambda_2$ 1.23 to 1.59, reached by the planted dose between 75\% (1.71) and 100\% (1.03) \\
+Level 4 & Share of draws decorrelated within persona & 50\% fails R2 in 100\%; 75\% fails R1 in 98.5\% & Within-persona $\lambda_1/\lambda_2$ 1.23 to 1.59, reached by the planted dose between 75\% (1.71) and 100\% (1.03) \\
 \bottomrule
 \end{tabular}
 \vspace{4pt}
 \begin{tabnote}
-\textit{Note.} 200 replicates of a four-model panel of NHANES pseudo-models. Doses are nested, so a draw altered at one dose is altered at every larger dose. Per-dose detection rates for every rung and tolerance are in Supplement S5. % R: 83c_l1.csv; 83c_l2.csv; 83c_l3.csv; 83c_l4.csv; analysis_brm/L1.md
+\textit{Note.} 200 replicates of a four-model panel of NHANES pseudo-models. Doses are nested, so a draw altered at one dose is altered at every larger dose. Per-dose detection rates for every rung and tolerance are in Supplement S5. % R: 83c_l1.csv; 83c_l2.csv; 83c_l3.csv; 83c_l4.csv; 83h_r2_size.csv; analysis_brm/L1.md
 \end{tabnote}
 \end{table}
 
@@ -60,25 +60,39 @@ Level 4 & Share of draws decorrelated within persona & 75\% fails R1 in 98.5\% &
 At NHANES precision, level 2 can detect distortion and cannot certify faithfulness.
 In a simulation at the corpus's own precision, a faithful model is named \vd{kept} alone in at most 37\% of readings for the low-to-high income gap and 20\% for the sex gap, and in under 1\% for every other contrast. % R: 83f_l2_parametric_power.csv
 These are the most favourable settings, the draw-only standard error at the most precise model, and under the primary pairs standard error neither rate exceeds 2\%. % R: 83f_l2_parametric_power.csv
-A faithful model usually receives a two-region verdict that contains \vd{kept}.
+For the sex and low-to-high income gaps, a faithful model usually receives a two-region verdict that contains \vd{kept}; for the other five contrasts the population gap is too imprecise to certify \vd{kept}, and the rung records that stop. % R: 83f_l2_parametric_power.csv
 A twofold steepening of an income or sex gap is named correctly in 87\% to 100\% of draws under the draw-only standard error. % R: 83f_l2_parametric_power.csv
-At the audit's own precision, the racial contrasts of a faithful model are stopped in 46\% (Black--White) and 74\% (Hispanic--White) of per-model readings. % R: 83c_l2.csv
+At the audit's own precision, the Black--White and Hispanic--White contrasts of a faithful model are stopped in 99.9\% of per-model readings. % R: 83c_l2.csv
 The same design returns these stops for a faithful model, so the stops on race in the Results come from the reference and not from the models.
 
 \paragraph{Intermediate simulators.}
 Table~\ref{tab:panel} reads seven simulator types, all built from NHANES respondents through the corpus design, at every rung over 70 replicates. % R: analysis_brm/intermediate_panel/88_confusion.csv
-Each planted failure trips the rung it targets, and the other rungs fail it in under 2\% of readings, except level 3 under the doubled gap. % R: analysis_brm/intermediate_panel/88_confusion.csv
-That plant fails level 3 in 14.6\% of readings, because raising the low-income personas raises that group's level. % R: analysis_brm/intermediate_panel/88_confusion.csv
-Shifted samples fail level 3 in every reading without a level-1 failure, compressed samples fail level 1 in every replicate and pass level 3, and independent items fail level 1, R1 and R2 while passing level 3. % R: analysis_brm/intermediate_panel/88_confusion.csv
-A doubled income gap fails level 2 in 92.5\% of per-model readings with R1 and R2 holding in every replicate. % R: analysis_brm/intermediate_panel/88_confusion.csv
-No type passes level 2 or level 4 in any reading, real respondents included, and at this design's size both levels can therefore fail a sample without being able to pass one. % R: analysis_brm/intermediate_panel/88_confusion.csv
-The gate fails real respondents at 30 draws in every reading and passes independent items in every reading, since it measures how stable a persona mean is, and real respondents within one cell vary far more than the cell means differ. % R: analysis_brm/intermediate_panel/88_confusion.csv
+Real respondents pass the gate and level 3 in every reading, level 1 in 92.9\% of replicates, and R1 and R2 in every replicate, and level 2 fails them in no reading. % R: analysis_brm/intermediate_panel/88_confusion.csv
+Each planted failure trips the rung it targets. % R: analysis_brm/intermediate_panel/88_confusion.csv
+Independent items fail level 1, R1 and R2 in every replicate, shifted samples fail level 3 in every reading, compressed samples fail level 1 in every replicate, non-invariant samples fail R4 in all 25 replicates, and a doubled income gap fails level 2 in 92.5\% of per-model readings. % R: analysis_brm/intermediate_panel/88_confusion.csv
+The doubled gap also fails level 3 in 14.6\% of readings, because raising the low-income personas raises that group's level. % R: analysis_brm/intermediate_panel/88_confusion.csv
+Two rungs also read plants they do not target. % R: analysis_brm/intermediate_panel/88_confusion.csv
+Shifted samples pass the gate in 28.6\% of readings at 2.1 points and in none at 4.7 points, because more depressed respondents vary more between draws, so a mean of 30 draws is less precise. % R: analysis_brm/intermediate_panel/88_confusion.csv; analysis_brm/intermediate_panel/88_gate.csv
+R2 passes compressed samples in 1.4\% of replicates and non-invariant samples in none, because both change the size of the loadings. % R: analysis_brm/intermediate_panel/88_confusion.csv
+Level 4 passes no type, because R4 at margin .08 leaves real respondents unresolved in 24 of 25 replicates, and this design has too few personas per group to resolve invariance. % R: analysis_brm/intermediate_panel/88_confusion.csv
 
 \input{tables/tab_panel}
 
+\paragraph{Larger persona grids.}
+A second simulation repeats the panel over 60 replicates at four persona grids: the corpus's 48 cells, 144 cells with age or with education added, and 432 cells with both. % R: analysis_brm/panel_power/90_cells.csv; analysis_brm/panel_power/90b_summary.csv
+Real respondents pass the gate's minimum rule in every reading at every grid. % R: analysis_brm/panel_power/90b_summary.csv
+Under the pairs standard error, level 2 fails a faithful simulator in at most 3.3\% of per-model readings and fails a doubled income gap in 97.5\% to 100\%. % R: analysis_brm/panel_power/90b_summary.csv
+The draw-only standard error ignores how much real people in one cell differ, and on the finest grid it fails a faithful simulator in 15.4\% of readings, which is why the pairs standard error is the primary one. % R: analysis_brm/panel_power/90b_summary.csv
+No grid lets level 2 pass a faithful simulator. % R: analysis_brm/panel_power/90b_summary.csv
+At 30 draws per persona, a faithful simulator's low-to-high income gap is never read \vd{kept} under the pairs standard error, whose usual reading is undetermined, and is read \vd{kept} in at most 11.7\% of readings under the draw-only one. % R: analysis_brm/panel_power/power_l2_contrast_readings.csv
+With no simulation error, which is the limit of adding draws, the same gap is read \vd{kept} in 95.0\% and 98.3\% of replicates on the 48-cell and the 144-cell age grids. % R: analysis_brm/panel_power/power_l2_contrast_readings.csv; analysis_brm/panel_power/90_cells.csv
+The Black--White and Hispanic--White gaps are never read \vd{kept} on any grid, even with no simulation error, because NHANES measures them too loosely: their median $k$ is .57 to 2.24 against the limit of .25. % R: analysis_brm/panel_power/power_l2_contrast_readings.csv
+Certifying a kept gap therefore needs more draws per persona and a population gap the survey measures precisely, and a finer grid does not supply the second: adding education to the grid raises the income contrast's $k$ from .16 to .24. % R: analysis_brm/panel_power/power_l2_contrast_readings.csv
+
 \paragraph{Two calibration notes.}
-R2 reacts weakly.
-With every draw decorrelated, Tucker's congruence still averages .98, and R2 holds in 20\% to 25\% of framings while R1 and R3 fail in all of them. % R: 83c_l4.csv
+R2 reads the size of the loadings as well as their pattern.
+With half the draws decorrelated, the loadings fall from .69 to .52 at their minimum while Tucker's congruence stays at .999, and the loading RMSD of .17 fails R2 in all 40 replicates. % R: 83h_r2_size.csv
+Congruence alone would have passed every one of them, and R1 still holds at that dose. % R: 83h_r2_size.csv
 The level-1 tolerance follows from the design.
 Under the persona design the positive control's misfit ratio averages 1.15, because the design gives equal weight to cells and over-represents subgroups with more misfit. % R: 83c_l1.csv
 A tolerance of 1.25 would therefore fail real people drawn through the same design, and the misfit tail passes at $\tau = 1.5$ in 99.4\% of replicates. % R: 83c_l1.csv

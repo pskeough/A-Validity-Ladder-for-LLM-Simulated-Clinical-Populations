@@ -1,7 +1,7 @@
 analysis,estimand,contrast,population,se_pop,df_pop,pop_ci_lo,pop_ci_hi,k_rel_halfwidth,k_max,F_pop,no_population_gap,stop_population,stop_conditional,r3_unstopped,verdict,verdict_popstop
 headline,marginal,Black minus White,0.3299,0.0832,109,0.1227,0.5372,0.6282,0.25,4.3786,False,True,False,reversed or missing,reversed or missing,reference too imprecise
-headline,marginal,Hispanic minus White,0.2425,0.0729,109,0.061,0.424,0.7486,0.25,6.9552,False,True,False,undetermined,undetermined,reference too imprecise
-headline,marginal,Asian minus White,-0.7551,0.0793,108,-0.9525,-0.5577,0.2614,0.25,1.7078,False,True,False,undetermined,undetermined,reference too imprecise
+headline,marginal,Hispanic minus White,0.2425,0.0729,109,0.061,0.424,0.7486,0.25,6.9552,False,True,False,undetermined,reference too imprecise,reference too imprecise
+headline,marginal,Asian minus White,-0.7551,0.0793,108,-0.9525,-0.5577,0.2614,0.25,1.7078,False,True,False,undetermined,reference too imprecise,reference too imprecise
 headline,marginal,Women minus Men,0.938,0.0482,109,0.8181,1.058,0.1279,0.25,1.2932,False,False,False,attenuated or kept,attenuated or kept,attenuated or kept
 headline,marginal,Low minus High SES,2.0198,0.0819,109,1.8159,2.2236,0.1009,0.25,1.2245,False,False,False,steepened,steepened,steepened
 headline,marginal,Middle minus High SES,0.891,0.058,109,0.7467,1.0354,0.162,0.25,1.3866,False,False,False,kept or steepened,kept or steepened,kept or steepened
@@ -14,27 +14,27 @@ headline,standardised,Low minus High SES,1.2974,0.0928,109,1.0663,1.5286,0.1782,
 headline,standardised,Middle minus High SES,0.6068,0.0812,109,0.4046,0.8091,0.3333,0.25,2.0,False,True,False,steepened,steepened,reference too imprecise
 headline,standardised,Low minus Middle SES,0.6906,0.0849,109,0.4792,0.902,0.3062,0.25,1.8825,False,True,False,steepened,steepened,reference too imprecise
 band_symmetric,marginal,Black minus White,0.3299,0.0832,109,0.1227,0.5372,0.6282,0.2195,4.3786,False,True,False,reversed or missing,reversed or missing,reference too imprecise
-band_symmetric,marginal,Hispanic minus White,0.2425,0.0729,109,0.061,0.424,0.7486,0.2195,6.9552,False,True,False,undetermined,undetermined,reference too imprecise
-band_symmetric,marginal,Asian minus White,-0.7551,0.0793,108,-0.9525,-0.5577,0.2614,0.2195,1.7078,False,True,False,undetermined,undetermined,reference too imprecise
+band_symmetric,marginal,Hispanic minus White,0.2425,0.0729,109,0.061,0.424,0.7486,0.2195,6.9552,False,True,False,undetermined,reference too imprecise,reference too imprecise
+band_symmetric,marginal,Asian minus White,-0.7551,0.0793,108,-0.9525,-0.5577,0.2614,0.2195,1.7078,False,True,False,undetermined,reference too imprecise,reference too imprecise
 band_symmetric,marginal,Women minus Men,0.938,0.0482,109,0.8181,1.058,0.1279,0.2195,1.2932,False,False,False,attenuated or kept,attenuated or kept,attenuated or kept
 band_symmetric,marginal,Low minus High SES,2.0198,0.0819,109,1.8159,2.2236,0.1009,0.2195,1.2245,False,False,False,steepened,steepened,steepened
 band_symmetric,marginal,Middle minus High SES,0.891,0.058,109,0.7467,1.0354,0.162,0.2195,1.3866,False,False,False,kept or steepened,kept or steepened,kept or steepened
 band_symmetric,marginal,Low minus Middle SES,1.1287,0.0882,109,0.9092,1.3483,0.1945,0.2195,1.483,False,False,False,steepened,steepened,steepened
 band_symmetric,standardised,Black minus White,-0.2844,0.0867,109,-0.5003,-0.0685,0.7591,0.2195,7.3031,False,True,True,undetermined,reference too imprecise,reference too imprecise
 band_symmetric,standardised,Hispanic minus White,-0.1833,0.0844,109,-0.3934,0.0268,1.1463,0.2195,inf,True,True,True,undetermined,no population gap,no population gap
-band_symmetric,standardised,Asian minus White,-0.9536,0.0936,108,-1.1868,-0.7204,0.2445,0.2195,1.6474,False,True,False,undetermined,undetermined,reference too imprecise
+band_symmetric,standardised,Asian minus White,-0.9536,0.0936,108,-1.1868,-0.7204,0.2445,0.2195,1.6474,False,True,False,undetermined,reference too imprecise,reference too imprecise
 band_symmetric,standardised,Women minus Men,0.8411,0.0658,109,0.6772,1.005,0.1949,0.2195,1.4841,False,False,False,undetermined,undetermined,undetermined
 band_symmetric,standardised,Low minus High SES,1.2974,0.0928,109,1.0663,1.5286,0.1782,0.2195,1.4336,False,False,False,steepened,steepened,steepened
 band_symmetric,standardised,Middle minus High SES,0.6068,0.0812,109,0.4046,0.8091,0.3333,0.2195,2.0,False,True,False,steepened,steepened,reference too imprecise
 band_symmetric,standardised,Low minus Middle SES,0.6906,0.0849,109,0.4792,0.902,0.3062,0.2195,1.8825,False,True,False,steepened,steepened,reference too imprecise
 unadjusted_90,marginal,Black minus White,0.3299,0.0832,109,0.1919,0.468,0.4185,0.25,2.4395,False,True,False,reversed or missing,reversed or missing,reference too imprecise
-unadjusted_90,marginal,Hispanic minus White,0.2425,0.0729,109,0.1216,0.3635,0.4988,0.25,2.9901,False,True,False,undetermined,undetermined,reference too imprecise
+unadjusted_90,marginal,Hispanic minus White,0.2425,0.0729,109,0.1216,0.3635,0.4988,0.25,2.9901,False,True,False,undetermined,reference too imprecise,reference too imprecise
 unadjusted_90,marginal,Asian minus White,-0.7551,0.0793,108,-0.8866,-0.6236,0.1741,0.25,1.4217,False,False,False,kept or steepened,kept or steepened,kept or steepened
 unadjusted_90,marginal,Women minus Men,0.938,0.0482,109,0.8581,1.018,0.0852,0.25,1.1863,False,False,False,attenuated or kept,attenuated or kept,attenuated or kept
 unadjusted_90,marginal,Low minus High SES,2.0198,0.0819,109,1.884,2.1555,0.0672,0.25,1.1442,False,False,False,steepened,steepened,steepened
 unadjusted_90,marginal,Middle minus High SES,0.891,0.058,109,0.7949,0.9872,0.1079,0.25,1.242,False,False,False,kept or steepened,kept or steepened,kept or steepened
 unadjusted_90,marginal,Low minus Middle SES,1.1287,0.0882,109,0.9824,1.275,0.1296,0.25,1.2978,False,False,False,steepened,steepened,steepened
-unadjusted_90,standardised,Black minus White,-0.2844,0.0867,109,-0.4283,-0.1406,0.5058,0.25,3.0467,False,True,False,undetermined,undetermined,reference too imprecise
+unadjusted_90,standardised,Black minus White,-0.2844,0.0867,109,-0.4283,-0.1406,0.5058,0.25,3.0467,False,True,False,undetermined,reference too imprecise,reference too imprecise
 unadjusted_90,standardised,Hispanic minus White,-0.1833,0.0844,109,-0.3233,-0.0433,0.7638,0.25,7.4657,False,True,True,undetermined,reference too imprecise,reference too imprecise
 unadjusted_90,standardised,Asian minus White,-0.9536,0.0936,108,-1.1089,-0.7982,0.1629,0.25,1.3892,False,False,False,kept or steepened,kept or steepened,kept or steepened
 unadjusted_90,standardised,Women minus Men,0.8411,0.0658,109,0.7319,0.9503,0.1298,0.25,1.2984,False,False,False,kept,kept,kept
@@ -42,15 +42,15 @@ unadjusted_90,standardised,Low minus High SES,1.2974,0.0928,109,1.1434,1.4514,0.
 unadjusted_90,standardised,Middle minus High SES,0.6068,0.0812,109,0.4721,0.7416,0.2221,0.25,1.571,False,False,False,steepened,steepened,steepened
 unadjusted_90,standardised,Low minus Middle SES,0.6906,0.0849,109,0.5497,0.8315,0.204,0.25,1.5125,False,False,False,steepened,steepened,steepened
 ref_se_bootstrap,marginal,Black minus White,0.3299,0.086,109,0.1158,0.5441,0.6491,0.25,4.6998,False,True,False,reversed or missing,reversed or missing,reference too imprecise
-ref_se_bootstrap,marginal,Hispanic minus White,0.2425,0.0717,109,0.064,0.421,0.7361,0.25,6.5797,False,True,False,undetermined,undetermined,reference too imprecise
-ref_se_bootstrap,marginal,Asian minus White,-0.7551,0.0792,108,-0.9524,-0.5579,0.2612,0.25,1.7071,False,True,False,undetermined,undetermined,reference too imprecise
+ref_se_bootstrap,marginal,Hispanic minus White,0.2425,0.0717,109,0.064,0.421,0.7361,0.25,6.5797,False,True,False,undetermined,reference too imprecise,reference too imprecise
+ref_se_bootstrap,marginal,Asian minus White,-0.7551,0.0792,108,-0.9524,-0.5579,0.2612,0.25,1.7071,False,True,False,undetermined,reference too imprecise,reference too imprecise
 ref_se_bootstrap,marginal,Women minus Men,0.938,0.0484,109,0.8175,1.0586,0.1285,0.25,1.295,False,False,False,attenuated or kept,attenuated or kept,attenuated or kept
 ref_se_bootstrap,marginal,Low minus High SES,2.0198,0.0805,109,1.8193,2.2202,0.0992,0.25,1.2203,False,False,False,steepened,steepened,steepened
 ref_se_bootstrap,marginal,Middle minus High SES,0.891,0.0579,109,0.7468,1.0353,0.1619,0.25,1.3864,False,False,False,kept or steepened,kept or steepened,kept or steepened
 ref_se_bootstrap,marginal,Low minus Middle SES,1.1287,0.0875,109,0.9108,1.3467,0.1931,0.25,1.4786,False,False,False,steepened,steepened,steepened
 ref_se_bootstrap,standardised,Black minus White,-0.2844,0.0884,109,-0.5045,-0.0643,0.7738,0.25,7.8417,False,True,True,undetermined,reference too imprecise,reference too imprecise
 ref_se_bootstrap,standardised,Hispanic minus White,-0.1833,0.0834,109,-0.3909,0.0243,1.1323,0.25,inf,True,True,True,undetermined,no population gap,no population gap
-ref_se_bootstrap,standardised,Asian minus White,-0.9536,0.0961,108,-1.1929,-0.7143,0.251,0.25,1.6702,False,True,False,undetermined,undetermined,reference too imprecise
+ref_se_bootstrap,standardised,Asian minus White,-0.9536,0.0961,108,-1.1929,-0.7143,0.251,0.25,1.6702,False,True,False,undetermined,reference too imprecise,reference too imprecise
 ref_se_bootstrap,standardised,Women minus Men,0.8411,0.069,109,0.6693,1.013,0.2043,0.25,1.5134,False,False,False,undetermined,undetermined,undetermined
 ref_se_bootstrap,standardised,Low minus High SES,1.2974,0.0924,109,1.0673,1.5276,0.1774,0.25,1.4313,False,False,False,steepened,steepened,steepened
 ref_se_bootstrap,standardised,Middle minus High SES,0.6068,0.0815,109,0.4038,0.8098,0.3345,0.25,2.0054,False,True,False,steepened,steepened,reference too imprecise

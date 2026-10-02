@@ -5,22 +5,39 @@
 \section{External Demonstration}
 \label{sec:external}
 
-We applied level 2, with the same rule, multiplicity control and stops, to two silicon-sample datasets released by other authors.
-Neither dataset has repeated draws of one persona with a fixed prompt, so the gate and level 1 cannot run, and the ladder records those stops.
+We applied the ladder, with the same rules, multiplicity control and stops, to three silicon-sample datasets released by other authors.
+Two of them have no repeated draws of one persona with a fixed prompt, so the gate and level 1 cannot run on them, and the ladder records those stops.
+The third has repeated draws, and it was scored after the rules were frozen.
 
 \paragraph{OpinionQA\@.}
 \citet{meister2025distributional} released model opinion distributions steered toward demographic groups, alongside the Pew American Trends Panel distributions for the same questions \citep{santurkar2023whose}.
 Both sides are crude group differences, so the reference is marginal.
 Each model, steering method and attribute is one family.
-The 154 group contrasts that the earlier version of this protocol had read as 51 kept and 85 missing become, under the ladder's rule, 89 undetermined, 29 attenuated or kept, 17 missing or attenuated, 12 kept or steepened, 5 reversed or missing, 1 kept and 1 steepened. % R: l2_external_r3_summary.csv; l2_external_r3.csv; analysis_brm/L2.md
+The 154 group contrasts that the earlier version of this protocol had read as 51 kept and 85 missing become, under the ladder's rule, 87 undetermined, 28 attenuated or kept, 17 missing or attenuated, 10 kept or steepened, 5 reversed or missing, 5 with a reference too imprecise to certify kept, 1 kept and 1 steepened. % R: l2_external_r3_summary.csv; l2_external_r3.csv; analysis_brm/L2.md
 Most of the earlier ``missing'' readings become undetermined (48) or two-region verdicts (37), because their intervals span more than one region. % R: l2_external_r3_receipts.csv
 
 \paragraph{Argyle et al.\ Study 3.}
 \citet{argyle2023outofone} released GPT-3 answers conditioned on the backstories of real American National Election Studies respondents, so the simulated and human gaps are computed on the same people.
 This removes the question of marginal against standardised reference and makes it the cleanest level-2 case available.
-In the main run, 23 of 61 contrasts record no population gap and 12 record a reference too imprecise to read. % R: l2_external_r3.csv; analysis_brm/L2.md
+In the main run, 23 of 61 contrasts record no population gap and 26 record a reference too imprecise to certify kept. % R: l2_external_r3.csv; analysis_brm/L2.md
 The two Republican--Democrat contrasts on ideology and on the Trump two-party vote share are kept (both 0.92). % R: l2_external_r3.csv
 The Black--White gap in Trump vote share is attenuated (0.53), as is the Republican--Democrat gap in Trump's share among all voters (0.60). % R: l2_external_r3.csv
 Black--White and Republican--Democrat differences in patriotism are missing. % R: l2_external_r3.csv
 The two kept verdicts show that the rule awards kept when the reference is as precise as it is for these partisan contrasts.
 Level 3 for both datasets is in Supplement S6, as an illustration, because it depends on use tolerances that the original authors did not state.
+
+\paragraph{Bisbee et al.}
+\citet{bisbee2024synthetic} gave ChatGPT (gpt-3.5-turbo, June 2023, temperature 1) the profiles of 7,530 respondents to the 2016 and 2020 American National Election Studies and asked for a feeling thermometer, from 0 to 100, toward each of 11 groups. % R: ../../paper_brm/external/results/bisbee/summary_rr1.csv; ../../paper_brm/external/results/bisbee/gate_rr1.csv; ../../paper_brm/external/results/bisbee/parse_receipts_rr1.csv
+Each respondent was asked about 30 times under each of three prompts: the full profile, its demographic part only, and its political part only. % R: ../../paper_brm/external/results/bisbee/gate_rr1.csv
+Every persona has a human twin, as in Argyle et al., so the reference is the same respondents' own thermometers.
+Our cleaning of the released file reproduces the authors' analysis data, including the 2,235,705 observations and the coefficients of the regression in their Supplementary Section 8 to six decimals. % R: ../../paper_brm/external/results/bisbee/receipts_rr1.csv
+The gate passes the minimum and recommended rules for every thermometer under every prompt, with 1 to 3 draws needed for the minimum rule and 3 to 11 for the recommended rule. % R: ../../paper_brm/external/results/bisbee/summary_rr1.csv
+Level 2 fails under every prompt. % R: ../../paper_brm/external/results/bisbee/summary_rr1.csv
+Under the full prompt, 23 of the 77 contrasts record no population gap and 29 a reference too imprecise to certify kept. % R: ../../paper_brm/external/results/bisbee/summary_rr1.csv
+Three contrasts are kept: the Republican--Democrat gaps in feeling toward the Democratic Party (ratio 1.12) and the Republican Party (1.05), and the Black--White gap in feeling toward Black Americans (0.96). % R: ../../paper_brm/external/results/bisbee/level2_contrasts_rr1.csv
+The Republican--Democrat gap is steepened toward five other groups (liberals, Muslims, gays and lesbians, Black Americans and White Americans), with ratios of 1.36 to 2.35. % R: ../../paper_brm/external/results/bisbee/level2_contrasts_rr1.csv; ../../paper_brm/external/results/bisbee/summary_rr1.csv
+The female--male gaps in feeling toward White Americans and Christians are reversed or missing, and the age gaps toward the same two groups are attenuated (0.44 and 0.39). % R: ../../paper_brm/external/results/bisbee/level2_contrasts_rr1.csv
+Level 3 passes at 0.5 reference SD for 7 of the 11 thermometers under the full prompt and under the political prompt, for 1 under the demographic prompt, and for none at 0.2 SD. % R: ../../paper_brm/external/results/bisbee/summary_rr1.csv
+With 7,530 respondents the reference is precise enough to certify a kept gap where the population gap is large, as it is for the party gaps on the party thermometers (54 and 57 points). % R: ../../paper_brm/external/results/bisbee/level2_contrasts_rr1.csv; ../../paper_brm/external/results/bisbee/summary_rr1.csv
+The release also holds 9,238 rows that the authors' code repaired but did not carry into its analysis. % R: ../../paper_brm/external/results/bisbee/parse_receipts_rr1.csv
+Some of them hold misparsed thermometers above 100, so the analysis uses the authors' data; adding the rows changes one of the 231 level-2 verdicts. % R: ../../paper_brm/external/results/bisbee/parse_receipts_rr1.csv; ../../paper_brm/external/results/bisbee/level2_contrasts_rr1_withfix2.csv

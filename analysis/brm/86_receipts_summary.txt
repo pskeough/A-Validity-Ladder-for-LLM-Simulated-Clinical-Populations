@@ -1,0 +1,6 @@
+tagged lines: 190
+numbers: 646  matched 505  derived 53  unmatched 0  weak 88
+receipt files missing: 0 []
+receipts with no writing script found: 2 ['../decoding_control_preregistration.json', '../decoding_control_raw.jsonl']
+
+UNMATCHED (re-derive each by hand):

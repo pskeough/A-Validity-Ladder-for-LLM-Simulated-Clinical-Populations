@@ -6,21 +6,21 @@ gpt-4o-mini,Women minus Men,0.19097222222222232,0.07257887018970437,0.0638822512
 gpt-4o-mini,Low minus High SES,2.802083333333333,0.10352440891278124,0.08301799172007064,2.159701668927529,steepened,steepened,"[1.78, 2.68]",steepened,"[1.80, 2.66]",False
 gpt-4o-mini,Middle minus High SES,1.3666666666666667,0.10580380165402584,0.07436623592073997,2.2521371958035545,steepened,steepened,"[1.57, 3.49]",steepened,"[1.63, 3.43]",False
 gpt-4o-mini,Low minus Middle SES,1.4354166666666663,0.06673390706269079,0.07708381873099734,2.078479525558842,steepened,steepened,"[1.55, 3.04]",steepened,"[1.54, 3.05]",False
-gemini-3-flash-preview,Black minus White,-0.3944444444444446,0.19338092993584136,0.06492271168840481,1.38686718812873,undetermined,undetermined,"[-0.61, 6.84]",undetermined,"[0.65, 5.90]",False
+gemini-3-flash-preview,Black minus White,-0.3944444444444446,0.19338092993584136,0.06492271168840481,1.38686718812873,reference too imprecise,reference too imprecise,"[-0.61, 6.84]",reference too imprecise,"[0.65, 5.90]",False
 gemini-3-flash-preview,Hispanic minus White,-0.006944444444444697,0.0918720915234755,0.06333940365477637,0.0378834027660353,no population gap,no population gap,"[-20.00, 20.00]",no population gap,"[-20.00, 20.00]",False
 gemini-3-flash-preview,Asian minus White,-1.4472222222222226,0.626944226267959,0.06360611250416677,1.5176487106394463,undetermined,undetermined,"[-0.39, 3.54]",kept or steepened,"[1.19, 2.04]",True
 gemini-3-flash-preview,Women minus Men,0.9854166666666667,0.13518979508993031,0.046006616875144124,1.1715335091277568,undetermined,undetermined,"[0.73, 1.70]",kept or steepened,"[0.94, 1.49]",True
 gemini-3-flash-preview,Low minus High SES,6.582291666666667,0.4998343909764291,0.06097977522188083,5.073291764294817,steepened,steepened,"[3.85, 6.60]",steepened,"[4.30, 6.18]",False
-gemini-3-flash-preview,Middle minus High SES,0.7927083333333333,0.07835060019505867,0.042168760028224776,1.3063082362854457,kept or steepened,kept or steepened,"[0.86, 2.06]",kept or steepened,"[0.95, 1.99]",False
+gemini-3-flash-preview,Middle minus High SES,0.7927083333333333,0.07835060019505867,0.042168760028224776,1.3063082362854457,reference too imprecise,reference too imprecise,"[0.86, 2.06]",reference too imprecise,"[0.95, 1.99]",False
 gemini-3-flash-preview,Low minus Middle SES,5.789583333333334,0.47002973457951464,0.06346654453256625,8.38330130845867,steepened,steepened,"[5.88, 12.59]",steepened,"[6.41, 12.09]",False
-deepseek-chat-v3,Black minus White,0.21388888888888877,0.10759916992824825,0.06367718547970917,-0.7520336160979726,undetermined,undetermined,"[-3.74, 0.36]",reversed or missing,"[-3.36, -0.19]",True
+deepseek-chat-v3,Black minus White,0.21388888888888877,0.10759916992824825,0.06367718547970917,-0.7520336160979726,reference too imprecise,reference too imprecise,"[-3.74, 0.36]",reversed or missing,"[-3.36, -0.19]",True
 deepseek-chat-v3,Hispanic minus White,0.17361111111111124,0.12022807893835633,0.06200098788677256,-0.9470850691508488,no population gap,no population gap,"[-20.00, 20.00]",no population gap,"[-20.00, 20.00]",False
 deepseek-chat-v3,Asian minus White,-0.7083333333333334,0.12478095285453704,0.05991515215403821,0.742803111733318,attenuated or kept,attenuated or kept,"[0.36, 1.20]",attenuated or kept,"[0.54, 1.04]",False
 deepseek-chat-v3,Women minus Men,0.3451388888888891,0.05724026936223576,0.04252253959947514,0.4103256899481998,missing or attenuated,missing or attenuated,"[0.23, 0.62]",attenuated,"[0.28, 0.58]",True
 deepseek-chat-v3,Low minus High SES,2.4791666666666665,0.11726532909350239,0.05864614914371594,1.9108141160027952,steepened,steepened,"[1.55, 2.39]",steepened,"[1.60, 2.34]",False
 deepseek-chat-v3,Middle minus High SES,1.5572916666666667,0.10216372967955427,0.047284292300632434,2.5662691369865196,steepened,steepened,"[1.82, 3.94]",steepened,"[1.90, 3.87]",False
-deepseek-chat-v3,Low minus Middle SES,0.9218750000000001,0.11194532757440462,0.04961424770357373,1.3348725545134803,kept or steepened,kept or steepened,"[0.83, 2.09]",kept or steepened,"[0.99, 1.96]",False
-glm-4.7,Black minus White,-0.558333333333333,0.16318974310872678,0.09469765470552197,1.9631007381258765,undetermined,undetermined,"[0.29, 8.75]",kept or steepened,"[0.90, 8.36]",True
+deepseek-chat-v3,Low minus Middle SES,0.9218750000000001,0.11194532757440462,0.04961424770357373,1.3348725545134803,reference too imprecise,reference too imprecise,"[0.83, 2.09]",reference too imprecise,"[0.99, 1.96]",False
+glm-4.7,Black minus White,-0.558333333333333,0.16318974310872678,0.09469765470552197,1.9631007381258765,reference too imprecise,reference too imprecise,"[0.29, 8.75]",reference too imprecise,"[0.90, 8.36]",False
 glm-4.7,Hispanic minus White,-0.44305555555555537,0.1646015791360961,0.09404743861977755,2.416961096472963,no population gap,no population gap,"[-20.00, 20.00]",no population gap,"[-20.00, 20.00]",False
 glm-4.7,Asian minus White,-1.736111111111111,0.4171201236225174,0.09163545852129422,1.8205958620914655,undetermined,undetermined,"[0.55, 3.25]",steepened,"[1.41, 2.47]",True
 glm-4.7,Women minus Men,1.729861111111111,0.154044961644313,0.06448928182419218,2.0565820798007346,steepened,steepened,"[1.50, 2.76]",steepened,"[1.68, 2.60]",False

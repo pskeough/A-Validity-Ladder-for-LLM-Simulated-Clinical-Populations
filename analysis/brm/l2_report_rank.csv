@@ -1,8 +1,8 @@
 rank,contrast,determinate_pooled,determinate_per_model,score,log_distance_std,pooled_marginal,pooled_standardised,published_pooled
-1,Low minus Middle SES,2,8,10,1.5744,steepened,steepened,steepened
-2,Low minus High SES,2,8,10,1.2653,steepened,steepened,steepened
-3,Middle minus High SES,2,8,10,0.734,kept or steepened,steepened,steepened
+1,Low minus High SES,2,8,10,1.2653,steepened,steepened,steepened
+2,Low minus Middle SES,2,7,9,1.5744,steepened,steepened,steepened
+3,Middle minus High SES,2,7,9,0.734,kept or steepened,steepened,steepened
 4,Women minus Men,1,6,7,0.0342,attenuated or kept,undetermined,kept
 5,Black minus White,1,2,3,0.7787,reversed or missing,reference too imprecise,missing
-6,Hispanic minus White,0,1,1,1.6842,undetermined,no population gap,missing
-7,Asian minus White,0,1,1,0.1186,undetermined,undetermined,kept
+6,Hispanic minus White,0,1,1,1.6842,reference too imprecise,no population gap,missing
+7,Asian minus White,0,1,1,0.1186,reference too imprecise,undetermined,kept

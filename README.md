@@ -54,7 +54,7 @@ scripts/                      the analysis, 00-83g, and run_all.py; 84-87 build 
 paper_brm/manuscript/         the paper and supplement (LaTeX sources and PDFs); a line ending in
                               "% R: file" names the receipt for the numbers on it
 paper_brm/analysis_brm/       one report per rung, plus the controls
-paper_brm/external/           levels 2 and 3 on two releases by other groups (see below)
+paper_brm/external/           the ladder on three releases by other groups and the PersonaLLM shakedown (see below)
 paper_brm/level2_rule/        the comparison of candidate level-2 rules that led to the ratio rule
 ```
 
@@ -62,9 +62,9 @@ paper_brm/level2_rule/        the comparison of candidate level-2 rules that led
 
 - **Resent rows.** The December clinical run left 1,532 calls without a usable answer (1,219 GLM-4.7, 313 DeepSeek-V3). In January the same calls were sent again by four scripts in `generation/`: `recovery/verify_run1_refusals.py` (1,188 rows, written in place by `recovery/merge_recovered_data.py`), `retry_failed.py` (157), `recovery/slow_recovery.py` (125) and `recovery/last_mile_recovery_opt.py` (62). The first three send the corpus system prompt; the last sends a shortened one. All four put the persona's registry id where `main.py` put a random id. Script 87a matches every in-place row to the resend outputs in `data/raw/` (paper Section 3 and Supplement S1.8). Every row carries its source in `row_source`. Each rung report gives a sensitivity without the resent rows. Dropping them changes one level-2 verdict (the standardised pooled sex gap) and no other.
 - **Restored rows.** 43 GPT-4o-mini rows from the original 28 Dec 2025 run had been overwritten in v2. v3 restores them from the original output file.
-- **No public registration.** No analysis was registered with a public registry. `analysis/prompt_control_design.json`, `analysis/decoding_control_design.json` and the dated `analysis/decoding_control_preregistration.json` were written before those runs and were not registered anywhere.
+- **Frozen rules.** `paper_brm/LADDER_SPEC.md` states every rule, threshold and stop of the ladder. It was frozen by commit `91a1b10` (2 October 2026), after a shakedown on PersonaLLM (`paper_brm/external/personallm/SHAKEDOWN.md`) and before the Bisbee et al. data were opened; later code changes are bug fixes only. No analysis was registered with a public registry. `analysis/prompt_control_design.json`, `analysis/decoding_control_design.json` and the dated `analysis/decoding_control_preregistration.json` were written before those runs.
 - **Prompt control.** The "orig" arm of the prompt control asks for 20 PCL-5 items where the original script asked for 4 (`analysis/brm/l2_prompt_control_receipts.csv`).
-- **External data.** `paper_brm/external` runs levels 2 and 3 on Meister, Guestrin & Hashimoto (2024, OpinionQA; arXiv:2411.05403, repository commit 36869b5) and Argyle et al. (2023, Study 3; Harvard Dataverse doi:10.7910/DVN/JPV20K). Their raw files are not redistributed here. The results files are included, and the level-2 verdicts under the current rule are in `analysis/brm/l2_external_r3*.csv` (script 78e).
+- **External data.** `paper_brm/external` runs levels 2 and 3 on Meister, Guestrin & Hashimoto (2024, OpinionQA; arXiv:2411.05403, repository commit 36869b5) and Argyle et al. (2023, Study 3; Harvard Dataverse doi:10.7910/DVN/JPV20K). It also runs the gate and levels 2 and 3, on the frozen rules, on Bisbee et al. (2024; Harvard Dataverse doi:10.7910/DVN/VPN481, CC0): `paper_brm/external/scripts/bisbee_*.py`, results in `paper_brm/external/results/bisbee/`, including a reproduction of the authors' row counts and Supplementary Section 8 coefficients (`receipts_rr1.csv`). Raw files are not redistributed here. The results files are included, and the level-2 verdicts for OpinionQA and Argyle under the current rule are in `analysis/brm/l2_external_r3*.csv` (script 78e).
 
 ## Earlier release
 

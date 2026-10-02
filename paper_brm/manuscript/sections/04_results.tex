@@ -11,15 +11,13 @@
 \input{tables/tab_gate}
 
 No model may be read from a single draw (Table~\ref{tab:gate}).
-The dependability of one draw runs from .21 for GPT-4o-mini under the narrative framing to .90 for Gemini-3-Flash. % R: gate_dstudy.csv
-Gemini-3-Flash reaches .90 but its draws of one persona still spread with a standard deviation of about 1.5 points, above the 1-point limit. % R: gate_license_models.csv; gate_dstudy.csv
-Persona means are readable at the corpus's 30 draws for every model under the minimum rule.
-Under the recommended rule, the number of draws needed is 9 for DeepSeek-V3, 10 for Gemini-3-Flash, 21 for GLM-4.7 and 35 for GPT-4o-mini. % R: gate_license_models.csv
-GPT-4o-mini's narrative persona means reach a dependability of .887 at 30 draws, short of .90. % R: gate_dstudy.csv
-Levels 2 and 3 read the persona mean over both framings, 60 draws, and for that mean GPT-4o-mini reaches .967. % R: gate_license_level3.csv
+The draw-to-draw standard deviation is between 1.25 and 2.24 points in every model and framing, above the 0.98-point tolerance. % R: gate_dstudy.csv
+Persona means are readable at the corpus's 30 draws for every model under both rules: the standard error of a 30-draw mean is 0.23 to 0.41 points. % R: gate_dstudy.csv
+The number of draws needed is 3 to 6 under the minimum rule and 9 for DeepSeek-V3, 10 for Gemini-3-Flash, 13 for GPT-4o-mini and 21 for GLM-4.7 under the recommended rule. % R: gate_dstudy.csv
 
-Where dependability is low, the reason is that the model barely separates personas.
-The draw-to-draw standard deviation is between 1.25 and 2.24 points in every model and framing. % R: gate_dstudy.csv
+The models differ far more in how well their persona means separate personas.
+The dependability of one draw runs from .21 for GPT-4o-mini under the narrative framing to .90 for Gemini-3-Flash, and at 30 draws GPT-4o-mini's narrative persona means reach .887, short of the .90 that ranking individual personas would need. % R: gate_dstudy.csv
+Over both framings, 60 draws, GPT-4o-mini reaches .967. % R: gate_license_level3.csv
 The variance between personas ranges from 0.81 for GPT-4o-mini (narrative) to 20.69 for Gemini-3-Flash (narrative), a 26-fold range. % R: gate_dstudy.csv
 Setting the temperature to 0 in the decoding control cut GPT-4o-mini's draw variance to 12.5\% of its default value and did not raise the variance between personas. % R: gate_decoding_link.csv
 At temperature 0 a single GPT-4o-mini draw reaches a dependability of only .75. % R: gate_decoding_link.csv
@@ -73,7 +71,7 @@ Against the smaller NHANES 2021--2023 sample, DeepSeek-V3 and GPT-4o-mini move f
 Figure~\ref{fig:level2} gives the per-model verdicts against the standardised NHANES gaps.
 The gap between low and high income is steepened in every model, at 1.91 (DeepSeek-V3) to 5.07 (Gemini-3-Flash) times the population gap. % R: l2_headline.csv
 Across the three income contrasts, 10 of the 12 per-model readings are steepened. % R: l2_headline.csv
-The other two, Gemini-3-Flash's middle-to-high gap (1.31) and DeepSeek-V3's low-to-middle gap (1.33), read kept or steepened. % R: l2_headline.csv
+The other two, Gemini-3-Flash's middle-to-high gap (1.31) and DeepSeek-V3's low-to-middle gap (1.33), do not exclude kept, and the population intervals for those two gaps are too wide to certify kept ($k$ of .33 and .31), so they record a reference too imprecise. % R: l2_headline.csv; l2_verdicts.csv
 On the marginal reference the income gaps are smaller relative to the population's, and Low minus High is still steepened for Gemini-3-Flash and GLM-4.7 and kept or steepened for the other two (Supplement S4). % R: l2_headline.csv
 
 The sex gap divides the models.
@@ -84,14 +82,14 @@ The pooled ratio of 0.97 averages these opposite errors. % R: l2_headline.csv
 No racial contrast receives a single-region verdict in any model.
 Among adults of equal income, sex and marital status, the NHANES Black--White gap is $-0.28$ points, while the crude gap is $+0.33$. % R: l2_reference.csv
 The standardised Hispanic--White gap is $-0.18$, and its interval covers zero, so that contrast records no population gap for every model. % R: l2_stop.csv
-For Black--White, GPT-4o-mini reads reversed or missing and the other three models are undetermined. % R: l2_headline.csv
+The standardised Black--White gap is too imprecise to certify kept ($k = .76$). GPT-4o-mini still reads reversed or missing, and the other three models record a reference too imprecise. % R: l2_headline.csv; l2_verdicts.csv
 For Asian--White, DeepSeek-V3 reads attenuated or kept and the other three are undetermined. % R: l2_headline.csv
 The earlier report of these data read the Black--White and Hispanic--White gaps as missing \citep{keough2026plausible}.
 That reading compared conditional simulated gaps with crude survey gaps, and it does not survive the like-for-like reference.
 
 Two checks bear on these verdicts.
-With the draw-only standard error, 9 of the 35 verdicts become sharper and none moves outside its primary verdict. % R: 83g_l2_conditional_verdicts.csv
-Under four other mappings of relationship status in the reference, 18 of the 112 per-model verdicts change, 16 of them on race or sex, and the low-to-high income gap stays steepened in every model (Supplement S3). % R: l2_verdicts.csv
+With the draw-only standard error, 8 of the 35 verdicts become sharper and none moves outside its primary verdict. % R: 83g_l2_conditional_verdicts.csv
+Under four other mappings of relationship status in the reference, 25 of the 112 per-model verdicts change, 23 of them on race or sex, and the low-to-high income gap stays steepened in every model (Supplement S3). % R: l2_verdicts.csv
 In the prompt control, the pooled low-to-high and low-to-middle income gaps stay steepened under all three system prompts, so the steepening does not come from the role or the population-reference instruction. % R: l2_prompt_control_verdicts.csv
 With four persona pairs per model in that run, the per-model readings range from undetermined to steepened, and only Gemini-3-Flash's low-to-high gap is steepened under every prompt. % R: l2_prompt_control_verdicts.csv
 The Controls section shows that at NHANES precision this rung can detect distortion and cannot award a faithful model the verdict \vd{kept}.
@@ -137,9 +135,9 @@ Their ratios of the first to the second eigenvalue are 1.09 to 1.73, against 7.4
 The rule fails in every one of 1,000 persona bootstrap replicates for both models. % R: l4_structure.csv
 Their PHQ-8 total is therefore not a one-dimensional score, and their later rules are description.
 
-GLM-4.7 and Gemini-3-Flash pass R1 and R2.
-Their congruence with the NHANES loadings is .990 to .998. % R: l4_structure.csv
-An equal-loading vector scores .998 against the same loadings, so R2 adds little beyond R1 on this scale. % R: l4_nhanes_selfphi.csv
+GLM-4.7 and Gemini-3-Flash pass R1, and the pattern of their loadings matches NHANES (congruence .990 to .998). % R: l4_structure.csv
+Their loadings are larger than people's: the mean loading is .83 to .85 for Gemini-3-Flash and .79 to .84 for GLM-4.7, against .76 in NHANES. % R: l4_r2_size.csv
+Gemini-3-Flash fails R2 in both framings (loading RMSD .14 to .15) and GLM-4.7 fails it in the narrative framing (.10, upper limit .11), so the items of these two simulated populations hang together more tightly than NHANES respondents' answers do. % R: l4_r2_size.csv
 Both models fail R4 on income in both framings.
 In NHANES, income is invariant at the .08 margin at both steps. % R: l4_invariance.csv
 In the two models the metric step's RMSEA$_D$ is .16 to .20, with every lower 90\% limit above .13. % R: l4_invariance.csv

@@ -1,0 +1,34 @@
+model,framing,outcome,groups,pass_05sd,pass_02sd,groups_failing_05sd,worst_abs_residual
+rr1,demogs,Asian Americans,14,False,False,0,9.24147451784845
+rr1,demogs,Black Americans,14,True,False,0,6.509746240859757
+rr1,demogs,Christians,14,False,False,2,14.977683061209197
+rr1,demogs,Conservatives,14,False,False,3,18.234044778640587
+rr1,demogs,Democratic Party,14,False,False,2,24.785885270379822
+rr1,demogs,Gays and Lesbians,14,False,False,1,20.37713617051738
+rr1,demogs,Jews,14,False,False,0,9.216450127874333
+rr1,demogs,Liberals,14,False,False,2,23.37292016918209
+rr1,demogs,Muslims,14,False,False,7,21.150701313801726
+rr1,demogs,Republican Party,14,False,False,2,31.18744791025505
+rr1,demogs,White Americans,14,False,False,0,8.605176165406421
+rr1,full,Asian Americans,14,True,False,0,3.423334434706597
+rr1,full,Black Americans,14,True,False,0,7.279231989997861
+rr1,full,Christians,14,False,False,0,12.655798015131918
+rr1,full,Conservatives,14,False,False,0,13.324704379058172
+rr1,full,Democratic Party,14,True,False,0,11.11304213709617
+rr1,full,Gays and Lesbians,14,False,False,1,19.793144147304925
+rr1,full,Jews,14,True,False,0,3.1892616041031285
+rr1,full,Liberals,14,True,False,0,11.901425095821516
+rr1,full,Muslims,14,False,False,1,14.718235012958162
+rr1,full,Republican Party,14,True,False,0,11.616713761369823
+rr1,full,White Americans,14,True,False,0,7.275394166916353
+rr1,pol,Asian Americans,14,True,False,0,2.7871323350837662
+rr1,pol,Black Americans,14,True,False,0,8.017424614978259
+rr1,pol,Christians,14,False,False,0,10.662087867176432
+rr1,pol,Conservatives,14,True,False,0,10.450123739830751
+rr1,pol,Democratic Party,14,True,False,0,11.600398643348658
+rr1,pol,Gays and Lesbians,14,False,False,2,20.16655361452118
+rr1,pol,Jews,14,True,False,0,3.739483382694994
+rr1,pol,Liberals,14,True,False,0,11.070803469364424
+rr1,pol,Muslims,14,False,False,1,13.20484415072403
+rr1,pol,Republican Party,14,True,False,0,9.605687152578012
+rr1,pol,White Americans,14,False,False,0,9.526637338475258

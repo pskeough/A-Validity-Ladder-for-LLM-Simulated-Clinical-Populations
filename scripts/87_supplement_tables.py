@@ -38,6 +38,7 @@ Emits
     paper_brm/manuscript/supplement/tables/supp_macros.tex   numbers the supplement prose quotes
 """
 import difflib
+import glob
 import json
 import os
 import re
@@ -141,6 +142,19 @@ def ci(lo, hi, f=f2):
     if isnan(lo) or isnan(hi):
         return "--"
     return f"[{f(lo)}, {f(hi)}]"
+
+
+def gate_k(s2_r, outcome, which):
+    """Draws for the frozen gate (LADDER_SPEC.md): SE(k) <= 0.25 (min) or 0.125 (rec) reference SD
+    on the PHQ-8 total, reference SD from 80a (NHANES 2005-2018, all adults). The rule is defined on
+    the total; the >= 10 indicator keeps its stored proportion tolerances (0.10 and 0.05)."""
+    if outcome == "PHQ-8 total":
+        b = read(brm("80a_tolerance_basis.csv"))
+        sd = float(b[(b.window == "2005-2018") & (b.population == "all adults 18+")].sd.iloc[0])
+        tol = (0.25 if which == "min" else 0.125) * sd
+    else:
+        tol = 0.10 if which == "min" else 0.05
+    return max(1, int(np.ceil(float(s2_r) / tol ** 2 - 1e-12)))
 
 
 def P(w):
@@ -598,23 +612,24 @@ def s3_december():
     rows = []
     flips = 0
     cross30 = 0
+    for c in ("min", "rec"):
+        for s in ("full", "dec"):
+            gc[f"k{c}_{s}"] = [gate_k(r[f"s2_e_{s}"], r.outcome, c) for _, r in gc.iterrows()]
+    # The stored k at 1.0 / 0.5 points equals the frozen k at 0.98 / 0.49 on every total row.
+    t = gc[gc.outcome == "PHQ-8 total"]
+    assert (t.kmin_full == t.k_se_tol2_full).all() and (t.krec_full == t.k_se_tol1_full).all()
     for _, r in gc.iterrows():
-        for a, b in [(max(r.k_phi80_full, r.k_se_tol2_full), max(r.k_phi80_dec, r.k_se_tol2_dec)),
-                     (max(r.k_phi90_full, r.k_se_tol1_full), max(r.k_phi90_dec, r.k_se_tol1_dec))]:
+        for a, b in [(r.kmin_full, r.kmin_dec), (r.krec_full, r.krec_dec)]:
             cross30 += int((a <= 30) != (b <= 30))
     MACROS["DecGateCrossThirty"] = str(cross30)
     MACROS["DecGateModels"] = ", ".join(sorted({f"{r.model} {r.framing}" for _, r in gc.iterrows()
-                                                if (r.k_phi80_full, r.k_phi90_full, r.k_se_tol1_full, r.k_se_tol2_full)
-                                                != (r.k_phi80_dec, r.k_phi90_dec, r.k_se_tol1_dec, r.k_se_tol2_dec)}))
+                                                if (r.kmin_full, r.krec_full) != (r.kmin_dec, r.krec_dec)}))
     for oc in ["PHQ-8 total", "PHQ-8 >= 10"]:
         sub = gc[gc.outcome == oc]
         sub = sub.assign(mo=sub.model.map(mean_name)).sort_values(["mo", "framing"])
         first = True
         for _, r in sub.iterrows():
-            kmin_f = max(r.k_phi80_full, r.k_se_tol2_full)
-            kmin_d = max(r.k_phi80_dec, r.k_se_tol2_dec)
-            krec_f = max(r.k_phi90_full, r.k_se_tol1_full)
-            krec_d = max(r.k_phi90_dec, r.k_se_tol1_dec)
+            kmin_f, kmin_d, krec_f, krec_d = r.kmin_full, r.kmin_dec, r.krec_full, r.krec_dec
             flips += int(kmin_f != kmin_d) + int(krec_f != krec_d)
             rows.append([tex(oc) if first else "", r.model, r.framing.capitalize(),
                          ki(r.n_persona_full), ki(r.n_persona_dec),
@@ -632,8 +647,9 @@ def s3_december():
                "Outcome & Model & Framing & Full & Dec. & Full & Dec. & Full & Dec. & Full & Dec."],
               rows,
               "Dec.\\ = December rows only (\\texttt{dec28\\_main}, \\texttt{dec28\\_restored} and all "
-              "narrative rows). Minimum: the larger of the $k$ for $\\phi \\ge .80$ and for SE $\\le 1.0$. "
-              "Recommended: the larger of the $k$ for $\\phi \\ge .90$ and for SE $\\le 0.5$.")
+              "narrative rows). Minimum: the $k$ for SE $\\le$ 0.25 reference SD (0.98 PHQ-8 points). "
+              "Recommended: the $k$ for SE $\\le$ 0.125 reference SD (0.49 points). Indicator rows: SE "
+              "$\\le$ 0.10 and 0.05 in proportion.")
 
     # Level 1.
     pf = read(brm("l1_personfit_main.csv"))
@@ -966,7 +982,6 @@ def s3_marital_income():
 # ---------------------------------------------------------------------------------------------
 def s4_gate():
     g = read(brm("gate_dstudy.csv"))
-    lic = read(brm("gate_license_models.csv"))
     rows = []
     rows2 = []
     for oc in ["PHQ-8 total", "PHQ-8 >= 10"]:
@@ -978,24 +993,18 @@ def s4_gate():
                          f"{f2(r.s2_p)} {ci(r.s2_p_lo, r.s2_p_hi)}", f"{f2(r.s2_e)} {ci(r.s2_e_lo, r.s2_e_hi)}",
                          f"{f3(r.phi_nested_1)} {ci(r.phi_nested_1_lo, r.phi_nested_1_hi, f3)}",
                          f"{f3(r.phi_nested_30)} {ci(r.phi_nested_30_lo, r.phi_nested_30_hi, f3)}"])
+            kk = {c: [gate_k(r[f"s2_e{s}"], oc, c) for s in ("", "_lo", "_hi")] for c in ("min", "rec")}
+            if oc == "PHQ-8 total":
+                assert kk["min"][0] == r.k_se_tol2 and kk["rec"][0] == r.k_se_tol1, (r.model, r.framing)
             rows2.append([tex(oc) if first else "", r.model, r.framing.capitalize(),
                           f"{ki(r.k_phi80)} {ci(r.k_phi80_lo, r.k_phi80_hi, ki)}",
                           f"{ki(r.k_phi90)} {ci(r.k_phi90_lo, r.k_phi90_hi, ki)}",
-                          f"{ki(r.k_se_tol2)} {ci(r.k_se_tol2_lo, r.k_se_tol2_hi, ki)}",
-                          f"{ki(r.k_se_tol1)} {ci(r.k_se_tol1_lo, r.k_se_tol1_hi, ki)}",
-                          ki(max(r.k_phi80, r.k_se_tol2)), ki(max(r.k_phi90, r.k_se_tol1))])
+                          f"{ki(kk['min'][0])} {ci(kk['min'][1], kk['min'][2], ki)}",
+                          f"{ki(kk['rec'][0])} {ci(kk['rec'][1], kk['rec'][2], ki)}"])
             first = False
         rows.append("MID")
         rows2.append("MID")
     rows, rows2 = rows[:-1], rows2[:-1]
-    # Cross-check against script 82f, whose per-model rule is the larger k over the two framings.
-    tot = g[g.outcome == "PHQ-8 total"].copy()
-    tot["kmin"] = tot[["k_phi80", "k_se_tol2"]].max(axis=1)
-    tot["krec"] = tot[["k_phi90", "k_se_tol1"]].max(axis=1)
-    per_model = tot.groupby("model")[["kmin", "krec"]].max()
-    for _, q in lic.iterrows():
-        assert int(q.k_minimum_rule) == int(per_model.loc[q.model, "kmin"]), f"k_minimum_rule {q.model}"
-        assert int(q.k_recommended_rule) == int(per_model.loc[q.model, "krec"]), f"k_recommended_rule {q.model}"
     longtable("S4_gate_components.tex", [brm("gate_dstudy.csv")],
               "Gate: Variance Components and Dependability With Persona-Bootstrap Intervals",
               "tab:s4gatecomp", "lll" + P("2.5cm") + P("2.5cm") + P("2.4cm") + P("2.4cm"),
@@ -1005,18 +1014,18 @@ def s4_gate():
               "$\\sigma^2_r$ = variance between draws of one persona (squared PHQ-8 points for the total, "
               "squared proportion for the indicator). $\\phi$ from the nested design.",
               size="scriptsize", tabcolsep="3pt")
-    longtable("S4_gate_k.tex", [brm("gate_dstudy.csv"), brm("gate_license_models.csv")],
+    longtable("S4_gate_k.tex", [brm("gate_dstudy.csv"), brm("80a_tolerance_basis.csv")],
               "Gate: Draws Needed per Persona With Persona-Bootstrap Intervals", "tab:s4gatek",
-              "llllllllrr",
-              [" & & & \\multicolumn{2}{c}{Dependability} & \\multicolumn{2}{c}{Standard error} & & "
-               "\\multicolumn{2}{c}{Rule}",
-               "\\cmidrule(lr){4-5}\\cmidrule(lr){6-7}\\cmidrule(lr){9-10}"
-               "Outcome & Model & Framing & $\\phi \\ge .80$ & $\\phi \\ge .90$ & SE $\\le 1$ & SE $\\le 0.5$ & & Min. & Rec."],
+              "lllllll",
+              [" & & & \\multicolumn{2}{c}{Separation} & \\multicolumn{2}{c}{Gate rule}",
+               "\\cmidrule(lr){4-5}\\cmidrule(lr){6-7}"
+               "Outcome & Model & Framing & $\\phi \\ge .80$ & $\\phi \\ge .90$ & Min. & Rec."],
               rows2,
-              "Brackets: 95\\% persona-bootstrap intervals for $k$. Standard-error tolerances are in "
-              "PHQ-8 points for the total and are applied on the same scale to the indicator as stored in "
-              "\\texttt{gate\\_dstudy.csv}. Min.\\ = larger of the first and third columns; Rec.\\ = larger "
-              "of the second and fourth; both checked against \\texttt{gate\\_license\\_models.csv}.",
+              "Brackets: 95\\% persona-bootstrap intervals for $k$. Min.\\ = $k$ for SE $\\le$ 0.25 "
+              "reference SD (0.98 PHQ-8 points); Rec.\\ = $k$ for SE $\\le$ 0.125 reference SD (0.49 "
+              "points); reference SD 3.935 (NHANES 2005--2018). Indicator rows: SE $\\le$ 0.10 and 0.05 in "
+              "proportion. Separation columns: $k$ for persona separation $\\phi(k)$, required only for "
+              "uses that compare personas.",
               tabcolsep="3pt")
 
 
@@ -1283,22 +1292,45 @@ def s5():
               "$d = 0$ the share is the pass rate of real people; at $d > 0$ a failure is the correct reading.")
 
     c4 = read(brm("83c_l4.csv"))
+    # Frozen R2 (congruence and loading RMSD, three-way) and Pass come from the 83h replicates,
+    # which rerun 83b's level-4 block with the size condition recorded.
+    h = pd.concat([pd.read_csv(f) for f in sorted(glob.glob(brm(os.path.join("83h_reps", "rep_*.csv"))))],
+                  ignore_index=True)
+    h["cond"] = h.condition.fillna("Positive control")
+    h["passed"] = h.R1.astype(bool) & (h.R2_verdict == "pass") & h.R3.astype(bool)
+    hs = h.groupby(["cond", "dose", "unit"]).agg(n=("rep", "nunique"),
+                                                 r2p=("R2_verdict", lambda v: np.mean(v == "pass")),
+                                                 r2u=("R2_verdict", lambda v: np.mean(v == "unresolved")),
+                                                 r2f=("R2_verdict", lambda v: np.mean(v == "fail")),
+                                                 passed=("passed", "mean"), rmsd=("loading_rmsd", "mean"))
     rows = []
     c4 = c4.assign(cond=c4.condition.fillna("Positive control"))
     for _, r in c4.iterrows():
-        rows.append([tex(r.cond), pc(r.dose), r.unit, ki(r.n), pc(r.R1), pc(r.R2), pc(r.R3), pc(r.passed),
-                     f2(r.ev_ratio_mean), f3(r.phi_mean), f2(r.within_ev_ratio_mean)])
-    longtable("S5_l4.tex", [brm("83c_l4.csv")],
+        key = (r.cond, r.dose, r.unit)
+        q = hs.loc[key] if key in hs.index else None
+        rows.append([tex(r.cond), pc(r.dose), r.unit, ki(r.n), pc(r.R1), pc(r.R3),
+                     ki(q.n) if q is not None else "--",
+                     pc(q.r2p) if q is not None else "--", pc(q.r2u) if q is not None else "--",
+                     pc(q.r2f) if q is not None else "--",
+                     pc(q.passed) if q is not None and r.unit == "model" else "--",
+                     f2(r.ev_ratio_mean), f2(q.rmsd) if q is not None and r.unit != "model" else "--",
+                     f2(r.within_ev_ratio_mean)])
+    longtable("S5_l4.tex", [brm("83c_l4.csv"), brm("83h_r2_size.csv")],
               "Controls, Level 4: Share of Replicates Passing Each Rule", "tab:s5l4",
-              "lrlrrrrrrrr",
-              ["Condition & Dose (\\%) & Unit & $n$ & R1 & R2 & R3 & Pass & $\\lambda_1/\\lambda_2$ & $\\phi$ & "
-               "Within $\\lambda_1/\\lambda_2$"],
+              "lrlrrrrrrrrrrr",
+              [" & & & \\multicolumn{3}{c}{200 replicates} & \\multicolumn{5}{c}{R2 calibration} & & & ",
+               "\\cmidrule(lr){4-6}\\cmidrule(lr){7-11}"
+               "Condition & Dose (\\%) & Unit & $n$ & R1 & R3 & $n$ & R2 pass & R2 unres. & R2 fail & Pass & "
+               "$\\lambda_1/\\lambda_2$ & RMSD & Within $\\lambda_1/\\lambda_2$"],
               rows,
-              "Dose = share of draws rebuilt item by item from other draws of the same persona. R1, R2, R3 "
-              "and Pass are shares of replicates in percent; Pass is scored on R1, R2 and R3 in both "
-              "framings (unit \\texttt{model}). R4 was not simulated. The last three columns are means over "
+              "Dose = share of draws rebuilt item by item from other draws of the same persona. Rule columns "
+              "are shares of replicates in percent. R2 is read on congruence and loading RMSD (pass, "
+              "unresolved, fail) in the R2 calibration replicates (script 83h), which rerun the level-4 "
+              "block with the RMSD recorded. Pass is scored on R1, R2 and R3 in both framings (unit "
+              "\\texttt{model}) in those replicates. R4 was not simulated. $\\lambda_1/\\lambda_2$, RMSD "
+              "(mean loading RMSD against the reference) and the within-persona ratio are means over "
               "replicates. The reference-half row reads the NHANES half used as reference.",
-              size="scriptsize", tabcolsep="3pt")
+              size="scriptsize", tabcolsep="2pt")
 
     p = read(brm("83f_l2_parametric_power.csv"))
     settings = list(p.se_G_setting.unique())

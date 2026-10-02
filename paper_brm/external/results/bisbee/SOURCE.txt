@@ -1,0 +1,4 @@
+Bisbee, Clinton, Dorff, Kenkel and Larson (2024), Political Analysis.
+Harvard Dataverse doi:10.7910/DVN/VPN481, version 1 (released 2024-04-03), CC0 1.0.
+File PA_replication.zip, datafile id 10056990, 2130570160 bytes, downloaded 2026-10-02.
+SHA-256 59ea5ee31ff1d852d447e44c8e178120d2f3659aacc5ed001b61c1d7e08617ce

@@ -26,6 +26,9 @@ OUTD = os.path.join(HERE, "..", "paper_brm", "analysis_brm", "panel_power")
 KMAX = 0.25
 STOPS = ("reference too imprecise", "no population gap")
 GRIDS = ["G48", "G144_age", "G144_edu", "G432"]
+_B = pd.read_csv(os.path.join(HERE, "..", "analysis", "brm", "80a_tolerance_basis.csv"))
+SD0 = float(_B[(_B.window == "2005-2018") & (_B.population == "all adults 18+")].sd.iloc[0])
+TOL_MIN, TOL_REC = 0.25 * SD0, 0.125 * SD0   # LADDER_SPEC.md gate: 0.98 and 0.49 PHQ-8 points
 
 
 def model_rule(verdicts):
@@ -64,8 +67,14 @@ def main():
 
     for g in GRIDS:
         x = d[d.grid == g]
+        # Frozen gate (precision only), re-read from the stored SE(30): runners that loaded 88 before
+        # its gate change (13:41) stored verdicts under the pre-freeze rule (phi(30) >= .80 and SE).
         gt = x[(x.rung == "gate") & (x.type == "REAL")]
-        add(g, "gate", "REAL", "minimum, both framings", gt.verdict)
+        ok_min = (gt.se30_clinical <= TOL_MIN) & (gt.se30_narrative <= TOL_MIN)
+        ok_rec = (gt.se30_clinical <= TOL_REC) & (gt.se30_narrative <= TOL_REC)
+        add(g, "gate", "REAL", "minimum, both framings", ok_min.map({True: "pass", False: "fail"}))
+        add(g, "gate", "REAL", "recommended, both framings", ok_rec.map({True: "pass", False: "fail"}))
+        add(g, "gate", "REAL", "stored verdict (pre-freeze rule in early runners)", gt.verdict)
 
         c = x[(x.rung == "L2") & x.rule.str.startswith("contrast")]
         for (t, rule), cc in c.groupby(["type", "rule"]):

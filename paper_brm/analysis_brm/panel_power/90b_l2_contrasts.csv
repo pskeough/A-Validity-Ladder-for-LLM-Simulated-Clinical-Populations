@@ -1,0 +1,57 @@
+grid,rule,unit,n,k_median,share_k_le_kmax,share_no_gap,share_kept_limit
+G48,contrast [limit_auditprec],Asian minus White,60,0.2440246353577395,0.5666666666666667,0.0,0.08333333333333333
+G144_age,contrast [limit_auditprec],Asian minus White,60,0.26065835895709993,0.35,0.0,0.03333333333333333
+G144_edu,contrast [limit_auditprec],Asian minus White,60,0.3580862065941043,0.05,0.0,0.0
+G432,contrast [limit_auditprec],Asian minus White,60,0.3948947122786818,0.016666666666666666,0.0,0.0
+G48,contrast [limit_auditprec],Black minus White,60,0.7378712191138672,0.0,0.18333333333333332,0.0
+G144_age,contrast [limit_auditprec],Black minus White,60,0.6094175313083278,0.0,0.06666666666666667,0.0
+G144_edu,contrast [limit_auditprec],Black minus White,60,0.648242787659095,0.0,0.11666666666666667,0.0
+G432,contrast [limit_auditprec],Black minus White,60,0.5691763356648074,0.0,0.03333333333333333,0.0
+G48,contrast [limit_auditprec],Hispanic minus White,60,1.0296471628760178,0.0,0.55,0.0
+G144_age,contrast [limit_auditprec],Hispanic minus White,60,2.2396604609251884,0.0,0.95,0.0
+G144_edu,contrast [limit_auditprec],Hispanic minus White,60,1.0983202687326683,0.0,0.6333333333333333,0.0
+G432,contrast [limit_auditprec],Hispanic minus White,60,1.2282439724771885,0.0,0.7,0.0
+G48,contrast [limit_auditprec],Low minus High SES,60,0.1641745222093942,1.0,0.0,0.95
+G144_age,contrast [limit_auditprec],Low minus High SES,60,0.1599226181000086,1.0,0.0,0.9833333333333333
+G144_edu,contrast [limit_auditprec],Low minus High SES,60,0.2421541747789267,0.5833333333333334,0.0,0.11666666666666667
+G432,contrast [limit_auditprec],Low minus High SES,60,0.20886230405938905,0.9166666666666666,0.0,0.36666666666666664
+G48,contrast [limit_auditprec],Low minus Middle SES,60,0.29175135612228686,0.06666666666666667,0.0,0.0
+G144_age,contrast [limit_auditprec],Low minus Middle SES,60,0.2775584851472047,0.25,0.0,0.0
+G144_edu,contrast [limit_auditprec],Low minus Middle SES,60,0.4161363828011254,0.0,0.0,0.0
+G432,contrast [limit_auditprec],Low minus Middle SES,60,0.36263816259978277,0.0,0.0,0.0
+G48,contrast [limit_auditprec],Middle minus High SES,60,0.32079123608803994,0.03333333333333333,0.0,0.0
+G144_age,contrast [limit_auditprec],Middle minus High SES,60,0.29080753416225225,0.23333333333333334,0.0,0.0
+G144_edu,contrast [limit_auditprec],Middle minus High SES,60,0.5167915542185999,0.0,0.0,0.0
+G432,contrast [limit_auditprec],Middle minus High SES,60,0.4859137931519793,0.0,0.0,0.0
+G48,contrast [limit_auditprec],Women minus Men,60,0.19854837596183594,0.9833333333333333,0.0,0.5166666666666667
+G144_age,contrast [limit_auditprec],Women minus Men,60,0.19712921575837955,0.9833333333333333,0.0,0.5166666666666667
+G144_edu,contrast [limit_auditprec],Women minus Men,60,0.222584427102971,0.85,0.0,0.13333333333333333
+G432,contrast [limit_auditprec],Women minus Men,60,0.2269223446584107,0.8166666666666667,0.0,0.13333333333333333
+G48,contrast [limit_half],Asian minus White,60,0.3451029488760644,0.016666666666666666,0.0,0.0
+G144_age,contrast [limit_half],Asian minus White,60,0.36862658638304524,0.0,0.0,0.0
+G144_edu,contrast [limit_half],Asian minus White,60,0.5064103698641164,0.0,0.0,0.0
+G432,contrast [limit_half],Asian minus White,60,0.5584654578139331,0.0,0.016666666666666666,0.0
+G48,contrast [limit_half],Black minus White,60,1.0435074853556008,0.0,0.5333333333333333,0.0
+G144_age,contrast [limit_half],Black minus White,60,0.8618465379241675,0.0,0.31666666666666665,0.0
+G144_edu,contrast [limit_half],Black minus White,60,0.9167537420180347,0.0,0.38333333333333336,0.0
+G432,contrast [limit_half],Black minus White,60,0.8049368932789918,0.0,0.26666666666666666,0.0
+G48,contrast [limit_half],Hispanic minus White,60,1.4561409821982438,0.0,0.9166666666666666,0.0
+G144_age,contrast [limit_half],Hispanic minus White,60,3.167358198951179,0.0,0.9833333333333333,0.0
+G144_edu,contrast [limit_half],Hispanic minus White,60,1.5532594198710021,0.0,0.9,0.0
+G432,contrast [limit_half],Hispanic minus White,60,1.7369992837802468,0.0,0.9166666666666666,0.0
+G48,contrast [limit_half],Low minus High SES,60,0.23217783590464824,0.7333333333333333,0.0,0.06666666666666667
+G144_age,contrast [limit_half],Low minus High SES,60,0.22616473544724525,0.9,0.0,0.2
+G144_edu,contrast [limit_half],Low minus High SES,60,0.3424577181576231,0.016666666666666666,0.0,0.0
+G432,contrast [limit_half],Low minus High SES,60,0.2953759030692812,0.03333333333333333,0.0,0.0
+G48,contrast [limit_half],Low minus Middle SES,60,0.4125987246688808,0.0,0.0,0.0
+G144_age,contrast [limit_half],Low minus Middle SES,60,0.3925269740469082,0.0,0.0,0.0
+G144_edu,contrast [limit_half],Low minus Middle SES,60,0.5885057163542335,0.0,0.0,0.0
+G432,contrast [limit_half],Low minus Middle SES,60,0.5128478077826726,0.0,0.0,0.0
+G48,contrast [limit_half],Middle minus High SES,60,0.4536673167661356,0.0,0.0,0.0
+G144_age,contrast [limit_half],Middle minus High SES,60,0.41126395885253436,0.0,0.0,0.0
+G144_edu,contrast [limit_half],Middle minus High SES,60,0.7308536248958148,0.0,0.1,0.0
+G432,contrast [limit_half],Middle minus High SES,60,0.687185876419684,0.0,0.1,0.0
+G48,contrast [limit_half],Women minus Men,60,0.2807898060723807,0.16666666666666666,0.0,0.0
+G144_age,contrast [limit_half],Women minus Men,60,0.2787828104654724,0.15,0.0,0.0
+G144_edu,contrast [limit_half],Women minus Men,60,0.3147819155820672,0.03333333333333333,0.0,0.0
+G432,contrast [limit_half],Women minus Men,60,0.3209166574214263,0.03333333333333333,0.0,0.0

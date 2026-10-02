@@ -1,0 +1,197 @@
+grid,rung,type,rule,n,rate_pass,rate_fail,rate_unresolved
+G48,gate,REAL,"minimum, both framings",240,1.0,0.0,0.0
+G48,gate,REAL,"recommended, both framings",240,0.0,1.0,0.0
+G48,gate,REAL,stored verdict (pre-freeze rule in early runners),240,0.6833333333333333,0.31666666666666665,0.0
+G48,L2,REAL,cond_auditprec / current,240,0.0,0.0375,0.9625
+G48,L2,REAL,cond_auditprec / popstop,240,0.0,0.016666666666666666,0.9833333333333333
+G48,L2,REAL,cond_auditprec / keptable,240,0.0,0.0375,0.9625
+G48,L2,REAL,cond_half / current,240,0.0,0.0125,0.9875
+G48,L2,REAL,cond_half / popstop,240,0.0,0.004166666666666667,0.9958333333333333
+G48,L2,REAL,cond_half / keptable,240,0.0,0.0125,0.9875
+G48,L2,REAL,limit_auditprec / current,60,0.21666666666666667,0.0,0.7833333333333333
+G48,L2,REAL,limit_auditprec / popstop,60,0.21666666666666667,0.0,0.7833333333333333
+G48,L2,REAL,limit_auditprec / keptable,60,0.21666666666666667,0.0,0.7833333333333333
+G48,L2,REAL,limit_half / current,60,0.05,0.0,0.95
+G48,L2,REAL,limit_half / popstop,60,0.05,0.0,0.95
+G48,L2,REAL,limit_half / keptable,60,0.05,0.0,0.95
+G48,L2,REAL,pairs_auditprec / current,240,0.0,0.0,1.0
+G48,L2,REAL,pairs_auditprec / popstop,240,0.0,0.0,1.0
+G48,L2,REAL,pairs_auditprec / keptable,240,0.0,0.0,1.0
+G48,L2,REAL,pairs_half / current,240,0.0,0.0,1.0
+G48,L2,REAL,pairs_half / popstop,240,0.0,0.0,1.0
+G48,L2,REAL,pairs_half / keptable,240,0.0,0.0,1.0
+G48,L2,STEEPENED-2x,cond_auditprec / current,240,0.0,1.0,0.0
+G48,L2,STEEPENED-2x,cond_auditprec / popstop,240,0.0,0.9625,0.0375
+G48,L2,STEEPENED-2x,cond_auditprec / keptable,240,0.0,1.0,0.0
+G48,L2,STEEPENED-2x,cond_half / current,240,0.0,0.9958333333333333,0.004166666666666667
+G48,L2,STEEPENED-2x,cond_half / popstop,240,0.0,0.6708333333333333,0.32916666666666666
+G48,L2,STEEPENED-2x,cond_half / keptable,240,0.0,0.9958333333333333,0.004166666666666667
+G48,L2,STEEPENED-2x,pairs_auditprec / current,240,0.0,0.9791666666666666,0.020833333333333332
+G48,L2,STEEPENED-2x,pairs_auditprec / popstop,240,0.0,0.7666666666666667,0.23333333333333334
+G48,L2,STEEPENED-2x,pairs_auditprec / keptable,240,0.0,0.9791666666666666,0.020833333333333332
+G48,L2,STEEPENED-2x,pairs_half / current,240,0.0,0.95,0.05
+G48,L2,STEEPENED-2x,pairs_half / popstop,240,0.0,0.5,0.5
+G48,L2,STEEPENED-2x,pairs_half / keptable,240,0.0,0.95,0.05
+G48,L4-R1,NONINVARIANT,both framings,10,1.0,0.0,0.0
+G48,L4-R1,REAL,both framings,60,1.0,0.0,0.0
+G48,L4-R2,NONINVARIANT,both framings,10,0.9,0.1,0.0
+G48,L4-R2,REAL,both framings,60,1.0,0.0,0.0
+G48,L4-R4,NONINVARIANT,"both framings, margin .05",10,0.0,0.1,0.9
+G48,L4-R4,NONINVARIANT,"both framings, margin .08",10,0.0,1.0,0.0
+G48,L4-R4,REAL,"both framings, margin .05",25,0.0,0.04,0.96
+G48,L4-R4,REAL,"both framings, margin .08",25,0.0,0.0,1.0
+G48,L4,NONINVARIANT,"level 4 (R1, R2, R4 at .05)",10,0.0,0.2,0.8
+G48,L4,NONINVARIANT,"level 4 (R1, R2, R4 at .08)",10,0.0,1.0,0.0
+G48,L4,REAL,"level 4 (R1, R2, R4 at .05)",25,0.0,0.04,0.96
+G48,L4,REAL,"level 4 (R1, R2, R4 at .08)",25,0.0,0.0,1.0
+G48,L4-R2,NONINVARIANT,frozen: shape and size,10,0.0,0.8,0.2
+G48,L4,NONINVARIANT,"frozen: R1, R2 (shape and size), R4 at .08",10,0.0,1.0,0.0
+G48,L4-R2,REAL,frozen: shape and size,60,1.0,0.0,0.0
+G48,L4,REAL,"frozen: R1, R2 (shape and size), R4 at .08",25,0.0,0.0,1.0
+G144_age,gate,REAL,"minimum, both framings",240,1.0,0.0,0.0
+G144_age,gate,REAL,"recommended, both framings",240,0.0,1.0,0.0
+G144_age,gate,REAL,stored verdict (pre-freeze rule in early runners),240,0.6833333333333333,0.31666666666666665,0.0
+G144_age,L2,REAL,cond_auditprec / current,240,0.0,0.041666666666666664,0.9583333333333334
+G144_age,L2,REAL,cond_auditprec / popstop,240,0.0,0.03333333333333333,0.9666666666666667
+G144_age,L2,REAL,cond_auditprec / keptable,240,0.0,0.041666666666666664,0.9583333333333334
+G144_age,L2,REAL,cond_half / current,240,0.0,0.025,0.975
+G144_age,L2,REAL,cond_half / popstop,240,0.0,0.0,1.0
+G144_age,L2,REAL,cond_half / keptable,240,0.0,0.025,0.975
+G144_age,L2,REAL,limit_auditprec / current,60,0.2,0.0,0.8
+G144_age,L2,REAL,limit_auditprec / popstop,60,0.2,0.0,0.8
+G144_age,L2,REAL,limit_auditprec / keptable,60,0.2,0.0,0.8
+G144_age,L2,REAL,limit_half / current,60,0.18333333333333332,0.0,0.8166666666666667
+G144_age,L2,REAL,limit_half / popstop,60,0.18333333333333332,0.0,0.8166666666666667
+G144_age,L2,REAL,limit_half / keptable,60,0.18333333333333332,0.0,0.8166666666666667
+G144_age,L2,REAL,pairs_auditprec / current,240,0.0,0.004166666666666667,0.9958333333333333
+G144_age,L2,REAL,pairs_auditprec / popstop,240,0.0,0.004166666666666667,0.9958333333333333
+G144_age,L2,REAL,pairs_auditprec / keptable,240,0.0,0.004166666666666667,0.9958333333333333
+G144_age,L2,REAL,pairs_half / current,240,0.0,0.0,1.0
+G144_age,L2,REAL,pairs_half / popstop,240,0.0,0.0,1.0
+G144_age,L2,REAL,pairs_half / keptable,240,0.0,0.0,1.0
+G144_age,L2,STEEPENED-2x,cond_auditprec / current,240,0.0,1.0,0.0
+G144_age,L2,STEEPENED-2x,cond_auditprec / popstop,240,0.0,1.0,0.0
+G144_age,L2,STEEPENED-2x,cond_auditprec / keptable,240,0.0,1.0,0.0
+G144_age,L2,STEEPENED-2x,cond_half / current,240,0.0,1.0,0.0
+G144_age,L2,STEEPENED-2x,cond_half / popstop,240,0.0,0.8916666666666667,0.10833333333333334
+G144_age,L2,STEEPENED-2x,cond_half / keptable,240,0.0,1.0,0.0
+G144_age,L2,STEEPENED-2x,pairs_auditprec / current,240,0.0,1.0,0.0
+G144_age,L2,STEEPENED-2x,pairs_auditprec / popstop,240,0.0,0.9708333333333333,0.029166666666666667
+G144_age,L2,STEEPENED-2x,pairs_auditprec / keptable,240,0.0,1.0,0.0
+G144_age,L2,STEEPENED-2x,pairs_half / current,240,0.0,1.0,0.0
+G144_age,L2,STEEPENED-2x,pairs_half / popstop,240,0.0,0.8583333333333333,0.14166666666666666
+G144_age,L2,STEEPENED-2x,pairs_half / keptable,240,0.0,1.0,0.0
+G144_age,L4-R1,NONINVARIANT,both framings,10,1.0,0.0,0.0
+G144_age,L4-R1,REAL,both framings,60,1.0,0.0,0.0
+G144_age,L4-R2,NONINVARIANT,both framings,10,1.0,0.0,0.0
+G144_age,L4-R2,REAL,both framings,60,1.0,0.0,0.0
+G144_age,L4-R4,NONINVARIANT,"both framings, margin .05",10,0.0,0.0,1.0
+G144_age,L4-R4,NONINVARIANT,"both framings, margin .08",10,0.0,1.0,0.0
+G144_age,L4-R4,REAL,"both framings, margin .05",25,0.0,0.04,0.96
+G144_age,L4-R4,REAL,"both framings, margin .08",25,0.0,0.0,1.0
+G144_age,L4,NONINVARIANT,"level 4 (R1, R2, R4 at .05)",10,0.0,0.0,1.0
+G144_age,L4,NONINVARIANT,"level 4 (R1, R2, R4 at .08)",10,0.0,1.0,0.0
+G144_age,L4,REAL,"level 4 (R1, R2, R4 at .05)",25,0.0,0.04,0.96
+G144_age,L4,REAL,"level 4 (R1, R2, R4 at .08)",25,0.0,0.0,1.0
+G144_age,L4-R2,NONINVARIANT,frozen: shape and size,10,0.0,0.9,0.1
+G144_age,L4,NONINVARIANT,"frozen: R1, R2 (shape and size), R4 at .08",10,0.0,1.0,0.0
+G144_age,L4-R2,REAL,frozen: shape and size,60,1.0,0.0,0.0
+G144_age,L4,REAL,"frozen: R1, R2 (shape and size), R4 at .08",25,0.0,0.0,1.0
+G144_edu,gate,REAL,"minimum, both framings",240,1.0,0.0,0.0
+G144_edu,gate,REAL,"recommended, both framings",240,0.0,1.0,0.0
+G144_edu,gate,REAL,stored verdict (pre-freeze rule in early runners),240,0.6833333333333333,0.31666666666666665,0.0
+G144_edu,L2,REAL,cond_auditprec / current,240,0.0,0.0875,0.9125
+G144_edu,L2,REAL,cond_auditprec / popstop,240,0.0,0.016666666666666666,0.9833333333333333
+G144_edu,L2,REAL,cond_auditprec / keptable,240,0.0,0.0875,0.9125
+G144_edu,L2,REAL,cond_half / current,240,0.0,0.03333333333333333,0.9666666666666667
+G144_edu,L2,REAL,cond_half / popstop,240,0.0,0.008333333333333333,0.9916666666666667
+G144_edu,L2,REAL,cond_half / keptable,240,0.0,0.03333333333333333,0.9666666666666667
+G144_edu,L2,REAL,limit_auditprec / current,60,0.1,0.0,0.9
+G144_edu,L2,REAL,limit_auditprec / popstop,60,0.1,0.0,0.9
+G144_edu,L2,REAL,limit_auditprec / keptable,60,0.1,0.0,0.9
+G144_edu,L2,REAL,limit_half / current,60,0.0,0.0,1.0
+G144_edu,L2,REAL,limit_half / popstop,60,0.0,0.0,1.0
+G144_edu,L2,REAL,limit_half / keptable,60,0.0,0.0,1.0
+G144_edu,L2,REAL,pairs_auditprec / current,240,0.0,0.016666666666666666,0.9833333333333333
+G144_edu,L2,REAL,pairs_auditprec / popstop,240,0.0,0.0,1.0
+G144_edu,L2,REAL,pairs_auditprec / keptable,240,0.0,0.016666666666666666,0.9833333333333333
+G144_edu,L2,REAL,pairs_half / current,240,0.0,0.0,1.0
+G144_edu,L2,REAL,pairs_half / popstop,240,0.0,0.0,1.0
+G144_edu,L2,REAL,pairs_half / keptable,240,0.0,0.0,1.0
+G144_edu,L2,STEEPENED-2x,cond_auditprec / current,240,0.0,0.9958333333333333,0.004166666666666667
+G144_edu,L2,STEEPENED-2x,cond_auditprec / popstop,240,0.0,0.5708333333333333,0.42916666666666664
+G144_edu,L2,STEEPENED-2x,cond_auditprec / keptable,240,0.0,0.9958333333333333,0.004166666666666667
+G144_edu,L2,STEEPENED-2x,cond_half / current,240,0.0,0.9875,0.0125
+G144_edu,L2,STEEPENED-2x,cond_half / popstop,240,0.0,0.016666666666666666,0.9833333333333333
+G144_edu,L2,STEEPENED-2x,cond_half / keptable,240,0.0,0.9875,0.0125
+G144_edu,L2,STEEPENED-2x,pairs_auditprec / current,240,0.0,0.975,0.025
+G144_edu,L2,STEEPENED-2x,pairs_auditprec / popstop,240,0.0,0.4,0.6
+G144_edu,L2,STEEPENED-2x,pairs_auditprec / keptable,240,0.0,0.975,0.025
+G144_edu,L2,STEEPENED-2x,pairs_half / current,240,0.0,0.9583333333333334,0.041666666666666664
+G144_edu,L2,STEEPENED-2x,pairs_half / popstop,240,0.0,0.0,1.0
+G144_edu,L2,STEEPENED-2x,pairs_half / keptable,240,0.0,0.9583333333333334,0.041666666666666664
+G144_edu,L4-R1,NONINVARIANT,both framings,10,1.0,0.0,0.0
+G144_edu,L4-R1,REAL,both framings,60,1.0,0.0,0.0
+G144_edu,L4-R2,NONINVARIANT,both framings,10,1.0,0.0,0.0
+G144_edu,L4-R2,REAL,both framings,60,1.0,0.0,0.0
+G144_edu,L4-R4,NONINVARIANT,"both framings, margin .05",10,0.0,0.0,1.0
+G144_edu,L4-R4,NONINVARIANT,"both framings, margin .08",10,0.0,1.0,0.0
+G144_edu,L4-R4,REAL,"both framings, margin .05",25,0.0,0.0,1.0
+G144_edu,L4-R4,REAL,"both framings, margin .08",25,0.04,0.0,0.96
+G144_edu,L4,NONINVARIANT,"level 4 (R1, R2, R4 at .05)",10,0.0,0.0,1.0
+G144_edu,L4,NONINVARIANT,"level 4 (R1, R2, R4 at .08)",10,0.0,1.0,0.0
+G144_edu,L4,REAL,"level 4 (R1, R2, R4 at .05)",25,0.0,0.0,1.0
+G144_edu,L4,REAL,"level 4 (R1, R2, R4 at .08)",25,0.04,0.0,0.96
+G144_edu,L4-R2,NONINVARIANT,frozen: shape and size,10,0.0,0.9,0.1
+G144_edu,L4,NONINVARIANT,"frozen: R1, R2 (shape and size), R4 at .08",10,0.0,1.0,0.0
+G144_edu,L4-R2,REAL,frozen: shape and size,60,1.0,0.0,0.0
+G144_edu,L4,REAL,"frozen: R1, R2 (shape and size), R4 at .08",25,0.04,0.0,0.96
+G432,gate,REAL,"minimum, both framings",240,1.0,0.0,0.0
+G432,gate,REAL,"recommended, both framings",240,0.0,1.0,0.0
+G432,gate,REAL,stored verdict (pre-freeze rule in early runners),240,1.0,0.0,0.0
+G432,L2,REAL,cond_auditprec / current,240,0.0,0.15416666666666667,0.8458333333333333
+G432,L2,REAL,cond_auditprec / popstop,240,0.0,0.016666666666666666,0.9833333333333333
+G432,L2,REAL,cond_auditprec / keptable,240,0.0,0.15416666666666667,0.8458333333333333
+G432,L2,REAL,cond_half / current,240,0.0,0.07083333333333333,0.9291666666666667
+G432,L2,REAL,cond_half / popstop,240,0.0,0.0,1.0
+G432,L2,REAL,cond_half / keptable,240,0.0,0.07083333333333333,0.9291666666666667
+G432,L2,REAL,limit_auditprec / current,60,0.11666666666666667,0.0,0.8833333333333333
+G432,L2,REAL,limit_auditprec / popstop,60,0.11666666666666667,0.0,0.8833333333333333
+G432,L2,REAL,limit_auditprec / keptable,60,0.11666666666666667,0.0,0.8833333333333333
+G432,L2,REAL,limit_half / current,60,0.0,0.0,1.0
+G432,L2,REAL,limit_half / popstop,60,0.0,0.0,1.0
+G432,L2,REAL,limit_half / keptable,60,0.0,0.0,1.0
+G432,L2,REAL,pairs_auditprec / current,240,0.0,0.03333333333333333,0.9666666666666667
+G432,L2,REAL,pairs_auditprec / popstop,240,0.0,0.0,1.0
+G432,L2,REAL,pairs_auditprec / keptable,240,0.0,0.03333333333333333,0.9666666666666667
+G432,L2,REAL,pairs_half / current,240,0.0,0.004166666666666667,0.9958333333333333
+G432,L2,REAL,pairs_half / popstop,240,0.0,0.0,1.0
+G432,L2,REAL,pairs_half / keptable,240,0.0,0.004166666666666667,0.9958333333333333
+G432,L2,STEEPENED-2x,cond_auditprec / current,240,0.0,1.0,0.0
+G432,L2,STEEPENED-2x,cond_auditprec / popstop,240,0.0,0.9166666666666666,0.08333333333333333
+G432,L2,STEEPENED-2x,cond_auditprec / keptable,240,0.0,1.0,0.0
+G432,L2,STEEPENED-2x,cond_half / current,240,0.0,1.0,0.0
+G432,L2,STEEPENED-2x,cond_half / popstop,240,0.0,0.03333333333333333,0.9666666666666667
+G432,L2,STEEPENED-2x,cond_half / keptable,240,0.0,1.0,0.0
+G432,L2,STEEPENED-2x,pairs_auditprec / current,240,0.0,1.0,0.0
+G432,L2,STEEPENED-2x,pairs_auditprec / popstop,240,0.0,0.9083333333333333,0.09166666666666666
+G432,L2,STEEPENED-2x,pairs_auditprec / keptable,240,0.0,1.0,0.0
+G432,L2,STEEPENED-2x,pairs_half / current,240,0.0,0.9791666666666666,0.020833333333333332
+G432,L2,STEEPENED-2x,pairs_half / popstop,240,0.0,0.03333333333333333,0.9666666666666667
+G432,L2,STEEPENED-2x,pairs_half / keptable,240,0.0,0.9791666666666666,0.020833333333333332
+G432,L4-R1,NONINVARIANT,both framings,10,1.0,0.0,0.0
+G432,L4-R1,REAL,both framings,60,1.0,0.0,0.0
+G432,L4-R2,NONINVARIANT,both framings,10,1.0,0.0,0.0
+G432,L4-R2,REAL,both framings,60,1.0,0.0,0.0
+G432,L4-R4,NONINVARIANT,"both framings, margin .05",10,0.0,0.0,1.0
+G432,L4-R4,NONINVARIANT,"both framings, margin .08",10,0.0,1.0,0.0
+G432,L4-R4,REAL,"both framings, margin .05",25,0.0,0.0,1.0
+G432,L4-R4,REAL,"both framings, margin .08",25,0.08,0.0,0.92
+G432,L4,NONINVARIANT,"level 4 (R1, R2, R4 at .05)",10,0.0,0.0,1.0
+G432,L4,NONINVARIANT,"level 4 (R1, R2, R4 at .08)",10,0.0,1.0,0.0
+G432,L4,REAL,"level 4 (R1, R2, R4 at .05)",25,0.0,0.0,1.0
+G432,L4,REAL,"level 4 (R1, R2, R4 at .08)",25,0.08,0.0,0.92
+G432,L4-R2,NONINVARIANT,frozen: shape and size,10,0.0,0.5,0.5
+G432,L4,NONINVARIANT,"frozen: R1, R2 (shape and size), R4 at .08",10,0.0,1.0,0.0
+G432,L4-R2,REAL,frozen: shape and size,60,1.0,0.0,0.0
+G432,L4,REAL,"frozen: R1, R2 (shape and size), R4 at .08",25,0.08,0.0,0.92

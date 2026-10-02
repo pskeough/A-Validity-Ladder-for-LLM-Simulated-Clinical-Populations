@@ -23,14 +23,10 @@ A failure at level 1 rules out the uses of a single draw as one respondent, and 
 No other result at one rung stops the rungs above it.
 The rung order is a reading order, and a pass at level 2 or level 3 is read beside the level-4 invariance result, because a group comparison assumes the items measure the same construct in each group.
 
-The pass rules were set on the worked example and its reference, so the worked example illustrates the ladder and does not test it confirmatorily.
-Three rules changed during the analysis.
-The level-2 rule in its present form was adopted on 25 September 2026, after an earlier rule had been run on the external datasets. % R: analysis_brm/L2.md
-The earlier rule read a gap as missing whenever its ratio was confidently below 1, so it could never return attenuated, and it made kept harder to earn as precision rose.
-The level-4 invariance rule was written after the NHANES fits and before any model was fitted, with a margin of .05, and the margin was moved to .08 after the model results were in, because the reference itself does not hold on three of its six steps at .05. % R: analysis_brm/L4.md; l4_summary.csv
-The within-persona factor at level 4 was first scored as a rule and is reported here as a diagnostic.
-No verdict in this paper changes under either margin or under either status of the within-persona factor. % R: l4_summary.csv
-The remaining thresholds are defaults that a user may change, and each rung gives its source.
+The rules were set on the worked example and its reference and run once on a second instrument and reference, BFI-44 answers from three models \citep{jiang2024personallm} against the Twin-2K-500 panel \citep{toubia2025twin2k}, before they were frozen.
+The frozen specification, with every rule, threshold and stop and the code that implements it, is in the public repository (\texttt{LADDER\_SPEC.md}, commit \texttt{91a1b10} of 2 October 2026), and every analysis of a further dataset applies it unchanged.
+The worked example therefore illustrates the ladder and does not test it confirmatorily.
+The thresholds are defaults that a user may change, and each rung gives its source.
 Supplement S4 lists the multiplicity family and procedure at every rung.
 
 \begin{figure}[tp]
@@ -44,7 +40,7 @@ Supplement S4 lists the multiplicity family and procedure at every rung.
 \label{sec:gate-method}
 
 \paragraph{Question.}
-How many draws must be averaged before a persona's score is dependable enough to read?
+How many draws must be averaged before a persona's score is precise enough to read?
 
 \paragraph{Statistic.}
 The gate is a generalizability study \citep{cronbach1972dependability,brennan2001gtheory}.
@@ -66,14 +62,20 @@ Intervals are percentile bootstrap intervals over personas ($B = 1{,}000$).
 When a persona's score must also hold across prompt wording, framing becomes a random facet, and $\phi_F(k) = \sigma^2_p / (\sigma^2_p + \sigma^2_f + \sigma^2_{pf} + \sigma^2_r/k)$ has a ceiling that no number of draws can pass.
 
 \paragraph{Pass rule.}
-A single draw may be read as the persona's score when $\phi(1) \ge .80$ and the within-cell standard deviation is at most 1 point.
-Persona means of $k$ draws may be read when $\phi(k) \ge .80$ and $\mathrm{SE}(k) \le 1.0$ in each framing (the minimum rule), and the recommended $k$ meets $\phi(k) \ge .90$ and $\mathrm{SE}(k) \le 0.5$ in each framing.
+The gate reads precision.
+Persona means of $k$ draws may be read when $\mathrm{SE}(k)$ is at most 0.25 reference standard deviations in each framing (the minimum rule), and the recommended $k$ brings it to 0.125 standard deviations.
+A single draw may be read as the persona's score when the within-cell standard deviation is at most 0.25 reference standard deviations.
+On the PHQ-8 these tolerances are 0.98 and 0.49 points.
+One point is about the size of the population's sex gap, and half a point keeps a persona mean's error below both that gap and half the low-to-high income gap. % R: gate_tolerance_rationale.csv
 When a later level reads the persona mean over both framings, the gate is also reported for that mean.
-One point is about the size of the population's sex gap on the PHQ-8, and half a point keeps a persona mean's error below both that gap and half the low-to-high income gap. % R: gate_tolerance_rationale.csv
+The dependability $\phi(k)$ measures how well persona means separate personas from one another.
+It is reported beside every verdict, and it is required ($\phi(k) \ge .80$, or .90 for the recommended $k$) only for uses that compare or rank individual personas.
+It is not a pass condition for levels 2 and 3, because those levels carry the draw error in their own intervals and because a faithful simulator has the population's small differences between cells: real NHANES respondents drawn through the persona design reach $\phi(30)$ of .63 to .76 across replicates (mean .70). % R: analysis_brm/intermediate_panel/88_panel_verdicts.csv
 The probability that two draws of one persona fall in different severity categories (band flip) is reported beside the pass rule as a description of single-draw labels.
 
 \paragraph{What a pass supports.}
-A pass at $k$ supports reading the persona mean of $k$ draws as the model's answer for that persona.
+A pass at $k$ supports reading the persona mean of $k$ draws as the model's answer for that persona, to within the stated error.
+A pass with $\phi(k) \ge .80$ also supports comparing individual personas with each other.
 Levels 2 and 3 compare these persona means with the population.
 The gate says nothing about whether that answer is correct.
 
@@ -100,9 +102,11 @@ A real population has both ratios equal to 1.
 
 \paragraph{Pass rule.}
 A model passes in a framing when the 90\% intervals of both ratios lie inside $[1/\tau, \tau]$.
-The tolerance $\tau$ is the smallest value in $\{1.10, 1.25, 1.50, 2.00, 3.00\}$ that contains the point ratio of every reference subgroup (by sex, race and ethnicity, income band and survey cycle) when each subgroup is scored against the pooled reference.
-The population's own subgroups must pass.
-On NHANES the largest subgroup departure is 1.36, so $\tau = 1.5$. % R: l1_personfit_tolerance.csv
+The tolerance $\tau$ is the smallest value in $\{1.50, 2.00, 3.00\}$ that contains the departure of every reference subgroup (by sex, race and ethnicity, income band and survey cycle) when each subgroup is scored against the pooled reference.
+A subgroup's departure is read on the 90\% interval of each ratio: it is the interval end nearest 1 when the interval excludes 1, and there is none when the interval covers 1.
+Reading the interval and not the point ratio keeps the sampling noise of a small subgroup from setting $\tau$.
+The floor of 1.5 comes from the positive control in Section~\ref{sec:controls}: real respondents drawn through the persona design pass at 1.5 and not at 1.25, so a reference too small to resolve its subgroups does not set a tighter tolerance than real people meet.
+On NHANES the largest departure is 1.27, the lower end of the misfit ratio for non-Hispanic Black respondents, so $\tau = 1.5$, and every subgroup passes at that tolerance. % R: l1_personfit_tolerance.csv
 Each tail is read on its interval: above the band, below it, inside it, or crossing a boundary.
 A deficit in both tails, too few atypical and too few highly regular vectors, is called \emph{compressed}.
 A pass needs both tails, so the rule is an intersection-union test and needs no multiplicity adjustment \citep{berger1982iut}.
@@ -155,7 +159,9 @@ A model passes level 2 when every contrast that is not stopped is \vd{kept}, fai
 Each model is one family of contrasts, and every one-sided test runs at $.05$ divided by the family size (Bonferroni), so with seven contrasts the intervals are 98.6\% intervals.
 Two stops are checked first.
 The rung records \vd{no population gap} when the population gap's own interval covers zero, since a ratio to an unresolved denominator has no meaning.
-It records \vd{reference too imprecise} when the observed simulated gap, treated as measured without error, would still give a ratio interval spanning three or more regions.
+It records \vd{reference too imprecise} when the population gap's interval is too wide for any simulated gap to be read as \vd{kept}.
+With $k$ the relative half-width of that interval, $k = t\,\mathrm{SE}_\gamma / |\gamma|$, even an exactly known simulated gap gives a ratio interval spanning a factor of $(1+k)/(1-k)$, and the \vd{kept} region spans a factor of $1.25/0.75$, so \vd{kept} is out of reach when $k > 1/4$.
+A contrast with $k > 1/4$ whose verdict already excludes \vd{kept} keeps that verdict, so an imprecise reference can still show a failure but cannot hold a model at unresolved.
 
 \paragraph{What a pass supports.}
 A pass supports reading the size and direction of the group difference from the simulated sample.
@@ -208,12 +214,15 @@ The persona is the resampling unit for every interval, because its draws share o
 Polychoric correlations are estimated by two-step maximum likelihood \citep{olsson1979polychoric}, and a one-factor model is fitted by unweighted least squares.
 Level 4 has three scored rules and one diagnostic.
 \begin{enumerate}
-\item \emph{R1, a general factor.} Every loading is at least .30 and the ratio of the first to the second eigenvalue, $\lambda_1/\lambda_2$, is at least 3. A population without a general factor fails level 4, and its later rules are reported as description.
+\item \emph{R1, a general factor.} Every loading is at least .30 and the ratio of the first to the second eigenvalue, $\lambda_1/\lambda_2$, is at least 3. Where the reference itself falls below a threshold, as a weak item of an established scale can, the threshold for that item or ratio is the reference's own value, so a model needs a general factor at least as strong as people's. A population without a general factor fails level 4, and its later rules are reported as description.
 \item \emph{R2, loadings like people's.} Tucker's congruence between the model's loadings $\boldsymbol{\lambda}$ and the reference loadings $\boldsymbol{\mu}$,
 \begin{equation}
 \phi_T = \frac{\sum_i \lambda_i \mu_i}{\sqrt{\sum_i \lambda_i^2 \sum_i \mu_i^2}},
 \end{equation}
-has a lower 90\% limit of at least .95 \citep{lorenzoseva2006congruence}. Because an equal-loading vector already scores close to 1 on a scale with a strong general factor, its congruence with the reference is reported beside every model as a baseline.
+has a lower 90\% limit of at least .95 \citep{lorenzoseva2006congruence}, and the root mean square difference between $\boldsymbol{\lambda}$ and $\boldsymbol{\mu}$ has an upper 90\% limit of at most .10.
+Congruence reads the pattern of the loadings and ignores their size, so a population whose items correlate half as strongly as people's, or more strongly, can still reach a congruence near 1; the second condition reads the size.
+A difference of .10 in every loading of an eight-item scale with loadings of .70 moves coefficient omega from .885 to .818 (loadings of .60) or .934 (loadings of .80).
+Both limits come from the persona bootstrap of the model paired with the bootstrap of the reference.
 \item \emph{R4, invariance like people's.} Multi-group confirmatory factor models test metric and scalar invariance across sex, race and income. The change in fit between nested steps is read as the root mean square error of approximation of the difference \citep{savalei2024rmsea},
 \begin{equation}
 \mathrm{RMSEA}_D = \sqrt{G}\,\sqrt{\max(0, \Delta F - \nu)/d},
@@ -225,6 +234,6 @@ A model with an indeterminate step therefore cannot pass R4, and a design needs 
 A model passes level 4 when it passes R1, R2 and R4 in every framing.
 
 \paragraph{What a pass supports.}
-Passing R1 and R2 supports scoring the simulated population's total as one score with human-like item weights.
+Passing R1 and R2 supports scoring the simulated population's total as one score with human-like item weights and human-like reliability.
 Passing R4 adds that a group comparison of the total means the same thing in the simulation as in people.
 A within-persona factor (R3) would support treating draws as individual respondents in item-level psychometric work.

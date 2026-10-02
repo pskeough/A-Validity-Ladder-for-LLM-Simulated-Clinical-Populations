@@ -1,0 +1,34 @@
+model,framing,outcome,groups,pass_05sd,pass_02sd,groups_failing_05sd,worst_abs_residual
+rr1_withfix2,demogs,Asian Americans,14,False,False,0,9.227921443911669
+rr1_withfix2,demogs,Black Americans,14,True,False,0,6.510155400369693
+rr1_withfix2,demogs,Christians,14,False,False,2,14.975056716583628
+rr1_withfix2,demogs,Conservatives,14,False,False,3,18.1217668991152
+rr1_withfix2,demogs,Democratic Party,14,False,False,2,24.878893924651308
+rr1_withfix2,demogs,Gays and Lesbians,14,False,False,1,20.3768965657044
+rr1_withfix2,demogs,Jews,14,False,False,0,9.200777337196133
+rr1_withfix2,demogs,Liberals,14,False,False,2,23.36698494323582
+rr1_withfix2,demogs,Muslims,14,False,False,7,21.143311959674605
+rr1_withfix2,demogs,Republican Party,14,False,False,2,31.202967577872975
+rr1_withfix2,demogs,White Americans,14,False,False,0,8.507932924646031
+rr1_withfix2,full,Asian Americans,14,True,False,0,3.423240070364678
+rr1_withfix2,full,Black Americans,14,True,False,0,7.301982126165405
+rr1_withfix2,full,Christians,14,False,False,0,12.65594623090132
+rr1_withfix2,full,Conservatives,14,False,False,0,13.324244950522734
+rr1_withfix2,full,Democratic Party,14,True,False,0,11.1097744006924
+rr1_withfix2,full,Gays and Lesbians,14,False,False,1,19.792598559141794
+rr1_withfix2,full,Jews,14,True,False,0,3.1639886046518515
+rr1_withfix2,full,Liberals,14,True,False,0,11.898050600891237
+rr1_withfix2,full,Muslims,14,False,False,1,14.72060627589598
+rr1_withfix2,full,Republican Party,14,True,False,0,11.61731658161874
+rr1_withfix2,full,White Americans,14,True,False,0,7.257975117078572
+rr1_withfix2,pol,Asian Americans,14,True,False,0,2.7881457186201515
+rr1_withfix2,pol,Black Americans,14,True,False,0,8.01764538936943
+rr1_withfix2,pol,Christians,14,False,False,0,10.66220053524194
+rr1_withfix2,pol,Conservatives,14,True,False,0,10.446775658925237
+rr1_withfix2,pol,Democratic Party,14,True,False,0,11.600161623058408
+rr1_withfix2,pol,Gays and Lesbians,14,False,False,2,20.165856464599436
+rr1_withfix2,pol,Jews,14,True,False,0,3.7402397042707656
+rr1_withfix2,pol,Liberals,14,True,False,0,11.070054593569658
+rr1_withfix2,pol,Muslims,14,False,False,1,13.206874170333363
+rr1_withfix2,pol,Republican Party,14,True,False,0,9.606208572500769
+rr1_withfix2,pol,White Americans,14,False,False,0,9.529754715592153

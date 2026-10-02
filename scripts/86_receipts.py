@@ -78,6 +78,10 @@ DERIVED = {
     ("sections/05_controls.tex", "303"): "303 data rows of 83a_receipt.csv, all ok = True",
     ("sections/05_controls.tex", "1.25"): "hypothetical tolerance named in the text",
     ("sections/06_external.tex", "61"): "Argyle t0.7_main family size, l2_external_r3.csv",
+    ("sections/06_external.tex", "0.5"): "level-3 default tolerance 0.5 reference SD, LADDER_SPEC.md (pass_05sd in level3_outcome_rr1.csv)",
+    ("sections/06_external.tex", "0.2"): "level-3 reported tolerance 0.2 reference SD, LADDER_SPEC.md (pass_02sd in level3_outcome_rr1.csv)",
+    ("sections/06_external.tex", "231"): "3 prompts x 77 contrasts, level2_contrasts_rr1.csv rows",
+    ("sections/06_external.tex", "100"): "thermometer scale 0-100 (Bisbee et al.); therm_out_of_0_100 in rr1_parse_receipts.csv",
     ("sections/03_data.tex", "21"): "fixed_utc 11:21:30 in decoding_control_preregistration.json to the first ts 11:42:15 in decoding_control_raw.jsonl = 20.75 min",
 }
 
@@ -95,7 +99,7 @@ NUM_RE = re.compile(r"(?<![\w.])([+-]?)(\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d*\.\d+|\d
 STRIP_PATTERNS = [
     r"\\(?:cite[a-z]*|citeauthor|citeyear|ref|label|input|includegraphics|url)\*?(?:\[[^\]]*\])*\{[^}]*\}",
     r"GPT-4o-mini|Gemini-3-Flash|DeepSeek-V3|GLM-4\.7|GPT-3(?:\.5)?|PHQ-8|PHQ-9|GAD-7|AUDIT-C|PCL-5",
-    r"gpt-4o-mini|gemini-3-flash-preview|deepseek-chat-v3|deepseek-chat|z-ai/glm-4\.7|glm-4\.7",
+    r"gpt-4o-mini|gemini-3-flash-preview|deepseek-chat-v3|deepseek-chat|z-ai/glm-4\.7|glm-4\.7|gpt-3\.5-turbo",
     r"\bR[1-4]\b",
     r"\b[Ll]evels?~?\s*\d(?:\s*(?:to|and|--|,)\s*\d)*",
     r"\b(?:Supplement|Supplements)~?\s*S\d(?:\.\d+)?(?:\s*(?:to|and|--)\s*S\d(?:\.\d+)?)*",
@@ -212,10 +216,12 @@ def build_writer_index():
     """Map receipt basename -> scripts that name it in an output line (to_csv, save, Emits, written)."""
     idx = defaultdict(set)
     pats = []
-    for fn in sorted(os.listdir(SCRIPTS)):
+    dirs = [SCRIPTS, os.path.join(BASE, "paper_brm", "external", "scripts"), os.path.join(NOTES, "panel_power")]
+    files = [(d, fn) for d in dirs if os.path.isdir(d) for fn in sorted(os.listdir(d))]
+    for d, fn in files:
         if not fn.endswith(".py") or fn == "86_receipts.py":
             continue
-        with open(os.path.join(SCRIPTS, fn), encoding="utf-8", errors="replace") as f:
+        with open(os.path.join(d, fn), encoding="utf-8", errors="replace") as f:
             src = f.read()
         for line in src.splitlines():
             if not re.search(r"to_csv|save\(|Emits|emits|written|write|savefig|\.csv\"\)|open\(", line):

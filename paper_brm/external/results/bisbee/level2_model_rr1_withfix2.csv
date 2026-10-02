@@ -1,0 +1,4 @@
+model,framing,contrasts,stopped,kept,excludes_kept,verdict,n_no population gap,n_reference too imprecise,n_steepened,n_missing,n_missing or attenuated,n_attenuated,n_reversed,n_attenuated or kept,n_reversed or missing,n_kept,n_kept or steepened
+rr1_withfix2,demogs,77,40,1,33,fail,23,17,15,7.0,5,2,2.0,2,2,1,1
+rr1_withfix2,full,77,52,3,15,fail,23,29,7,,3,3,,5,2,3,2
+rr1_withfix2,pol,77,49,3,21,fail,23,26,5,1.0,6,6,,3,3,3,1

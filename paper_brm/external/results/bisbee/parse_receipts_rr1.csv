@@ -1,0 +1,15 @@
+quantity,value
+rows,11527925
+prompt_is_1,296594
+fixed1,276669
+fixed2,13600
+bad_lines,0
+resCleaned_rows_all_groups,11527925
+rows_fix2_in_analysis_scope,9238
+rows_after_filters,7451375
+cells,248490
+cell_min_draws,10
+therm_nonnumeric_dropped,0
+rows_numeric,7451375
+therm_out_of_0_100,88
+temperature_values,1
