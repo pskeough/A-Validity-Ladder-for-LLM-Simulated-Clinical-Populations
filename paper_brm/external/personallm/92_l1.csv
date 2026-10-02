@@ -1,0 +1,16 @@
+scale,model,n,sim_mean_total,human_mean_total,misfit_ratio,misfit_ratio_ci90_lo,misfit_ratio_ci90_hi,overfit_ratio,overfit_ratio_ci90_lo,overfit_ratio_ci90_hi,misfit_verdict,overfit_verdict,verdict,passed,tau
+Extraversion,GPT-3.5,320,18.63125,14.987366375121477,1.8124999999999998,0.8125,2.815624999999997,4.9078125,2.7050892857142865,6.575250000000003,equivalent or excess misfit,excess overfit,fail: excess overfit,False,1.5
+Extraversion,GPT-4,320,18.19375,14.987366375121477,2.8125,1.375,4.375,5.9375,3.3031986607142887,7.35397372159091,equivalent or excess misfit,excess overfit,fail: excess overfit,False,1.5
+Extraversion,Llama-2,320,21.590625,14.987366375121477,4.0625,2.625,5.374999999999999,0.25,0.0625,0.43749999999999994,excess misfit,overfit deficit,fail: excess misfit and overfit deficit,False,1.5
+Agreeableness,GPT-3.5,320,20.465625,26.11807580174927,1.875,0.5625,3.125,2.107552083333334,1.138984375000001,3.084105113636364,undetermined,equivalent or excess overfit,undetermined,False,1.5
+Agreeableness,GPT-4,320,18.884375,26.11807580174927,0.590625,0.08125000000000002,1.2189062499999999,1.2554687500000012,0.5322569444444456,2.423546875,misfit deficit or equivalent,undetermined,undetermined,False,1.5
+Agreeableness,Llama-2,320,26.203125,26.11807580174927,3.4999999999999996,2.4375,5.124999999999999,0.07265625000000002,0.0,0.22725446428571475,excess misfit,overfit deficit,fail: excess misfit and overfit deficit,False,1.5
+Conscientiousness,GPT-3.5,320,23.95,26.41399416909621,3.4999999999999996,1.9375,5.062499999999999,0.7406702898550729,0.3781250000000004,4.0372265625,excess misfit,undetermined,fail: excess misfit,False,1.5
+Conscientiousness,GPT-4,320,20.078125,26.41399416909621,1.203125,0.48734375,2.0503409090909086,2.7766351744186046,1.7184300572470423,3.9110383672699855,undetermined,excess overfit,fail: excess overfit,False,1.5
+Conscientiousness,Llama-2,320,26.003125,26.41399416909621,1.6875,0.8749999999999999,2.6874999999999996,0.0,0.0,0.125,equivalent or excess misfit,overfit deficit,fail: overfit deficit,False,1.5
+Neuroticism,GPT-3.5,320,10.2625,13.717201166180757,0.43749999999999994,0.18749999999999997,1.125,0.7054687500000003,0.41483072916666697,1.2708302331349213,misfit deficit or equivalent,overfit deficit or equivalent,undetermined,False,1.5
+Neuroticism,GPT-4,320,15.384375,13.717201166180757,0.6875,0.18749999999999997,1.3125,2.0500000000000043,1.0854166666666671,3.4999999999999996,misfit deficit or equivalent,equivalent or excess overfit,undetermined,False,1.5
+Neuroticism,Llama-2,320,11.040625,13.717201166180757,0.7499999999999999,0.3125,1.375,0.0625,0.0,0.25,misfit deficit or equivalent,overfit deficit,fail: overfit deficit,False,1.5
+Openness,GPT-3.5,320,29.19375,27.50145772594752,2.1875,1.1874999999999998,2.9999999999999996,1.3250000000000013,0.6055456349206358,2.75,equivalent or excess misfit,undetermined,undetermined,False,1.5
+Openness,GPT-4,320,23.134375,27.50145772594752,1.7499999999999998,0.5625,2.9999999999999996,0.0,0.0,0.0,undetermined,overfit deficit,fail: overfit deficit,False,1.5
+Openness,Llama-2,320,30.225,27.50145772594752,3.3124999999999996,1.748125,5.0,0.7868055555555555,0.20131944444444455,1.375,excess misfit,overfit deficit or equivalent,fail: excess misfit,False,1.5

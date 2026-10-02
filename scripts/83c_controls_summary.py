@@ -8,7 +8,8 @@ failure). Readings:
   L2  correct (the true region alone) | compatible (a two-region verdict containing it) | wrong (a
       determinate verdict excluding it, alone or in a pair) | undetermined | stopped (reference too
       imprecise, no population gap). Coverage: the share of Fieller intervals containing g, the
-      true ratio (nominal 98.6%).
+      true ratio (nominal 98.6%). Read from 83i_l2_reps (the same pseudo-models under the frozen
+      level-2 rule).
   L3  share passing every group at 0.2 SD, 1 and 2 points; null bias and 90% coverage per group.
   L4  share holding R1, R2, R3 and passing (all three, both framings).
 
@@ -104,7 +105,14 @@ def main():
                                 [c for c in t1.columns if c.startswith("share_")]].round(3).to_string(index=False))
 
     # --------------------------------------------------------------------------------------- L2
-    l2 = df[df.rung == "L2"].copy()
+    # level 2 under the frozen rule, recomputed exactly from the same pseudo-models (83i)
+    f2 = sorted(glob.glob(os.path.join(OUT, "83i_l2_reps", "rep_*.csv")))
+    assert len(f2) == R, f"83i_l2_reps has {len(f2)} of {R} replicates"
+    l2 = pd.concat([pd.read_csv(f, low_memory=False, keep_default_na=False, na_values=[""]) for f in f2],
+                   ignore_index=True)
+    for c in ["dose", "ratio", "ci_lo", "ci_hi", "ref_se", "sim_se"]:
+        l2[c] = pd.to_numeric(l2[c])
+    l2["model"] = l2.model.astype(str)
     l2["scope"] = np.where(l2.model == "pooled", "pooled", "per model")
     rows, cov = [], []
     for vcol in ("verdict", "verdict_auditprec"):

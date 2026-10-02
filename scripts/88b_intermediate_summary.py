@@ -1,6 +1,7 @@
 """Summary of the 88 intermediate-panel replicates.
 
-Reads paper_brm/analysis_brm/intermediate_panel/reps/rep_*.csv and writes, in the same folder:
+Reads paper_brm/analysis_brm/intermediate_panel/reps/rep_*.csv, with level 2 from l2_frozen_reps (88e) and
+R2 and level 4 from r2_size_reps (88d) under the frozen rules, and writes, in the same folder:
   88_panel_verdicts.csv   every verdict row (type x replicate x rung/rule x model x unit)
   88_confusion.csv        one row per simulator type: pass rate per rung (and fail / unresolved
                           shares for the three-state rungs L1, L2, R4 and level 4), with n
@@ -41,6 +42,49 @@ def shares(v, states=("pass", "fail", "unresolved")):
     return out
 
 
+def combine(vs):
+    return "fail" if "fail" in vs else ("pass" if all(v == "pass" for v in vs) else "unresolved")
+
+
+def frozen_rules(df, R):
+    """Replace level 2 with 88e's recomputation and R2 / level 4 with 88d's re-read, both under the
+    frozen rules (LADDER_SPEC.md). Level 2 rows are exact recomputations on the same data; R2 adds
+    the loading-size condition and reads pass / unresolved / fail."""
+    def load(sub):
+        f = sorted(glob.glob(os.path.join(OUTD, sub, "rep_*.csv")))
+        assert len(f) == R, f"{sub} has {len(f)} of {R} replicates"
+        return pd.concat([pd.read_csv(x, low_memory=False, keep_default_na=False, na_values=[""]) for x in f],
+                         ignore_index=True)
+
+    # gate: precision only, SE(30) <= 0.25 and 0.125 NHANES SD in both framings, from the stored SEs
+    tb = pd.read_csv(os.path.join(OUTD, "..", "..", "..", "analysis", "brm", "80a_tolerance_basis.csv"))
+    sd0 = float(tb[(tb.window == "2005-2018") & (tb.population == "all adults 18+")].sd.iloc[0])
+    g = df.rung == "gate"
+    se = df.loc[g, ["se30_clinical", "se30_narrative"]].apply(pd.to_numeric).max(axis=1)
+    df.loc[g, "verdict"] = np.where(se <= 0.25 * sd0, "pass", "fail")
+    df.loc[g, "pass_rec"] = np.where(se <= 0.125 * sd0, "True", "False")
+
+    l2 = load("l2_frozen_reps")
+    l2["model"] = l2.model.astype(str)
+    df = pd.concat([df[df.rung != "L2"], l2], ignore_index=True)
+
+    r2 = load("r2_size_reps")
+    r2v = r2.groupby(["rep", "type"]).R2_verdict.agg(lambda v: combine(list(v)))
+    r1 = r2.assign(r1=r2.R1.astype(str) == "True").groupby(["rep", "type"]).r1.all()
+    is_r2 = (df.rung == "L4-R2") & (df.unit == "model")
+    df.loc[is_r2, "verdict"] = [r2v[(r, t)] for r, t in zip(df.rep[is_r2], df.type[is_r2])]
+    for e in ("08", "05"):
+        r4 = df[(df.rung == "L4-R4") & (df.rule == f"both framings, margin .{e}")].set_index(["rep", "type"]).verdict
+        is_l4 = (df.rung == "L4") & (df.rule == f"level 4 (R1, R2, R4 at .{e})")
+        new = []
+        for r, t in zip(df.rep[is_l4], df.type[is_l4]):
+            a, b, c = r1[(r, t)], r2v[(r, t)], r4[(r, t)]
+            new.append("pass" if (a and b == "pass" and c == "pass") else
+                       ("fail" if (not a or b == "fail" or c == "fail") else "unresolved"))
+        df.loc[is_l4, "verdict"] = new
+    return df
+
+
 def main():
     files = sorted(glob.glob(os.path.join(OUTD, "reps", "rep_*.csv")))
     df = pd.concat([pd.read_csv(f, low_memory=False, keep_default_na=False, na_values=[""]) for f in files],
@@ -48,6 +92,7 @@ def main():
     df["model"] = df.model.astype(str)
     R = df.rep.nunique()
     print(f"{R} replicates ({df.rep.min()}..{df.rep.max()})")
+    df = frozen_rules(df, R)
     df.to_csv(os.path.join(OUTD, "88_panel_verdicts.csv"), index=False)
     pm = df.model.isin(["0", "1", "2", "3"])
     tf = {"True": True, "False": False, True: True, False: False}

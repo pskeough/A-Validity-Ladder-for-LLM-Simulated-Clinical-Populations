@@ -76,13 +76,16 @@ def r3cov(g, se_g, p, se_p, cov, df, a, bounds):
     else:
         n_reg = 99
     nopop = p_lo <= 0
-    verdict = "no population gap" if nopop else ("reference too imprecise" if n_reg >= 3 else lab)
+    conditional = "no population gap" if nopop else ("reference too imprecise" if n_reg >= 3 else lab)
     popstop = "no population gap" if nopop else ("reference too imprecise" if k > kmax else lab)
+    # frozen rule (78c.r3, LADDER_SPEC.md): stop when k > kmax unless the reading excludes kept
+    cannot_certify = k > kmax and (lab == "undetermined" or "kept" in lab.split(" or "))
+    verdict = "no population gap" if nopop else ("reference too imprecise" if cannot_certify else lab)
     return dict(ratio=g / p, ci_lo=ci_lo, ci_hi=ci_hi, r3_unstopped=lab,
                 r3_nopop_only="no population gap" if nopop else lab, k_rel_halfwidth=k,
                 stop_conditional=bool(n_reg >= 3 and not nopop),
                 stop_population=bool(k > kmax and not nopop), no_population_gap=bool(nopop),
-                verdict=verdict, verdict_popstop=popstop)
+                verdict=verdict, verdict_conditional=conditional, verdict_popstop=popstop)
 
 
 def load():

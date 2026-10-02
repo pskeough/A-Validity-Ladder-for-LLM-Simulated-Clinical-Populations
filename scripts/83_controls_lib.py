@@ -78,6 +78,7 @@ SEXES, INCS, MARS = L3.SEXES, L3.INCS, L3.MARS
 CELLS48 = [(r, s, i, m) for r in RACES4 for s in SEXES for i in INCS for m in MARS]
 C48 = {c: k for k, c in enumerate(CELLS48)}
 TAU = 1.5
+R2_RMSD = 0.10   # R2 size condition: upper 90% limit of the loading RMSD against the reference
 _tb = pd.read_csv(os.path.join(OUTD, "80a_tolerance_basis.csv"))
 SD0 = float(_tb[(_tb.window == "2005-2018") & (_tb.population == "all adults 18+")].sd.iloc[0])
 L3_TOLS = {"0.2SD": 0.2 * SD0, "1pt": 1.0, "2pt": 2.0}
@@ -356,15 +357,23 @@ def l4_eval(X, persona, l4ref, rng, B=None):
     lam, _, _ = L4.one_factor_uls(R)
     ev = L4.eig_desc(R)
     r1 = L4.general_factor(lam, ev)
-    phis = np.empty(B)
+    phis, rmsds = np.empty(B), np.empty(B)
     for b in range(B):
         lb = L4.one_factor_uls(L4.poly_from(T.agg(L4.cluster_boot_mult(T.C, rng))))[0]
         phis[b] = L4.congruence(lb, l4ref.lam_b[b])
-    phi_lo = float(np.quantile(phis, 0.05))
+        rmsds[b] = np.sqrt(np.mean((lb - l4ref.lam_b[b]) ** 2))
+    phi_lo, phi_hi = float(np.quantile(phis, 0.05)), float(np.quantile(phis, 0.95))
+    rmsd_lo, rmsd_hi = float(np.quantile(rmsds, 0.05)), float(np.quantile(rmsds, 0.95))
+    r2v = "pass" if (phi_lo >= 0.95 and rmsd_hi <= R2_RMSD) else \
+        ("fail" if (phi_hi < 0.95 or rmsd_lo > R2_RMSD) else "unresolved")
     df = pd.DataFrame(X, columns=L4.ITEMS).assign(w=1.0, cluster=persona, cell=persona)
     share, Rw, _, _ = L4S.CellUnits(df, "cell").split()
     lw, _, _, evw = L4S.fit_R(Rw)
     r3 = L4.general_factor(lw, evw)
     return dict(ev_ratio=ev[0] / ev[1], load_min=lam.min(), R1=r1, phi=L4.congruence(lam, l4ref.lam),
                 phi_lo90=phi_lo, R2=bool(phi_lo >= 0.95), between_share=share.mean(),
+                phi_hi90=phi_hi, loading_rmsd=float(np.sqrt(np.mean((lam - l4ref.lam) ** 2))),
+                loading_rmsd_lo90=rmsd_lo, loading_rmsd_hi90=rmsd_hi,
+                R2_size=bool(rmsd_hi <= R2_RMSD), R2_both=bool(phi_lo >= 0.95 and rmsd_hi <= R2_RMSD),
+                R2_verdict=r2v,
                 within_ev_ratio=evw[0] / evw[1], within_load_min=lw.min(), R3=r3)

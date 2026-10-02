@@ -80,6 +80,7 @@ R4_PRIMARY = ["REAL", "NONINVARIANT"]   # R4 calibration and power: replicates <
 # every other type gets R4 on replicates < R4_REPS_OTHER (budget); R4 runs only where R1 holds
 NONINV_ITEMS = [2, 3, 4]  # DPQ030 sleep, DPQ040 fatigue, DPQ050 appetite
 STOPS = ("reference too imprecise", "no population gap")
+GATE_TOL = (1.0, 0.5)   # replaced in init() by 0.25 and 0.125 NHANES SD (0.98, 0.49 points)
 R4_ATTRS = [("sex", ["F", "M"]), ("race", ["White", "Black", "Asian", "Hispanic"]),
             ("income", ["Low", "Middle", "High"])]
 
@@ -101,11 +102,12 @@ def _load(name, fname, argv=None):
 
 
 def init(k_perm, b_r4):
-    global C, GL, R4M
+    global C, GL, R4M, GATE_TOL
     C = _load("c83", "83_controls_lib.py")
     GL = _load("gl82", "82_gate_lib.py")
     R4M = _load("r4_81c", "81c_l4_invariance.py", argv=["81c", "all", str(b_r4), str(k_perm), "2"])
     R4M.K_PERM, R4M.B, R4M.B_POLY = k_perm, b_r4, 2      # polychoric refit is not part of R4's rule
+    GATE_TOL = (0.25 * C.SD0, 0.125 * C.SD0)
     d = C.load_frame()
     pers = C.load_personas()
     inv = pd.read_csv(os.path.join(C.OUTD, "l4_invariance.csv"))
@@ -234,12 +236,14 @@ def gate_eval(g):
         r[f"phi1_{fn}"] = GL.phi_k(c["p"], c["e"], 1)
         r[f"se30_{fn}"] = float(np.sqrt(GL.pos(c["e"]) / 30))
         r[f"s2p_{fn}"], r[f"s2e_{fn}"] = c["p"], c["e"]
-        r[f"k_min_{fn}"] = max(GL.k_for_phi(c["p"], c["e"], .80), GL.k_for_se(c["e"], 1.0))
-        r[f"k_rec_{fn}"] = max(GL.k_for_phi(c["p"], c["e"], .90), GL.k_for_se(c["e"], 0.5))
+        r[f"k_min_{fn}"] = GL.k_for_se(c["e"], GATE_TOL[0])
+        r[f"k_rec_{fn}"] = GL.k_for_se(c["e"], GATE_TOL[1])
     fr = ("clinical", "narrative")
-    r["pass_min"] = all(r[f"phi30_{f}"] >= .80 and r[f"se30_{f}"] <= 1.0 for f in fr)
-    r["pass_rec"] = all(r[f"phi30_{f}"] >= .90 and r[f"se30_{f}"] <= 0.5 for f in fr)
-    r["pass_single"] = all(r[f"phi1_{f}"] >= .80 and np.sqrt(GL.pos(r[f"s2e_{f}"])) <= 1.0 for f in fr)
+    # frozen gate (LADDER_SPEC.md): precision only; phi is persona separation, reported
+    r["pass_min"] = all(r[f"se30_{f}"] <= GATE_TOL[0] for f in fr)
+    r["pass_rec"] = all(r[f"se30_{f}"] <= GATE_TOL[1] for f in fr)
+    r["pass_single"] = all(np.sqrt(GL.pos(r[f"s2e_{f}"])) <= GATE_TOL[0] for f in fr)
+    r["sep_min"] = all(r[f"phi30_{f}"] >= .80 for f in fr)
     return r
 
 

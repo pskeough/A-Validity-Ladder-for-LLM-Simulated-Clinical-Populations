@@ -24,7 +24,11 @@ Preconditions, checked in this order before R3 is read:
      [g / p_hi, g / p_lo] (p oriented positive), where [p_lo, p_hi] is the population gap's
      family-level interval. It spans a multiplicative factor F = p_hi / p_lo = (1 + k) / (1 - k),
      where k = t_{1-a}(df_p) se_p / |p| is that interval's relative half-width.
-       Primary (`verdict`): the stop fires when [g / p_hi, g / p_lo], built from the population
+       Primary (`verdict`, frozen 2026-10-02, LADDER_SPEC.md): the stop fires when k > 1/4 (the
+       reference cannot confine any true ratio to the kept region) and the R3 reading does not
+       already exclude kept; a reading that excludes kept stands, so an imprecise reference can
+       still return a failure but never blocks a pass.
+       Conditional (`verdict_conditional`, the rule before the freeze): the stop fires when [g / p_hi, g / p_lo], built from the population
        interval and the simulated point estimate with no simulation error, covers three or more
        regions. The simulation's own error can only widen the interval, so the stop fires only
        where R3 would say undetermined anyway; it names the reference, not the simulation, as
@@ -35,7 +39,7 @@ Preconditions, checked in this order before R3 is read:
        to at most two regions if and only if F <= 5/3, i.e. k <= 1/4 (k <= 0.2195 symmetric).
        This version fires on k alone, before the simulation is seen, in every scope. It is
        reported, not used for the headline, because it also stops contrasts whose intervals sit
-       wholly inside one region (see L2.md).
+       wholly inside one region (see L2.md); the primary rule keeps those verdicts.
      The R3 reading underneath either stop is kept in `r3_unstopped`.
 
 Inputs: analysis/brm/l2_reference.csv (78a), analysis/brm/l2_sim_gaps.csv (78b).
@@ -144,13 +148,21 @@ def r3(g, se_g, df_g, p, se_p, df_p, a, bounds, df_mode="satterthwaite"):
         final_pop = "reference too imprecise"
     else:
         final_pop = lab
+    # frozen rule (LADDER_SPEC.md): a contrast whose reference cannot certify 'kept' (k > kmax) is
+    # stopped unless its verdict already excludes 'kept', in which case the verdict stands
+    if p_lo <= 0:
+        final_frozen = "no population gap"
+    elif k > kmax and (lab == "undetermined" or "kept" in lab.split(" or ")):
+        final_frozen = "reference too imprecise"
+    else:
+        final_frozen = lab
     return dict(ratio=g / p, ci_lo=ci_lo, ci_hi=ci_hi, ci_unbounded=unbounded, ci_split=split,
                 region_lo=LABELS[lo] if lo < 5 else "", region_hi=LABELS[hi] if hi < 5 else "",
                 r3_unstopped=lab, pop_ci_lo=s * p_lo if s > 0 else s * p_hi,
                 pop_ci_hi=s * p_hi if s > 0 else s * p_lo, k_rel_halfwidth=k, k_max=kmax,
                 F_pop=(p_hi / p_lo) if p_lo > 0 else np.inf, stop_population=bool(k > kmax),
                 stop_conditional=bool(n_reg >= 3), no_population_gap=bool(p_lo <= 0),
-                verdict=final, verdict_popstop=final_pop)
+                verdict=final_frozen, verdict_conditional=final, verdict_popstop=final_pop)
 
 
 def code(v):

@@ -5,7 +5,7 @@ half, so the benchmark noise enters twice and the reference is half the audit's 
 has neither handicap. Here the two estimates are drawn directly:
     population gap  P_hat ~ N(P, se_P^2)        P, se_P, df_P: full-sample NHANES (the audit's reference)
     simulated gap   G_hat ~ N(g P, se_G^2)      se_G: a real model's simulated-gap SE
-and 78c's R3 rule (a = .05/7, asymmetric bounds, conditional stop) is applied to each draw, with the
+and 78c's R3 rule (a = .05/7, asymmetric bounds, frozen stop) is applied to each draw, with the
 label logic vectorised (it matches 78c.r3 exactly; checked against it on the first 200 draws).
 
 se_G settings per contrast: the smallest and largest conditional SE among the four audited models
@@ -31,7 +31,7 @@ A, B = C.L2_ALPHA, np.asarray(C.L2_BANDS, float)
 
 
 def verdicts(g, p, se_g, df_g, se_p, df_p):
-    """Vectorised 78c.r3 'verdict' (label with the conditional stop) for arrays g, p."""
+    """Vectorised 78c.r3 'verdict' (label with the frozen stop) for arrays g, p."""
     s = np.where(p < 0, -1.0, 1.0)
     g, p = g * s, p * s
     tp = R2M.tcrit(A, df_p)
@@ -49,9 +49,12 @@ def verdicts(g, p, se_g, df_g, se_p, df_p):
     lab[two] = [f"{R2M.LABELS[a]} or {R2M.LABELS[b]}" for a, b in zip(lo[two], hi[two])]
     with np.errstate(divide="ignore", invalid="ignore"):
         e1, e2 = g / p_hi, g / p_lo
-    e_lo, e_hi = np.minimum(e1, e2), np.maximum(e1, e2)
-    n_reg = ((B[None, :] > e_lo[:, None]) & (B[None, :] < e_hi[:, None])).sum(1) + 1
-    out = np.where(p_lo <= 0, "no population gap", np.where(n_reg >= 3, "reference too imprecise", lab))
+        k = tp * se_p / p
+    # frozen stop (78c.r3): k > kmax and the reading does not already exclude kept
+    kmax = (B[3] / B[2] - 1) / (B[3] / B[2] + 1)
+    allows_kept = np.array([v == "undetermined" or "kept" in v.split(" or ") for v in lab])
+    out = np.where(p_lo <= 0, "no population gap",
+                   np.where((k > kmax) & allows_kept, "reference too imprecise", lab))
     return out
 
 
