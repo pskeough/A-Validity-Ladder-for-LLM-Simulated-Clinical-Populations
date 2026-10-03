@@ -1,6 +1,4 @@
-% Section 3. Worked example: data. Short rewrite of 2 Oct 2026. Generation details, resend
-% provenance and the control-run designs are in Supplement S1 and S3; the pre-rewrite text is in
-% _pre_rewrite_2026-10-02/sections/03_data.tex.
+% Section 3.1. Worked example: data. Prompts and row provenance are in Supplement S1 and S3.
 
 \section{Worked Example}
 \label{sec:data}
@@ -13,13 +11,17 @@ The persona grid crosses race (Asian, Black, Hispanic, multiracial, White), gend
 Income was stated as a dollar-and-insurance label, from ``Low (<\$35k, Medicaid)'' to ``High (>\$250k, Concierge)''.
 Each persona answered 30 times under each of two framings, one listing its attributes as fields (clinical) and one giving them as a first-person self-description (narrative).
 A shared system prompt cast the model as a ``Clinical Simulation Engine'' answering from ``the statistical likelihood of symptoms for this specific demographic intersection in the US population''.
-No sampling parameter was set, so every draw ran at the provider's default decoding.
+With no sampling parameter set, every draw ran at the provider's default decoding.
 The corpus holds 28,800 assessments, of which 28,799 have a valid PHQ-8. % R: corpus_v3_provenance.csv; l1_personfit_main.csv
-Calls lost to API outages were resent in January under the same prompt, and every rung gives the same per-model verdicts without them (Supplement S3).
-Supplement S1 prints the prompts, and the generation code is released with the data.
+Supplement S1 prints the prompts, Supplement S3 gives the provenance of every row, and the generation code is released with the data.
 
-The population reference is the 36,274 adults in NHANES 2005--2018 who answered all eight PHQ-8 items, analysed with the survey's weights and design \citep{johnson2013nhanes,chen2018nhanes,nchs2018analytic}. % R: l1_nhanes_sample_flow.csv; analysis_brm/L4.md
+For the population reference we use the 36,274 adults in NHANES 2005--2018 who answered all eight PHQ-8 items, analysed with the survey's weights and design \citep{johnson2013nhanes,chen2018nhanes,nchs2018analytic}. % R: l1_nhanes_sample_flow.csv; analysis_brm/L4.md
 Income is the ratio of family income to the poverty line, banded below 1.3, from 1.3 to 3.5, and above 3.5, and each persona's income label is mapped to one band.
 Forty-eight of the 120 personas have a matching group in the survey.
-NHANES records sex and not gender identity, and it does not identify multiracial adults on their own, so transgender and multiracial personas enter levels 1 and 4, which read the whole simulated population, and no group comparison.
+Because NHANES records sex rather than gender identity and does not identify multiracial adults on their own, transgender and multiracial personas enter levels 1 and 4, which read the whole simulated population, and are left out of every group comparison.
 NHANES 2021--2023 and other reference choices are sensitivity analyses in Supplement S3.
+
+On this corpus the NHANES standard deviation of the PHQ-8 total sets the gate tolerances at 0.98 and 0.49 points and the default level-3 tolerance at about 2 points. % R: gate_dstudy.csv
+Scored against the whole survey, no NHANES subgroup by sex, race and ethnicity, income or survey cycle departs from 1 by more than a factor of 1.36, so level 1 uses $\tau = 1.5$. % R: l1_personfit_tolerance.csv
+Level 2 reads seven contrasts for each model, the sex gap, three income gaps and three racial gaps, with Bonferroni-adjusted 98.6\% intervals.
+Levels 2 and 3 use the mean of all 30 draws of each persona, more than the gate requires for any model, and level 4 tests invariance across sex, race and income.

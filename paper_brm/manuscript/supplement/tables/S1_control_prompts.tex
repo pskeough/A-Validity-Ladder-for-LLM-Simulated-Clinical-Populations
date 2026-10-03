@@ -1,7 +1,7 @@
 % Written by scripts/87_supplement_tables.py. Do not edit by hand.
 % Receipts: analysis/prompt_control_design.json; analysis/decoding_control_design.json; scripts/55_decoding_control_run.py; ../original_generation_2025-12-31/main.py
 \subsection*{S1.9 Prompt Control: System Prompts of the Three Arms}
-\noindent Arm \texttt{orig}: the released corpus's system prompt, verbatim. Decoding parameters: \texttt{{}}.
+\noindent Arm \texttt{orig}: the released corpus's system prompt, verbatim. Decoding parameters: none set (provider default).
 \begin{Verbatim}[breaklines,breakanywhere,fontsize=\footnotesize,frame=single,framesep=4pt]
 ROLE:
 You are a Clinical Simulation Engine designed for a synthetic data study.
@@ -21,7 +21,7 @@ OUTPUT FORMAT:
   "PCL5": [int, int...] // 20 items, 0-4 scale
 }
 \end{Verbatim}
-\noindent Arm \texttt{no\_pop}: arm A with operational constraint 2 (PROBABILISTIC ACCURACY, the NSDUH/CDC population instruction) deleted and the remaining constraints renumbered. Decoding parameters: \texttt{{}}.
+\noindent Arm \texttt{no\_pop}: arm A with operational constraint 2 (PROBABILISTIC ACCURACY, the NSDUH/CDC population instruction) deleted and the remaining constraints renumbered. Decoding parameters: none set (provider default).
 \begin{Verbatim}[breaklines,breakanywhere,fontsize=\footnotesize,frame=single,framesep=4pt]
 ROLE:
 You are a Clinical Simulation Engine designed for a synthetic data study.
@@ -40,7 +40,7 @@ OUTPUT FORMAT:
   "PCL5": [int, int...] // 20 items, 0-4 scale
 }
 \end{Verbatim}
-\noindent Arm \texttt{first\_person}: first-person, no role assignment and no population reference; NO MORALIZING, SINGLE-SHOT and NUMERIC ONLY and the OUTPUT FORMAT block retained. Decoding parameters: \texttt{{}}.
+\noindent Arm \texttt{first\_person}: first-person, no role assignment and no population reference; NO MORALIZING, SINGLE-SHOT and NUMERIC ONLY and the OUTPUT FORMAT block retained. Decoding parameters: none set (provider default).
 \begin{Verbatim}[breaklines,breakanywhere,fontsize=\footnotesize,frame=single,framesep=4pt]
 You are the person described in the profile below.
 Answer the four screening questionnaires as that person, about yourself.
@@ -106,5 +106,7 @@ TASK: Simulate this participant's responses to the Standardized Clinical Battery
 MAX_TOKENS = 4000
 PIN_PROVIDER = {"z-ai/glm-4.7": "Google"}
 \end{Verbatim}
-\noindent Decoding arms in \texttt{analysis/decoding\_control\_design.json}: \texttt{temp0} \texttt{{"temperature": 0.0, "top\_p": 1.0}}; \texttt{default} \texttt{{}}.
+\noindent Decoding arms in \texttt{analysis/decoding\_control\_design.json}: \texttt{temp0} \texttt{\{"temperature": 0.0, "top\_p": 1.0\}}; \texttt{default} none set (provider default).
+
+\noindent Result (\texttt{analysis/brm/gate\_decoding\_link.csv}, 12 personas and 360 draws per model and arm). Draw variance at temperature 0 as a percentage of the default arm, with its interval, and the variance between personas under the default and temperature-0 arms: GPT-4o-mini 12.5\% [2.1, 25.1], persona variance 1.11 to 1.00; DeepSeek-V3 57.3\% [31.6, 86.2], persona variance 0.93 to 1.03; Gemini-3-Flash 7.4\% [0.0, 19.8], persona variance 22.50 to 27.88; GLM-4.7 76.9\% [52.8, 108.0], persona variance 17.65 to 17.49.
 

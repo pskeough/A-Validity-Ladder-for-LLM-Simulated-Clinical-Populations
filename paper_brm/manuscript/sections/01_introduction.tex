@@ -1,5 +1,4 @@
-% Section 1. Introduction. Rewrite of 2 Oct 2026 (short version), gated through mimesis voice=research.
-% Rule: at most one number per sentence.
+% Section 1. Introduction.
 
 Behavioral researchers now prompt large language models (LLMs) with demographic personas and treat the answers as \emph{silicon samples}.
 \citet{argyle2023outofone} used such samples to reproduce vote choice and opinion by group, \citet{park2024diminished} used them to replicate classic experiments, and \citet{lin2026simulators} describe their use in piloting instruments before fielding them.
@@ -10,7 +9,7 @@ In practice the stand-in assumption is checked unevenly.
 Across eight social science journals, \citet{desai2026validating} found validation practice in LLM studies ``inconsistent and limited.''
 \citet{park2024diminished} found GPT-3.5 answering with almost no variation where people vary, and \citet{bisbee2024synthetic} found synthetic opinion distributions narrower than the survey distributions they imitate.
 \citet{lin2026workflow} proposed a workflow in which the validity a study needs rises with the claim it makes.
-Missing from the workflow is a fixed set of tests, run in a stated order with a pass rule and a population reference for each, that a researcher can apply to one model and report.
+That workflow does not yet supply the tests themselves, each with a pass rule and a population reference, in an order a researcher can run on one model and report.
 
 One persona from the corpus analysed here shows what reading individual answers misses.
 Prompted as a single Black woman on Medicaid with a household income under \$35,000, GPT-4o-mini returns a PHQ-8 total of 8 on its first draw, a plausible answer in the mild band. % R: 85_worked_case.csv
@@ -18,15 +17,19 @@ Over thirty draws the same prompt averages 10.3. % R: 85_worked_case.csv
 Adults in the National Health and Nutrition Examination Survey (NHANES) who share her race, sex, income and marital status average 4.7. % R: 85_worked_case.csv
 None of her single answers would show that the simulated population she belongs to sits well above the real one.
 
-This paper gives a protocol for the missing check, the validity ladder (Figure~\ref{fig:ladder}).
+We propose a protocol for the missing check, the validity ladder (Figure~\ref{fig:ladder}).
 A gate first measures how many repeated draws make a persona's score precise enough to read.
 Above the gate, level 1 tests whether a single draw is an answer pattern a person could give, and level 2 tests whether gaps between groups match the population's.
 Level 3 tests whether the population level matches, and level 4 tests whether the items relate to one another as they do in people.
-Each rung carries a statistic, a pass rule and the use a pass supports, so a simulated sample supports only the claims whose rungs it has passed.
+Each rung of the ladder, the gate or one of the levels, carries a statistic, a pass rule and the use a pass supports, and a simulated sample supports only the claims whose rungs it has passed.
 With the rules frozen and released as code, a researcher can run the ladder on their own sample and report the verdicts.
 
-We apply the ladder to 28,800 PHQ-8 assessments from four models, read against NHANES. % R: corpus_v3_provenance.csv
-The assessments were first collected for an earlier audit \citep{keough2026plausible}, and every analysis reported here is rebuilt from the raw answers.
-Persona means pass the gate at 30 draws, and every model fails each rung above it.
-Real respondents drawn through the same design are rarely failed by any rung, and failures planted at known sizes are caught by the rung each targets.
-On three silicon-sample datasets released by \citet{bisbee2024synthetic}, \citet{argyle2023outofone} and \citet{meister2025distributional}, the ladder identifies which group gaps a model keeps, distorts or loses.
+The worked example applies the ladder to 28,800 PHQ-8 depression assessments from GPT-4o-mini, Gemini-3-Flash, DeepSeek-V3 and GLM-4.7, a corpus first collected for an earlier audit \citep{keough2026plausible} and rebuilt here from the raw answers. % R: corpus_v3_provenance.csv
+A few repeated draws suffice to read each persona's mean, yet no model passes any level above the gate.
+Single answers vary less than people's, and the models exaggerate the income gradient, place every group's level too high and distort the scale's structure.
+Before these failures can be credited to the models, the ladder has to be shown not to fail real people.
+Survey respondents drawn through the same design rarely fail any level, and failures planted at known sizes are caught by the level built to find them.
+
+Three published silicon-sample datasets test whether the ladder travels beyond one instrument.
+Feeling thermometers from \citet{bisbee2024synthetic}, vote choice and attitudes from \citet{argyle2023outofone} and opinion distributions from \citet{meister2025distributional} go through the same frozen rules.
+The ladder keeps a few partisan gaps and leaves most other gaps failed, unresolved or unreadable, pointing toward narrower readings of each release's claims.

@@ -1,13 +1,9 @@
-% Abstract: 250 words maximum (BRM). Rewrite of 2 Oct 2026, gated through mimesis voice=research
-% (compose_slate + gate_candidates, candidate 1, cut to length). Receipts for its numbers are the body's.
-Behavioral researchers prompt large language models with demographic personas and use the answers in place of survey respondents, and the usual check on such a sample is a reading of the answers.
-No ordered set of tests, each with a pass rule and a population reference, exists for a researcher to run on one model and report.
-The validity ladder, released as code, is a gate and four levels.
-The gate measures how many repeated draws make a persona's score precise enough to read.
-The four levels test single answers, gaps between groups, the population's level and the instrument's structure against human data.
-Each level carries a statistic, a pass rule and the use a pass supports, so a sample supports only the claims whose levels it passes.
-In a worked example of 28,800 PHQ-8 assessments from four models, read against the NHANES national health survey, persona means are readable after a few draws and every model fails all four levels.
-The models give less varied answers than people, exaggerate the income gradient, sit above the survey's level and lose the scale's structure.
-Survey respondents run through the same design pass the gate and levels 1 and 3 and are rarely failed elsewhere, and planted failures trip the level each targets.
-On three published silicon samples, partisan gaps hold where the data can test them, and most demographic gaps fail or cannot be read.
-Each claim drawn from a simulated sample needs its own check against human data.
+% Abstract (BRM limit 250 words). Its numbers carry the receipts of the body sections.
+A simulated sample built by prompting a language model with demographic personas can be used to report a persona's score, to stand in for individual respondents, to compare groups, to estimate a population's level or to score a multi-item scale.
+Each use assumes something different about how well the model replicates people, and validation practice in the field remains uneven.
+We propose the validity ladder, a gate and four levels released as code, in which every rung tests one of these uses against human data with a statistic and a pass rule, and a sample supports only the claims whose rungs it passes.
+In a worked example of 28,800 PHQ-8 depression assessments from four models, compared against a national health survey, a few repeated draws make each persona's mean readable.
+Above the gate every model fails, with answers less varied than people's, an exaggerated income gradient, every group placed too high and a distorted scale structure.
+Real survey respondents put through the same design are rarely failed, while failures planted into them are caught at the level each targets.
+Tested on three published silicon samples, the ladder supports only a few partisan gaps, pointing toward narrower readings of those samples' claims.
+These results show that each claim drawn from a simulated sample needs its own check against the human data it claims to represent.

@@ -44,6 +44,9 @@ BRM = os.path.join(BASE, "analysis", "brm")
 NOTES = os.path.join(BASE, "paper_brm", "analysis_brm")
 SCRIPTS = os.path.join(BASE, "scripts")
 SUPP = os.path.join(MANU, "supplement")
+# Float numbers in the body as typeset (2 Oct 2026 layout), for the plain text in S2.
+BODY_REFS = {"fig:ladder": "1", "fig:panels": "2", "fig:external": "3", "tab:verdicts": "1",
+             "tab:claims": "2", "tab:panel": "3", "tab:coverage": "4"}
 
 # Numbers with no cell of their own, re-derived by hand from the named receipt (1 Oct 2026).
 # Keyed by (manuscript file, number as printed). Status "derived"; the reason is printed in the check.
@@ -266,9 +269,14 @@ def writers(name, idx, pats):
 def tagged_lines():
     """Yield (relpath, lineno, text, [receipt names])."""
     files = []
+    # A section file that main.tex no longer \inputs (08_limitations since the 2 Oct 2026 rewrite)
+    # is not part of the article, so its numbers are neither checked nor listed in S2.
+    with open(os.path.join(MANU, "main.tex"), encoding="utf-8") as f:
+        live = set(re.findall(r"^\s*\\input\{sections/([^}]+)\}", f.read(), flags=re.M))
     for sub in ("sections", "figures"):
         d = os.path.join(MANU, sub)
-        files += [os.path.join(d, f) for f in sorted(os.listdir(d)) if f.endswith(".tex") and not f.startswith("fig1_ladder.tex")]
+        files += [os.path.join(d, f) for f in sorted(os.listdir(d)) if f.endswith(".tex") and not f.startswith("fig1_ladder.tex")
+                  and (sub != "sections" or f[:-4] in live or f.startswith("00_abstract"))]
     for path in files:
         rel = os.path.relpath(path, MANU).replace("\\", "/")
         with open(path, encoding="utf-8") as f:
@@ -313,7 +321,8 @@ def tex_escape(s):
 def plain(code):
     """A readable version of a LaTeX line for the receipts table."""
     t = re.sub(r"\\(?:citet|citep|citeauthor|citeyear)\{([^}]*)\}", r"[\1]", code)
-    t = re.sub(r"\\(?:ref)\{[^}]*\}", "#", t)
+    # The body numbers its floats in order of appearance; S2 prints those numbers in place of \ref.
+    t = re.sub(r"\\(?:ref)\{([^}]*)\}", lambda m: BODY_REFS.get(m.group(1), "#"), t)
     t = re.sub(r"\\(?:vd|emph|textit|textbf)\{([^}]*)\}", r"\1", t)
     t = t.replace("\\%", "%").replace("--", "–").replace("~", " ").replace("\\$", "$").replace("``", '"').replace("''", '"')
     t = re.sub(r"\$([^$]*)\$", r"\1", t)

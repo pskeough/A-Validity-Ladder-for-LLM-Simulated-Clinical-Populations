@@ -1,32 +1,39 @@
-% Section 6. Discussion and conclusion. Rewrite of 2 Oct 2026, built from Patrick's spoken answers
-% (what a researcher should do differently; how to read published claims) and gated through
-% mimesis voice=research (compose_slate + gate_candidates, candidate 2). The limitations section is
-% folded into the last paragraph; the pre-rewrite text is in _pre_rewrite_2026-10-02/sections/.
+% Section 6. Discussion and conclusion.
 
 \section{Discussion}
 \label{sec:discussion}
 
-In the worked example and the three external datasets, every sample failed at least one check on a use that researchers make of such samples.
-Every finding drawn from a simulated sample therefore needs its own check.
-A group gap, a population level and a scale score are separate extrapolations, and a pass on one carries no information about the others.
-Researchers running persona studies should hold each extrapolation in critical doubt, audit it against the level that tests it, and treat a claim without that check as unsupported.
-The ladder makes the audit routine, and the controls show that it passes real respondents and detects failures of a known size.
+In both the worked example and the three external datasets, each sample failed at least one check tied to a use researchers make of such samples.
+In the worked example none of these failures could be seen in a single answer.
+Our recommendation for researchers running persona studies is to begin before the generation step, first by establishing whether human data exist to ground the sample, and second by deciding which claims about the population the study intends to make.
+Holding the model's ability to stand in for those people in critical doubt, in good faith, the researcher then checks each claim against the rung designed to test it.
+Group gaps, population levels, single cases and scale scores are separate extrapolations, and each one needs its own check.
 
-Every level above the gate rests on human data.
-A national survey or a private validated dataset on the same instrument has to be in hand before the simulated sample is generated, because the reference fixes which personas can be compared, how many draws they need and which gaps the survey can measure at all.
-The cleanest reference comes from personas built on real respondents' profiles, as in the releases of \citet{bisbee2024synthetic} and \citet{argyle2023outofone}, where every simulated answer has a human twin.
+Using the ladder depends on meeting its requirements.
+Every level above the gate compares the simulated sample against human data, and without a reference on the same instrument the ladder cannot be applied.
+Each rung additionally carries its own requirements, set out in Figure~\ref{fig:ladder}; where a study's data cannot meet them, that rung is not run and the claims it would support are not made.
+Because the reference determines which personas can be compared, how many draws each needs and which gaps can be measured precisely enough to certify, it has to be in hand before generation.
+Additionally, the researcher fixes how each persona attribute maps to a reference variable before generation and reports that mapping with the verdicts, because in the worked example matching income on the label's dollar amount rather than the poverty-ratio band changed the verdict on one contrast. % R: l2_verdicts.csv
+Personas built on real respondents' profiles, as \citet{bisbee2024synthetic} and \citet{argyle2023outofone} did, offer the cleanest reference by giving every simulated answer a human twin.
 
-For published silicon samples, the ladder narrows claims more often than it overturns them.
-Partisan gaps in the releases of \citet{bisbee2024synthetic} and \citet{argyle2023outofone} hold, while most gaps by sex, age and race fail or cannot be read, so claims of fidelity from these samples apply within partisan comparisons.
-The ladder leaves the substantive question to the human data.
-Its contribution is a stronger context for each claim and a screen against readings of a persona sample that the data do not support.
+Our controls and the three external datasets address whether the ladder itself can be trusted.
+Pseudo-models built from real respondents rarely fail, while failures planted into those same respondents are caught at the rung each one targets.
+Applied to other authors' releases without changing a rule, the ladder ran on instruments, models and designs it was not built around.
+In those releases it supports the partisan gaps reported by \citet{bisbee2024synthetic} and \citet{argyle2023outofone}, while most gaps by sex, age and race either fail or cannot be read.
+We do not dispute those studies' findings, though the results point toward a narrower interpretation of their claims of fidelity, centred on the partisan comparisons.
 
-The worked example covers four base models under one prompt family, with one wording for each attribute, one persona per demographic cell, no age in the personas and the PHQ-8 items in a fixed order.
-Transgender and multiracial personas have no comparison group in NHANES and are not tested at levels 2 and 3.
-The corpus serves as a baseline against which grounded or fine-tuned simulators can be tested with the same ladder, and the code for every rung is released for that purpose.
+In practice the ladder strengthens the context around each claim drawn from a persona sample and weeds out readings the data do not support.
+The right value for a gap or a level still has to come from the human data.
+
+Regarding the ladder's own limitations, its thresholds were fixed before the external analyses and act as defaults, to be replaced by a tolerance a user can justify for their own use.
+Certifying a pass also takes more draws, more personas per group and a more precise reference than detecting a failure, and an unresolved verdict can reflect the design as well as the simulator.
+Under the design of the worked example, with 30 draws per persona and a national survey as reference, level 2 serves mainly to detect distorted gaps.
+Finally, the frozen ladder does not read contrasts with no population gap, leaving untested any gap a model invents where people show none; an equivalence test on the simulated gap in raw units would cover this case.
 
 \subsection*{Conclusion}
 
-The validity ladder turns the question of whether a simulated sample can stand in for people into a set of checks, one for each use, each with a pass rule and a population reference.
-Applied to 28,800 PHQ-8 assessments from four models, it reads every model's persona means and fails every model on every use above them. % R: corpus_v3_provenance.csv; l1_personfit_main.csv
-Applied to three published silicon samples, it separates the uses each release supports from those it does not.
+The validity ladder replaces a single judgement of whether a simulated sample resembles people with a separate check for each use of the sample, each carrying a pass rule, a human reference and the claim it supports.
+Across 28,800 PHQ-8 assessments from four models, the ladder read every model's persona means and failed every model on each use above them. % R: corpus_v3_provenance.csv; l1_personfit_main.csv
+Applied to three published silicon samples, it narrowed what each release can be used to claim and identified claims some releases cannot test at all.
+For a researcher, the result is a list of the claims a sample supports, each tied to the check behind it.
+We release the code for every rung and the receipt for every number, allowing grounded or fine-tuned simulators to be checked against the same baseline.

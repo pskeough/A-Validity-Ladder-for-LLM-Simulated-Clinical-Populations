@@ -6,8 +6,7 @@
 %   - A line that carries a number ends with "% R: file.csv[; file.csv]" naming the receipt in
 %     analysis/brm/ (or analysis_brm/*.md where noted). scripts/86_receipts.py parses these tags
 %     into the receipts table (supplement S2) and checks each number against its file.
-%   - \PATRICK{...} marks text only Patrick writes (gate rule 9: the claim, section points,
-%     Discussion interpretations, conclusion). It prints as a red bracket so it cannot ship by accident.
+%   - \PATRICK{...} marks text the author has still to write. It prints as a red bracket.
 %   - \CHECK{...} marks a fact still to confirm before submission.
 \documentclass[man,12pt,floatsintext,natbib]{apa7}
 \usepackage[natbibapa]{apacite}
@@ -17,6 +16,7 @@
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{catchfile}
+\usepackage{placeins}
 % The abstract is read into a macro: apa7 cannot take \input inside \abstract.
 \CatchFileDef{\abstracttext}{sections/00_abstract.tex}{}
 \graphicspath{{figures/}}
@@ -38,7 +38,7 @@
   % \addORCIDlink{Patrick Keough}{0000-0000-0000-0000}
 
   Data, code and every receipt file are at
-  \url{https://github.com/pskeough/A-Validity-Ladder-for-LLM-Simulated-Clinical-Populations}.
+  \url{https://github.com/pskeough/A-Validity-Ladder-for-LLM-Simulated-Populations}.
 
   Correspondence concerning this article should be addressed to Patrick Keough, Email: pskeough@gmail.com
 }

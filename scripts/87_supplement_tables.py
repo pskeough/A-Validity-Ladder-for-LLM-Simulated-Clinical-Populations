@@ -459,12 +459,18 @@ def s1():
     dpin = find_line(D, r"^PIN_PROVIDER\s*=")
     dec_sys = triple_string(D, dsys[0])
 
+    def params_text(p):
+        # An empty dict means no sampling parameter was sent; json braces are escaped so they print.
+        if not p:
+            return "none set (provider default)"
+        return "\\texttt{" + tex(json.dumps(p)).replace("{", "\\{").replace("}", "\\}") + "}"
+
     out = [header([pcd_path, dcd_path, dec_script, clin_path])]
     out.append("\\subsection*{S1.9 Prompt Control: System Prompts of the Three Arms}\n")
     for arm in pcd["arms"]:
         out.append(verbatim_block(arm["system_prompt"].split("\n"), None,
                                   f"Arm \\texttt{{{tex(arm['name'])}}}: {tex(arm['description'])}. "
-                                  f"Decoding parameters: \\texttt{{{tex(json.dumps(arm['params']))}}}."))
+                                  f"Decoding parameters: {params_text(arm['params'])}."))
     out.append(verbatim_block(pcd["user_template"].split("\n"), None,
                               "User template, held identical across arms."))
     out.append("\\subsection*{S1.10 Decoding Control: Prompt and Arms}\n")
@@ -477,9 +483,19 @@ def s1():
     out.append(verbatim_block([D[dmax], D[dpin]], None,
                               f"\\texttt{{scripts/55\\_decoding\\_control\\_run.py}}, lines {dmax + 1} and "
                               f"{dpin + 1}."))
-    arms = "; ".join(f"\\texttt{{{tex(a['name'])}}} \\texttt{{{tex(json.dumps(a['params']))}}}"
+    arms = "; ".join(f"\\texttt{{{tex(a['name'])}}} {params_text(a['params'])}"
                      for a in dcd["arms"])
     out.append(f"\\noindent Decoding arms in \\texttt{{analysis/decoding\\_control\\_design.json}}: {arms}.\n\n")
+    # Result of the decoding control, cited from the body (Results, Gate).
+    link = pd.read_csv(os.path.join(BRM, "gate_decoding_link.csv"))
+    t0 = link[link.source == "temp0"]
+    dflt = link[link.source == "default"].set_index("model")
+    res = "; ".join(f"{tex(r.model)} {100 * r.s2_e_ratio_to_default:.1f}\\% "
+                    f"[{100 * r.ratio_lo:.1f}, {100 * r.ratio_hi:.1f}], persona variance "
+                    f"{dflt.loc[r.model, 's2_p']:.2f} to {r.s2_p:.2f}" for r in t0.itertuples())
+    out.append("\\noindent Result (\\texttt{analysis/brm/gate\\_decoding\\_link.csv}, 12 personas and 360 draws "
+               "per model and arm). Draw variance at temperature 0 as a percentage of the default arm, with "
+               f"its interval, and the variance between personas under the default and temperature-0 arms: {res}.\n\n")
     write("S1_control_prompts.tex", "".join(out))
 
     # Line-by-line difference between each control system prompt and the corpus system prompt.

@@ -1,11 +1,9 @@
-% Section 4. Controls. Short rewrite of 2 Oct 2026. The dose-detection table moved to Supplement
-% S5 (tables/S5_dose_detection.tex); the R2 and level-1 calibration notes are in S5 and S7.
-% Pre-rewrite text: _pre_rewrite_2026-10-02/sections/05_controls.tex.
+% Section 4. Controls. Dose detection and calibration details are in Supplement S5.
 
 \section{Controls: Real People and Planted Failures}
 \label{sec:controls}
 
-Every model fails every rung above the gate, so the ladder itself has to be shown to pass real people and to catch failures of a known size.
+With every model failing every rung above the gate, the ladder itself has to be shown to leave real people unfailed and to catch failures of a known size.
 The controls build pseudo-models out of real survey respondents.
 Each replicate splits the NHANES adults at random into two halves within the 48 persona cells, uses one half as the reference, and fills the corpus design from the other half, with 120 personas, two framings and 30 draws, where each draw is a real respondent from the persona's cell.
 A panel of four such pseudo-models stands in for the four language models.
@@ -13,24 +11,31 @@ Failures are then planted into the same respondents, each aimed at one rung, by 
 Run on the real corpus with the full reference, the control code reproduces all 303 published rung numbers. % R: 83a_receipt.csv
 
 \input{tables/tab_panel}
+\FloatBarrier
 
-\paragraph{Real people pass, and planted failures are caught.}
+\paragraph{Real people are rarely failed, and planted failures are caught.}
 Real respondents pass the gate and level 3 in every reading, level 1 in 92.9\% of replicates, and R1 and R2 of level 4 in every replicate, and level 2 fails them in no reading (Table~\ref{tab:panel}). % R: analysis_brm/intermediate_panel/88_confusion.csv
+At 30 draws real respondents' persona means reach a dependability of only .70, because real demographic cells differ little from one another. % R: analysis_brm/intermediate_panel/88_panel_verdicts.csv
+Applied to every study, a floor of $\phi \ge .80$ would fail real people, and the gate therefore requires it only of studies that compare or rank individual personas.
 Each planted failure trips the rung it targets. % R: analysis_brm/intermediate_panel/88_confusion.csv
-Independent items fail level 1, R1 and R2 in every replicate, shifted samples fail level 3 in every reading, compressed samples fail level 1 in every replicate, non-invariant samples fail R4 in all 25 replicates, and a doubled income gap fails level 2 in 92.5\% of per-model readings. % R: analysis_brm/intermediate_panel/88_confusion.csv
+Independent items fail level 1, R1 and R2 in every replicate, and compressed samples fail level 1 in every replicate. % R: analysis_brm/intermediate_panel/88_confusion.csv
+Shifted samples fail level 3 in every reading, and non-invariant samples fail R4 in all 25 replicates. % R: analysis_brm/intermediate_panel/88_confusion.csv
+A doubled income gap fails level 2 in 92.5\% of per-model readings. % R: analysis_brm/intermediate_panel/88_confusion.csv
 Two rungs also react to failures they do not target.
-A sample shifted by 2.1 points passes the gate in only 28.6\% of readings, because more depressed respondents vary more between draws, and R2 fails compressed and non-invariant samples, because both change the size of the loadings. % R: analysis_brm/intermediate_panel/88_confusion.csv
-Over a further 200 replicates with graded doses, the distortions the language models show at levels 1, 3 and 4 lie beyond the dose that each rung detects in 95\% of replicates (Supplement S5).
-Under the persona design, real respondents' misfit ratio averages 1.15, and their misfit tail passes at $\tau = 1.5$ in 99.4\% of replicates, which sets the level-1 floor. % R: 83c_l1.csv
+A sample shifted by 2.1 points passes the gate in only 28.6\% of readings, as more depressed respondents vary more between draws. % R: analysis_brm/intermediate_panel/88_confusion.csv
+R2 also fails compressed and non-invariant samples, both of which change the size of the loadings.
+Over a further 200 replicates with graded doses, each rung detects in 95\% of replicates a distortion smaller than the one the language models show at levels 1, 3 and 4 (Supplement S5).
+In those replicates real respondents' misfit ratio averages 1.15, and level 1 passes them at $\tau = 1.5$ in 99.4\% of 800 per-model readings, which sets the level-1 floor. % R: 83c_l1.csv
 
 \paragraph{What level 2 and R4 need to certify a pass.}
-Two rungs need more data to certify a pass than to detect a failure.
-A second simulation repeated the panel over 60 replicates on grids of 48, 144 and 432 persona cells. % R: analysis_brm/panel_power/90_cells.csv; analysis_brm/panel_power/90b_summary.csv
-Level 2 fails a faithful simulator in at most 3.3\% of per-model readings and fails a doubled income gap in 97.5\% to 100\%. % R: analysis_brm/panel_power/90b_summary.csv
-At 30 draws per persona, a faithful simulator's low-to-high income gap is never read \vd{kept}, because the simulation's own error keeps its interval wider than the kept region. % R: analysis_brm/panel_power/power_l2_contrast_readings.csv
-With no simulation error, which is the limit of adding draws, the same gap is read \vd{kept} in 95.0\% and 98.3\% of replicates on the 48-cell and the 144-cell grids. % R: analysis_brm/panel_power/power_l2_contrast_readings.csv; analysis_brm/panel_power/90_cells.csv
+A group gap is \vd{kept} when the whole interval for the ratio of the simulated gap to the real gap lies between 0.75 and 1.25, placing the simulated gap within a quarter of the real gap's size.
+Because the whole interval must fall inside that range, a kept verdict depends on the precision of both gap estimates as well as on how close they are.
+Certifying a kept gap therefore needs more data than detecting a gap that is not kept, and level 2 and the invariance rule R4 both carry this asymmetry.
+A second simulation repeated the control panel over 60 replicates on grids of 48, 144 and 432 persona cells. % R: analysis_brm/panel_power/90_cells.csv; analysis_brm/panel_power/90b_summary.csv
+Level 2 fails a faithful simulator built from real respondents in at most 3.3\% of per-model readings and fails a doubled income gap in 97.5\% to 100\%. % R: analysis_brm/panel_power/90b_summary.csv
+At 30 draws per persona the low-to-high income gap of a faithful simulator is never read \vd{kept}, because draws of one persona vary enough to hold its interval wider than the kept region. % R: analysis_brm/panel_power/power_l2_contrast_readings.csv
+With no simulation error, the limit of adding draws, the same gap is read \vd{kept} in 95.0\% and 98.3\% of replicates on the 48-cell and 144-cell grids. % R: analysis_brm/panel_power/power_l2_contrast_readings.csv; analysis_brm/panel_power/90_cells.csv
 The Black--White and Hispanic--White gaps are never read \vd{kept} on any grid, because NHANES measures them too loosely. % R: analysis_brm/panel_power/power_l2_contrast_readings.csv
-A researcher who needs a kept gap therefore plans for more draws per persona and for a population gap the survey measures precisely, and a finer persona grid does not supply the second.
-R4 has the same property.
-At the .08 margin, 24 to 40 personas per group leave some invariance steps unresolved for real respondents in 24 of 25 replicates, while a planted invariance failure fails R4 in every replicate. % R: analysis_brm/intermediate_panel/88_confusion.csv; analysis_brm/intermediate_panel/88_r4_steps.csv
+A researcher who needs a kept gap therefore plans for more draws per persona and for a population gap the survey estimates with a narrow interval, and a finer persona grid does not supply the second.
+R4 shows the same asymmetry, and at the .08 margin, 24 to 40 personas per group leave some invariance steps unresolved for real respondents in 24 of 25 replicates, while a planted invariance failure fails R4 in every replicate. % R: analysis_brm/intermediate_panel/88_confusion.csv; analysis_brm/intermediate_panel/88_r4_steps.csv
 A design that needs an R4 pass needs more personas per group than the corpus has.

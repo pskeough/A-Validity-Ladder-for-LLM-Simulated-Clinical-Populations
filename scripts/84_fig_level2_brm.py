@@ -23,9 +23,9 @@ Self-checks before drawing (the script stops on any failure):
   - the right-hand verdict word equals 78c's `verdict` for every row;
   - the values match l2_headline.csv.
 
-Emits paper_brm/manuscript/figures/fig2_level2.pdf (vector), fig2_level2.png (200 dpi preview),
-fig2_level2_data.csv (the values plotted). The caption is fig2_level2_caption.tex, written by hand
-beside it; this script prints the numbers the caption quotes.
+Emits paper_brm/manuscript/figures/figS_level2_intervals.pdf (vector) and .png (200 dpi preview),
+which is Supplement Figure S1, and fig2_level2_data.csv (the values plotted), which
+scripts/84f_fig3_l2_dots.py reads for the worked-example row of Figure 3.
 """
 import os
 import re

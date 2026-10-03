@@ -13,13 +13,17 @@ import sys
 SRC = r"C:\Research\PsychBench\UpdatedRun"
 DST = r"C:\Research\_repo_work\vl"
 ROOTS = ["paper_brm/manuscript"]
-FILES = ["scripts/84_fig_level2_brm.py", "scripts/84c_fig_level2_grid.py", "scripts/86_receipts.py",
+FILES = ["scripts/84_fig_level2_brm.py", "scripts/84d_fig1_ladder.py",
+         "scripts/84e_fig2_ladder_panels.py", "scripts/84f_fig3_l2_dots.py", "scripts/86_receipts.py",
+         "scripts/87_supplement_tables.py", "paper_brm/arxiv/build_arxiv.py",
          "analysis/brm/86_receipts_check.csv", "analysis/brm/86_receipts_summary.txt",
          "paper_brm/external/scripts/l2_threeway.py",
          "paper_brm/external/results/l2_threeway_summary.csv",
          "paper_brm/external/results/l2_threeway_rows.csv",
          "paper_brm/release/copy_rewrite_commit.py"]
-SKIP = ("_pre_rewrite_2026-10-02", "fig2_options", "REFS_KEYMAP.md",".aux", ".log", ".blg", ".out", ".bbl", "_verify")
+SKIP = ("_pre_rewrite_2026-10-02", "_pre_refocus_2026-10-03", "fig1_options", "fig2_options", "fig3_options",
+        "_review_", "REFS_KEYMAP.md", "08_limitations", "fig1_ladder.tex", "fig2_level2.", "fig2_level2_caption",
+        "fig2_level2_note", "fig3_external_l2", ".aux", ".log", ".blg", ".out", ".bbl", "_verify")
 dry = "--dry" in sys.argv
 
 cands = list(FILES)

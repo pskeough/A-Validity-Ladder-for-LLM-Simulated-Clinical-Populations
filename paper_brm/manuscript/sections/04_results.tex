@@ -1,25 +1,22 @@
-% Section 3.2. Worked example: results. Short rewrite of 2 Oct 2026: one verdict table in place of
-% four per-level tables (those moved to Supplement S4), level 2 read as kept / not kept /
-% unresolved, the worked-case persona carried through each level. Pre-rewrite text in
-% _pre_rewrite_2026-10-02/sections/04_results.tex.
+% Section 3.2. Worked example: results.
 
 \subsection{Results}
 \label{sec:results}
 
-\begin{table}[tp]
+\begin{table}[!ht]
 \centering
 \caption{Ladder Verdicts per Model in the Worked Example}
 \label{tab:verdicts}
 \small
-\begin{tabular}{@{}llllll@{}}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\begin{tabular}{@{}lP{2.1cm}P{2.3cm}P{1.9cm}P{1.9cm}P{2.5cm}@{}}
 \toprule
-Model & Gate: draws needed & Level 1 & Level 2 & Level 3 & Level 4 \\
- & (minimum / rec.) & single draws & income gap ratio & overall residual & structure \\
+Model & Gate: draws needed (min.\ / rec.) & Level 1: single draws & Level 2: income gap ratio & Level 3: overall residual & Level 4: structure \\
 \midrule
 DeepSeek-V3 & Pass (3 / 9) & Fail, compressed & Fail, 1.91 & Fail, +4.6 & Fail, no general factor \\ % R: gate_dstudy.csv; l2_headline.csv; 80d_headline.csv
-Gemini-3-Flash & Pass (3 / 10) & Fail, compressed & Fail, 5.07 & Fail, +2.6 & Fail, R2 and R4 \\ % R: gate_dstudy.csv; l2_headline.csv; 80d_headline.csv
+Gemini-3-Flash & Pass (3 / 10) & Fail, compressed & Fail, 5.07 & Fail, +2.6 & Fail, loadings (R2) and invariance (R4) \\ % R: gate_dstudy.csv; l2_headline.csv; 80d_headline.csv
 GPT-4o-mini & Pass (4 / 13) & Fail, compressed & Fail, 2.16 & Fail, +4.7 & Fail, no general factor \\ % R: gate_dstudy.csv; l2_headline.csv; 80d_headline.csv
-GLM-4.7 & Pass (6 / 21) & Fail, too few atypical & Fail, 5.03 & Fail, +2.1 & Fail, R2 and R4 \\ % R: gate_dstudy.csv; l2_headline.csv; 80d_headline.csv
+GLM-4.7 & Pass (6 / 21) & Fail, too few atypical & Fail, 5.03 & Fail, +2.1 & Fail, loadings (R2) and invariance (R4) \\ % R: gate_dstudy.csv; l2_headline.csv; 80d_headline.csv
 \bottomrule
 \end{tabular}
 \vspace{4pt}
@@ -27,43 +24,46 @@ GLM-4.7 & Pass (6 / 21) & Fail, too few atypical & Fail, 5.03 & Fail, +2.1 & Fai
 \textit{Note.} Gate: draws needed for a persona mean's standard error to reach 0.25 (minimum) and 0.125 (recommended) NHANES standard deviations, the larger of the two framings. Level 2: ratio of the simulated to the standardised NHANES gap between low- and high-income personas, where 1 reproduces the gap. Level 3: post-stratified simulated minus NHANES mean PHQ-8, in points. Level 4: R2, loadings stronger than people's; R4, the factor differs across income where it does not in NHANES. Full per-level tables are in Supplement S4.
 \end{tabnote}
 \end{table}
+\FloatBarrier
 
-Table~\ref{tab:verdicts} gives every model's verdict at each rung.
+Table~\ref{tab:verdicts} gives every model's verdict at each rung, and Figure~\ref{fig:panels} shows what each failure looks like.
 All four models pass the gate and fail every level above it.
+
+\begin{figure}[tp]
+\input{figures/fig2_ladder_panels_caption}
+{\centering\includegraphics[width=\linewidth]{fig2_ladder_panels.pdf}\par}
+\input{figures/fig2_ladder_panels_note}
+\end{figure}
 
 \paragraph{Gate.}
 No model can be read from a single draw.
 The draw-to-draw standard deviation is 1.25 to 2.24 points in every model and framing, above the 0.98-point tolerance. % R: gate_dstudy.csv
 Averages of 30 draws pass in every model, and the minimum rule needs 3 to 6 draws. % R: gate_dstudy.csv
 Two draws of one persona fall in different PHQ-8 severity bands 35.2\% of the time [33.6, 36.8]. % R: gate_bandflip_summary.csv
-In a separate decoding control on 12 personas, setting GPT-4o-mini's temperature to 0 cut its draw variance to 12.5\% of the default without separating personas any better (Supplement S1). % R: gate_decoding_link.csv
-The worked-case persona's 30 clinical draws run from 7 to 16, and her first draw of 8 sits in the mild band while her mean of 10.3 sits in the moderate band. % R: 85_worked_case.csv
+In a separate decoding control on 12 personas, setting GPT-4o-mini's temperature to 0 cut its draw variance to 12.5\% of the default without separating personas any better (Supplement S1.10). % R: gate_decoding_link.csv
+Every reading that follows therefore uses averaged draws.
 
 \paragraph{Level 1.}
 No model passes level 1, in either framing or at any tolerance up to 3. % R: l1_personfit_verdicts_tau.csv
 At matched totals NHANES puts 5\% of adults in each tail of person fit, and the models put 0.0\% to 1.0\% in the unusual tail and 0.0\% to 4.3\% in the regular tail. % R: l1_summary.csv
 Three models are compressed, and GLM-4.7 is short of unusual patterns alone.
-The models also lean on mood.
-At matched totals they score 0.16 to 0.51 points higher than people on depressed mood and 0.22 to 1.11 points lower on fatigue, one of the physical symptoms people report first. % R: l1_personfit_item_profile.csv
+The models also weight depressed mood more heavily than people do, scoring 0.16 to 0.51 points higher at matched totals on depressed mood and 0.22 to 1.11 points lower on fatigue, one of the physical symptoms people report first. % R: l1_personfit_item_profile.csv
 They reuse answer sheets as well, giving two different personas the identical answer vector 4.6 to 39 times as often as two NHANES adults with the same total. % R: l1_pattern_reuse.csv
-Each of the worked-case persona's 60 draws is a plausible human pattern, and together they are less varied than real people at her severity. % R: 85_worked_case.csv
-
-\begin{figure}[tp]
-\input{figures/fig2_level2_caption}
-{\centering\includegraphics[width=\linewidth,height=0.64\textheight,keepaspectratio]{fig2_level2.pdf}\par}
-\input{figures/fig2_level2_note}
-\end{figure}
+Any use that treats a draw as a person, from a vignette bank to a test set for a screener, would draw from a pool missing almost all of the unusual presentations that one in twenty real respondents give.
 
 \paragraph{Level 2.}
-Every model fails level 2 on income (Figure~\ref{fig:level2}).
+Every model fails level 2 on income, and Supplement Figure S1 gives every interval.
 The gap between low- and high-income personas is 1.91 (DeepSeek-V3) to 5.07 (Gemini-3-Flash) times the population gap. % R: l2_headline.csv
 Of the 12 per-model income contrasts, 10 are steepened, and the survey measures the other two gaps too imprecisely to certify kept. % R: l2_headline.csv; l2_verdicts.csv
-The sex gap divides the models.
-GPT-4o-mini and DeepSeek-V3 keep a quarter to two fifths of the population's sex gap (ratios 0.23 and 0.41), GLM-4.7 doubles it (2.06), and Gemini-3-Flash is unresolved. % R: l2_headline.csv
-Pooled over the four models, the ratio is 0.97, a near match produced by opposite errors. % R: l2_headline.csv
+We read the size of the low-to-high ratio as partly a product of how the persona's income label is matched to the survey. % R: l2_verdicts.csv
+Matching on the dollar amount in the label (Supplement S3) brings the ratio down to 1.04 for DeepSeek-V3 and 1.18 for GPT-4o-mini, which leaves both contrasts unresolved, and Gemini-3-Flash and GLM-4.7 stay steepened at 2.76 and 2.74. % R: l2_verdicts.csv
+Under that matching DeepSeek-V3 and GPT-4o-mini still steepen the middle-to-high gap (3.29 and 2.89), leaving every model failing level 2. % R: l2_verdicts.csv
+On the sex gap the models disagree, with GPT-4o-mini and DeepSeek-V3 reproducing a quarter to two fifths of it (ratios 0.23 and 0.41), GLM-4.7 doubling it (2.06) and Gemini-3-Flash unresolved. % R: l2_headline.csv
+Pooled over the four models the ratio is 0.97, a near match built from errors in opposite directions. % R: l2_headline.csv
 No racial contrast is kept in any model.
 Among adults matched on income, sex and marital status, the survey cannot tell the Hispanic--White gap from zero and measures the Black--White gap too imprecisely to certify kept, and GPT-4o-mini's Black--White gap is still not kept. % R: l2_stop.csv; l2_headline.csv
-The worked-case persona does not enter level 2 on her own, because a gap is read across pairs of personas.
+For a researcher, these verdicts rule out estimating from any of these samples how depression differs by income, sex or race.
+Because the survey measures the Black--White and Hispanic--White gaps too imprecisely to certify any simulator, a study of those gaps needs a larger or more targeted reference before the ladder can read it.
 
 \paragraph{Level 3.}
 Every simulated population is more depressed than NHANES.
@@ -71,21 +71,61 @@ After reweighting, the overall residual is +2.1 points for GLM-4.7, +2.6 for Gem
 All 40 model-by-group residuals are positive, and no model passes all ten groups at 2 points. % R: 80d_pass_counts.csv; 80d_model_verdicts.csv
 In every model the largest residual is in the low-income band. % R: 80c_l3_results.csv
 The failure holds under all eight reference specifications, including NHANES 2021--2023, and only whether the national row passes depends on the reference chosen (Supplement S3). % R: 89_l3_spec_range.csv; 89_l3_spec_range_summary.csv
-Prevalence errs differently from the mean.
+Prevalence, the share scoring 10 or more, errs in a different pattern from the mean.
 In the low-income band 55.5\% of simulated respondents score 10 or more, against 13.6\% of real adults. % R: 80d_headline.csv
-In the middle and high bands the simulated share is too low although the mean is too high, and DeepSeek-V3's overall prevalence looks correct only because its low-income excess cancels these shortfalls. % R: 80d_headline.csv; 80d_model_verdicts.csv
-The worked-case persona's mean over both framings is 10.0, 5.3 points above the 4.7 of real adults in her cell. % R: 85_worked_case.csv
+Across the middle and high bands the simulated share is too low although the mean is too high, and DeepSeek-V3's overall prevalence looks correct only because its low-income excess cancels these shortfalls. % R: 80d_headline.csv; 80d_model_verdicts.csv
+Read as a stand-in for a survey, these samples would overstate depression for every group, most of all among low-income adults.
 
 \paragraph{Level 4.}
 No model passes level 4.
-DeepSeek-V3 and GPT-4o-mini have no general factor, with first-to-second eigenvalue ratios of 1.09 to 1.73 against 7.47 in NHANES, so their PHQ-8 total is not one score. % R: l4_structure.csv
+DeepSeek-V3 and GPT-4o-mini have no general factor, with first-to-second eigenvalue ratios of 1.09 to 1.73 against 7.47 in NHANES. % R: l4_structure.csv
 Gemini-3-Flash and GLM-4.7 have a factor with the human pattern of loadings (congruence .990 to .998), and the loadings are stronger than people's. % R: l4_structure.csv
 Gemini-3-Flash fails R2 in both framings and GLM-4.7 in the narrative framing, and both fail invariance across income, which holds in NHANES. % R: l4_r2_size.csv; l4_invariance.csv
 In these two models 48\% to 64\% of item variance lies between personas, against 3.5\% between demographic cells in NHANES, and draws of one persona share no general factor. % R: l4_between_within.csv
-Their factor is built from differences between persona means, and the uniformity within personas is the same one level 1 found.
+Built from differences between persona means, their factor rests on the same uniformity within personas that level 1 found.
+For a researcher, the PHQ-8 total from DeepSeek-V3 or GPT-4o-mini cannot be scored as a single measure, and in Gemini-3-Flash and GLM-4.7 a comparison of the total across income levels lacks the meaning it carries in NHANES.
+
+\paragraph{One persona.}
+Followed through the ladder, the introduction's persona carries each verdict on a single case.
+She is a single Black woman on Medicaid with an income under \$35,000, and GPT-4o-mini gives her 30 clinical draws ranging from 7 to 16. % R: 85_worked_case.csv
+Her first draw of 8 lands in the mild band and her mean of 10.3 in the moderate band, so her readable score is the average. % R: 85_worked_case.csv
+Her 60 draws are each plausible as human answers and together less varied than real people at her severity, repeating the level 1 failure. % R: 85_worked_case.csv
+Her mean over both framings, 10.0, exceeds the 4.7 of matched NHANES adults by 5.3 points, repeating the level 3 excess. % R: 85_worked_case.csv
+Level 2 reaches her only through the gaps her groups form with others.
+
+\begin{table}[!ht]
+\centering
+\caption{Claims a Study Might Make From This Corpus, and What the Ladder Allows}
+\label{tab:claims}
+\small
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\begin{tabular}{@{}P{1.4cm}P{5.5cm}P{7.4cm}@{}}
+\toprule
+Rung & Claim & On this corpus \\
+\midrule
+Gate & A persona's score can be read from one response. & \textbf{No.} Two draws of one persona fall in different severity bands 35.2\% of the time. \\ % R: gate_bandflip_summary.csv
+Gate & The average of 30 responses is the model's score for that persona. & \textbf{Yes,} for all four models, which need 3 to 6 draws under the minimum rule. \\ % R: gate_dstudy.csv
+Level 1 & A single response can stand in for a real patient. & \textbf{No.} Unusual answer patterns are 0.0\% to 1.0\% of draws, against 5\% of people. \\ % R: l1_summary.csv
+Level 2 & Low-income adults score higher than high-income adults, by this much. & \textbf{Direction only.} The gap is 1.91 to 5.07 times its size in the population. \\ % R: l2_headline.csv
+Level 2 & Women score higher than men, by this much. & \textbf{No.} Two models shrink the gap, one doubles it and one is unresolved. \\ % R: l2_headline.csv
+Level 2 & Black and White adults differ by this much. & \textbf{Not certifiable.} The survey measures this gap too imprecisely to certify any model. \\ % R: l2_stop.csv
+Level 3 & This share of low-income adults is depressed. & \textbf{No.} 55.5\% of low-income simulated respondents score 10 or more, against 13.6\% of real adults. \\ % R: 80d_headline.csv
+Level 3 & Depression in the population is this high overall. & \textbf{No.} Every model is 2.1 to 4.7 points too high overall. \\ % R: 80d_headline.csv
+Level 4 & The PHQ-8 total is one score that means the same in every group. & \textbf{No.} Two models have no general factor, and in the other two the factor differs across income. \\ % R: l4_structure.csv; l4_invariance.csv
+\bottomrule
+\end{tabular}
+\end{table}
 
 \paragraph{Summary.}
-Read one at a time, the answers of every model look like believable patients, and averages of a few draws are stable enough to read.
-None of the four models supports a claim beyond that stable score.
-They compress the variety of individual answers, exaggerate the income gradient, raise every group's level of depression and lose the structure of the scale.
-No single answer shows any of these errors, and each rung of the ladder exposes one of them.
+Read one at a time, every model's answers look like believable patients, and averages of a few draws are stable enough to read.
+A researcher who checked this sample by reading its answers, or by the stability of its scores, would have accepted it.
+Above that stable score the ladder fails the same sample on every use, finding its individual answers too uniform, its income gradient exaggerated, every group too depressed and its scale total without the structure the PHQ-8 has in people.
+
+\paragraph{What this example does not show.}
+These verdicts describe four base models under one prompt family, with one wording per attribute, one persona per demographic cell, no age in the personas and the PHQ-8 items in a fixed order.
+The shared system prompt asked for the statistical likelihood of symptoms for each persona.
+Removing that instruction did not remove the excess at level 3.
+When a prompt control on 12 personas (Supplement S1.9) asked each model to answer as the person described, DeepSeek-V3 and GPT-4o-mini scored 5.8 to 7.4 points above NHANES in every income band, compared with 4.0 to 5.3 under the corpus prompt, while Gemini-3-Flash's low-income excess grew from 8.9 to 10.0 points. % R: ../prompt_control_results.csv
+Each income label also paired a dollar amount with an insurance type, a cue the prompt control left unchanged.
+Transgender and multiracial personas have no NHANES comparison group and were not tested at levels 2 and 3.
+A different prompt, a persona grounded in real respondents or a fine-tuned simulator could pass where these models fail, and running the ladder on that sample would show whether it does.
