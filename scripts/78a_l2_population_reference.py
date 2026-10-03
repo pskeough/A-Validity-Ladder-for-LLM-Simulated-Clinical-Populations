@@ -25,7 +25,7 @@ The five-race version, with RIDRETH3 7 standing in for Multiracial, is the `five
 Two population references are built here:
 
   marginal      the weighted NHANES group mean minus the other group's, over all adults. This is
-                the anchor the ML4H paper used (groundtruth/phq8_groundtruth_nhanes_2005_2018.csv);
+                the anchor the preprint used (groundtruth/phq8_groundtruth_nhanes_2005_2018.csv);
                 the script reproduces it exactly before writing anything.
   standardised  the NHANES within-stratum difference of weighted means, averaged over the same
                 strata with the same equal weights (direct standardisation to the persona design).

@@ -9,8 +9,8 @@ therefore has a human twin: the same respondent's real answer. Main file at
 temperature 0.7 (README); robustness files at 0.001 and 1.0.
 
 Level 2: group gap in the silicon answers against the group gap in the same
-respondents' real answers, verdict by the manuscript's rule (scripts/66 in the
-PsychBench repo), inference by respondent bootstrap.
+respondents' real answers, verdict by the preprint-era rule (scripts/66 at tag
+preprint-2026-09), inference by respondent bootstrap.
 Level 3: silicon group mean against the real group mean, strict tolerance (the real
 mean's own 95% sampling half-width) and a use tolerance stated per outcome.
 
@@ -89,7 +89,7 @@ CONTRASTS = [
 
 
 def verdict(mg, se_mg, dd, se_dd, hg, frac=1.0):
-    """Manuscript rule (PsychBench scripts/66_level2_permodel_equivalence.py):
+    """Preprint-era rule (scripts/66_level2_permodel_equivalence.py at tag preprint-2026-09):
     missing: equivalent to zero at the bound and separable from the population value;
     kept: sign matches, equivalent to the population value, not separable from it;
     steepened / flattened: separable, sign kept, ratio above / below 1;

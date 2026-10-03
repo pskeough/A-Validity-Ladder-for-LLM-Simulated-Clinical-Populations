@@ -1,8 +1,7 @@
-"""Figure 1, the validity ladder as a general map (3 Oct 2026 refocus, Patrick's option A).
+"""Figure 1, the validity ladder as a general map.
 
 Instrument-agnostic by design: no survey, scale or corpus is named. The statistics and thresholds
-are in Section 2 and Supplement S7. Writes paper_brm/manuscript/figures/fig1_ladder.pdf and .png.
-Sketches that led here: paper_brm/manuscript/figures/fig1_options/."""
+are in Section 2 and Supplement S7. Writes paper_brm/manuscript/figures/fig1_ladder.pdf and .png."""
 import os
 import textwrap
 

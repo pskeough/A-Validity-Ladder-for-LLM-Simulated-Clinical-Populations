@@ -74,4 +74,10 @@ The analysis code was written with AI coding assistance (Claude Code) to the aut
 
 ## Licence
 
-Code under MIT (`LICENSE`). Data, derived files and reports under CC BY-NC-ND 4.0 (`LICENSE-DATA`). NHANES files are public domain.
+Code (`scripts/`, `generation/` and the `.py` files in `paper_brm/`) is under the MIT License (`LICENSE`). Data, derived files, reports and manuscript sources are under CC BY-NC-ND 4.0 (`LICENSE-DATA`). NHANES files are public domain.
+
+## Citation
+
+Keough, P. S. (2026). *A Validity Ladder for LLM-Simulated Populations* [Code, data and receipts]. https://github.com/pskeough/A-Validity-Ladder-for-LLM-Simulated-Populations
+
+`CITATION.cff` gives the same entry in machine-readable form.

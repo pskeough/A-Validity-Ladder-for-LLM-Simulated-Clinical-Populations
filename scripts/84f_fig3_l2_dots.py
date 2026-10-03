@@ -1,10 +1,10 @@
-"""Figure 3, level-2 gaps in the worked example and the three external datasets (3 Oct 2026,
-Patrick's option L). One dot per group gap, one row per dataset, with the kept count at the end.
+"""Figure 3, level-2 gaps in the worked example and the three external datasets.
+One dot per group gap, one row per dataset, with the kept count at the end.
 
 Verdict labels: paper_brm/external/results/l2_threeway_rows.csv (Bisbee full prompt, Argyle
 t0.7_main, OpinionQA all), collapsed to the four labels of l2_threeway_summary.csv; worked example
 from paper_brm/manuscript/figures/fig2_level2_data.csv (per-model rows). The rung-by-dataset
-coverage is Table 4 in 06_external.tex. Sketch history: figures/fig3_options/.
+coverage is Table 4 in 06_external.tex.
 Writes figures/fig3_l2_dots.pdf and .png, and the counts it drew to figures/fig3_l2_dots_data.csv."""
 import os
 

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "A Validity Ladder for LLM-Simulated Populations: Code, Data and Receipts"
+authors:
+  - family-names: Keough
+    given-names: Patrick S.
+type: software
+date-released: 2026-10-03
+repository-code: "https://github.com/pskeough/A-Validity-Ladder-for-LLM-Simulated-Populations"
+license: MIT
+keywords:
+  - silicon samples
+  - large language models
+  - validation
+  - psychometrics
+  - PHQ-8
+  - NHANES

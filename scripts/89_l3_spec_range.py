@@ -1,4 +1,4 @@
-"""Level 3 as a range over the declared reference specifications (review finding A-M4).
+"""Level 3 as a range over the declared reference specifications.
 
 Reads analysis/brm/80c_l3_results.csv (script 80c) and reports, per model and framing, the overall
 post-stratified residual (PS estimand, mean PHQ-8, full corpus) under each of the eight declared

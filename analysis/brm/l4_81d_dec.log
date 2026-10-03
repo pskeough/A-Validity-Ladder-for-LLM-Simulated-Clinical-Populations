@@ -12,7 +12,7 @@
 [   22s] DeepSeek-V3 narrative        Low vs High income     mult 2.64  null mult 2.55  above null True   xfit 1.958 [1.728, 2.168]
 [   24s] DeepSeek-V3 narrative        Middle vs High income  mult 1.64  null mult 1.58  above null True   xfit 1.288 [0.976, 1.573]
 [   26s] DeepSeek-V3 narrative        Low vs Middle income   mult 1.06  null mult 1.01  above null True   xfit 1.147 [0.787, 1.415]
-C:\Research\PsychBench\UpdatedRun\scripts\81d_l4_floor_null.py:106: RuntimeWarning: invalid value encountered in divide
+<repo>\scripts\81d_l4_floor_null.py:106: RuntimeWarning: invalid value encountered in divide
   return S / np.outer(d, d)
 [   28s] Gemini-3-Flash clinical      Women vs Men           mult 0.40  null mult 0.51  above null False  xfit 0.432 [-0.939, 1.359]
 [   30s] Gemini-3-Flash clinical      Black vs White         mult 0.19  null mult 0.28  above null False  xfit -0.637 [-1.089, 0.973]
@@ -21,7 +21,7 @@ C:\Research\PsychBench\UpdatedRun\scripts\81d_l4_floor_null.py:106: RuntimeWarni
 [   35s] Gemini-3-Flash clinical      Low vs High income     mult 1.00  null mult 1.07  above null False  xfit 0.711 [-0.183, 1.279]
 [   38s] Gemini-3-Flash clinical      Middle vs High income  mult 0.88  null mult 0.74  above null True   xfit 1.434 [0.655, 2.064]
 [   40s] Gemini-3-Flash clinical      Low vs Middle income   mult 0.64  null mult 0.58  above null True   xfit 1.577 [0.905, 2.297]
-C:\Research\PsychBench\UpdatedRun\scripts\81d_l4_floor_null.py:106: RuntimeWarning: invalid value encountered in divide
+<repo>\scripts\81d_l4_floor_null.py:106: RuntimeWarning: invalid value encountered in divide
   return S / np.outer(d, d)
 [   42s] Gemini-3-Flash narrative     Women vs Men           mult 0.33  null mult 0.36  above null False  xfit 0.405 [-1.267, 1.686]
 [   44s] Gemini-3-Flash narrative     Black vs White         mult 0.14  null mult 0.26  above null False  xfit -0.572 [-1.010, 1.117]
@@ -33,7 +33,7 @@ C:\Research\PsychBench\UpdatedRun\scripts\81d_l4_floor_null.py:106: RuntimeWarni
 [   56s] GLM-4.7 clinical             Women vs Men           mult 0.30  null mult 0.37  above null False  xfit 0.206 [-0.688, 1.494]
 [   58s] GLM-4.7 clinical             Black vs White         mult 0.26  null mult 0.33  above null False  xfit -0.410 [-0.667, 0.889]
 [   59s] GLM-4.7 clinical             Asian vs White         mult 0.21  null mult 0.32  above null False  xfit -0.329 [-0.820, 1.009]
-C:\Research\PsychBench\UpdatedRun\scripts\81d_l4_floor_null.py:106: RuntimeWarning: invalid value encountered in divide
+<repo>\scripts\81d_l4_floor_null.py:106: RuntimeWarning: invalid value encountered in divide
   return S / np.outer(d, d)
 [   61s] GLM-4.7 clinical             Hispanic vs White      mult 0.33  null mult 0.33  above null True   xfit 0.695 [-0.593, 2.029]
 [   63s] GLM-4.7 clinical             Low vs High income     mult 0.99  null mult 0.71  above null True   xfit 0.884 [0.506, 1.205]

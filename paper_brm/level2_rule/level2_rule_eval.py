@@ -36,7 +36,7 @@ import pandas as pd
 from scipy import stats
 
 HERE = Path(__file__).resolve().parent
-REPO = HERE.parents[1]                       # PsychBench/UpdatedRun
+REPO = HERE.parents[1]                       # repository root
 EXT = HERE.parent / "external" / "results"
 OUT = HERE / "results"
 OUT.mkdir(exist_ok=True)

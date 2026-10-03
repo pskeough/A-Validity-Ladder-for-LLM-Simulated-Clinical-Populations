@@ -11,7 +11,7 @@ Reads ONLY script-78 outputs:
       interval and code printed there must match the row drawn here.
 
 One row group per contrast; within it the four models (filled, colour + shape) and the pooled row
-(hollow, descriptive only: decision 14, DECISIONS_2026-09-26.md). Each interval is the Fieller set
+(hollow, descriptive only). Each interval is the Fieller set
 78c reports. Shaded bands are the R3 regions. Intervals running past the axis are clipped with an
 arrow and the bound printed. A row stopped as "reference too imprecise" shows its point as a hollow
 marker with "stopped" and no interval. A contrast stopped as "no population gap" has no defined

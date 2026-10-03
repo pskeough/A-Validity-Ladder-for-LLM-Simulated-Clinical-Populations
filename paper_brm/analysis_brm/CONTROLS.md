@@ -1,6 +1,6 @@
 # Positive control and planted failures (26 Sep 2026)
 
-Scripts: `scripts/83_controls_lib.py`, `83a_controls_receipt.py`, `83b_controls_simulate.py`, `83c_controls_summary.py`, `83d_l2_se_check.py`, `83e_l2_power.py`, `83f_l2_parametric_power.py`, `83g_l2_conditional_verdicts.py`. Outputs: `analysis/brm/83*`. Local CPU only, no API calls. Design: `plan/CONTROLS_AND_POWER_DESIGN_2026-09-26.md`. The file named in brackets prints each number below.
+Scripts: `scripts/83_controls_lib.py`, `83a_controls_receipt.py`, `83b_controls_simulate.py`, `83c_controls_summary.py`, `83d_l2_se_check.py`, `83e_l2_power.py`, `83f_l2_parametric_power.py`, `83g_l2_conditional_verdicts.py`. Outputs: `analysis/brm/83*`. Local CPU only, no API calls. The file named in brackets prints each number below.
 
 ## 1. What the controls show
 

@@ -1,4 +1,4 @@
-"""Figure 2, what each failure looks like in the worked example (3 Oct 2026, Patrick's option H).
+"""Figure 2, what each failure looks like in the worked example.
 
 One plain panel per rung that the four models fail or pass on:
   gate      draw standard deviation of a persona (one draw) and its standard error at 30 draws,
@@ -7,7 +7,7 @@ One plain panel per rung that the four models fail or pass on:
   levels 2-3 post-stratified mean PHQ-8 by income band, NHANES and each model;
   level 4   loadings of the eight items on one factor, NHANES and each model (narrative framing,
             where both Gemini-3-Flash and GLM-4.7 fail R2).
-Sketch history: paper_brm/manuscript/figures/fig2_options/. Writes figures/fig2_ladder_panels.pdf/.png."""
+Writes figures/fig2_ladder_panels.pdf/.png."""
 import os
 
 import matplotlib
